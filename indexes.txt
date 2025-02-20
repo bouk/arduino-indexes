@@ -17,6 +17,7 @@ https://engimusing.github.io/arduinoIDE/package_engimusing_modules_index.json
 https://files.pololu.com/arduino/package_pololu_index.json
 https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json
 https://github.com/Ameba8195/Arduino/raw/master/release/package_realtek.com_ameba_index.json
+https://github.com/CONTROLLINO-PLC/controllino_rp2/releases/download/global/package_controllino_rp2_index.json
 https://github.com/DFRobot/FireBeetle-ESP8266/raw/master/package_firebeetle8266_index.json
 https://github.com/Infineon/Assets/releases/download/current/package_infineon_index.json
 https://github.com/XMegaForArduino/IDE/raw/master/package_XMegaForArduino_index.json
