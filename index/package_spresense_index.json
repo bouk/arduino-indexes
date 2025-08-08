@@ -1336,6 +1336,41 @@
           ],
           "url": "https://github.com/sonydevworld/spresense-arduino-compatible/releases/download/v3.4.3/spresense-v3.4.3.tar.gz",
           "version": "3.4.3"
+        },
+        {
+          "architecture": "spresense",
+          "archiveFileName": "spresense-v3.4.4.tar.gz",
+          "boards": [
+            {
+              "name": "Generic Spresense Module"
+            }
+          ],
+          "category": "SPRESENSE",
+          "checksum": "SHA-256:07846e539eb4cfd3261e061c5cf77a60861daecde44b02f07505d8c6a29b918a",
+          "help": {
+            "online": "https://developer.sony.com/develop/spresense/developer-tools/get-started-using-arduino-ide/set-up-the-arduino-ide"
+          },
+          "name": "Spresense Reference Board",
+          "size": 972781,
+          "toolsDependencies": [
+            {
+              "name": "spresense-sdk",
+              "packager": "SPRESENSE",
+              "version": "3.4.4"
+            },
+            {
+              "name": "spresense-tools",
+              "packager": "SPRESENSE",
+              "version": "3.4.4"
+            },
+            {
+              "name": "gcc-arm-none-eabi",
+              "packager": "SPRESENSE",
+              "version": "9.2.1"
+            }
+          ],
+          "url": "https://github.com/sonydevworld/spresense-arduino-compatible/releases/download/v3.4.4/spresense-v3.4.4.tar.gz",
+          "version": "3.4.4"
         }
       ],
       "tools": [
@@ -2460,6 +2495,34 @@
           "version": "3.4.3"
         },
         {
+          "name": "spresense-sdk",
+          "systems": [
+            {
+              "archiveFileName": "spresense-sdk-v3.4.4.tar.gz",
+              "checksum": "SHA-256:bd3696bf109b878c2840759d35eb2bf90f112027c8501a808367f538ed0b40b0",
+              "host": "i686-mingw32",
+              "size": 27617602,
+              "url": "https://github.com/sonydevworld/spresense-arduino-compatible/releases/download/v3.4.4/spresense-sdk-v3.4.4.tar.gz"
+            },
+            {
+              "_comment": "Allow x64-Linux build",
+              "archiveFileName": "spresense-sdk-v3.4.4.tar.gz",
+              "checksum": "SHA-256:bd3696bf109b878c2840759d35eb2bf90f112027c8501a808367f538ed0b40b0",
+              "host": "x86_64-pc-linux-gnu",
+              "size": 27617602,
+              "url": "https://github.com/sonydevworld/spresense-arduino-compatible/releases/download/v3.4.4/spresense-sdk-v3.4.4.tar.gz"
+            },
+            {
+              "archiveFileName": "spresense-sdk-v3.4.4.tar.gz",
+              "checksum": "SHA-256:bd3696bf109b878c2840759d35eb2bf90f112027c8501a808367f538ed0b40b0",
+              "host": "i386-apple-darwin11",
+              "size": 27617602,
+              "url": "https://github.com/sonydevworld/spresense-arduino-compatible/releases/download/v3.4.4/spresense-sdk-v3.4.4.tar.gz"
+            }
+          ],
+          "version": "3.4.4"
+        },
+        {
           "name": "spresense-tools",
           "systems": [
             {
@@ -3522,6 +3585,34 @@
             }
           ],
           "version": "3.4.3"
+        },
+        {
+          "name": "spresense-tools",
+          "systems": [
+            {
+              "archiveFileName": "spresense-tools-v3.4.4.tar.gz",
+              "checksum": "SHA-256:39b9648d0b2a8aad125250b4eb17234d83d8d607ad1013b47edc36597395b25f",
+              "host": "i686-mingw32",
+              "size": 59774081,
+              "url": "https://github.com/sonydevworld/spresense-arduino-compatible/releases/download/v3.4.4/spresense-tools-v3.4.4.tar.gz"
+            },
+            {
+              "_comment": "Allow x64-Linux build",
+              "archiveFileName": "spresense-tools-v3.4.4.tar.gz",
+              "checksum": "SHA-256:39b9648d0b2a8aad125250b4eb17234d83d8d607ad1013b47edc36597395b25f",
+              "host": "x86_64-pc-linux-gnu",
+              "size": 59774081,
+              "url": "https://github.com/sonydevworld/spresense-arduino-compatible/releases/download/v3.4.4/spresense-tools-v3.4.4.tar.gz"
+            },
+            {
+              "archiveFileName": "spresense-tools-v3.4.4.tar.gz",
+              "checksum": "SHA-256:39b9648d0b2a8aad125250b4eb17234d83d8d607ad1013b47edc36597395b25f",
+              "host": "i386-apple-darwin11",
+              "size": 59774081,
+              "url": "https://github.com/sonydevworld/spresense-arduino-compatible/releases/download/v3.4.4/spresense-tools-v3.4.4.tar.gz"
+            }
+          ],
+          "version": "3.4.4"
         }
       ],
       "websiteURL": "https://github.com/sonydevworld/spresense-arduino-compatible/releases/"
