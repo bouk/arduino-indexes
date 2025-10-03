@@ -12,6 +12,469 @@
         {
           "category": "Raspberry Pi Pico",
           "name": "Raspberry Pi Pico/RP2040/RP2350",
+          "url": "https://github.com/earlephilhower/arduino-pico/releases/download/5.3.0/rp2040-5.3.0.zip",
+          "version": "5.3.0",
+          "architecture": "rp2040",
+          "archiveFileName": "rp2040-5.3.0.zip",
+          "boards": [
+            {
+              "name": "Raspberry Pi Pico"
+            },
+            {
+              "name": "Raspberry Pi Pico W"
+            },
+            {
+              "name": "Raspberry Pi Pico 2"
+            },
+            {
+              "name": "Raspberry Pi Pico 2W"
+            },
+            {
+              "name": "0xCB Helios"
+            },
+            {
+              "name": "Adafruit Feather RP2040"
+            },
+            {
+              "name": "Adafruit Feather RP2040 SCORPIO"
+            },
+            {
+              "name": "Adafruit Feather RP2040 DVI"
+            },
+            {
+              "name": "Adafruit Feather RP2040 Adalogger"
+            },
+            {
+              "name": "Adafruit Feather RP2040 RFM"
+            },
+            {
+              "name": "Adafruit Feather RP2040 ThinkINK"
+            },
+            {
+              "name": "Adafruit Feather RP2040 USB Host"
+            },
+            {
+              "name": "Adafruit Feather RP2040 CAN"
+            },
+            {
+              "name": "Adafruit Feather RP2040 Prop-Maker"
+            },
+            {
+              "name": "Adafruit ItsyBitsy RP2040"
+            },
+            {
+              "name": "Adafruit Metro RP2040"
+            },
+            {
+              "name": "Adafruit QT Py RP2040"
+            },
+            {
+              "name": "Adafruit STEMMA Friend RP2040"
+            },
+            {
+              "name": "Adafruit Trinkey RP2040 QT"
+            },
+            {
+              "name": "Adafruit MacroPad RP2040"
+            },
+            {
+              "name": "Adafruit KB2040"
+            },
+            {
+              "name": "Adafruit Feather RP2350 Adalogger"
+            },
+            {
+              "name": "Adafruit Feather RP2350 HSTX"
+            },
+            {
+              "name": "Adafruit Floppsy"
+            },
+            {
+              "name": "Adafruit Metro RP2350"
+            },
+            {
+              "name": "Adafruit Fruit Jam RP2350"
+            },
+            {
+              "name": "Amken BunnyBoard"
+            },
+            {
+              "name": "Amken Revelop"
+            },
+            {
+              "name": "Amken Revelop Plus"
+            },
+            {
+              "name": "Amken Revelop eS"
+            },
+            {
+              "name": "Architeuthis Flux Jumperless"
+            },
+            {
+              "name": "Architeuthis Flux Jumperless V5"
+            },
+            {
+              "name": "Arduino Nano RP2040 Connect"
+            },
+            {
+              "name": "ArtronShop RP2 Nano"
+            },
+            {
+              "name": "BIGTREETECH SKR-Pico"
+            },
+            {
+              "name": "Breadstick Raspberry"
+            },
+            {
+              "name": "BridgeTek IDM2040-7A"
+            },
+            {
+              "name": "BridgeTek IDM2040-43A"
+            },
+            {
+              "name": "Cytron IRIV IO Controller"
+            },
+            {
+              "name": "Cytron Maker Nano RP2040"
+            },
+            {
+              "name": "Cytron Maker Pi RP2040"
+            },
+            {
+              "name": "Cytron Maker Uno RP2040"
+            },
+            {
+              "name": "Cytron Motion 2350 Pro"
+            },
+            {
+              "name": "DatanoiseTV PicoADK"
+            },
+            {
+              "name": "DatanoiseTV PicoADK v2"
+            },
+            {
+              "name": "Degz Robotics Suibo RP2040"
+            },
+            {
+              "name": "DeRuiLab FlyBoard2040Core"
+            },
+            {
+              "name": "DFRobot Beetle RP2040"
+            },
+            {
+              "name": "L'atelier d'Arnoz DudesCab"
+            },
+            {
+              "name": "ElectronicCats HunterCat NFC RP2040"
+            },
+            {
+              "name": "EVN Alpha"
+            },
+            {
+              "name": "ExtremeElectronics RC2040"
+            },
+            {
+              "name": "GeeekPi RP2040 Plus"
+            },
+            {
+              "name": "GroundStudio Marble Pico"
+            },
+            {
+              "name": "iLabs Challenger 2040 LTE"
+            },
+            {
+              "name": "iLabs Challenger 2040 LoRa"
+            },
+            {
+              "name": "iLabs Challenger 2040 SubGHz"
+            },
+            {
+              "name": "iLabs Challenger 2040 WiFi"
+            },
+            {
+              "name": "iLabs Challenger 2040 WiFi/BLE"
+            },
+            {
+              "name": "iLabs Challenger 2040 WiFi6/BLE"
+            },
+            {
+              "name": "iLabs Challenger NB 2040 WiFi"
+            },
+            {
+              "name": "iLabs Challenger 2040 SD/RTC"
+            },
+            {
+              "name": "iLabs Challenger 2040 NFC"
+            },
+            {
+              "name": "iLabs Challenger 2040 UWB"
+            },
+            {
+              "name": "iLabs Connectivity 2040 LTE/WiFi/BLE"
+            },
+            {
+              "name": "iLabs RPICO32"
+            },
+            {
+              "name": "iLabs Challenger 2350 WiFi/BLE"
+            },
+            {
+              "name": "iLabs Challenger 2350 BConnect"
+            },
+            {
+              "name": "Makerbase MKS THR36"
+            },
+            {
+              "name": "Makerbase MKS THR42"
+            },
+            {
+              "name": "Melopero Cookie RP2040"
+            },
+            {
+              "name": "Melopero Shake RP2040"
+            },
+            {
+              "name": "METE HOCA Akana R1"
+            },
+            {
+              "name": "MyMakers RP2040"
+            },
+            {
+              "name": "MyMakers RP2350B"
+            },
+            {
+              "name": "Neko Systems BL2040 Mini"
+            },
+            {
+              "name": "Newsan Archi"
+            },
+            {
+              "name": "nullbits Bit-C PRO"
+            },
+            {
+              "name": "Olimex Pico2XL"
+            },
+            {
+              "name": "Olimex Pico2XXL"
+            },
+            {
+              "name": "Olimex RP2040-Pico30"
+            },
+            {
+              "name": "Pimoroni PGA2040"
+            },
+            {
+              "name": "Pimoroni PGA2350"
+            },
+            {
+              "name": "Pimoroni PicoPlus2"
+            },
+            {
+              "name": "Pimoroni PicoPlus2W"
+            },
+            {
+              "name": "Pimoroni Plasma2040"
+            },
+            {
+              "name": "Pimoroni Plasma2350"
+            },
+            {
+              "name": "Pimoroni Servo2040"
+            },
+            {
+              "name": "Pimoroni Tiny2040"
+            },
+            {
+              "name": "Pimoroni Tiny2350"
+            },
+            {
+              "name": "Pimoroni Explorer"
+            },
+            {
+              "name": "Pintronix PinMax"
+            },
+            {
+              "name": "RAKwireless RAK11300"
+            },
+            {
+              "name": "redscorp RP2040-Eins"
+            },
+            {
+              "name": "redscorp RP2040-ProMini"
+            },
+            {
+              "name": "Generic Sea-Picro"
+            },
+            {
+              "name": "Silicognition RP2040-Shim"
+            },
+            {
+              "name": "Solder Party RP2040 Stamp"
+            },
+            {
+              "name": "Solder Party RP2350 Stamp"
+            },
+            {
+              "name": "Solder Party RP2350 Stamp XL"
+            },
+            {
+              "name": "Soldered Electronics NULA RP2350"
+            },
+            {
+              "name": "SparkFun IoT RedBoard RP2350"
+            },
+            {
+              "name": "SparkFun MicroMod RP2040"
+            },
+            {
+              "name": "SparkFun ProMicro RP2040"
+            },
+            {
+              "name": "SparkFun ProMicro RP2350"
+            },
+            {
+              "name": "SparkFun Thing Plus RP2040"
+            },
+            {
+              "name": "SparkFun Thing Plus RP2350"
+            },
+            {
+              "name": "SparkFun IoT Node LoRaWAN"
+            },
+            {
+              "name": "SparkFun XRP Controller (Beta)"
+            },
+            {
+              "name": "SparkFun XRP Controller"
+            },
+            {
+              "name": "Seeed INDICATOR RP2040"
+            },
+            {
+              "name": "Seeed XIAO RP2040"
+            },
+            {
+              "name": "Seeed XIAO RP2350"
+            },
+            {
+              "name": "uPesy RP2040 DevKit"
+            },
+            {
+              "name": "VCC-GND YD RP2040"
+            },
+            {
+              "name": "Viyalab Mizu RP2040"
+            },
+            {
+              "name": "Waveshare RP2040 Zero"
+            },
+            {
+              "name": "Waveshare RP2040 One"
+            },
+            {
+              "name": "Waveshare RP2040 Matrix"
+            },
+            {
+              "name": "Waveshare RP2040 PiZero"
+            },
+            {
+              "name": "Waveshare RP2040 Plus"
+            },
+            {
+              "name": "Waveshare RP2040 LCD 0.96"
+            },
+            {
+              "name": "Waveshare RP2040 LCD 1.28"
+            },
+            {
+              "name": "Waveshare RP2350 Zero"
+            },
+            {
+              "name": "Waveshare RP2350 PiZero"
+            },
+            {
+              "name": "Waveshare RP2350 Plus"
+            },
+            {
+              "name": "Waveshare RP2350 LCD 0.96"
+            },
+            {
+              "name": "WIZnet W5100S-EVB-Pico"
+            },
+            {
+              "name": "WIZnet W5100S-EVB-Pico2"
+            },
+            {
+              "name": "WIZnet WizFi360-EVB-Pico"
+            },
+            {
+              "name": "WIZnet W5500-EVB-Pico"
+            },
+            {
+              "name": "WIZnet W5500-EVB-Pico2"
+            },
+            {
+              "name": "WIZnet W55RP20-EVB-Pico"
+            },
+            {
+              "name": "WIZnet W6300-EVB-Pico"
+            },
+            {
+              "name": "WIZnet W6300-EVB-Pico2"
+            },
+            {
+              "name": "Generic RP2040"
+            },
+            {
+              "name": "Generic RP2350"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "rp2040",
+              "version": "4.1.0-1aec55e",
+              "name": "pqt-gcc"
+            },
+            {
+              "packager": "rp2040",
+              "version": "4.1.0-1aec55e",
+              "name": "pqt-gcc-riscv"
+            },
+            {
+              "packager": "rp2040",
+              "version": "4.1.0-1aec55e",
+              "name": "pqt-mklittlefs"
+            },
+            {
+              "packager": "rp2040",
+              "version": "4.1.0-1aec55e",
+              "name": "pqt-pioasm"
+            },
+            {
+              "packager": "rp2040",
+              "version": "1.0.1-base-3a57aed-1",
+              "name": "pqt-python3"
+            },
+            {
+              "packager": "rp2040",
+              "version": "4.1.0-1aec55e",
+              "name": "pqt-openocd"
+            },
+            {
+              "packager": "rp2040",
+              "version": "4.1.0-1aec55e",
+              "name": "pqt-picotool"
+            }
+          ],
+          "help": {
+            "online": ""
+          },
+          "size": "110010541",
+          "checksum": "SHA-256:df88ce1a905f0991ed3662065200b369156618f937c9081c2b457598f57eb1d5"
+        },
+        {
+          "category": "Raspberry Pi Pico",
+          "name": "Raspberry Pi Pico/RP2040/RP2350",
           "url": "https://github.com/earlephilhower/arduino-pico/releases/download/5.2.1/rp2040-5.2.1.zip",
           "version": "5.2.1",
           "architecture": "rp2040",
