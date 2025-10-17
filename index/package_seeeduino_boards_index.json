@@ -1404,7 +1404,54 @@
                         }
                     ]
                 },
-				{
+                {
+                    "name": "Seeed nRF52 Boards",
+                    "architecture": "nrf52",
+                    "version": "1.1.11",
+                    "category": "Contributed",
+                    "url": "https://files.seeedstudio.com/arduino/core/nRF52/Seeed_nRF52_Boards-1.1.11.tar.bz2",
+                    "archiveFileName": "Seeed_nRF52_Boards-1.1.11.tar.bz2",
+                    "checksum": "SHA-256:5a4b8b2a129c360fa18c3eda1b85cfca9d4f3fd03b0f7dabb43137debecb1a66",
+                    "size": "24303597",
+                    "boards": [
+                        {
+                            "name": "Seeed XIAO nRF52840 Sense"
+                        },
+                        {
+                            "name": "Seeed XIAO nRF52840"
+                        },
+                        {
+                            "name": "Seeed Wio Tracker 1110"
+                        },
+                        {
+                            "name": "Seeed XIAO nRF52840 Sense Plus"
+                        },
+                        {
+                            "name": "Seeed XIAO nRF52840 Plus"
+                        },
+                        {
+                            "name": "Seeed T1000 E tracker"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "Seeeduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "9-2019q4"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "name": "nrfjprog",
+                            "version": "9.4.0"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "name": "CMSIS",
+                            "version": "5.7.0"
+                        }
+                    ]
+                },
+                {
                     "name": "Seeed nRF52 Boards",
                     "architecture": "nrf52",
                     "version": "1.1.10",
