@@ -23267,6 +23267,97 @@
         {
           "name": "esp32",
           "architecture": "esp32",
+          "version": "3.3.3",
+          "category": "ESP32",
+          "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.3/esp32-3.3.3.zip",
+          "archiveFileName": "esp32-3.3.3.zip",
+          "checksum": "SHA-256:6402c2ec7b1f764305fa2904a9b7671fee830f9e63e22c510cad01f7e4c70967",
+          "size": "27267656",
+          "help": {
+            "online": ""
+          },
+          "boards": [
+            {
+              "name": "ESP32 Dev Board"
+            },
+            {
+              "name": "ESP32-C3 Dev Board"
+            },
+            {
+              "name": "ESP32-C6 Dev Board"
+            },
+            {
+              "name": "ESP32-H2 Dev Board"
+            },
+            {
+              "name": "ESP32-P4 Dev Board"
+            },
+            {
+              "name": "ESP32-S2 Dev Board"
+            },
+            {
+              "name": "ESP32-S3 Dev Board"
+            },
+            {
+              "name": "Arduino Nano ESP32"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp-rv32",
+              "version": "2507"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp-x32",
+              "version": "2507"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp32-arduino-libs",
+              "version": "idf-release_v5.5-f1a1df9b-v3"
+            },
+            {
+              "packager": "esp32",
+              "name": "esptool_py",
+              "version": "5.1.0"
+            },
+            {
+              "packager": "esp32",
+              "name": "mklittlefs",
+              "version": "4.0.2-db0513a"
+            },
+            {
+              "packager": "esp32",
+              "name": "mkspiffs",
+              "version": "0.2.3"
+            },
+            {
+              "packager": "esp32",
+              "name": "openocd-esp32",
+              "version": "v0.12.0-esp32-20250707"
+            },
+            {
+              "packager": "esp32",
+              "name": "riscv32-esp-elf-gdb",
+              "version": "16.3_20250913"
+            },
+            {
+              "packager": "esp32",
+              "name": "xtensa-esp-elf-gdb",
+              "version": "16.3_20250913"
+            }
+          ]
+        },
+        {
+          "name": "esp32",
+          "architecture": "esp32",
           "version": "3.3.2",
           "category": "ESP32",
           "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.2/esp32-3.3.2.zip",
@@ -27156,6 +27247,68 @@
               "archiveFileName": "esp32-arduino-libs-idf-release_v5.5-07e9bf49-v1.zip",
               "checksum": "SHA-256:e5ae9e62d781df941128a526e653bb82decde844604b5ccee62efd12c6b2eaa6",
               "size": "448900656"
+            }
+          ]
+        },
+        {
+          "name": "esp32-arduino-libs",
+          "version": "idf-release_v5.5-f1a1df9b-v3",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.3/esp32-3.3.3-libs.zip",
+              "archiveFileName": "esp32-3.3.3-libs.zip",
+              "checksum": "SHA-256:35c0cc87b1965d0e70d599472dc6640e0363b05340488e73ccb7481d349906f3",
+              "size": "451353300"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.3/esp32-3.3.3-libs.zip",
+              "archiveFileName": "esp32-3.3.3-libs.zip",
+              "checksum": "SHA-256:35c0cc87b1965d0e70d599472dc6640e0363b05340488e73ccb7481d349906f3",
+              "size": "451353300"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.3/esp32-3.3.3-libs.zip",
+              "archiveFileName": "esp32-3.3.3-libs.zip",
+              "checksum": "SHA-256:35c0cc87b1965d0e70d599472dc6640e0363b05340488e73ccb7481d349906f3",
+              "size": "451353300"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.3/esp32-3.3.3-libs.zip",
+              "archiveFileName": "esp32-3.3.3-libs.zip",
+              "checksum": "SHA-256:35c0cc87b1965d0e70d599472dc6640e0363b05340488e73ccb7481d349906f3",
+              "size": "451353300"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.3/esp32-3.3.3-libs.zip",
+              "archiveFileName": "esp32-3.3.3-libs.zip",
+              "checksum": "SHA-256:35c0cc87b1965d0e70d599472dc6640e0363b05340488e73ccb7481d349906f3",
+              "size": "451353300"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.3/esp32-3.3.3-libs.zip",
+              "archiveFileName": "esp32-3.3.3-libs.zip",
+              "checksum": "SHA-256:35c0cc87b1965d0e70d599472dc6640e0363b05340488e73ccb7481d349906f3",
+              "size": "451353300"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.3/esp32-3.3.3-libs.zip",
+              "archiveFileName": "esp32-3.3.3-libs.zip",
+              "checksum": "SHA-256:35c0cc87b1965d0e70d599472dc6640e0363b05340488e73ccb7481d349906f3",
+              "size": "451353300"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.3/esp32-3.3.3-libs.zip",
+              "archiveFileName": "esp32-3.3.3-libs.zip",
+              "checksum": "SHA-256:35c0cc87b1965d0e70d599472dc6640e0363b05340488e73ccb7481d349906f3",
+              "size": "451353300"
             }
           ]
         },
@@ -32280,12 +32433,72 @@
     {
       "name": "renesas",
       "maintainer": "Renesas Electronics Corporation",
-      "websiteURL": "https://github.com/renesas/Arduino",
+      "websiteURL": "https://github.com/renesas/Arduino/wiki",
       "email": "Middle_support@lm.renesas.com",
       "help": {
         "online": ""
       },
       "platforms": [
+        {
+          "name": "FPB-RL78L23",
+          "architecture": "rl78l23_fpb",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/renesas/ArduinoCore-rl78l23_fpb/releases/download/rl78-1.0.0/core-ArduinoCore-rl78l23-fpb-1.0.0.zip",
+          "archiveFileName": "core-ArduinoCore-rl78l23-fpb-1.0.0.zip",
+          "checksum": "SHA-256:3c06733b33a4a1c6c47fe35017dc2983a4484ab25a26cb11ae267fb8b56fd13e",
+          "size": "1998412",
+          "help": {
+            "online": "https://github.com/renesas/Arduino/wiki"
+          },
+          "boards": [
+            {
+              "name": "FPB-RL78L23"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "renesas",
+              "name": "llvm-rl78",
+              "version": "17.0.1.202412"
+            },
+            {
+              "packager": "renesas",
+              "name": "rl78",
+              "version": "1.0.0-l2x"
+            }
+          ]
+        },
+        {
+          "name": "RL78/G16 Fast Prototyping Board",
+          "architecture": "rl78g16_fpb",
+          "version": "1.2.0",
+          "category": "Contributed",
+          "url": "https://github.com/renesas/ArduinoCore-rl78g16_fpb/releases/download/rl78-1.2.0/core-ArduinoCore-rl78g16-fpb-1.2.0.zip",
+          "archiveFileName": "core-ArduinoCore-rl78g16-fpb-1.2.0.zip",
+          "checksum": "SHA-256:26bb59831b1942d09ec1cb69b6454133c38a8bd39ab94adaae46a0bdb59d1e14",
+          "size": "1943890",
+          "help": {
+            "online": "https://github.com/renesas/Arduino/wiki"
+          },
+          "boards": [
+            {
+              "name": "RL78/G16 Fast Prototyping Board"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "renesas",
+              "name": "llvm-rl78",
+              "version": "17.0.1.202409"
+            },
+            {
+              "packager": "renesas",
+              "name": "rl78",
+              "version": "1.1.0-g1x"
+            }
+          ]
+        },
         {
           "name": "RL78/G22 Fast Prototyping Board",
           "architecture": "rl78g22_fpb",
@@ -32343,6 +32556,36 @@
               "packager": "renesas",
               "name": "rl78",
               "version": "1.1.1"
+            }
+          ]
+        },
+        {
+          "name": "RL78/G23-128p Fast Prototyping Board",
+          "architecture": "rl78g23_fpb_p128",
+          "version": "1.2.0",
+          "category": "Contributed",
+          "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_128p/releases/download/rl78-1.2.0/core-ArduinoCore-rl78g23-fpb-p128-1.2.0.zip",
+          "archiveFileName": "core-ArduinoCore-rl78g23-fpb-p128-1.2.0.zip",
+          "checksum": "SHA-256:68c70a2145848151a611cf9b8aed49f89fb918c3738b0bc4bdc8546102cb9647",
+          "size": "4640425",
+          "help": {
+            "online": "https://github.com/renesas/Arduino/wiki"
+          },
+          "boards": [
+            {
+              "name": "RL78/G23-128p Fast Prototyping Board"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "renesas",
+              "name": "llvm-rl78",
+              "version": "17.0.1.202409"
+            },
+            {
+              "packager": "renesas",
+              "name": "rl78",
+              "version": "1.2.1-g2x"
             }
           ]
         },
@@ -32410,6 +32653,36 @@
               "version": "1.1.1"
             }
           ]
+        },
+        {
+          "name": "RL78/G24 Fast Prototyping Board",
+          "architecture": "rl78g24_fpb",
+          "version": "1.2.0",
+          "category": "Contributed",
+          "url": "https://github.com/renesas/ArduinoCore-rl78g24_fpb/releases/download/rl78-1.2.0/core-ArduinoCore-rl78g24-fpb-1.2.0.zip",
+          "archiveFileName": "core-ArduinoCore-rl78g24-fpb-1.2.0.zip",
+          "checksum": "SHA-256:1f8050bf04ad804495d84dd569488a996db23ddecf2b0d1e6b08085e6a56bf2b",
+          "size": "4632100",
+          "help": {
+            "online": "https://github.com/renesas/Arduino/wiki"
+          },
+          "boards": [
+            {
+              "name": "RL78/G24 Fast Prototyping Board"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "renesas",
+              "name": "llvm-rl78",
+              "version": "17.0.1.202409"
+            },
+            {
+              "packager": "renesas",
+              "name": "rl78",
+              "version": "1.2.1-g2x"
+            }
+          ]
         }
       ],
       "tools": [
@@ -32464,6 +32737,60 @@
               "archiveFileName": "llvm-17.0.1.202506-rl78-elf.tar.gz",
               "checksum": "SHA-256:617123b190feb240718abf0bcbac94c3b3f0704070b1c11e8c32de9ac45db67d",
               "size": "440355358"
+            }
+          ]
+        },
+        {
+          "name": "llvm-rl78",
+          "version": "17.0.1.202412",
+          "systems": [
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202412/llvm-17.0.1.202412-rl78-elf_macOS.tar.gz",
+              "archiveFileName": "llvm-17.0.1.202412-rl78-elf_macOS.tar.gz",
+              "checksum": "SHA-256:af98642283492995e6b43cd10d4f7ee386c85b2488beff98b463529b9cbb93be",
+              "size": "495443845"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202412/llvm-17.0.1.202412-rl78-elf.zip",
+              "archiveFileName": "llvm-17.0.1.202412-rl78-elf.zip",
+              "checksum": "SHA-256:4f0789a36a903380c8d6de5e00a87a698bfc7583e4cc7e33530babfe6d3faea8",
+              "size": "472980511"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202412/llvm-17.0.1.202412-rl78-elf.tar.gz",
+              "archiveFileName": "llvm-17.0.1.202412-rl78-elf.tar.gz",
+              "checksum": "SHA-256:cc3d11632c795f9cc423eb554c7c0462196defae584fcad9cb8d377319eb538e",
+              "size": "416760171"
+            }
+          ]
+        },
+        {
+          "name": "llvm-rl78",
+          "version": "17.0.1.202409",
+          "systems": [
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202409/llvm-17.0.1.202409-rl78-elf_macOS.tar.gz",
+              "archiveFileName": "llvm-17.0.1.202409-rl78-elf_macOS.tar.gz",
+              "checksum": "SHA-256:1b1fe52ede7a3194437291bfe567e21b317b6effb91c5ab04e67cec49b4758c9",
+              "size": "490209437"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202409/llvm-17.0.1.202409-rl78-elf.zip",
+              "archiveFileName": "llvm-17.0.1.202409-rl78-elf.zip",
+              "checksum": "SHA-256:4a6b9d44cd34918d23ab41f5fee9b32c7fd589bfe909ca8a2c74cac23724519e",
+              "size": "513293309"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202409/llvm-17.0.1.202409-rl78-elf.tar.gz",
+              "archiveFileName": "llvm-17.0.1.202409-rl78-elf.tar.gz",
+              "checksum": "SHA-256:71c19d2a5ac8ecbddfcc939231b7de890de3083b63f2b6f04c010c53e0b2bd3e",
+              "size": "411256410"
             }
           ]
         },
@@ -32544,6 +32871,60 @@
               "archiveFileName": "x86_64-linux-gnu-tool-rl78g2x-1.0.1.tar.gz",
               "checksum": "SHA-256:aee9025e3149340a545c5e1815b4df2c8a022ab5e389f3421bde6e6886f122ef",
               "size": "138937"
+            }
+          ]
+        },
+        {
+          "name": "rl78",
+          "version": "1.1.0-g1x",
+          "systems": [
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g16_fpb/releases/download/rl78-1.2.0/arm64-apple-darwin-tool-rl78g1x-1.0.1.zip",
+              "archiveFileName": "arm64-apple-darwin-tool-rl78g1x-1.0.1.zip",
+              "checksum": "SHA-256:aab24149f65a8fe9df35216916338c267ab886fbd0bc4f518401da6e5a2584eb",
+              "size": "49000"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g16_fpb/releases/download/rl78-1.2.0/win32-tool-rl78g1x-1.1.0.zip",
+              "archiveFileName": "win32-tool-rl78g1x-1.1.0.zip",
+              "checksum": "SHA-256:8818a398fc910fb15413d2b9de4ca30d2cad7dbaf58cbdb95a5e94ba2cd1bf6b",
+              "size": "191192"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g16_fpb/releases/download/rl78-1.2.0/x86_64-linux-gnu-tool-rl78g1x-1.0.1.tar.gz",
+              "archiveFileName": "x86_64-linux-gnu-tool-rl78g1x-1.0.1.tar.gz",
+              "checksum": "SHA-256:ca668b003397539d9d12f757144178026195575eed8f5c9d7eb7b92af2c43328",
+              "size": "127620"
+            }
+          ]
+        },
+        {
+          "name": "rl78",
+          "version": "1.0.0-l2x",
+          "systems": [
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/renesas/ArduinoCore-rl78l23_fpb/releases/download/rl78-1.0.0/arm64-apple-darwin-tool-rl78l2x-1.0.0.zip",
+              "archiveFileName": "arm64-apple-darwin-tool-rl78l2x-1.0.0.zip",
+              "checksum": "SHA-256:f8f78011395c27ed4a6906037b59df69665eecc932a5cf36c3bdf531e38efefc",
+              "size": "48030"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/renesas/ArduinoCore-rl78l23_fpb/releases/download/rl78-1.0.0/win32-tool-rl78l2x-1.0.0.zip",
+              "archiveFileName": "win32-tool-rl78l2x-1.0.0.zip",
+              "checksum": "SHA-256:8c5b355fd6ac173a5029a46c0f9246944ed8c47557d22fc6c961715cd518b71b",
+              "size": "186606"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/renesas/ArduinoCore-rl78l23_fpb/releases/download/rl78-1.0.0/x86_64-linux-gnu-tool-rl78l2x-1.0.0.tar.gz",
+              "archiveFileName": "x86_64-linux-gnu-tool-rl78l2x-1.0.0.tar.gz",
+              "checksum": "SHA-256:482673e3c411b81b7bf8fc1adf8acb2c51f1dec0f6ecd201aaa0f4bcd327cdd1",
+              "size": "135805"
             }
           ]
         }
