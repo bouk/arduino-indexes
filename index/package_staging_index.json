@@ -22302,7 +22302,62 @@
           ]
         },
         {
-          "name": "Arduino Uno Q board",
+          "name": "Arduino UNO Q Board",
+          "architecture": "zephyr",
+          "version": "0.52.0",
+          "category": "Arduino",
+          "url": "https://downloads.arduino.cc/cores/zephyr/ArduinoCore-zephyr_unoq-93ad66d.tar.bz2",
+          "archiveFileName": "ArduinoCore-zephyr_unoq-93ad66d.tar.bz2",
+          "checksum": "SHA-256:99d8bdcd5cce33b212e968d55fa8b89953c0b189ce4999d48adbe698a5df16fe",
+          "size": "6635898",
+          "help": {
+            "online": "https://www.arduino.cc/en/Reference/HomePage"
+          },
+          "boards": [
+            {
+              "name": "Arduino UNO Q"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "adb",
+              "version": "32.0.0"
+            },
+            {
+              "packager": "zephyr",
+              "name": "arm-zephyr-eabi",
+              "version": "0.16.8"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "remoteocd",
+              "version": "0.0.4-rc.4"
+            },
+            {
+              "packager": "arduino",
+              "name": "sync-zephyr-artifacts",
+              "version": "0.1.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "zephyr-sketch-tool",
+              "version": "0.2.0"
+            }
+          ]
+        },
+        {
+          "name": "Arduino UNO Q Board",
           "architecture": "zephyr",
           "version": "0.51.0",
           "category": "Arduino",
@@ -23198,6 +23253,76 @@
         {
           "name": "Arduino Zephyr Boards (BETA)",
           "architecture": "zephyr_main",
+          "version": "0.52.0",
+          "category": "Arduino",
+          "url": "https://downloads.arduino.cc/cores/zephyr/ArduinoCore-zephyr_main-93ad66d.tar.bz2",
+          "archiveFileName": "ArduinoCore-zephyr_main-93ad66d.tar.bz2",
+          "checksum": "SHA-256:9e2f9be771944649a0a6b878b089336202b636a593ffdceb9d08dd1b6c539cb1",
+          "size": "60794405",
+          "help": {
+            "online": "https://www.arduino.cc/en/Reference/HomePage"
+          },
+          "boards": [
+            {
+              "name": "Arduino Giga R1"
+            },
+            {
+              "name": "Arduino Nano 33 BLE"
+            },
+            {
+              "name": "Arduino Nicla Sense ME"
+            },
+            {
+              "name": "Arduino Opta"
+            },
+            {
+              "name": "Arduino Portenta C33"
+            },
+            {
+              "name": "Arduino Portenta H7"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "adb",
+              "version": "32.0.0"
+            },
+            {
+              "packager": "zephyr",
+              "name": "arm-zephyr-eabi",
+              "version": "0.16.8"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "remoteocd",
+              "version": "0.0.4-rc.4"
+            },
+            {
+              "packager": "arduino",
+              "name": "sync-zephyr-artifacts",
+              "version": "0.1.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "zephyr-sketch-tool",
+              "version": "0.2.0"
+            }
+          ]
+        },
+        {
+          "name": "Arduino Zephyr Boards (BETA)",
+          "architecture": "zephyr_main",
           "version": "0.51.0",
           "category": "Arduino",
           "url": "https://downloads.arduino.cc/cores/zephyr/ArduinoCore-zephyr_main-cbf7e44.tar.bz2",
@@ -23266,7 +23391,68 @@
           ]
         },
         {
-          "name": "Zephyr community boards (BETA)",
+          "name": "Zephyr Community Boards (BETA)",
+          "architecture": "zephyr_contrib",
+          "version": "0.52.0",
+          "category": "Contributed",
+          "url": "https://downloads.arduino.cc/cores/zephyr/ArduinoCore-zephyr_contrib-93ad66d.tar.bz2",
+          "archiveFileName": "ArduinoCore-zephyr_contrib-93ad66d.tar.bz2",
+          "checksum": "SHA-256:65a61d4f634ed313e6aaf30bffcfd3045dc13cdaae8eccd8518fa6eb0d899a74",
+          "size": "21902803",
+          "help": {
+            "online": "https://www.arduino.cc/en/Reference/HomePage"
+          },
+          "boards": [
+            {
+              "name": "NXP FRDM MCXN947"
+            },
+            {
+              "name": "NXP FRDM RW612"
+            },
+            {
+              "name": "Renesas RA8D1 EK"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "adb",
+              "version": "32.0.0"
+            },
+            {
+              "packager": "zephyr",
+              "name": "arm-zephyr-eabi",
+              "version": "0.16.8"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "remoteocd",
+              "version": "0.0.4-rc.4"
+            },
+            {
+              "packager": "arduino",
+              "name": "sync-zephyr-artifacts",
+              "version": "0.1.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "zephyr-sketch-tool",
+              "version": "0.2.0"
+            }
+          ]
+        },
+        {
+          "name": "Zephyr Community Boards (BETA)",
           "architecture": "zephyr_contrib",
           "version": "0.51.0",
           "category": "Contributed",
@@ -30775,6 +30961,40 @@
               "archiveFileName": "drivers-arduino-windows-1.6.9.zip",
               "checksum": "SHA-256:10d456ab18d164d42545255db8bef4ac9e1bf660cc89acb7a0980b5a486654ac",
               "size": "7071714"
+            }
+          ]
+        },
+        {
+          "name": "zephyr-sketch-tool",
+          "version": "0.2.0",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://downloads.arduino.cc/tools/zephyr-sketch-tool-0.2.0-aarch64-linux-gnu.tar.gz",
+              "archiveFileName": "zephyr-sketch-tool-0.2.0-aarch64-linux-gnu.tar.gz",
+              "checksum": "SHA-256:6dc80fe1aff108eb9a72622ba762bc7eeb108018e1a82089fc786d1a9ed32397",
+              "size": "1420234"
+            },
+            {
+              "host": "i386-apple-darwin11",
+              "url": "https://downloads.arduino.cc/tools/zephyr-sketch-tool-0.2.0-i386-apple-darwin11.tar.gz",
+              "archiveFileName": "zephyr-sketch-tool-0.2.0-i386-apple-darwin11.tar.gz",
+              "checksum": "SHA-256:a842b0c0ffe9966310bf42542d6de1ceb993424a9c9b0d22d8119c9a293ccd31",
+              "size": "1557010"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://downloads.arduino.cc/tools/zephyr-sketch-tool-0.2.0-i686-mingw32.zip",
+              "archiveFileName": "zephyr-sketch-tool-0.2.0-i686-mingw32.zip",
+              "checksum": "SHA-256:9337ae95e2b344a5ec6c51db3fa294780cd83975be62494a2f0ca8614246bd86",
+              "size": "1510937"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://downloads.arduino.cc/tools/zephyr-sketch-tool-0.2.0-x86_64-linux-gnu.tar.gz",
+              "archiveFileName": "zephyr-sketch-tool-0.2.0-x86_64-linux-gnu.tar.gz",
+              "checksum": "SHA-256:e2b3e89b8412ffc54d535af55793d62f24833483ee15996e9070d633435192db",
+              "size": "1517305"
             }
           ]
         },

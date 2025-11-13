@@ -15331,7 +15331,7 @@
           ]
         },
         {
-          "name": "Arduino Uno Q board",
+          "name": "Arduino UNO Q Board",
           "architecture": "zephyr",
           "version": "0.51.0",
           "category": "Arduino",
@@ -16099,7 +16099,7 @@
           ]
         },
         {
-          "name": "Zephyr community boards (BETA)",
+          "name": "Zephyr Community Boards (BETA)",
           "architecture": "zephyr_contrib",
           "version": "0.51.0",
           "category": "Contributed",
