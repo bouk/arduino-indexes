@@ -11863,6 +11863,52 @@
         {
           "name": "Arduino Renesas Portenta Boards",
           "architecture": "renesas_portenta",
+          "version": "1.5.2",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-renesas_portenta-1.5.2.tar.bz2",
+          "archiveFileName": "ArduinoCore-renesas_portenta-1.5.2.tar.bz2",
+          "checksum": "SHA-256:7118f82c2230a90d3ba377fb58ae8feeee75a18ec7885c93a3f713309c10fa9b",
+          "size": "9874964",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino Portenta C33"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "dfu-discovery"
+            }
+          ]
+        },
+        {
+          "name": "Arduino Renesas Portenta Boards",
+          "architecture": "renesas_portenta",
           "version": "1.5.1",
           "category": "Arduino",
           "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-renesas_portenta-1.5.1.tar.bz2",
@@ -15437,6 +15483,58 @@
               "packager": "arduino",
               "name": "zephyr-sketch-tool",
               "version": "0.1.0"
+            }
+          ]
+        },
+        {
+          "name": "Arduino UNO R4 Boards",
+          "architecture": "renesas_uno",
+          "version": "1.5.2",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-renesas_uno-1.5.2.tar.bz2",
+          "archiveFileName": "ArduinoCore-renesas_uno-1.5.2.tar.bz2",
+          "checksum": "SHA-256:da18ed02afb5c7cd525eebc666271f6b823eec0bb4456dc2511cc956faa7d045",
+          "size": "14168736",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino UNO R4 Minima"
+            },
+            {
+              "name": "Arduino UNO R4 WiFi"
+            },
+            {
+              "name": "Arduino Nano R4"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "dfu-discovery"
             }
           ]
         },
@@ -33220,12 +33318,12 @@
         {
           "name": "RL78/G23-128p Fast Prototyping Board",
           "architecture": "rl78g23_fpb_p128",
-          "version": "1.2.0",
+          "version": "1.2.1",
           "category": "Contributed",
-          "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_128p/releases/download/rl78-1.2.0/core-ArduinoCore-rl78g23-fpb-p128-1.2.0.zip",
-          "archiveFileName": "core-ArduinoCore-rl78g23-fpb-p128-1.2.0.zip",
-          "checksum": "SHA-256:68c70a2145848151a611cf9b8aed49f89fb918c3738b0bc4bdc8546102cb9647",
-          "size": "4640425",
+          "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_128p/releases/download/rl78-1.2.1/core-ArduinoCore-rl78g23-fpb-p128-1.2.1.zip",
+          "archiveFileName": "core-ArduinoCore-rl78g23-fpb-p128-1.2.1.zip",
+          "checksum": "SHA-256:783826D0ACAEEE2BEC2CB1C0480E775A5148EC04F300585B3EDD40E0C3742EDE",
+          "size": "4642312",
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
           },
@@ -33237,8 +33335,13 @@
           "toolsDependencies": [
             {
               "packager": "renesas",
+              "name": "gdb-rl78",
+              "version": "2025-04_00"
+            },
+            {
+              "packager": "renesas",
               "name": "llvm-rl78",
-              "version": "17.0.1.202409"
+              "version": "17.0.1.202506"
             },
             {
               "packager": "renesas",
