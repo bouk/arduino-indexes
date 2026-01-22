@@ -22869,11 +22869,6 @@
               "version": "0.1.0"
             },
             {
-              "packager": "SiliconLabs",
-              "name": "openocd",
-              "version": "0.12.0-arduino1-static"
-            },
-            {
               "packager": "arduino",
               "name": "remoteocd",
               "version": "0.0.4-rc.4"
@@ -24162,11 +24157,6 @@
               "packager": "arduino",
               "name": "gen-rodata-ld",
               "version": "0.1.0"
-            },
-            {
-              "packager": "SiliconLabs",
-              "name": "openocd",
-              "version": "0.12.0-arduino1-static"
             },
             {
               "packager": "arduino",
