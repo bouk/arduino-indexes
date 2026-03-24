@@ -36525,6 +36525,13 @@
           "version": "12.2.rel1",
           "systems": [
             {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/SiliconLabs/arduino/releases/download/2.0.0/arm-gnu-toolchain-12.2.rel1-aarch64-arm-none-eabi.tar.zst",
+              "archiveFileName": "arm-gnu-toolchain-12.2.rel1-aarch64-arm-none-eabi.tar.zst",
+              "checksum": "SHA-256:5bd04462c236d81d68da5179ae8aed8bb067f2d7be2d7ee278bc2ef2fab337bb",
+              "size": "249798724"
+            },
+            {
               "host": "arm64-apple-darwin",
               "url": "https://github.com/SiliconLabs/arduino/releases/download/2.0.0/arm-gnu-toolchain-12.2.rel1-darwin-arm64-arm-none-eabi.tar.zst",
               "archiveFileName": "arm-gnu-toolchain-12.2.rel1-darwin-arm64-arm-none-eabi.tar.zst",
@@ -36606,6 +36613,13 @@
           "name": "simplicitycommander",
           "version": "1.16.4",
           "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/SiliconLabs/arduino/releases/download/2.0.0/Commander_linux_aarch64_1v16p4b1564.tar.zst",
+              "archiveFileName": "Commander_linux_aarch64_1v16p4b1564.tar.zst",
+              "checksum": "SHA-256:48cb158e8501bc0d0724cfcca8d7ecb10469ae87bcd6a19a0baa1a239b0da03c",
+              "size": "20326380"
+            },
             {
               "host": "i686-mingw32",
               "url": "https://github.com/SiliconLabs/arduino/releases/download/2.0.0/Commander_win32_x64_1v16p4b1564.tar.zst",
