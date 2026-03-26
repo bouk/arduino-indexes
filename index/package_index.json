@@ -23313,6 +23313,54 @@
         },
         {
           "name": "remoteocd",
+          "version": "0.1.0",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://downloads.arduino.cc/tools/remoteocd-0.1.0-linux-arm64.tar.gz",
+              "archiveFileName": "remoteocd-0.1.0-linux-arm64.tar.gz",
+              "checksum": "SHA-256:3045a8cb773746589a52bf2bf31455a0aa979360f33cc825ca2c63c894d70e72",
+              "size": 3506926
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://downloads.arduino.cc/tools/remoteocd-0.1.0-darwin-arm64.tar.gz",
+              "archiveFileName": "remoteocd-0.1.0-darwin-arm64.tar.gz",
+              "checksum": "SHA-256:4feb242283a9032cf229f6279ccbd588e4be8ea8754cddc4fe648ea0b677c1f4",
+              "size": 3682922
+            },
+            {
+              "host": "arm64-mingw32",
+              "url": "https://downloads.arduino.cc/tools/remoteocd-0.1.0-windows-arm64.zip",
+              "archiveFileName": "remoteocd-0.1.0-windows-arm64.zip",
+              "checksum": "SHA-256:6dec957854be6152c7a0d160d3ddc4cf0c72b3d6a5fd336ac2c607f5ece64597",
+              "size": 3739673
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://downloads.arduino.cc/tools/remoteocd-0.1.0-darwin-amd64.tar.gz",
+              "archiveFileName": "remoteocd-0.1.0-darwin-amd64.tar.gz",
+              "checksum": "SHA-256:55680ab1087280f5ea5824ee3578f9578b477b503bf3fca555792c6c7c70f0a1",
+              "size": 3895202
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://downloads.arduino.cc/tools/remoteocd-0.1.0-linux-amd64.tar.gz",
+              "archiveFileName": "remoteocd-0.1.0-linux-amd64.tar.gz",
+              "checksum": "SHA-256:754d69f4ee4f171d4f66ef221becc303a837fffbae7e743a38c44785ec0b6c37",
+              "size": 3837878
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://downloads.arduino.cc/tools/remoteocd-0.1.0-windows-amd64.zip",
+              "archiveFileName": "remoteocd-0.1.0-windows-amd64.zip",
+              "checksum": "SHA-256:9a8dbfd7847f505735aa86473037f551f8c7591720183a6650fd591cebc6ca2f",
+              "size": 4066402
+            }
+          ]
+        },
+        {
+          "name": "remoteocd",
           "version": "0.0.4-rc.4",
           "systems": [
             {
