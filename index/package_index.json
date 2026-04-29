@@ -23813,6 +23813,47 @@
         },
         {
           "name": "sync-zephyr-artifacts",
+          "version": "0.2.1",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://downloads.arduino.cc/tools/sync-zephyr-artifacts-0.2.1-aarch64-linux-gnu.tar.gz",
+              "archiveFileName": "sync-zephyr-artifacts-0.2.1-aarch64-linux-gnu.tar.gz",
+              "checksum": "SHA-256:5ce682d0e61f99e00232fd8a36745d35236da81206d9424d56a6a1a6868041f3",
+              "size": "4867517"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://downloads.arduino.cc/tools/sync-zephyr-artifacts-0.2.1-arm64-apple-darwin.tar.gz",
+              "archiveFileName": "sync-zephyr-artifacts-0.2.1-arm64-apple-darwin.tar.gz",
+              "checksum": "SHA-256:f7e0ca714fee96986593d77cc812d17a2f5c898db4d61dfc050c3a3a289f897a",
+              "size": "5032575"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://downloads.arduino.cc/tools/sync-zephyr-artifacts-0.2.1-i686-mingw32.zip",
+              "archiveFileName": "sync-zephyr-artifacts-0.2.1-i686-mingw32.zip",
+              "checksum": "SHA-256:edf793fecfb3bced06f9f296f32c1e34f155f658b8e6085748dbe49d18e15a56",
+              "size": "5235267"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://downloads.arduino.cc/tools/sync-zephyr-artifacts-0.2.1-x86_64-apple-darwin.tar.gz",
+              "archiveFileName": "sync-zephyr-artifacts-0.2.1-x86_64-apple-darwin.tar.gz",
+              "checksum": "SHA-256:7fbd15ba90073fa1559e52630442a097209671c32b14b9fbeee493f7a115c959",
+              "size": "5378629"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://downloads.arduino.cc/tools/sync-zephyr-artifacts-0.2.1-x86_64-linux-gnu.tar.gz",
+              "archiveFileName": "sync-zephyr-artifacts-0.2.1-x86_64-linux-gnu.tar.gz",
+              "checksum": "SHA-256:9118fa3d5d7ced171a5b8b141e8a47465a956cbf44a87cdab1fbee1f1c40dcb3",
+              "size": "5360976"
+            }
+          ]
+        },
+        {
+          "name": "sync-zephyr-artifacts",
           "version": "0.2.0",
           "systems": [
             {
