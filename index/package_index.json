@@ -23823,6 +23823,54 @@
         },
         {
           "name": "remoteocd",
+          "version": "0.1.1",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://downloads.arduino.cc/tools/remoteocd-0.1.1-linux-arm64.tar.gz",
+              "archiveFileName": "remoteocd-0.1.1-linux-arm64.tar.gz",
+              "checksum": "SHA-256:b810cd57831b29e8bb54a9990166956cc53e43fd0359fcc6fbe462b14c13f464",
+              "size": 3508987
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://downloads.arduino.cc/tools/remoteocd-0.1.1-darwin-arm64.tar.gz",
+              "archiveFileName": "remoteocd-0.1.1-darwin-arm64.tar.gz",
+              "checksum": "SHA-256:775cc24574fad88a0219eabfea14927ac55f763a4d40f96c8bbb6bf84e1629df",
+              "size": 3686104
+            },
+            {
+              "host": "arm64-mingw32",
+              "url": "https://downloads.arduino.cc/tools/remoteocd-0.1.1-windows-arm64.zip",
+              "archiveFileName": "remoteocd-0.1.1-windows-arm64.zip",
+              "checksum": "SHA-256:5dea6f7ab8f45a3beb766451d81aa53f115f2d990a1a5273b1236103a031a957",
+              "size": 3740402
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://downloads.arduino.cc/tools/remoteocd-0.1.1-darwin-amd64.tar.gz",
+              "archiveFileName": "remoteocd-0.1.1-darwin-amd64.tar.gz",
+              "checksum": "SHA-256:7d8538715eb11ac7b527c12b76e9553edf0847827907e9a11d75bc9fc2c5d756",
+              "size": 3895585
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://downloads.arduino.cc/tools/remoteocd-0.1.1-linux-amd64.tar.gz",
+              "archiveFileName": "remoteocd-0.1.1-linux-amd64.tar.gz",
+              "checksum": "SHA-256:0d77e322e7e968890af4043ddb4c53b72d508a19e2ea084f4d545c0203ddb4a0",
+              "size": 3838740
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://downloads.arduino.cc/tools/remoteocd-0.1.1-windows-amd64.zip",
+              "archiveFileName": "remoteocd-0.1.1-windows-amd64.zip",
+              "checksum": "SHA-256:c9de30c78dfe4f160506b475cb945bb477056b2a1238abd642cddea1f65e6024",
+              "size": 4067533
+            }
+          ]
+        },
+        {
+          "name": "remoteocd",
           "version": "0.1.0",
           "systems": [
             {
@@ -24303,6 +24351,47 @@
               "archiveFileName": "drivers-arduino-windows-1.6.9.zip",
               "checksum": "SHA-256:10d456ab18d164d42545255db8bef4ac9e1bf660cc89acb7a0980b5a486654ac",
               "size": "7071714"
+            }
+          ]
+        },
+        {
+          "name": "zephyr-check-size",
+          "version": "0.1.0",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://downloads.arduino.cc/tools/zephyr-check-size-0.1.0-aarch64-linux-gnu.tar.gz",
+              "archiveFileName": "zephyr-check-size-0.1.0-aarch64-linux-gnu.tar.gz",
+              "checksum": "SHA-256:efc75eb9470a2eaeb47b364ae1d0402516289aead4c5d2f3a18b42b7a54181c0",
+              "size": "1640444"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://downloads.arduino.cc/tools/zephyr-check-size-0.1.0-arm64-apple-darwin.tar.gz",
+              "archiveFileName": "zephyr-check-size-0.1.0-arm64-apple-darwin.tar.gz",
+              "checksum": "SHA-256:83e5d6aeee380b3df47e3c8e63856de22bcfc2736a48da55d3e49072d244d64c",
+              "size": "1693729"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://downloads.arduino.cc/tools/zephyr-check-size-0.1.0-i686-mingw32.zip",
+              "archiveFileName": "zephyr-check-size-0.1.0-i686-mingw32.zip",
+              "checksum": "SHA-256:8758451dfc4bbaa8904004c411d83722304391e3742268866225cdf0450d3b18",
+              "size": "1732026"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://downloads.arduino.cc/tools/zephyr-check-size-0.1.0-x86_64-apple-darwin.tar.gz",
+              "archiveFileName": "zephyr-check-size-0.1.0-x86_64-apple-darwin.tar.gz",
+              "checksum": "SHA-256:53a061e76ccc84563b74c7dc471f529a9a29eaf9b24a13ff910c1f2bbda62be9",
+              "size": "1792942"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://downloads.arduino.cc/tools/zephyr-check-size-0.1.0-x86_64-linux-gnu.tar.gz",
+              "archiveFileName": "zephyr-check-size-0.1.0-x86_64-linux-gnu.tar.gz",
+              "checksum": "SHA-256:cd3c1dd7bfe0b507089113226a1654a4d10fb241f129358813fdd00759fc782c",
+              "size": "1777390"
             }
           ]
         },
