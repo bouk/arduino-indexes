@@ -1287,6 +1287,85 @@
                     ]
                 },
                 {
+                    "name": "Seeed SAMD Boards",
+                    "architecture": "samd",
+                    "version": "1.8.6",
+                    "category": "Contributed",
+                    "url": "https://files.seeedstudio.com/arduino/core/samd/ArduinoCore-samd-1.8.6.tar.bz2",
+                    "archiveFileName": "ArduinoCore-samd-1.8.6.tar.bz2",
+                    "checksum": "SHA-256:8daf5aec9d3e424775cd79cfee2834f81ea14211190e4ceac1652e078a69a13a",
+                    "size": "3516211",
+                    "help": {
+                        "online": "https://wiki.seeedstudio.com"
+                    },
+                    "boards": [
+                        {
+                            "name": "Seeeduino Wio Terminal"
+                        },
+                        {
+                            "name": "Seeeduino XIAO M0"
+                        },
+                        {
+                            "name": "Seeeduino XIAO M0 Plus"
+                        },
+                        {
+                            "name": "Seeeduino Femto M0"
+                        },
+                        {
+                            "name": "Seeeduino Zero"
+                        },
+                        {
+                            "name": "Seeeduino LoRaWAN"
+                        },
+                        {
+                            "name": "Wio GPS Board"
+                        },
+                        {
+                            "name": "Wio Lite MG126"
+                        },
+                        {
+                            "name": "Grove UI Wireless"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "Seeeduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "7-2017q4"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "name": "bossac",
+                            "version": "1.7.0-arduino3"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "name": "bossac",
+                            "version": "1.8.0-48-gb176eee"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.10.0-arduino7"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "name": "CMSIS",
+                            "version": "5.7.0"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.2.1"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "name": "arduinoOTA",
+                            "version": "1.2.1"
+                        }
+                    ]
+                },
+                {
                     "name": "Seeed i.MX RT (NXP 32-bits ARM Cortex-M7) Boards",
                     "architecture": "imxrt",
                     "category": "Contributed",
@@ -1401,6 +1480,53 @@
                             "packager": "Seeeduino",
                             "name": "UF2",
                             "version": "1.0.0"
+                        }
+                    ]
+                },
+                {
+                    "name": "Seeed nRF52 Boards",
+                    "architecture": "nrf52",
+                    "version": "1.1.13",
+                    "category": "Contributed",
+                    "url": "https://files.seeedstudio.com/arduino/core/nRF52/Seeed_nRF52_Boards-1.1.13.tar.bz2",
+                    "archiveFileName": "Seeed_nRF52_Boards-1.1.13.tar.bz2",
+                    "checksum": "SHA-256:5243bd456e8b7a3328725e17e6c6efc9712662f5aa27b7dc807911aeb0e93071",
+                    "size": "24232266",
+                    "boards": [
+                        {
+                            "name": "Seeed XIAO nRF52840 Sense"
+                        },
+                        {
+                            "name": "Seeed XIAO nRF52840"
+                        },
+                        {
+                            "name": "Seeed Wio Tracker 1110"
+                        },
+                        {
+                            "name": "Seeed XIAO nRF52840 Sense Plus"
+                        },
+                        {
+                            "name": "Seeed XIAO nRF52840 Plus"
+                        },
+                        {
+                            "name": "Seeed T1000 E tracker"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "Seeeduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "9-2019q4"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "name": "nrfjprog",
+                            "version": "9.4.0"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "name": "CMSIS",
+                            "version": "5.7.0"
                         }
                     ]
                 },
