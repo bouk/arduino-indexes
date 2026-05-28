@@ -59,25 +59,6 @@
           "toolsDependencies": []
         },
         {
-          "name": "EnviroDIY ATmega Boards",
-          "architecture": "avr",
-          "version": "2.1.0",
-          "category": "Contributed",
-          "url": "https://github.com/EnviroDIY/Arduino_boards/raw/master/EnviroDIYAVRBoards/build\\envirodiyatmegaboards-2.1.0.zip",
-          "archiveFileName": "build\\envirodiyatmegaboards-2.1.0.zip",
-          "checksum": "SHA-256:8607a05bfc4391789106627ef915b163a823fbf68e678168f6cff3c21eeb2d2b",
-          "size": 46894,
-          "boards": [
-            {
-              "name": "mayfly"
-            },
-            {
-              "name": "mayfly2"
-            }
-          ],
-          "toolsDependencies": []
-        },
-        {
           "name": "EnviroDIY SAMD Boards",
           "architecture": "samd",
           "version": "0.0.1",
@@ -153,6 +134,41 @@
           "boards": [
             {
               "name": "EnviroDIY Stonefly"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "EnviroDIY SAMD Boards",
+          "architecture": "samd",
+          "version": "0.4.0",
+          "category": "Contributed",
+          "url": "https://github.com/EnviroDIY/Arduino_boards/raw/master/EnviroDIYSAMDBoards/envirodiysamdboards-0.4.0.zip",
+          "archiveFileName": "envirodiysamdboards-0.4.0.zip",
+          "checksum": "SHA-256:db2d164de0534b045b10533951e65cf3f2fe9f7902c7112b3ea16f4dd498e4f1",
+          "size": 132548,
+          "boards": [
+            {
+              "name": "EnviroDIY Stonefly"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "EnviroDIY ATmega Boards",
+          "architecture": "avr",
+          "version": "2.1.0",
+          "category": "Contributed",
+          "url": "https://github.com/EnviroDIY/Arduino_boards/raw/master/EnviroDIYAVRBoards/envirodiyatmegaboards-2.1.0.zip",
+          "archiveFileName": "envirodiyatmegaboards-2.1.0.zip",
+          "checksum": "SHA-256:be9efd476a0ab6e1367c63d048fcbdaf0f70370b2dcafdcfb2dc133c1dec83ad",
+          "size": 47285,
+          "boards": [
+            {
+              "name": "mayfly"
+            },
+            {
+              "name": "mayfly2"
             }
           ],
           "toolsDependencies": []
