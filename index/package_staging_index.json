@@ -29035,6 +29035,40 @@
           ]
         },
         {
+          "name": "adb",
+          "version": "36.0.1-arduino.1",
+          "systems": [
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://downloads.arduino.cc/tools/android/adb-darwin-x86_64-36.0.1-arduino.1.tar.xz",
+              "archiveFileName": "adb-darwin-x86_64-36.0.1-arduino.1.tar.xz",
+              "checksum": "SHA-256:393b7c1dce0a6622d10932c832ad4fee2be463e4f019d49c3f1092d09ca1ce71",
+              "size": "6819613"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://downloads.arduino.cc/tools/android/adb-windows-x86_64-36.0.1-arduino.1.zip",
+              "archiveFileName": "adb-windows-x86_64-36.0.1-arduino.1.zip",
+              "checksum": "SHA-256:35686c74c5000d814252b9abb158e89ebebf896cc6e0b46c6115e37d1c131de5",
+              "size": "3971776"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://downloads.arduino.cc/tools/android/adb-darwin-x86_64-36.0.1-arduino.1.tar.xz",
+              "archiveFileName": "adb-darwin-x86_64-36.0.1-arduino.1.tar.xz",
+              "checksum": "SHA-256:393b7c1dce0a6622d10932c832ad4fee2be463e4f019d49c3f1092d09ca1ce71",
+              "size": "6819613"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://downloads.arduino.cc/tools/android/adb-linux-x86_64-36.0.1-arduino.1.tar.xz",
+              "archiveFileName": "adb-linux-x86_64-36.0.1-arduino.1.tar.xz",
+              "checksum": "SHA-256:6c3e32ee46739ef24cde0b4a9d68c09b1258637c4cb6009b8ec328d36c3dc70d",
+              "size": "2955656"
+            }
+          ]
+        },
+        {
           "name": "arduino-fwuploader",
           "version": "2.4.1",
           "systems": [
