@@ -35967,6 +35967,140 @@
         {
           "name": "esp32",
           "architecture": "esp32",
+          "version": "3.3.10",
+          "category": "ESP32",
+          "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32-core-3.3.10.zip",
+          "archiveFileName": "esp32-core-3.3.10.zip",
+          "checksum": "SHA-256:05cbb2cac185265b8b64f1dfa6982e4ae6d57db67f690a291f119a0b2b6aaab2",
+          "size": "46442310",
+          "help": {
+            "online": ""
+          },
+          "boards": [
+            {
+              "name": "ESP32 Dev Board"
+            },
+            {
+              "name": "ESP32-C3 Dev Board"
+            },
+            {
+              "name": "ESP32-C5 Dev Board"
+            },
+            {
+              "name": "ESP32-C6 Dev Board"
+            },
+            {
+              "name": "ESP32-H2 Dev Board"
+            },
+            {
+              "name": "ESP32-P4 Dev Board"
+            },
+            {
+              "name": "ESP32-S2 Dev Board"
+            },
+            {
+              "name": "ESP32-S3 Dev Board"
+            },
+            {
+              "name": "Arduino Nano ESP32"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp-rv32",
+              "version": "2601"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp-x32",
+              "version": "2601"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp32-libs",
+              "version": "3.3.10"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp32c3-libs",
+              "version": "3.3.10"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp32c5-libs",
+              "version": "3.3.10"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp32c6-libs",
+              "version": "3.3.10"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp32h2-libs",
+              "version": "3.3.10"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp32p4-libs",
+              "version": "3.3.10"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp32p4_es-libs",
+              "version": "3.3.10"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp32s2-libs",
+              "version": "3.3.10"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp32s3-libs",
+              "version": "3.3.10"
+            },
+            {
+              "packager": "esp32",
+              "name": "esptool_py",
+              "version": "5.3.0"
+            },
+            {
+              "packager": "esp32",
+              "name": "mklittlefs",
+              "version": "4.0.2-db0513a"
+            },
+            {
+              "packager": "esp32",
+              "name": "mkspiffs",
+              "version": "0.2.3"
+            },
+            {
+              "packager": "esp32",
+              "name": "openocd-esp32",
+              "version": "v0.12.0-esp32-20251215"
+            },
+            {
+              "packager": "esp32",
+              "name": "riscv32-esp-elf-gdb",
+              "version": "16.3_20250913"
+            },
+            {
+              "packager": "esp32",
+              "name": "xtensa-esp-elf-gdb",
+              "version": "16.3_20250913"
+            }
+          ]
+        },
+        {
+          "name": "esp32",
+          "architecture": "esp32",
           "version": "3.3.9",
           "category": "ESP32",
           "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.9/esp32-core-3.3.9.zip",
@@ -41851,6 +41985,68 @@
         },
         {
           "name": "esp32-libs",
+          "version": "3.3.10",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32-libs-3.3.10.zip",
+              "archiveFileName": "esp32-libs-3.3.10.zip",
+              "checksum": "SHA-256:2fbdcf06cef1bff7fb24ca368886ec1678ef67f4a9615f3967d5ce1287557212",
+              "size": "44059240"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32-libs-3.3.10.zip",
+              "archiveFileName": "esp32-libs-3.3.10.zip",
+              "checksum": "SHA-256:2fbdcf06cef1bff7fb24ca368886ec1678ef67f4a9615f3967d5ce1287557212",
+              "size": "44059240"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32-libs-3.3.10.zip",
+              "archiveFileName": "esp32-libs-3.3.10.zip",
+              "checksum": "SHA-256:2fbdcf06cef1bff7fb24ca368886ec1678ef67f4a9615f3967d5ce1287557212",
+              "size": "44059240"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32-libs-3.3.10.zip",
+              "archiveFileName": "esp32-libs-3.3.10.zip",
+              "checksum": "SHA-256:2fbdcf06cef1bff7fb24ca368886ec1678ef67f4a9615f3967d5ce1287557212",
+              "size": "44059240"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32-libs-3.3.10.zip",
+              "archiveFileName": "esp32-libs-3.3.10.zip",
+              "checksum": "SHA-256:2fbdcf06cef1bff7fb24ca368886ec1678ef67f4a9615f3967d5ce1287557212",
+              "size": "44059240"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32-libs-3.3.10.zip",
+              "archiveFileName": "esp32-libs-3.3.10.zip",
+              "checksum": "SHA-256:2fbdcf06cef1bff7fb24ca368886ec1678ef67f4a9615f3967d5ce1287557212",
+              "size": "44059240"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32-libs-3.3.10.zip",
+              "archiveFileName": "esp32-libs-3.3.10.zip",
+              "checksum": "SHA-256:2fbdcf06cef1bff7fb24ca368886ec1678ef67f4a9615f3967d5ce1287557212",
+              "size": "44059240"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32-libs-3.3.10.zip",
+              "archiveFileName": "esp32-libs-3.3.10.zip",
+              "checksum": "SHA-256:2fbdcf06cef1bff7fb24ca368886ec1678ef67f4a9615f3967d5ce1287557212",
+              "size": "44059240"
+            }
+          ]
+        },
+        {
+          "name": "esp32-libs",
           "version": "3.3.9",
           "systems": [
             {
@@ -42099,6 +42295,68 @@
         },
         {
           "name": "esp32c3-libs",
+          "version": "3.3.10",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c3-libs-3.3.10.zip",
+              "archiveFileName": "esp32c3-libs-3.3.10.zip",
+              "checksum": "SHA-256:a08e1fd34c4be94bf4cfb5589b5a0a5f2908d0392153a0686fd193647bc022f8",
+              "size": "55712075"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c3-libs-3.3.10.zip",
+              "archiveFileName": "esp32c3-libs-3.3.10.zip",
+              "checksum": "SHA-256:a08e1fd34c4be94bf4cfb5589b5a0a5f2908d0392153a0686fd193647bc022f8",
+              "size": "55712075"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c3-libs-3.3.10.zip",
+              "archiveFileName": "esp32c3-libs-3.3.10.zip",
+              "checksum": "SHA-256:a08e1fd34c4be94bf4cfb5589b5a0a5f2908d0392153a0686fd193647bc022f8",
+              "size": "55712075"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c3-libs-3.3.10.zip",
+              "archiveFileName": "esp32c3-libs-3.3.10.zip",
+              "checksum": "SHA-256:a08e1fd34c4be94bf4cfb5589b5a0a5f2908d0392153a0686fd193647bc022f8",
+              "size": "55712075"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c3-libs-3.3.10.zip",
+              "archiveFileName": "esp32c3-libs-3.3.10.zip",
+              "checksum": "SHA-256:a08e1fd34c4be94bf4cfb5589b5a0a5f2908d0392153a0686fd193647bc022f8",
+              "size": "55712075"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c3-libs-3.3.10.zip",
+              "archiveFileName": "esp32c3-libs-3.3.10.zip",
+              "checksum": "SHA-256:a08e1fd34c4be94bf4cfb5589b5a0a5f2908d0392153a0686fd193647bc022f8",
+              "size": "55712075"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c3-libs-3.3.10.zip",
+              "archiveFileName": "esp32c3-libs-3.3.10.zip",
+              "checksum": "SHA-256:a08e1fd34c4be94bf4cfb5589b5a0a5f2908d0392153a0686fd193647bc022f8",
+              "size": "55712075"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c3-libs-3.3.10.zip",
+              "archiveFileName": "esp32c3-libs-3.3.10.zip",
+              "checksum": "SHA-256:a08e1fd34c4be94bf4cfb5589b5a0a5f2908d0392153a0686fd193647bc022f8",
+              "size": "55712075"
+            }
+          ]
+        },
+        {
+          "name": "esp32c3-libs",
           "version": "3.3.9",
           "systems": [
             {
@@ -42347,6 +42605,68 @@
         },
         {
           "name": "esp32c5-libs",
+          "version": "3.3.10",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c5-libs-3.3.10.zip",
+              "archiveFileName": "esp32c5-libs-3.3.10.zip",
+              "checksum": "SHA-256:d5981ad02d9358ab7ceb47ae261521c009b46ab2f6ad5ba7d697346e0f3d66b0",
+              "size": "65884082"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c5-libs-3.3.10.zip",
+              "archiveFileName": "esp32c5-libs-3.3.10.zip",
+              "checksum": "SHA-256:d5981ad02d9358ab7ceb47ae261521c009b46ab2f6ad5ba7d697346e0f3d66b0",
+              "size": "65884082"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c5-libs-3.3.10.zip",
+              "archiveFileName": "esp32c5-libs-3.3.10.zip",
+              "checksum": "SHA-256:d5981ad02d9358ab7ceb47ae261521c009b46ab2f6ad5ba7d697346e0f3d66b0",
+              "size": "65884082"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c5-libs-3.3.10.zip",
+              "archiveFileName": "esp32c5-libs-3.3.10.zip",
+              "checksum": "SHA-256:d5981ad02d9358ab7ceb47ae261521c009b46ab2f6ad5ba7d697346e0f3d66b0",
+              "size": "65884082"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c5-libs-3.3.10.zip",
+              "archiveFileName": "esp32c5-libs-3.3.10.zip",
+              "checksum": "SHA-256:d5981ad02d9358ab7ceb47ae261521c009b46ab2f6ad5ba7d697346e0f3d66b0",
+              "size": "65884082"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c5-libs-3.3.10.zip",
+              "archiveFileName": "esp32c5-libs-3.3.10.zip",
+              "checksum": "SHA-256:d5981ad02d9358ab7ceb47ae261521c009b46ab2f6ad5ba7d697346e0f3d66b0",
+              "size": "65884082"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c5-libs-3.3.10.zip",
+              "archiveFileName": "esp32c5-libs-3.3.10.zip",
+              "checksum": "SHA-256:d5981ad02d9358ab7ceb47ae261521c009b46ab2f6ad5ba7d697346e0f3d66b0",
+              "size": "65884082"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c5-libs-3.3.10.zip",
+              "archiveFileName": "esp32c5-libs-3.3.10.zip",
+              "checksum": "SHA-256:d5981ad02d9358ab7ceb47ae261521c009b46ab2f6ad5ba7d697346e0f3d66b0",
+              "size": "65884082"
+            }
+          ]
+        },
+        {
+          "name": "esp32c5-libs",
           "version": "3.3.9",
           "systems": [
             {
@@ -42595,6 +42915,68 @@
         },
         {
           "name": "esp32c6-libs",
+          "version": "3.3.10",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c6-libs-3.3.10.zip",
+              "archiveFileName": "esp32c6-libs-3.3.10.zip",
+              "checksum": "SHA-256:4b9fc7a3ac55af5ac8461302c7129ebcc7a6a4598dbacfb75989fff04d04be7b",
+              "size": "64383699"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c6-libs-3.3.10.zip",
+              "archiveFileName": "esp32c6-libs-3.3.10.zip",
+              "checksum": "SHA-256:4b9fc7a3ac55af5ac8461302c7129ebcc7a6a4598dbacfb75989fff04d04be7b",
+              "size": "64383699"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c6-libs-3.3.10.zip",
+              "archiveFileName": "esp32c6-libs-3.3.10.zip",
+              "checksum": "SHA-256:4b9fc7a3ac55af5ac8461302c7129ebcc7a6a4598dbacfb75989fff04d04be7b",
+              "size": "64383699"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c6-libs-3.3.10.zip",
+              "archiveFileName": "esp32c6-libs-3.3.10.zip",
+              "checksum": "SHA-256:4b9fc7a3ac55af5ac8461302c7129ebcc7a6a4598dbacfb75989fff04d04be7b",
+              "size": "64383699"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c6-libs-3.3.10.zip",
+              "archiveFileName": "esp32c6-libs-3.3.10.zip",
+              "checksum": "SHA-256:4b9fc7a3ac55af5ac8461302c7129ebcc7a6a4598dbacfb75989fff04d04be7b",
+              "size": "64383699"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c6-libs-3.3.10.zip",
+              "archiveFileName": "esp32c6-libs-3.3.10.zip",
+              "checksum": "SHA-256:4b9fc7a3ac55af5ac8461302c7129ebcc7a6a4598dbacfb75989fff04d04be7b",
+              "size": "64383699"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c6-libs-3.3.10.zip",
+              "archiveFileName": "esp32c6-libs-3.3.10.zip",
+              "checksum": "SHA-256:4b9fc7a3ac55af5ac8461302c7129ebcc7a6a4598dbacfb75989fff04d04be7b",
+              "size": "64383699"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32c6-libs-3.3.10.zip",
+              "archiveFileName": "esp32c6-libs-3.3.10.zip",
+              "checksum": "SHA-256:4b9fc7a3ac55af5ac8461302c7129ebcc7a6a4598dbacfb75989fff04d04be7b",
+              "size": "64383699"
+            }
+          ]
+        },
+        {
+          "name": "esp32c6-libs",
           "version": "3.3.9",
           "systems": [
             {
@@ -42843,6 +43225,68 @@
         },
         {
           "name": "esp32h2-libs",
+          "version": "3.3.10",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32h2-libs-3.3.10.zip",
+              "archiveFileName": "esp32h2-libs-3.3.10.zip",
+              "checksum": "SHA-256:a9706f9c0c66b96864488d48d9377bcb2a46889352df464175ad4b1c17a83e68",
+              "size": "60268876"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32h2-libs-3.3.10.zip",
+              "archiveFileName": "esp32h2-libs-3.3.10.zip",
+              "checksum": "SHA-256:a9706f9c0c66b96864488d48d9377bcb2a46889352df464175ad4b1c17a83e68",
+              "size": "60268876"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32h2-libs-3.3.10.zip",
+              "archiveFileName": "esp32h2-libs-3.3.10.zip",
+              "checksum": "SHA-256:a9706f9c0c66b96864488d48d9377bcb2a46889352df464175ad4b1c17a83e68",
+              "size": "60268876"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32h2-libs-3.3.10.zip",
+              "archiveFileName": "esp32h2-libs-3.3.10.zip",
+              "checksum": "SHA-256:a9706f9c0c66b96864488d48d9377bcb2a46889352df464175ad4b1c17a83e68",
+              "size": "60268876"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32h2-libs-3.3.10.zip",
+              "archiveFileName": "esp32h2-libs-3.3.10.zip",
+              "checksum": "SHA-256:a9706f9c0c66b96864488d48d9377bcb2a46889352df464175ad4b1c17a83e68",
+              "size": "60268876"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32h2-libs-3.3.10.zip",
+              "archiveFileName": "esp32h2-libs-3.3.10.zip",
+              "checksum": "SHA-256:a9706f9c0c66b96864488d48d9377bcb2a46889352df464175ad4b1c17a83e68",
+              "size": "60268876"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32h2-libs-3.3.10.zip",
+              "archiveFileName": "esp32h2-libs-3.3.10.zip",
+              "checksum": "SHA-256:a9706f9c0c66b96864488d48d9377bcb2a46889352df464175ad4b1c17a83e68",
+              "size": "60268876"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32h2-libs-3.3.10.zip",
+              "archiveFileName": "esp32h2-libs-3.3.10.zip",
+              "checksum": "SHA-256:a9706f9c0c66b96864488d48d9377bcb2a46889352df464175ad4b1c17a83e68",
+              "size": "60268876"
+            }
+          ]
+        },
+        {
+          "name": "esp32h2-libs",
           "version": "3.3.9",
           "systems": [
             {
@@ -43091,6 +43535,68 @@
         },
         {
           "name": "esp32p4-libs",
+          "version": "3.3.10",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32p4-libs-3.3.10.zip",
+              "archiveFileName": "esp32p4-libs-3.3.10.zip",
+              "checksum": "SHA-256:27df1e01518a030b53f7855ee7993cb6ea1d02e4c4848632645ffa2a24ef0155",
+              "size": "62797524"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32p4-libs-3.3.10.zip",
+              "archiveFileName": "esp32p4-libs-3.3.10.zip",
+              "checksum": "SHA-256:27df1e01518a030b53f7855ee7993cb6ea1d02e4c4848632645ffa2a24ef0155",
+              "size": "62797524"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32p4-libs-3.3.10.zip",
+              "archiveFileName": "esp32p4-libs-3.3.10.zip",
+              "checksum": "SHA-256:27df1e01518a030b53f7855ee7993cb6ea1d02e4c4848632645ffa2a24ef0155",
+              "size": "62797524"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32p4-libs-3.3.10.zip",
+              "archiveFileName": "esp32p4-libs-3.3.10.zip",
+              "checksum": "SHA-256:27df1e01518a030b53f7855ee7993cb6ea1d02e4c4848632645ffa2a24ef0155",
+              "size": "62797524"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32p4-libs-3.3.10.zip",
+              "archiveFileName": "esp32p4-libs-3.3.10.zip",
+              "checksum": "SHA-256:27df1e01518a030b53f7855ee7993cb6ea1d02e4c4848632645ffa2a24ef0155",
+              "size": "62797524"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32p4-libs-3.3.10.zip",
+              "archiveFileName": "esp32p4-libs-3.3.10.zip",
+              "checksum": "SHA-256:27df1e01518a030b53f7855ee7993cb6ea1d02e4c4848632645ffa2a24ef0155",
+              "size": "62797524"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32p4-libs-3.3.10.zip",
+              "archiveFileName": "esp32p4-libs-3.3.10.zip",
+              "checksum": "SHA-256:27df1e01518a030b53f7855ee7993cb6ea1d02e4c4848632645ffa2a24ef0155",
+              "size": "62797524"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32p4-libs-3.3.10.zip",
+              "archiveFileName": "esp32p4-libs-3.3.10.zip",
+              "checksum": "SHA-256:27df1e01518a030b53f7855ee7993cb6ea1d02e4c4848632645ffa2a24ef0155",
+              "size": "62797524"
+            }
+          ]
+        },
+        {
+          "name": "esp32p4-libs",
           "version": "3.3.9",
           "systems": [
             {
@@ -43339,6 +43845,68 @@
         },
         {
           "name": "esp32p4_es-libs",
+          "version": "3.3.10",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32p4_es-libs-3.3.10.zip",
+              "archiveFileName": "esp32p4_es-libs-3.3.10.zip",
+              "checksum": "SHA-256:5d454cfb4182abb92b1e3b609254152a54e98204c3e182379ffaeba0a817b2a5",
+              "size": "62536206"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32p4_es-libs-3.3.10.zip",
+              "archiveFileName": "esp32p4_es-libs-3.3.10.zip",
+              "checksum": "SHA-256:5d454cfb4182abb92b1e3b609254152a54e98204c3e182379ffaeba0a817b2a5",
+              "size": "62536206"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32p4_es-libs-3.3.10.zip",
+              "archiveFileName": "esp32p4_es-libs-3.3.10.zip",
+              "checksum": "SHA-256:5d454cfb4182abb92b1e3b609254152a54e98204c3e182379ffaeba0a817b2a5",
+              "size": "62536206"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32p4_es-libs-3.3.10.zip",
+              "archiveFileName": "esp32p4_es-libs-3.3.10.zip",
+              "checksum": "SHA-256:5d454cfb4182abb92b1e3b609254152a54e98204c3e182379ffaeba0a817b2a5",
+              "size": "62536206"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32p4_es-libs-3.3.10.zip",
+              "archiveFileName": "esp32p4_es-libs-3.3.10.zip",
+              "checksum": "SHA-256:5d454cfb4182abb92b1e3b609254152a54e98204c3e182379ffaeba0a817b2a5",
+              "size": "62536206"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32p4_es-libs-3.3.10.zip",
+              "archiveFileName": "esp32p4_es-libs-3.3.10.zip",
+              "checksum": "SHA-256:5d454cfb4182abb92b1e3b609254152a54e98204c3e182379ffaeba0a817b2a5",
+              "size": "62536206"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32p4_es-libs-3.3.10.zip",
+              "archiveFileName": "esp32p4_es-libs-3.3.10.zip",
+              "checksum": "SHA-256:5d454cfb4182abb92b1e3b609254152a54e98204c3e182379ffaeba0a817b2a5",
+              "size": "62536206"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32p4_es-libs-3.3.10.zip",
+              "archiveFileName": "esp32p4_es-libs-3.3.10.zip",
+              "checksum": "SHA-256:5d454cfb4182abb92b1e3b609254152a54e98204c3e182379ffaeba0a817b2a5",
+              "size": "62536206"
+            }
+          ]
+        },
+        {
+          "name": "esp32p4_es-libs",
           "version": "3.3.9",
           "systems": [
             {
@@ -43587,6 +44155,68 @@
         },
         {
           "name": "esp32s2-libs",
+          "version": "3.3.10",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32s2-libs-3.3.10.zip",
+              "archiveFileName": "esp32s2-libs-3.3.10.zip",
+              "checksum": "SHA-256:7b6077df9f242b765c8f298270b02f463b17129fdde0700a29338988cf4a921e",
+              "size": "42064604"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32s2-libs-3.3.10.zip",
+              "archiveFileName": "esp32s2-libs-3.3.10.zip",
+              "checksum": "SHA-256:7b6077df9f242b765c8f298270b02f463b17129fdde0700a29338988cf4a921e",
+              "size": "42064604"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32s2-libs-3.3.10.zip",
+              "archiveFileName": "esp32s2-libs-3.3.10.zip",
+              "checksum": "SHA-256:7b6077df9f242b765c8f298270b02f463b17129fdde0700a29338988cf4a921e",
+              "size": "42064604"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32s2-libs-3.3.10.zip",
+              "archiveFileName": "esp32s2-libs-3.3.10.zip",
+              "checksum": "SHA-256:7b6077df9f242b765c8f298270b02f463b17129fdde0700a29338988cf4a921e",
+              "size": "42064604"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32s2-libs-3.3.10.zip",
+              "archiveFileName": "esp32s2-libs-3.3.10.zip",
+              "checksum": "SHA-256:7b6077df9f242b765c8f298270b02f463b17129fdde0700a29338988cf4a921e",
+              "size": "42064604"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32s2-libs-3.3.10.zip",
+              "archiveFileName": "esp32s2-libs-3.3.10.zip",
+              "checksum": "SHA-256:7b6077df9f242b765c8f298270b02f463b17129fdde0700a29338988cf4a921e",
+              "size": "42064604"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32s2-libs-3.3.10.zip",
+              "archiveFileName": "esp32s2-libs-3.3.10.zip",
+              "checksum": "SHA-256:7b6077df9f242b765c8f298270b02f463b17129fdde0700a29338988cf4a921e",
+              "size": "42064604"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32s2-libs-3.3.10.zip",
+              "archiveFileName": "esp32s2-libs-3.3.10.zip",
+              "checksum": "SHA-256:7b6077df9f242b765c8f298270b02f463b17129fdde0700a29338988cf4a921e",
+              "size": "42064604"
+            }
+          ]
+        },
+        {
+          "name": "esp32s2-libs",
           "version": "3.3.9",
           "systems": [
             {
@@ -43830,6 +44460,68 @@
               "archiveFileName": "esp32s2-libs-3.3.6.zip",
               "checksum": "SHA-256:20b19bb587fe4e6dd0925079d832e3e51d1203abfb8704751932ae87cc5f0a50",
               "size": "41466576"
+            }
+          ]
+        },
+        {
+          "name": "esp32s3-libs",
+          "version": "3.3.10",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32s3-libs-3.3.10.zip",
+              "archiveFileName": "esp32s3-libs-3.3.10.zip",
+              "checksum": "SHA-256:edee967acfbdba03e8baef75d28564e0b74ee10daa640639174b1ae935763302",
+              "size": "65557728"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32s3-libs-3.3.10.zip",
+              "archiveFileName": "esp32s3-libs-3.3.10.zip",
+              "checksum": "SHA-256:edee967acfbdba03e8baef75d28564e0b74ee10daa640639174b1ae935763302",
+              "size": "65557728"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32s3-libs-3.3.10.zip",
+              "archiveFileName": "esp32s3-libs-3.3.10.zip",
+              "checksum": "SHA-256:edee967acfbdba03e8baef75d28564e0b74ee10daa640639174b1ae935763302",
+              "size": "65557728"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32s3-libs-3.3.10.zip",
+              "archiveFileName": "esp32s3-libs-3.3.10.zip",
+              "checksum": "SHA-256:edee967acfbdba03e8baef75d28564e0b74ee10daa640639174b1ae935763302",
+              "size": "65557728"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32s3-libs-3.3.10.zip",
+              "archiveFileName": "esp32s3-libs-3.3.10.zip",
+              "checksum": "SHA-256:edee967acfbdba03e8baef75d28564e0b74ee10daa640639174b1ae935763302",
+              "size": "65557728"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32s3-libs-3.3.10.zip",
+              "archiveFileName": "esp32s3-libs-3.3.10.zip",
+              "checksum": "SHA-256:edee967acfbdba03e8baef75d28564e0b74ee10daa640639174b1ae935763302",
+              "size": "65557728"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32s3-libs-3.3.10.zip",
+              "archiveFileName": "esp32s3-libs-3.3.10.zip",
+              "checksum": "SHA-256:edee967acfbdba03e8baef75d28564e0b74ee10daa640639174b1ae935763302",
+              "size": "65557728"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/espressif/arduino-esp32/releases/download/3.3.10/esp32s3-libs-3.3.10.zip",
+              "archiveFileName": "esp32s3-libs-3.3.10.zip",
+              "checksum": "SHA-256:edee967acfbdba03e8baef75d28564e0b74ee10daa640639174b1ae935763302",
+              "size": "65557728"
             }
           ]
         },
@@ -49389,10 +50081,10 @@
     {
       "name": "SiliconLabs",
       "maintainer": "Silicon Labs",
-      "websiteURL": "https://github.com/SiliconLabs/arduino",
+      "websiteURL": "https://github.com/SiliconLabsSoftware/arduino",
       "email": "arduino@silabs.com",
       "help": {
-        "online": "https://github.com/SiliconLabs/arduino"
+        "online": "https://github.com/SiliconLabsSoftware/arduino"
       },
       "platforms": [
         {
@@ -49400,12 +50092,12 @@
           "architecture": "silabs",
           "version": "4.0.0",
           "category": "Silicon Labs",
-          "url": "https://github.com/SiliconLabs/arduino/releases/download/4.0.0/silabs_arduino_core-4.0.0.zst",
+          "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/4.0.0/silabs_arduino_core-4.0.0.zst",
           "archiveFileName": "silabs_arduino_core-4.0.0.zst",
           "checksum": "SHA-256:63947ef379284e7e98dc720afc777f345a3a63316b68a35514995bcc2e2ca513",
           "size": 602647107,
           "help": {
-            "online": "https://github.com/SiliconLabs/arduino"
+            "online": "https://github.com/SiliconLabsSoftware/arduino"
           },
           "boards": [
             {
@@ -49456,12 +50148,12 @@
           "architecture": "silabs",
           "version": "3.0.0",
           "category": "Silicon Labs",
-          "url": "https://github.com/SiliconLabs/arduino/releases/download/3.0.0/silabs_arduino_core-3.0.0.zst",
+          "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/3.0.0/silabs_arduino_core-3.0.0.zst",
           "archiveFileName": "silabs_arduino_core-3.0.0.zst",
           "checksum": "SHA-256:0de4aea5bccde87d8947a2b6108456821955e8b23abe863e3b684caa38a0cd6d",
           "size": 602042581,
           "help": {
-            "online": "https://github.com/SiliconLabs/arduino"
+            "online": "https://github.com/SiliconLabsSoftware/arduino"
           },
           "boards": [
             {
@@ -49512,12 +50204,12 @@
           "architecture": "silabs",
           "version": "2.3.0",
           "category": "Silicon Labs",
-          "url": "https://github.com/SiliconLabs/arduino/releases/download/2.3.0/silabs_arduino_core-2.3.0.zst",
+          "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/2.3.0/silabs_arduino_core-2.3.0.zst",
           "archiveFileName": "silabs_arduino_core-2.3.0.zst",
           "checksum": "SHA-256:8ac58ce29f485cec311c36cda3e32080c916c9657c13ddaff509cfc65f7e0c9b",
           "size": 454553410,
           "help": {
-            "online": "https://github.com/SiliconLabs/arduino"
+            "online": "https://github.com/SiliconLabsSoftware/arduino"
           },
           "boards": [
             {
@@ -49568,12 +50260,12 @@
           "architecture": "silabs",
           "version": "2.2.0",
           "category": "Silicon Labs",
-          "url": "https://github.com/SiliconLabs/arduino/releases/download/2.2.0/silabs_arduino_core-2.2.0.zst",
+          "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/2.2.0/silabs_arduino_core-2.2.0.zst",
           "archiveFileName": "silabs_arduino_core-2.2.0.zst",
           "checksum": "SHA-256:6ddf48877a3cdbbe6b5ad422ad0e1a15e50c3fe4e59f0bae33ad613b5e7520bc",
           "size": 448097201,
           "help": {
-            "online": "https://github.com/SiliconLabs/arduino"
+            "online": "https://github.com/SiliconLabsSoftware/arduino"
           },
           "boards": [
             {
@@ -49624,12 +50316,12 @@
           "architecture": "silabs",
           "version": "2.1.0",
           "category": "Silicon Labs",
-          "url": "https://github.com/SiliconLabs/arduino/releases/download/2.1.0/silabs_arduino_core-2.1.0.zst",
+          "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/2.1.0/silabs_arduino_core-2.1.0.zst",
           "archiveFileName": "silabs_arduino_core-2.1.0.zst",
           "checksum": "SHA-256:138248fe50e0066144fd660c258479abfd0518b048943dfbd9920f85c26f3aca",
           "size": 370773700,
           "help": {
-            "online": "https://github.com/SiliconLabs/arduino"
+            "online": "https://github.com/SiliconLabsSoftware/arduino"
           },
           "boards": [
             {
@@ -49677,12 +50369,12 @@
           "architecture": "silabs",
           "version": "2.0.0",
           "category": "Silicon Labs",
-          "url": "https://github.com/SiliconLabs/arduino/releases/download/2.0.0/silabs_arduino_core-2.0.0.zst",
+          "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/2.0.0/silabs_arduino_core-2.0.0.zst",
           "archiveFileName": "silabs_arduino_core-2.0.0.zst",
           "checksum": "SHA-256:75b9690f628cd9334c055ddb02ad559236732f3997ef59c87e833698830f19c7",
           "size": 320160894,
           "help": {
-            "online": "https://github.com/SiliconLabs/arduino"
+            "online": "https://github.com/SiliconLabsSoftware/arduino"
           },
           "boards": [
             {
@@ -49727,12 +50419,12 @@
           "architecture": "silabs",
           "version": "1.0.0",
           "category": "Silicon Labs",
-          "url": "https://github.com/SiliconLabs/arduino/releases/download/1.0.0/silabs_arduino_core-1.0.0.zip",
+          "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/1.0.0/silabs_arduino_core-1.0.0.zip",
           "archiveFileName": "silabs_arduino_core-1.0.0.zip",
           "checksum": "SHA-256:ce17d426c8783b9acc8fd74cb0b4d59a23b96427090aee2046bca39dd5008660",
           "size": "196725748",
           "help": {
-            "online": "https://github.com/SiliconLabs/arduino"
+            "online": "https://github.com/SiliconLabsSoftware/arduino"
           },
           "boards": [
             {
@@ -49769,35 +50461,35 @@
           "systems": [
             {
               "host": "aarch64-linux-gnu",
-              "url": "https://github.com/SiliconLabs/arduino/releases/download/2.0.0/arm-gnu-toolchain-12.2.rel1-aarch64-arm-none-eabi.tar.zst",
+              "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/2.0.0/arm-gnu-toolchain-12.2.rel1-aarch64-arm-none-eabi.tar.zst",
               "archiveFileName": "arm-gnu-toolchain-12.2.rel1-aarch64-arm-none-eabi.tar.zst",
               "checksum": "SHA-256:5bd04462c236d81d68da5179ae8aed8bb067f2d7be2d7ee278bc2ef2fab337bb",
               "size": "249798724"
             },
             {
               "host": "arm64-apple-darwin",
-              "url": "https://github.com/SiliconLabs/arduino/releases/download/2.0.0/arm-gnu-toolchain-12.2.rel1-darwin-arm64-arm-none-eabi.tar.zst",
+              "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/2.0.0/arm-gnu-toolchain-12.2.rel1-darwin-arm64-arm-none-eabi.tar.zst",
               "archiveFileName": "arm-gnu-toolchain-12.2.rel1-darwin-arm64-arm-none-eabi.tar.zst",
               "checksum": "SHA-256:9e9091454d81fc44ca090f4f5cbffeef8cb3d7541b83381198fc761c62029c41",
               "size": "184007579"
             },
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/SiliconLabs/arduino/releases/download/2.0.0/arm-gnu-toolchain-12.2.rel1-mingw-w64-i686-arm-none-eabi.zst",
+              "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/2.0.0/arm-gnu-toolchain-12.2.rel1-mingw-w64-i686-arm-none-eabi.zst",
               "archiveFileName": "arm-gnu-toolchain-12.2.rel1-mingw-w64-i686-arm-none-eabi.zst",
               "checksum": "SHA-256:0a8788cc3cdfcf8a03189dafc27c2936834bbbab3efc021eaf41c739eef4c253",
               "size": "279987372"
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://github.com/SiliconLabs/arduino/releases/download/2.0.0/arm-gnu-toolchain-12.2.rel1-darwin-x86_64-arm-none-eabi.tar.zst",
+              "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/2.0.0/arm-gnu-toolchain-12.2.rel1-darwin-x86_64-arm-none-eabi.tar.zst",
               "archiveFileName": "arm-gnu-toolchain-12.2.rel1-darwin-x86_64-arm-none-eabi.tar.zst",
               "checksum": "SHA-256:8c9d786e48427229c01df060dbf5ffb926fee39360e4773d0811118baef44506",
               "size": "191221203"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/SiliconLabs/arduino/releases/download/2.0.0/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi.tar.zst",
+              "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/2.0.0/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi.tar.zst",
               "archiveFileName": "arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi.tar.zst",
               "checksum": "SHA-256:9eb46cf29edb5bcd8b27ae0208f5313c40fd0ff1b8cbbb59cd7aa0c7326d9e5d",
               "size": "246980758"
@@ -49858,28 +50550,28 @@
           "systems": [
             {
               "host": "aarch64-linux-gnu",
-              "url": "https://github.com/SiliconLabs/arduino/releases/download/2.0.0/Commander_linux_aarch64_1v16p4b1564.tar.zst",
+              "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/2.0.0/Commander_linux_aarch64_1v16p4b1564.tar.zst",
               "archiveFileName": "Commander_linux_aarch64_1v16p4b1564.tar.zst",
               "checksum": "SHA-256:48cb158e8501bc0d0724cfcca8d7ecb10469ae87bcd6a19a0baa1a239b0da03c",
               "size": "20326380"
             },
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/SiliconLabs/arduino/releases/download/2.0.0/Commander_win32_x64_1v16p4b1564.tar.zst",
+              "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/2.0.0/Commander_win32_x64_1v16p4b1564.tar.zst",
               "archiveFileName": "Commander_win32_x64_1v16p4b1564.tar.zst",
               "checksum": "SHA-256:8f6272eda45cbc0e2d0a94ccc077def812e5b2bebc05ada02c2797cbe3222fa3",
               "size": "34107510"
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://github.com/SiliconLabs/arduino/releases/download/2.0.0/Commander_osx_1v16p4b1564.zip",
+              "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/2.0.0/Commander_osx_1v16p4b1564.zip",
               "archiveFileName": "Commander_osx_1v16p4b1564.zip",
               "checksum": "SHA-256:676d05d86b0e08d818707532b834b383623d469eb8a1d0eb1e4d6d76cf361f5f",
               "size": "50942568"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/SiliconLabs/arduino/releases/download/2.0.0/Commander_linux_x86_64_1v16p4b1564.tar.zst",
+              "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/2.0.0/Commander_linux_x86_64_1v16p4b1564.tar.zst",
               "archiveFileName": "Commander_linux_x86_64_1v16p4b1564.tar.zst",
               "checksum": "SHA-256:0d1a2136a824c2f3e9953573502cb80ff459647f41df04d17a30e42140432f8a",
               "size": "36553955"
@@ -49892,21 +50584,21 @@
           "systems": [
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/SiliconLabs/arduino/releases/download/1.0.0/Commander_win32_x64_1v14p5b1276.zip",
+              "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/1.0.0/Commander_win32_x64_1v14p5b1276.zip",
               "archiveFileName": "Commander_win32_x64_1v14p5b1276.zip",
               "checksum": "SHA-256:157471fe232654ccac21250769cd2e83c19c424495c28dd68614429bc2a87e23",
               "size": "33776387"
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://github.com/SiliconLabs/arduino/releases/download/1.0.0/Commander_osx_1v14p5b1276.tgz",
+              "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/1.0.0/Commander_osx_1v14p5b1276.tgz",
               "archiveFileName": "Commander_osx_1v14p5b1276.tgz",
               "checksum": "SHA-256:33fa3ad41fe44e1cdfd990521c501d52debfbb957c3baf0f9aa72856f0029eac",
               "size": "49738096"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/SiliconLabs/arduino/releases/download/1.0.0/Commander_linux_x86_64_1v14p5b1276.tar.bz",
+              "url": "https://github.com/SiliconLabsSoftware/arduino/releases/download/1.0.0/Commander_linux_x86_64_1v14p5b1276.tar.bz",
               "archiveFileName": "Commander_linux_x86_64_1v14p5b1276.tar.bz",
               "checksum": "SHA-256:8294b29387dd9045e19fe0e16590d4032bb5ee6718419460e2f9623dbec581e6",
               "size": "34568050"
@@ -49975,6 +50667,47 @@
       },
       "platforms": [],
       "tools": [
+        {
+          "name": "arm-zephyr-eabi",
+          "version": "1.0.1",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v1.0.1/toolchain_gnu_linux-aarch64_arm-zephyr-eabi.tar.xz",
+              "archiveFileName": "toolchain_gnu_linux-aarch64_arm-zephyr-eabi-1.0.1.tar.xz",
+              "checksum": "SHA-256:b9805b691f2f0a8926c92694cae378d05ba07b76abca745e216fcc52753cc4d6",
+              "size": 97253908
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v1.0.1/toolchain_gnu_macos-aarch64_arm-zephyr-eabi.tar.xz",
+              "archiveFileName": "toolchain_gnu_macos-aarch64_arm-zephyr-eabi-1.0.1.tar.xz",
+              "checksum": "SHA-256:4008edb5d4840cd994aedd7f1309bfb63e7243729d57839ebf1cc83c1f17c886",
+              "size": 89958448
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://downloads.arduino.cc/tools/zephyr/toolchain_gnu_windows-x86_64_arm-zephyr-eabi-1.0.1.tar.xz",
+              "archiveFileName": "toolchain_gnu_windows-x86_64_arm-zephyr-eabi-1.0.1.tar.xz",
+              "checksum": "SHA-256:0b2dcd1e6d613f4e043c659000a90520d82d6503d1161d8ea5ce8e78030b76b1",
+              "size": 107058736
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.17.4/toolchain_macos-x86_64_arm-zephyr-eabi.tar.xz",
+              "archiveFileName": "toolchain_macos-x86_64_arm-zephyr-eabi-0.17.4.tar.xz",
+              "checksum": "SHA-256:2bc24fff7b8ec3ed785022563e5d913191203a0bd32eeb38903840bfdef4b955",
+              "size": 109852768
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v1.0.1/toolchain_gnu_linux-x86_64_arm-zephyr-eabi.tar.xz",
+              "archiveFileName": "toolchain_gnu_linux-x86_64_arm-zephyr-eabi-1.0.1.tar.xz",
+              "checksum": "SHA-256:21b85981cb5a1818d9bc53d82af80f208946ec038b982ff1907287572ed3a634",
+              "size": 101752776
+            }
+          ]
+        },
         {
           "name": "arm-zephyr-eabi",
           "version": "0.16.8",
