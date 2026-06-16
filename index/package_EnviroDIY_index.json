@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://github.com/EnviroDIY/Arduino_boards/raw/master/EnviroDIYAVRBoards/envirodiyatmegaboards-2.1.1.zip",
           "archiveFileName": "envirodiyatmegaboards-2.1.1.zip",
-          "checksum": "SHA-256:9c997e4a91928f13f33f5ae26c8ce3a0f33fa0f94abeade5d47087a47100542b",
-          "size": 47271,
+          "checksum": "SHA-256:8697197232d8ad051ecb19feda6991e6259811c17b705b80779c7bfcbe26a719",
+          "size": 47270,
           "boards": [
             {
               "name": "mayfly"
@@ -103,7 +103,7 @@
           "category": "Contributed",
           "url": "https://github.com/EnviroDIY/Arduino_boards/raw/master/EnviroDIYSAMDBoards/envirodiysamdboards-0.4.1.zip",
           "archiveFileName": "envirodiysamdboards-0.4.1.zip",
-          "checksum": "SHA-256:f8ad44425ee6314ccaad8f33ec8ef5ce893eaa0b14d7ec77589bccda1392cbf6",
+          "checksum": "SHA-256:8e2e8880d953059079db99f27a54aa86722bdf2a602c4fb827db90407c423229",
           "size": 132539,
           "boards": [
             {
