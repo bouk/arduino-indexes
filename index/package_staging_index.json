@@ -35358,6 +35358,75 @@
         },
         {
           "name": "serial-discovery",
+          "version": "1.5.0",
+          "systems": [
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://downloads.arduino.cc/discovery/serial-discovery/serial-discovery_v1.5.0_Linux_ARMv6.tar.gz",
+              "archiveFileName": "serial-discovery_v1.5.0_Linux_ARMv6.tar.gz",
+              "checksum": "SHA-256:5e0bc501f468f68c1fa360c809bbcccf04e5ea66246e8261f741f1747ab3c053",
+              "size": 1991094
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://downloads.arduino.cc/discovery/serial-discovery/serial-discovery_v1.5.0_macOS_ARM64.tar.gz",
+              "archiveFileName": "serial-discovery_v1.5.0_macOS_ARM64.tar.gz",
+              "checksum": "SHA-256:3d86e7321f6145af0e993d3a377c72cb024044a68e4ff178de16eeae989a9fda",
+              "size": 2084404
+            },
+            {
+              "host": "arm64-linux-gnueabihf",
+              "url": "https://downloads.arduino.cc/discovery/serial-discovery/serial-discovery_v1.5.0_Linux_ARM64.tar.gz",
+              "archiveFileName": "serial-discovery_v1.5.0_Linux_ARM64.tar.gz",
+              "checksum": "SHA-256:2a19dcf718b5f9b1612cc33c8fec19822e1229bc4cba12dd4f03003d368c56e4",
+              "size": 1997828
+            },
+            {
+              "host": "arm64-mingw32",
+              "url": "https://downloads.arduino.cc/discovery/serial-discovery/serial-discovery_v1.5.0_Windows_ARM64.zip",
+              "archiveFileName": "serial-discovery_v1.5.0_Windows_ARM64.zip",
+              "checksum": "SHA-256:b9ddd0cd59bcceff8d08199655af93321543b62bd17d5699d4489934552b19ea",
+              "size": 2116400
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://downloads.arduino.cc/discovery/serial-discovery/serial-discovery_v1.5.0_Windows_32bit.zip",
+              "archiveFileName": "serial-discovery_v1.5.0_Windows_32bit.zip",
+              "checksum": "SHA-256:d33b9cba0de9864b325c55b10839da4a3d365db0aee4a82f3449e565fa501a79",
+              "size": 2211880
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://downloads.arduino.cc/discovery/serial-discovery/serial-discovery_v1.5.0_Linux_32bit.tar.gz",
+              "archiveFileName": "serial-discovery_v1.5.0_Linux_32bit.tar.gz",
+              "checksum": "SHA-256:3ab92e98e5aeb4075c0178b662d1432cf057183f93272b6cef548f9c46f906ef",
+              "size": 2055686
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://downloads.arduino.cc/discovery/serial-discovery/serial-discovery_v1.5.0_macOS_64bit.tar.gz",
+              "archiveFileName": "serial-discovery_v1.5.0_macOS_64bit.tar.gz",
+              "checksum": "SHA-256:6b78f30c14b6cd638ee26c2854d03f6457a8be8c3435e40509722bb80cf4ab18",
+              "size": 2324860
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://downloads.arduino.cc/discovery/serial-discovery/serial-discovery_v1.5.0_Windows_64bit.zip",
+              "archiveFileName": "serial-discovery_v1.5.0_Windows_64bit.zip",
+              "checksum": "SHA-256:139c0db92fe54082df6eedfa123217c1a06f51155d04f3a55cf5406ad7527846",
+              "size": 2300615
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://downloads.arduino.cc/discovery/serial-discovery/serial-discovery_v1.5.0_Linux_64bit.tar.gz",
+              "archiveFileName": "serial-discovery_v1.5.0_Linux_64bit.tar.gz",
+              "checksum": "SHA-256:ca259546a7432496ca5c7dde117e8adfb07c48bd1b0a837ef7719a306ef2d0c3",
+              "size": 2161284
+            }
+          ]
+        },
+        {
+          "name": "serial-discovery",
           "version": "1.4.3",
           "systems": [
             {
