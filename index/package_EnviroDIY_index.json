@@ -19,7 +19,7 @@
           },
           "url": "https://github.com/EnviroDIY/Arduino_boards/raw/master/EnviroDIYAVRBoards/envirodiyatmegaboards-2.1.2.zip",
           "archiveFileName": "envirodiyatmegaboards-2.1.2.zip",
-          "checksum": "SHA-256:e6cab527c8ad67e12aa9b4dbfff4b238dd8d5844e5b3e58681cc94812d858ff2",
+          "checksum": "SHA-256:fc46000cd406a1ccf57b3a20b861011514d1b53d31e12b14b41104c896ec8cca",
           "size": "47319",
           "boards": [
             {
@@ -153,8 +153,8 @@
           },
           "url": "https://github.com/EnviroDIY/Arduino_boards/raw/master/EnviroDIYSAMDBoards/envirodiysamdboards-0.4.2-DEV.zip",
           "archiveFileName": "envirodiysamdboards-0.4.2-DEV.zip",
-          "checksum": "SHA-256:7d384796696b83e5994ac5fa08a0fdabc2182f96f71428749a9e98387455fdbc",
-          "size": "253546",
+          "checksum": "SHA-256:0a76af475c4911c7aedb7d260c7cc2101d570ec0f0a0e01260b45e662f8d0a4d",
+          "size": "253560",
           "boards": [
             {
               "name": "EnviroDIY Stonefly v0.3.7 beta"
