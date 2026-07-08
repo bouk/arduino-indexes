@@ -35465,6 +35465,75 @@
         },
         {
           "name": "mdns-discovery",
+          "version": "1.1.0",
+          "systems": [
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.1.0_Linux_ARMv6.tar.gz",
+              "archiveFileName": "mdns-discovery_v1.1.0_Linux_ARMv6.tar.gz",
+              "checksum": "SHA-256:1778b80e74841340603f592bca1f7e8f30e0539e7995c43cc6c59fcd2c6fb51a",
+              "size": 3074875
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.1.0_macOS_ARM64.tar.gz",
+              "archiveFileName": "mdns-discovery_v1.1.0_macOS_ARM64.tar.gz",
+              "checksum": "SHA-256:f6a221b01024f15de3370a6f3a7efe75f3ac745aef4d8cbb623ddbd57b13526c",
+              "size": 3088630
+            },
+            {
+              "host": "arm64-linux-gnueabihf",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.1.0_Linux_ARM64.tar.gz",
+              "archiveFileName": "mdns-discovery_v1.1.0_Linux_ARM64.tar.gz",
+              "checksum": "SHA-256:19597d8d15aac922813b34064deb870c0e5efc08d7430d15c8501768890f7725",
+              "size": 2990900
+            },
+            {
+              "host": "arm64-mingw32",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.1.0_Windows_ARM64.zip",
+              "archiveFileName": "mdns-discovery_v1.1.0_Windows_ARM64.zip",
+              "checksum": "SHA-256:40ca3beb4b8ebd4ebc48614b8462ff853324ab31444b4f640b6b172c7177a3ef",
+              "size": 3063623
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.1.0_Windows_32bit.zip",
+              "archiveFileName": "mdns-discovery_v1.1.0_Windows_32bit.zip",
+              "checksum": "SHA-256:59600b17e8ecfb6bb69118a50af2773bce0303557f76cf0f4c01a98ac22f079a",
+              "size": 3307305
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.1.0_Linux_32bit.tar.gz",
+              "archiveFileName": "mdns-discovery_v1.1.0_Linux_32bit.tar.gz",
+              "checksum": "SHA-256:d002e242d4b956c007faa5e6aa7b35cf2f9ca0cb285df2a0ea09afe7ead51102",
+              "size": 3183390
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.1.0_macOS_64bit.tar.gz",
+              "archiveFileName": "mdns-discovery_v1.1.0_macOS_64bit.tar.gz",
+              "checksum": "SHA-256:6815f6d1fdee1472d2a5cbc52692ee899fcc6a5b340fb07005de390c9578ad20",
+              "size": 3327624
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.1.0_Windows_64bit.zip",
+              "archiveFileName": "mdns-discovery_v1.1.0_Windows_64bit.zip",
+              "checksum": "SHA-256:20a96d21dbc711710a23bc36ec86f906df172f66b0f8d23d9e4f72ebea44a24d",
+              "size": 3322320
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://downloads.arduino.cc/discovery/mdns-discovery/mdns-discovery_v1.1.0_Linux_64bit.tar.gz",
+              "archiveFileName": "mdns-discovery_v1.1.0_Linux_64bit.tar.gz",
+              "checksum": "SHA-256:6966f406e5b6e80d82a388706d6d9d8a63d46035d19d1e6b4fb1ebeaf7fea056",
+              "size": 3220729
+            }
+          ]
+        },
+        {
+          "name": "mdns-discovery",
           "version": "1.0.12",
           "systems": [
             {
