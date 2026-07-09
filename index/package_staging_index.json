@@ -34865,6 +34865,75 @@
           ]
         },
         {
+          "name": "scripting-tools",
+          "version": "0.0.7",
+          "systems": [
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://downloads.arduino.cc/scripting-tools/scripting-tools_v0.0.7_Linux_ARMv6.tar.gz",
+              "archiveFileName": "scripting-tools_v0.0.7_Linux_ARMv6.tar.gz",
+              "checksum": "SHA-256:a495b51c383b92e0d5bc81c4c11b06a7b96cfd197803c51d2d6a5dae8b0322f6",
+              "size": 1635636
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://downloads.arduino.cc/scripting-tools/scripting-tools_v0.0.7_macOS_ARM64.tar.gz",
+              "archiveFileName": "scripting-tools_v0.0.7_macOS_ARM64.tar.gz",
+              "checksum": "SHA-256:707acda2f1b2ca8008e284063cc3167b37003c069570a7a26c619a5cf907eae3",
+              "size": 1644719
+            },
+            {
+              "host": "arm64-linux-gnueabihf",
+              "url": "https://downloads.arduino.cc/scripting-tools/scripting-tools_v0.0.7_Linux_ARM64.tar.gz",
+              "archiveFileName": "scripting-tools_v0.0.7_Linux_ARM64.tar.gz",
+              "checksum": "SHA-256:ba0ec1d1fabdd6cd443762c153ed0be9ea9ae31270c7638353f1f1f501e08294",
+              "size": 1634336
+            },
+            {
+              "host": "arm64-mingw32",
+              "url": "https://downloads.arduino.cc/scripting-tools/scripting-tools_v0.0.7_Windows_ARM64.zip",
+              "archiveFileName": "scripting-tools_v0.0.7_Windows_ARM64.zip",
+              "checksum": "SHA-256:e707f16132c32dec1fe52c55d1777aa32508968d150382cbdf0b045c18a41b29",
+              "size": 1869847
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://downloads.arduino.cc/scripting-tools/scripting-tools_v0.0.7_Windows_32bit.zip",
+              "archiveFileName": "scripting-tools_v0.0.7_Windows_32bit.zip",
+              "checksum": "SHA-256:3fb6bb66dabe81473561d4eb6b8eadc14e11c667a12a4d3df20b6b902b87d7f3",
+              "size": 1963026
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://downloads.arduino.cc/scripting-tools/scripting-tools_v0.0.7_Linux_32bit.tar.gz",
+              "archiveFileName": "scripting-tools_v0.0.7_Linux_32bit.tar.gz",
+              "checksum": "SHA-256:f06c3104ca1cbc24d5b1e3cf05ded14404ed4fcb3d050acad8cf294c32a47b47",
+              "size": 1694311
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://downloads.arduino.cc/scripting-tools/scripting-tools_v0.0.7_macOS_64bit.tar.gz",
+              "archiveFileName": "scripting-tools_v0.0.7_macOS_64bit.tar.gz",
+              "checksum": "SHA-256:4e7f16ca3a849e3b175f39ad718014badc2970ab22a2410e84244de46cd6463f",
+              "size": 1779251
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://downloads.arduino.cc/scripting-tools/scripting-tools_v0.0.7_Windows_64bit.zip",
+              "archiveFileName": "scripting-tools_v0.0.7_Windows_64bit.zip",
+              "checksum": "SHA-256:6b1dc3555304a332036584ab6127c955df207b21644dd8d5433c573091197427",
+              "size": 2028472
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://downloads.arduino.cc/scripting-tools/scripting-tools_v0.0.7_Linux_64bit.tar.gz",
+              "archiveFileName": "scripting-tools_v0.0.7_Linux_64bit.tar.gz",
+              "checksum": "SHA-256:f83bb3c6850778a250827b4e5ea29576d06e574e5840adf94651a97ba7338180",
+              "size": 1774065
+            }
+          ]
+        },
+        {
           "name": "sync-zephyr-artifacts",
           "version": "0.2.1",
           "systems": [
