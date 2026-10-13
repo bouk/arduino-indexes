@@ -496010,6 +496010,35 @@
       "checksum": "SHA-256:d4d55f0795df46f2b805dcf138d94b3a484fc841b8185953cbd899f5186f87cb"
     },
     {
+      "name": "tcMenu",
+      "version": "5.0.1",
+      "author": "davetcc",
+      "maintainer": "www.thecoderscorner.com",
+      "sentence": "Menu library for Arduino with IoT capabilities that supports many input and display devices with a designer UI, code generator, CLI, and strong remote control capability.",
+      "paragraph": "Menu library for Arduino with IoT capabilities supporting full multi level navigation. Complete with a designer UI and CLI that can round trip. It has plugins for Adafruit_GFX, U8G2, TFT_eSPI and LiquidCrystalIO. Input is supported from Touch, Rotary Encoder, Digital / Analog joysticks, DfRobot, Keypad and more. Any menu can be remotely using embedCONTROL UI / API over Ethernet2, UIP, STM32 Ethernet and Serial / Bluetooth. Even works with no local display for remote control only.",
+      "website": "https://github.com/TcMenu/tcMenuLib",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/TcMenu/tcMenuLib.git",
+      "dependencies": [
+        {
+          "name": "IoAbstraction"
+        },
+        {
+          "name": "tcUnicodeHelper"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/TcMenu/tcMenu-5.0.1.zip",
+      "archiveFileName": "tcMenu-5.0.1.zip",
+      "size": 691543,
+      "checksum": "SHA-256:813c9ec733787d811a615d4d44f624eaafe1c6e39a6fa0613945d086cfd5718e"
+    },
+    {
       "name": "MQ131 gas sensor",
       "version": "1.3.0",
       "author": "Olivier Staquet",
@@ -515801,6 +515830,30 @@
       "archiveFileName": "PCF8574-0.4.5.zip",
       "size": 6084932,
       "checksum": "SHA-256:8a858f400cb60e964e99a8fb4b068feb9b2159642ed6df7fdf856e7cf24ce097"
+    },
+    {
+      "name": "PCF8574",
+      "version": "0.4.6",
+      "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "sentence": "Arduino library for PCF8574 - 8 channel I2C IO expander",
+      "paragraph": "Implements shift, rotate and toggle.",
+      "website": "https://github.com/RobTillaart/PCF8574.git",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RobTillaart/PCF8574.git",
+      "providesIncludes": [
+        "PCF8574.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/PCF8574-0.4.6.zip",
+      "archiveFileName": "PCF8574-0.4.6.zip",
+      "size": 6088123,
+      "checksum": "SHA-256:48764a4ec36cc22186c93040a57431907b881428c07d688529c7e62ae5a75eaa"
     },
     {
       "name": "TsicSensor",
@@ -627992,6 +628045,29 @@
       "checksum": "SHA-256:e6e6b38e30c04ba1d46db0bd258752a234a6029471b2cebab2c8ee00e5020496"
     },
     {
+      "name": "ESP32 HUB75 LED MATRIX PANEL DMA Display",
+      "version": "3.1.0",
+      "author": "MrCodetastic",
+      "maintainer": "MrCodetastic",
+      "sentence": "HUB75 LED Matrix Library for ESP32, ESP32-S2 and ESP32-S3",
+      "paragraph": "An Adafruit GFX compatible library for LED matrix modules which uses DMA for ultra-fast refresh rates and therefore very low CPU usage.",
+      "website": "https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "esp32s2",
+        "esp32s3"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/mrcodetastic/ESP32_HUB75_LED_MATRIX_PANEL_DMA_Display-3.1.0.zip",
+      "archiveFileName": "ESP32_HUB75_LED_MATRIX_PANEL_DMA_Display-3.1.0.zip",
+      "size": 2491582,
+      "checksum": "SHA-256:fc7eabeeef14f0c9583ddc50604fb8b5c0c71c62ef1f404a5298c4a653f7d2e0"
+    },
+    {
       "name": "SparkFun u-blox Arduino Library",
       "version": "1.8.7",
       "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
@@ -737665,6 +737741,31 @@
       "checksum": "SHA-256:5fd67ffe1fb7d61394f034023e5e7cea306915691373d85c42dd991b587f5619"
     },
     {
+      "name": "libasm",
+      "version": "1.6.67",
+      "author": "Tadashi G. Takaoka",
+      "maintainer": "Tadashi G. Takaoka \u003ctadashi.g.takaoka@gmail.com\u003e",
+      "license": "Apache-2.0",
+      "sentence": "Cross assembler and disassembler for retro CPUs",
+      "paragraph": "With this, you can integrate assembler or disassembler into your sketch. Supported CPUs are AM29000, CDP1802, CP1600, F3850, H16, H8300, H8500, I8048, I8051, I8080, I8086, I8096, INS8060, INS8070, MC6800, MC68000, MC6805, MC6809, MC68HC12, MC68HC16, MN1610, MOS6502, NS32000, PDP11, PDP8, SCN2650, SUPERH, TLCS90, TLCS900, TMS320, TMS320F, TMS370, TMS7000, TMS9900, Z280, Z380, Z8, Z80, Z8000",
+      "website": "https://github.com/tgtakaoka/libasm",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tgtakaoka/libasm.git",
+      "providesIncludes": [
+        "libasm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.67.zip",
+      "archiveFileName": "libasm-1.6.67.zip",
+      "size": 13896218,
+      "checksum": "SHA-256:4ad23d7349f463834e6e3cde0bce03a9caed5b03bfaf3f0eb723ab00e7dd4585"
+    },
+    {
       "name": "SparkFun AVR ISP Programming Library",
       "version": "1.0.0",
       "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
@@ -772984,6 +773085,27 @@
       "archiveFileName": "TheengsDecoder-2.4.5.zip",
       "size": 4155035,
       "checksum": "SHA-256:a77628d63c8c41e6069e55221bd6c6443819e0ba835eea18f2f2d293e2505ce1"
+    },
+    {
+      "name": "TheengsDecoder",
+      "version": "2.5.0",
+      "author": "Florian Robert, Ryan Powell",
+      "maintainer": "Florian Robert",
+      "sentence": "A simple, efficient, portable and lightweight library for Internet of Things messages decoding.",
+      "paragraph": "Theengs Decoder library translates sensors data chains into human readable data leveraging the well known data interchange format JSON. This format can easily be integrated into different systems or software.",
+      "website": "https://github.com/theengs/decoder",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/theengs/decoder.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/theengs/TheengsDecoder-2.5.0.zip",
+      "archiveFileName": "TheengsDecoder-2.5.0.zip",
+      "size": 4155179,
+      "checksum": "SHA-256:c7595668cfd289daedf1c8cd4f7b0b1752bf710a72c676ce203a6e35e8603efb"
     },
     {
       "name": "Nano_Every_WS2812B",
@@ -843534,6 +843656,39 @@
       "archiveFileName": "pfodParser-5.1.11.zip",
       "size": 8303140,
       "checksum": "SHA-256:3919024a7c518aa930fd3c03d168b5ef66af99ad411928e04d7a9d5d6b654d8d"
+    },
+    {
+      "name": "pfodParser",
+      "version": "5.1.12",
+      "author": "Matthew Ford",
+      "maintainer": "Matthew Ford",
+      "sentence": "A library to parse pfod messages sent from pfodApp / pfodWeb.html and includes pfodWeb.html which connects via Serial, BLE, Tcp/Ip and HTTP to display interactive menus and GUI's in your browser.",
+      "paragraph": "pfodParser serves GUI's to pfodWeb.html and handles the user's commands.  pfodWeb.html is open source and does not need an internet connection. It runs in your browser and connects via Serial, BLE, TCP/IP socket or HTTP to display an interactive GUI to control your board, completely defined by your board sketch.",
+      "website": "https://github.com/drmpf/pfodParser",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/drmpf/pfodParser.git",
+      "providesIncludes": [
+        "pfodParser.h",
+        "pfodSecurity.h",
+        "pfodControl.h",
+        "pfodDelay.h",
+        "pfodDwgs.h",
+        "pfodEEPROM.h",
+        "pfodStreamString.h",
+        "ESP_PicoW_LittleFSsupport.h",
+        "ESP_PicoW_pfodAppServer.h",
+        "ESP_PicoW_pfodWebServer.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/drmpf/pfodParser-5.1.12.zip",
+      "archiveFileName": "pfodParser-5.1.12.zip",
+      "size": 8308566,
+      "checksum": "SHA-256:fe929b064462d471a7e5aa88dc17fb34ddf86239188aea9c372fe3409c920c4e"
     },
     {
       "name": "Air Commander Entire Control",
@@ -1021427,6 +1021582,39 @@
       "checksum": "SHA-256:13a5e55fb7a262191cb5ccd0d04cb6b91754aff37f011139ab8d9453c85caf9d"
     },
     {
+      "name": "IOSignal",
+      "version": "6.0.1",
+      "author": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "maintainer": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "sentence": "IOSignal Arduino Client.",
+      "paragraph": "Support Uno Ethernet,Uno R4 WiFi, ESP8266 and ESP32.",
+      "website": "https://github.com/remocons/iosignal-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/remocons/iosignal-arduino.git",
+      "dependencies": [
+        {
+          "name": "Boho",
+          "version": "\u003e=1.0.0"
+        },
+        {
+          "name": "Crypto"
+        },
+        {
+          "name": "Bounce2"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-6.0.1.zip",
+      "archiveFileName": "IOSignal-6.0.1.zip",
+      "size": 1412635,
+      "checksum": "SHA-256:90b701341c1ca25adcabb8f7c437301848f65355ac41fe1ae6e00225fc018e50"
+    },
+    {
       "name": "SpeeduinoGL",
       "version": "0.0.1",
       "author": "Benjamin Gombala",
@@ -1026158,6 +1026346,56 @@
       "archiveFileName": "Remocon-3.0.0.zip",
       "size": 50200,
       "checksum": "SHA-256:60db9573fa34729def30ea0f6e9371d52ad2dd7c8c9f352c03edbe1a0b1f44b7"
+    },
+    {
+      "name": "Remocon",
+      "version": "3.0.1",
+      "author": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "maintainer": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "sentence": "IOSignal Arduino examples for remocon.kr and test.iosignal.net.",
+      "paragraph": "Control DIY Arduino IoT remote control system with the web app.",
+      "website": "https://github.com/remocons/remocon-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/remocons/remocon-arduino.git",
+      "dependencies": [
+        {
+          "name": "IOSignal"
+        },
+        {
+          "name": "Crypto"
+        },
+        {
+          "name": "Boho"
+        },
+        {
+          "name": "Bounce2"
+        },
+        {
+          "name": "U8g2"
+        },
+        {
+          "name": "IRremote"
+        },
+        {
+          "name": "WiFiManager"
+        },
+        {
+          "name": "FastLED"
+        },
+        {
+          "name": "Ethernet"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/remocons/Remocon-3.0.1.zip",
+      "archiveFileName": "Remocon-3.0.1.zip",
+      "size": 1426387,
+      "checksum": "SHA-256:9406bdbfe72c97b980e97c56a3c59456c765171af4d33284cb1ebd3deaab35ca"
     },
     {
       "name": "SimplifiedTimer",
@@ -1159754,6 +1159992,41 @@
       "checksum": "SHA-256:70e24bf24452195d7ab55ffb360ba2949e94a9ec39be1a021f3679900311c117"
     },
     {
+      "name": "M5Unit-WEIGHT",
+      "version": "0.2.0",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT WEIGHT using M5UnitUnified",
+      "paragraph": "Supports UnitWeightI2C (SKU:U180) and MiniScales (SKU:U177) for weight measurement with configurable filters and calibration.",
+      "website": "https://github.com/m5stack/M5Unit-WEIGHT",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-WEIGHT.git",
+      "providesIncludes": [
+        "M5UnitUnifiedWEIGHT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_WEIGHT-0.2.0.zip",
+      "archiveFileName": "M5Unit_WEIGHT-0.2.0.zip",
+      "size": 84245,
+      "checksum": "SHA-256:c1166ef53f55a577528bd4f7144610aa76539c859fff3dcf0303d78ebb1818db"
+    },
+    {
       "name": "M5Unit-TOF",
       "version": "0.0.1",
       "author": "M5Stack",
@@ -1159892,6 +1160165,41 @@
       "archiveFileName": "M5Unit_TOF-0.2.1.zip",
       "size": 81394,
       "checksum": "SHA-256:9fccb050649f4c3c1fcbc811aadf3b06007fd7c34ad48190a56960a58464ae4b"
+    },
+    {
+      "name": "M5Unit-TOF",
+      "version": "0.3.0",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT TOF using M5UnitUnified",
+      "paragraph": "Supports VL53L0X (UnitToF SKU:U010, HatToF SKU:U072, UnitToF90 SKU:U196) and VL53L1X (UnitToF4M SKU:U172) Time-of-Flight ranging sensors.",
+      "website": "https://github.com/m5stack/M5Unit-TOF",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-TOF.git",
+      "providesIncludes": [
+        "M5UnitUnifiedTOF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_TOF-0.3.0.zip",
+      "archiveFileName": "M5Unit_TOF-0.3.0.zip",
+      "size": 103693,
+      "checksum": "SHA-256:223b8976478f2e2d166857c1ad978482a8e4101e84f5b8719d250b3c23cf3517"
     },
     {
       "name": "Adafruit VCNL4200 Library",
@@ -1195700,6 +1196008,41 @@
       "checksum": "SHA-256:a9dc849be78570d4ab4d51725f95178ab2781870913828645571307335cba5f7"
     },
     {
+      "name": "M5Unit-ANADIG",
+      "version": "0.4.0",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT ADC,DAC using M5UnitUnified",
+      "paragraph": "Supports ADS1100 (HatADC, SKU:U069), ADS1110 (UnitADC v1.1 SKU:U013-V11, HatADC v1.1 SKU:U069-V11), MCP4725 (UnitDAC, SKU:U012), and GP8413 (UnitDAC2 SKU:U012-B, HatDAC2 SKU:U068-B) for analog I/O.",
+      "website": "https://github.com/m5stack/M5Unit-ANADIG",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-ANADIG.git",
+      "providesIncludes": [
+        "M5UnitUnifiedANADIG.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_ANADIG-0.4.0.zip",
+      "archiveFileName": "M5Unit_ANADIG-0.4.0.zip",
+      "size": 104138,
+      "checksum": "SHA-256:d03c99c8e6297b121c214bfb9c80212a30280cfe81f9e1b081e18d0d20fe52e9"
+    },
+    {
       "name": "M5Unit-COLOR",
       "version": "0.0.1",
       "author": "M5Stack",
@@ -1195801,6 +1196144,41 @@
       "archiveFileName": "M5Unit_COLOR-0.1.1.zip",
       "size": 64419,
       "checksum": "SHA-256:4d27c7bc28dffc02f919da9c2fe908493f4dbff561a5014bab5285c23604a684"
+    },
+    {
+      "name": "M5Unit-COLOR",
+      "version": "0.2.0",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT COLOR using M5UnitUnified",
+      "paragraph": "Supports TCS34725 (SKU:U009) and TCS34727 color sensors for RGBC measurement, lux, and color temperature calculation.",
+      "website": "https://github.com/m5stack/M5Unit-COLOR",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-COLOR.git",
+      "providesIncludes": [
+        "M5UnitUnifiedCOLOR.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_COLOR-0.2.0.zip",
+      "archiveFileName": "M5Unit_COLOR-0.2.0.zip",
+      "size": 87390,
+      "checksum": "SHA-256:20dcba325434e0f0dc8f799a4f07462537274c2d03b255d4c99d99a9e2843120"
     },
     {
       "name": "AS5040",
@@ -1217288,6 +1217666,90 @@
       "archiveFileName": "RockBLOCK_9704-1.0.2.zip",
       "size": 949228,
       "checksum": "SHA-256:f95fbaf08f3ad67b5579697dc0cc67fbb4f0a94045d15823aee08cdd30540aec"
+    },
+    {
+      "name": "RockBLOCK-9704",
+      "version": "1.1.0",
+      "author": "Ground Control",
+      "maintainer": "help@groundcontrol.com",
+      "sentence": "Rockblock 9704 IMT communication library.",
+      "paragraph": "This library provides useful functions for connecting to a RockBLOCK9704 via Serial, checking modem information, sending messages via Iridium IMT and receiving messages.",
+      "website": "https://github.com/rock7/RockBLOCK-9704",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rock7/RockBLOCK-9704.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/rock7/RockBLOCK_9704-1.1.0.zip",
+      "archiveFileName": "RockBLOCK_9704-1.1.0.zip",
+      "size": 1005720,
+      "checksum": "SHA-256:651d9644c517616e7128e6acaee048f2146eed02e681caf449944f91009f9658"
+    },
+    {
+      "name": "RockBLOCK-9704",
+      "version": "1.1.1",
+      "author": "Ground Control",
+      "maintainer": "help@groundcontrol.com",
+      "sentence": "Rockblock 9704 IMT communication library.",
+      "paragraph": "This library provides useful functions for connecting to a RockBLOCK9704 via Serial, checking modem information, sending messages via Iridium IMT and receiving messages.",
+      "website": "https://github.com/rock7/RockBLOCK-9704",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rock7/RockBLOCK-9704.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/rock7/RockBLOCK_9704-1.1.1.zip",
+      "archiveFileName": "RockBLOCK_9704-1.1.1.zip",
+      "size": 1005717,
+      "checksum": "SHA-256:70b656396d16513fd2d1b983d9cb0a390e85866c6426d4d3881a9a86680cdd3b"
+    },
+    {
+      "name": "RockBLOCK-9704",
+      "version": "1.1.2",
+      "author": "Ground Control",
+      "maintainer": "help@groundcontrol.com",
+      "sentence": "Rockblock 9704 IMT communication library.",
+      "paragraph": "This library provides useful functions for connecting to a RockBLOCK9704 via Serial, checking modem information, sending messages via Iridium IMT and receiving messages.",
+      "website": "https://github.com/rock7/RockBLOCK-9704",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rock7/RockBLOCK-9704.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/rock7/RockBLOCK_9704-1.1.2.zip",
+      "archiveFileName": "RockBLOCK_9704-1.1.2.zip",
+      "size": 1005721,
+      "checksum": "SHA-256:acbdfe822a9a3b0a945384f9f1e0314f2a06ac99697f79cbe68cf409d781b483"
+    },
+    {
+      "name": "RockBLOCK-9704",
+      "version": "1.1.4",
+      "author": "Ground Control",
+      "maintainer": "help@groundcontrol.com",
+      "sentence": "Rockblock 9704 IMT communication library.",
+      "paragraph": "This library provides useful functions for connecting to a RockBLOCK9704 via Serial, checking modem information, sending messages via Iridium IMT and receiving messages.",
+      "website": "https://github.com/rock7/RockBLOCK-9704",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rock7/RockBLOCK-9704.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/rock7/RockBLOCK_9704-1.1.4.zip",
+      "archiveFileName": "RockBLOCK_9704-1.1.4.zip",
+      "size": 1005719,
+      "checksum": "SHA-256:10c2809152aed6febbb207f04470139eb5c2e6a0d46341bec2102d8464ad4611"
     },
     {
       "name": "htcw_mpm_parser",
@@ -1287426,6 +1287888,117 @@
       "checksum": "SHA-256:8725fb833340bb635a230698aea93a3a554b2068d1984096ed8ea0a338ac627d"
     },
     {
+      "name": "DFPongController",
+      "version": "2.0.0",
+      "author": "Digital Futures OCAD U",
+      "maintainer": "Digital Futures OCAD U",
+      "sentence": "BLE controller library for the DF Pong game.",
+      "paragraph": "Support library for BLE Pong Controllers that control the online game df-pong. Version 2 adds player settings (name, color, paddle speed and size, custom sounds) and game rule requests, and handles the connection handshake automatically. Supports Arduino Nano 33 IoT, Nano 33 BLE, UNO R4 WiFi, and ESP32 (NimBLE-Arduino 2.x).",
+      "website": "https://github.com/DigitalFuturesOCADU/df-pong-controller",
+      "category": "Communication",
+      "architectures": [
+        "samd",
+        "nrf52",
+        "mbed",
+        "mbed_nano",
+        "renesas_uno",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DigitalFuturesOCADU/df-pong-controller.git",
+      "providesIncludes": [
+        "DFPongController.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoBLE"
+        },
+        {
+          "name": "NimBLE-Arduino"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.0.0.zip",
+      "archiveFileName": "DFPongController-2.0.0.zip",
+      "size": 62657,
+      "checksum": "SHA-256:b42c47b1c189e2178841037cbe90e9e8c09c33a9c0537580748d5e2fde37d9df"
+    },
+    {
+      "name": "DFPongController",
+      "version": "2.1.0",
+      "author": "Digital Futures OCAD U",
+      "maintainer": "Digital Futures OCAD U",
+      "sentence": "BLE controller library for the DF Pong game.",
+      "paragraph": "Support library for BLE Pong Controllers that control the online game df-pong. Version 2 adds player settings (name, color, paddle speed and size, custom sounds and background music) and game rule requests, and handles the connection handshake automatically. Supports Arduino Nano 33 IoT, Nano 33 BLE, UNO R4 WiFi, and ESP32 (NimBLE-Arduino 2.x).",
+      "website": "https://github.com/DigitalFuturesOCADU/df-pong-controller",
+      "category": "Communication",
+      "architectures": [
+        "samd",
+        "nrf52",
+        "mbed",
+        "mbed_nano",
+        "renesas_uno",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DigitalFuturesOCADU/df-pong-controller.git",
+      "providesIncludes": [
+        "DFPongController.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoBLE"
+        },
+        {
+          "name": "NimBLE-Arduino"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.1.0.zip",
+      "archiveFileName": "DFPongController-2.1.0.zip",
+      "size": 63723,
+      "checksum": "SHA-256:dee1640e0e80de03ddc66a8349f91e67126e510df0369b92f4562e5e4eda8dd9"
+    },
+    {
+      "name": "DFPongController",
+      "version": "2.1.1",
+      "author": "Digital Futures OCAD U",
+      "maintainer": "Digital Futures OCAD U",
+      "sentence": "BLE controller library for the DF Pong game.",
+      "paragraph": "Support library for BLE Pong Controllers that control the online game df-pong. Version 2 adds player settings (name, color, paddle speed and size, custom sounds and background music) and game rule requests, and handles the connection handshake automatically. Supports Arduino Nano 33 IoT, Nano 33 BLE, UNO R4 WiFi, and ESP32 (NimBLE-Arduino 2.x).",
+      "website": "https://github.com/DigitalFuturesOCADU/df-pong-controller",
+      "category": "Communication",
+      "architectures": [
+        "samd",
+        "nrf52",
+        "mbed",
+        "mbed_nano",
+        "renesas_uno",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DigitalFuturesOCADU/df-pong-controller.git",
+      "providesIncludes": [
+        "DFPongController.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoBLE"
+        },
+        {
+          "name": "NimBLE-Arduino"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.1.1.zip",
+      "archiveFileName": "DFPongController-2.1.1.zip",
+      "size": 63977,
+      "checksum": "SHA-256:51c6b6cd8c89c0761767803e3b9c224cb19c9ee116a3c62b24d601dccfc80dd2"
+    },
+    {
       "name": "CamS3Library",
       "version": "1.2.0",
       "author": "Ginés",
@@ -1303981,6 +1304554,47 @@
       "archiveFileName": "Tumbly-1.4.1.zip",
       "size": 582791,
       "checksum": "SHA-256:6853681f04f29c742fd68c9f6e8d4f735f73f8b5ca467502dbd2d4495b80e953"
+    },
+    {
+      "name": "Tumbly",
+      "version": "1.5.0",
+      "author": "Mason Barrett, Lex Kravitz",
+      "maintainer": "Lex Kravitz \u003calexxai@wustl.edu   \u003e",
+      "sentence": "A tumble feeder library for time-restricted feeding",
+      "paragraph": "Controls a servo-operated door based on RTC time or light level. Designed for Adafruit Feather M0 with OLED FeatherWing (SH1107), RTC, and SD card. Based on the Tumble Feeder research (https://www.biorxiv.org/content/10.1101/2024.10.01.615599v1).",
+      "website": "https://github.com/KravitzLabDevices/Tumbly",
+      "category": "Device Control",
+      "architectures": [
+        "samd"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/KravitzLabDevices/Tumbly.git",
+      "providesIncludes": [
+        "Tumbly.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Arduino Low Power"
+        },
+        {
+          "name": "RTClib"
+        },
+        {
+          "name": "SdFat"
+        },
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit SH110X"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/KravitzLabDevices/Tumbly-1.5.0.zip",
+      "archiveFileName": "Tumbly-1.5.0.zip",
+      "size": 60530696,
+      "checksum": "SHA-256:45adfe55c7c8ba67be4039b10acd6999d29626295cf1bab08c7b9d04257486b5"
     },
     {
       "name": "mldsa",
@@ -1329948,6 +1330562,43 @@
       "checksum": "SHA-256:24e986c04f6765cf2c437fd7c95af45cccf6fe8bc27e99bcad85fc5cbe9a5c89"
     },
     {
+      "name": "CodexPad",
+      "version": "4.2.0",
+      "author": "cyfney-anka",
+      "maintainer": "cyfney-anka@qq.com",
+      "sentence": "Connect ESP32 to CodexPad gamepads via Bluetooth and read inputs.",
+      "paragraph": "Arduino library for CodexPad gamepads. Enables ESP32 to connect via Bluetooth (direct or button-mask scanning) and read button states and analog stick values. Depends on NimBLE-Arduino.",
+      "website": "https://github.com/CodexPad/codex_pad_arduino_lib",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/CodexPad/codex_pad_arduino_lib.git",
+      "providesIncludes": [
+        "codex_pad.h"
+      ],
+      "dependencies": [
+        {
+          "name": "NimBLE-Arduino",
+          "version": "\u003e=2.3.9"
+        },
+        {
+          "name": "GamepadInput",
+          "version": "\u003e=1.3.0"
+        },
+        {
+          "name": "cyfney-cpp"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/CodexPad/CodexPad-4.2.0.zip",
+      "archiveFileName": "CodexPad-4.2.0.zip",
+      "size": 597283,
+      "checksum": "SHA-256:11e2359c749acc1652cd0ea1d92e030d9b20ce8772937d74a246942f8f3ca011"
+    },
+    {
       "name": "KISS_FFT",
       "version": "1.0.0",
       "author": "Meer Zafarullah Noohani \u003chttps://github.com/meerzafarnoohani\u003e",
@@ -1333527,6 +1334178,69 @@
       "archiveFileName": "SimcomA76xx-0.5.0.zip",
       "size": 49591,
       "checksum": "SHA-256:90428c884dbbc2f8b1bc281cd06b2c3baded7f5c9fab65efd5448b0ff9dd45e4"
+    },
+    {
+      "name": "SimcomA76xx",
+      "version": "0.5.1",
+      "author": "Péter Soós",
+      "maintainer": "Péter Soós",
+      "sentence": "A library for SimCom A76xx series LTE modems.",
+      "paragraph": "Designed for stability on ESP32 and Arduino, focusing on network band management, signal quality, and reliable AT command parsing.",
+      "website": "https://github.com/soosp/SimcomA76xx",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/SimcomA76xx.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/SimcomA76xx-0.5.1.zip",
+      "archiveFileName": "SimcomA76xx-0.5.1.zip",
+      "size": 50410,
+      "checksum": "SHA-256:97085b4045a8f2490fe825c9284a39de2fd8dbd9b1d194fa462d9700d209fb52"
+    },
+    {
+      "name": "SimcomA76xx",
+      "version": "0.6.0",
+      "author": "Péter Soós",
+      "maintainer": "Péter Soós",
+      "sentence": "A library for SimCom A76xx series LTE modems.",
+      "paragraph": "Designed for stability on ESP32 and Arduino, focusing on network band management, signal quality, and reliable AT command parsing.",
+      "website": "https://github.com/soosp/SimcomA76xx",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/SimcomA76xx.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/SimcomA76xx-0.6.0.zip",
+      "archiveFileName": "SimcomA76xx-0.6.0.zip",
+      "size": 52641,
+      "checksum": "SHA-256:4c4f61fe856e657cc6853b54fab63bff1ccc6a6ec3868d2fe033e514add92df4"
+    },
+    {
+      "name": "SimcomA76xx",
+      "version": "0.7.0",
+      "author": "Péter Soós",
+      "maintainer": "Péter Soós",
+      "sentence": "A library for SimCom A76xx series LTE modems.",
+      "paragraph": "Designed for stability on ESP32 and Arduino, focusing on network band management, signal quality, and reliable AT command parsing.",
+      "website": "https://github.com/soosp/SimcomA76xx",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/SimcomA76xx.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/SimcomA76xx-0.7.0.zip",
+      "archiveFileName": "SimcomA76xx-0.7.0.zip",
+      "size": 54838,
+      "checksum": "SHA-256:4c375c82b99d7d459ff2dbb2eac813ca7cfc02be448edd0f134cb602d4f907ab"
     },
     {
       "name": "EasyAzureIoT",
@@ -1348278,6 +1348992,35 @@
       "archiveFileName": "RPCToolkit-1.1.0.zip",
       "size": 57966,
       "checksum": "SHA-256:88d20a9d5f4766185de6af25367a4b5069623bb5dd82932bb6d2f297b9078823"
+    },
+    {
+      "name": "RPCToolkit",
+      "version": "1.1.1",
+      "author": "Nicola Carpanese \u003chttps://github.com/n-car\u003e",
+      "maintainer": "Nicola Carpanese \u003chttps://github.com/n-car\u003e",
+      "license": "MIT",
+      "sentence": "Lightweight JSON-RPC 2.0 client and server for Arduino-compatible embedded targets",
+      "paragraph": "Implements JSON-RPC 2.0 with Serial and HTTP transports over Arduino Client-compatible sockets. Designed for standard JSON-RPC interoperability with RPC Toolkit projects, with optional RPC Toolkit Safe Mode HTTP interoperability.",
+      "website": "https://github.com/n-car/rpc-arduino-toolkit",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/n-car/rpc-arduino-toolkit.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=6.21.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/n-car/RPCToolkit-1.1.1.zip",
+      "archiveFileName": "RPCToolkit-1.1.1.zip",
+      "size": 64974,
+      "checksum": "SHA-256:02e75940ec7ec0a978323460c946c94676a00870044bc0a53c0088f69c9c5a60"
     },
     {
       "name": "Lonely Binary Coin Acceptor",
@@ -1364773,6 +1365516,31 @@
       "checksum": "SHA-256:bb10522e2d9445510ac113bafd262cda352ce4432a8fd74341bdf1dc8c1e99af"
     },
     {
+      "name": "GamepadInput",
+      "version": "2.0.0",
+      "author": "cyfney-anka",
+      "maintainer": "cyfney-anka@qq.com",
+      "sentence": "Lightweight gamepad input abstraction for Arduino.",
+      "paragraph": "GamepadInput provides a stable, frame-based input state and edge detection API. It works with any data source (USB, BLE, UART, GPIO) and is optimized for embedded use with minimal overhead.",
+      "website": "https://github.com/CodexPad/gamepad_input_arduino_lib",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/CodexPad/gamepad_input_arduino_lib.git",
+      "providesIncludes": [
+        "gamepad_input_state.h",
+        "gamepad_input_tracker.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/CodexPad/GamepadInput-2.0.0.zip",
+      "archiveFileName": "GamepadInput-2.0.0.zip",
+      "size": 464825,
+      "checksum": "SHA-256:dd3d588c32cc28aa23038b6373dd3703015f85f5a63dbaf5224d87ff1bfa3a21"
+    },
+    {
       "name": "L6474",
       "version": "1.0.0",
       "author": "MotorDriver, Matthew Miller",
@@ -1374913,6 +1375681,59 @@
       "checksum": "SHA-256:6115b91a46286e513c82f2319abeba443d8b7e4c6d73cde6c407d28d5376b60c"
     },
     {
+      "name": "NetworkManager",
+      "version": "0.4.1",
+      "author": "Péter Soós \u003chttps://github.com/soosp\u003e",
+      "maintainer": "Péter Soós \u003chttps://github.com/soosp\u003e",
+      "sentence": "Priority-based network connection manager with automatic fallback.",
+      "paragraph": "Supports WiFi and Ethernet on ESP32, ESP8266 and AVR. Manages multiple network adapters with priority-based fallback, NTP configuration and thread-safe operation.",
+      "website": "https://github.com/soosp/NetworkManager",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/NetworkManager.git",
+      "providesIncludes": [
+        "NetworkManager.h",
+        "NetworkManagerCore.h",
+        "NetworkAdapter.h",
+        "EthAdapter.h",
+        "WiFiAdapter.h",
+        "ESP32EthAdapter.h",
+        "ESP32WiFiAdapter.h",
+        "ESP8266EthAdapter.h",
+        "ESP8266WiFiAdapter.h",
+        "AVREthernetAdapter.h",
+        "NetworkManagerNtpSyncHook.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Host"
+        },
+        {
+          "name": "NetworkProfile"
+        },
+        {
+          "name": "Preferences"
+        },
+        {
+          "name": "EEPROMPreferences"
+        },
+        {
+          "name": "Ethernet"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.4.1.zip",
+      "archiveFileName": "NetworkManager-0.4.1.zip",
+      "size": 157386,
+      "checksum": "SHA-256:a76c9165398c28725c6b7899165a287b5141cc7424d2e483229f658cad22b61d"
+    },
+    {
       "name": "MPU6050_Nexa",
       "version": "1.0.5",
       "author": "Nesara Thejan",
@@ -1375710,6 +1376531,39 @@
       "archiveFileName": "Plynx-1.0.6.zip",
       "size": 619489,
       "checksum": "SHA-256:3f2bf65d448cb7a7c200c2bae450697e77c2b8d0db5fb59b5d6b4b29a5b88a4e"
+    },
+    {
+      "name": "Plynx",
+      "version": "1.4.1",
+      "author": "Plynx, derived from Blynk library by Volodymyr Shymanskyy",
+      "maintainer": "Plynx (NickP005)",
+      "license": "MIT",
+      "sentence": "Control your Arduino, ESP32 or ESP8266 from the Plynx app.",
+      "paragraph": "Talks to a Plynx (or Blynk-legacy) server. Default server yes.plynx.cc. It supports  WiFi, BLE, Bluetooth, Ethernet, GSM, USB, Serial. Works with many boards like ESP8266, ESP32, Arduino UNO, Nano, Due, Mega, Zero, MKR100, Yun, Raspberry Pi, Particle, Energia, ARM mbed, Intel Edison/Galileo/Joule, BBC micro:bit, DFRobot, RedBearLab, Microduino, LinkIt ONE ...",
+      "website": "https://www.plynx.cc",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/NickP005/plynx-library.git",
+      "providesIncludes": [
+        "Plynx.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Ethernet"
+        },
+        {
+          "name": "NimBLE-Arduino"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/NickP005/Plynx-1.4.1.zip",
+      "archiveFileName": "Plynx-1.4.1.zip",
+      "size": 683794,
+      "checksum": "SHA-256:e9ea312e03d00bc65173135edb5fb7820d8f6e6ca0904c790ce36cb068bcf918"
     },
     {
       "name": "RoboReach",
@@ -1387731,6 +1388585,43 @@
       "checksum": "SHA-256:ec383dec809ff9d79d01133edeef9f457876960744ad6946f346b0e079ee9400"
     },
     {
+      "name": "AsyncConfigPortal",
+      "version": "0.9.0",
+      "author": "Peter Soos",
+      "maintainer": "Peter Soos",
+      "license": "MIT",
+      "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+      "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+      "website": "https://github.com/soosp/AsyncConfigPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncConfigPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "HttpDigestAuth"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.9.0.zip",
+      "archiveFileName": "AsyncConfigPortal-0.9.0.zip",
+      "size": 170592,
+      "checksum": "SHA-256:303dd49ec61612d857a878a5d9d079a2d4845c0fc994b1b6435b06c88b137bfd"
+    },
+    {
       "name": "AsyncWiFiPortal",
       "version": "0.1.0",
       "author": "soosp",
@@ -1390895,6 +1391786,30 @@
       "archiveFileName": "TM1637_6Easy-2.0.0.zip",
       "size": 15032,
       "checksum": "SHA-256:f035ff83221b6f887271a03d2d1540d5317124d0dec04a98422690b011444825"
+    },
+    {
+      "name": "TM1637_6Easy",
+      "version": "2.1.0",
+      "author": "klenov1900-lang",
+      "maintainer": "klenov1900-lang \u003cgray_wolf19@mail.ru\u003e",
+      "sentence": "Easy library for 4- and 6-digit TM1637 LED displays on ATmega328P.",
+      "paragraph": "Optimized for cheap clones with ceramic resonator. Direct register access, nop-based protocol delay, supports 4- and 6-digit modules, two digit orders for Chinese modules.",
+      "website": "https://github.com/klenov1900-lang/TM1637_6Easy",
+      "category": "Display",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/klenov1900-lang/TM1637_6Easy.git",
+      "providesIncludes": [
+        "TM1637_6Easy.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/TM1637_6Easy-2.1.0.zip",
+      "archiveFileName": "TM1637_6Easy-2.1.0.zip",
+      "size": 1124447,
+      "checksum": "SHA-256:8eae43f9be108bd78615ea0f8d1b80920b86604e390a95a8baccc5e94913ce28"
     },
     {
       "name": "FlovaSDK",
@@ -1401124,6 +1402039,35 @@
       "checksum": "SHA-256:3c833d654b870430dfcfc3f391aab7cafa6e40008f693cb76d2a2d0b97f2163a"
     },
     {
+      "name": "ESP32-ICND2153-Panel",
+      "version": "0.2.0",
+      "author": "n0cturnality",
+      "maintainer": "n0cturnality",
+      "sentence": "ESP32 DMA driver for HUB75-style LED panels with ChipOne ICND2153 PWM driver chips.",
+      "paragraph": "Flicker-free, tear-free refresh in hardware (I2S DMA), Adafruit GFX drawing, colour mapping that matches ESP32-HUB75-MatrixPanel-DMA, and an API close to that library's so existing sketches port with few changes. Tested on a 96x48 1/24-scan P2.5 panel with a classic ESP32.",
+      "website": "https://github.com/n0cturnality/ESP32-ICND2153-Panel",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/n0cturnality/ESP32-ICND2153-Panel.git",
+      "providesIncludes": [
+        "ICND2153PanelDMA.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/n0cturnality/ESP32_ICND2153_Panel-0.2.0.zip",
+      "archiveFileName": "ESP32_ICND2153_Panel-0.2.0.zip",
+      "size": 22509,
+      "checksum": "SHA-256:341567dad54a941d114ce27d2cf3bae6f9a4a1d9a690bf25ac7141f620ca77a7"
+    },
+    {
       "name": "MoleGraphManual",
       "version": "4.4.0",
       "author": "e-Mole",
@@ -1402109,6 +1403053,38 @@
       "checksum": "SHA-256:3c247e1a170924c1a433d3ec853cb63c37624a5ca4189d1d769607da57669a91"
     },
     {
+      "name": "RangeMonitor",
+      "version": "0.3.0",
+      "author": "Péter Soós",
+      "maintainer": "Péter Soós",
+      "license": "MIT",
+      "sentence": "Range monitor for a scalar measurement: spike filter, time-based EMA, soft limits with alarm delay, hard limits, fault detection.",
+      "paragraph": "Watches any scalar quantity — temperature, humidity, pressure — against a range. A median-of-3 spike filter and a time-based EMA smooth the value; soft limits raise an alarm only after a configurable delay (tolerating defrost cycles, opened doors), hard limits raise it at once. Invalid samples become a FAULT after their own delay. Every transition is reported, every time rule uses the real time between samples, and the state machine runs on a host PC for testing and data replay. No dynamic allocation; thread-safe on ESP32 with a static FreeRTOS mutex.",
+      "website": "https://github.com/soosp/RangeMonitor",
+      "category": "Data Processing",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/RangeMonitor.git",
+      "providesIncludes": [
+        "RangeMonitor.h"
+      ],
+      "dependencies": [
+        {
+          "name": "RunningStatistics"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/RangeMonitor-0.3.0.zip",
+      "archiveFileName": "RangeMonitor-0.3.0.zip",
+      "size": 40582,
+      "checksum": "SHA-256:ccf745408f7bcb2f4caa886fcc6e22f0d5390bd5c051a749a0e90d86fe75e1e8"
+    },
+    {
       "name": "ESP32-BLE-Keyboard-Client",
       "version": "1.0.0",
       "author": "Aditya2026US",
@@ -1402273,6 +1403249,41 @@
       "archiveFileName": "TemperatureMonitor-0.2.0.zip",
       "size": 62228,
       "checksum": "SHA-256:1881f4b4bd012bea0a489f79b51bfe45847cc08782bb6b573ee63a54b54d8e0d"
+    },
+    {
+      "name": "TemperatureMonitor",
+      "version": "0.3.0",
+      "author": "Péter Soós",
+      "maintainer": "Péter Soós",
+      "license": "MIT",
+      "sentence": "Monitored DS18B20 temperature channels on one 1-Wire bus: address-bound slots, persistence, non-blocking cycle, state-change events.",
+      "paragraph": "Each channel binds a sensor's ROM address to its name, limits and enabled flag, stored together in one record, so readings and configuration cannot drift apart when sensors are added, removed or reordered. Discovery at start-up, automatic reconnection of missing sensors, a non-blocking measuring cycle with one broadcast conversion, and events for every state change (including MISSING and OFF). Changes are guarded by the expected address. Range monitoring by RangeMonitor, sensor handling by DS18B20Sensor. No dynamic allocation; host-testable.",
+      "website": "https://github.com/soosp/TemperatureMonitor",
+      "category": "Sensors",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/TemperatureMonitor.git",
+      "providesIncludes": [
+        "TemperatureMonitor.h"
+      ],
+      "dependencies": [
+        {
+          "name": "RangeMonitor"
+        },
+        {
+          "name": "DS18B20Sensor"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/TemperatureMonitor-0.3.0.zip",
+      "archiveFileName": "TemperatureMonitor-0.3.0.zip",
+      "size": 63047,
+      "checksum": "SHA-256:20c5203ebb608b943d5700eefaf4b664c6e757828d3299b0eb304bc9c717b1b5"
     },
     {
       "name": "AlfredoFusion",
@@ -1403118,6 +1404129,31 @@
       "checksum": "SHA-256:2d0a89337db155428bff0c88f29d116e064c85a3b922a16d0304d208ea8a50f4"
     },
     {
+      "name": "KenwoodXS-for-KR-V6030",
+      "version": "1.0.3",
+      "author": "Programowanie i Granie",
+      "maintainer": "Programowanie i Granie",
+      "license": "MIT",
+      "sentence": "Fixed version of the KenwoodXS lib by gaweueu.",
+      "paragraph": "KenwoodXS sends and receives command bytes over the proprietary Kenwood XS two-wire control protocol, with helpers for receiver power, input selection, tape transport, and CD transport commands.",
+      "website": "https://github.com/polishprogrammer2023/KenwoodXS-for-KR-V6030.git",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/polishprogrammer2023/KenwoodXS-for-KR-V6030.git",
+      "providesIncludes": [
+        "KenwoodXS-for-KR-V6030.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/polishprogrammer2023/KenwoodXS_for_KR_V6030-1.0.3.zip",
+      "archiveFileName": "KenwoodXS_for_KR_V6030-1.0.3.zip",
+      "size": 1460504,
+      "checksum": "SHA-256:560a1ebcf7e9662c7ad2e33835a0219c187334d96b01ae351562af3fa2818eb5"
+    },
+    {
       "name": "CMScript",
       "version": "1.0.0",
       "author": "SUNSETDEVER",
@@ -1403415,6 +1404451,274 @@
       "archiveFileName": "JoystickUtilities-1.0.0.zip",
       "size": 52374,
       "checksum": "SHA-256:ecc120a628c14c0fe0f36382e069d48065e574bb6b83b4aca937aff98697f760"
+    },
+    {
+      "name": "DTutils",
+      "version": "1.1.0",
+      "author": "Sven Steinmeier \u003csven.steinmeier@gmail.com\u003e",
+      "maintainer": "Sven Steinmeier \u003csven.steinmeier@gmail.com\u003e",
+      "sentence": "Date and time utilities: weekday, leap year, daylight saving, Unix time conversion, solar noon.",
+      "paragraph": "Small dependency-free functions for converting between date/time and Unix seconds, determining the weekday, central European daylight saving time (CET/CEST), local time to UTC and the time of solar noon.",
+      "website": "https://github.com/simsum/DTutils",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/simsum/DTutils.git",
+      "providesIncludes": [
+        "DTutils.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/simsum/DTutils-1.1.0.zip",
+      "archiveFileName": "DTutils-1.1.0.zip",
+      "size": 19852,
+      "checksum": "SHA-256:edd78257fb67ac29b9ad9afc58f52ab17756eac83931c45963dcbab86c3d4da8"
+    },
+    {
+      "name": "ESP_MOVIE",
+      "version": "1.0.0",
+      "author": "ShunTomino",
+      "maintainer": "ShunTomino",
+      "sentence": "Movie player library for ESP32/ESP32-S3",
+      "paragraph": "Movie(MotionJPG/MP3) player library for ESP32/ESP32-S3",
+      "website": "https://github.com/ShunTomino/ESP_MOVIE.git",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ShunTomino/ESP_MOVIE.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/ShunTomino/ESP_MOVIE-1.0.0.zip",
+      "archiveFileName": "ESP_MOVIE-1.0.0.zip",
+      "size": 13994061,
+      "checksum": "SHA-256:39129006ac60938fb2b94e5725dc9d15b049714c8b931debe99e7a9adb3948d7"
+    },
+    {
+      "name": "Grove IMU 9DOF ICM20600 AK09918 UNO R4",
+      "version": "1.0.0",
+      "author": "Seeed Studio, Mourad",
+      "maintainer": "Mourad",
+      "sentence": "Arduino library for Grove - IMU 9DOF (ICM20600 + AK09918).",
+      "paragraph": "Based on the original Seeed Studio library, with an I2C compatibility fix for Arduino UNO R4. No sensor API or algorithm changes.",
+      "website": "https://github.com/ebm9991/Seeed_ICM20600_AK09918_UNOR4",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ebm9991/Seeed_ICM20600_AK09918_UNOR4.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/ebm9991/Grove_IMU_9DOF_ICM20600_AK09918_UNO_R4-1.0.0.zip",
+      "archiveFileName": "Grove_IMU_9DOF_ICM20600_AK09918_UNO_R4-1.0.0.zip",
+      "size": 26823,
+      "checksum": "SHA-256:7419e4015ef2e673d39b4d6044f23d69fdc2d01bad85d1cae60ea59d8b9bcbc6"
+    },
+    {
+      "name": "ESP32NFS",
+      "version": "1.0.0",
+      "author": "Yitao Jiang",
+      "maintainer": "Yitao Jiang \u003c22387156+cccat6@users.noreply.github.com\u003e",
+      "sentence": "NFSv3 file sharing for ESP32 over TCP with flexible storage and partition mapping.",
+      "paragraph": "Export LittleFS, FAT32, exFAT, RAM and ROM through a common filesystem interface. Map multiple volumes, integrate custom block devices, and manage buffered writes and transactional storage.",
+      "website": "https://github.com/cccat6/ESP32NFS",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/cccat6/ESP32NFS.git",
+      "providesIncludes": [
+        "ESP32NFS.h"
+      ],
+      "dependencies": [
+        {
+          "name": "SdFat",
+          "version": "=2.3.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/cccat6/ESP32NFS-1.0.0.zip",
+      "archiveFileName": "ESP32NFS-1.0.0.zip",
+      "size": 77500,
+      "checksum": "SHA-256:753fabc5054fc28bd54849004ae2334071a30424b24b294e9e8a69e42d4ca7fe"
+    },
+    {
+      "name": "ESP32NFS",
+      "version": "1.1.0",
+      "author": "Yitao Jiang",
+      "maintainer": "Yitao Jiang \u003c22387156+cccat6@users.noreply.github.com\u003e",
+      "sentence": "NFSv3 file sharing for ESP32 and Raspberry Pi Pico W over TCP with flexible storage and partition mapping.",
+      "paragraph": "Export LittleFS, FAT32, exFAT, RAM and ROM through a common filesystem interface. Map multiple volumes, integrate custom block devices, and manage buffered writes and transactional storage.",
+      "website": "https://github.com/cccat6/ESP32NFS",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/cccat6/ESP32NFS.git",
+      "providesIncludes": [
+        "ESP32NFS.h"
+      ],
+      "dependencies": [
+        {
+          "name": "SdFat",
+          "version": "=2.3.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/cccat6/ESP32NFS-1.1.0.zip",
+      "archiveFileName": "ESP32NFS-1.1.0.zip",
+      "size": 83030,
+      "checksum": "SHA-256:b717dd8a9de78c6d8834b826f35f99a19c846e2354106e47f55615f150d1bb11"
+    },
+    {
+      "name": "ESP32NFS",
+      "version": "1.1.1",
+      "author": "Yitao Jiang",
+      "maintainer": "Yitao Jiang \u003c22387156+cccat6@users.noreply.github.com\u003e",
+      "sentence": "NFSv3 file sharing for ESP32 and Raspberry Pi Pico W over TCP with flexible storage and partition mapping.",
+      "paragraph": "Export LittleFS, FAT32, exFAT, RAM and ROM through a common filesystem interface. Map multiple volumes, integrate custom block devices, and manage buffered writes and transactional storage.",
+      "website": "https://github.com/cccat6/ESP32NFS",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/cccat6/ESP32NFS.git",
+      "providesIncludes": [
+        "ESP32NFS.h"
+      ],
+      "dependencies": [
+        {
+          "name": "SdFat",
+          "version": "=2.3.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/cccat6/ESP32NFS-1.1.1.zip",
+      "archiveFileName": "ESP32NFS-1.1.1.zip",
+      "size": 89277,
+      "checksum": "SHA-256:3096bf510f61940c8679a5f242b9c74dc07a59e2bc3646fb4fb4bd6cd4adb021"
+    },
+    {
+      "name": "ESP32NFS",
+      "version": "1.2.0",
+      "author": "Yitao Jiang",
+      "maintainer": "Yitao Jiang \u003c22387156+cccat6@users.noreply.github.com\u003e",
+      "sentence": "NFSv3 file sharing for ESP32 and Raspberry Pi Pico W over TCP with flexible storage and partition mapping.",
+      "paragraph": "Export LittleFS, FAT32, exFAT, RAM and ROM through a common filesystem interface. Map multiple volumes, integrate custom block devices, and manage buffered writes and transactional storage.",
+      "website": "https://github.com/cccat6/ESP32NFS",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/cccat6/ESP32NFS.git",
+      "providesIncludes": [
+        "ESP32NFS.h"
+      ],
+      "dependencies": [
+        {
+          "name": "SdFat",
+          "version": "=2.3.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/cccat6/ESP32NFS-1.2.0.zip",
+      "archiveFileName": "ESP32NFS-1.2.0.zip",
+      "size": 210085,
+      "checksum": "SHA-256:d114170c628ecfa823c66b792f16ec31a976af9a9e963f247578ab3984323d26"
+    },
+    {
+      "name": "SoftI2C_Shared_CLS",
+      "version": "0.1.0",
+      "author": "Felipe Verri \u003cpipe.verri@gmail.com\u003e",
+      "maintainer": "Felipe Verri \u003cpipe.verri@gmail.com\u003e",
+      "sentence": "Allows the use of multiple non-programmable I2C devices with the same address while using around half as many GPIO pins.",
+      "paragraph": "It does that by sharing the CLS accross devices and keeping a single SDA per device, which allows the use of multiple devices with the same address.",
+      "website": "https://github.com/PipeVerri/I2C-Shared-CLS",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/PipeVerri/SoftI2C-Shared-CLS.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/PipeVerri/SoftI2C_Shared_CLS-0.1.0.zip",
+      "archiveFileName": "SoftI2C_Shared_CLS-0.1.0.zip",
+      "size": 20118,
+      "checksum": "SHA-256:77dcc8a9f7b7a99d7bcf4b0c3690096a5b1bff47e8ce6b220a117f33879b2488"
+    },
+    {
+      "name": "SunLocator",
+      "version": "1.0.0",
+      "author": "Clifford Farrugia",
+      "maintainer": "Clifford Farrugia \u003c62100236+clifarr@users.noreply.github.com\u003e",
+      "license": "MIT",
+      "sentence": "A lightweight solar calculator for sunrise, sunset and twilight times.",
+      "paragraph": "Computes the local time at which the sun reaches any elevation angle (the horizon, civil/nautical/astronomical twilight, or a custom angle) for a given date and location. Pure C++, no hardware or network dependencies, works on AVR, SAM, SAMD, ESP8266, ESP32, RP2040 and more. Ideal for switching lights, blinds or relays based on daylight.",
+      "website": "https://github.com/clifarr/sunlocator",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/clifarr/sunlocator.git",
+      "providesIncludes": [
+        "SunLocator.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/clifarr/SunLocator-1.0.0.zip",
+      "archiveFileName": "SunLocator-1.0.0.zip",
+      "size": 22781,
+      "checksum": "SHA-256:2420cf91d1170c30232a7b81c611b8914251be5fab5a632837a85b530031c635"
+    },
+    {
+      "name": "Railuino",
+      "version": "0.14.0",
+      "author": "Joerg Pleumann, Christophe Bobille, Uwe Monreal",
+      "maintainer": "Christophe Bobille",
+      "sentence": "Control a Märklin layout through its CAN bus (Gleisbox, MS2, CS2) from an ESP32 or an Arduino with an MCP2515.",
+      "paragraph": "Locomotives (MM2, MFX, DCC), functions, turnouts and accessories, decoder CVs, S88 feedback. Based on Railuino 0.9 by Joerg Pleumann.",
+      "website": "https://github.com/BOBILLEChristophe/Railuino",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/BOBILLEChristophe/Railuino.git",
+      "providesIncludes": [
+        "Railuino.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ACAN_ESP32"
+        },
+        {
+          "name": "ACAN2515"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/BOBILLEChristophe/Railuino-0.14.0.zip",
+      "archiveFileName": "Railuino-0.14.0.zip",
+      "size": 136171,
+      "checksum": "SHA-256:b462c7ee18f598926b12d919a8e97ac9bb4245c7b63a8c3354f997f1d2d76b65"
     }
   ]
 }
