@@ -182192,6 +182192,27 @@
       "checksum": "SHA-256:bfba3c6c9cde65c201bd4bd5aba73d5f5f4030b41506b97df30a33013ebffeb9"
     },
     {
+      "name": "STM32duino HTS221",
+      "version": "2.0.2",
+      "author": "AST, Wi6Labs",
+      "maintainer": "stm32duino",
+      "sentence": "Capacitive digital sensor for relative humidity and temperature.",
+      "paragraph": "This library provides Arduino support for the capacitive digital sensor for relative humidity and temperature HTS221 for STM32 boards.",
+      "website": "https://github.com/stm32duino/HTS221",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/stm32duino/HTS221.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_HTS221-2.0.2.zip",
+      "archiveFileName": "STM32duino_HTS221-2.0.2.zip",
+      "size": 19934,
+      "checksum": "SHA-256:74de7bb057e544f6629353933b4570ca205d7ad56dd38a5923fee77e2e7ee240"
+    },
+    {
       "name": "STM32duino LSM6DSL",
       "version": "1.0.1",
       "author": "AST, Wi6Labs",
@@ -393454,6 +393475,58 @@
       "checksum": "SHA-256:1cde66624afa203fb99b76858275f38a4f19259929fbcd9d115157d07113cc59"
     },
     {
+      "name": "fp64lib",
+      "version": "1.1.31",
+      "author": "Uwe Bissinger \u003cmail@fp64lib.org\u003e",
+      "maintainer": "Uwe Bissinger \u003cmail@fp64lib.org\u003e",
+      "sentence": "Handcrafted 64-bit floating point routines for AVR/arduino microprocessors.",
+      "paragraph": "More precision for Arduino. fp64lib is a library for implementing 64-bit floating point arithmetic on the AVR MegaAVR architecure microprocessors, like the popular Arduino series. Data format is fully compatible with IEEE 754 binary64 standard. V1.1.31 extended fp64_pow if both arguments are negative. ATTENTION: Library is only suited for boards having an AVR MegaAVR microprocessors like Arduino UNO, Nano or MEGA2560!",
+      "website": "https://fp64lib.org",
+      "category": "Data Processing",
+      "architectures": [
+        "avr",
+        "atmelavr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/fp64lib/fp64lib.git",
+      "providesIncludes": [
+        "fp64lib.h",
+        "Double.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/fp64lib/fp64lib-1.1.31.zip",
+      "archiveFileName": "fp64lib-1.1.31.zip",
+      "size": 268346,
+      "checksum": "SHA-256:88f18d3a27c74569bd1e6e67fa9814ca330bcb4eca09fb3e3a1cc9a25db5688c"
+    },
+    {
+      "name": "fp64lib",
+      "version": "1.1.32",
+      "author": "Uwe Bissinger \u003cmail@fp64lib.org\u003e",
+      "maintainer": "Uwe Bissinger \u003cmail@fp64lib.org\u003e",
+      "sentence": "Handcrafted 64-bit floating point routines for AVR/arduino microprocessors.",
+      "paragraph": "More precision for Arduino. fp64lib is a library for implementing 64-bit floating point arithmetic on the AVR MegaAVR architecure microprocessors, like the popular Arduino series. Data format is fully compatible with IEEE 754 binary64 standard. V1.1.32 updated linux makefile. ATTENTION: Library is only suited for boards having an AVR MegaAVR microprocessors like Arduino UNO, Nano or MEGA2560!",
+      "website": "https://fp64lib.org",
+      "category": "Data Processing",
+      "architectures": [
+        "avr",
+        "atmelavr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/fp64lib/fp64lib.git",
+      "providesIncludes": [
+        "fp64lib.h",
+        "Double.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/fp64lib/fp64lib-1.1.32.zip",
+      "archiveFileName": "fp64lib-1.1.32.zip",
+      "size": 268329,
+      "checksum": "SHA-256:ec2844fbda84b976f679b53c0d9aefada5e06bf6ee2e69d33f80c636fd619fd8"
+    },
+    {
       "name": "BraccioV2",
       "version": "0.2.0",
       "author": "Lukas Severinghaus \u003ckk6axq@gmail.com\u003e",
@@ -504810,6 +504883,36 @@
       "archiveFileName": "LovyanGFX-1.2.32.zip",
       "size": 49034406,
       "checksum": "SHA-256:bc7f0888054895295186af3f2d3262837e090ed76aebd417143046ad2a74a1c6"
+    },
+    {
+      "name": "LovyanGFX",
+      "version": "1.2.33",
+      "author": "lovyan03",
+      "maintainer": "lovyan03,tobozo",
+      "sentence": "TFT LCD Graphics driver with touch for ESP32/ESP8266, SAMD21/SAMD51, RP2040/RP2350",
+      "paragraph": "Supports TFT LCD displays using drivers that operate with hardware SPI. ESP32, ESP8266, SAMD21, SAMD51, RP2040, RP2350, M5Stack, M5StackCore2, M5StickC, M5StickCPlus, ODROID-GO, TTGO T-Watch, TTGO T-Wristband, ESP-WROVER-KIT, WioTerminal, WiFiBoy, MakePython, HX8357, ILI9163, ILI9342, ILI9341, ILI9486, ILI9488, ST7735, ST7789, ST7796, ST77916, SSD1351",
+      "website": "https://github.com/lovyan03/LovyanGFX",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "samd",
+        "rp2040",
+        "mbed_rp2040",
+        "mbed_nano",
+        "teensy"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/lovyan03/LovyanGFX.git",
+      "providesIncludes": [
+        "LovyanGFX.hpp"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/lovyan03/LovyanGFX-1.2.33.zip",
+      "archiveFileName": "LovyanGFX-1.2.33.zip",
+      "size": 49035669,
+      "checksum": "SHA-256:d41e18c6f25e51004f1a348c1c7ed711291ea7cb5408cac7ba32ab25a297ac0f"
     },
     {
       "name": "PulsePattern",
@@ -690170,6 +690273,30 @@
       "checksum": "SHA-256:afe77c14ca154d4af200325be670b07f13fae045f5380fced4a182905120324d"
     },
     {
+      "name": "M5GFX",
+      "version": "0.2.33",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack All Display",
+      "paragraph": "M5Stack, M5Stack Core2, M5Stack CoreInk, M5StickC, M5StickC-Plus, M5Paper, M5Tough, M5Station, M5ATOMS3, Unit OLED, Unit LCD, Unit RCA, ATOM Display, See more on http://M5Stack.com",
+      "website": "https://github.com/m5stack/M5GFX.git",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5GFX.git",
+      "providesIncludes": [
+        "M5GFX.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5GFX-0.2.33.zip",
+      "archiveFileName": "M5GFX-0.2.33.zip",
+      "size": 49299504,
+      "checksum": "SHA-256:5fe22fc933b54e6ce933cca8f55ceb5461c7eb66106d71f1d4ff9925f9522e7d"
+    },
+    {
       "name": "Tachometer",
       "version": "1.0.0",
       "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
@@ -752561,6 +752688,36 @@
       "archiveFileName": "M5Unified-0.2.25.zip",
       "size": 724031,
       "checksum": "SHA-256:3c4e79ecca6a8d90267b7090c473730f8034c1b913f6a78e58edb854ce37a93e"
+    },
+    {
+      "name": "M5Unified",
+      "version": "0.2.26",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Unified library for M5Stack series",
+      "paragraph": "M5Stack, M5Stack Core2, M5Stack CoreInk, M5StickC, M5StickC-Plus, M5Paper, M5Tough, M5ATOM, M5STAMP, M5Station, See more on http://M5Stack.com",
+      "website": "https://github.com/m5stack/M5Unified.git",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unified.git",
+      "providesIncludes": [
+        "M5Unified.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5GFX",
+          "version": "\u003e=0.2.31"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unified-0.2.26.zip",
+      "archiveFileName": "M5Unified-0.2.26.zip",
+      "size": 725873,
+      "checksum": "SHA-256:a9514335c03b20eb41f1a262a059678bf2c07405695923a692a1a3de48ddb089"
     },
     {
       "name": "WireSusi",
@@ -887138,6 +887295,30 @@
       "checksum": "SHA-256:ae6361e0e8185afcbbfeb1888cf4b686a1e264c03fe2677c85b1b852a088461b"
     },
     {
+      "name": "debounce",
+      "version": "0.3.0",
+      "author": "Aaron Kimball",
+      "maintainer": "Aaron Kimball \u003cakimball83@gmail.com\u003e",
+      "sentence": "A library for button debouncing.",
+      "paragraph": "This library provides easy debouncing of button inputs and triggering of callback functions as buttons are pressed or released.",
+      "website": "https://github.com/kimballa/button-debounce.git",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/kimballa/button-debounce.git",
+      "providesIncludes": [
+        "debounce.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/kimballa/debounce-0.3.0.zip",
+      "archiveFileName": "debounce-0.3.0.zip",
+      "size": 11807,
+      "checksum": "SHA-256:c483bbef9b64db5e51aa0f0c56a6645a9386ef7f78e4f98b6ce965172433d877"
+    },
+    {
       "name": "unPhoneLibrary",
       "version": "9.0.0",
       "author": "Hamish Cunningham, Gareth Coleman, Jon Williamson, Mary Hewitt, others",
@@ -894012,6 +894193,32 @@
       "archiveFileName": "STM32duinoLoRaWAN-0.5.0.zip",
       "size": 635940,
       "checksum": "SHA-256:ad055147ca38fff1651bf773f6e6d9a25402f6db621b9d4cf2bff46dd7b070a1"
+    },
+    {
+      "name": "STM32duinoLoRaWAN",
+      "version": "0.5.1",
+      "author": "STMicroelectronics, Matthijs Kooijman",
+      "maintainer": "stm32duino",
+      "sentence": "Support library for STM32WL microcontrollers featuring a sub-GHz radio based-on Semtech SX126x",
+      "paragraph": "Provides APIs to communicate with LoRa® and LoraWAN® networks",
+      "website": "https://github.com/stm32duino/STM32LoRaWAN",
+      "category": "Communication",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/stm32duino/STM32LoRaWAN.git",
+      "dependencies": [
+        {
+          "name": "STM32duino RTC"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duinoLoRaWAN-0.5.1.zip",
+      "archiveFileName": "STM32duinoLoRaWAN-0.5.1.zip",
+      "size": 638681,
+      "checksum": "SHA-256:aefda38d3b3cac437375faaafbf5d88abf982208e858473c7792a9c548f23643"
     },
     {
       "name": "FC0001614614",
@@ -993745,6 +993952,30 @@
       "checksum": "SHA-256:faa9dade653c39db812de0fd21294b38c3d9fbfdf1d00561051b14d8d9da40f2"
     },
     {
+      "name": "Bonezegei_DHT22",
+      "version": "1.0.2",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "DHT22",
+      "paragraph": "Temperature and Humidity Sensor Library",
+      "website": "https://github.com/bonezegei/Bonezegei_DHT22",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_DHT22.git",
+      "providesIncludes": [
+        "Bonezegei_DHT22.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_DHT22-1.0.2.zip",
+      "archiveFileName": "Bonezegei_DHT22-1.0.2.zip",
+      "size": 16521,
+      "checksum": "SHA-256:eb0027d1407a4362186808e382cecb4b580669e700e0f0d1255ec145c8a49217"
+    },
+    {
       "name": "Deneyap Telegram",
       "version": "1.0.3",
       "author": "mustafa_kok",
@@ -1093093,6 +1093324,58 @@
       "checksum": "SHA-256:97b9d7856e8605a4b341e5c7e7e12711c072d1cf7f5e282f1bc36886c8d22ab7"
     },
     {
+      "name": "GyverHTTP",
+      "version": "1.0.33",
+      "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "maintainer": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "sentence": "Simple Arduino Client based HTTP server and client with stream tools",
+      "paragraph": "Simple Arduino Client based HTTP server and client with stream tools",
+      "website": "https://github.com/GyverLibs/GyverHTTP",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/GyverLibs/GyverHTTP.git",
+      "dependencies": [
+        {
+          "name": "StringUtils"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverHTTP-1.0.33.zip",
+      "archiveFileName": "GyverHTTP-1.0.33.zip",
+      "size": 28896,
+      "checksum": "SHA-256:b97484f420975753636b573c00ec7f4fe461d48157622e95d4ca014bebb5702e"
+    },
+    {
+      "name": "GyverHTTP",
+      "version": "1.0.34",
+      "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "maintainer": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "sentence": "Simple Arduino Client based HTTP server and client with stream tools",
+      "paragraph": "Simple Arduino Client based HTTP server and client with stream tools",
+      "website": "https://github.com/GyverLibs/GyverHTTP",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/GyverLibs/GyverHTTP.git",
+      "dependencies": [
+        {
+          "name": "StringUtils"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverHTTP-1.0.34.zip",
+      "archiveFileName": "GyverHTTP-1.0.34.zip",
+      "size": 28957,
+      "checksum": "SHA-256:0e2a58d6ad47307bb0f1d6a7f6464cda91a53b1fe76a3eae15d3e5dcef4ce6b5"
+    },
+    {
       "name": "GTL",
       "version": "1.0.0",
       "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
@@ -1103400,6 +1103683,29 @@
       "archiveFileName": "ADG728-0.1.3.zip",
       "size": 349797,
       "checksum": "SHA-256:223a080e4e399db7b201b973a11159f18591ddfd8ca83acc7f93092b6744160f"
+    },
+    {
+      "name": "ADG728",
+      "version": "0.1.4",
+      "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "sentence": "Arduino Library for I2C ADG728 matrix switch. 1x8 Multiplexer.",
+      "website": "https://github.com/RobTillaart/ADG728",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RobTillaart/ADG728.git",
+      "providesIncludes": [
+        "ADG728.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/ADG728-0.1.4.zip",
+      "archiveFileName": "ADG728-0.1.4.zip",
+      "size": 351463,
+      "checksum": "SHA-256:efc913e70cbc90af1cd784d223b3a90c239ce5fea74f1060345ac44325f31fec"
     },
     {
       "name": "ADG729",
@@ -1123213,6 +1123519,40 @@
       "checksum": "SHA-256:689a0336626edcd8ea5148fb28b28b11fba5b2bbc7636c6012db4538aca334f1"
     },
     {
+      "name": "roo_wifi",
+      "version": "3.1.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Portable Wi-Fi operations and SSID-addressed profiles, with an ESP32 ESP-IDF adapter.",
+      "website": "https://github.com/dejwk/roo_wifi",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_wifi.git",
+      "dependencies": [
+        {
+          "name": "roo_collections"
+        },
+        {
+          "name": "roo_prefs"
+        },
+        {
+          "name": "roo_backport"
+        },
+        {
+          "name": "roo_scheduler"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_wifi-3.1.0.zip",
+      "archiveFileName": "roo_wifi-3.1.0.zip",
+      "size": 119947,
+      "checksum": "SHA-256:64fd5456e80ff3c234699f6628398276561d27b73feaf7d98b124dba80856bf7"
+    },
+    {
       "name": "roo_windows",
       "version": "1.2.0",
       "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
@@ -1123808,6 +1124148,59 @@
       "archiveFileName": "roo_windows-1.9.0.zip",
       "size": 3311816,
       "checksum": "SHA-256:a70f2472c5dc4786ada8877c7b3a2091fc1c0a30608168519a80e6fe666a8f50"
+    },
+    {
+      "name": "roo_windows",
+      "version": "1.10.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "GUI library, targeted at ESP32 and related boards, for building interactive, touch-based, mobile-phone-like UI interfaces.",
+      "paragraph": "Supports displays using SPI and parallel protocols.",
+      "website": "https://github.com/dejwk/roo_windows",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_windows.git",
+      "dependencies": [
+        {
+          "name": "roo_collections"
+        },
+        {
+          "name": "roo_display"
+        },
+        {
+          "name": "roo_fonts_basic"
+        },
+        {
+          "name": "roo_fonts_material"
+        },
+        {
+          "name": "roo_locale"
+        },
+        {
+          "name": "roo_logging"
+        },
+        {
+          "name": "roo_icons"
+        },
+        {
+          "name": "roo_io"
+        },
+        {
+          "name": "roo_scheduler"
+        },
+        {
+          "name": "roo_time"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_windows-1.10.0.zip",
+      "archiveFileName": "roo_windows-1.10.0.zip",
+      "size": 7938669,
+      "checksum": "SHA-256:d4f1f30e44f78937d7303fb8e4d99497cb87ac9666b54f57caefc036cd857904"
     },
     {
       "name": "roo_temperature",
@@ -1139882,6 +1140275,186 @@
       "archiveFileName": "AMY_Synthesizer-1.2.192.zip",
       "size": 44637097,
       "checksum": "SHA-256:83055872777dd90df135ffa029c802e745656472b7a17e0964855477de28cb95"
+    },
+    {
+      "name": "AMY Synthesizer",
+      "version": "1.2.193",
+      "author": "Brian Whitman \u003cbrian@variogram.com\u003e, DAn Ellis \u003cdan.ellis@gmail.com\u003e",
+      "maintainer": "Brian Whitman \u003cbrian@variogram.com\u003e",
+      "sentence": "AMY, the Music Synthesizer Library",
+      "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+      "website": "http://github.com/shorepine/amy",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "stm32",
+        "rp2040",
+        "mbed_rp2040",
+        "rp2350",
+        "mbed_rp2350",
+        "teensy",
+        "STM32F1",
+        "STM32F4",
+        "STM32H7",
+        "nrf52",
+        "samd",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shorepine/amy.git",
+      "providesIncludes": [
+        "AMY-Arduino.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.193.zip",
+      "archiveFileName": "AMY_Synthesizer-1.2.193.zip",
+      "size": 44617617,
+      "checksum": "SHA-256:454278ee179ef6a3e45ae644e247b5b5e5552be43db1bef005bb18115989d019"
+    },
+    {
+      "name": "AMY Synthesizer",
+      "version": "1.2.194",
+      "author": "Brian Whitman \u003cbrian@variogram.com\u003e, DAn Ellis \u003cdan.ellis@gmail.com\u003e",
+      "maintainer": "Brian Whitman \u003cbrian@variogram.com\u003e",
+      "sentence": "AMY, the Music Synthesizer Library",
+      "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+      "website": "http://github.com/shorepine/amy",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "stm32",
+        "rp2040",
+        "mbed_rp2040",
+        "rp2350",
+        "mbed_rp2350",
+        "teensy",
+        "STM32F1",
+        "STM32F4",
+        "STM32H7",
+        "nrf52",
+        "samd",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shorepine/amy.git",
+      "providesIncludes": [
+        "AMY-Arduino.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.194.zip",
+      "archiveFileName": "AMY_Synthesizer-1.2.194.zip",
+      "size": 44618239,
+      "checksum": "SHA-256:fb3bf9e873765edbf8c575e76a84e9c29b90a02007b45e5a2d1a54d9df66ee03"
+    },
+    {
+      "name": "AMY Synthesizer",
+      "version": "1.2.195",
+      "author": "Brian Whitman \u003cbrian@variogram.com\u003e, DAn Ellis \u003cdan.ellis@gmail.com\u003e",
+      "maintainer": "Brian Whitman \u003cbrian@variogram.com\u003e",
+      "sentence": "AMY, the Music Synthesizer Library",
+      "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+      "website": "http://github.com/shorepine/amy",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "stm32",
+        "rp2040",
+        "mbed_rp2040",
+        "rp2350",
+        "mbed_rp2350",
+        "teensy",
+        "STM32F1",
+        "STM32F4",
+        "STM32H7",
+        "nrf52",
+        "samd",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shorepine/amy.git",
+      "providesIncludes": [
+        "AMY-Arduino.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.195.zip",
+      "archiveFileName": "AMY_Synthesizer-1.2.195.zip",
+      "size": 44617198,
+      "checksum": "SHA-256:757ddc0fbf283e0cffdc62bb954f30ebbfefd7f40bcce6d93c4e0f2f5990e613"
+    },
+    {
+      "name": "AMY Synthesizer",
+      "version": "1.2.196",
+      "author": "Brian Whitman \u003cbrian@variogram.com\u003e, DAn Ellis \u003cdan.ellis@gmail.com\u003e",
+      "maintainer": "Brian Whitman \u003cbrian@variogram.com\u003e",
+      "sentence": "AMY, the Music Synthesizer Library",
+      "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+      "website": "http://github.com/shorepine/amy",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "stm32",
+        "rp2040",
+        "mbed_rp2040",
+        "rp2350",
+        "mbed_rp2350",
+        "teensy",
+        "STM32F1",
+        "STM32F4",
+        "STM32H7",
+        "nrf52",
+        "samd",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shorepine/amy.git",
+      "providesIncludes": [
+        "AMY-Arduino.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.196.zip",
+      "archiveFileName": "AMY_Synthesizer-1.2.196.zip",
+      "size": 44617602,
+      "checksum": "SHA-256:8210057491ae776ccece6981fe287a24df693b1a0fa401b04c3aeddfc247fbd7"
+    },
+    {
+      "name": "AMY Synthesizer",
+      "version": "1.2.197",
+      "author": "Brian Whitman \u003cbrian@variogram.com\u003e, DAn Ellis \u003cdan.ellis@gmail.com\u003e",
+      "maintainer": "Brian Whitman \u003cbrian@variogram.com\u003e",
+      "sentence": "AMY, the Music Synthesizer Library",
+      "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+      "website": "http://github.com/shorepine/amy",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "stm32",
+        "rp2040",
+        "mbed_rp2040",
+        "rp2350",
+        "mbed_rp2350",
+        "teensy",
+        "STM32F1",
+        "STM32F4",
+        "STM32H7",
+        "nrf52",
+        "samd",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shorepine/amy.git",
+      "providesIncludes": [
+        "AMY-Arduino.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.197.zip",
+      "archiveFileName": "AMY_Synthesizer-1.2.197.zip",
+      "size": 44617883,
+      "checksum": "SHA-256:b87a087a076277e0cacc9cda319025413c9150447b1c246423f762c3c1a77177"
     },
     {
       "name": "ArduboyI2C",
@@ -1190450,6 +1191023,30 @@
       "archiveFileName": "Inkplate_Motion_Library-1.1.1.zip",
       "size": 20828210,
       "checksum": "SHA-256:add93b0e483c6fd832af7ab340a8dedce4ce9a98b8a730fc7f43aadeea92ff72"
+    },
+    {
+      "name": "Inkplate Motion Library",
+      "version": "1.2.0",
+      "author": "Soldered",
+      "maintainer": "Soldered \u003chello@soldered.com\u003e",
+      "sentence": "Arduino Library for Inkplate Motion e-paper based board family.",
+      "paragraph": "Easily add e-paper to your Arduino projects!",
+      "website": "https://github.com/SolderedElectronics/Inkplate_Motion_Arduino_Library",
+      "category": "Display",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/SolderedElectronics/Inkplate_Motion_Arduino_Library.git",
+      "providesIncludes": [
+        "InkplateMotion.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Inkplate_Motion_Library-1.2.0.zip",
+      "archiveFileName": "Inkplate_Motion_Library-1.2.0.zip",
+      "size": 20830142,
+      "checksum": "SHA-256:28f9fec68c79792f09187e2ffbb25b40a00627359267c01f05601c6e2fd04b51"
     },
     {
       "name": "TimeSeries",
@@ -1269020,6 +1269617,56 @@
       "checksum": "SHA-256:1d898ab146a628f7ee5a51130c62b491ddd10c62f91fe8a8808dc705e313c6ca"
     },
     {
+      "name": "Arduino_Modulino",
+      "version": "0.10.0",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Arduino Library for Modulinos",
+      "paragraph": "Easily connect and control your hardware with the Arduino Modulino® Library. Designed for the plug-and-play Qwiic ecosystem, this library makes it simple to manage sensors and actuators over I2C.",
+      "website": "https://github.com/arduino-libraries/Arduino_Modulino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "repository": "https://github.com/arduino-libraries/Arduino_Modulino.git",
+      "providesIncludes": [
+        "Arduino_Modulino.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duino VL53L4CD"
+        },
+        {
+          "name": "STM32duino VL53L4ED"
+        },
+        {
+          "name": "Arduino_LSM6DSOX"
+        },
+        {
+          "name": "Arduino_LPS22HB"
+        },
+        {
+          "name": "Arduino_HS300x"
+        },
+        {
+          "name": "ArduinoGraphics"
+        },
+        {
+          "name": "Arduino_LTR381RGB"
+        },
+        {
+          "name": "SHT31"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_Modulino-0.10.0.zip",
+      "archiveFileName": "Arduino_Modulino-0.10.0.zip",
+      "size": 2092273,
+      "checksum": "SHA-256:30e6d780a936ccda516b7b584d0017884268a79ff4aa9fb912b6a8234bf58b3c"
+    },
+    {
       "name": "Arduino_CapacitiveTouch",
       "version": "1.4.0",
       "author": "Arduino",
@@ -1287997,6 +1288644,80 @@
       "archiveFileName": "DFPongController-2.1.1.zip",
       "size": 63977,
       "checksum": "SHA-256:51c6b6cd8c89c0761767803e3b9c224cb19c9ee116a3c62b24d601dccfc80dd2"
+    },
+    {
+      "name": "DFPongController",
+      "version": "2.2.0",
+      "author": "Digital Futures OCAD U",
+      "maintainer": "Digital Futures OCAD U",
+      "sentence": "BLE controller library for the DF Pong game.",
+      "paragraph": "Support library for BLE Pong Controllers that control the online game df-pong. Version 2 adds player settings (name, color, paddle speed and size, custom sounds and background music) and game rule requests, and handles the connection handshake automatically. Supports Arduino Nano 33 IoT, Nano 33 BLE, UNO R4 WiFi, and ESP32 (NimBLE-Arduino 2.x).",
+      "website": "https://github.com/DigitalFuturesOCADU/df-pong-controller",
+      "category": "Communication",
+      "architectures": [
+        "samd",
+        "nrf52",
+        "mbed",
+        "mbed_nano",
+        "renesas_uno",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DigitalFuturesOCADU/df-pong-controller.git",
+      "providesIncludes": [
+        "DFPongController.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoBLE"
+        },
+        {
+          "name": "NimBLE-Arduino"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.2.0.zip",
+      "archiveFileName": "DFPongController-2.2.0.zip",
+      "size": 66125,
+      "checksum": "SHA-256:a6f6e6ed8603f42c25bfa99dc4fc789edc828124ef4af5dbd224aa3ec684df63"
+    },
+    {
+      "name": "DFPongController",
+      "version": "2.3.0",
+      "author": "Digital Futures OCAD U",
+      "maintainer": "Digital Futures OCAD U",
+      "sentence": "BLE controller library for the DF Pong game.",
+      "paragraph": "Support library for BLE Pong Controllers that control the online game df-pong. Version 2 adds player settings (name, color, paddle speed and size, custom sounds and background music) and game rule requests, and handles the connection handshake automatically. Supports Arduino Nano 33 IoT, Nano 33 BLE, UNO R4 WiFi, and ESP32 (NimBLE-Arduino 2.x).",
+      "website": "https://github.com/DigitalFuturesOCADU/df-pong-controller",
+      "category": "Communication",
+      "architectures": [
+        "samd",
+        "nrf52",
+        "mbed",
+        "mbed_nano",
+        "renesas_uno",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DigitalFuturesOCADU/df-pong-controller.git",
+      "providesIncludes": [
+        "DFPongController.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoBLE"
+        },
+        {
+          "name": "NimBLE-Arduino"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.3.0.zip",
+      "archiveFileName": "DFPongController-2.3.0.zip",
+      "size": 70294,
+      "checksum": "SHA-256:0d3daa46377e69701d620b50497010270cfbb608f01056886843f04a42fa2c3b"
     },
     {
       "name": "CamS3Library",
@@ -1330597,6 +1331318,43 @@
       "archiveFileName": "CodexPad-4.2.0.zip",
       "size": 597283,
       "checksum": "SHA-256:11e2359c749acc1652cd0ea1d92e030d9b20ce8772937d74a246942f8f3ca011"
+    },
+    {
+      "name": "CodexPad",
+      "version": "4.2.1",
+      "author": "cyfney-anka",
+      "maintainer": "cyfney-anka@qq.com",
+      "sentence": "Connect ESP32 to CodexPad gamepads via Bluetooth and read inputs.",
+      "paragraph": "Arduino library for CodexPad gamepads. Enables ESP32 to connect via Bluetooth (direct or button-mask scanning) and read button states and analog stick values. Depends on NimBLE-Arduino.",
+      "website": "https://github.com/CodexPad/codex_pad_arduino_lib",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/CodexPad/codex_pad_arduino_lib.git",
+      "providesIncludes": [
+        "codex_pad.h"
+      ],
+      "dependencies": [
+        {
+          "name": "NimBLE-Arduino",
+          "version": "\u003e=2.3.9"
+        },
+        {
+          "name": "GamepadInput",
+          "version": "\u003e=1.3.0"
+        },
+        {
+          "name": "cyfney-cpp"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/CodexPad/CodexPad-4.2.1.zip",
+      "archiveFileName": "CodexPad-4.2.1.zip",
+      "size": 597290,
+      "checksum": "SHA-256:43f71ea53cd6c67ef40d9d5ff1ea8a6ca8f906f87f5f89bd16cf7d6fccc40fe3"
     },
     {
       "name": "KISS_FFT",
@@ -1375045,6 +1375803,92 @@
       "checksum": "SHA-256:01449fdf60595f6d48d4fbe1a90a6beb7e7296b2114e3e003b6e606690177821"
     },
     {
+      "name": "NetworkProfile",
+      "version": "0.10.0",
+      "author": "Péter Soós",
+      "maintainer": "Péter Soós",
+      "license": "MIT",
+      "sentence": "Thread-safe network interface configuration profiles for ESP32, ESP8266 and AVR.",
+      "paragraph": "WiFiProfile and EthProfile hold a network interface's configuration (DHCP/static IP, DNS, hostname, MAC address, priority for ETH -\u003e WiFi fallback). NtpProfile holds the NTP servers a device synchronises from, and MqttProfile the settings needed to reach an MQTT broker. All four offer thread-safe access, validation, persistent storage via Preferences, and JSON serialisation. Depends on the Host library.",
+      "website": "https://github.com/soosp/NetworkProfile",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/NetworkProfile.git",
+      "providesIncludes": [
+        "NetworkProfile.h",
+        "EthProfile.h",
+        "WiFiProfile.h",
+        "MqttProfile.h",
+        "NtpProfile.h",
+        "SyslogProfile.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Host"
+        },
+        {
+          "name": "EEPROMPreferences"
+        },
+        {
+          "name": "Preferences"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.10.0.zip",
+      "archiveFileName": "NetworkProfile-0.10.0.zip",
+      "size": 92705,
+      "checksum": "SHA-256:5e176f8b3a853be940c6249475f1d54e5036c4865c0985c4e74054260362917a"
+    },
+    {
+      "name": "NetworkProfile",
+      "version": "0.10.1",
+      "author": "Péter Soós",
+      "maintainer": "Péter Soós",
+      "license": "MIT",
+      "sentence": "Thread-safe network interface configuration profiles for ESP32, ESP8266 and AVR.",
+      "paragraph": "WiFiProfile and EthProfile hold a network interface's configuration (DHCP/static IP, DNS, hostname, MAC address, priority for ETH -\u003e WiFi fallback). NtpProfile holds the NTP servers a device synchronises from, and MqttProfile the settings needed to reach an MQTT broker. All four offer thread-safe access, validation, persistent storage via Preferences, and JSON serialisation. Depends on the Host library.",
+      "website": "https://github.com/soosp/NetworkProfile",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/NetworkProfile.git",
+      "providesIncludes": [
+        "NetworkProfile.h",
+        "EthProfile.h",
+        "WiFiProfile.h",
+        "MqttProfile.h",
+        "NtpProfile.h",
+        "SyslogProfile.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Host"
+        },
+        {
+          "name": "EEPROMPreferences"
+        },
+        {
+          "name": "Preferences"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.10.1.zip",
+      "archiveFileName": "NetworkProfile-0.10.1.zip",
+      "size": 93105,
+      "checksum": "SHA-256:5aa647dd220cdf81da3099af151492bf7fea6ed67e8d035f386df196150f1914"
+    },
+    {
       "name": "NetworkManager",
       "version": "0.1.0",
       "author": "Péter Soós \u003chttps://github.com/soosp\u003e",
@@ -1388622,6 +1389466,302 @@
       "checksum": "SHA-256:303dd49ec61612d857a878a5d9d079a2d4845c0fc994b1b6435b06c88b137bfd"
     },
     {
+      "name": "AsyncConfigPortal",
+      "version": "0.9.1",
+      "author": "Peter Soos",
+      "maintainer": "Peter Soos",
+      "license": "MIT",
+      "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+      "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+      "website": "https://github.com/soosp/AsyncConfigPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncConfigPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "HttpDigestAuth"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.9.1.zip",
+      "archiveFileName": "AsyncConfigPortal-0.9.1.zip",
+      "size": 170933,
+      "checksum": "SHA-256:638052e8b9db122425ff9c9e1bb443b32c1bd07eca677abd79275070f18f767d"
+    },
+    {
+      "name": "AsyncConfigPortal",
+      "version": "0.9.2",
+      "author": "Peter Soos",
+      "maintainer": "Peter Soos",
+      "license": "MIT",
+      "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+      "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+      "website": "https://github.com/soosp/AsyncConfigPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncConfigPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "HttpDigestAuth"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.9.2.zip",
+      "archiveFileName": "AsyncConfigPortal-0.9.2.zip",
+      "size": 171525,
+      "checksum": "SHA-256:869f1920dfb8b0bb102f28a25ea51a759bdd1fd2a3c213cf0888a1b58ba21bde"
+    },
+    {
+      "name": "AsyncConfigPortal",
+      "version": "0.10.0",
+      "author": "Peter Soos",
+      "maintainer": "Peter Soos",
+      "license": "MIT",
+      "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+      "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+      "website": "https://github.com/soosp/AsyncConfigPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncConfigPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "HttpDigestAuth"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.10.0.zip",
+      "archiveFileName": "AsyncConfigPortal-0.10.0.zip",
+      "size": 182847,
+      "checksum": "SHA-256:9f2201be7bc0fb5211e106e3f3c6c26d05bcc5ff66eb4ab5c37af3b628f14703"
+    },
+    {
+      "name": "AsyncConfigPortal",
+      "version": "0.11.0",
+      "author": "Peter Soos",
+      "maintainer": "Peter Soos",
+      "license": "MIT",
+      "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+      "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+      "website": "https://github.com/soosp/AsyncConfigPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncConfigPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "HttpDigestAuth"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.11.0.zip",
+      "archiveFileName": "AsyncConfigPortal-0.11.0.zip",
+      "size": 184484,
+      "checksum": "SHA-256:f2bf8fc55bde4493c2f7fba4a5bb581585c0c07b3bea2f1d570a552e7a41ae66"
+    },
+    {
+      "name": "AsyncConfigPortal",
+      "version": "0.12.0",
+      "author": "Peter Soos",
+      "maintainer": "Peter Soos",
+      "license": "MIT",
+      "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+      "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+      "website": "https://github.com/soosp/AsyncConfigPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncConfigPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "HttpDigestAuth"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.12.0.zip",
+      "archiveFileName": "AsyncConfigPortal-0.12.0.zip",
+      "size": 187396,
+      "checksum": "SHA-256:d17592d39555b2e5a17d02ce389fc68733bc8fd0b4b60542f1113f35eda7d356"
+    },
+    {
+      "name": "AsyncConfigPortal",
+      "version": "0.13.0",
+      "author": "Peter Soos",
+      "maintainer": "Peter Soos",
+      "license": "MIT",
+      "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+      "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+      "website": "https://github.com/soosp/AsyncConfigPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncConfigPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "HttpDigestAuth"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.13.0.zip",
+      "archiveFileName": "AsyncConfigPortal-0.13.0.zip",
+      "size": 188381,
+      "checksum": "SHA-256:b952f2f46426896b6e89cf989bc9ab48089dac22016585a4f985baefa3c42204"
+    },
+    {
+      "name": "AsyncConfigPortal",
+      "version": "0.13.1",
+      "author": "Peter Soos",
+      "maintainer": "Peter Soos",
+      "license": "MIT",
+      "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+      "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+      "website": "https://github.com/soosp/AsyncConfigPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncConfigPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "HttpDigestAuth"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.13.1.zip",
+      "archiveFileName": "AsyncConfigPortal-0.13.1.zip",
+      "size": 188548,
+      "checksum": "SHA-256:c915016c54c3bd1ceab132c16c3415c7d0aae7a94f6a43938d39e22d53a5ac67"
+    },
+    {
+      "name": "AsyncConfigPortal",
+      "version": "0.13.2",
+      "author": "Peter Soos",
+      "maintainer": "Peter Soos",
+      "license": "MIT",
+      "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+      "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+      "website": "https://github.com/soosp/AsyncConfigPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncConfigPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "HttpDigestAuth"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.13.2.zip",
+      "archiveFileName": "AsyncConfigPortal-0.13.2.zip",
+      "size": 188841,
+      "checksum": "SHA-256:620260458a4afd2a66d1372d62c5e35c7f494728f0a8a625971cfeb704a235ba"
+    },
+    {
       "name": "AsyncWiFiPortal",
       "version": "0.1.0",
       "author": "soosp",
@@ -1389484,6 +1390624,33 @@
       "archiveFileName": "HomeAssistantDiscovery-0.1.2.zip",
       "size": 30393,
       "checksum": "SHA-256:2bb85dea3cd3c6969604225d1ed3be559ddbdd555839f02499e0c5ed3367de9a"
+    },
+    {
+      "name": "HomeAssistantDiscovery",
+      "version": "0.2.0",
+      "author": "Péter Soós",
+      "maintainer": "Péter Soós",
+      "license": "MIT",
+      "sentence": "Home Assistant MQTT discovery payloads, built into caller-supplied buffers.",
+      "paragraph": "Builds discovery topics and payloads from constexpr PROGMEM entity tables. No dynamic allocation, no JSON library, and no MQTT client — the application connects and publishes, so the same tables serve any client. Covers the single-state MQTT platforms (sensor, binary_sensor, button, number, select, switch); a publisher walks the tables and a matching clearer removes the retained messages again. Host-testable.",
+      "website": "https://github.com/soosp/HomeAssistantDiscovery",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/HomeAssistantDiscovery.git",
+      "providesIncludes": [
+        "HomeAssistantDiscovery.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/HomeAssistantDiscovery-0.2.0.zip",
+      "archiveFileName": "HomeAssistantDiscovery-0.2.0.zip",
+      "size": 32402,
+      "checksum": "SHA-256:8c1cd734141f491f960df0ce6774ee903b3c924062493f153eeb6c0a80d2dccf"
     },
     {
       "name": "shark_pid",
@@ -1390700,6 +1391867,37 @@
       "archiveFileName": "UsbIo-0.4.0.zip",
       "size": 249999,
       "checksum": "SHA-256:9763da0565ba1ac729d844f701dc00ce6020e349e4a437f9b79452d12617cd1e"
+    },
+    {
+      "name": "UsbIo",
+      "version": "0.4.2",
+      "author": "Paolo Bosetti",
+      "maintainer": "Paolo Bosetti \u003cpaolo.bosetti@me.com\u003e",
+      "sentence": "Turns the board into a USB vendor-class I/O device (digital I/O, analog in, PWM, DAC) driven by a libusb host driver.",
+      "paragraph": "Commands travel as USB control requests on endpoint 0 and are executed from loop(); no serial protocol is involved and the CDC Serial port stays free for debugging. Verified stacks: Arduino mbed (Portenta H7 on hardware; GIGA R1, Nano 33 BLE, Nano RP2040 Connect compile-checked), Renesas (UNO R4 Minima, Nano R4) and SAMD21 (Zero, MKR, Nano 33 IoT), both compile-checked. Unverified scaffolding: arduino-pico RP2040 and arduino-esp32 (USB-OTG mode).",
+      "website": "https://github.com/pbosetti/ArduinoDriver",
+      "category": "Communication",
+      "architectures": [
+        "mbed",
+        "mbed_portenta",
+        "mbed_giga",
+        "mbed_nano",
+        "renesas_uno",
+        "samd",
+        "rp2040",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pbosetti/ArduinoDriver.git",
+      "providesIncludes": [
+        "UsbIo.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pbosetti/UsbIo-0.4.2.zip",
+      "archiveFileName": "UsbIo-0.4.2.zip",
+      "size": 252055,
+      "checksum": "SHA-256:3014a6b556b54e4a2c6abc6b90a546df941650de104820e953a79ead6bc9dc14"
     },
     {
       "name": "Biovo1020A",
@@ -1402865,6 +1404063,32 @@
       "checksum": "SHA-256:c8cd1ddf04395343b5c9c6938e144b63383ba659b977fdeda058ae6fa88db2e6"
     },
     {
+      "name": "MaxwellTrack",
+      "version": "1.3.1",
+      "author": "MaxwellTrack",
+      "maintainer": "MaxwellTrack \u003csupport@maxwelltrack.com\u003e",
+      "sentence": "Connect Arduino boards to the MaxwellTrack IoT Cloud over WiFi or cellular (GSM/LTE).",
+      "paragraph": "Encrypted, per-device secure connection. Send readings to datastreams, receive dashboard commands, offline buffering, automatic reconnect and over-the-air updates. ESP32/ESP8266 connect over WiFi; any supported board connects over a SIM800 or SIM7600 modem. Provide only your Device ID and Auth Token from the dashboard.",
+      "website": "https://maxwelltrack.com",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "stm32",
+        "rp2040",
+        "samd",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/maxwelltrack/maxwelltrack-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/maxwelltrack/MaxwellTrack-1.3.1.zip",
+      "archiveFileName": "MaxwellTrack-1.3.1.zip",
+      "size": 1342550,
+      "checksum": "SHA-256:ca9120ae8b032b90eee022968d5cf33e533f0b02b6b71df2db8d9c55e25c2918"
+    },
+    {
       "name": "ERDILRF_LRF",
       "version": "0.2.0",
       "author": "ERDILRF",
@@ -1403083,6 +1404307,38 @@
       "archiveFileName": "RangeMonitor-0.3.0.zip",
       "size": 40582,
       "checksum": "SHA-256:ccf745408f7bcb2f4caa886fcc6e22f0d5390bd5c051a749a0e90d86fe75e1e8"
+    },
+    {
+      "name": "RangeMonitor",
+      "version": "0.4.0",
+      "author": "Péter Soós",
+      "maintainer": "Péter Soós",
+      "license": "MIT",
+      "sentence": "Range monitor for a scalar measurement: spike filter, time-based EMA, soft limits with alarm delay, hard limits, fault detection.",
+      "paragraph": "Watches any scalar quantity — temperature, humidity, pressure — against a range. A median-of-3 spike filter and a time-based EMA smooth the value; soft limits raise an alarm only after a configurable delay (tolerating defrost cycles, opened doors), hard limits raise it at once. Invalid samples become a FAULT after their own delay. Every transition is reported, every time rule uses the real time between samples, and the state machine runs on a host PC for testing and data replay. No dynamic allocation; thread-safe on ESP32 with a static FreeRTOS mutex.",
+      "website": "https://github.com/soosp/RangeMonitor",
+      "category": "Data Processing",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/RangeMonitor.git",
+      "providesIncludes": [
+        "RangeMonitor.h"
+      ],
+      "dependencies": [
+        {
+          "name": "RunningStatistics"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/RangeMonitor-0.4.0.zip",
+      "archiveFileName": "RangeMonitor-0.4.0.zip",
+      "size": 41556,
+      "checksum": "SHA-256:40e2c9c71fdd008d4e1a0b5a5bee3de6b699ee5d4d2a290e1bedbc36dc7db44d"
     },
     {
       "name": "ESP32-BLE-Keyboard-Client",
@@ -1403957,6 +1405213,30 @@
       "checksum": "SHA-256:876e1eb9663d1a9feaf6894da24aff3f2090b85934f31eeeea237952a73262ae"
     },
     {
+      "name": "GroqAudioStream",
+      "version": "1.3.1",
+      "author": "Abi",
+      "maintainer": "Abi",
+      "sentence": "INMP441 capture and quiet streaming speech-to-text for Groq Whisper on ESP32.",
+      "paragraph": "Captures 16 kHz mono audio, applies configurable VAD/filtering/gain, streams to Groq Whisper, and returns a transcript. Library serial logging is disabled by default and can be enabled with Config.debugOutput. Created and maintained by Abi.",
+      "website": "https://github.com/abinsaji2008/GroqAudioStream_Library",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/abinsaji2008/GroqAudioStream_Library.git",
+      "providesIncludes": [
+        "GroqAudioStream.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/abinsaji2008/GroqAudioStream-1.3.1.zip",
+      "archiveFileName": "GroqAudioStream-1.3.1.zip",
+      "size": 9048,
+      "checksum": "SHA-256:8a572af2fb1865f369647dc631fe09faf946671f53805be025be0bce74070f1a"
+    },
+    {
       "name": "ESP32Audiometer",
       "version": "0.1.0",
       "author": "vax9210",
@@ -1404642,6 +1405922,37 @@
       "checksum": "SHA-256:d114170c628ecfa823c66b792f16ec31a976af9a9e963f247578ab3984323d26"
     },
     {
+      "name": "ESP32NFS",
+      "version": "1.3.0",
+      "author": "Yitao Jiang",
+      "maintainer": "Yitao Jiang \u003c22387156+cccat6@users.noreply.github.com\u003e",
+      "sentence": "NFSv3 file sharing for ESP32 and Raspberry Pi Pico W over TCP with flexible storage and partition mapping.",
+      "paragraph": "Export LittleFS, FAT32, exFAT, RAM and ROM through a common filesystem interface. Map multiple volumes, integrate custom block devices, and manage buffered writes and transactional storage.",
+      "website": "https://github.com/cccat6/ESP32NFS",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/cccat6/ESP32NFS.git",
+      "providesIncludes": [
+        "ESP32NFS.h"
+      ],
+      "dependencies": [
+        {
+          "name": "SdFat",
+          "version": "=2.3.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/cccat6/ESP32NFS-1.3.0.zip",
+      "archiveFileName": "ESP32NFS-1.3.0.zip",
+      "size": 199955,
+      "checksum": "SHA-256:3b941cd805d2223868713fdaff81abd9a8eab021c9227eafb795ca1931b99b07"
+    },
+    {
       "name": "SoftI2C_Shared_CLS",
       "version": "0.1.0",
       "author": "Felipe Verri \u003cpipe.verri@gmail.com\u003e",
@@ -1404719,6 +1406030,837 @@
       "archiveFileName": "Railuino-0.14.0.zip",
       "size": 136171,
       "checksum": "SHA-256:b462c7ee18f598926b12d919a8e97ac9bb4245c7b63a8c3354f997f1d2d76b65"
+    },
+    {
+      "name": "WisBlockLoRaWAN",
+      "version": "1.0.0",
+      "author": "Bernd Giesecke bernd@giesecke.tk",
+      "maintainer": "Bernd Giesecke bernd@giesecke.tk",
+      "sentence": "Unified LoRaWAN (Class A/B/C) and LoRa P2P library for RAKwireless WisBlock boards using Semtech SX1262 + LoRa Basics Modem.",
+      "paragraph": "Supports RAK4631 (nRF52840), RAK3312 (ESP32-S3) and RAK11310/RAK11300 (RP2040, Arduino-Pico core by Earle Philhower) with built-in SX1262. Provides AT command interface and C++ API. LoRaWAN engine is built on Semtech's LoRa Basics Modem (BasicModem/LBM) stack.",
+      "website": "https://github.com/beegee-tokyo/WisBlockLoRaWAN",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/beegee-tokyo/WisBlockLoRaWAN.git",
+      "providesIncludes": [
+        "WisBlockLoRaWAN.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/beegee-tokyo/WisBlockLoRaWAN-1.0.0.zip",
+      "archiveFileName": "WisBlockLoRaWAN-1.0.0.zip",
+      "size": 1362341,
+      "checksum": "SHA-256:fe11cb4abf38a1aa6eb187257f44bc7e1b78f336db56fb70c8e93a4456e527ff"
+    },
+    {
+      "name": "GroqReasoning",
+      "version": "1.4.2",
+      "author": "Abi",
+      "maintainer": "Abi",
+      "sentence": "Groq reasoning, WhatsApp draft generation, and Evolution API message sending.",
+      "paragraph": "Arduino ESP32 library for Groq JSON reasoning, validated device/contact actions, AI-written WhatsApp drafts, local phone-number validation, and sending text messages through Evolution API.",
+      "website": "https://github.com/abinsaji2008/GroqReasoning",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/abinsaji2008/GroqReasoning.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/abinsaji2008/GroqReasoning-1.4.2.zip",
+      "archiveFileName": "GroqReasoning-1.4.2.zip",
+      "size": 18642,
+      "checksum": "SHA-256:fb5b95fe4ceb677bf76d636502ee260924236d4bef3a2347bdeee302c67a99ba"
+    },
+    {
+      "name": "GroqReasoning",
+      "version": "1.4.3",
+      "author": "Abi",
+      "maintainer": "Abi",
+      "sentence": "Groq reasoning, WhatsApp draft generation, and Evolution API message sending.",
+      "paragraph": "Arduino ESP32 library for Groq JSON reasoning, validated device/contact actions, AI-written WhatsApp drafts, local phone-number validation, and sending text messages through Evolution API.",
+      "website": "https://github.com/abinsaji2008/GroqReasoning",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/abinsaji2008/GroqReasoning.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/abinsaji2008/GroqReasoning-1.4.3.zip",
+      "archiveFileName": "GroqReasoning-1.4.3.zip",
+      "size": 18929,
+      "checksum": "SHA-256:de8925158bb45468f9e3821ffea89b124968d459d21524524511c5cacceaf6e3"
+    },
+    {
+      "name": "GroqReasoning",
+      "version": "1.4.4",
+      "author": "Abi",
+      "maintainer": "Abi",
+      "sentence": "Groq reasoning, WhatsApp draft generation, and Evolution API message sending.",
+      "paragraph": "Arduino ESP32 library for Groq JSON reasoning, validated device/contact actions, AI-written WhatsApp drafts, local phone-number validation, and sending text messages through Evolution API.",
+      "website": "https://github.com/abinsaji2008/GroqReasoning",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/abinsaji2008/GroqReasoning.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/abinsaji2008/GroqReasoning-1.4.4.zip",
+      "archiveFileName": "GroqReasoning-1.4.4.zip",
+      "size": 19274,
+      "checksum": "SHA-256:f3a2a7aa64ea8699f1c2bc72547496e7014ba4ad13752bdfb42134dfd8f8fc91"
+    },
+    {
+      "name": "GroqReasoning",
+      "version": "1.4.5",
+      "author": "Abi",
+      "maintainer": "Abi",
+      "sentence": "Groq reasoning, WhatsApp draft generation, and Evolution API message sending.",
+      "paragraph": "Arduino ESP32 library for Groq JSON reasoning, validated device/contact actions, AI-written WhatsApp drafts, local phone-number validation, and sending text messages through Evolution API.",
+      "website": "https://github.com/abinsaji2008/GroqReasoning",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/abinsaji2008/GroqReasoning.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/abinsaji2008/GroqReasoning-1.4.5.zip",
+      "archiveFileName": "GroqReasoning-1.4.5.zip",
+      "size": 19766,
+      "checksum": "SHA-256:e74d7e8d4459d00b77fa9156394afd19a9705dd9f69c7cf87f9db5d222f50d32"
+    },
+    {
+      "name": "GroqReasoning",
+      "version": "1.4.6",
+      "author": "Abi",
+      "maintainer": "Abi",
+      "sentence": "Groq reasoning, WhatsApp draft generation, and Evolution API message sending.",
+      "paragraph": "Arduino ESP32 library for Groq JSON reasoning, validated device/contact actions, AI-written WhatsApp drafts, local phone-number validation, and sending text messages through Evolution API.",
+      "website": "https://github.com/abinsaji2008/GroqReasoning",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/abinsaji2008/GroqReasoning.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/abinsaji2008/GroqReasoning-1.4.6.zip",
+      "archiveFileName": "GroqReasoning-1.4.6.zip",
+      "size": 23936,
+      "checksum": "SHA-256:079c3d0e28fc8a752d6787d958d3f27d60b5e418bb97d306d264d2954354c3d1"
+    },
+    {
+      "name": "GroqReasoning",
+      "version": "1.4.7",
+      "author": "Abi",
+      "maintainer": "Abi",
+      "sentence": "Groq reasoning, WhatsApp draft generation, and Evolution API message sending.",
+      "paragraph": "Arduino ESP32 library for Groq JSON reasoning, validated device/contact actions, AI-written WhatsApp drafts, local phone-number validation, and sending text messages through Evolution API.",
+      "website": "https://github.com/abinsaji2008/GroqReasoning",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/abinsaji2008/GroqReasoning.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/abinsaji2008/GroqReasoning-1.4.7.zip",
+      "archiveFileName": "GroqReasoning-1.4.7.zip",
+      "size": 24474,
+      "checksum": "SHA-256:5963c06b48226b07b9f75c30976748f1bc0672908ecb4e8c1101b38e98cc82a5"
+    },
+    {
+      "name": "GroqReasoning",
+      "version": "1.4.8",
+      "author": "Abi",
+      "maintainer": "Abi",
+      "sentence": "Groq voice reasoning, WhatsApp messaging, and scheduled delivery.",
+      "paragraph": "ESP32 library for compact voice-assistant workflows: Groq intent routing, unified contact/phone mappings, WhatsApp drafts and delivery, NTP time context, and persistent scheduled messages.",
+      "website": "https://github.com/abinsaji2008/GroqReasoning",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/abinsaji2008/GroqReasoning.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/abinsaji2008/GroqReasoning-1.4.8.zip",
+      "archiveFileName": "GroqReasoning-1.4.8.zip",
+      "size": 29712,
+      "checksum": "SHA-256:c8e9bec867d83b4f13945745a46b1cb2b2168cdfa155f66849a1d07cce847c5d"
+    },
+    {
+      "name": "SerialLedger",
+      "version": "0.1.0-beta.1",
+      "author": "Raven Magbanua",
+      "maintainer": "Raven Magbanua \u003cmagbanuaraven08@gmail.com\u003e",
+      "sentence": "Send newline-delimited telemetry to the SerialLedger companion.",
+      "paragraph": "Portable C transport core with C++ and Arduino wrappers. The PC companion records serial data and exports Excel workbooks.",
+      "website": "https://github.com/pravennn08/SerialLedger",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pravennn08/SerialLedger.git",
+      "providesIncludes": [
+        "SerialLedger.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pravennn08/SerialLedger-0.1.0-beta.1.zip",
+      "archiveFileName": "SerialLedger-0.1.0-beta.1.zip",
+      "size": 14455,
+      "checksum": "SHA-256:4bb17733374fef7c5873fcf2136ba984eebf4dc03194e47429547f185ec9ae37"
+    },
+    {
+      "name": "SchoolLib",
+      "version": "1.0.0",
+      "author": "Dominik",
+      "maintainer": "Dominik",
+      "sentence": "Skolni knihovna: tlacitko s odskokem, hraci kostka, teplomer DS18B20 a termostat.",
+      "paragraph": "Obsahuje tridy Tlacitko, Kostka, Teplomer a Termostat. Priklady (Kostka, Termostat) navic potrebuji knihovnu LiquidTWI2 pro I2C displej.",
+      "website": "https://github.com/h3pereu/SchoolLib",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/h3pereu/SchoolLib.git",
+      "dependencies": [
+        {
+          "name": "OneWire"
+        },
+        {
+          "name": "DallasTemperature"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/h3pereu/SchoolLib-1.0.0.zip",
+      "archiveFileName": "SchoolLib-1.0.0.zip",
+      "size": 9313,
+      "checksum": "SHA-256:7d2c721eb09489ff589b9a3c45884f8bdc84f1246fc7a9b163acce9de03a7bce"
+    },
+    {
+      "name": "SchoolLib",
+      "version": "1.0.1",
+      "author": "Dominik",
+      "maintainer": "Dominik",
+      "sentence": "Skolni knihovna: tlacitko s odskokem, hraci kostka, teplomer DS18B20 a termostat.",
+      "paragraph": "Obsahuje tridy Tlacitko, Kostka, Teplomer a Termostat. Priklady (Kostka, Termostat) navic potrebuji knihovnu LiquidTWI2 pro I2C displej.",
+      "website": "https://github.com/h3pereu/SchoolLib",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/h3pereu/SchoolLib.git",
+      "dependencies": [
+        {
+          "name": "OneWire"
+        },
+        {
+          "name": "DallasTemperature"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/h3pereu/SchoolLib-1.0.1.zip",
+      "archiveFileName": "SchoolLib-1.0.1.zip",
+      "size": 10401,
+      "checksum": "SHA-256:49301e2624c56177b38377469fd5c2c4dae41cb43a77ccbfbbdb9d314c707ac5"
+    },
+    {
+      "name": "ReflectJSON",
+      "version": "1.0.0",
+      "author": "Michael michi.fu@quickline.ch",
+      "maintainer": "Michael michi.fu@quickline.ch",
+      "sentence": "Fast JSON writer and reader for microcontrollers with struct reflection (REFLECT/MEMBER), Kotlin-style config and pretty printing.",
+      "paragraph": "Write and read C++ structs as JSON without hand-written serialization code. Streaming buffer writer with validation, single-pass reader, std::optional, duplicate key detection, error paths like root.devices[2].limits.max. Needs C++17 (RP2040/RP2350, ESP32, Teensy 4.x). Free for noncommercial use; commercial use requires a license.",
+      "website": "https://github.com/Michael-0-sys/ReflectJSON",
+      "category": "Data Processing",
+      "architectures": [
+        "rp2040",
+        "esp32",
+        "teensy",
+        "renesas_uno"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Michael-0-sys/ReflectJSON.git",
+      "providesIncludes": [
+        "ReflectJSON.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Michael-0-sys/ReflectJSON-1.0.0.zip",
+      "archiveFileName": "ReflectJSON-1.0.0.zip",
+      "size": 86788,
+      "checksum": "SHA-256:49ba3e9c8a3b24ac7b64457ed3664210d1ff044b60d852a2788a94334d0831a8"
+    },
+    {
+      "name": "IOTFIY",
+      "version": "1.0.0",
+      "author": "Iotfiy Solutions",
+      "maintainer": "iotfiy.solution@gmail.com",
+      "sentence": "A library for IoT device connectivity using MQTT.",
+      "paragraph": "IOTFIY provides a simple way to create sensors and controls for IoT devices, handling MQTT communication, WiFi connections, and data formatting.",
+      "website": "https://github.com/iotfiy-solutions/Gateway_Library.git",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/iotfiy-solutions/Gateway_Library.git",
+      "dependencies": [
+        {
+          "name": "PubSubClient"
+        },
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/iotfiy-solutions/IOTFIY-1.0.0.zip",
+      "archiveFileName": "IOTFIY-1.0.0.zip",
+      "size": 12704,
+      "checksum": "SHA-256:bee982cacaf9726c712d4b31fec0f9c1a1ba0da2e2fc97e77cb60bfdb03c0c2a"
+    },
+    {
+      "name": "AmperiaSTEM",
+      "version": "0.9.0",
+      "author": "EdPro",
+      "maintainer": "EdPro \u003cababenko@edpro.ua\u003e",
+      "sentence": "Arduino library for Amperia STEM sensors and actuators.",
+      "paragraph": "Provides a user-friendly API for discovering and reading Amperia STEM sensors, displaying measurements, and controlling supported actuators.",
+      "website": "https://github.com/edpro/amperia_stem",
+      "category": "Sensors",
+      "architectures": [
+        "renesas_uno"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/edpro/amperia_stem.git",
+      "providesIncludes": [
+        "AmperiaSTEM.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Stepper"
+        },
+        {
+          "name": "Servo"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/edpro/AmperiaSTEM-0.9.0.zip",
+      "archiveFileName": "AmperiaSTEM-0.9.0.zip",
+      "size": 4386967,
+      "checksum": "SHA-256:62e3cd0809a163e9606520937338fb6712aea4ac3c0c10258bdf50488d51e412"
+    },
+    {
+      "name": "CodonTraceSwarm",
+      "version": "0.4.0",
+      "author": "Parvaz Jamei \u003c75752108+Parvaz-Jamei@users.noreply.github.com\u003e",
+      "maintainer": "Parvaz Jamei \u003c75752108+Parvaz-Jamei@users.noreply.github.com\u003e",
+      "sentence": "Typed C++11 messages for the CodonTrace Genesis swarm contract.",
+      "paragraph": "Checkpoint 0.4.0. Encodes genesis_swarm_v2 readings and command replies and checks them against the pinned host. MQTT, TLS, a board clock, and sensor drivers are not included. Not yet submitted to the Arduino Library Manager.",
+      "website": "https://github.com/Parvaz-Jamei/CodonTraceSwarm",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Parvaz-Jamei/CodonTraceSwarm.git",
+      "providesIncludes": [
+        "CodonTraceSwarm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.4.0.zip",
+      "archiveFileName": "CodonTraceSwarm-0.4.0.zip",
+      "size": 87419,
+      "checksum": "SHA-256:c914f5321db5fdf6b5169e4ba657c0b7146b4444cf6790813f36e0ce815ee6a7"
+    },
+    {
+      "name": "CodonTraceSwarm",
+      "version": "0.6.0",
+      "author": "Parvaz Jamei \u003c75752108+Parvaz-Jamei@users.noreply.github.com\u003e",
+      "maintainer": "Parvaz Jamei \u003c75752108+Parvaz-Jamei@users.noreply.github.com\u003e",
+      "sentence": "Typed C++11 messages for the CodonTrace Genesis swarm contract.",
+      "paragraph": "Checkpoint 0.6.0. Encodes genesis_swarm_v2, command replies, clock gates, and a bounded network inbox, checked against the pinned host. MQTT, TLS, a board clock, and sensor drivers are not included. Not yet submitted to the Arduino Library Manager.",
+      "website": "https://github.com/Parvaz-Jamei/CodonTraceSwarm",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Parvaz-Jamei/CodonTraceSwarm.git",
+      "providesIncludes": [
+        "CodonTraceSwarm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.6.0.zip",
+      "archiveFileName": "CodonTraceSwarm-0.6.0.zip",
+      "size": 204078,
+      "checksum": "SHA-256:e80d8d12954331c20d911314fb386d838f326a71dbacb1cae0a88fdb38fe94d0"
+    },
+    {
+      "name": "CodonTraceSwarm",
+      "version": "0.8.0",
+      "author": "Parvaz Jamei",
+      "maintainer": "Parvaz Jamei",
+      "sentence": "Portable typed sensor and command protocol core for Genesis.",
+      "paragraph": "Board-independent C++11 core with bounded storage. Architecture eligibility does not establish tested board support; consult the portability matrix and RAM requirements.",
+      "website": "https://github.com/Parvaz-Jamei/codontrace-genesis",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Parvaz-Jamei/CodonTraceSwarm.git",
+      "providesIncludes": [
+        "CodonTraceSwarm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.8.0.zip",
+      "archiveFileName": "CodonTraceSwarm-0.8.0.zip",
+      "size": 234809,
+      "checksum": "SHA-256:0506de1da5bbfec1eafe1409c8280601fd024c29209b31c222a8f0271be2e0c6"
+    },
+    {
+      "name": "CodonTraceSwarm",
+      "version": "0.10.0",
+      "author": "Parvaz Jamei",
+      "maintainer": "Parvaz Jamei",
+      "sentence": "Portable typed sensor and command protocol core for Genesis.",
+      "paragraph": "Board-independent C++11 core with bounded storage. Architecture eligibility does not establish tested board support; consult the portability matrix and RAM requirements.",
+      "website": "https://github.com/Parvaz-Jamei/codontrace-genesis",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Parvaz-Jamei/CodonTraceSwarm.git",
+      "providesIncludes": [
+        "CodonTraceSwarm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.10.0.zip",
+      "archiveFileName": "CodonTraceSwarm-0.10.0.zip",
+      "size": 272742,
+      "checksum": "SHA-256:896e582d8fee3a5a6f43bee1943b6ecd5b0058b6976522fd246253d7390dc325"
+    },
+    {
+      "name": "CodonTraceSwarm",
+      "version": "0.11.0",
+      "author": "Parvaz Jamei",
+      "maintainer": "Parvaz Jamei",
+      "sentence": "Portable typed sensor and command protocol core for Genesis.",
+      "paragraph": "Board-independent C++11 core with bounded storage. Architecture eligibility does not establish tested board support; consult the portability matrix and RAM requirements.",
+      "website": "https://github.com/Parvaz-Jamei/codontrace-genesis",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Parvaz-Jamei/CodonTraceSwarm.git",
+      "providesIncludes": [
+        "CodonTraceSwarm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.11.0.zip",
+      "archiveFileName": "CodonTraceSwarm-0.11.0.zip",
+      "size": 293200,
+      "checksum": "SHA-256:c3719910a5948515af7302748df7ed195f64c9fe51adc86da7dadc5efac71af9"
+    },
+    {
+      "name": "CodonTraceSwarm",
+      "version": "0.12.0",
+      "author": "Parvaz Jamei",
+      "maintainer": "Parvaz Jamei",
+      "sentence": "Portable typed sensor and command protocol core for Genesis.",
+      "paragraph": "Board-independent C++11 core with bounded storage. Architecture eligibility does not establish tested board support; consult the portability matrix and RAM requirements.",
+      "website": "https://github.com/Parvaz-Jamei/CodonTraceSwarm",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Parvaz-Jamei/CodonTraceSwarm.git",
+      "providesIncludes": [
+        "CodonTraceSwarm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.12.0.zip",
+      "archiveFileName": "CodonTraceSwarm-0.12.0.zip",
+      "size": 349274,
+      "checksum": "SHA-256:84e687c3b7a463f58eca33b443893dbe9a8dd42d6b0e2a555d9de5605da417ba"
+    },
+    {
+      "name": "CodonTraceSwarm",
+      "version": "0.12.1",
+      "author": "Parvaz Jamei",
+      "maintainer": "Parvaz Jamei",
+      "sentence": "Portable typed sensor and command protocol core for Genesis.",
+      "paragraph": "Board-independent C++11 core with bounded storage. Architecture eligibility does not establish tested board support; consult the portability matrix and RAM requirements.",
+      "website": "https://github.com/Parvaz-Jamei/CodonTraceSwarm",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Parvaz-Jamei/CodonTraceSwarm.git",
+      "providesIncludes": [
+        "CodonTraceSwarm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.12.1.zip",
+      "archiveFileName": "CodonTraceSwarm-0.12.1.zip",
+      "size": 349404,
+      "checksum": "SHA-256:92ec6182359eb6e32b194f824142b1991ff88d056ff69135ab9e7aaa6f97032f"
+    },
+    {
+      "name": "CodonTraceSwarm",
+      "version": "0.12.2",
+      "author": "Parvaz Jamei",
+      "maintainer": "Parvaz Jamei",
+      "sentence": "Portable typed sensor and command protocol core for Genesis.",
+      "paragraph": "C++11 core for boards with at least 128 KB SRAM. AVR, megaAVR, SAMD21, UNO R4, ESP8266 and Due are excluded. This list is not a compile or hardware test.",
+      "website": "https://github.com/Parvaz-Jamei/CodonTraceSwarm",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040",
+        "mbed_nano",
+        "mbed_rp2040",
+        "mbed_portenta",
+        "mbed_giga",
+        "mbed_opta",
+        "renesas_portenta"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Parvaz-Jamei/CodonTraceSwarm.git",
+      "providesIncludes": [
+        "CodonTraceSwarm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.12.2.zip",
+      "archiveFileName": "CodonTraceSwarm-0.12.2.zip",
+      "size": 349098,
+      "checksum": "SHA-256:d10afb003004f9ebed827604a27533fdd1a8e6e26e0f0e72638ccb10c339ff5e"
+    },
+    {
+      "name": "CodonTraceSwarm",
+      "version": "0.12.3",
+      "author": "Parvaz Jamei",
+      "maintainer": "Parvaz Jamei",
+      "sentence": "Portable typed sensor and command protocol core for Genesis.",
+      "paragraph": "C++11 core for boards with at least 128 KB SRAM. AVR, megaAVR, SAMD21, UNO R4, ESP8266 and Due are excluded. This list is not a compile or hardware test.",
+      "website": "https://github.com/Parvaz-Jamei/CodonTraceSwarm",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040",
+        "mbed_nano",
+        "mbed_rp2040",
+        "mbed_portenta",
+        "mbed_giga",
+        "mbed_opta",
+        "renesas_portenta"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Parvaz-Jamei/CodonTraceSwarm.git",
+      "providesIncludes": [
+        "CodonTraceSwarm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.12.3.zip",
+      "archiveFileName": "CodonTraceSwarm-0.12.3.zip",
+      "size": 349376,
+      "checksum": "SHA-256:2ed06e050120c5516a44b352b480ad9e4db02dd88fe754436a16f426b5e74d1c"
+    },
+    {
+      "name": "CodonTraceSwarm",
+      "version": "0.12.4",
+      "author": "Parvaz Jamei",
+      "maintainer": "Parvaz Jamei",
+      "sentence": "Local typed message core that does not connect or read a sensor.",
+      "paragraph": "C++11 codec for boards with at least 128 KB SRAM. The examples only print a local Serial result. AVR, megaAVR, SAMD21, UNO R4, ESP8266 and Due are excluded. Not Wi-Fi, MQTT, or a physical measurement, and not a compile test of every listed core.",
+      "website": "https://github.com/Parvaz-Jamei/CodonTraceSwarm",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040",
+        "mbed_nano",
+        "mbed_rp2040",
+        "mbed_portenta",
+        "mbed_giga",
+        "mbed_opta",
+        "renesas_portenta"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Parvaz-Jamei/CodonTraceSwarm.git",
+      "providesIncludes": [
+        "CodonTraceSwarm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.12.4.zip",
+      "archiveFileName": "CodonTraceSwarm-0.12.4.zip",
+      "size": 350269,
+      "checksum": "SHA-256:984020d1c0cba828c6626ffb76626829745c8c2b48ac5f9339e074c73bdbc2d8"
+    },
+    {
+      "name": "CodonTraceSwarm",
+      "version": "0.12.5",
+      "author": "Parvaz Jamei",
+      "maintainer": "Parvaz Jamei",
+      "sentence": "Local typed message core that does not connect or read a sensor.",
+      "paragraph": "C++11 codec for boards with at least 128 KB SRAM. The examples only print a local Serial result. AVR, megaAVR, SAMD21, UNO R4, ESP8266 and Due are excluded. Not Wi-Fi, MQTT, or a physical measurement, and not a compile test of every listed core.",
+      "website": "https://github.com/Parvaz-Jamei/CodonTraceSwarm",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040",
+        "mbed_nano",
+        "mbed_rp2040",
+        "mbed_portenta",
+        "mbed_giga",
+        "mbed_opta",
+        "renesas_portenta"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Parvaz-Jamei/CodonTraceSwarm.git",
+      "providesIncludes": [
+        "CodonTraceSwarm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.12.5.zip",
+      "archiveFileName": "CodonTraceSwarm-0.12.5.zip",
+      "size": 350433,
+      "checksum": "SHA-256:8b70296401dec6b991484ff664ee91a2e9e29317ea50f7c46d81884582b8ff3a"
+    },
+    {
+      "name": "CodonTraceSwarm",
+      "version": "0.12.6",
+      "author": "Parvaz Jamei",
+      "maintainer": "Parvaz Jamei",
+      "sentence": "Local typed message core with optional headers for common sensor libraries.",
+      "paragraph": "C++11 codec for boards with at least 128 KB SRAM. Those headers call that sensor's own library and do not invent a reading. Examples were compile-tested, not flashed. AVR, megaAVR, SAMD21, UNO R4, ESP8266 and Due are excluded. Not Wi-Fi or MQTT.",
+      "website": "https://github.com/Parvaz-Jamei/CodonTraceSwarm",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040",
+        "mbed_nano",
+        "mbed_rp2040",
+        "mbed_portenta",
+        "mbed_giga",
+        "mbed_opta",
+        "renesas_portenta"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Parvaz-Jamei/CodonTraceSwarm.git",
+      "providesIncludes": [
+        "CodonTraceSwarm.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit BME280 Library"
+        },
+        {
+          "name": "Adafruit SHT4x Library"
+        },
+        {
+          "name": "Adafruit INA219"
+        },
+        {
+          "name": "Adafruit_VL53L0X"
+        },
+        {
+          "name": "HX711 Arduino Library"
+        },
+        {
+          "name": "ProtoCentral FDC1004 Capacitive Sensor Library"
+        },
+        {
+          "name": "FDCxCapSense"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.12.6.zip",
+      "archiveFileName": "CodonTraceSwarm-0.12.6.zip",
+      "size": 365289,
+      "checksum": "SHA-256:5a5af12e74351e432c457b2812dfcfe6145e23298291bb5417fe21c66c58f829"
+    },
+    {
+      "name": "CodonTraceSwarm",
+      "version": "0.12.7",
+      "author": "Parvaz Jamei",
+      "maintainer": "Parvaz Jamei",
+      "sentence": "Local typed message core with optional headers for common sensor libraries.",
+      "paragraph": "C++11 codec for boards with at least 128 KB SRAM. Those headers call that sensor's own library and do not invent a reading. Examples were compile-tested, not flashed. AVR, megaAVR, SAMD21, UNO R4, ESP8266 and Due are excluded. Not Wi-Fi or MQTT.",
+      "website": "https://github.com/Parvaz-Jamei/CodonTraceSwarm",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040",
+        "mbed_nano",
+        "mbed_rp2040",
+        "mbed_portenta",
+        "mbed_giga",
+        "mbed_opta",
+        "renesas_portenta"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Parvaz-Jamei/CodonTraceSwarm.git",
+      "providesIncludes": [
+        "CodonTraceSwarm.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit BME280 Library"
+        },
+        {
+          "name": "Adafruit SHT4x Library"
+        },
+        {
+          "name": "Adafruit INA219"
+        },
+        {
+          "name": "Adafruit_VL53L0X"
+        },
+        {
+          "name": "HX711 Arduino Library"
+        },
+        {
+          "name": "ProtoCentral FDC1004 Capacitive Sensor Library"
+        },
+        {
+          "name": "FDCxCapSense"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.12.7.zip",
+      "archiveFileName": "CodonTraceSwarm-0.12.7.zip",
+      "size": 367300,
+      "checksum": "SHA-256:5897f717b8b6b4d46d3e3835799b29f0307f79728bc6ed86b3e175cfb26e95df"
+    },
+    {
+      "name": "CodonTraceSwarm",
+      "version": "0.12.8",
+      "author": "Parvaz Jamei",
+      "maintainer": "Parvaz Jamei",
+      "sentence": "Local typed message core with optional headers for common sensor libraries.",
+      "paragraph": "C++11 codec for boards with at least 128 KB SRAM. Those headers call that sensor's own library and do not invent a reading. Examples were compile-tested, not flashed. AVR, megaAVR, SAMD21, UNO R4, ESP8266 and Due are excluded. Not Wi-Fi or MQTT.",
+      "website": "https://github.com/Parvaz-Jamei/CodonTraceSwarm",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040",
+        "mbed_nano",
+        "mbed_rp2040",
+        "mbed_portenta",
+        "mbed_giga",
+        "mbed_opta",
+        "renesas_portenta"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Parvaz-Jamei/CodonTraceSwarm.git",
+      "providesIncludes": [
+        "CodonTraceSwarm.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit BME280 Library"
+        },
+        {
+          "name": "Adafruit SHT4x Library"
+        },
+        {
+          "name": "Adafruit INA219"
+        },
+        {
+          "name": "Adafruit_VL53L0X"
+        },
+        {
+          "name": "HX711 Arduino Library"
+        },
+        {
+          "name": "ProtoCentral FDC1004 Capacitive Sensor Library"
+        },
+        {
+          "name": "FDCxCapSense"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.12.8.zip",
+      "archiveFileName": "CodonTraceSwarm-0.12.8.zip",
+      "size": 371613,
+      "checksum": "SHA-256:13adc7c76a13ca267f1f31b4b8eb54170d60b2731e0d1ea2c799b4fd8e8c75a0"
     }
   ]
 }
