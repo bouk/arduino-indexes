@@ -27164,6 +27164,32 @@
       "checksum": "SHA-256:01a1aa78a74f60351188103d39571f532f633972edb6fb38b2a8ee668009642f"
     },
     {
+      "name": "Adafruit MLX90614 Library",
+      "version": "2.1.7",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Arduino library for the MLX90614 sensors in the Adafruit shop",
+      "paragraph": "Arduino library for the MLX90614 sensors in the Adafruit shop",
+      "website": "https://github.com/adafruit/Adafruit-MLX90614-Library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit-MLX90614-Library.git",
+      "dependencies": [
+        {
+          "name": "Adafruit BusIO"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_MLX90614_Library-2.1.7.zip",
+      "archiveFileName": "Adafruit_MLX90614_Library-2.1.7.zip",
+      "size": 11088,
+      "checksum": "SHA-256:9fd110a82e440df3a6001808c315449ab4d749e61f66e90e4d300bb2003e0670"
+    },
+    {
       "name": "Adafruit MCP9808 Library",
       "version": "1.0.0",
       "author": "Adafruit",
@@ -393525,6 +393551,32 @@
       "archiveFileName": "fp64lib-1.1.32.zip",
       "size": 268329,
       "checksum": "SHA-256:ec2844fbda84b976f679b53c0d9aefada5e06bf6ee2e69d33f80c636fd619fd8"
+    },
+    {
+      "name": "fp64lib",
+      "version": "1.1.33",
+      "author": "Uwe Bissinger \u003cmail@fp64lib.org\u003e",
+      "maintainer": "Uwe Bissinger \u003cmail@fp64lib.org\u003e",
+      "sentence": "Handcrafted 64-bit floating point routines for AVR/arduino microprocessors.",
+      "paragraph": "More precision for Arduino. fp64lib is a library for implementing 64-bit floating point arithmetic on the AVR MegaAVR architecure microprocessors, like the popular Arduino series. Data format is fully compatible with IEEE 754 binary64 standard. V1.1.33 includes IEEE754 nextUp() and nextDown() functions. ATTENTION: Library is only suited for boards having an AVR MegaAVR microprocessors like Arduino UNO, Nano or MEGA2560!",
+      "website": "https://fp64lib.org",
+      "category": "Data Processing",
+      "architectures": [
+        "avr",
+        "atmelavr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/fp64lib/fp64lib.git",
+      "providesIncludes": [
+        "fp64lib.h",
+        "Double.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/fp64lib/fp64lib-1.1.33.zip",
+      "archiveFileName": "fp64lib-1.1.33.zip",
+      "size": 270735,
+      "checksum": "SHA-256:1cbc2ba078d7d16a10ac0e7a222acd50ca59d990ee5b787641f1331aed5fef86"
     },
     {
       "name": "BraccioV2",
@@ -771548,6 +771600,53 @@
       "checksum": "SHA-256:f133884e357ce9e173b4efc347a970610eeb139a5c9d9f00461413dfadeacb68"
     },
     {
+      "name": "Adafruit TestBed",
+      "version": "1.14.5",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Adafruit's internal test bed code library",
+      "paragraph": "Adafruit's internal test bed code library",
+      "website": "https://github.com/adafruit/Adafruit_TestBed",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_TestBed.git",
+      "dependencies": [
+        {
+          "name": "Adafruit NeoPixel"
+        },
+        {
+          "name": "Adafruit MCP4725"
+        },
+        {
+          "name": "Adafruit TinyUSB Library"
+        },
+        {
+          "name": "Adafruit SPIFlash"
+        },
+        {
+          "name": "SdFat - Adafruit Fork"
+        },
+        {
+          "name": "Pico PIO USB"
+        },
+        {
+          "name": "LiquidCrystal"
+        },
+        {
+          "name": "Adafruit DAP library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_TestBed-1.14.5.zip",
+      "archiveFileName": "Adafruit_TestBed-1.14.5.zip",
+      "size": 8167334,
+      "checksum": "SHA-256:20c49270a2a900ab4c1218ac5b3a4bc0d63770c0459defd541f560fb8ded2309"
+    },
+    {
       "name": "SimplePortal",
       "version": "1.0.0",
       "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
@@ -887319,6 +887418,30 @@
       "checksum": "SHA-256:c483bbef9b64db5e51aa0f0c56a6645a9386ef7f78e4f98b6ce965172433d877"
     },
     {
+      "name": "debounce",
+      "version": "0.3.1",
+      "author": "Aaron Kimball",
+      "maintainer": "Aaron Kimball \u003cakimball83@gmail.com\u003e",
+      "sentence": "A library for button debouncing.",
+      "paragraph": "This library provides easy debouncing of button inputs and triggering of callback functions as buttons are pressed or released.",
+      "website": "https://github.com/kimballa/button-debounce.git",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/kimballa/button-debounce.git",
+      "providesIncludes": [
+        "debounce.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/kimballa/debounce-0.3.1.zip",
+      "archiveFileName": "debounce-0.3.1.zip",
+      "size": 11800,
+      "checksum": "SHA-256:7c85c6f681fc1a97e805b449c57d0791da912949bfbeb9238bda7044e24259bf"
+    },
+    {
       "name": "unPhoneLibrary",
       "version": "9.0.0",
       "author": "Hamish Cunningham, Gareth Coleman, Jon Williamson, Mary Hewitt, others",
@@ -997424,6 +997547,35 @@
       "checksum": "SHA-256:b4e6b8e9d417fcd8493a71ad0c237d003b31004fb3a930c25b03c55ed3db8d17"
     },
     {
+      "name": "MBusinoLib",
+      "version": "0.10.0",
+      "author": "Zeppelin500 \u003cmbusinolib@gmail.com\u003e",
+      "maintainer": "Zeppelin500 \u003cmbusinolib@gmail.com\u003e",
+      "sentence": "an Arduino M-Bus decoder Library",
+      "paragraph": "enables Arduino devices to decode M-Bus",
+      "website": "https://github.com/Zeppelin500/MBusinoLib.git",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Zeppelin500/MBusinoLib.git",
+      "providesIncludes": [
+        "MBusinoLib.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Zeppelin500/MBusinoLib-0.10.0.zip",
+      "archiveFileName": "MBusinoLib-0.10.0.zip",
+      "size": 43385,
+      "checksum": "SHA-256:f499b1d9c85173bda18153e5786267bc45d7bb1c001ca53190fe786f2654e084"
+    },
+    {
       "name": "AM2302-Sensor",
       "version": "0.1.0",
       "author": "Frank Häfele \u003cmail@frankhaefele.de\u003e",
@@ -1102734,6 +1102886,27 @@
       "checksum": "SHA-256:43c2609558a6719f2dd41c603280f439c47c2889e8eadb62d36418b24a36f904"
     },
     {
+      "name": "Benchmark",
+      "version": "1.0.4",
+      "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "maintainer": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "sentence": "Measure code execution time",
+      "paragraph": "Measure code execution time",
+      "website": "https://github.com/GyverLibs/Benchmark",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/GyverLibs/Benchmark.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/Benchmark-1.0.4.zip",
+      "archiveFileName": "Benchmark-1.0.4.zip",
+      "size": 10052,
+      "checksum": "SHA-256:8cc0accf7ff6faef6ef9662840ef122679cdfb95d1591eb1689032c51e416671"
+    },
+    {
       "name": "cmd",
       "version": "1.0.0",
       "author": "James Coleman \u003cgrmrgecko@gmail.com\u003e",
@@ -1140457,6 +1140630,114 @@
       "checksum": "SHA-256:b87a087a076277e0cacc9cda319025413c9150447b1c246423f762c3c1a77177"
     },
     {
+      "name": "AMY Synthesizer",
+      "version": "1.2.198",
+      "author": "Brian Whitman \u003cbrian@variogram.com\u003e, DAn Ellis \u003cdan.ellis@gmail.com\u003e",
+      "maintainer": "Brian Whitman \u003cbrian@variogram.com\u003e",
+      "sentence": "AMY, the Music Synthesizer Library",
+      "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+      "website": "http://github.com/shorepine/amy",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "stm32",
+        "rp2040",
+        "mbed_rp2040",
+        "rp2350",
+        "mbed_rp2350",
+        "teensy",
+        "STM32F1",
+        "STM32F4",
+        "STM32H7",
+        "nrf52",
+        "samd",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shorepine/amy.git",
+      "providesIncludes": [
+        "AMY-Arduino.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.198.zip",
+      "archiveFileName": "AMY_Synthesizer-1.2.198.zip",
+      "size": 44622031,
+      "checksum": "SHA-256:0f78f8375d792fb2fc55e9280c5ae80b613128331bdca129c3495ccb6cb755ae"
+    },
+    {
+      "name": "AMY Synthesizer",
+      "version": "1.2.199",
+      "author": "Brian Whitman \u003cbrian@variogram.com\u003e, DAn Ellis \u003cdan.ellis@gmail.com\u003e",
+      "maintainer": "Brian Whitman \u003cbrian@variogram.com\u003e",
+      "sentence": "AMY, the Music Synthesizer Library",
+      "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+      "website": "http://github.com/shorepine/amy",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "stm32",
+        "rp2040",
+        "mbed_rp2040",
+        "rp2350",
+        "mbed_rp2350",
+        "teensy",
+        "STM32F1",
+        "STM32F4",
+        "STM32H7",
+        "nrf52",
+        "samd",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shorepine/amy.git",
+      "providesIncludes": [
+        "AMY-Arduino.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.199.zip",
+      "archiveFileName": "AMY_Synthesizer-1.2.199.zip",
+      "size": 44622473,
+      "checksum": "SHA-256:e674710df53f60c5cc67b40e905ef7e94beb5bceb1d7bb5c84ec6e97dd60aa2e"
+    },
+    {
+      "name": "AMY Synthesizer",
+      "version": "1.2.200",
+      "author": "Brian Whitman \u003cbrian@variogram.com\u003e, DAn Ellis \u003cdan.ellis@gmail.com\u003e",
+      "maintainer": "Brian Whitman \u003cbrian@variogram.com\u003e",
+      "sentence": "AMY, the Music Synthesizer Library",
+      "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+      "website": "http://github.com/shorepine/amy",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "stm32",
+        "rp2040",
+        "mbed_rp2040",
+        "rp2350",
+        "mbed_rp2350",
+        "teensy",
+        "STM32F1",
+        "STM32F4",
+        "STM32H7",
+        "nrf52",
+        "samd",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shorepine/amy.git",
+      "providesIncludes": [
+        "AMY-Arduino.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.200.zip",
+      "archiveFileName": "AMY_Synthesizer-1.2.200.zip",
+      "size": 44624371,
+      "checksum": "SHA-256:5ad054701b23c1c99f042ba4be074ef4159485c0121bb4c05de3335d326efa37"
+    },
+    {
       "name": "ArduboyI2C",
       "version": "2.0.3",
       "author": "sub1inear",
@@ -1150891,6 +1151172,42 @@
       "archiveFileName": "DashioESP-1.3.1.zip",
       "size": 76327,
       "checksum": "SHA-256:a80bb6dec87a09b71050b565b043a7be2add035a59db913eb4b0eb59ca70087e"
+    },
+    {
+      "name": "DashioESP",
+      "version": "1.3.2",
+      "author": "DashIO Connect \u003cinfo@dashio.io\u003e",
+      "maintainer": "DashIO Connect \u003cinfo@dashio.io\u003e",
+      "sentence": "ESP32 \u0026 ESP8266 library for communicating with the free Dash IoT dashboard app.",
+      "paragraph": "Enables messaging for BLE, TCP and MQTT communications between IoT devices and the Dash IoT app.",
+      "website": "https://dashio.io",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dashio-connect/arduino-dashioESP.git",
+      "dependencies": [
+        {
+          "name": "Dashio"
+        },
+        {
+          "name": "MQTT"
+        },
+        {
+          "name": "Preferences"
+        },
+        {
+          "name": "NimBLE-Arduino"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dashio-connect/DashioESP-1.3.2.zip",
+      "archiveFileName": "DashioESP-1.3.2.zip",
+      "size": 76684,
+      "checksum": "SHA-256:5c742db6333eabc3e4df226f45d293a14610f6fa0d1442e14f838fe41b9aa0a2"
     },
     {
       "name": "DashioBluno",
@@ -1297147,6 +1297464,30 @@
       "checksum": "SHA-256:5d6f5940adf54444cbc5b0716633c87f6b43e07068fc80a2761e49c7a4b99916"
     },
     {
+      "name": "ESP32-HTTP-Client",
+      "version": "1.9.0",
+      "author": "Pedro Fonseca",
+      "maintainer": "Pedro Fonseca \u003cpedropereira.pp26@gmail.com\u003e",
+      "sentence": "A lightweight, low-allocation, high-performance HTTP client library for ESP32.",
+      "paragraph": "Direct stream-to-variable binding, zero-heap streaming parser for REST, SOAP, GraphQL, and JSON-RPC 2.0 services, and minimal memory footprint.",
+      "website": "https://github.com/PedroFnseca/esp32-http-client",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/PedroFnseca/esp32-http-client.git",
+      "providesIncludes": [
+        "ESP32HTTPClient.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.9.0.zip",
+      "archiveFileName": "ESP32_HTTP_Client-1.9.0.zip",
+      "size": 5919904,
+      "checksum": "SHA-256:d5959605cbdd89b40e7b2d797b76db90739c7fadc9cd2c48f3cb99c41f88e3a7"
+    },
+    {
       "name": "PZEM004Tv40_R4",
       "version": "1.0.0",
       "author": "Bharani Dharan Rangaraj \u003cbharanidharanrangaraj@gmail.com\u003e",
@@ -1338927,6 +1339268,37 @@
       "checksum": "SHA-256:8721900f8f4e0b5ba7bc3380627ba035b0bc343cd86d4af4084087a84ea98bf0"
     },
     {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.31",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 IoT client for MQTT (MQTTS/WSS), attributes, telemetry, and RPC.",
+      "paragraph": "Connects ESP32 devices to the Autoconnecto platform using the ESP32 Arduino core MQTT client (TLS and MQTT-over-WebSocket), with shared and client attributes, telemetry, and dashboard RPC. Requires ArduinoJson. ESP32 architecture only.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.31.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.31.zip",
+      "size": 172700,
+      "checksum": "SHA-256:f714747d7e6ee1e7d29184c9c5f3ae6f1608470d6dc4c113d3df478874018d35"
+    },
+    {
       "name": "SPIKeyPad",
       "version": "0.1.0",
       "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
@@ -1371360,6 +1371732,30 @@
       "checksum": "SHA-256:43a95ff74a7fe5fb654cbcae5c6cfacbfa9b2a04aecadebea5a20303554682d7"
     },
     {
+      "name": "firmngin",
+      "version": "1.3.0",
+      "author": "Asya Syarif \u003casya.syarif94@gmail.com\u003e",
+      "maintainer": "Asya Syarif \u003casya.syarif94@gmail.com\u003e",
+      "sentence": "Connect any IoT device to Firmngin and start earning",
+      "paragraph": "All-in-one Firmngin AIoT integration for ESP32. Supports device onboarding, payments, state management, and real-time monitoring.",
+      "website": "https://github.com/firmngin/Firmngin-Arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/firmngin/Firmngin-Arduino.git",
+      "providesIncludes": [
+        "firmngin.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/firmngin/firmngin-1.3.0.zip",
+      "archiveFileName": "firmngin-1.3.0.zip",
+      "size": 214690,
+      "checksum": "SHA-256:9098f4cb85e6e473bff9b3fb29d9410a1227cc8e2c3521404e51e2215672e0d1"
+    },
+    {
       "name": "drvkit_library",
       "version": "0.0.2",
       "author": "opilat",
@@ -1374982,6 +1375378,30 @@
       "archiveFileName": "note_cpp-0.3.4.zip",
       "size": 1894556,
       "checksum": "SHA-256:06f68cd1997830b9e32d1179627894945aa822df1114d56e16643561fe6bb802"
+    },
+    {
+      "name": "note-cpp",
+      "version": "0.3.5",
+      "author": "Mat McGowan",
+      "maintainer": "Mat McGowan",
+      "sentence": "Typed C++ SDK for the Blues Notecard.",
+      "paragraph": "Type-safe, compile-time checked API for all Notecard endpoints. Header-only. Supports Arduino, PlatformIO, and CMake.",
+      "website": "https://github.com/m-mcgowan/note-cpp",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m-mcgowan/note-cpp.git",
+      "providesIncludes": [
+        "note.hpp"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m-mcgowan/note_cpp-0.3.5.zip",
+      "archiveFileName": "note_cpp-0.3.5.zip",
+      "size": 1910843,
+      "checksum": "SHA-256:faf440e9adb783706297be449b834fa6f672ff10fecd9bd463fac7157589569d"
     },
     {
       "name": "WcbCmd",
@@ -1380609,6 +1381029,37 @@
       "archiveFileName": "NECK-1.1.1.zip",
       "size": 188362,
       "checksum": "SHA-256:e62a876a50ef8498ad0c8fcc943d98fc3ead545489b46d644b4d808e3730d5f7"
+    },
+    {
+      "name": "NECK",
+      "version": "26.10.14",
+      "author": "Nilson Lazarin",
+      "maintainer": "Chon Group \u003cchon@grupo.cefet-rj.br\u003e",
+      "license": "CC-BY-4.0",
+      "sentence": "Embodied cognition communication kit for agent-based control of physical bodies",
+      "paragraph": "NECK (ageNt Embodied Cognition Kit) is a lightweight communication library (neck2arduino by chonGroup) that enables cognitive agents (based on Belief-Desire-Intention (BDI) model) to interact with physical bodies through expressive bodily responses, supporting embodied cognition in embedded and robotic systems.",
+      "website": "https://github.com/chon-group/neck2arduino",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/chon-group/neck2arduino.git",
+      "providesIncludes": [
+        "NECK.hpp"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=7.4.2"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/chon-group/NECK-26.10.14.zip",
+      "archiveFileName": "NECK-26.10.14.zip",
+      "size": 41387,
+      "checksum": "SHA-256:989d14b28b4da3308ca3209b9421700d4b25541135c63cc06f3cb793b8516849"
     },
     {
       "name": "SmartSensorFilter",
@@ -1388544,6 +1388995,31 @@
       "archiveFileName": "cyfney_cpp-2.2.0.zip",
       "size": 15178,
       "checksum": "SHA-256:c530da87166690f363e436dddf2de6a9ccf84432f58e188bfa5b6771aed5c311"
+    },
+    {
+      "name": "cyfney-cpp",
+      "version": "2.3.0",
+      "author": "anka",
+      "maintainer": "anka",
+      "license": "MIT",
+      "sentence": "Reusable C++ utilities and base classes.",
+      "paragraph": "A header-only library providing general-purpose building blocks, common tools, and foundational components for C++ projects.",
+      "website": "https://github.com/cyfney/cyfney-cpp-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/cyfney/cyfney-cpp-arduino.git",
+      "providesIncludes": [
+        "cyf.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/cyfney/cyfney_cpp-2.3.0.zip",
+      "archiveFileName": "cyfney_cpp-2.3.0.zip",
+      "size": 20448,
+      "checksum": "SHA-256:86cc86c0f69c7468bcd04f029a3875e625802aa89698d68c1534cc6b01f1f436"
     },
     {
       "name": "SparkFun SSD168x I2C Interface Library",
@@ -1405778,6 +1406254,27 @@
       "checksum": "SHA-256:39129006ac60938fb2b94e5725dc9d15b049714c8b931debe99e7a9adb3948d7"
     },
     {
+      "name": "ESP_MOVIE",
+      "version": "1.0.1",
+      "author": "ShunTomino",
+      "maintainer": "ShunTomino",
+      "sentence": "Movie(MotionJPG/MP3) playback library for ESP32 series.",
+      "paragraph": "Simultaneous playback of Motion JPEG video and MP3 audio from SD card files is supported.",
+      "website": "https://github.com/ShunTomino/ESP_MOVIE",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ShunTomino/ESP_MOVIE.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/ShunTomino/ESP_MOVIE-1.0.1.zip",
+      "archiveFileName": "ESP_MOVIE-1.0.1.zip",
+      "size": 13994644,
+      "checksum": "SHA-256:cc95db6fc000b1c698f4b6596799c01a945751d672e9e7d437c4e74bd8460f50"
+    },
+    {
       "name": "Grove IMU 9DOF ICM20600 AK09918 UNO R4",
       "version": "1.0.0",
       "author": "Seeed Studio, Mourad",
@@ -1406861,6 +1407358,497 @@
       "archiveFileName": "CodonTraceSwarm-0.12.8.zip",
       "size": 371613,
       "checksum": "SHA-256:13adc7c76a13ca267f1f31b4b8eb54170d60b2731e0d1ea2c799b4fd8e8c75a0"
+    },
+    {
+      "name": "CodonTraceSwarm",
+      "version": "0.12.9",
+      "author": "Parvaz Jamei",
+      "maintainer": "Parvaz Jamei",
+      "sentence": "Local typed message core with optional headers for common sensor libraries.",
+      "paragraph": "C++11 codec for boards with at least 128 KB SRAM. Those headers call that sensor's own library and do not invent a reading. Examples were compile-tested, not flashed. AVR, megaAVR, SAMD21, UNO R4, ESP8266 and Due are excluded. Not Wi-Fi or MQTT.",
+      "website": "https://github.com/Parvaz-Jamei/CodonTraceSwarm",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040",
+        "mbed_nano",
+        "mbed_rp2040",
+        "mbed_portenta",
+        "mbed_giga",
+        "mbed_opta",
+        "renesas_portenta"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Parvaz-Jamei/CodonTraceSwarm.git",
+      "providesIncludes": [
+        "CodonTraceSwarm.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit BME280 Library"
+        },
+        {
+          "name": "Adafruit SHT4x Library"
+        },
+        {
+          "name": "Adafruit INA219"
+        },
+        {
+          "name": "Adafruit_VL53L0X"
+        },
+        {
+          "name": "HX711 Arduino Library"
+        },
+        {
+          "name": "ProtoCentral FDC1004 Capacitive Sensor Library"
+        },
+        {
+          "name": "FDCxCapSense"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.12.9.zip",
+      "archiveFileName": "CodonTraceSwarm-0.12.9.zip",
+      "size": 377253,
+      "checksum": "SHA-256:0b811e63d978949564389eba7ebc934d8db2a6a1c8d994e1283ac3732f2cabfc"
+    },
+    {
+      "name": "CodonTraceSwarm",
+      "version": "0.12.10",
+      "author": "Parvaz Jamei",
+      "maintainer": "Parvaz Jamei",
+      "sentence": "Local typed message core with optional headers for common sensor libraries.",
+      "paragraph": "C++11 codec for boards with at least 128 KB SRAM. Those headers call that sensor's own library and do not invent a reading. Examples were compile-tested, not flashed. AVR, megaAVR, SAMD21, UNO R4, ESP8266 and Due are excluded. Not Wi-Fi or MQTT.",
+      "website": "https://github.com/Parvaz-Jamei/CodonTraceSwarm",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040",
+        "mbed_nano",
+        "mbed_rp2040",
+        "mbed_portenta",
+        "mbed_giga",
+        "mbed_opta",
+        "renesas_portenta"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Parvaz-Jamei/CodonTraceSwarm.git",
+      "providesIncludes": [
+        "CodonTraceSwarm.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit BME280 Library"
+        },
+        {
+          "name": "Adafruit SHT4x Library"
+        },
+        {
+          "name": "Adafruit INA219"
+        },
+        {
+          "name": "Adafruit_VL53L0X"
+        },
+        {
+          "name": "HX711 Arduino Library"
+        },
+        {
+          "name": "ProtoCentral FDC1004 Capacitive Sensor Library"
+        },
+        {
+          "name": "FDCxCapSense"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.12.10.zip",
+      "archiveFileName": "CodonTraceSwarm-0.12.10.zip",
+      "size": 385067,
+      "checksum": "SHA-256:862e627f8ca642ec2149afdb30dbcfef2a92fe4dc780c9d1e0a03386cc1db2eb"
+    },
+    {
+      "name": "CodonTraceSwarm",
+      "version": "0.12.11",
+      "author": "Parvaz Jamei",
+      "maintainer": "Parvaz Jamei",
+      "sentence": "Local typed message core with optional headers for common sensor libraries.",
+      "paragraph": "C++11 codec for boards with at least 128 KB SRAM. Those headers call that sensor's own library and do not invent a reading. Examples were compile-tested, not flashed. AVR, megaAVR, SAMD21, UNO R4, ESP8266 and Due are excluded. Not Wi-Fi or MQTT.",
+      "website": "https://github.com/Parvaz-Jamei/CodonTraceSwarm",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040",
+        "mbed_nano",
+        "mbed_rp2040",
+        "mbed_portenta",
+        "mbed_giga",
+        "mbed_opta",
+        "renesas_portenta"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Parvaz-Jamei/CodonTraceSwarm.git",
+      "providesIncludes": [
+        "CodonTraceSwarm.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit BME280 Library"
+        },
+        {
+          "name": "Adafruit SHT4x Library"
+        },
+        {
+          "name": "Adafruit INA219"
+        },
+        {
+          "name": "Adafruit_VL53L0X"
+        },
+        {
+          "name": "HX711 Arduino Library"
+        },
+        {
+          "name": "ProtoCentral FDC1004 Capacitive Sensor Library"
+        },
+        {
+          "name": "FDCxCapSense"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.12.11.zip",
+      "archiveFileName": "CodonTraceSwarm-0.12.11.zip",
+      "size": 381762,
+      "checksum": "SHA-256:7edcc9e01084c1993e850e6452a5466093cdca39f236dc94065e3a8553faec1e"
+    },
+    {
+      "name": "OK Clock64",
+      "version": "0.1.0",
+      "author": "Dan Egnor",
+      "maintainer": "egnor@ofb.net",
+      "sentence": "64-bit millis and micros.",
+      "paragraph": "Multi-platform, thread/ISR-safe 64-bit millis and micros timers.",
+      "website": "https://github.com/egnor/ok_arduino_clock64",
+      "category": "Timing",
+      "architectures": [],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/egnor/ok_arduino_clock64.git",
+      "providesIncludes": [
+        "ok_clock64.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/egnor/OK_Clock64-0.1.0.zip",
+      "archiveFileName": "OK_Clock64-0.1.0.zip",
+      "size": 23968,
+      "checksum": "SHA-256:7c88b3923b20a5af8b913d6455e0bfe9c17374a6ad4d3d4c747cbb6338e5c2f3"
+    },
+    {
+      "name": "UARDECS_ESP32C3",
+      "version": "1.0.0",
+      "author": "Takehiko Hoshi, Hideto Kurosaki and Ken-ichro Yasuba",
+      "maintainer": "Hoshi@hoshi-lab.net",
+      "sentence": "A library that provides communication capabilities compliant with the \"Ubiquitous Environment Control System (UECS)\" standard, which is widely used in protected horticulture in Japan.",
+      "paragraph": "This library facilitates UECS sweet application development on the ESP32C3 chip board by providing UDP packet broadcast communication via Wi-Fi and internet web server functionality, all compliant with the UECS communication protocol. It supports the ESP32C3-OLED, XIAO ESP32C3, and compatible boards. Please refer to LICENSE.md for licensing information.",
+      "website": "https://github.com/uecs-star/UARDECS_ESP32C3",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/uecs-star/UARDECS_ESP32C3.git",
+      "providesIncludes": [
+        "Uardecs_esp32c3.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/uecs-star/UARDECS_ESP32C3-1.0.0.zip",
+      "archiveFileName": "UARDECS_ESP32C3-1.0.0.zip",
+      "size": 726628,
+      "checksum": "SHA-256:8bd34800fcd3c4ff305565697d8b98979b7f377e6611f140a76133b8b68aed03"
+    },
+    {
+      "name": "PicoENC28J60",
+      "version": "1.1.0",
+      "author": "Lukasz Janyst (original driver), Ângelo Moisés Alves (Arduino port)",
+      "maintainer": "Ângelo Moisés Alves \u003c117550822+angeloINTJ@users.noreply.github.com\u003e",
+      "sentence": "ENC28J60 Ethernet for the Raspberry Pi Pico (RP2040), with SPI on any pins through a PIO program.",
+      "paragraph": "Send and receive raw Ethernet frames, or use TCP/IP through the lwIP stack of the arduino-pico core: DHCP, WiFiClient, WebServer and the rest, with or without the chip's INT pin. Based on pico-enc28j60 by Lukasz Janyst (https://github.com/ljanyst/pico-enc28j60), whose PIO SPI program and ENC28J60 driver it uses.",
+      "website": "https://github.com/angeloINTJ/pico-enc28j60",
+      "category": "Communication",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/angeloINTJ/pico-enc28j60.git",
+      "providesIncludes": [
+        "PicoENC28J60.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/PicoENC28J60-1.1.0.zip",
+      "archiveFileName": "PicoENC28J60-1.1.0.zip",
+      "size": 291568,
+      "checksum": "SHA-256:6c84e770b584a0cc6697c2d3b18b2861de9f7098c7c23f4880b5b39aedb3eeb5"
+    },
+    {
+      "name": "PicoENC28J60",
+      "version": "1.2.0",
+      "author": "Lukasz Janyst (original driver), Ângelo Moisés Alves (Arduino port)",
+      "maintainer": "Ângelo Moisés Alves \u003c117550822+angeloINTJ@users.noreply.github.com\u003e",
+      "sentence": "ENC28J60 Ethernet for the Raspberry Pi Pico (RP2040), with SPI on any pins through a PIO program.",
+      "paragraph": "Send and receive raw Ethernet frames, or use TCP/IP through the lwIP stack of the arduino-pico core: DHCP, WiFiClient, WebServer and the rest, with or without the chip's INT pin. Based on pico-enc28j60 by Lukasz Janyst (https://github.com/ljanyst/pico-enc28j60), whose PIO SPI program and ENC28J60 driver it uses.",
+      "website": "https://github.com/angeloINTJ/pico-enc28j60",
+      "category": "Communication",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/angeloINTJ/pico-enc28j60.git",
+      "providesIncludes": [
+        "PicoENC28J60.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/PicoENC28J60-1.2.0.zip",
+      "archiveFileName": "PicoENC28J60-1.2.0.zip",
+      "size": 349658,
+      "checksum": "SHA-256:f0ff167d160f0f2c2a5d0872d9de1098dfe4b8f106253b13a9ebe6687464fafd"
+    },
+    {
+      "name": "PicoENC28J60",
+      "version": "1.3.0",
+      "author": "Lukasz Janyst (original driver), Ângelo Moisés Alves (Arduino port)",
+      "maintainer": "Ângelo Moisés Alves \u003c117550822+angeloINTJ@users.noreply.github.com\u003e",
+      "sentence": "ENC28J60 Ethernet for the Raspberry Pi Pico (RP2040), with SPI on any pins through a PIO program.",
+      "paragraph": "Send and receive raw Ethernet frames, or use TCP/IP through the lwIP stack of the arduino-pico core: DHCP, WiFiClient, WebServer and the rest, with or without the chip's INT pin. Based on pico-enc28j60 by Lukasz Janyst (https://github.com/ljanyst/pico-enc28j60), whose PIO SPI program and ENC28J60 driver it uses.",
+      "website": "https://github.com/angeloINTJ/pico-enc28j60",
+      "category": "Communication",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/angeloINTJ/pico-enc28j60.git",
+      "providesIncludes": [
+        "PicoENC28J60.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/PicoENC28J60-1.3.0.zip",
+      "archiveFileName": "PicoENC28J60-1.3.0.zip",
+      "size": 403204,
+      "checksum": "SHA-256:66eb77914ed447a7471901340a10befff6cd4f437e42990c7c3fea5cef109e4a"
+    },
+    {
+      "name": "PicoENC28J60",
+      "version": "1.3.1",
+      "author": "Lukasz Janyst (original driver), Ângelo Moisés Alves (Arduino port)",
+      "maintainer": "Ângelo Moisés Alves \u003c117550822+angeloINTJ@users.noreply.github.com\u003e",
+      "sentence": "ENC28J60 Ethernet for the Raspberry Pi Pico (RP2040), with SPI on any pins through a PIO program.",
+      "paragraph": "Send and receive raw Ethernet frames, or use TCP/IP through the lwIP stack of the arduino-pico core: DHCP, WiFiClient, WebServer and the rest, with or without the chip's INT pin. Based on pico-enc28j60 by Lukasz Janyst (https://github.com/ljanyst/pico-enc28j60), whose PIO SPI program and ENC28J60 driver it uses.",
+      "website": "https://github.com/angeloINTJ/pico-enc28j60",
+      "category": "Communication",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/angeloINTJ/pico-enc28j60.git",
+      "providesIncludes": [
+        "PicoENC28J60.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/PicoENC28J60-1.3.1.zip",
+      "archiveFileName": "PicoENC28J60-1.3.1.zip",
+      "size": 403916,
+      "checksum": "SHA-256:8c38a6c443e2c1f48de99c75fea560b158939a18221fab3f0e8d05c9abbfb2b6"
+    },
+    {
+      "name": "Bonezegei_BME280",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "Simple library for BME280 temperature, pressure, and humidity sensor over I2C.",
+      "paragraph": "A library for interfacing with the Bosch BME280 environmental sensor using I2C communication.",
+      "website": "https://github.com/bonezegei/Bonezegei_BME280",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_BME280.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_BME280-1.0.0.zip",
+      "archiveFileName": "Bonezegei_BME280-1.0.0.zip",
+      "size": 5908,
+      "checksum": "SHA-256:e034e89db709e60958ed726745e8aa36913c81559a3c175219ad5be04edce21b"
+    },
+    {
+      "name": "Bonezegei_MLX90614",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "library for MLX90614 Contactless Infrared Temperature Sensor.",
+      "paragraph": "Lightweight library to read ambient and object temperatures in Celsius and Fahrenheit using the MLX90614 sensor via I2C.",
+      "website": "https://github.com/bonezegei/Bonezegei_MLX90614",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_MLX90614.git",
+      "providesIncludes": [
+        "Bonezegei_MLX90614.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_MLX90614-1.0.0.zip",
+      "archiveFileName": "Bonezegei_MLX90614-1.0.0.zip",
+      "size": 4870,
+      "checksum": "SHA-256:a06b70bf3b5e2a2d7a0342cada3ed70a9a92824fd3f0dbaff302be2cdd2aa14f"
+    },
+    {
+      "name": "MB1242",
+      "version": "0.1.0",
+      "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "sentence": "Arduino library for the MaxBotic I2C MB1242 distance sensor.",
+      "paragraph": "MB1202,MB1212,MB1222,MB1232",
+      "website": "https://github.com/RobTillaart/MB1242",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RobTillaart/MB1242.git",
+      "providesIncludes": [
+        "MB1242.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/MB1242-0.1.0.zip",
+      "archiveFileName": "MB1242-0.1.0.zip",
+      "size": 4211341,
+      "checksum": "SHA-256:0a3965d56d3a0871220eeb3e836affefee8ec9ee692c30c52decf5341955a54a"
+    },
+    {
+      "name": "Bonezegei_Max30105",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "Library for MAX30105 optical pulse and particle sensor.",
+      "paragraph": "A lightweight library for reading Red, IR, Green LED channels and die temperature from MAX30105 (and MAX30102) over I2C.",
+      "website": "https://github.com/bonezegei/Bonezegei_Max30105",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_Max30105.git",
+      "providesIncludes": [
+        "Bonezegei_Max30105.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_Max30105-1.0.0.zip",
+      "archiveFileName": "Bonezegei_Max30105-1.0.0.zip",
+      "size": 8054,
+      "checksum": "SHA-256:a2326818028d3ecf03aa4bce2387ae8138c6423bbc0a8edf335653f5046dc7bc"
+    },
+    {
+      "name": "Bonezegei_BMP180",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "BMP180 driver",
+      "paragraph": "barometric Pressure sensor driver",
+      "website": "https://github.com/bonezegei/Bonezegei_BMP180",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_BMP180.git",
+      "providesIncludes": [
+        "Bonezegei_BMP180.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_BMP180-1.0.0.zip",
+      "archiveFileName": "Bonezegei_BMP180-1.0.0.zip",
+      "size": 5796,
+      "checksum": "SHA-256:5252e77a072dc884bff471d3d0fbcbfca2a3e8da1f73f3d31454ee300d6b98d8"
+    },
+    {
+      "name": "Bonezegei_RC522",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "RC522 RFID Driver",
+      "paragraph": "Simple RC522 RFID Driver for scanning 13.56MHz Rfid Tags",
+      "website": "https://github.com/bonezegei/Bonezegei_RC522",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_RC522.git",
+      "providesIncludes": [
+        "Bonezegei_RC522.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_RC522-1.0.0.zip",
+      "archiveFileName": "Bonezegei_RC522-1.0.0.zip",
+      "size": 9110,
+      "checksum": "SHA-256:6467bad2df543cc031a7c01ad9f919b2080cb1d14579cf956ff64218b02ea5cf"
+    },
+    {
+      "name": "Bonezegei_WifiManager",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "Wi-Fi manager with real-time variable monitoring and control dashboard.",
+      "paragraph": "A complete Wi-Fi manager for ESP32 and ESP8266 allowing automated  setup, network scanning, network switching, and live parameter tuning via an embedded dark-mode web portal.",
+      "website": "https://github.com/bonezegei/Bonezegei_WifiManager",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_WifiManager.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_WifiManager-1.0.0.zip",
+      "archiveFileName": "Bonezegei_WifiManager-1.0.0.zip",
+      "size": 22390,
+      "checksum": "SHA-256:bb71153b06260c36d8b0dd1d018dfd78d420bd93bc49613ffde4d7e316792a9d"
+    },
+    {
+      "name": "I2C_EASY",
+      "version": "1.0.0",
+      "author": "klenov1900-lang",
+      "maintainer": "klenov1900-lang \u003cgray_wolf19@mail.ru\u003e",
+      "sentence": "Lightweight I2C (TWI) master layer for AVR. No Wire.h dependency.",
+      "paragraph": "Direct TWI register access with timeouts, byte/bit/word operations, 8/16-bit register helpers, bus scanner, frequency tester and diagnostics. Foundation for the *_EASY library family.",
+      "website": "https://github.com/klenov1900-lang/I2C_EASY",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/klenov1900-lang/I2C_EASY.git",
+      "providesIncludes": [
+        "I2C_EASY.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/I2C_EASY-1.0.0.zip",
+      "archiveFileName": "I2C_EASY-1.0.0.zip",
+      "size": 15498,
+      "checksum": "SHA-256:0fb37e540f88aff2eb2c3a919ab3ac58ed1759b326dd6c4dbfeefed151224ff0"
     }
   ]
 }
