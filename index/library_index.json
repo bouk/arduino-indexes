@@ -1214246,6 +1214246,30 @@
       "checksum": "SHA-256:a26451fa25ae2eddff6b0dec5e362478205a3ce3dadc5542d829da59d03cdb88"
     },
     {
+      "name": "RP2040PIO_CAN",
+      "version": "0.1.0",
+      "author": "Rin Iwai",
+      "maintainer": "Rin Iwai \u003cme@eyrin.jp\u003e",
+      "sentence": "CAN communication library for RP2040/2350 PIO.",
+      "paragraph": "This library provides CAN communication using Programmable I/O in RP2040/2350.",
+      "website": "https://github.com/eyr1n/RP2040PIO_CAN",
+      "category": "Communication",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/eyr1n/RP2040PIO_CAN.git",
+      "providesIncludes": [
+        "RP2040PIO_CAN.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/eyr1n/RP2040PIO_CAN-0.1.0.zip",
+      "archiveFileName": "RP2040PIO_CAN-0.1.0.zip",
+      "size": 33410,
+      "checksum": "SHA-256:fe10935dd436a212f3fdc1ecd492ebf0cf3387b0b8c7920ae753c56a5269a504"
+    },
+    {
       "name": "M5Unit-EXTIO",
       "version": "0.0.1",
       "author": "M5Stack",
@@ -1214799,6 +1214823,30 @@
       "archiveFileName": "ESP32_TWAI-0.0.5.zip",
       "size": 17491,
       "checksum": "SHA-256:923b323ecfbf4c668a78cbb2e64162a1defd178b32d428d2d5c4c35c02ca449a"
+    },
+    {
+      "name": "ESP32_TWAI",
+      "version": "0.1.0",
+      "author": "Rin Iwai",
+      "maintainer": "Rin Iwai \u003cme@eyrin.jp\u003e",
+      "sentence": "TWAI communication library for ESP32.",
+      "paragraph": "This library provides TWAI communication compatible with arduino::HardwareCAN interface.",
+      "website": "https://github.com/eyr1n/ESP32_TWAI",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/eyr1n/ESP32_TWAI.git",
+      "providesIncludes": [
+        "ESP32_TWAI.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/eyr1n/ESP32_TWAI-0.1.0.zip",
+      "archiveFileName": "ESP32_TWAI-0.1.0.zip",
+      "size": 17635,
+      "checksum": "SHA-256:ba14cef11c82eb941478d8780a192fde87a9713e4aaca422badc7e2d9afcfb5a"
     },
     {
       "name": "ESPCPUTemp",
@@ -1243208,6 +1243256,27 @@
       "archiveFileName": "FujitsuAC-1.4.7.zip",
       "size": 33104131,
       "checksum": "SHA-256:80438a9c0ff189383d4fda685252ccc6911e138a8ce66127cbbe72e8696b2a74"
+    },
+    {
+      "name": "FujitsuAC",
+      "version": "1.4.8",
+      "author": "Benas09 \u003cbenas.rag@gmail.com\u003e",
+      "maintainer": "Benas09 \u003cbenas.rag@gmail.com\u003e",
+      "sentence": "Allows ESP32 boards to control FujitsuAC's.",
+      "paragraph": "Replaces UTY-TFSXW1 dongle.",
+      "website": "https://github.com/Benas09/FujitsuAC",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Benas09/FujitsuAC.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Benas09/FujitsuAC-1.4.8.zip",
+      "archiveFileName": "FujitsuAC-1.4.8.zip",
+      "size": 33125071,
+      "checksum": "SHA-256:fc7202d75cd99542687f4a1abea529ff9b442348a2fd30da84c4a6780405c1bc"
     },
     {
       "name": "BLE OTA Update",
@@ -1289663,6 +1289732,36 @@
       "checksum": "SHA-256:c9985d866fb3f9c098ac5a3a03ecd719e98f357dce546d2a6561bc567c58fc23"
     },
     {
+      "name": "PicoGFX_SSD1322",
+      "version": "1.1.0",
+      "author": "The Happy Grey",
+      "maintainer": "The Happy Grey \u003cjay@thehappygrey.co.uk\u003e",
+      "sentence": "Arduino library for SSD1322-based grayscale OLED displays with non-blocking DMA SPI for Raspberry Pi Pico.",
+      "paragraph": "This library drives 256x64 SSD1322 OLED displays with 16-level grayscale, optimized for Raspberry Pi Pico using non-blocking DMA SPI transfers via the Arduino-Pico core. Forked from Adafruit SSD1327 and enhanced by venice1200 and The Happy Grey, it supports I2C and SPI interfaces.",
+      "website": "https://github.com/TheHappyGrey/PicoGFX_SSD1322",
+      "category": "Display",
+      "architectures": [
+        "rp2040",
+        "rp2350"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/TheHappyGrey/PicoGFX_SSD1322.git",
+      "providesIncludes": [
+        "PicoGFX_SSD1322.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/TheHappyGrey/PicoGFX_SSD1322-1.1.0.zip",
+      "archiveFileName": "PicoGFX_SSD1322-1.1.0.zip",
+      "size": 33382,
+      "checksum": "SHA-256:cad0b1391304d032413aae9ca420329a5812712bbf8458561f287ab6cd9f2bc2"
+    },
+    {
       "name": "bq25186",
       "version": "0.1.0",
       "author": "Nick Reynolds",
@@ -1291152,6 +1291251,28 @@
       "checksum": "SHA-256:8e0a10678e58eaf3efd692173d6b79f69f595e8e3d405f4fdc628ae34187468e"
     },
     {
+      "name": "GPIOUtils",
+      "version": "2.4.3",
+      "author": "Geoffrey Trueman Falk",
+      "maintainer": "Geoffrey T. Falk \u003ctopquark22@yahoo.ca\u003e",
+      "license": "MIT",
+      "sentence": "Composable non-blocking GPIO utilities with many functions including debounce, long-press detection, pulse generation and more.",
+      "paragraph": "Debounce, dejitter, Schmitt trigger, edge detection, long-press detection, rate limiting, pulse generation, non-blocking timers, button counters, watchdogs, and other small, stateful GPIO signal-processing blocks designed to be composed into robust input and output pipelines.",
+      "website": "https://github.com/topquark22/GPIOUtils",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/topquark22/GPIOUtils.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/topquark22/GPIOUtils-2.4.3.zip",
+      "archiveFileName": "GPIOUtils-2.4.3.zip",
+      "size": 76906,
+      "checksum": "SHA-256:8436f6d6f0fcc37fdd273d389c2874ce26a02968f153a8681fe3de72739a160b"
+    },
+    {
       "name": "ServoDAC",
       "version": "1.0.0",
       "author": "topquark22",
@@ -1292626,6 +1292747,27 @@
       "archiveFileName": "Plexorino-5.0.5.zip",
       "size": 4107283,
       "checksum": "SHA-256:966e153c2df075d36835b9caa182d70ae4da0246e010881e634c4606a5867e0c"
+    },
+    {
+      "name": "Plexorino",
+      "version": "5.0.6",
+      "author": "Geoffrey Trueman Falk",
+      "maintainer": "Geoffrey T. Falk \u003ctopquark22@yahoo.ca\u003e",
+      "sentence": "Support for 74HC259 (demultiplexer), 74LS151 and 74LS150 (multiplexer).",
+      "paragraph": "With additional hardware, we can expand the number of digital input/output pins on the Arduino beyond the bare GPIO provided. Requires 74HC259 (demultiplexer), 74LS151 or 74LS150 (multiplexer) chip.",
+      "website": "https://github.com/topquark22/Plexorino",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/topquark22/Plexorino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/topquark22/Plexorino-5.0.6.zip",
+      "archiveFileName": "Plexorino-5.0.6.zip",
+      "size": 4107311,
+      "checksum": "SHA-256:6f7e9d987bc77ca90ed7eef6d213c030bdca40d77fc08297d20715dbe033a138"
     },
     {
       "name": "TX07K-TXC",
@@ -1331698,6 +1331840,44 @@
       "checksum": "SHA-256:43f71ea53cd6c67ef40d9d5ff1ea8a6ca8f906f87f5f89bd16cf7d6fccc40fe3"
     },
     {
+      "name": "CodexPad",
+      "version": "5.0.0",
+      "author": "cyfney-anka",
+      "maintainer": "cyfney-anka@qq.com",
+      "sentence": "Connect ESP32 to CodexPad gamepads via Bluetooth and read inputs.",
+      "paragraph": "Arduino library for CodexPad gamepads. Enables ESP32 to connect via Bluetooth (direct or button-mask scanning) and read button states and analog stick values. Depends on NimBLE-Arduino.",
+      "website": "https://github.com/CodexPad/codex_pad_arduino_lib",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/CodexPad/codex_pad_arduino_lib.git",
+      "providesIncludes": [
+        "codex_pad.h"
+      ],
+      "dependencies": [
+        {
+          "name": "NimBLE-Arduino",
+          "version": "\u003e=2.3.9"
+        },
+        {
+          "name": "GamepadInput",
+          "version": "\u003e=1.3.0"
+        },
+        {
+          "name": "cyfney-cpp",
+          "version": "\u003e=2.3.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/CodexPad/CodexPad-5.0.0.zip",
+      "archiveFileName": "CodexPad-5.0.0.zip",
+      "size": 616817,
+      "checksum": "SHA-256:80700caba75e8630b580b68b8450f471afb77dfc3139fd3ca6f21f4c468057af"
+    },
+    {
       "name": "KISS_FFT",
       "version": "1.0.0",
       "author": "Meer Zafarullah Noohani \u003chttps://github.com/meerzafarnoohani\u003e",
@@ -1335019,7 +1335199,7 @@
       "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
       "sentence": "Arduino library for to convert units of length.",
       "website": "https://github.com/RobTillaart/lengthConverter",
-      "category": "Sensors",
+      "category": "Data Processing",
       "architectures": [
         "*"
       ],
@@ -1335034,6 +1335214,29 @@
       "archiveFileName": "lengthConverter-0.1.0.zip",
       "size": 9741,
       "checksum": "SHA-256:2fbd2d8543533d4912a9561235b18480a5aa6ab0847a1ac61d90485eea93d009"
+    },
+    {
+      "name": "lengthConverter",
+      "version": "0.1.2",
+      "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "sentence": "Arduino library to convert (not so common) units of length.",
+      "website": "https://github.com/RobTillaart/lengthConverter",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RobTillaart/lengthConverter.git",
+      "providesIncludes": [
+        "lengthConverter.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/lengthConverter-0.1.2.zip",
+      "archiveFileName": "lengthConverter-0.1.2.zip",
+      "size": 10657,
+      "checksum": "SHA-256:2008dc204e9f0e94192de3ecc2f92f4ec91d5446bac57b74d6d85c980c6b5192"
     },
     {
       "name": "A02YYUW",
@@ -1339297,6 +1339500,37 @@
       "archiveFileName": "AutoconnectoSDK-1.7.31.zip",
       "size": 172700,
       "checksum": "SHA-256:f714747d7e6ee1e7d29184c9c5f3ae6f1608470d6dc4c113d3df478874018d35"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.32",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 IoT client for MQTT (MQTTS/WSS), attributes, telemetry, and RPC.",
+      "paragraph": "Connects ESP32 devices to the Autoconnecto platform using the ESP32 Arduino core MQTT client (TLS and MQTT-over-WebSocket), with shared and client attributes, telemetry, and dashboard RPC. Requires ArduinoJson. ESP32 architecture only.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.32.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.32.zip",
+      "size": 172594,
+      "checksum": "SHA-256:bef91d66feceeb2ecace29dbf998c6f2be5c80fd78223d658d311c94c9b0554e"
     },
     {
       "name": "SPIKeyPad",
@@ -1350203,6 +1350437,31 @@
       "checksum": "SHA-256:c6c15e0747e537a48de9abb08e0db911cbb2a2d800277f37a301c7c05211640c"
     },
     {
+      "name": "FansElectronics_DMD32",
+      "version": "1.1.0",
+      "author": "Fans Electronics, Irfan Indra Kurniawan, S.T",
+      "maintainer": "Irfan Indra Kurniawan, S.T \u003cinfo@fanselectronics.com\u003e",
+      "license": "MIT",
+      "sentence": "DMD32 Library for ESP32 HUB12 \u0026 HUB08 Support P10, P4.25, \u0026 P7.62.",
+      "paragraph": "DMD32 Library for ESP32 HUB12 \u0026 HUB08 Support P10, P4.25, \u0026 P7.62. This library is designed to control DMD (Dot Matrix Display) panels using ESP32 microcontrollers. It provides functions to initialize the display, set pixel colors, and update the display with new data.",
+      "website": "https://github.com/Vean/FansElectronics_DMD32",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Vean/FansElectronics_DMD32.git",
+      "providesIncludes": [
+        "FansElectronics_DMD32.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Vean/FansElectronics_DMD32-1.1.0.zip",
+      "archiveFileName": "FansElectronics_DMD32-1.1.0.zip",
+      "size": 51770,
+      "checksum": "SHA-256:889a01815f36a257954c59b2d2cb7b83f2cfadebd371af7fea8f730365dc6a00"
+    },
+    {
       "name": "ZenoPCB",
       "version": "0.3.0",
       "author": "ZENOPCB ELECTRONICS TECHNOLOGY CO., LTD \u003cinfor@zenopcb.vn\u003e",
@@ -1350905,6 +1351164,31 @@
       "archiveFileName": "FansElectronics_DMD8266-1.0.1.zip",
       "size": 44684,
       "checksum": "SHA-256:aacc262777c5b161b958064542aad5b091c872ecea29f34050a6381ce5739996"
+    },
+    {
+      "name": "FansElectronics_DMD8266",
+      "version": "1.1.0",
+      "author": "Fans Electronics, Irfan Indra Kurniawan, S.T",
+      "maintainer": "Irfan Indra Kurniawan, S.T \u003cinfo@fanselectronics.com\u003e",
+      "license": "MIT",
+      "sentence": "DMD8266 Library for ESP8266 HUB12 \u0026 HUB08 Support P10, P4.75, \u0026 P7.62.",
+      "paragraph": "DMD8266 Library for ESP8266 HUB12 \u0026 HUB08 Support P10, P4.75, \u0026 P7.62 Single Color. This library is designed to control DMD (Dot Matrix Display) panels using ESP8266 microcontrollers.",
+      "website": "https://github.com/Vean/FansElectronics_DMD8266",
+      "category": "Display",
+      "architectures": [
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Vean/FansElectronics_DMD8266.git",
+      "providesIncludes": [
+        "FansElectronics_DMD8266.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Vean/FansElectronics_DMD8266-1.1.0.zip",
+      "archiveFileName": "FansElectronics_DMD8266-1.1.0.zip",
+      "size": 51699,
+      "checksum": "SHA-256:d1e7f13dac7b23606dbc9e03fe2f2e667ecbf701056e02c63fe1d8c53112f232"
     },
     {
       "name": "Raphael",
@@ -1375404,6 +1375688,30 @@
       "checksum": "SHA-256:faf440e9adb783706297be449b834fa6f672ff10fecd9bd463fac7157589569d"
     },
     {
+      "name": "note-cpp",
+      "version": "0.3.6",
+      "author": "Mat McGowan",
+      "maintainer": "Mat McGowan",
+      "sentence": "Typed C++ SDK for the Blues Notecard.",
+      "paragraph": "Type-safe, compile-time checked API for all Notecard endpoints. Header-only. Supports Arduino, PlatformIO, and CMake.",
+      "website": "https://github.com/m-mcgowan/note-cpp",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m-mcgowan/note-cpp.git",
+      "providesIncludes": [
+        "note.hpp"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m-mcgowan/note_cpp-0.3.6.zip",
+      "archiveFileName": "note_cpp-0.3.6.zip",
+      "size": 1915303,
+      "checksum": "SHA-256:5b11f96835c0ea50a2724b156a96535f6d1c30ee2289900327d90d6a2bce1199"
+    },
+    {
       "name": "WcbCmd",
       "version": "0.4.0",
       "author": "Greg Hulette",
@@ -1390238,6 +1390546,191 @@
       "checksum": "SHA-256:620260458a4afd2a66d1372d62c5e35c7f494728f0a8a625971cfeb704a235ba"
     },
     {
+      "name": "AsyncConfigPortal",
+      "version": "0.14.0",
+      "author": "Peter Soos",
+      "maintainer": "Peter Soos",
+      "license": "MIT",
+      "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+      "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+      "website": "https://github.com/soosp/AsyncConfigPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncConfigPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "HttpDigestAuth"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.14.0.zip",
+      "archiveFileName": "AsyncConfigPortal-0.14.0.zip",
+      "size": 192894,
+      "checksum": "SHA-256:f8f5b626278343d2f0eb293f10a70df83ced327144181652679e0d7c79dc28c1"
+    },
+    {
+      "name": "AsyncConfigPortal",
+      "version": "0.15.0",
+      "author": "Peter Soos",
+      "maintainer": "Peter Soos",
+      "license": "MIT",
+      "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+      "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+      "website": "https://github.com/soosp/AsyncConfigPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncConfigPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "HttpDigestAuth"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.15.0.zip",
+      "archiveFileName": "AsyncConfigPortal-0.15.0.zip",
+      "size": 193452,
+      "checksum": "SHA-256:aa5e6bc5bbf32dbfce0461d32a7147818d3e5c6d2731f625422de6c7660679f1"
+    },
+    {
+      "name": "AsyncConfigPortal",
+      "version": "0.15.1",
+      "author": "Peter Soos",
+      "maintainer": "Peter Soos",
+      "license": "MIT",
+      "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+      "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+      "website": "https://github.com/soosp/AsyncConfigPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncConfigPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "HttpDigestAuth"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.15.1.zip",
+      "archiveFileName": "AsyncConfigPortal-0.15.1.zip",
+      "size": 193504,
+      "checksum": "SHA-256:319f319fa6beddc8f095a583ac1771b4c910f3fa084d6da9ac9e442efd278b15"
+    },
+    {
+      "name": "AsyncConfigPortal",
+      "version": "0.16.0",
+      "author": "Peter Soos",
+      "maintainer": "Peter Soos",
+      "license": "MIT",
+      "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+      "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+      "website": "https://github.com/soosp/AsyncConfigPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncConfigPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "HttpDigestAuth"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.16.0.zip",
+      "archiveFileName": "AsyncConfigPortal-0.16.0.zip",
+      "size": 195062,
+      "checksum": "SHA-256:d03a75b70bced1c5d1aae276b663656d30a729be73107addd19b302c89d2fed6"
+    },
+    {
+      "name": "AsyncConfigPortal",
+      "version": "0.16.1",
+      "author": "Peter Soos",
+      "maintainer": "Peter Soos",
+      "license": "MIT",
+      "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+      "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+      "website": "https://github.com/soosp/AsyncConfigPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncConfigPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "HttpDigestAuth"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.16.1.zip",
+      "archiveFileName": "AsyncConfigPortal-0.16.1.zip",
+      "size": 195716,
+      "checksum": "SHA-256:dd98db95f033fdfe3c2e4254161fa5e16cf9fe1cd4ac8326c23d69fa95808754"
+    },
+    {
       "name": "AsyncWiFiPortal",
       "version": "0.1.0",
       "author": "soosp",
@@ -1398684,6 +1399177,59 @@
       "checksum": "SHA-256:0ef5d50bfe3f89a603b06f44e3ef4167e4418b02ba4381bdbe9f87c0053f241b"
     },
     {
+      "name": "Adafruit Marquee",
+      "version": "1.0.7",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Adafruit Marquee Client",
+      "paragraph": "Adafruit Marquee Client for Arduino.",
+      "website": "https://github.com/adafruit/Adafruit_Marquee",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_Marquee.git",
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit EPD"
+        },
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "Adafruit SPIFlash"
+        },
+        {
+          "name": "SdFat - Adafruit Fork"
+        },
+        {
+          "name": "Adafruit TinyUSB Library"
+        },
+        {
+          "name": "base64"
+        },
+        {
+          "name": "Adafruit ImageReader Library"
+        },
+        {
+          "name": "Adafruit MQTT Library"
+        },
+        {
+          "name": "CRC"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_Marquee-1.0.7.zip",
+      "archiveFileName": "Adafruit_Marquee-1.0.7.zip",
+      "size": 92087,
+      "checksum": "SHA-256:936386a55d05836c6ed72d8861b2b8b93d62cc99660ac295a0bee797530ec4ed"
+    },
+    {
       "name": "MicroMDNS",
       "version": "0.1.0",
       "author": "Sean Cardus",
@@ -1406844,6 +1407390,33 @@
       "checksum": "SHA-256:49ba3e9c8a3b24ac7b64457ed3664210d1ff044b60d852a2788a94334d0831a8"
     },
     {
+      "name": "ReflectJSON",
+      "version": "1.1.0",
+      "author": "Michael michi.fu@quickline.ch",
+      "maintainer": "Michael michi.fu@quickline.ch",
+      "sentence": "Fast JSON writer and reader for microcontrollers with struct reflection (REFLECT/MEMBER), Kotlin-style config and pretty printing.",
+      "paragraph": "Write and read C++ structs as JSON without hand-written serialization code. Streaming buffer writer with validation, single-pass reader, std::optional, duplicate key detection, error paths like root.devices[2].limits.max. Needs C++17 (RP2040/RP2350, ESP32, Teensy 4.x). Free for noncommercial use; commercial use requires a license.",
+      "website": "https://github.com/Michael-0-sys/ReflectJSON",
+      "category": "Data Processing",
+      "architectures": [
+        "rp2040",
+        "esp32",
+        "teensy",
+        "renesas_uno"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Michael-0-sys/ReflectJSON.git",
+      "providesIncludes": [
+        "ReflectJSON.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Michael-0-sys/ReflectJSON-1.1.0.zip",
+      "archiveFileName": "ReflectJSON-1.1.0.zip",
+      "size": 90659,
+      "checksum": "SHA-256:080acdf0f8a484bf7603b6656ddc666ea3d57995df1a8ab77587f0210de98185"
+    },
+    {
       "name": "IOTFIY",
       "version": "1.0.0",
       "author": "Iotfiy Solutions",
@@ -1407733,6 +1408306,30 @@
       "checksum": "SHA-256:0a3965d56d3a0871220eeb3e836affefee8ec9ee692c30c52decf5341955a54a"
     },
     {
+      "name": "MB1242",
+      "version": "0.1.1",
+      "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "sentence": "Arduino library for the MaxBotix I2C MB1242 distance sensor.",
+      "paragraph": "MB1202,MB1212,MB1222,MB1232",
+      "website": "https://github.com/RobTillaart/MB1242",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RobTillaart/MB1242.git",
+      "providesIncludes": [
+        "MB1242.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/MB1242-0.1.1.zip",
+      "archiveFileName": "MB1242-0.1.1.zip",
+      "size": 4211995,
+      "checksum": "SHA-256:34c269b12e1015a17c2b9f0a93680272e8714e75ab8c196fc29b70499bf98457"
+    },
+    {
       "name": "Bonezegei_Max30105",
       "version": "1.0.0",
       "author": "Bonezegei (Jofel Batutay)",
@@ -1407849,6 +1408446,1263 @@
       "archiveFileName": "I2C_EASY-1.0.0.zip",
       "size": 15498,
       "checksum": "SHA-256:0fb37e540f88aff2eb2c3a919ab3ac58ed1759b326dd6c4dbfeefed151224ff0"
+    },
+    {
+      "name": "EspSerialFlasher",
+      "version": "0.1.0",
+      "author": "Espressif Systems",
+      "maintainer": "Jaroslav Burian \u003cjarda-burian@hotmail.cz\u003e",
+      "sentence": "Flash Espressif chips (ESP32, ESP32-S/C/H/P series, ESP8266) from another microcontroller over UART.",
+      "paragraph": "Arduino port of Espressif's esp-serial-flasher. Exposes the plain C API (esp_loader_*).",
+      "website": "https://github.com/espressif/esp-serial-flasher",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Dzarda7/EspSerialFlasher.git",
+      "providesIncludes": [
+        "EspSerialFlasher.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Dzarda7/EspSerialFlasher-0.1.0.zip",
+      "archiveFileName": "EspSerialFlasher-0.1.0.zip",
+      "size": 369601,
+      "checksum": "SHA-256:67ad56d32cb26c4658d92c273dee49b4b520afc49902715ba6d2aed2d0d31988"
+    },
+    {
+      "name": "PinNode",
+      "version": "0.3.11",
+      "author": "PinNode",
+      "maintainer": "PinNode",
+      "sentence": "PinNode for RetroPinUpgrade games: scores, achievements, stats and settings to a PinNode node.",
+      "paragraph": "The RPU-Link (UART for RPU Rev 4/102, SPI for future PinNode boards) and the PinNode API for Arduino Mega game code, plus the types for the pinnode-gen generated header.",
+      "website": "https://pin-node.com",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pin-node/PinNode.git",
+      "providesIncludes": [
+        "PinNode.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.11.zip",
+      "archiveFileName": "PinNode-0.3.11.zip",
+      "size": 205410,
+      "checksum": "SHA-256:368fb2cc5647c3119bb10da4d950fed1e452ffb16920dea4e9630d51a68e184b"
+    },
+    {
+      "name": "PinNode",
+      "version": "0.3.12",
+      "author": "PinNode",
+      "maintainer": "PinNode",
+      "sentence": "PinNode for RetroPinUpgrade games: scores, achievements, stats and settings to a PinNode node.",
+      "paragraph": "The RPU-Link (UART for RPU Rev 4/102, SPI for future PinNode boards) and the PinNode API for Arduino Mega game code, plus the types for the pinnode-gen generated header.",
+      "website": "https://pin-node.com",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pin-node/PinNode.git",
+      "providesIncludes": [
+        "PinNode.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.12.zip",
+      "archiveFileName": "PinNode-0.3.12.zip",
+      "size": 204338,
+      "checksum": "SHA-256:5567150038fa153091f45dc819a7f4b47e7559334c2e0f1fc71e3bbac4e96eb2"
+    },
+    {
+      "name": "PinNode",
+      "version": "0.3.13",
+      "author": "PinNode",
+      "maintainer": "PinNode",
+      "sentence": "PinNode for RetroPinUpgrade games: scores, achievements, stats and settings to a PinNode node.",
+      "paragraph": "The RPU-Link (UART for RPU Rev 4/102, SPI for future PinNode boards) and the PinNode API for Arduino Mega game code, plus the types for the pinnode-gen generated header.",
+      "website": "https://github.com/pin-node/PinNode",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pin-node/PinNode.git",
+      "providesIncludes": [
+        "PinNode.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.13.zip",
+      "archiveFileName": "PinNode-0.3.13.zip",
+      "size": 208276,
+      "checksum": "SHA-256:555b260e19a86702e9e125eacf26b2257a5079e2c6e03b60722a4cfcee23231b"
+    },
+    {
+      "name": "PinNode",
+      "version": "0.3.14",
+      "author": "PinNode",
+      "maintainer": "PinNode",
+      "sentence": "PinNode for RetroPinUpgrade games: scores, achievements, stats and settings to a PinNode node.",
+      "paragraph": "The RPU-Link (UART for RPU Rev 4/102, SPI for future PinNode boards) and the PinNode API for Arduino Mega game code, plus the types for the pinnode-gen generated header.",
+      "website": "https://github.com/pin-node/PinNode",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pin-node/PinNode.git",
+      "providesIncludes": [
+        "PinNode.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.14.zip",
+      "archiveFileName": "PinNode-0.3.14.zip",
+      "size": 209092,
+      "checksum": "SHA-256:9ffe86cf2b8f294f225d5d3746835c5a222cf51bce3150bc61a384b3e944cbc7"
+    },
+    {
+      "name": "PinNode",
+      "version": "0.3.15",
+      "author": "PinNode",
+      "maintainer": "PinNode",
+      "sentence": "PinNode for RetroPinUpgrade games: scores, achievements, stats and settings to a PinNode node.",
+      "paragraph": "The RPU-Link (UART for RPU Rev 4/102, SPI for future PinNode boards) and the PinNode API for Arduino Mega game code, plus the types for the pinnode-gen generated header.",
+      "website": "https://github.com/pin-node/PinNode",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pin-node/PinNode.git",
+      "providesIncludes": [
+        "PinNode.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.15.zip",
+      "archiveFileName": "PinNode-0.3.15.zip",
+      "size": 205386,
+      "checksum": "SHA-256:74a413e7c068ea369713a23a469ed027d89a4b0ef1af06b614cfd83844b5eb15"
+    },
+    {
+      "name": "Radio_GemTek",
+      "version": "1.0.0",
+      "author": "İsmail Caner Naz",
+      "maintainer": "İsmail Caner Naz \u003cismailcanernaz@aol.com\u003e",
+      "license": "MIT",
+      "sentence": "Control a GemTek FM radio module using an Arduino.",
+      "paragraph": "Programs the module's BU2614 frequency synthesizer and provides frequency, mute, PLL, and mono/stereo status controls. The communication protocol was reverse engineered and tested with a USB FM transmitter.",
+      "website": "https://github.com/ismailcanernaz/Radio_GemTek",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ismailcanernaz/Radio_GemTek.git",
+      "providesIncludes": [
+        "Radio_GemTek.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ismailcanernaz/Radio_GemTek-1.0.0.zip",
+      "archiveFileName": "Radio_GemTek-1.0.0.zip",
+      "size": 8527,
+      "checksum": "SHA-256:58120b27377a92de077f81a6474441bf64090b58f5d5c9219d10f8e53decc99b"
+    },
+    {
+      "name": "RPUMachines",
+      "version": "0.3.0",
+      "author": "PinNode and contributors",
+      "maintainer": "PinNode",
+      "sentence": "Machine definitions (lamps, switches, solenoids) for RetroPinUpgrade games.",
+      "paragraph": "One header per machine, shared by every game written for it, with the manufacturer's names for each lamp, switch and coil.",
+      "website": "https://github.com/pin-node/RPUMachines",
+      "category": "Other",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pin-node/RPUMachines.git",
+      "providesIncludes": [
+        "BallyStarTrek1979.h",
+        "WilliamsScorpion1980.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pin-node/RPUMachines-0.3.0.zip",
+      "archiveFileName": "RPUMachines-0.3.0.zip",
+      "size": 24879,
+      "checksum": "SHA-256:52dd43264e5d6fa9ef897cabe97bf7bfa615d2537c5c6e21529744af71113675"
+    },
+    {
+      "name": "RPUMachines",
+      "version": "0.3.1",
+      "author": "John Turner (wifijt) and contributors",
+      "maintainer": "John Turner (wifijt)",
+      "sentence": "Machine definitions (lamps, switches, solenoids) for RetroPinUpgrade games.",
+      "paragraph": "One header per machine, shared by every game written for it, with the manufacturer's names for each lamp, switch and coil.",
+      "website": "https://github.com/wifijt/RPUMachines",
+      "category": "Other",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pin-node/RPUMachines.git",
+      "providesIncludes": [
+        "BallyStarTrek1979.h",
+        "WilliamsScorpion1980.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pin-node/RPUMachines-0.3.1.zip",
+      "archiveFileName": "RPUMachines-0.3.1.zip",
+      "size": 27223,
+      "checksum": "SHA-256:a4f52ef240cf0adeefb6430f7a5b52c0c91f80159e2669e168b5d7a0d43a43e2"
+    },
+    {
+      "name": "azaraC",
+      "version": "1.0.0",
+      "author": "A-vrice",
+      "maintainer": "A-vrice",
+      "sentence": "QZSS L1S DCX/CAMF and QZQSM decoder for Arduino",
+      "paragraph": "Decodes QZSS L1S disaster alert messages from UBX (RXM-SFRBX) or NMEA ($QZQSM). All 12 JMA DC Report sub-types supported. Definition tables auto-generated from azarashi. No heap allocation. No external dependencies. Corresponds to IS-QZSS-DCR-016 (MT=43, all 12 categories), IS-QZSS-DCX-004 and EWSS-CAMF v1.1 (MT=44). Definition tables are auto-generated from azarashi 0.16.4.",
+      "website": "https://github.com/A-vrice/azaraC",
+      "category": "Communication",
+      "architectures": [
+        "sam",
+        "samd",
+        "mbed_nano",
+        "mbed_giga",
+        "mbed_rp2040",
+        "mbed_portenta",
+        "esp32",
+        "stm32",
+        "nrf52",
+        "teensy40",
+        "avr",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/A-vrice/azaraC.git",
+      "providesIncludes": [
+        "azaraC.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/A-vrice/azaraC-1.0.0.zip",
+      "archiveFileName": "azaraC-1.0.0.zip",
+      "size": 758141,
+      "checksum": "SHA-256:076ca6a854fb4decb894805c25f7ecadc9370b42622b96f588a46eb0d6eb4f3b"
+    },
+    {
+      "name": "azaraC",
+      "version": "1.0.1",
+      "author": "A-vrice",
+      "maintainer": "A-vrice",
+      "sentence": "QZSS L1S DCX/CAMF and QZQSM decoder for Arduino",
+      "paragraph": "Decodes QZSS L1S disaster alert messages from UBX (RXM-SFRBX) or NMEA ($QZQSM). All 12 JMA DC Report sub-types supported. Definition tables auto-generated from azarashi. No heap allocation. No external dependencies. Corresponds to IS-QZSS-DCR-016 (MT=43, all 12 categories), IS-QZSS-DCX-004 and EWSS-CAMF v1.1 (MT=44). Definition tables are auto-generated from azarashi 0.16.4.",
+      "website": "https://github.com/A-vrice/azaraC",
+      "category": "Communication",
+      "architectures": [
+        "sam",
+        "samd",
+        "mbed_nano",
+        "mbed_giga",
+        "mbed_rp2040",
+        "mbed_portenta",
+        "esp32",
+        "stm32",
+        "nrf52",
+        "teensy40",
+        "avr",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/A-vrice/azaraC.git",
+      "providesIncludes": [
+        "azaraC.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/A-vrice/azaraC-1.0.1.zip",
+      "archiveFileName": "azaraC-1.0.1.zip",
+      "size": 764545,
+      "checksum": "SHA-256:a352215a7a45709b05cdc47feb76b3cc8b4f950e74bd260ae11b333f87999670"
+    },
+    {
+      "name": "azaraC",
+      "version": "1.0.3",
+      "author": "A-vrice",
+      "maintainer": "A-vrice",
+      "sentence": "QZSS L1S DCX/CAMF and QZQSM decoder for Arduino",
+      "paragraph": "Decodes QZSS L1S disaster alert messages from UBX (RXM-SFRBX) or NMEA ($QZQSM). All 12 JMA DC Report sub-types supported. Definition tables auto-generated from azarashi. No heap allocation. No external dependencies. Corresponds to IS-QZSS-DCR-016 (MT=43, all 12 categories), IS-QZSS-DCX-004 and EWSS-CAMF v1.1 (MT=44). Definition tables are auto-generated from azarashi 0.16.4.",
+      "website": "https://github.com/A-vrice/azaraC",
+      "category": "Communication",
+      "architectures": [
+        "sam",
+        "samd",
+        "mbed_nano",
+        "mbed_giga",
+        "mbed_rp2040",
+        "mbed_portenta",
+        "esp32",
+        "stm32",
+        "nrf52",
+        "teensy40",
+        "avr",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/A-vrice/azaraC.git",
+      "providesIncludes": [
+        "azaraC.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/A-vrice/azaraC-1.0.3.zip",
+      "archiveFileName": "azaraC-1.0.3.zip",
+      "size": 692808,
+      "checksum": "SHA-256:0672357294f64054dd37cd2d6e26dc517d6545312b5ff7d45b1f34b138f1560a"
+    },
+    {
+      "name": "azaraC",
+      "version": "2.0.0",
+      "author": "A-vrice",
+      "maintainer": "A-vrice",
+      "sentence": "QZSS L1S DCX/CAMF and QZQSM decoder for Arduino",
+      "paragraph": "Decodes QZSS L1S disaster alert messages from UBX (RXM-SFRBX) or NMEA ($QZQSM). All 12 JMA DC Report sub-types supported. Definition tables auto-generated from azarashi. No heap allocation. No external dependencies. Corresponds to IS-QZSS-DCR-017 (MT=43, all 12 categories), IS-QZSS-DCX-004 Rev.004 and EWSS-CAMF v1.2 (MT=44). Definition tables are auto-generated from azarashi 0.17.1.",
+      "website": "https://github.com/A-vrice/azaraC",
+      "category": "Communication",
+      "architectures": [
+        "sam",
+        "samd",
+        "mbed_nano",
+        "mbed_giga",
+        "mbed_rp2040",
+        "mbed_portenta",
+        "esp32",
+        "stm32",
+        "nrf52",
+        "teensy40",
+        "avr",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/A-vrice/azaraC.git",
+      "providesIncludes": [
+        "azaraC.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/A-vrice/azaraC-2.0.0.zip",
+      "archiveFileName": "azaraC-2.0.0.zip",
+      "size": 935975,
+      "checksum": "SHA-256:dfa7c13447123c806a086b806f8dee36906a44d0c9be0e58eb6b41ff4132a782"
+    },
+    {
+      "name": "ReflectINI",
+      "version": "1.0.0",
+      "author": "Michael michi.fu@quickline.ch",
+      "maintainer": "Michael michi.fu@quickline.ch",
+      "sentence": "INI writer and reader for microcontrollers with struct reflection (REFLECT/MEMBER), sections, arrays and precise error locations.",
+      "paragraph": "Write and read C++ structs as INI files without hand-written parsing code. Nested structs become [sections], arrays become lists, std::optional and const char* are nullable. Parses from const char* (optional zero-copy), no heap use while reading or writing, error path / line / column. Shares ReflectCore.h with ReflectJSON (same struct for JSON and INI), but does not require it. Needs C++17 (RP2040/RP2350, ESP32, Teensy 4.x, Arduino UNO R4). Free for noncommercial use; commercial use requires a license.",
+      "website": "https://github.com/Michael-0-sys/ReflectINI",
+      "category": "Data Processing",
+      "architectures": [
+        "rp2040",
+        "esp32",
+        "teensy",
+        "renesas_uno"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Michael-0-sys/ReflectINI.git",
+      "providesIncludes": [
+        "ReflectINI.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Michael-0-sys/ReflectINI-1.0.0.zip",
+      "archiveFileName": "ReflectINI-1.0.0.zip",
+      "size": 96431,
+      "checksum": "SHA-256:da16281e5945a70951cad9aaadffe128e9faf78d2048623490b56d4ec80518de"
+    },
+    {
+      "name": "Pinscope",
+      "version": "0.1.1",
+      "author": "Pinscope",
+      "maintainer": "Pinscope",
+      "sentence": "Remote HTTP/WebSocket access, logs and metrics for ESP32.",
+      "paragraph": "Opens one outbound connection to a Pinscope server and makes the web server running on the device reachable from anywhere.",
+      "website": "https://example.com",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pinscope-dev/pinscope-esp.git",
+      "providesIncludes": [
+        "pinscope.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.1.1.zip",
+      "archiveFileName": "Pinscope-0.1.1.zip",
+      "size": 34106,
+      "checksum": "SHA-256:c9b23961a90adf5ce57ddd7d595355e1f9efff7690286a313b028ff35b7dd5ff"
+    },
+    {
+      "name": "Pinscope",
+      "version": "0.2.0",
+      "author": "Pinscope",
+      "maintainer": "Pinscope",
+      "sentence": "Remote HTTP/WebSocket access, logs and metrics for ESP32.",
+      "paragraph": "Opens one outbound connection to a Pinscope server and makes the web server running on the device reachable from anywhere.",
+      "website": "https://example.com",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pinscope-dev/pinscope-esp.git",
+      "providesIncludes": [
+        "pinscope.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.0.zip",
+      "archiveFileName": "Pinscope-0.2.0.zip",
+      "size": 42039,
+      "checksum": "SHA-256:153537ea3732d09dc23d0dd1c4976582c53438bba3e79a08ec3f127f31bad7e3"
+    },
+    {
+      "name": "Pinscope",
+      "version": "0.2.1",
+      "author": "Pinscope",
+      "maintainer": "Pinscope",
+      "sentence": "Remote HTTP/WebSocket access, logs and metrics for ESP32.",
+      "paragraph": "Opens one outbound connection to a Pinscope server and makes the web server running on the device reachable from anywhere.",
+      "website": "https://example.com",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pinscope-dev/pinscope-esp.git",
+      "providesIncludes": [
+        "pinscope.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.1.zip",
+      "archiveFileName": "Pinscope-0.2.1.zip",
+      "size": 43166,
+      "checksum": "SHA-256:aabd3849e085c3146f8d6814526f8024ec90bbe713f70c95c76e60e210c1782c"
+    },
+    {
+      "name": "Pinscope",
+      "version": "0.2.2",
+      "author": "Pinscope",
+      "maintainer": "Pinscope",
+      "sentence": "Remote HTTP/WebSocket access, logs and metrics for ESP32.",
+      "paragraph": "Opens one outbound connection to a Pinscope server and makes the web server running on the device reachable from anywhere.",
+      "website": "https://example.com",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pinscope-dev/pinscope-esp.git",
+      "providesIncludes": [
+        "pinscope.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.2.zip",
+      "archiveFileName": "Pinscope-0.2.2.zip",
+      "size": 43150,
+      "checksum": "SHA-256:8df795d0d72f164c01750737915b4a58ad12964422ea7643f5cc890cc333843b"
+    },
+    {
+      "name": "Pinscope",
+      "version": "0.2.3",
+      "author": "Pinscope",
+      "maintainer": "Pinscope",
+      "sentence": "Remote HTTP/WebSocket access, logs and metrics for ESP32.",
+      "paragraph": "Opens one outbound connection to a Pinscope server and makes the web server running on the device reachable from anywhere.",
+      "website": "https://example.com",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pinscope-dev/pinscope-esp.git",
+      "providesIncludes": [
+        "pinscope.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.3.zip",
+      "archiveFileName": "Pinscope-0.2.3.zip",
+      "size": 43513,
+      "checksum": "SHA-256:1c0789947c29a642f08aaf9085c2a14aac09ccc6246ed2b21e33869694336d85"
+    },
+    {
+      "name": "Pinscope",
+      "version": "0.2.4",
+      "author": "Pinscope",
+      "maintainer": "Pinscope",
+      "sentence": "Remote HTTP/WebSocket access, logs and metrics for ESP32.",
+      "paragraph": "Opens one outbound connection to a Pinscope server and makes the web server running on the device reachable from anywhere.",
+      "website": "https://example.com",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pinscope-dev/pinscope-esp.git",
+      "providesIncludes": [
+        "pinscope.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.4.zip",
+      "archiveFileName": "Pinscope-0.2.4.zip",
+      "size": 46621,
+      "checksum": "SHA-256:593696ba424575d93e3a96e50c3c5ce9d4439ecf073d5425c2bfb92cd6b58750"
+    },
+    {
+      "name": "Pinscope",
+      "version": "0.2.5",
+      "author": "Pinscope",
+      "maintainer": "Pinscope",
+      "sentence": "Remote HTTP/WebSocket access, logs and metrics for ESP32.",
+      "paragraph": "Opens one outbound connection to a Pinscope server and makes the web server running on the device reachable from anywhere.",
+      "website": "https://example.com",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pinscope-dev/pinscope-esp.git",
+      "providesIncludes": [
+        "pinscope.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.5.zip",
+      "archiveFileName": "Pinscope-0.2.5.zip",
+      "size": 46729,
+      "checksum": "SHA-256:5f2cbd14e58dcd43fcd8e0fdc87ee36ad2a07ca83745aae7144ea48190bedc88"
+    },
+    {
+      "name": "Pinscope",
+      "version": "0.2.6",
+      "author": "Pinscope",
+      "maintainer": "Pinscope",
+      "sentence": "Remote HTTP/WebSocket access, logs and metrics for ESP32.",
+      "paragraph": "Opens one outbound connection to a Pinscope server and makes the web server running on the device reachable from anywhere.",
+      "website": "https://example.com",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pinscope-dev/pinscope-esp.git",
+      "providesIncludes": [
+        "pinscope.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.6.zip",
+      "archiveFileName": "Pinscope-0.2.6.zip",
+      "size": 46729,
+      "checksum": "SHA-256:10701cc417d6b983a920723b6fad7561ecdfd18e3d30994d6656dd7ea3cbf581"
+    },
+    {
+      "name": "Pinscope",
+      "version": "0.2.7",
+      "author": "Pinscope",
+      "maintainer": "Pinscope",
+      "sentence": "Remote HTTP/WebSocket access, logs and metrics for ESP32.",
+      "paragraph": "Opens one outbound connection to a Pinscope server and makes the web server running on the device reachable from anywhere.",
+      "website": "https://example.com",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pinscope-dev/pinscope-esp.git",
+      "providesIncludes": [
+        "pinscope.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.7.zip",
+      "archiveFileName": "Pinscope-0.2.7.zip",
+      "size": 47184,
+      "checksum": "SHA-256:4c9ad3a2d3e8ca728bae55c77732eeea75701c52aadc58f3fe01a8bcb4dd9511"
+    },
+    {
+      "name": "Pinscope",
+      "version": "0.2.8",
+      "author": "Pinscope",
+      "maintainer": "Pinscope",
+      "sentence": "Remote HTTP/WebSocket access, logs and metrics for ESP32.",
+      "paragraph": "Opens one outbound connection to a Pinscope server and makes the web server running on the device reachable from anywhere.",
+      "website": "https://example.com",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pinscope-dev/pinscope-esp.git",
+      "providesIncludes": [
+        "pinscope.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.8.zip",
+      "archiveFileName": "Pinscope-0.2.8.zip",
+      "size": 48534,
+      "checksum": "SHA-256:823ae307f207fd1e63994469f12da434fc4852e0a8bf9d62e794601ed7637f09"
+    },
+    {
+      "name": "Pinscope",
+      "version": "0.2.9",
+      "author": "Filip Code \u003chello@pinscope.dev\u003e",
+      "maintainer": "Filip Code \u003chello@pinscope.dev\u003e",
+      "sentence": "Reach your ESP32's web server from anywhere, with live logs, crash reports and OTA updates, in 9.4 KB of RAM.",
+      "paragraph": "One outbound connection to the Pinscope service gives the device's own web server an HTTPS address and carries its logs, metrics, crash reports and firmware updates. No port forwarding, no TLS library on the device. Needs a Pinscope account (three devices free).",
+      "website": "https://pinscope.dev/docs",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pinscope-dev/pinscope-esp.git",
+      "providesIncludes": [
+        "pinscope.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.9.zip",
+      "archiveFileName": "Pinscope-0.2.9.zip",
+      "size": 52565,
+      "checksum": "SHA-256:69d56848bcd9308ed06388ae0a4088dffba2bdee766848085cb3d7ec70eed381"
+    },
+    {
+      "name": "Pinscope",
+      "version": "0.2.10",
+      "author": "Filip Code \u003chello@pinscope.dev\u003e",
+      "maintainer": "Filip Code \u003chello@pinscope.dev\u003e",
+      "sentence": "Reach your ESP32's web server from anywhere, with live logs, crash reports and OTA updates, in 9.4 KB of RAM.",
+      "paragraph": "One outbound connection to the Pinscope service gives the device's own web server an HTTPS address and carries its logs, metrics, crash reports and firmware updates. No port forwarding, no TLS library on the device. Needs a Pinscope account (three devices free).",
+      "website": "https://pinscope.dev/docs",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pinscope-dev/pinscope-esp.git",
+      "providesIncludes": [
+        "pinscope.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.10.zip",
+      "archiveFileName": "Pinscope-0.2.10.zip",
+      "size": 52989,
+      "checksum": "SHA-256:9e52f6e52bb414c5b6daefc696e9ec26059b963a9968e9524bfe9412152f6e63"
+    },
+    {
+      "name": "lvgl_theme_shadcn",
+      "version": "0.1.1",
+      "author": "Alix ANNERAUD \u003calix@anneraud.fr\u003e",
+      "maintainer": "Alix ANNERAUD \u003calix@anneraud.fr\u003e",
+      "sentence": "Beautiful shadcn/ui-inspired theme for LVGL 9.",
+      "paragraph": "Every widget styled in every state, dark and light palettes switchable at runtime, touch-first 48 dp targets, cheap to render on microcontrollers. Requires LVGL 9.6 or newer.",
+      "website": "https://github.com/AlixANNERAUD/lvgl_theme_shadcn",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AlixANNERAUD/lvgl_theme_shadcn.git",
+      "providesIncludes": [
+        "lv_theme_shadcn.h"
+      ],
+      "dependencies": [
+        {
+          "name": "lvgl",
+          "version": "\u003e=9.6.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AlixANNERAUD/lvgl_theme_shadcn-0.1.1.zip",
+      "archiveFileName": "lvgl_theme_shadcn-0.1.1.zip",
+      "size": 236320,
+      "checksum": "SHA-256:ad524fca444fa03bff7e11e51867038002d502e85e4122749aafd291746f9e77"
+    },
+    {
+      "name": "lvgl_theme_shadcn",
+      "version": "0.2.0",
+      "author": "Alix ANNERAUD \u003calix@anneraud.fr\u003e",
+      "maintainer": "Alix ANNERAUD \u003calix@anneraud.fr\u003e",
+      "sentence": "Beautiful shadcn/ui-inspired theme for LVGL 9.",
+      "paragraph": "Every widget styled in every state, dark and light palettes switchable at runtime, touch-first 48 dp targets, cheap to render on microcontrollers. Requires LVGL 9.6 or newer.",
+      "website": "https://github.com/AlixANNERAUD/lvgl_theme_shadcn",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AlixANNERAUD/lvgl_theme_shadcn.git",
+      "providesIncludes": [
+        "lv_theme_shadcn.h"
+      ],
+      "dependencies": [
+        {
+          "name": "lvgl",
+          "version": "\u003e=9.6.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AlixANNERAUD/lvgl_theme_shadcn-0.2.0.zip",
+      "archiveFileName": "lvgl_theme_shadcn-0.2.0.zip",
+      "size": 468645,
+      "checksum": "SHA-256:1c8ec77913d1b5b8579d1b896e4fbabea10807fc5590c281c7b95cfd30973b96"
+    },
+    {
+      "name": "lvgl_theme_shadcn",
+      "version": "0.3.0",
+      "author": "Alix ANNERAUD \u003calix@anneraud.fr\u003e",
+      "maintainer": "Alix ANNERAUD \u003calix@anneraud.fr\u003e",
+      "sentence": "Beautiful shadcn/ui-inspired theme for LVGL 9.",
+      "paragraph": "Every widget styled in every state, dark and light palettes switchable at runtime, touch-first 48 dp targets, cheap to render on microcontrollers. Requires LVGL 9.6 or newer.",
+      "website": "https://github.com/AlixANNERAUD/lvgl_theme_shadcn",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AlixANNERAUD/lvgl_theme_shadcn.git",
+      "providesIncludes": [
+        "lv_theme_shadcn.h"
+      ],
+      "dependencies": [
+        {
+          "name": "lvgl",
+          "version": "\u003e=9.6.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AlixANNERAUD/lvgl_theme_shadcn-0.3.0.zip",
+      "archiveFileName": "lvgl_theme_shadcn-0.3.0.zip",
+      "size": 535392,
+      "checksum": "SHA-256:2c0549085f410f186f1bee98b17a9a33b25a78abdb096f7e0f1f9cf75b680be4"
+    },
+    {
+      "name": "lvgl_theme_shadcn",
+      "version": "0.3.1",
+      "author": "Alix ANNERAUD \u003calix@anneraud.fr\u003e",
+      "maintainer": "Alix ANNERAUD \u003calix@anneraud.fr\u003e",
+      "sentence": "Beautiful shadcn/ui-inspired theme for LVGL 9.",
+      "paragraph": "Every widget styled in every state, dark and light palettes switchable at runtime, touch-first 48 dp targets, cheap to render on microcontrollers. Requires LVGL 9.6 or newer.",
+      "website": "https://github.com/AlixANNERAUD/lvgl_theme_shadcn",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AlixANNERAUD/lvgl_theme_shadcn.git",
+      "providesIncludes": [
+        "lv_theme_shadcn.h"
+      ],
+      "dependencies": [
+        {
+          "name": "lvgl",
+          "version": "\u003e=9.6.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AlixANNERAUD/lvgl_theme_shadcn-0.3.1.zip",
+      "archiveFileName": "lvgl_theme_shadcn-0.3.1.zip",
+      "size": 541322,
+      "checksum": "SHA-256:89dfa687cb8bec63d81bc80e7456c048f7dd9eaf4dfa966de158fc016a157420"
+    },
+    {
+      "name": "M5Unit-IMU",
+      "version": "0.0.1",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "M5UnitUnified library for IMU series (UnitIMUMini, DoF6/DoF9/DoF10, BMM350, built-in IMUs)",
+      "paragraph": "Supports MPU6886 / BMI270 / BMM150 / BMM350 with AHRS filters and M5Unified compatible API",
+      "website": "https://github.com/m5stack/M5Unit-IMU",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-IMU.git",
+      "providesIncludes": [
+        "M5UnitUnifiedIMU.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        },
+        {
+          "name": "M5Unit-ENV"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_IMU-0.0.1.zip",
+      "archiveFileName": "M5Unit_IMU-0.0.1.zip",
+      "size": 2673146,
+      "checksum": "SHA-256:99dbe1a12625ac63189bdd8b05a814145b0d540a9d2ef84512dbef075834fde9"
+    },
+    {
+      "name": "MakerSumoRP2350",
+      "version": "1.0.0",
+      "author": "Cytron Technologies Sdn Bhd \u003csupport@cytron.io\u003e",
+      "maintainer": "Cytron Technologies Sdn Bhd \u003csupport@cytron.io\u003e",
+      "sentence": "Library for the Cytron Maker Sumo RP2350 Controller.",
+      "paragraph": "Provides functions for the motors, opponent and edge sensors, DIP switches, buzzer and battery monitor, sets the board's USB identity, and includes sumo robot examples from basics to a full RC/Auto firmware. Requires the arduino-pico core.",
+      "website": "https://github.com/alifaiman-af/MakerSumoRP2350.git",
+      "category": "Device Control",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/CytronTechnologies/MakerSumoRP2350.git",
+      "providesIncludes": [
+        "MakerSumoRP2350.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/CytronTechnologies/MakerSumoRP2350-1.0.0.zip",
+      "archiveFileName": "MakerSumoRP2350-1.0.0.zip",
+      "size": 42463,
+      "checksum": "SHA-256:a737865a17bae41a118c50b6f0d7956aef3300f7f78d4cdb4bdbe1a246d7f51b"
+    },
+    {
+      "name": "TinyGSM2",
+      "version": "1.0.0",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "longtrinh",
+      "sentence": "A small Arduino library for GPRS modules, that just works. Fork of TinyGSM with arduino-esp32 3.x fixes.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces. Based on TinyGSM 0.12.0, with fixes for arduino-esp32 3.x (watchdog-safe waits, socket data integrity, client lifetime, IPv6, optional multi-task mutex) and a reworked SIMCom A7672X driver.",
+      "website": "https://github.com/longtrinh/TinyGSM2",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/longtrinh/TinyGSM2.git",
+      "providesIncludes": [
+        "TinyGsmClient.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/longtrinh/TinyGSM2-1.0.0.zip",
+      "archiveFileName": "TinyGSM2-1.0.0.zip",
+      "size": 214129,
+      "checksum": "SHA-256:6fd50e1341368d22ed9cc63ed0d9d72acc8b0880c75b76416621823ffb4bd3f0"
+    },
+    {
+      "name": "TinyGSM2",
+      "version": "1.0.1",
+      "author": "Long Trinh",
+      "maintainer": "Long Trinh",
+      "sentence": "A small Arduino library for GPRS modules, that just works. Fork of TinyGSM (by Volodymyr Shymanskyy) with arduino-esp32 3.x fixes.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces. Based on TinyGSM 0.12.0, with fixes for arduino-esp32 3.x (watchdog-safe waits, socket data integrity, client lifetime, IPv6, optional multi-task mutex) and a reworked SIMCom A7672X driver.",
+      "website": "https://github.com/longtrinh/TinyGSM2",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/longtrinh/TinyGSM2.git",
+      "providesIncludes": [
+        "TinyGsmClient.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/longtrinh/TinyGSM2-1.0.1.zip",
+      "archiveFileName": "TinyGSM2-1.0.1.zip",
+      "size": 214164,
+      "checksum": "SHA-256:520debe2a8e39c45f3a7d706b3b20d570822ee497ceef55dfd5b856f04441fc0"
+    },
+    {
+      "name": "IndurUI",
+      "version": "1.0.0",
+      "author": "Rakibul Islam",
+      "maintainer": "Rakibul Islam",
+      "sentence": "Responsive OLED dashboards, icon menus and persistent settings for robots and embedded projects.",
+      "paragraph": "Two or three buttons, live variable bindings, automatic widget pagination, nested menus, custom screens, staged settings edits, EEPROM adapters and a desktop bitmap converter. Hardware-independent core with an Adafruit GFX display adapter.",
+      "website": "https://github.com/RakibulIslam1/indur-ui",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RakibulIslam1/indur-ui.git",
+      "providesIncludes": [
+        "IndurUI.h",
+        "IndurUIGFX.h",
+        "IndurUIButtons.h",
+        "IndurUIEEPROM.h",
+        "IndurUIIcons.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RakibulIslam1/IndurUI-1.0.0.zip",
+      "archiveFileName": "IndurUI-1.0.0.zip",
+      "size": 77556,
+      "checksum": "SHA-256:90618743717b5194f0dff1881f721b98ba02590e37403bbe597a02563793db0f"
+    },
+    {
+      "name": "IndurUI",
+      "version": "1.0.1",
+      "author": "Rakibul Islam",
+      "maintainer": "Rakibul Islam",
+      "sentence": "Responsive OLED dashboards, icon menus and persistent settings for robots and embedded projects.",
+      "paragraph": "Two or three buttons, live variable bindings, automatic widget pagination, nested menus, custom screens, staged settings edits, EEPROM adapters and a desktop bitmap converter. Hardware-independent core with an Adafruit GFX display adapter.",
+      "website": "https://github.com/RakibulIslam1/indur-ui",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RakibulIslam1/indur-ui.git",
+      "providesIncludes": [
+        "IndurUI.h",
+        "IndurUIGFX.h",
+        "IndurUIButtons.h",
+        "IndurUIEEPROM.h",
+        "IndurUIIcons.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RakibulIslam1/IndurUI-1.0.1.zip",
+      "archiveFileName": "IndurUI-1.0.1.zip",
+      "size": 87690,
+      "checksum": "SHA-256:64ee8ed6882de66018b9893dffd10438a6c6dace4577dee4bee2545827016d30"
+    },
+    {
+      "name": "IndurUI",
+      "version": "1.1.0",
+      "author": "Rakibul Islam",
+      "maintainer": "Rakibul Islam \u003crakibul.rir06@gmail.com\u003e",
+      "sentence": "Responsive OLED dashboards, icon menus and persistent settings for robots and embedded projects.",
+      "paragraph": "Two or three buttons, live variable bindings, automatic widget pagination, nested menus, custom screens, staged settings edits, EEPROM adapters and a desktop bitmap converter. Hardware-independent core with an Adafruit GFX display adapter.",
+      "website": "https://github.com/RakibulIslam1/indur-ui",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RakibulIslam1/indur-ui.git",
+      "providesIncludes": [
+        "IndurUI.h",
+        "IndurUIGFX.h",
+        "IndurUIButtons.h",
+        "IndurUIEEPROM.h",
+        "IndurUIIcons.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit SSD1306"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RakibulIslam1/IndurUI-1.1.0.zip",
+      "archiveFileName": "IndurUI-1.1.0.zip",
+      "size": 158594,
+      "checksum": "SHA-256:c88d33b54a07131b38978293932e5eaef62e46844a8d9edc1812d89db8fd9c7a"
+    },
+    {
+      "name": "IndurUI",
+      "version": "1.2.0",
+      "author": "Rakibul Islam",
+      "maintainer": "Rakibul Islam \u003crakibul.rir06@gmail.com\u003e",
+      "sentence": "Responsive OLED dashboards, icon menus and persistent settings for robots and embedded projects.",
+      "paragraph": "Two or three buttons, live variable bindings, automatic widget pagination, nested menus, custom screens, staged settings edits, EEPROM adapters and a desktop bitmap converter. Hardware-independent core with an Adafruit GFX display adapter.",
+      "website": "https://github.com/RakibulIslam1/indur-ui",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RakibulIslam1/indur-ui.git",
+      "providesIncludes": [
+        "IndurUI.h",
+        "IndurUIGFX.h",
+        "IndurUIButtons.h",
+        "IndurUIEEPROM.h",
+        "IndurUIIcons.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit SSD1306"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RakibulIslam1/IndurUI-1.2.0.zip",
+      "archiveFileName": "IndurUI-1.2.0.zip",
+      "size": 183056,
+      "checksum": "SHA-256:e1480b361813b0615ce8a7e577c35f55979e53b9db55ec7f54cc20e11543f5fb"
+    },
+    {
+      "name": "KoebeltLink",
+      "version": "1.0.0",
+      "author": "Thomas Koebel",
+      "maintainer": "Thomas Koebel \u003ccontact@koebelt.com\u003e",
+      "sentence": "Stream sensors to the koebelt/dash app and receive control input.",
+      "paragraph": "Wi-Fi (UDP), BLE, USB serial and radio links (SiK, XBee, HC-12, LoRa), plus camera declaration for live video. Telemetry, parameters, custom channels, emergency stop and failsafe for drones, rovers, robot arms, rockets and test benches.",
+      "website": "https://github.com/koebelt/KoebeltLink",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/koebelt/KoebeltLink.git",
+      "providesIncludes": [
+        "KoebeltLink.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=7.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/koebelt/KoebeltLink-1.0.0.zip",
+      "archiveFileName": "KoebeltLink-1.0.0.zip",
+      "size": 38206,
+      "checksum": "SHA-256:0e851b8b0c6bfd19de252991008d390399453f6248110b362f593a630bd2acbf"
+    },
+    {
+      "name": "DS3231_EASY",
+      "version": "1.0.0",
+      "author": "klenov1900-lang",
+      "maintainer": "klenov1900-lang \u003cgray_wolf19@mail.ru\u003e",
+      "sentence": "Easy library for DS3231 RTC (I2C). No Wire.h dependency.",
+      "paragraph": "Uses I2C_EASY as low-level TWI layer. Time/date read/write, two hardware alarms, day-of-week calculation, input validation, and diagnostics. Part of the *_EASY family.",
+      "website": "https://github.com/klenov1900-lang/DS3231_EASY",
+      "category": "Timing",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/klenov1900-lang/DS3231_EASY.git",
+      "providesIncludes": [
+        "DS3231_EASY.h"
+      ],
+      "dependencies": [
+        {
+          "name": "I2C_EASY"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/DS3231_EASY-1.0.0.zip",
+      "archiveFileName": "DS3231_EASY-1.0.0.zip",
+      "size": 15261,
+      "checksum": "SHA-256:cdcf0e022b1d9ccf5e0124d9a54e6249b43d868da315094a7733f70b679ec61d"
+    },
+    {
+      "name": "esp32-freedv2400b",
+      "version": "1.0.1",
+      "author": "Dmitry Kaukov",
+      "maintainer": "Dmitry Kaukov",
+      "license": "GPL-3.0-only",
+      "sentence": "FreeDV 2400B raw modem for ESP32 and Arduino.",
+      "paragraph": "Header-only, dependency-free Type-A framing and discriminator/baseband modem for packed 52-bit Codec2 payloads.",
+      "website": "https://github.com/dkaukov/esp32-freedv2400b",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dkaukov/esp32-freedv2400b.git",
+      "providesIncludes": [
+        "FreeDv2400b.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dkaukov/esp32_freedv2400b-1.0.1.zip",
+      "archiveFileName": "esp32_freedv2400b-1.0.1.zip",
+      "size": 231594,
+      "checksum": "SHA-256:d12ebc10c1297a0d2a3fbcc9ced6bcdee25685ab119394c5bd95744ccf5eefcb"
+    },
+    {
+      "name": "esp32-freedv2400b",
+      "version": "1.0.2",
+      "author": "Dmitry Kaukov",
+      "maintainer": "Dmitry Kaukov",
+      "license": "GPL-3.0-only",
+      "sentence": "FreeDV 2400B raw modem for ESP32 and Arduino.",
+      "paragraph": "Header-only, dependency-free Type-A framing and discriminator/baseband modem for packed 52-bit Codec2 payloads.",
+      "website": "https://github.com/dkaukov/esp32-freedv2400b",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dkaukov/esp32-freedv2400b.git",
+      "providesIncludes": [
+        "FreeDv2400b.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dkaukov/esp32_freedv2400b-1.0.2.zip",
+      "archiveFileName": "esp32_freedv2400b-1.0.2.zip",
+      "size": 231594,
+      "checksum": "SHA-256:38ae0a0df2fc048466e22a0c03d4fbd6867cb82abef27df37ca9663a2ae4b5b4"
+    },
+    {
+      "name": "esp32-freedv2400b",
+      "version": "1.2.0",
+      "author": "Dmitry Kaukov",
+      "maintainer": "Dmitry Kaukov",
+      "license": "LGPL-2.1-only",
+      "sentence": "FreeDV 2400B raw modem for ESP32 and Arduino.",
+      "paragraph": "Header-only, dependency-free Type-A framing and discriminator/baseband modem for packed 52-bit Codec2 payloads.",
+      "website": "https://github.com/dkaukov/esp32-freedv2400b",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dkaukov/esp32-freedv2400b.git",
+      "providesIncludes": [
+        "FreeDv2400b.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dkaukov/esp32_freedv2400b-1.2.0.zip",
+      "archiveFileName": "esp32_freedv2400b-1.2.0.zip",
+      "size": 235631,
+      "checksum": "SHA-256:03e1e8dfe44ce4a7cfbf6e3bd20181905cfb3e846cd506ea0a57556a2554497d"
+    },
+    {
+      "name": "esp32-freedv2400b",
+      "version": "1.3.0",
+      "author": "Dmitry Kaukov",
+      "maintainer": "Dmitry Kaukov",
+      "license": "LGPL-2.1-only",
+      "sentence": "FreeDV 2400B raw modem for ESP32 and Arduino.",
+      "paragraph": "Header-only, dependency-free Type-A framing and discriminator/baseband modem for packed 52-bit Codec2 payloads.",
+      "website": "https://github.com/dkaukov/esp32-freedv2400b",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dkaukov/esp32-freedv2400b.git",
+      "providesIncludes": [
+        "FreeDv2400b.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dkaukov/esp32_freedv2400b-1.3.0.zip",
+      "archiveFileName": "esp32_freedv2400b-1.3.0.zip",
+      "size": 236185,
+      "checksum": "SHA-256:76a7f5422b620ae75fed435c537d96c2e98d95fbe0f844c834fc337a05bf6495"
+    },
+    {
+      "name": "RP2040PIO_HalfDuplex",
+      "version": "0.0.1",
+      "author": "Rin Iwai",
+      "maintainer": "Rin Iwai \u003cme@eyrin.jp\u003e",
+      "sentence": "Half-duplex UART library for RP2040/2350 PIO.",
+      "paragraph": "This library provides half-duplex UART communication using Programmable I/O in RP2040/2350.",
+      "website": "https://github.com/eyr1n/RP2040PIO_HalfDuplex",
+      "category": "Communication",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/eyr1n/RP2040PIO_HalfDuplex.git",
+      "providesIncludes": [
+        "RP2040PIO_HalfDuplex.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/eyr1n/RP2040PIO_HalfDuplex-0.0.1.zip",
+      "archiveFileName": "RP2040PIO_HalfDuplex-0.0.1.zip",
+      "size": 16041,
+      "checksum": "SHA-256:151f179e59110c205a94347f7ca98f57150e04176c914a6c91e03abeea5150db"
+    },
+    {
+      "name": "RP2040PIO_HalfDuplex",
+      "version": "0.0.2",
+      "author": "Rin Iwai",
+      "maintainer": "Rin Iwai \u003cme@eyrin.jp\u003e",
+      "sentence": "Half-duplex UART library for RP2040/2350 PIO.",
+      "paragraph": "This library provides half-duplex UART communication using Programmable I/O in RP2040/2350.",
+      "website": "https://github.com/eyr1n/RP2040PIO_HalfDuplex",
+      "category": "Communication",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/eyr1n/RP2040PIO_HalfDuplex.git",
+      "providesIncludes": [
+        "RP2040PIO_HalfDuplex.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/eyr1n/RP2040PIO_HalfDuplex-0.0.2.zip",
+      "archiveFileName": "RP2040PIO_HalfDuplex-0.0.2.zip",
+      "size": 16229,
+      "checksum": "SHA-256:6f077ad96c7ff9f83cbcdac751fc7b63a65d166b8e03097ebc2462cc2b2299ed"
     }
   ]
 }
