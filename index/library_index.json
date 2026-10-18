@@ -88327,6 +88327,27 @@
       "checksum": "SHA-256:d7b99043cc45489ec00c5f2fd1df290d3fe45b41be298e1e930a0f4b3ab43347"
     },
     {
+      "name": "Etherkit Si5351",
+      "version": "2.4.0",
+      "author": "Jason Milldrum \u003cmilldrum@gmail.com\u003e",
+      "maintainer": "Jason Milldrum \u003cmilldrum@gmail.com\u003e",
+      "sentence": "A full-featured library for the Si5351 series of clock generator ICs from Silicon Labs",
+      "paragraph": "This library will allow you to control nearly all features of the Si5351, without depending on the proprietary ClockBuilder software from Silicon Labs.",
+      "website": "https://github.com/etherkit/Si5351Arduino",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/etherkit/Si5351Arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/etherkit/Etherkit_Si5351-2.4.0.zip",
+      "archiveFileName": "Etherkit_Si5351-2.4.0.zip",
+      "size": 55019,
+      "checksum": "SHA-256:a6c230367e1a4a52d6adc4bc7d63eeef9699364777f304952faaace0963748f4"
+    },
+    {
       "name": "IRremote",
       "version": "1.0.0",
       "author": "shirriff",
@@ -767085,6 +767106,30 @@
       "checksum": "SHA-256:a60dd6ac1e37288cfdf85f942be5f1de8f8f639483694a0a0a746c7e8b71843f"
     },
     {
+      "name": "SimpleFTPServer",
+      "version": "3.0.3",
+      "author": "Renzo Mischianti \u003crenzo.mischianti@gmail.com\u003e",
+      "maintainer": "Renzo Mischianti \u003crenzo.mischianti@gmail.com\u003e",
+      "sentence": "Simple FTP server for esp8266, esp32, STM32, Raspberry Pi Pico and Arduino",
+      "paragraph": "Simple FTP server for Raspberry Pi Pico W (LittleFS), esp8266 (SPIFFS and LittleFS or SD, SdFat 2.x), esp32 (SPIFFS, LittleFS and FFAT or SD, SdFat 2.x) and Arduino (SdFat, SD basic lib with 8.3 file format), Wio Terminal (Seed_SD, SdFat 2.x), Arduino MKR (SdFat 2), STM32 (Flash \u003e64K SdFat 2.x and SPI Flash). Support w5500, w5100 and enc28j60. With internal callback to check the phase of communication.",
+      "website": "https://www.mischianti.org/category/my-libraries/simple-ftp-server/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/xreef/SimpleFTPServer.git",
+      "providesIncludes": [
+        "SimpleFTPServer.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/xreef/SimpleFTPServer-3.0.3.zip",
+      "archiveFileName": "SimpleFTPServer-3.0.3.zip",
+      "size": 901248,
+      "checksum": "SHA-256:1e9234e53e109c3cd912749127c109fe1a570c5b177843c1ff9a18f5782c3a35"
+    },
+    {
       "name": "ViraLink-MQTT-Client",
       "version": "0.0.55",
       "author": "ViraLink IoT Platform \u003cinfo@viralink.io\u003e",
@@ -1109306,6 +1109351,41 @@
       "checksum": "SHA-256:222054509bb98ae2357fd20172f057512e771747f9d580b890aede44f5bf5e70"
     },
     {
+      "name": "ConsentiumThings",
+      "version": "3.0.1",
+      "author": "Consentium IoT",
+      "maintainer": "Consentium IoT\u003cofficial@consentiumiot.com\u003e",
+      "sentence": "Consentium Things IoT board.",
+      "paragraph": "This library runs IoT applications on ESP 32 class of microcontrollers.",
+      "website": "https://github.com/ConsentiumIoT/ConsentiumThings",
+      "category": "Data Processing",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ConsentiumIoT/ConsentiumThings.git",
+      "providesIncludes": [
+        "ConsentiumThings.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "Adafruit ADS1X15"
+        },
+        {
+          "name": "WiFiManager"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ConsentiumIoT/ConsentiumThings-3.0.1.zip",
+      "archiveFileName": "ConsentiumThings-3.0.1.zip",
+      "size": 29729,
+      "checksum": "SHA-256:9c72ab3558012f081d505f1b42349cd0dcfd984d7400c098623794451c01ab5a"
+    },
+    {
       "name": "DataLogger",
       "version": "0.0.1",
       "author": "PowerBroker2 \u003cgitstuff2@gmail.com\u003e",
@@ -1157240,6 +1157320,70 @@
       "checksum": "SHA-256:28531456b9cc98e2a2be8407247dd3abeee302d1c57b959ad347024a602e78d1"
     },
     {
+      "name": "M5UnitUnified",
+      "version": "0.6.2",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "M5UnitUnified is a library for unified handling of various M5 units products.",
+      "paragraph": "Unified hardware abstraction for M5Stack units with common APIs for I2C, GPIO, UART, and SPI communications.",
+      "website": "https://github.com/m5stack/M5UnitUnified",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5UnitUnified.git",
+      "providesIncludes": [
+        "M5UnitUnified.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5UnitUnified-0.6.2.zip",
+      "archiveFileName": "M5UnitUnified-0.6.2.zip",
+      "size": 153948,
+      "checksum": "SHA-256:e2a4e132c35138d4705cbaf34364b96c3f4aa13240bde6797a77c69e9e18d93f"
+    },
+    {
+      "name": "M5UnitUnified",
+      "version": "0.6.3",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "M5UnitUnified is a library for unified handling of various M5 units products.",
+      "paragraph": "Unified hardware abstraction for M5Stack units with common APIs for I2C, GPIO, UART, and SPI communications.",
+      "website": "https://github.com/m5stack/M5UnitUnified",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5UnitUnified.git",
+      "providesIncludes": [
+        "M5UnitUnified.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5UnitUnified-0.6.3.zip",
+      "archiveFileName": "M5UnitUnified-0.6.3.zip",
+      "size": 155961,
+      "checksum": "SHA-256:46e572ec549b71bbb81cb7648460ff1c96e25b9b5a63af3f2b581dd805e5663d"
+    },
+    {
       "name": "MX8650 Mouse sensor library",
       "version": "1.0.0",
       "author": "Saurav Sajeev",
@@ -1178350,6 +1178494,32 @@
       "archiveFileName": "BSON-3.0.0.zip",
       "size": 24685,
       "checksum": "SHA-256:0db61566b265a926399d0254f11e1f39dd4b6851fc576f897650c0587220362d"
+    },
+    {
+      "name": "BSON",
+      "version": "3.0.1",
+      "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "maintainer": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "sentence": "Binary JSON packet builder for Arduino",
+      "paragraph": "Binary JSON packet builder for Arduino",
+      "website": "https://github.com/GyverLibs/BSON",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/GyverLibs/BSON.git",
+      "dependencies": [
+        {
+          "name": "GTL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/BSON-3.0.1.zip",
+      "archiveFileName": "BSON-3.0.1.zip",
+      "size": 24694,
+      "checksum": "SHA-256:881acc28d86d5fd23a66f4334ffcdcffbee1c8cf115753c1621f139f3af53fb6"
     },
     {
       "name": "Hmi4DinBox",
@@ -1211999,6 +1212169,30 @@
       "checksum": "SHA-256:22fe71127e34324f67e8b61ec00ebd9ac0a6e047ce5fabf273dfaf9023b612c3"
     },
     {
+      "name": "MultiFTPServer",
+      "version": "3.0.3",
+      "author": "Renzo Mischianti \u003crenzo.mischianti@gmail.com\u003e",
+      "maintainer": "Renzo Mischianti \u003crenzo.mischianti@gmail.com\u003e",
+      "sentence": "Multi FTP server for esp8266, esp32, STM32, Raspberry Pi Pico and Arduino",
+      "paragraph": "Multi FTP server for Raspberry Pi Pico W (LittleFS), esp8266 (SPIFFS and LittleFS or SD, SdFat 2.x), esp32 (SPIFFS, LittleFS and FFAT or SD, SdFat 2.x) and Arduino (SdFat, SD basic lib with 8.3 file format), Wio Terminal (Seed_SD, SdFat 2.x), Arduino MKR (SdFat 2), STM32 (Flash \u003e64K SdFat 2.x and SPI Flash). Support w5500, w5100 and enc28j60. With internal callback to check the phase of communication.",
+      "website": "https://www.mischianti.org/category/my-libraries/simple-ftp-server/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/xreef/MultiFTPServer.git",
+      "providesIncludes": [
+        "MultiFTPServer.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/xreef/MultiFTPServer-3.0.3.zip",
+      "archiveFileName": "MultiFTPServer-3.0.3.zip",
+      "size": 824270,
+      "checksum": "SHA-256:2e63de1e600ce23ca6a10f381323d7d17a6d8bd589eafe6c4587521c45d39197"
+    },
+    {
       "name": "ReadyMail",
       "version": "0.0.2",
       "author": "Mobizt",
@@ -1225759,6 +1225953,29 @@
       "archiveFileName": "pdi_framework-1.3.9.zip",
       "size": 8073537,
       "checksum": "SHA-256:a581e550773f194b58284d0aca444b3b4b7db77e9bd097fb58e143e91d96be6d"
+    },
+    {
+      "name": "pdi-framework",
+      "version": "1.3.10",
+      "author": "Suraj I.",
+      "maintainer": "Suraj I. \u003csurajinamdar151@gmail.com\u003e",
+      "sentence": "Portable Device Interface (PDI) framework stack for easy configurable applications running over avr, esp8266, esp32 devices. Designed to easily manage services such as WiFi, HTTP/S, MQTT, SSH server, SFTP, Telnet server, OTA, GPIO, Serial, Time, Crontab, Commandline terminal and much more.",
+      "paragraph": "pdi framework includes all services like gpio, wifi, cmd, mqtt, ntp, ota, napt, http/s server, telnet, ssh server, sftp, Time, Crontab, commandline terminal etc. which are ready to use in all applications where arduino, esp8266, esp32 devices will be used.",
+      "website": "https://github.com/Suraj151/pdi-framework",
+      "category": "Other",
+      "architectures": [
+        "avr",
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Suraj151/pdi-framework.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.3.10.zip",
+      "archiveFileName": "pdi_framework-1.3.10.zip",
+      "size": 8085276,
+      "checksum": "SHA-256:079edcde2fd8c409bde2b63148002147f9b2a7fa8390ceef38a292dc3c25d5c9"
     },
     {
       "name": "Pico_Bidir_DShot",
@@ -1288794,6 +1289011,27 @@
       "checksum": "SHA-256:f8031ebc16fc3a9d9b23e02137058d0e0541306c5b3b1f98e30adc3f6f14b93a"
     },
     {
+      "name": "EZConnect",
+      "version": "1.2.2",
+      "author": "Atiqur Rahman",
+      "maintainer": "Atiqur Rahman \u003caatiqurrahman111@gmail.com\u003e",
+      "sentence": "Easy Wi-Fi provisioning for ESP32 using Bluetooth Classic, BLE, or a browser portal.",
+      "paragraph": "EZConnect stores Wi-Fi credentials, supports reconnection, status LED feedback, and a password-protected captive-style Wi-Fi setup portal with nearby network scanning.",
+      "website": "https://github.com/Aatiqur/EZConnect",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Aatiqur/EZConnect.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Aatiqur/EZConnect-1.2.2.zip",
+      "archiveFileName": "EZConnect-1.2.2.zip",
+      "size": 49542,
+      "checksum": "SHA-256:0975c2d1afb67f53d336457c964f86baaf3be05499d91c487c9dbad0183be890"
+    },
+    {
       "name": "7Semi ICM20948",
       "version": "1.0.0",
       "author": "7Semi",
@@ -1307942,6 +1308180,53 @@
       "checksum": "SHA-256:ce23f96b077381f005e59b5fb0332539ff67f73a27c7d1a016b95428472f5eb8"
     },
     {
+      "name": "ATGENXlib",
+      "version": "2.2.0",
+      "author": "ATGenX",
+      "maintainer": "Seif Emad \u003csupport@atgenx.com\u003e",
+      "sentence": "Modular runtime and ready-made components (buttons, sensors, LEDs, relays, buzzers, DHT) for Arduino, ESP32 and Raspberry Pi Pico.",
+      "paragraph": "Non-blocking runtime, scheduler and event bus with debounced inputs, multi-click buttons and timed outputs. The official library behind the ATGenX visual builder (atgenx.com). WiFi provisioning and the smart-home hub are available on ESP32.",
+      "website": "https://github.com/ARDUTECH0/ATGENXlib-0.0.1",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ARDUTECH0/ATGENXlib-0.0.1.git",
+      "providesIncludes": [
+        "ATGENXlib.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DHT sensor library"
+        },
+        {
+          "name": "Adafruit Unified Sensor"
+        },
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "WebSockets"
+        },
+        {
+          "name": "Servo"
+        },
+        {
+          "name": "ESP32Servo"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGENXlib-2.2.0.zip",
+      "archiveFileName": "ATGENXlib-2.2.0.zip",
+      "size": 91931,
+      "checksum": "SHA-256:68350dd1627edf5f88133a799b85aac5ab5400e710ff91419f2cdcb55992a116"
+    },
+    {
       "name": "TimezoneTranslator",
       "version": "1.0.1",
       "author": "Costin Bobes",
@@ -1320423,6 +1320708,42 @@
       "archiveFileName": "ATGenX_Hub-2.4.0.zip",
       "size": 39922,
       "checksum": "SHA-256:99a86f1222ba3e6113ed698e8a0e4575023c60a977f380573344c99410a5c221"
+    },
+    {
+      "name": "ATGenX_Hub",
+      "version": "2.5.0",
+      "author": "Seif Emad / ARDUTECH0",
+      "maintainer": "Seif Emad \u003csupport@atgenx.com\u003e",
+      "sentence": "Connect ESP32 / ESP8266 boards to the ATGenX IoT cloud: outputs, sensors, dashboard and automations.",
+      "paragraph": "One MQTT connection for relays, LEDs, servos and sensors (DHT, PIR, LDR, analog, ultrasonic, sound) with non-blocking reconnect, online/offline status and board discovery.",
+      "website": "https://github.com/ARDUTECH0/ATGenXIOT",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ARDUTECH0/ATGenXIOT.git",
+      "providesIncludes": [
+        "ATGenXIOT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "PubSubClient"
+        },
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "DHT sensor library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGenX_Hub-2.5.0.zip",
+      "archiveFileName": "ATGenX_Hub-2.5.0.zip",
+      "size": 42801,
+      "checksum": "SHA-256:55c9fdeb274cf2e5c93743953d5ddc4ad26cfed867ef99dca993377f674887ec"
     },
     {
       "name": "OptimizedGPIO",
@@ -1334114,6 +1334435,35 @@
       "checksum": "SHA-256:123d41b538a25015013ef9a7354639ec04d404937b55ded76c5b396838a005bc"
     },
     {
+      "name": "RumiCar",
+      "version": "0.4.0",
+      "author": "RumiCar-group \u003cinfo@rumicar.com\u003e",
+      "maintainer": "RumiCar-group \u003cinfo@rumicar.com\u003e",
+      "sentence": "Library for controlling the RumiCar autonomous driving platform.",
+      "paragraph": "Provides setup and control functions for steering and drive motors, and initializes three front VL53L0X laser distance sensors plus an optional rear VL53L0X (auto-detected). Supports Arduino AVR, ESP32, Spresense, and Raspberry Pi Pico W.",
+      "website": "https://github.com/RumiCar-group/RumiCar-lib",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RumiCar-group/RumiCar-lib.git",
+      "providesIncludes": [
+        "RumiCar.h"
+      ],
+      "dependencies": [
+        {
+          "name": "VL53L0X"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RumiCar-group/RumiCar-0.4.0.zip",
+      "archiveFileName": "RumiCar-0.4.0.zip",
+      "size": 17697,
+      "checksum": "SHA-256:7ccdd10a52614e0abd7df5852baa9479647bcd471a272ed9ac8dc0f3b088a374"
+    },
+    {
       "name": "dv_led_blink",
       "version": "1.0.0",
       "author": "David Vandensteen",
@@ -1337663,6 +1338013,31 @@
       "archiveFileName": "SimpleOTAClient-0.4.0.zip",
       "size": 106614,
       "checksum": "SHA-256:b22495ac0e4f74cd9f5b4e7061fd717dd31971e3e5b55dc71c6a519463de75d6"
+    },
+    {
+      "name": "SimpleOTAClient",
+      "version": "0.5.0",
+      "author": "SimpleOTA \u003csupport@simpleota.com\u003e",
+      "maintainer": "SimpleOTA \u003csupport@simpleota.com\u003e",
+      "license": "MIT",
+      "sentence": "Thin Arduino-ESP32 client for the SimpleOTA firmware update platform.",
+      "paragraph": "Polls the SimpleOTA check endpoint, streams and flashes firmware with on-the-fly SHA-256 and Ed25519 signature verification, reports lifecycle events, supports trial-install rollback, and persists the assigned build number in NVS. Transport-agnostic; caller owns Wi-Fi/Ethernet bring-up.",
+      "website": "https://github.com/xanderwasserman/SimpleOTAClient-Arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/xanderwasserman/SimpleOTAClient-Arduino.git",
+      "providesIncludes": [
+        "SimpleOTAClient.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/xanderwasserman/SimpleOTAClient-0.5.0.zip",
+      "archiveFileName": "SimpleOTAClient-0.5.0.zip",
+      "size": 126064,
+      "checksum": "SHA-256:35165c3f0c82509cfccf30c1b45e76a222fcaa5ac59e2cd0df4165431ebf7a12"
     },
     {
       "name": "EmbedDIP",
@@ -1397751,6 +1398126,30 @@
       "checksum": "SHA-256:b9c5657fc5d5c673a12f48c42c849adb65d024dee8f8c2349309ee535bbef67a"
     },
     {
+      "name": "TempestTCode",
+      "version": "0.4.4",
+      "author": "TempestMAx",
+      "maintainer": "TempestMAx",
+      "sentence": "TCode protocol parser and multi-axis motion library for DIY stroker devices.",
+      "paragraph": "Implements TCode v0.4 command parsing, per-axis motion, and EEPROM/Preferences range save. Intended for OSR2, SR6, SSR1, SSR2 and other TCode-compatible firmware.",
+      "website": "https://github.com/multiaxis/TempestTCode",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/multiaxis/TempestTCode.git",
+      "providesIncludes": [
+        "TCode.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/multiaxis/TempestTCode-0.4.4.zip",
+      "archiveFileName": "TempestTCode-0.4.4.zip",
+      "size": 25498,
+      "checksum": "SHA-256:3d756bcde36d7b9a320f216c5c05ff6773aa7f9c62dcaea812fc79204830862e"
+    },
+    {
       "name": "Adafruit TCS3448",
       "version": "1.0.0",
       "author": "Adafruit",
@@ -1400416,6 +1400815,31 @@
       "archiveFileName": "ParkingSensor-1.1.0.zip",
       "size": 4137213,
       "checksum": "SHA-256:d14af52122d1236778c07147eda8863408f4aa1c9f42ef6c6c4b40f895db72fe"
+    },
+    {
+      "name": "ParkingSensor",
+      "version": "2.0.0",
+      "author": "fbiego",
+      "maintainer": "fbiego",
+      "sentence": "Driver and controller decoder for a four-sensor ultrasonic parking display.",
+      "paragraph": "Transmits distance readings to an ultrasonic parking sensor display and decodes frames from the A43 controller signal.",
+      "website": "https://github.com/fbiego/ParkingSensor",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/fbiego/ParkingSensor.git",
+      "providesIncludes": [
+        "ParkingDisplay.h",
+        "ParkingController.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/fbiego/ParkingSensor-2.0.0.zip",
+      "archiveFileName": "ParkingSensor-2.0.0.zip",
+      "size": 4140153,
+      "checksum": "SHA-256:28e5fc804e66f5cc7657a51513aa1e42d45eb16debc98adf5b8067a60cfde802"
     },
     {
       "name": "Periph",
@@ -1407620,6 +1408044,39 @@
       "checksum": "SHA-256:b462c7ee18f598926b12d919a8e97ac9bb4245c7b63a8c3354f997f1d2d76b65"
     },
     {
+      "name": "Railuino",
+      "version": "0.14.1",
+      "author": "Joerg Pleumann, Christophe Bobille, Uwe Monreal",
+      "maintainer": "Christophe Bobille",
+      "sentence": "Control a Märklin layout through its CAN bus (Gleisbox, MS2, CS2) from an ESP32 or an Arduino with an MCP2515.",
+      "paragraph": "Locomotives (MM2, MFX, DCC), functions, turnouts and accessories, decoder CVs, S88 feedback. Based on Railuino 0.9 by Joerg Pleumann.",
+      "website": "https://github.com/BOBILLEChristophe/Railuino",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/BOBILLEChristophe/Railuino.git",
+      "providesIncludes": [
+        "Railuino.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ACAN_ESP32"
+        },
+        {
+          "name": "ACAN2515"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/BOBILLEChristophe/Railuino-0.14.1.zip",
+      "archiveFileName": "Railuino-0.14.1.zip",
+      "size": 336236,
+      "checksum": "SHA-256:2ccbedb9ba9922f8759c8b1b1ea40d67b5255d2f158ba2269952eeeffd6e3ff5"
+    },
+    {
       "name": "WisBlockLoRaWAN",
       "version": "1.0.0",
       "author": "Bernd Giesecke bernd@giesecke.tk",
@@ -1407666,6 +1408123,30 @@
       "archiveFileName": "WisBlockLoRaWAN-1.0.1.zip",
       "size": 1367011,
       "checksum": "SHA-256:0b2859db0de7bd6cea097841240087123d7dcb54945d354e091960993472656b"
+    },
+    {
+      "name": "WisBlockLoRaWAN",
+      "version": "1.0.2",
+      "author": "Bernd Giesecke bernd@giesecke.tk",
+      "maintainer": "Bernd Giesecke bernd@giesecke.tk",
+      "sentence": "Unified LoRaWAN (Class A/B/C) and LoRa P2P library for RAKwireless WisBlock boards using Semtech SX1262 + LoRa Basics Modem.",
+      "paragraph": "Supports RAK4631 (nRF52840), RAK3312 (ESP32-S3) and RAK11310/RAK11300 (RP2040, Arduino-Pico core by Earle Philhower) with built-in SX1262. Provides AT command interface and C++ API. LoRaWAN engine is built on Semtech's LoRa Basics Modem (BasicModem/LBM) stack.",
+      "website": "https://github.com/beegee-tokyo/WisBlockLoRaWAN",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/beegee-tokyo/WisBlockLoRaWAN.git",
+      "providesIncludes": [
+        "WisBlockLoRaWAN.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/beegee-tokyo/WisBlockLoRaWAN-1.0.2.zip",
+      "archiveFileName": "WisBlockLoRaWAN-1.0.2.zip",
+      "size": 1372442,
+      "checksum": "SHA-256:463ca4b50923640320ed606742d039b98ae00d79888fb15ddf6880aa4874ba4d"
     },
     {
       "name": "GroqReasoning",
@@ -1410661,6 +1411142,32 @@
       "checksum": "SHA-256:f54faa40a1a7ab87d6ba32f0679c0dbcae4198aa059d1c3f89007ed6a0259ea9"
     },
     {
+      "name": "x1xcp_serial",
+      "version": "1.1.0",
+      "author": "Florian Müller",
+      "maintainer": "Florian Müller",
+      "sentence": "XCP over the serial port (USB) for Arduino AVR, Raspberry Pi Pico and STM32 boards: measurement and calibration of global variables.",
+      "paragraph": "Dynamic DAQ and calibration for XCP-Ray or other XCP masters; Serial.print() keeps working and appears in the console of the tool. Tested on an Arduino Nano (ATmega328P), a Raspberry Pi Pico (RP2040) and a Black Pill (STM32F411).",
+      "website": "https://github.com/flmueller/x1xcp-serial",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "rp2040",
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/flmueller/x1xcp-serial.git",
+      "providesIncludes": [
+        "x1xcp_serial.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/flmueller/x1xcp_serial-1.1.0.zip",
+      "archiveFileName": "x1xcp_serial-1.1.0.zip",
+      "size": 30196,
+      "checksum": "SHA-256:5260f6f78b8edb2001808179f99fda207260abc5dd1ee3f37000dcb1b829ebd7"
+    },
+    {
       "name": "x1xcp_esp8266",
       "version": "1.0.0",
       "author": "Florian Müller",
@@ -1410685,6 +1411192,30 @@
       "checksum": "SHA-256:02043707de2ceac37aa6becb02b52adcc7be5e841e1f226543cb979e2bc40f21"
     },
     {
+      "name": "x1xcp_esp8266",
+      "version": "1.0.1",
+      "author": "Florian Müller",
+      "maintainer": "Florian Müller",
+      "sentence": "XCP on UDP/IP over Wi-Fi for the ESP8266: measurement and calibration of global variables.",
+      "paragraph": "Dynamic DAQ down to 1 ms and calibration for XCP-Ray or other XCP masters. Tested on a NodeMCU v3.",
+      "website": "https://github.com/flmueller/x1xcp-esp8266",
+      "category": "Communication",
+      "architectures": [
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/flmueller/x1xcp-esp8266.git",
+      "providesIncludes": [
+        "x1xcp_esp8266.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/flmueller/x1xcp_esp8266-1.0.1.zip",
+      "archiveFileName": "x1xcp_esp8266-1.0.1.zip",
+      "size": 25607,
+      "checksum": "SHA-256:0676a72f93d4dbac3815aa8dc6fa8610c3acb1646cac9f27c1358716b1bf7e44"
+    },
+    {
       "name": "x1xcp_esp32",
       "version": "1.0.0",
       "author": "Florian Müller",
@@ -1410707,6 +1411238,30 @@
       "archiveFileName": "x1xcp_esp32-1.0.0.zip",
       "size": 26357,
       "checksum": "SHA-256:a3e8abb44f452790044661a13109c5618b7019e1a6f71848e5e3c5921062d6e9"
+    },
+    {
+      "name": "x1xcp_esp32",
+      "version": "1.0.1",
+      "author": "Florian Müller",
+      "maintainer": "Florian Müller",
+      "sentence": "XCP on UDP/IP over Wi-Fi or Ethernet for the ESP32: measurement and calibration of global variables.",
+      "paragraph": "Dynamic DAQ down to 1 ms and calibration for XCP-Ray or other XCP masters. Tested on a NodeMCU-32S.",
+      "website": "https://github.com/flmueller/x1xcp-esp32",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/flmueller/x1xcp-esp32.git",
+      "providesIncludes": [
+        "x1xcp.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/flmueller/x1xcp_esp32-1.0.1.zip",
+      "archiveFileName": "x1xcp_esp32-1.0.1.zip",
+      "size": 26365,
+      "checksum": "SHA-256:3598de015b5a69e54d5ae28286adcff6ad2728c47785006fa5346892bd14efc1"
     },
     {
       "name": "JourTempo",
@@ -1410844,6 +1411399,78 @@
       "archiveFileName": "SmoothUI-1.0.0.zip",
       "size": 73743,
       "checksum": "SHA-256:6502e4fa307b0b00134e7e949ec3a9cfa8213cf504a803e37b5d1f331da1454e"
+    },
+    {
+      "name": "CasioST75256",
+      "version": "0.3.0",
+      "author": "GrayKazu",
+      "maintainer": "GrayKazu",
+      "sentence": "Driver for the ST75256-compatible 192x63 LCD (+ icon row) of the fake Casio fx-880BTG.",
+      "paragraph": "4-gray framebuffer with diff-based partial refresh, rotation, text (5x7 font), shapes, dithering, bitmaps (1/2-bit), icon row control. Tested on ESP32-S3 with SPI mode 0.",
+      "website": "https://example.invalid/casio-st75256",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tkhoi0821-svg/Casio-classwiz-880BTG-lib.git",
+      "providesIncludes": [
+        "CasioST75256.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tkhoi0821-svg/CasioST75256-0.3.0.zip",
+      "archiveFileName": "CasioST75256-0.3.0.zip",
+      "size": 15957,
+      "checksum": "SHA-256:d880bd15a5f661e69994c6ec3df43c8d966ae5bf8e243b3dd73441e75c4210a4"
+    },
+    {
+      "name": "CasioST75256",
+      "version": "0.6.0",
+      "author": "GrayKazu",
+      "maintainer": "GrayKazu",
+      "sentence": "Driver for the ST75256 192x63 LCD (+ icon row) of the fake Casio fx-880BTG, with Unicode fonts (VI, TH, ZH), haunted FX and the WraithUI widget toolkit.",
+      "paragraph": "4-gray framebuffer with diff-based partial refresh, rotation, fonts, shapes, gauges, graphs, dithering, bitmaps, icon row, plus haunted FX (glitch, static, melt, ghost trails, CRT-off). Tested on ESP32-S3, SPI mode 0.",
+      "website": "https://example.invalid/casio-st75256",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tkhoi0821-svg/Casio-classwiz-880BTG-lib.git",
+      "providesIncludes": [
+        "CasioST75256.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tkhoi0821-svg/CasioST75256-0.6.0.zip",
+      "archiveFileName": "CasioST75256-0.6.0.zip",
+      "size": 382063,
+      "checksum": "SHA-256:291318ed895b8e3015aa49e3b686594527220b9ec3cbc492c700c360b74761eb"
+    },
+    {
+      "name": "ESP32ServicePortal",
+      "version": "0.7.1",
+      "author": "Jose Poblete Cabezas",
+      "maintainer": "Jose Poblete Cabezas",
+      "sentence": "Portal web para configuracion WiFi en ESP32.",
+      "paragraph": "Configuracion AP y STA, NVS, recuperacion WiFi y monitor web de solo lectura.",
+      "website": "https://github.com/jotaefepece/ESP32ServicePortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/jotaefepece/ESP32ServicePortal.git",
+      "providesIncludes": [
+        "ESP32ServicePortal.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/jotaefepece/ESP32ServicePortal-0.7.1.zip",
+      "archiveFileName": "ESP32ServicePortal-0.7.1.zip",
+      "size": 17085,
+      "checksum": "SHA-256:1976f1fa0f5991c91c703106198bacdbd4ff5d85f2d004c4f5cedd8e73bd0e40"
     }
   ]
 }
