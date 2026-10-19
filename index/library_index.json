@@ -75291,6 +75291,153 @@
       "checksum": "SHA-256:18361242eac107d1566f492616ef78903cc331a14deaa983923ae44124a67657"
     },
     {
+      "name": "thinger.io",
+      "version": "2.41.1",
+      "author": "Alvaro Luis Bustamante \u003calvarolb@thinger.io\u003e",
+      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
+      "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
+      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating using the protocol IOTMP. Working with several devices like ESP8266, ESP32, Arduino Ethernet, Arduino Wifi, Arduino MKR1000, Arduino MKR1010, Arduino Nano RP2040 Connect, Arduino Nano 33 IOT, Arduino MKRNB1500, Arduino GSM1400, Arduino Portenta, Arduino Opta, Arduino R4, Arduino Yun, Adafruit CC3000, Arduino + GSM Modules, Texas Instruments CC3200, ENC28J60, LinkIt ONE.",
+      "website": "https://github.com/thinger-io/Arduino-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/thinger-io/Arduino-Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.41.1.zip",
+      "archiveFileName": "thinger_io-2.41.1.zip",
+      "size": 147228,
+      "checksum": "SHA-256:1363383432aba5b8b23bb14ca5de37fad87b5b01db732c8f6fce7473f3000b1d"
+    },
+    {
+      "name": "thinger.io",
+      "version": "2.42.0",
+      "author": "Alvaro Luis Bustamante \u003calvarolb@thinger.io\u003e",
+      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
+      "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
+      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating using the protocol IOTMP. Working with several devices like ESP8266, ESP32 (S2, S3, C3, C5, C6, P4), Raspberry Pi Pico W and Pico 2 W, Arduino Ethernet, Arduino Wifi, Arduino MKR1000, Arduino MKR1010, Arduino Nano RP2040 Connect, Arduino Nano 33 IOT, Arduino MKRNB1500, Arduino GSM1400, Arduino Portenta, Arduino Opta, Arduino R4, Arduino UNO Q, Arduino Yun, Adafruit CC3000, Arduino + GSM Modules, Texas Instruments CC3200, ENC28J60, LinkIt ONE.",
+      "website": "https://github.com/thinger-io/Arduino-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/thinger-io/Arduino-Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.42.0.zip",
+      "archiveFileName": "thinger_io-2.42.0.zip",
+      "size": 158148,
+      "checksum": "SHA-256:2a3162b6c29d103b64c9a41bb5f03bd9a5c78e6dab3a33e8c1f9cd4c2a2504fc"
+    },
+    {
+      "name": "thinger.io",
+      "version": "2.43.0",
+      "author": "Alvaro Luis Bustamante \u003calvarolb@thinger.io\u003e",
+      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
+      "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
+      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating using the protocol IOTMP. Working with several devices like ESP8266, ESP32 (S2, S3, C3, C5, C6, P4), Raspberry Pi Pico W and Pico 2 W, Arduino Ethernet, Arduino Wifi, Arduino MKR1000, Arduino MKR1010, Arduino Nano RP2040 Connect, Arduino Nano 33 IOT, Arduino MKRNB1500, Arduino GSM1400, Arduino Portenta, Arduino Opta, Arduino R4, Arduino UNO Q, Arduino Yun, Adafruit CC3000, Arduino + GSM Modules, Texas Instruments CC3200, ENC28J60, LinkIt ONE.",
+      "website": "https://github.com/thinger-io/Arduino-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/thinger-io/Arduino-Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.43.0.zip",
+      "archiveFileName": "thinger_io-2.43.0.zip",
+      "size": 159402,
+      "checksum": "SHA-256:6cb7fa6956e627e76032f06f5a82fc16c7b92f808683aeb4601f282bebed708c"
+    },
+    {
+      "name": "thinger.io",
+      "version": "2.43.1",
+      "author": "Alvaro Luis Bustamante \u003calvarolb@thinger.io\u003e",
+      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
+      "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
+      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating using the protocol IOTMP. Working with several devices like ESP8266, ESP32 (S2, S3, C3, C5, C6, P4), Raspberry Pi Pico W and Pico 2 W, Arduino Ethernet, Arduino Wifi, Arduino MKR1000, Arduino MKR1010, Arduino Nano RP2040 Connect, Arduino Nano 33 IOT, Arduino MKRNB1500, Arduino GSM1400, Arduino Portenta, Arduino Opta, Arduino R4, Arduino UNO Q, Arduino Yun, Adafruit CC3000, Arduino + GSM Modules, Texas Instruments CC3200, ENC28J60, LinkIt ONE.",
+      "website": "https://github.com/thinger-io/Arduino-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/thinger-io/Arduino-Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.43.1.zip",
+      "archiveFileName": "thinger_io-2.43.1.zip",
+      "size": 160413,
+      "checksum": "SHA-256:3a05e4abfd09c1f39eec1e5f1f66cabd8049bc3e53cb69d1820d730132adf68c"
+    },
+    {
+      "name": "thinger.io",
+      "version": "2.43.2",
+      "author": "Alvaro Luis Bustamante \u003calvarolb@thinger.io\u003e",
+      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
+      "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
+      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating using the protocol IOTMP. Working with several devices like ESP8266, ESP32 (S2, S3, C3, C5, C6, P4), Raspberry Pi Pico W and Pico 2 W, Arduino Ethernet, Arduino Wifi, Arduino MKR1000, Arduino MKR1010, Arduino Nano RP2040 Connect, Arduino Nano 33 IOT, Arduino MKRNB1500, Arduino GSM1400, Arduino Portenta, Arduino Opta, Arduino R4, Arduino UNO Q, Arduino Yun, Adafruit CC3000, Arduino + GSM Modules, Texas Instruments CC3200, ENC28J60, LinkIt ONE.",
+      "website": "https://github.com/thinger-io/Arduino-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/thinger-io/Arduino-Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.43.2.zip",
+      "archiveFileName": "thinger_io-2.43.2.zip",
+      "size": 160563,
+      "checksum": "SHA-256:db515ea9394b3458a81c8cf8b34d7fe6054100f040fcea764f741183cffc2bc2"
+    },
+    {
+      "name": "thinger.io",
+      "version": "2.44.0",
+      "author": "Alvaro Luis Bustamante \u003calvarolb@thinger.io\u003e",
+      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
+      "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
+      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating using the protocol IOTMP. Working with several devices like ESP8266, ESP32 (S2, S3, C3, C5, C6, P4), Raspberry Pi Pico W and Pico 2 W, Arduino Ethernet, Arduino Wifi, Arduino MKR1000, Arduino MKR1010, Arduino Nano RP2040 Connect, Arduino Nano 33 IOT, Arduino MKRNB1500, Arduino GSM1400, Arduino Portenta, Arduino Opta, Arduino R4, Arduino UNO Q, Arduino Yun, Adafruit CC3000, Arduino + GSM Modules, Texas Instruments CC3200, ENC28J60, LinkIt ONE.",
+      "website": "https://github.com/thinger-io/Arduino-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/thinger-io/Arduino-Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.44.0.zip",
+      "archiveFileName": "thinger_io-2.44.0.zip",
+      "size": 160898,
+      "checksum": "SHA-256:d1634dc395c4a216d1134863018f6d018c8b702ccab7c8a5569c3666380b13c8"
+    },
+    {
+      "name": "thinger.io",
+      "version": "2.45.0",
+      "author": "Alvaro Luis Bustamante \u003calvarolb@thinger.io\u003e",
+      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
+      "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
+      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating using the protocol IOTMP. Working with several devices like ESP8266, ESP32 (S2, S3, C3, C5, C6, P4), Raspberry Pi Pico W and Pico 2 W, Arduino Ethernet, Arduino Wifi, Arduino MKR1000, Arduino MKR1010, Arduino Nano RP2040 Connect, Arduino Nano 33 IOT, Arduino MKRNB1500, Arduino GSM1400, Arduino Portenta, Arduino Opta, Arduino R4, Arduino UNO Q, Arduino Yun, Adafruit CC3000, Arduino + GSM Modules, Texas Instruments CC3200, ENC28J60, LinkIt ONE.",
+      "website": "https://github.com/thinger-io/Arduino-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/thinger-io/Arduino-Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.45.0.zip",
+      "archiveFileName": "thinger_io-2.45.0.zip",
+      "size": 162762,
+      "checksum": "SHA-256:79b25fe8a4102985b3754d5fcc3e7583e53729be78af741f629677e359bc85fd"
+    },
+    {
       "name": "CmdMessenger",
       "version": "4.0.0",
       "author": "Thijs Elenbaas, Valeriy Kucherenko",
@@ -82635,6 +82782,30 @@
       "archiveFileName": "FastLED-3.10.7.zip",
       "size": 40153943,
       "checksum": "SHA-256:1817b8888a1c0b415e301fa3fa2c078090c9a8228f36aaa6020c5610c7713978"
+    },
+    {
+      "name": "FastLED",
+      "version": "3.10.8",
+      "author": "Daniel Garcia",
+      "maintainer": "Daniel Garcia \u003cdgarcia@fastled.io\u003e",
+      "sentence": "Multi-platform library for controlling dozens of different types of LEDs along with optimized math, effect, and noise functions.",
+      "paragraph": "FastLED is a fast, efficient, easy-to-use Arduino library for programming addressable LED strips and pixels such as WS2810, WS2811, LPD8806, Neopixel and more. FastLED also provides high-level math functions that can be used for generative art and graphics.",
+      "website": "https://github.com/FastLED/FastLED",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/FastLED/FastLED.git",
+      "providesIncludes": [
+        "FastLED.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/FastLED/FastLED-3.10.8.zip",
+      "archiveFileName": "FastLED-3.10.8.zip",
+      "size": 40208978,
+      "checksum": "SHA-256:be5ae844be49d40494b586f13ae0284c14adf315eb24477c3aad509b76c9dd50"
     },
     {
       "name": "Sodaq_RN2483",
@@ -148451,6 +148622,27 @@
       "archiveFileName": "DABDUINO-1.0.2.zip",
       "size": 352737,
       "checksum": "SHA-256:926b8faa2e11f7b6ef408c298dfa38bb71eeabdcb4cd7d8d95f5bc29fa769cbd"
+    },
+    {
+      "name": "DABDUINO",
+      "version": "1.0.3",
+      "author": "Tomas Urbanek",
+      "maintainer": "Tomas Urbanek",
+      "sentence": "Library for controlling DABDUINO - DAB/DAB+ (digital radio) shield",
+      "paragraph": "DABDUINO library - Arduino DAB/DAB+ shield (digital radio) with DAC PCM5102 + SPDIF. Compatible with 3.3V Arduino (Zero, M0, M0 PRO, Due etc.).",
+      "website": "http://playground.arduino.cc/Code/DABDUINO",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/turbyho/DABDUINO.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/turbyho/DABDUINO-1.0.3.zip",
+      "archiveFileName": "DABDUINO-1.0.3.zip",
+      "size": 354505,
+      "checksum": "SHA-256:63d552e47197ef4799b32bfec265fc63aea099698b590aa8072ac55d790222c1"
     },
     {
       "name": "ArduZ80",
@@ -539716,6 +539908,30 @@
       "archiveFileName": "DEVNULL-0.1.9.zip",
       "size": 10729,
       "checksum": "SHA-256:c5f31c774b5ef87443ffcee89b291b793d501c6d643f1678616a2546d21bab2d"
+    },
+    {
+      "name": "DEVNULL",
+      "version": "0.2.0",
+      "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "sentence": "Arduino library for a /dev/null stream",
+      "paragraph": "usefull for testing with streams",
+      "website": "https://github.com/RobTillaart/DEVNULL",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RobTillaart/DEVNULL.git",
+      "providesIncludes": [
+        "DEVNULL.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/DEVNULL-0.2.0.zip",
+      "archiveFileName": "DEVNULL-0.2.0.zip",
+      "size": 12007,
+      "checksum": "SHA-256:22393e76098371fa57f6f7641ae64d962417e3ba68fe70bc147a0348a5e810c5"
     },
     {
       "name": "PAR27979",
@@ -1173320,6 +1173536,30 @@
       "checksum": "SHA-256:f0f767d186c4683b264bab7c57bdf467e180a49bb803ffde8ebc6c9d9cf6f77d"
     },
     {
+      "name": "INA239",
+      "version": "0.4.0",
+      "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "sentence": "Arduino library for the INA239, SPI, 16 bit, voltage, current and power sensor.",
+      "paragraph": "Voltage current Volt Ampere",
+      "website": "https://github.com/RobTillaart/INA239",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RobTillaart/INA239.git",
+      "providesIncludes": [
+        "INA239.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/INA239-0.4.0.zip",
+      "archiveFileName": "INA239-0.4.0.zip",
+      "size": 26797,
+      "checksum": "SHA-256:08cb5b7dbb883c10472074066e8457d4b4da8c38d7d3b35b832ab5a664103dca"
+    },
+    {
       "name": "CJKit",
       "version": "1.0.0",
       "author": "André Breda \u003candreb@breda.pt\u003e",
@@ -1182829,6 +1183069,27 @@
       "archiveFileName": "IgcLogger-0.0.3.zip",
       "size": 8530,
       "checksum": "SHA-256:00b0002eee9f2201f65d6a6078fa64ba6cfedccb384cf4767893e085a5cf6558"
+    },
+    {
+      "name": "IgcLogger",
+      "version": "0.0.6",
+      "author": "Scott O'Brien",
+      "maintainer": "Scott O'Brien",
+      "sentence": "Simple library to log igc track records",
+      "paragraph": "Uses a Stream object to log igc records.  Library is not the fastest, but designed to be the most correct",
+      "website": "https://github.com/scottyob/IgcLogger",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/scottyob/IgcLogger.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/scottyob/IgcLogger-0.0.6.zip",
+      "archiveFileName": "IgcLogger-0.0.6.zip",
+      "size": 11435,
+      "checksum": "SHA-256:deef0cb25b5e53fb8ad6a2da396b5b5440abe915b0438ee9a06500de4c009a3a"
     },
     {
       "name": "ESP32_MQTTClient",
@@ -1289182,6 +1289443,40 @@
       "archiveFileName": "AsyncOTAManager-1.0.4.zip",
       "size": 13969,
       "checksum": "SHA-256:08dda7a220cbe03b9b3aed03ab7c6beaf9a1bc9a5adcd7437a5e585a249ebb50"
+    },
+    {
+      "name": "AsyncOTAManager",
+      "version": "1.0.5",
+      "author": "Marin Popa",
+      "maintainer": "Marin Popa \u003cpopica1965@yahoo.com\u003e",
+      "license": "MIT",
+      "sentence": "OTA Update Manager with authentication and auto-detection for ESP32/ESP8266",
+      "paragraph": "A library that provides a web page for OTA firmware and file system (SPIFFS/LittleFS) updates with optional authentication and automatic update type detection.",
+      "website": "https://github.com/marinpopa/AsyncOTAManager",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/marinpopa/AsyncOTAManager.git",
+      "providesIncludes": [
+        "AsyncOTAManager.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "ArduinoOTA"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/marinpopa/AsyncOTAManager-1.0.5.zip",
+      "archiveFileName": "AsyncOTAManager-1.0.5.zip",
+      "size": 12685,
+      "checksum": "SHA-256:655130c5e4e8af67508dcf9537960fb0b16422ddd3c6a5394d8884dc552d43eb"
     },
     {
       "name": "MT-dh-serial-kinematics",
@@ -1407473,6 +1407768,30 @@
       "checksum": "SHA-256:e8a5c4466df08301320519ba5b391178ef22980ff8acbd2a2ada9a2be6fc5e6c"
     },
     {
+      "name": "CMScript",
+      "version": "1.0.2",
+      "author": "SUNSETDEVER",
+      "maintainer": "SUNSETDEVER\u003c973879601@qq.com\u003e",
+      "sentence": "A tiny C-like scripting engine for microcontrollers.",
+      "paragraph": "Parse and run C-style scripts at runtime on ESP32/ESP8266/Arduino. Supports preprocessor, structs, arrays, std::string, file IO, and host function bridging.",
+      "website": "https://github.com/SUNSETDEVER/KernelCDM",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/SUNSETDEVER/KernelCDM.git",
+      "providesIncludes": [
+        "CMScript.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/SUNSETDEVER/CMScript-1.0.2.zip",
+      "archiveFileName": "CMScript-1.0.2.zip",
+      "size": 64699,
+      "checksum": "SHA-256:77bb95f17f1c100736617fdcd7168ac9c792da045e833b1268ced5a285bc93e9"
+    },
+    {
       "name": "FixedPID",
       "version": "1.0.0",
       "author": "citycafe578",
@@ -1407647,6 +1407966,41 @@
       "archiveFileName": "Focuspocus-0.2.1.zip",
       "size": 559900,
       "checksum": "SHA-256:59d73a5373666307f93c5255cd810e302524baa2a3e864b0609f949beb62b5e0"
+    },
+    {
+      "name": "Focuspocus",
+      "version": "0.3.0",
+      "author": "glutio",
+      "maintainer": "glutio",
+      "sentence": "A small GUI framework for Arduino displays: buttons, checkboxes, labels, sliders, layout, focus and touch.",
+      "paragraph": "Static widgets (no heap required), stack-panel layout, screens and popups, touch or button navigation, themes. Draws on any Adafruit_GFX display; a Windows build runs the same code for testing.",
+      "website": "https://github.com/glutio/Focuspocus",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/glutio/Focuspocus.git",
+      "providesIncludes": [
+        "Focuspocus.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Eventfun"
+        },
+        {
+          "name": "Buratino"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/glutio/Focuspocus-0.3.0.zip",
+      "archiveFileName": "Focuspocus-0.3.0.zip",
+      "size": 561552,
+      "checksum": "SHA-256:9b50105499fe19e222ef59aa5639d53275f2d6f5b425622bec3d92c58dc243f3"
     },
     {
       "name": "M5SerialPngCapture",
@@ -1408465,6 +1408819,30 @@
       "archiveFileName": "ReflectJSON-1.1.0.zip",
       "size": 90659,
       "checksum": "SHA-256:080acdf0f8a484bf7603b6656ddc666ea3d57995df1a8ab77587f0210de98185"
+    },
+    {
+      "name": "ReflectJSON",
+      "version": "1.2.1",
+      "author": "Michael michi.fu@quickline.ch",
+      "maintainer": "Michael michi.fu@quickline.ch",
+      "sentence": "Fast JSON writer and reader for microcontrollers with struct reflection (REFLECT/MEMBER), Kotlin-style config and pretty printing.",
+      "paragraph": "Write and read C++ structs as JSON without hand-written serialization code. Streaming buffer writer with validation, single-pass reader, std::optional, duplicate key detection, error paths like root.devices[2].limits.max. Needs C++17 (RP2040/RP2350, ESP32, Teensy 4.x). Free for noncommercial use; commercial use requires a license.",
+      "website": "https://github.com/Michael-0-sys/ReflectJSON",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Michael-0-sys/ReflectJSON.git",
+      "providesIncludes": [
+        "ReflectJSON.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Michael-0-sys/ReflectJSON-1.2.1.zip",
+      "archiveFileName": "ReflectJSON-1.2.1.zip",
+      "size": 87043,
+      "checksum": "SHA-256:30f93d3cb985d8b6392568945b239f4d02885f3c19c4ac506ebf3f8b41aedc13"
     },
     {
       "name": "IOTFIY",
@@ -1410038,6 +1410416,30 @@
       "checksum": "SHA-256:da16281e5945a70951cad9aaadffe128e9faf78d2048623490b56d4ec80518de"
     },
     {
+      "name": "ReflectINI",
+      "version": "1.1.0",
+      "author": "Michael michi.fu@quickline.ch",
+      "maintainer": "Michael michi.fu@quickline.ch",
+      "sentence": "INI writer and reader for microcontrollers with struct reflection (REFLECT/MEMBER), sections, arrays and precise error locations.",
+      "paragraph": "Write and read C++ structs as INI files without hand-written parsing code. Nested structs become [sections], arrays become lists, std::optional and const char* are nullable. Parses from const char* (optional zero-copy), no heap use while reading or writing, error path / line / column. Shares ReflectCore.h with ReflectJSON (same struct for JSON and INI), but does not require it. Needs C++17 (RP2040/RP2350, ESP32, Teensy 4.x, Arduino UNO R4). Free for noncommercial use; commercial use requires a license.",
+      "website": "https://github.com/Michael-0-sys/ReflectINI",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Michael-0-sys/ReflectINI.git",
+      "providesIncludes": [
+        "ReflectINI.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Michael-0-sys/ReflectINI-1.1.0.zip",
+      "archiveFileName": "ReflectINI-1.1.0.zip",
+      "size": 99781,
+      "checksum": "SHA-256:db5c6332ec2241b304913d21cbdbfb2ceaa587591751fe023d955195e1598aab"
+    },
+    {
       "name": "Pinscope",
       "version": "0.1.1",
       "author": "Pinscope",
@@ -1411168,6 +1411570,32 @@
       "checksum": "SHA-256:5260f6f78b8edb2001808179f99fda207260abc5dd1ee3f37000dcb1b829ebd7"
     },
     {
+      "name": "x1xcp_serial",
+      "version": "1.1.1",
+      "author": "Florian Müller",
+      "maintainer": "Florian Müller",
+      "sentence": "XCP over the serial port (USB) for Arduino AVR, Raspberry Pi Pico and STM32 boards: measurement and calibration of global variables.",
+      "paragraph": "Dynamic DAQ and calibration for XCP-Ray or other XCP masters; Serial.print() keeps working and appears in the console of the tool. Tested on an Arduino Nano (ATmega328P), a Raspberry Pi Pico (RP2040) and a Black Pill (STM32F411).",
+      "website": "https://github.com/flmueller/x1xcp-serial",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "rp2040",
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/flmueller/x1xcp-serial.git",
+      "providesIncludes": [
+        "x1xcp_serial.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/flmueller/x1xcp_serial-1.1.1.zip",
+      "archiveFileName": "x1xcp_serial-1.1.1.zip",
+      "size": 30518,
+      "checksum": "SHA-256:779f5810fd16f8bb26b15716acec850295e095725efc7c7d278302f20e50dbc0"
+    },
+    {
       "name": "x1xcp_esp8266",
       "version": "1.0.0",
       "author": "Florian Müller",
@@ -1411449,6 +1411877,30 @@
       "checksum": "SHA-256:291318ed895b8e3015aa49e3b686594527220b9ec3cbc492c700c360b74761eb"
     },
     {
+      "name": "CasioST75256",
+      "version": "0.7.0",
+      "author": "GrayKazu",
+      "maintainer": "GrayKazu",
+      "sentence": "Driver for the ST75256 192x63 LCD (+ icon row) of the fake Casio fx-880BTG: Unicode fonts (VI, TH, ZH), haunted FX, WraithUI widgets and an MJPEG video decoder to 4-gray.",
+      "paragraph": "4-gray framebuffer with diff-based partial refresh, rotation, fonts, shapes, gauges, graphs, dithering, bitmaps, icon row, plus haunted FX (glitch, static, melt, ghost trails, CRT-off). Tested on ESP32-S3, SPI mode 0.",
+      "website": "https://example.invalid/casio-st75256",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tkhoi0821-svg/Casio-classwiz-880BTG-lib.git",
+      "providesIncludes": [
+        "CasioST75256.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tkhoi0821-svg/CasioST75256-0.7.0.zip",
+      "archiveFileName": "CasioST75256-0.7.0.zip",
+      "size": 404330,
+      "checksum": "SHA-256:0693334ea00b6987c37578c5e90721be23b68984dd58d3a7882d42286d7be9fe"
+    },
+    {
       "name": "ESP32ServicePortal",
       "version": "0.7.1",
       "author": "Jose Poblete Cabezas",
@@ -1411471,6 +1411923,185 @@
       "archiveFileName": "ESP32ServicePortal-0.7.1.zip",
       "size": 17085,
       "checksum": "SHA-256:1976f1fa0f5991c91c703106198bacdbd4ff5d85f2d004c4f5cedd8e73bd0e40"
+    },
+    {
+      "name": "ILI9341_GFX",
+      "version": "1.0.0",
+      "author": "JKBusse",
+      "maintainer": "JKBusse \u003c48227459+JKBusse@users.noreply.github.com\u003e",
+      "sentence": "Fast ILI9341 SPI display driver for the ESP32, compatible with Adafruit_GFX.",
+      "paragraph": "Register-level DMA driver with hardware D/C switching via SPI dual output, a framebuffer with dirty-region updates, tear-free VSync, hardware scrolling, readback and screenshots. The fast path needs a classic ESP32; other boards use plain SPI.",
+      "website": "https://github.com/JKBusse/ILI9341_GFX",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/JKBusse/ILI9341_GFX.git",
+      "providesIncludes": [
+        "ILI9341_GFX.h",
+        "ILI9341_Framebuffer.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/JKBusse/ILI9341_GFX-1.0.0.zip",
+      "archiveFileName": "ILI9341_GFX-1.0.0.zip",
+      "size": 129493,
+      "checksum": "SHA-256:2c936d0dc66f87dc75cc3225b20f6e2f92f838f3ec125f65e3d4cd5241773c93"
+    },
+    {
+      "name": "ILI9341_GFX",
+      "version": "1.0.1",
+      "author": "JKBusse",
+      "maintainer": "JKBusse \u003c48227459+JKBusse@users.noreply.github.com\u003e",
+      "sentence": "Fast ILI9341 SPI display driver for the ESP32, compatible with Adafruit_GFX.",
+      "paragraph": "Register-level DMA driver with hardware D/C switching via SPI dual output, a framebuffer with dirty-region updates, tear-free VSync, hardware scrolling, readback and screenshots. The fast path needs a classic ESP32; other boards use plain SPI.",
+      "website": "https://github.com/JKBusse/ILI9341_GFX",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/JKBusse/ILI9341_GFX.git",
+      "providesIncludes": [
+        "ILI9341_GFX.h",
+        "ILI9341_Framebuffer.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/JKBusse/ILI9341_GFX-1.0.1.zip",
+      "archiveFileName": "ILI9341_GFX-1.0.1.zip",
+      "size": 306861,
+      "checksum": "SHA-256:a482346582cb94e1e40c1d5d9f6fcbcb6920c1f3eac3af88527aed0af117f212"
+    },
+    {
+      "name": "Singlish Converter",
+      "version": "1.0.0",
+      "author": "Oshan Dissanayaka",
+      "maintainer": "Oshan Dissanayaka",
+      "sentence": "Converts Sinhala (UTF-8) text to Singlish - readable English letters - for displays and fonts that can't draw Sinhala.",
+      "paragraph": "Strings, buffers (no heap), any Stream (Serial, SD files, network) or as a Print wrapper around a display: print Sinhala, see Singlish. Handles vowel signs, al-lakuna, rakaransaya/yansaya conjuncts and split vowel signs. Casual or phonetic style, w for va, capitalised words. Works on AVR, ESP32, ESP8266, RP2040, STM32 and more.",
+      "website": "https://github.com/arduinoclassroom/Singlish-Converter",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/arduinoclassroom/Singlish-Converter.git",
+      "providesIncludes": [
+        "Singlish.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/arduinoclassroom/Singlish_Converter-1.0.0.zip",
+      "archiveFileName": "Singlish_Converter-1.0.0.zip",
+      "size": 16326,
+      "checksum": "SHA-256:a8309fa2a7e9be5f4d7e8a78a906897f4659b063c2604a04445176915932b1cb"
+    },
+    {
+      "name": "ReflectState",
+      "version": "1.0.0",
+      "author": "Michael michi.fu@quickline.ch",
+      "maintainer": "Michael michi.fu@quickline.ch",
+      "sentence": "Heap-free typed state store with change callbacks for microcontrollers, using the same struct reflection (REFLECT/MEMBER) as ReflectJSON and ReflectINI.",
+      "paragraph": "Declare state variables and their types once with STATE_VARIABLES, then set/get them without template arguments. Change detection for reflected structs, arrays, std::optional and float tolerances; multiple listeners per variable; fixed RAM, no heap, no std::function. Lock policies for dual-core RP2040/RP2350 and ESP32, Teensy interrupts and RTOS tasks. Needs C++17. Free for noncommercial use; commercial use requires a license.",
+      "website": "https://github.com/Michael-0-sys/ReflectState",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Michael-0-sys/ReflectState.git",
+      "providesIncludes": [
+        "ReflectState.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Michael-0-sys/ReflectState-1.0.0.zip",
+      "archiveFileName": "ReflectState-1.0.0.zip",
+      "size": 80235,
+      "checksum": "SHA-256:06765fa3104e71cfa3f7ce85cfb0a6f75aa1949aca4c0fe9d623036706b7e4c4"
+    },
+    {
+      "name": "Tanglish Converter",
+      "version": "1.0.0",
+      "author": "Oshan Dissanayaka",
+      "maintainer": "Oshan Dissanayaka",
+      "sentence": "Converts Tamil (UTF-8) text to Tanglish - readable English letters - for displays and fonts that can't draw Tamil.",
+      "paragraph": "Strings, buffers (no heap), any Stream (Serial, SD files, network) or as a Print wrapper around a display: print Tamil, see Tanglish. Follows spoken Tamil (murugan, thangam, nandri), handles vowel signs, pulli and split vowel signs. Casual, simple or phonetic style. Works on AVR, ESP32, ESP8266, RP2040, STM32 and more.",
+      "website": "https://github.com/arduinoclassroom/Tanglish-Converter",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/arduinoclassroom/Tanglish-Converter.git",
+      "providesIncludes": [
+        "Tanglish.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/arduinoclassroom/Tanglish_Converter-1.0.0.zip",
+      "archiveFileName": "Tanglish_Converter-1.0.0.zip",
+      "size": 18183,
+      "checksum": "SHA-256:d2055a0d0275595941ab0cd68f4ae736184dd5871dea48bd19690e99d267f71a"
+    },
+    {
+      "name": "LTC2941",
+      "version": "0.1.0",
+      "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "sentence": "Arduino library for the LTC2941 battery charge and discharge (Coulomb) meter.",
+      "website": "https://github.com/RobTillaart/LTC2941",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RobTillaart/LTC2941.git",
+      "providesIncludes": [
+        "LTC2941.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/LTC2941-0.1.0.zip",
+      "archiveFileName": "LTC2941-0.1.0.zip",
+      "size": 210418,
+      "checksum": "SHA-256:9b51b777fdda36aade261626ab203101bb6fac399ed8a3a0d675fb84cfb3000a"
+    },
+    {
+      "name": "TDQ6A",
+      "version": "0.9.0",
+      "author": "Ismail Caner Naz",
+      "maintainer": "Ismail Caner Naz \u003cismailcanernaz@aol.com\u003e",
+      "sentence": "Control the TDQ-6A terrestrial TV tuner via I2C.",
+      "paragraph": "Supports TV standard selection, RF band selection, PLL frequency tuning, and PLL lock status monitoring.",
+      "website": "https://github.com/ismailcanernaz/TDQ6A",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ismailcanernaz/TDQ6A.git",
+      "providesIncludes": [
+        "TDQ6A.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ismailcanernaz/TDQ6A-0.9.0.zip",
+      "archiveFileName": "TDQ6A-0.9.0.zip",
+      "size": 21082,
+      "checksum": "SHA-256:efe9315d27668e60731b0c3bd4b94724bcee34af1911ee94e9222deb3fb51a27"
     }
   ]
 }
