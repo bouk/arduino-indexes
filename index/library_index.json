@@ -75438,6 +75438,27 @@
       "checksum": "SHA-256:79b25fe8a4102985b3754d5fcc3e7583e53729be78af741f629677e359bc85fd"
     },
     {
+      "name": "thinger.io",
+      "version": "2.46.0",
+      "author": "Alvaro Luis Bustamante \u003calvarolb@thinger.io\u003e",
+      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
+      "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
+      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating using the protocol IOTMP. Working with several devices like ESP8266, ESP32 (S2, S3, C3, C5, C6, P4), Raspberry Pi Pico W and Pico 2 W, Arduino Ethernet, Arduino Wifi, Arduino MKR1000, Arduino MKR1010, Arduino Nano RP2040 Connect, Arduino Nano 33 IOT, Arduino MKRNB1500, Arduino GSM1400, Arduino Portenta, Arduino Opta, Arduino R4, Arduino UNO Q, Arduino Yun, Adafruit CC3000, Arduino + GSM Modules, Texas Instruments CC3200, ENC28J60, LinkIt ONE.",
+      "website": "https://github.com/thinger-io/Arduino-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/thinger-io/Arduino-Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.46.0.zip",
+      "archiveFileName": "thinger_io-2.46.0.zip",
+      "size": 164594,
+      "checksum": "SHA-256:79d6fef4672b048c25883f05a32d558fe814c9a5bc27da9b76ee88e2f97d2f7c"
+    },
+    {
       "name": "CmdMessenger",
       "version": "4.0.0",
       "author": "Thijs Elenbaas, Valeriy Kucherenko",
@@ -91093,6 +91114,41 @@
       "archiveFileName": "RF24Ethernet-2.2.1.zip",
       "size": 433760,
       "checksum": "SHA-256:3f21e8fca7ddfa6afc8ecc8b99b8404b500a5c8d5d5e77c03237ca661a62fe22"
+    },
+    {
+      "name": "RF24Ethernet",
+      "version": "2.2.2",
+      "author": "TMRh20",
+      "maintainer": "TMRh20",
+      "sentence": "OSI layer 4/5 (TCP/IP) wireless/radio IoT mesh networks for nRF24L01(+) \u0026 nRF52",
+      "paragraph": "Automated, wireless(not WiFi), sensor/IoT networks that communicate/link together using standard protocols \u0026 networking. An experiment disconnected...",
+      "website": "https://nRF24.github.io/RF24Ethernet/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/TMRh20/RF24Ethernet.git",
+      "dependencies": [
+        {
+          "name": "RF24"
+        },
+        {
+          "name": "RF24Network"
+        },
+        {
+          "name": "RF24Mesh"
+        },
+        {
+          "name": "lwIP"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Ethernet-2.2.2.zip",
+      "archiveFileName": "RF24Ethernet-2.2.2.zip",
+      "size": 434286,
+      "checksum": "SHA-256:6870b23179057f67145a3342222b2b4d374d062ac1b09fcc39a24339f39979e6"
     },
     {
       "name": "RapifireMqttClient",
@@ -389809,6 +389865,37 @@
       "archiveFileName": "SX126x_Arduino-2.0.32.zip",
       "size": 6606144,
       "checksum": "SHA-256:bcfcc7e91ec3f1ac2ea9dd0f37a48ac00946c3f11d75501e81c32a0870abe404"
+    },
+    {
+      "name": "SX126x-Arduino",
+      "version": "2.0.33",
+      "author": "Bernd Giesecke \u003cbeegee@giesecke.tk\u003e",
+      "maintainer": "Bernd Giesecke \u003cbeegee@giesecke.tk\u003e",
+      "sentence": "Arduino library to use Semtech SX126x LoRa chips and modules to communicate",
+      "paragraph": "This library is no longer maintained, successor is WisBlockLoRaWAN. This library is for LoRa communication with Semtech SX126x chips. It is based on Semtech`s SX126x libraries and adapted to the Arduino framework for ESP32, ESP8266, Nordic nRF52832 and Raspberry RP2040. It will not work with other uC`s like AVR. READ MIGRATION INFORMATION ON GITHUB FOR CHANGES BETWEEN LIBRARY VERSIONS V1.X and V2.",
+      "website": "https://github.com/beegee-tokyo/SX126x-Arduino/",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "nordicnrf52",
+        "esp8266",
+        "nrf52",
+        "mbed_rp2040",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/beegee-tokyo/SX126x-Arduino.git",
+      "dependencies": [
+        {
+          "name": "RPI_PICO_TimerInterrupt"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/beegee-tokyo/SX126x_Arduino-2.0.33.zip",
+      "archiveFileName": "SX126x_Arduino-2.0.33.zip",
+      "size": 6606407,
+      "checksum": "SHA-256:96b1b2c5f4272e04238713ae45f07fc62e512d0f667edd8b5589a27c4eece02f"
     },
     {
       "name": "BackSeatDriver",
@@ -738247,6 +738334,31 @@
       "checksum": "SHA-256:4ad23d7349f463834e6e3cde0bce03a9caed5b03bfaf3f0eb723ab00e7dd4585"
     },
     {
+      "name": "libasm",
+      "version": "1.6.68",
+      "author": "Tadashi G. Takaoka",
+      "maintainer": "Tadashi G. Takaoka \u003ctadashi.g.takaoka@gmail.com\u003e",
+      "license": "Apache-2.0",
+      "sentence": "Cross assembler and disassembler for retro CPUs",
+      "paragraph": "With this, you can integrate assembler or disassembler into your sketch. Supported CPUs are AM29000, CDP1802, CP1600, F3850, H16, H8300, H8500, I8048, I8051, I8080, I8086, I8096, I960, INS8060, INS8070, MC6800, MC68000, MC6805, MC6809, MC68HC12, MC68HC16, MN1610, MOS6502, NS32000, PDP11, PDP8, SCN2650, SUPERH, TLCS90, TLCS900, TMS320, TMS320F, TMS370, TMS7000, TMS9900, Z280, Z380, Z8, Z80, Z8000",
+      "website": "https://github.com/tgtakaoka/libasm",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tgtakaoka/libasm.git",
+      "providesIncludes": [
+        "libasm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.68.zip",
+      "archiveFileName": "libasm-1.6.68.zip",
+      "size": 14067973,
+      "checksum": "SHA-256:35f32dd8ef2981728f4f3c091f35384eca31f372a42603ee280ed59375d54fef"
+    },
+    {
       "name": "SparkFun AVR ISP Programming Library",
       "version": "1.0.0",
       "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
@@ -838587,6 +838699,45 @@
       "archiveFileName": "M5Unit_ENV-1.7.2.zip",
       "size": 341036,
       "checksum": "SHA-256:c799e5c28e2934d0eafb3f4c8e89cba571f14e609844e1a876a59bb3fff80196"
+    },
+    {
+      "name": "M5Unit-ENV",
+      "version": "1.7.3",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT ENV using M5UnitUnified",
+      "paragraph": "Supports ENV3(SHT30+QMP6988), ENV4(SHT40+BMP280), CO2(SCD40/41), ENVPro(BME688), TVOC(SGP30), MiniBPS(BMP280/QMP6988) and HatYun(SHT20+BMP280).",
+      "website": "https://github.com/m5stack/M5Unit-ENV",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-ENV.git",
+      "providesIncludes": [
+        "M5UnitENV.h",
+        "M5UnitUnifiedENV.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        },
+        {
+          "name": "BME68x Sensor library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_ENV-1.7.3.zip",
+      "archiveFileName": "M5Unit_ENV-1.7.3.zip",
+      "size": 341122,
+      "checksum": "SHA-256:54a371379ec0bf73456d787a783845c771266d5ca5bd6f38bc4e3481ecde8c48"
     },
     {
       "name": "M5Unit-KMeter",
@@ -1056905,6 +1057056,30 @@
       "checksum": "SHA-256:b3ec3dd756ea5ca4071d5bb5d390b3e33d0e4aefffde40fe857772b03a94e014"
     },
     {
+      "name": "EQSP32",
+      "version": "1.6.0",
+      "author": "Erqos Technologies info@erqos.com",
+      "maintainer": "Erqos Technologies",
+      "sentence": "A library for controlling your EQSP32 - ESP32 Industrial IoT Controller.",
+      "paragraph": "This library provides the complete EQSP32 hardware and managed IoT APIs, including local and expansion I/O, MQTT integrations, and EQConnect provisioning.",
+      "website": "https://erqos.com/",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Erqos/EQSP32.git",
+      "providesIncludes": [
+        "EQSP32.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Erqos/EQSP32-1.6.0.zip",
+      "archiveFileName": "EQSP32-1.6.0.zip",
+      "size": 15130320,
+      "checksum": "SHA-256:45b256d0dc24ce32b2ff3db5c43a06d2b885b57de5bb291ac87e4bf81ccb316e"
+    },
+    {
       "name": "MT6701-arduino",
       "version": "1.0.1",
       "author": "I_AM_ENGINEER \u003csdwad6@gmail.com\u003e",
@@ -1109602,6 +1109777,41 @@
       "checksum": "SHA-256:9c72ab3558012f081d505f1b42349cd0dcfd984d7400c098623794451c01ab5a"
     },
     {
+      "name": "ConsentiumThings",
+      "version": "3.0.2",
+      "author": "Consentium IoT",
+      "maintainer": "Consentium IoT\u003cofficial@consentiumiot.com\u003e",
+      "sentence": "Consentium Things IoT board.",
+      "paragraph": "This library runs IoT applications on ESP 32 class of microcontrollers.",
+      "website": "https://github.com/ConsentiumIoT/ConsentiumThings",
+      "category": "Data Processing",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ConsentiumIoT/ConsentiumThings.git",
+      "providesIncludes": [
+        "ConsentiumThings.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "Adafruit ADS1X15"
+        },
+        {
+          "name": "WiFiManager"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ConsentiumIoT/ConsentiumThings-3.0.2.zip",
+      "archiveFileName": "ConsentiumThings-3.0.2.zip",
+      "size": 30347,
+      "checksum": "SHA-256:eb1c312c3442c0b433af41bcbf71bc88e36b2181c58fbd8324face1758403d26"
+    },
+    {
       "name": "DataLogger",
       "version": "0.0.1",
       "author": "PowerBroker2 \u003cgitstuff2@gmail.com\u003e",
@@ -1156129,6 +1156339,41 @@
       "checksum": "SHA-256:668af41cbc707d7701379e1abd53c8968037d740dc4e597df1f197aed7bd7cdb"
     },
     {
+      "name": "M5Unit-METER",
+      "version": "0.4.1",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT METER using M5UnitUnified",
+      "paragraph": "Supports AMeter (U086), VMeter (U087), KmeterISO (U133-V11), DualKmeter (M127), INA226-10A (U200) and INA226-1A (U200-1A) units.",
+      "website": "https://github.com/m5stack/M5Unit-METER",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-METER.git",
+      "providesIncludes": [
+        "M5UnitUnifiedMETER.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_METER-0.4.1.zip",
+      "archiveFileName": "M5Unit_METER-0.4.1.zip",
+      "size": 148263,
+      "checksum": "SHA-256:53515d8bed6197533b7695fc8f82db9e11498f8fe29e628c83fb28637ada9a76"
+    },
+    {
       "name": "M5HAL",
       "version": "0.0.1",
       "author": "M5Stack",
@@ -1186446,6 +1186691,54 @@
       "checksum": "SHA-256:3684b8a583e44628468e7fe3350d3693adabc56d9e17f657e51e0b306d113ccf"
     },
     {
+      "name": "PDLS_Basic",
+      "version": "10.1.1",
+      "author": "Rei Vilo",
+      "maintainer": "Rei Vilo",
+      "sentence": "Library for Pervasive Displays iTC screens, extension boards and development kits",
+      "paragraph": "Graphics and text primitives, normal and fast update",
+      "website": "https://docs.pervasivedisplays.com/knowledge/",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rei-vilo/PDLS_Basic.git",
+      "dependencies": [
+        {
+          "name": "PDLS_Common",
+          "version": "\u003e=10.1.1"
+        },
+        {
+          "name": "Pervasive_Wide_Large"
+        },
+        {
+          "name": "Pervasive_Wide_Medium"
+        },
+        {
+          "name": "Pervasive_Wide_Small"
+        },
+        {
+          "name": "Pervasive_BWRY_Large"
+        },
+        {
+          "name": "Pervasive_BWRY_Medium"
+        },
+        {
+          "name": "Pervasive_BWRY_Small"
+        },
+        {
+          "name": "Pervasive_Touch_Small"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/rei-vilo/PDLS_Basic-10.1.1.zip",
+      "archiveFileName": "PDLS_Basic-10.1.1.zip",
+      "size": 520066,
+      "checksum": "SHA-256:1ec9734016dbe9f2c65e7035689a8cd5696892c1a8b31828e0f8d0bcecfc1841"
+    },
+    {
       "name": "Pervasive_Wide_Medium",
       "version": "9.0.2",
       "author": "Pervasive Displays, Inc.",
@@ -1186548,6 +1186841,33 @@
       "archiveFileName": "Pervasive_Wide_Medium-10.0.0.zip",
       "size": 215897,
       "checksum": "SHA-256:9a27f903d13f238c2ae04581e2bde6240ff0e0a40c5322f76127bcf1e8b59419"
+    },
+    {
+      "name": "Pervasive_Wide_Medium",
+      "version": "10.1.1",
+      "author": "Pervasive Displays Inc.",
+      "maintainer": "Arvin Tan \u003chttps://www.pervasivedisplays.com/\u003e",
+      "sentence": "Driver for Pervasive Displays screens",
+      "paragraph": "with wide temperature and embedded fast update, small size",
+      "website": "https://github.com/PervasiveDisplays",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/PervasiveDisplays/Pervasive_Wide_Medium.git",
+      "dependencies": [
+        {
+          "name": "PDLS_Common",
+          "version": "\u003e=10.1.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/PervasiveDisplays/Pervasive_Wide_Medium-10.1.1.zip",
+      "archiveFileName": "Pervasive_Wide_Medium-10.1.1.zip",
+      "size": 215934,
+      "checksum": "SHA-256:03dcee086f8a8c3afe9478e43294b41dc44195a06cf227b89ffe0902066da487"
     },
     {
       "name": "MAX31855-Library",
@@ -1190582,6 +1190902,33 @@
       "checksum": "SHA-256:6a257c9bb24bc6ec585ae790bb757feb57130ea2affe4b5ed7fc3cd92f63190f"
     },
     {
+      "name": "Pervasive_Wide_Small",
+      "version": "10.1.1",
+      "author": "Pervasive Displays Inc.",
+      "maintainer": "Arvin Tan \u003chttps://www.pervasivedisplays.com\u003e",
+      "sentence": "Driver for Pervasive Displays screens",
+      "paragraph": "with wide temperature and embedded fast update, small size",
+      "website": "https://github.com/PervasiveDisplays",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/PervasiveDisplays/Pervasive_Wide_Small.git",
+      "dependencies": [
+        {
+          "name": "PDLS_Common",
+          "version": "\u003e=10.1.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/PervasiveDisplays/Pervasive_Wide_Small-10.1.1.zip",
+      "archiveFileName": "Pervasive_Wide_Small-10.1.1.zip",
+      "size": 387236,
+      "checksum": "SHA-256:b1cd1781a91120ef0de407e3af78f92b2a769d9c5c0f76b2e355957375ba1ae7"
+    },
+    {
       "name": "AD5593R",
       "version": "0.1.0",
       "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
@@ -1191353,6 +1191700,33 @@
       "archiveFileName": "Pervasive_BWRY_Small-10.0.0.zip",
       "size": 61802,
       "checksum": "SHA-256:7adfd4b87b1e3e3d4eac8746e85ac01e7c45b236f90e03851b03b2b968f3aff3"
+    },
+    {
+      "name": "Pervasive_BWRY_Small",
+      "version": "10.1.1",
+      "author": "Pervasive Displays Inc.",
+      "maintainer": "Arvin Tan \u003chttps://www.pervasivedisplays.com/\u003e",
+      "sentence": "Driver for Pervasive Displays colour screens",
+      "paragraph": "black-white-red-yellow, small size",
+      "website": "https://github.com/PervasiveDisplays",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/PervasiveDisplays/Pervasive_BWRY_Small.git",
+      "dependencies": [
+        {
+          "name": "PDLS_Common",
+          "version": "\u003e=10.1.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/PervasiveDisplays/Pervasive_BWRY_Small-10.1.1.zip",
+      "archiveFileName": "Pervasive_BWRY_Small-10.1.1.zip",
+      "size": 61840,
+      "checksum": "SHA-256:145695477e6697fde9d086fc1eb8d0a222c930acf922f4e8b404784fb8124865"
     },
     {
       "name": "ESPShell",
@@ -1197364,6 +1197738,41 @@
       "checksum": "SHA-256:30f1d39e63b89c9ae18dde5ca42a29e2f4fe3a0dcd96c06c05466d050dd3c977"
     },
     {
+      "name": "M5Unit-THERMO",
+      "version": "0.4.0",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT THERMO using M5UnitUnified",
+      "paragraph": "Supports MLX90614 IR thermometer (UnitNCIR, SKU:U028), NCIR2 (SKU:U150), and MLX90640 thermal camera (UnitThermal2, SKU:U149).",
+      "website": "https://github.com/m5stack/M5Unit-THERMO",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-THERMO.git",
+      "providesIncludes": [
+        "M5UnitUnifiedTHERMO.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_THERMO-0.4.0.zip",
+      "archiveFileName": "M5Unit_THERMO-0.4.0.zip",
+      "size": 151596,
+      "checksum": "SHA-256:b01d209d56ed18a3456b4d2ea0b4977bfae2a3e6e2f8c72a9cfa4b67772c6859"
+    },
+    {
       "name": "M5Unit-ANADIG",
       "version": "0.0.1",
       "author": "M5Stack",
@@ -1197534,6 +1197943,41 @@
       "archiveFileName": "M5Unit_ANADIG-0.4.0.zip",
       "size": 104138,
       "checksum": "SHA-256:d03c99c8e6297b121c214bfb9c80212a30280cfe81f9e1b081e18d0d20fe52e9"
+    },
+    {
+      "name": "M5Unit-ANADIG",
+      "version": "0.4.1",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT ADC,DAC using M5UnitUnified",
+      "paragraph": "Supports ADS1100 (HatADC, SKU:U069), ADS1110 (UnitADC v1.1 SKU:U013-V11, HatADC v1.1 SKU:U069-V11), MCP4725 (UnitDAC, SKU:U012), and GP8413 (UnitDAC2 SKU:U012-B, HatDAC2 SKU:U068-B) for analog I/O.",
+      "website": "https://github.com/m5stack/M5Unit-ANADIG",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-ANADIG.git",
+      "providesIncludes": [
+        "M5UnitUnifiedANADIG.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_ANADIG-0.4.1.zip",
+      "archiveFileName": "M5Unit_ANADIG-0.4.1.zip",
+      "size": 105636,
+      "checksum": "SHA-256:4e119037a73b40fb76f6efde1643e1ef0e698d54293daa93b25263e88b7b0006"
     },
     {
       "name": "M5Unit-COLOR",
@@ -1199399,6 +1199843,33 @@
       "checksum": "SHA-256:8db3a7fc64c60a415f372a592fa67379d65967d01bf681492b9e87ba5fd95854"
     },
     {
+      "name": "Pervasive_Touch_Small",
+      "version": "10.1.1",
+      "author": "Pervasive Displays Inc.",
+      "maintainer": "Arvin Tan \u003chttps://www.pervasivedisplays.com\u003e",
+      "sentence": "Driver for Pervasive Displays touch-screens",
+      "paragraph": "with wide temperature and embedded fast update, small size",
+      "website": "https://github.com/PervasiveDisplays",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/PervasiveDisplays/Pervasive_Touch_Small.git",
+      "dependencies": [
+        {
+          "name": "PDLS_Common",
+          "version": "\u003e=10.1.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/PervasiveDisplays/Pervasive_Touch_Small-10.1.1.zip",
+      "archiveFileName": "Pervasive_Touch_Small-10.1.1.zip",
+      "size": 16277,
+      "checksum": "SHA-256:d1bf72e844c5f9c5468bd7a7f66821df86291b46e40c9423df1f5386369834c8"
+    },
+    {
       "name": "Pervasive_Wide_Large",
       "version": "9.0.2",
       "author": "Pervasive Displays, Inc.",
@@ -1199501,6 +1199972,33 @@
       "archiveFileName": "Pervasive_Wide_Large-10.0.0.zip",
       "size": 232974,
       "checksum": "SHA-256:d185cace88e9038f8b3ec7840c608bfb4f895b23529617ca5c0fc1ef880ce51d"
+    },
+    {
+      "name": "Pervasive_Wide_Large",
+      "version": "10.1.1",
+      "author": "Pervasive Displays Inc.",
+      "maintainer": "Arvin Tan \u003chttps://www.pervasivedisplays.com/\u003e",
+      "sentence": "with wide temperature and embedded fast update, large size",
+      "paragraph": "black-white, large size",
+      "website": "https://github.com/PervasiveDisplays",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/PervasiveDisplays/Pervasive_Wide_Large.git",
+      "dependencies": [
+        {
+          "name": "PDLS_Common",
+          "version": "\u003e=10.1.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/PervasiveDisplays/Pervasive_Wide_Large-10.1.1.zip",
+      "archiveFileName": "Pervasive_Wide_Large-10.1.1.zip",
+      "size": 233008,
+      "checksum": "SHA-256:422c9949c2b91f52566085999037e7d9b6852de9dca1c0997d662ed83e390a79"
     },
     {
       "name": "M5UnitASR",
@@ -1202271,6 +1202769,32 @@
       "archiveFileName": "Adafruit_DVI_HSTX-2.0.1.zip",
       "size": 936697,
       "checksum": "SHA-256:c6aefaf80cda4af21ddffa5a9fc070c66fd9f2ed00b3d0685c406f6d869903fd"
+    },
+    {
+      "name": "Adafruit DVI HSTX",
+      "version": "2.1.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Arduino library for RP2350 DVI output, based on dvhstx",
+      "paragraph": "Arduino library for RP2350 DVI output, based on dvhstx",
+      "website": "https://github.com/adafruit/Adafruit-DVI-HSTX",
+      "category": "Display",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit-DVI-HSTX.git",
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_DVI_HSTX-2.1.0.zip",
+      "archiveFileName": "Adafruit_DVI_HSTX-2.1.0.zip",
+      "size": 943320,
+      "checksum": "SHA-256:2c367c624507d830e8cfcf0dbf806e88880d09849d8b1b66a924ad61eb77e89f"
     },
     {
       "name": "concurrentPID",
@@ -1214976,6 +1215500,41 @@
       "checksum": "SHA-256:e12fdd5597358ba728808f857bd2e633a506aca5175843a1a4c46110a410f1eb"
     },
     {
+      "name": "M5Unit-EXTIO",
+      "version": "0.2.0",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT EXTIO using M5UnitUnified",
+      "paragraph": "Supports EXT.IO2 Unit (STM32F030-based 8-pin I/O expander, SKU:U011-B) with digital I/O, ADC, servo, and LED control modes.",
+      "website": "https://github.com/m5stack/M5Unit-EXTIO",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-EXTIO.git",
+      "providesIncludes": [
+        "M5UnitUnifiedEXTIO.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_EXTIO-0.2.0.zip",
+      "archiveFileName": "M5Unit_EXTIO-0.2.0.zip",
+      "size": 88650,
+      "checksum": "SHA-256:08f074b6c02fbb8e84fd7fe737869bd3287cb4743a6be2f0b9520ed02e1f1b8e"
+    },
+    {
       "name": "M5Unit-DISTANCE",
       "version": "0.0.1",
       "author": "M5Stack",
@@ -1223569,6 +1224128,41 @@
       "checksum": "SHA-256:f26864933f31dca76b0d00824d0a5881b856c7d04684b3e96fd784c088834e51"
     },
     {
+      "name": "M5Unit-INFRARED",
+      "version": "0.3.1",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT INFRARED using M5UnitUnified",
+      "paragraph": "Supports TMOS PIR (SKU:U185), PIR (SKU:U004/U054), OP photointerrupter (SKU:U057/U058), and IR remote (SKU:U002).",
+      "website": "https://github.com/m5stack/M5Unit-INFRARED",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-INFRARED.git",
+      "providesIncludes": [
+        "M5UnitUnifiedINFRARED.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_INFRARED-0.3.1.zip",
+      "archiveFileName": "M5Unit_INFRARED-0.3.1.zip",
+      "size": 185465,
+      "checksum": "SHA-256:16bb3f36d831673c51cb06f7d6e00e180c1023faafc9af6836fac93bf23f6804"
+    },
+    {
       "name": "M5Unit-CRYPTO",
       "version": "0.0.1",
       "author": "M5Stack",
@@ -1223669,6 +1224263,40 @@
       "archiveFileName": "M5Unit_CRYPTO-0.2.0.zip",
       "size": 101281,
       "checksum": "SHA-256:f0a84386c99db7a19445b55752bae7972e5d650284331aaeba7f7dc399f5edd6"
+    },
+    {
+      "name": "M5Unit-CRYPTO",
+      "version": "0.3.0",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT CRYPTO using M5UnitUnified",
+      "website": "https://github.com/m5stack/M5Unit-CRYPTO",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-CRYPTO.git",
+      "providesIncludes": [
+        "M5UnitUnifiedCRYPTO.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_CRYPTO-0.3.0.zip",
+      "archiveFileName": "M5Unit_CRYPTO-0.3.0.zip",
+      "size": 130971,
+      "checksum": "SHA-256:53e3e2c0337300025903a8cd10cbdf8d864bba3c9546181d1e8c956f069d5828"
     },
     {
       "name": "Lexo",
@@ -1261171,6 +1261799,33 @@
       "checksum": "SHA-256:4f896e0c4579845fd93a8c47a950ff65c7be5d235a81b310f8669073fd715728"
     },
     {
+      "name": "Pervasive_BWRY_Large",
+      "version": "10.1.1",
+      "author": "Pervasive Displays Inc.",
+      "maintainer": "Arvin Tan \u003chttps://www.pervasivedisplays.com/\u003e",
+      "sentence": "Driver for Pervasive Displays colour screens",
+      "paragraph": "black-white-red-yellow, large size",
+      "website": "https://github.com/PervasiveDisplays",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/PervasiveDisplays/Pervasive_BWRY_Large.git",
+      "dependencies": [
+        {
+          "name": "PDLS_Common",
+          "version": "\u003e=10.1.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/PervasiveDisplays/Pervasive_BWRY_Large-10.1.1.zip",
+      "archiveFileName": "Pervasive_BWRY_Large-10.1.1.zip",
+      "size": 51793,
+      "checksum": "SHA-256:0a0e4f6487d6fdd1e06cfb9c55160cb34078f16fed956b227e259ab1a6bdaf97"
+    },
+    {
       "name": "Pervasive_BWRY_Medium",
       "version": "9.0.2",
       "author": "Pervasive Displays, Inc.",
@@ -1261247,6 +1261902,33 @@
       "archiveFileName": "Pervasive_BWRY_Medium-10.0.0.zip",
       "size": 50202,
       "checksum": "SHA-256:f560cf07c6863a1a1f550ae931341f139d3375811c138810296909d214430925"
+    },
+    {
+      "name": "Pervasive_BWRY_Medium",
+      "version": "10.1.1",
+      "author": "Pervasive Displays Inc.",
+      "maintainer": "Arvin Tan \u003chttps://www.pervasivedisplays.com/\u003e",
+      "sentence": "Driver for Pervasive Displays colour screens",
+      "paragraph": "black-white-red-yellow, medium size",
+      "website": "https://github.com/PervasiveDisplays",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/PervasiveDisplays/Pervasive_BWRY_Medium.git",
+      "dependencies": [
+        {
+          "name": "PDLS_Common",
+          "version": "\u003e=10.1.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/PervasiveDisplays/Pervasive_BWRY_Medium-10.1.1.zip",
+      "archiveFileName": "Pervasive_BWRY_Medium-10.1.1.zip",
+      "size": 50255,
+      "checksum": "SHA-256:d3ce6d02ec592635d4160d1050325b0334efdd19ae798e8884ea96e8c2a8f629"
     },
     {
       "name": "EasyWiFi",
@@ -1265661,6 +1266343,32 @@
       "archiveFileName": "Arduino_RouterBridge-0.4.3.zip",
       "size": 49516,
       "checksum": "SHA-256:700e12d2d26dbf8365b4a9df5e2dc596b573392ef83e81e41d12db1e2cf5dceb"
+    },
+    {
+      "name": "Arduino_RouterBridge",
+      "version": "0.4.4",
+      "author": "Arduino",
+      "maintainer": "Arduino",
+      "sentence": "A RPC bridge for Arduino UNO Q boards",
+      "paragraph": "This library provides a simple RPC bridge for Arduino UNO Q boards, allowing communication between the board and other devices using MsgPack serialization.",
+      "website": "https://github.com/arduino-libraries/Arduino_RouterBridge",
+      "category": "Communication",
+      "architectures": [
+        "zephyr"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "repository": "https://github.com/arduino-libraries/Arduino_RouterBridge.git",
+      "dependencies": [
+        {
+          "name": "Arduino_RPClite"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_RouterBridge-0.4.4.zip",
+      "archiveFileName": "Arduino_RouterBridge-0.4.4.zip",
+      "size": 52283,
+      "checksum": "SHA-256:3f56954bf3331f25d5d468c666f181397e6f155668f712e94ef75f8f17cc4e1e"
     },
     {
       "name": "Arduino_RPClite",
@@ -1277541,6 +1278249,41 @@
       "archiveFileName": "M5Unit_RF433-0.2.0.zip",
       "size": 91793,
       "checksum": "SHA-256:acf386363fc89658705df507cbaf662f87d1843a18273314a4597325c193e227"
+    },
+    {
+      "name": "M5Unit-RF433",
+      "version": "0.2.1",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT RF433 using M5UnitUnified",
+      "paragraph": "Supports UnitRF433T (SYN115 transmitter) and UnitRF433R (SYN531R receiver) for 433.92MHz ASK wireless communication.",
+      "website": "https://github.com/m5stack/M5Unit-RF433",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-RF433.git",
+      "providesIncludes": [
+        "M5UnitUnifiedRF433.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_RF433-0.2.1.zip",
+      "archiveFileName": "M5Unit_RF433-0.2.1.zip",
+      "size": 91929,
+      "checksum": "SHA-256:472a9c1561d2a9b8da8a48dd15db4a86a2bdbc49010df1f348f28b0c956b2730"
     },
     {
       "name": "DZ_HTTP",
@@ -1332797,6 +1333540,44 @@
       "checksum": "SHA-256:80700caba75e8630b580b68b8450f471afb77dfc3139fd3ca6f21f4c468057af"
     },
     {
+      "name": "CodexPad",
+      "version": "5.0.1",
+      "author": "cyfney-anka",
+      "maintainer": "cyfney-anka@qq.com",
+      "sentence": "Connect ESP32 to CodexPad gamepads via Bluetooth and read inputs.",
+      "paragraph": "Arduino library for CodexPad gamepads. Enables ESP32 to connect via Bluetooth (direct or button-mask scanning) and read button states and analog stick values. Depends on NimBLE-Arduino.",
+      "website": "https://github.com/CodexPad/codex_pad_arduino_lib",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/CodexPad/codex_pad_arduino_lib.git",
+      "providesIncludes": [
+        "codex_pad.h"
+      ],
+      "dependencies": [
+        {
+          "name": "NimBLE-Arduino",
+          "version": "\u003e=2.3.9"
+        },
+        {
+          "name": "GamepadInput",
+          "version": "\u003e=1.3.0"
+        },
+        {
+          "name": "cyfney-cpp",
+          "version": "\u003e=2.3.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/CodexPad/CodexPad-5.0.1.zip",
+      "archiveFileName": "CodexPad-5.0.1.zip",
+      "size": 616817,
+      "checksum": "SHA-256:6e9b6766287037a0752e7ed0d67d8feb7d440cd3c9c8c3484cbf6a711dc3b5ee"
+    },
+    {
       "name": "KISS_FFT",
       "version": "1.0.0",
       "author": "Meer Zafarullah Noohani \u003chttps://github.com/meerzafarnoohani\u003e",
@@ -1340504,6 +1341285,39 @@
       "archiveFileName": "AutoconnectoSDK-1.7.32.zip",
       "size": 172594,
       "checksum": "SHA-256:bef91d66feceeb2ecace29dbf998c6f2be5c80fd78223d658d311c94c9b0554e"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.54",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
+      "paragraph": "Connects ESP32, ESP32-C3, and ESP32-S3 to Autoconnecto over MQTTS and MQTT-over-WSS, with shared and client attributes, telemetry, RPC, and OTA. ESP8266 and Raspberry Pi Pico W use the HTTPS examples. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.54.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.54.zip",
+      "size": 179881,
+      "checksum": "SHA-256:a37540b05be97ce5d762ae8c9e851090756ac79c43c7a569bbcc2fef739bdb97"
     },
     {
       "name": "SPIKeyPad",
@@ -1408003,6 +1408817,41 @@
       "checksum": "SHA-256:9b50105499fe19e222ef59aa5639d53275f2d6f5b425622bec3d92c58dc243f3"
     },
     {
+      "name": "Focuspocus",
+      "version": "0.4.0",
+      "author": "glutio",
+      "maintainer": "glutio",
+      "sentence": "A small GUI framework for Arduino displays: buttons, checkboxes, labels, sliders, layout, focus and touch.",
+      "paragraph": "Static widgets (no heap required), stack-panel layout, screens and popups, touch or button navigation, themes. Draws on any Adafruit_GFX display; a Windows build runs the same code for testing.",
+      "website": "https://github.com/glutio/Focuspocus",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/glutio/Focuspocus.git",
+      "providesIncludes": [
+        "Focuspocus.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Eventfun"
+        },
+        {
+          "name": "Buratino"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/glutio/Focuspocus-0.4.0.zip",
+      "archiveFileName": "Focuspocus-0.4.0.zip",
+      "size": 562364,
+      "checksum": "SHA-256:cf08b93b289378724f68e2ffb33e08dcc6d6099d846d1014537b419e1485a01c"
+    },
+    {
       "name": "M5SerialPngCapture",
       "version": "1.0.0",
       "author": "Matthias Prinke",
@@ -1408503,6 +1409352,30 @@
       "checksum": "SHA-256:463ca4b50923640320ed606742d039b98ae00d79888fb15ddf6880aa4874ba4d"
     },
     {
+      "name": "WisBlockLoRaWAN",
+      "version": "1.0.3",
+      "author": "Bernd Giesecke bernd@giesecke.tk",
+      "maintainer": "Bernd Giesecke bernd@giesecke.tk",
+      "sentence": "Unified LoRaWAN (Class A/B/C) and LoRa P2P library for RAKwireless WisBlock boards using Semtech SX1262 + LoRa Basics Modem.",
+      "paragraph": "Supports RAK4631 (nRF52840), RAK3312 (ESP32-S3) and RAK11310/RAK11300 (RP2040, Arduino-Pico core by Earle Philhower) with built-in SX1262. Provides AT command interface and C++ API. LoRaWAN engine is built on Semtech's LoRa Basics Modem (BasicModem/LBM) stack.",
+      "website": "https://github.com/beegee-tokyo/WisBlockLoRaWAN",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/beegee-tokyo/WisBlockLoRaWAN.git",
+      "providesIncludes": [
+        "WisBlockLoRaWAN.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/beegee-tokyo/WisBlockLoRaWAN-1.0.3.zip",
+      "archiveFileName": "WisBlockLoRaWAN-1.0.3.zip",
+      "size": 1356789,
+      "checksum": "SHA-256:a7dbc4795a2ea20e1a52a8acd82518761de1758baac2e1ce109131692850dbc8"
+    },
+    {
       "name": "GroqReasoning",
       "version": "1.4.2",
       "author": "Abi",
@@ -1408873,6 +1409746,36 @@
       "archiveFileName": "IOTFIY-1.0.0.zip",
       "size": 12704,
       "checksum": "SHA-256:bee982cacaf9726c712d4b31fec0f9c1a1ba0da2e2fc97e77cb60bfdb03c0c2a"
+    },
+    {
+      "name": "IOTFIY",
+      "version": "1.0.1",
+      "author": "Iotfiy Solutions",
+      "maintainer": "iotfiy.solution@gmail.com",
+      "sentence": "A library for IoT device connectivity using MQTT.",
+      "paragraph": "IOTFIY provides a simple way to create sensors and controls for IoT devices, handling MQTT communication, WiFi connections, and data formatting. Compatible with ESP8266 and ESP32.",
+      "website": "https://github.com/iotfiy-solutions/Gateway_Library.git",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/iotfiy-solutions/Gateway_Library.git",
+      "dependencies": [
+        {
+          "name": "PubSubClient"
+        },
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/iotfiy-solutions/IOTFIY-1.0.1.zip",
+      "archiveFileName": "IOTFIY-1.0.1.zip",
+      "size": 14932,
+      "checksum": "SHA-256:19d3cfde1ea79e73a4073ee70e754ff8b9e7859a32dc6574e2ea66d2ee9b618e"
     },
     {
       "name": "AmperiaSTEM",
@@ -1411901,6 +1412804,55 @@
       "checksum": "SHA-256:0693334ea00b6987c37578c5e90721be23b68984dd58d3a7882d42286d7be9fe"
     },
     {
+      "name": "CasioST75256",
+      "version": "0.9.0",
+      "author": "GrayKazu",
+      "maintainer": "GrayKazu",
+      "sentence": "Driver for the ST75256 192x63 LCD (+ icon row) of the fake Casio fx-880BTG: antialiased Unicode fonts (VI, TH, ZH), QR codes, haunted FX, WraithUI, console, MJPEG and C2V video.",
+      "paragraph": "4-gray framebuffer with diff-based partial refresh, rotation, fonts, shapes, gauges, graphs, dithering, bitmaps, icon row, plus haunted FX (glitch, static, melt, ghost trails, CRT-off). Tested on ESP32-S3, SPI mode 0.",
+      "website": "https://example.invalid/casio-st75256",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tkhoi0821-svg/Casio-classwiz-880BTG-lib.git",
+      "providesIncludes": [
+        "CasioST75256.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tkhoi0821-svg/CasioST75256-0.9.0.zip",
+      "archiveFileName": "CasioST75256-0.9.0.zip",
+      "size": 1049167,
+      "checksum": "SHA-256:64335c1464a215ce67c47c9474e4c1478ab38e23c3c08fbaec9878da5485c702"
+    },
+    {
+      "name": "CasioST75256",
+      "version": "1.0.0",
+      "author": "GrayKazu",
+      "maintainer": "GrayKazu",
+      "license": "MIT",
+      "sentence": "Driver for the ST75256 192x63 LCD (+ icon row) of the fake Casio fx-880BTG: antialiased Unicode fonts (VI, TH, ZH), QR codes, haunted FX, WraithUI, console, MJPEG and C2V video.",
+      "paragraph": "4-gray framebuffer with diff-based partial refresh, rotation, fonts, shapes, gauges, graphs, dithering, bitmaps, icon row, plus haunted FX (glitch, static, melt, ghost trails, CRT-off). Tested on ESP32-S3, SPI mode 0.",
+      "website": "https://example.invalid/casio-st75256",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tkhoi0821-svg/Casio-classwiz-880BTG-lib.git",
+      "providesIncludes": [
+        "CasioST75256.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tkhoi0821-svg/CasioST75256-1.0.0.zip",
+      "archiveFileName": "CasioST75256-1.0.0.zip",
+      "size": 1063039,
+      "checksum": "SHA-256:3e2eefd2a747a7729bcefc4bbef2470953def7869cc6e83aaabae1bae5c3827a"
+    },
+    {
       "name": "ESP32ServicePortal",
       "version": "0.7.1",
       "author": "Jose Poblete Cabezas",
@@ -1412102,6 +1413054,1325 @@
       "archiveFileName": "TDQ6A-0.9.0.zip",
       "size": 21082,
       "checksum": "SHA-256:efe9315d27668e60731b0c3bd4b94724bcee34af1911ee94e9222deb3fb51a27"
+    },
+    {
+      "name": "SM16380_DMA",
+      "version": "0.2.0",
+      "author": "StubbyDevs",
+      "maintainer": "StubbyDevs",
+      "sentence": "Flicker-free, tear-free DMA driver for SM16380 S-PWM HUB75 LED panels on the ESP32-S3.",
+      "paragraph": "LCD_CAM + GDMA stream every panel line, the row scan included, so it loops in hardware with no CPU time. New frames are spliced in at the end of a scan pass: no blinking, seamless updates, ~67 fps animation on a 128x64 panel. Up to 3 chained panels. Optional Adafruit_GFX front end.",
+      "website": "https://github.com/StubbyDevs/sm16380-esp32s3-dma",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/StubbyDevs/sm16380-esp32s3-dma.git",
+      "providesIncludes": [
+        "SM16380_DMA.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/StubbyDevs/SM16380_DMA-0.2.0.zip",
+      "archiveFileName": "SM16380_DMA-0.2.0.zip",
+      "size": 2232882,
+      "checksum": "SHA-256:5a3f002fe5aec707c17a35694b778d2e312f4dd0e19cabc81330b9c7408e4b33"
+    },
+    {
+      "name": "SuperJupiterSensorQuality",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Flag suspicious sensor readings without changing the raw data.",
+      "paragraph": "Allocation-free C++11 checks for invalid values, range, rate of change, late samples, stale data and possibly stuck signals. Arduino and ESP32 examples included. Software tested; hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-sensor-quality",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-sensor-quality.git",
+      "providesIncludes": [
+        "SuperJupiterSensorQuality.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSensorQuality-0.1.0.zip",
+      "archiveFileName": "SuperJupiterSensorQuality-0.1.0.zip",
+      "size": 22658,
+      "checksum": "SHA-256:3aacbfc8c8230689cd3789f850524eefa5c1ad5be17d107804f542ae321ecd42"
+    },
+    {
+      "name": "SuperJupiterSensorQuality",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Flag suspicious sensor readings without changing the raw data.",
+      "paragraph": "Allocation-free C++11 checks for invalid values, range, rate of change, late samples, stale data and possibly stuck signals. Arduino and ESP32 examples included. Software tested; hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-sensor-quality",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-sensor-quality.git",
+      "providesIncludes": [
+        "SuperJupiterSensorQuality.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSensorQuality-0.1.1.zip",
+      "archiveFileName": "SuperJupiterSensorQuality-0.1.1.zip",
+      "size": 23202,
+      "checksum": "SHA-256:8ce8dfee5c6b347800333df73a2babc600d0c949dc65805d3870fd1e886536e3"
+    },
+    {
+      "name": "SuperJupiterSensorQuality",
+      "version": "0.1.2",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Flag suspicious sensor readings without changing the raw data.",
+      "paragraph": "Allocation-free C++11 checks for invalid values, range, rate of change, late samples, stale data and possibly stuck signals. Arduino and ESP32 examples included. Software tested; hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-sensor-quality",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-sensor-quality.git",
+      "providesIncludes": [
+        "SuperJupiterSensorQuality.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSensorQuality-0.1.2.zip",
+      "archiveFileName": "SuperJupiterSensorQuality-0.1.2.zip",
+      "size": 23310,
+      "checksum": "SHA-256:a36badc8590d654d4b108e74448cbb3502b027dd08f7a92986ba8c6df7de6f9f"
+    },
+    {
+      "name": "SuperJupiterSensorQuality",
+      "version": "0.2.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Flag suspicious sensor readings without changing the raw data.",
+      "paragraph": "Allocation-free C++11 checks for invalid values, range, rate of change, late samples, stale data and possibly stuck signals. Arduino and ESP32 examples included. Software tested; hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-sensor-quality",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-sensor-quality.git",
+      "providesIncludes": [
+        "SuperJupiterSensorQuality.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSensorQuality-0.2.0.zip",
+      "archiveFileName": "SuperJupiterSensorQuality-0.2.0.zip",
+      "size": 37072,
+      "checksum": "SHA-256:ba4eb38574c1c6d430375af0aecc22cdf70abcc8448bb6bd4f596d103ed1f78a"
+    },
+    {
+      "name": "SuperJupiterSensorQuality",
+      "version": "0.2.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Flag suspicious sensor readings without changing the raw data.",
+      "paragraph": "Allocation-free C++11 checks for invalid values, range, rate of change, late samples, stale data and possibly stuck signals. Arduino and ESP32 examples included. Software tested; hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-sensor-quality",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-sensor-quality.git",
+      "providesIncludes": [
+        "SuperJupiterSensorQuality.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSensorQuality-0.2.1.zip",
+      "archiveFileName": "SuperJupiterSensorQuality-0.2.1.zip",
+      "size": 40764,
+      "checksum": "SHA-256:8de99bddc45daf90d5c623f27f084efdfa73ae617984fd1dcdf31305393a408c"
+    },
+    {
+      "name": "ottu-target",
+      "version": "0.0.1",
+      "author": "Infineon Technologies",
+      "maintainer": "Infineon Technologies \u003cwww.infineon.com\u003e",
+      "sentence": "On-target testing utility support library for embedded devices.",
+      "paragraph": "On-target testing utility support library for embedded devices.",
+      "website": "https://github.com/Infineon/arduino-ottu-target",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Infineon/arduino-ottu-target.git",
+      "providesIncludes": [
+        "ottu.hpp"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Infineon/ottu_target-0.0.1.zip",
+      "archiveFileName": "ottu_target-0.0.1.zip",
+      "size": 82839,
+      "checksum": "SHA-256:cd7e8dffce76d7f7611407ef6e92f6247c1371bcbafd757a0833bad064fbec53"
+    },
+    {
+      "name": "ottu-target",
+      "version": "0.1.0",
+      "author": "Infineon Technologies",
+      "maintainer": "Infineon Technologies \u003cwww.infineon.com\u003e",
+      "sentence": "On-target testing utility support library for embedded devices.",
+      "paragraph": "On-target testing utility support library for embedded devices.",
+      "website": "https://github.com/Infineon/arduino-ottu-target",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Infineon/arduino-ottu-target.git",
+      "providesIncludes": [
+        "ottu.hpp"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Infineon/ottu_target-0.1.0.zip",
+      "archiveFileName": "ottu_target-0.1.0.zip",
+      "size": 82839,
+      "checksum": "SHA-256:29420cb3579a038f79a61ab552705a2e2c2f18f8a27697a61a8398f5ab6963d7"
+    },
+    {
+      "name": "ottu-target",
+      "version": "0.1.1",
+      "author": "Infineon Technologies",
+      "maintainer": "Infineon Technologies \u003cwww.infineon.com\u003e",
+      "sentence": "On-target testing utility support library for embedded devices.",
+      "paragraph": "On-target testing utility support library for embedded devices.",
+      "website": "https://github.com/Infineon/arduino-ottu-target",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Infineon/arduino-ottu-target.git",
+      "providesIncludes": [
+        "ottu.hpp"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Infineon/ottu_target-0.1.1.zip",
+      "archiveFileName": "ottu_target-0.1.1.zip",
+      "size": 82873,
+      "checksum": "SHA-256:df45cc753b60c731e245d7e7af162c0abf6985d05a2cf269ca0a4e7db9986c33"
+    },
+    {
+      "name": "SuperJupiterSampleWindow",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Keep timestamped raw sample windows with explicit gaps and statistics.",
+      "paragraph": "Allocation-free C++11 last-N storage, finite-only summaries, invalid counts and overwrite reporting. Portable Arduino and ESP32 examples. Software tested; hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-sample-window",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-sample-window.git",
+      "providesIncludes": [
+        "SuperJupiterSampleWindow.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSampleWindow-0.1.0.zip",
+      "archiveFileName": "SuperJupiterSampleWindow-0.1.0.zip",
+      "size": 37162,
+      "checksum": "SHA-256:b8dbad6041668e908f8da26ddde941bdf9045c246d72ad34ad936b3e8da4ff56"
+    },
+    {
+      "name": "SuperJupiterSampleWindow",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Keep timestamped raw sample windows with explicit gaps and statistics.",
+      "paragraph": "Allocation-free C++11 last-N storage, finite-only summaries, invalid counts and overwrite reporting. Portable Arduino and ESP32 examples. Software tested; hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-sample-window",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-sample-window.git",
+      "providesIncludes": [
+        "SuperJupiterSampleWindow.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSampleWindow-0.1.1.zip",
+      "archiveFileName": "SuperJupiterSampleWindow-0.1.1.zip",
+      "size": 40778,
+      "checksum": "SHA-256:5f2bc938eaf98c9fe3516837dcf9d34b9b008c0cf146f9767f729de741b379e1"
+    },
+    {
+      "name": "PCFKeypad_EASY",
+      "version": "1.0.0",
+      "author": "klenov1900-lang",
+      "maintainer": "klenov1900-lang",
+      "sentence": "Матричная клавиатура 4x4 через PCF8574 (I2C). Без Wire.h.",
+      "paragraph": "Использует I2C_EASY. Антидребезг, автоповтор, энергосбережение, защита от ghosting.",
+      "website": "https://github.com/klenov1900-lang/PCFKeypad_EASY",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/klenov1900-lang/PCFKeypad_EASY.git",
+      "dependencies": [
+        {
+          "name": "I2C_EASY"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/PCFKeypad_EASY-1.0.0.zip",
+      "archiveFileName": "PCFKeypad_EASY-1.0.0.zip",
+      "size": 17739,
+      "checksum": "SHA-256:6ece7bb716c325eb43b56777a98506e3424d6f1f92fa339b4db9fbfb0f740b13"
+    },
+    {
+      "name": "SEFR",
+      "version": "1.0.0",
+      "author": "Hamidreza Keshavarz \u003chamid9999@gmail.com\u003e",
+      "maintainer": "Hamidreza Keshavarz \u003chamid9999@gmail.com\u003e",
+      "sentence": "A classifier that trains on the microcontroller itself, in one pass over the data.",
+      "paragraph": "SEFR (Keshavarz et al., arXiv:2006.04620) learns a linear multiclass classifier from samples streamed one at a time, using only per-class sums and feature ranges. An optional second pass (LDA on the class scores) improves multiclass accuracy. No dynamic memory; runs on 2 KB RAM boards such as the Uno.",
+      "website": "https://github.com/hamidkm9/SEFR-Arduino",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/hamidkm9/SEFR-Arduino.git",
+      "providesIncludes": [
+        "SEFR.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/hamidkm9/SEFR-1.0.0.zip",
+      "archiveFileName": "SEFR-1.0.0.zip",
+      "size": 15225,
+      "checksum": "SHA-256:72929e7e7dafdc05a18bd90c31f26ad545314d647d86fcac343d686b93a1ed51"
+    },
+    {
+      "name": "SEFR",
+      "version": "1.0.1",
+      "author": "Hamidreza Keshavarz \u003chamid9999@gmail.com\u003e",
+      "maintainer": "Hamidreza Keshavarz \u003chamid9999@gmail.com\u003e",
+      "sentence": "Machine learning (TinyML) classifier that trains on the microcontroller itself, in one pass over the data.",
+      "paragraph": "SEFR (arXiv:2006.04620) brings on-device learning and AI to small boards: learn a multiclass linear classifier from sensor samples streamed one at a time, with no learning rate, no iterations and no dynamic memory. An optional second pass (LDA) improves multiclass accuracy. Runs on 2 KB RAM boards such as the Uno, and on ESP32, RP2040 and nRF52. The SEFR algorithm is also used in STMicroelectronics NanoEdge AI Studio.",
+      "website": "https://github.com/hamidkm9/SEFR-Arduino",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/hamidkm9/SEFR-Arduino.git",
+      "providesIncludes": [
+        "SEFR.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/hamidkm9/SEFR-1.0.1.zip",
+      "archiveFileName": "SEFR-1.0.1.zip",
+      "size": 16115,
+      "checksum": "SHA-256:73e6ac447d7fc046656c58f3846467a65de6fe19257896d51f3bebee11ce4768"
+    },
+    {
+      "name": "SuperJupiterCalibration",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Explicit piecewise-linear sensor calibration with bounds and provenance.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-calibration",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-calibration.git",
+      "providesIncludes": [
+        "SuperJupiterCalibration.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterCalibration-0.1.0.zip",
+      "archiveFileName": "SuperJupiterCalibration-0.1.0.zip",
+      "size": 23917,
+      "checksum": "SHA-256:b15c5684c7b6d099a9f7f563840360f70638898a60e1a36902ff7036210693c5"
+    },
+    {
+      "name": "SuperJupiterCalibration",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Explicit piecewise-linear sensor calibration with bounds and provenance.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-calibration",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-calibration.git",
+      "providesIncludes": [
+        "SuperJupiterCalibration.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterCalibration-0.1.1.zip",
+      "archiveFileName": "SuperJupiterCalibration-0.1.1.zip",
+      "size": 27712,
+      "checksum": "SHA-256:29a44cc3e4f92ec799d179d8fef0cd4637f4dfc6424d0ca604b954db850e3ce4"
+    },
+    {
+      "name": "SuperJupiterTimeAnchor",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Map device timestamps to UTC with explicit uncertainty and expiry.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-time-anchor",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-time-anchor.git",
+      "providesIncludes": [
+        "SuperJupiterTimeAnchor.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterTimeAnchor-0.1.0.zip",
+      "archiveFileName": "SuperJupiterTimeAnchor-0.1.0.zip",
+      "size": 23768,
+      "checksum": "SHA-256:887d4c3438a824904b0b883d881eaccf272f4a940b9b1277639073ef56662d66"
+    },
+    {
+      "name": "SuperJupiterTimeAnchor",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Map device timestamps to UTC with explicit uncertainty and expiry.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-time-anchor",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-time-anchor.git",
+      "providesIncludes": [
+        "SuperJupiterTimeAnchor.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterTimeAnchor-0.1.1.zip",
+      "archiveFileName": "SuperJupiterTimeAnchor-0.1.1.zip",
+      "size": 27027,
+      "checksum": "SHA-256:1943d7b3c5db026cbb4f898459dd037715d6184d7abfe01a1472debe2cea353c"
+    },
+    {
+      "name": "SuperJupiterSignalFilter",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Elapsed-time exponential smoothing with explicit gap and input handling.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-signal-filter",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-signal-filter.git",
+      "providesIncludes": [
+        "SuperJupiterSignalFilter.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSignalFilter-0.1.0.zip",
+      "archiveFileName": "SuperJupiterSignalFilter-0.1.0.zip",
+      "size": 23659,
+      "checksum": "SHA-256:d5f93b6e69b375319c66a7149d271eec7a092c3cf6f427116cfbc382dd1c4a9b"
+    },
+    {
+      "name": "SuperJupiterSignalFilter",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Elapsed-time exponential smoothing with explicit gap and input handling.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-signal-filter",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-signal-filter.git",
+      "providesIncludes": [
+        "SuperJupiterSignalFilter.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSignalFilter-0.1.1.zip",
+      "archiveFileName": "SuperJupiterSignalFilter-0.1.1.zip",
+      "size": 27332,
+      "checksum": "SHA-256:752156149418960380a3c21c3bd7e0c1493382ea5360f0c7fed10bf85a5a3c08"
+    },
+    {
+      "name": "SuperJupiterTrend",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Timestamp-aware least-squares slopes with explicit coverage and gaps.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-trend",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-trend.git",
+      "providesIncludes": [
+        "SuperJupiterTrend.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterTrend-0.1.0.zip",
+      "archiveFileName": "SuperJupiterTrend-0.1.0.zip",
+      "size": 23594,
+      "checksum": "SHA-256:b93dd996811f02ed7bc886c1345033a404a37b1d4e606dda39150f927c1b89b5"
+    },
+    {
+      "name": "SuperJupiterTrend",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Timestamp-aware least-squares slopes with explicit coverage and gaps.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-trend",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-trend.git",
+      "providesIncludes": [
+        "SuperJupiterTrend.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterTrend-0.1.1.zip",
+      "archiveFileName": "SuperJupiterTrend-0.1.1.zip",
+      "size": 27118,
+      "checksum": "SHA-256:ea48037d1dbf18ae919591b4ddbd65058a93853f33da28e9e23ca157844d5601"
+    },
+    {
+      "name": "SuperJupiterThresholdEvents",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Persistent threshold alarms with hysteresis and explicit unknown state.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-threshold-events",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-threshold-events.git",
+      "providesIncludes": [
+        "SuperJupiterThresholdEvents.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterThresholdEvents-0.1.0.zip",
+      "archiveFileName": "SuperJupiterThresholdEvents-0.1.0.zip",
+      "size": 24282,
+      "checksum": "SHA-256:ef9a082471d92baa94e2bd2609010af5d6e05df4ad1c2954d56d4e54126437b0"
+    },
+    {
+      "name": "SuperJupiterThresholdEvents",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Persistent threshold alarms with hysteresis and explicit unknown state.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-threshold-events",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-threshold-events.git",
+      "providesIncludes": [
+        "SuperJupiterThresholdEvents.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterThresholdEvents-0.1.1.zip",
+      "archiveFileName": "SuperJupiterThresholdEvents-0.1.1.zip",
+      "size": 27852,
+      "checksum": "SHA-256:80a7b884a5b81c8aa35f012ad693649f17b1460ee309b4e2425d490932401448"
+    },
+    {
+      "name": "SuperJupiterTimeAggregate",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Fixed-period observation summaries with explicit empty buckets and coverage.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-time-aggregate",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-time-aggregate.git",
+      "providesIncludes": [
+        "SuperJupiterTimeAggregate.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterTimeAggregate-0.1.0.zip",
+      "archiveFileName": "SuperJupiterTimeAggregate-0.1.0.zip",
+      "size": 24283,
+      "checksum": "SHA-256:9f1e2450bab36544f31fe59173681d1efb4c8cf055c1185d42835f01b37487cc"
+    },
+    {
+      "name": "SuperJupiterTimeAggregate",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Fixed-period observation summaries with explicit empty buckets and coverage.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-time-aggregate",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-time-aggregate.git",
+      "providesIncludes": [
+        "SuperJupiterTimeAggregate.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterTimeAggregate-0.1.1.zip",
+      "archiveFileName": "SuperJupiterTimeAggregate-0.1.1.zip",
+      "size": 28028,
+      "checksum": "SHA-256:b5ce5c09ce639c6f2358b5aa9ee0bc3e2a99a42e4cf6d4bad6db4d12c00d99c8"
+    },
+    {
+      "name": "SuperJupiterPulseMetrics",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Pulse counts and interval-derived rates with bounce and timeout reporting.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-pulse-metrics",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-pulse-metrics.git",
+      "providesIncludes": [
+        "SuperJupiterPulseMetrics.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterPulseMetrics-0.1.0.zip",
+      "archiveFileName": "SuperJupiterPulseMetrics-0.1.0.zip",
+      "size": 23797,
+      "checksum": "SHA-256:06c7b3806052982e7762465511b6e2d904be7fdfd1577a0588dd9ebc8c199cfd"
+    },
+    {
+      "name": "SuperJupiterPulseMetrics",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Pulse counts and interval-derived rates with bounce and timeout reporting.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-pulse-metrics",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-pulse-metrics.git",
+      "providesIncludes": [
+        "SuperJupiterPulseMetrics.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterPulseMetrics-0.1.1.zip",
+      "archiveFileName": "SuperJupiterPulseMetrics-0.1.1.zip",
+      "size": 27087,
+      "checksum": "SHA-256:e4df21e532aff2881844800c6d8e0472a5d55066298161475aa80f685ca2a2f4"
+    },
+    {
+      "name": "SuperJupiterIntegration",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Gap-aware numerical integration of timestamped scalar observations.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-integration",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-integration.git",
+      "providesIncludes": [
+        "SuperJupiterIntegration.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterIntegration-0.1.0.zip",
+      "archiveFileName": "SuperJupiterIntegration-0.1.0.zip",
+      "size": 23630,
+      "checksum": "SHA-256:fd9ae6f2bf9b575be2a780e9faf7bb0f728655c7ecbdf31534402e0a05cc029f"
+    },
+    {
+      "name": "SuperJupiterIntegration",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Gap-aware numerical integration of timestamped scalar observations.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-integration",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-integration.git",
+      "providesIncludes": [
+        "SuperJupiterIntegration.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterIntegration-0.1.1.zip",
+      "archiveFileName": "SuperJupiterIntegration-0.1.1.zip",
+      "size": 27204,
+      "checksum": "SHA-256:ece3c6493594dd67b927af950e67f396542de528e3098ddc3871e653a949992d"
+    },
+    {
+      "name": "SuperJupiterIntegration",
+      "version": "0.1.2",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Gap-aware numerical integration of timestamped scalar observations.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-integration",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-integration.git",
+      "providesIncludes": [
+        "SuperJupiterIntegration.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterIntegration-0.1.2.zip",
+      "archiveFileName": "SuperJupiterIntegration-0.1.2.zip",
+      "size": 28363,
+      "checksum": "SHA-256:8eac9089b789cf9e104bca2a25d01424c3e3b260fec4781b9e0950bd7a846c56"
+    },
+    {
+      "name": "SuperJupiterEventCapture",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Bounded before-and-after sensor event capture without heap allocation.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-event-capture",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-event-capture.git",
+      "providesIncludes": [
+        "SuperJupiterEventCapture.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterEventCapture-0.1.0.zip",
+      "archiveFileName": "SuperJupiterEventCapture-0.1.0.zip",
+      "size": 23804,
+      "checksum": "SHA-256:5324fffcbf10349675214196cbef9cb1a2450704f39749b9ef904d0323200a31"
+    },
+    {
+      "name": "SuperJupiterEventCapture",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Bounded before-and-after sensor event capture without heap allocation.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-event-capture",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-event-capture.git",
+      "providesIncludes": [
+        "SuperJupiterEventCapture.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterEventCapture-0.1.1.zip",
+      "archiveFileName": "SuperJupiterEventCapture-0.1.1.zip",
+      "size": 27256,
+      "checksum": "SHA-256:a17b1e40df1a712852a92ea8bc1f634a7e500b174cbbae38d04d77d82662cfe0"
+    },
+    {
+      "name": "SuperJupiterChannelAlign",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Explicit bounded interpolation and stale-value handling across sensor channels.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-channel-align",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-channel-align.git",
+      "providesIncludes": [
+        "SuperJupiterChannelAlign.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterChannelAlign-0.1.0.zip",
+      "archiveFileName": "SuperJupiterChannelAlign-0.1.0.zip",
+      "size": 24013,
+      "checksum": "SHA-256:506047fd5667833920072e0d87fb8564d34a0ecf6ca96f527ae95de8a05b1f68"
+    },
+    {
+      "name": "SuperJupiterChannelAlign",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Explicit bounded interpolation and stale-value handling across sensor channels.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-channel-align",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-channel-align.git",
+      "providesIncludes": [
+        "SuperJupiterChannelAlign.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterChannelAlign-0.1.1.zip",
+      "archiveFileName": "SuperJupiterChannelAlign-0.1.1.zip",
+      "size": 27577,
+      "checksum": "SHA-256:a7c401083d1c3f48f9a4a4cc65dee39e20c32bb7f6470c784d155c0c7a70a059"
+    },
+    {
+      "name": "SuperJupiterSensorAgreement",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Age-aware comparison of redundant sensors without inventing ground truth.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-sensor-agreement",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-sensor-agreement.git",
+      "providesIncludes": [
+        "SuperJupiterSensorAgreement.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSensorAgreement-0.1.0.zip",
+      "archiveFileName": "SuperJupiterSensorAgreement-0.1.0.zip",
+      "size": 24314,
+      "checksum": "SHA-256:d4cd301328ba2348124e343074f6569b0e4407fdc2decac1a2cf026e77764946"
+    },
+    {
+      "name": "SuperJupiterSensorAgreement",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Age-aware comparison of redundant sensors without inventing ground truth.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-sensor-agreement",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-sensor-agreement.git",
+      "providesIncludes": [
+        "SuperJupiterSensorAgreement.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSensorAgreement-0.1.1.zip",
+      "archiveFileName": "SuperJupiterSensorAgreement-0.1.1.zip",
+      "size": 27908,
+      "checksum": "SHA-256:e59c3c56d1945e6ad96f7c5d73544ee0e7542900434f72139ee134606968cb23"
+    },
+    {
+      "name": "SuperJupiterMachineState",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Persistent equipment states and observed runtime from scalar signals.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-machine-state",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-machine-state.git",
+      "providesIncludes": [
+        "SuperJupiterMachineState.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterMachineState-0.1.0.zip",
+      "archiveFileName": "SuperJupiterMachineState-0.1.0.zip",
+      "size": 24026,
+      "checksum": "SHA-256:f4c77517f5c965509e06b2f15e5b28541f7a58c71fee08666560c2171abb9297"
+    },
+    {
+      "name": "SuperJupiterMachineState",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Persistent equipment states and observed runtime from scalar signals.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-machine-state",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-machine-state.git",
+      "providesIncludes": [
+        "SuperJupiterMachineState.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterMachineState-0.1.1.zip",
+      "archiveFileName": "SuperJupiterMachineState-0.1.1.zip",
+      "size": 27582,
+      "checksum": "SHA-256:7f18d2a3f2394543e975ee6e0068629a4423c09bd44ef8d4a1a0ad8a0aff2bcf"
+    },
+    {
+      "name": "SuperJupiterRecordJournal",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Append-only bounded records with CRC checks and interrupted-write recovery.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-record-journal",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-record-journal.git",
+      "providesIncludes": [
+        "SuperJupiterRecordJournal.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterRecordJournal-0.1.0.zip",
+      "archiveFileName": "SuperJupiterRecordJournal-0.1.0.zip",
+      "size": 27395,
+      "checksum": "SHA-256:9a27d56cf4ce802bbeca27aa59d7b4ebe26f65f940209cc5df1e976ef9f94f6c"
+    },
+    {
+      "name": "SuperJupiterRecordJournal",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Append-only bounded records with CRC checks and interrupted-write recovery.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-record-journal",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-record-journal.git",
+      "providesIncludes": [
+        "SuperJupiterRecordJournal.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterRecordJournal-0.1.1.zip",
+      "archiveFileName": "SuperJupiterRecordJournal-0.1.1.zip",
+      "size": 31154,
+      "checksum": "SHA-256:82a613b016faa45bf0ec1e982d4af1beb11e0fee3628b7f488e807b48c2adfab"
+    },
+    {
+      "name": "SuperJupiterStoreForward",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Acknowledged bounded upload queue with explicit retry timing and record identities.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-store-forward",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-store-forward.git",
+      "providesIncludes": [
+        "SuperJupiterStoreForward.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterStoreForward-0.1.0.zip",
+      "archiveFileName": "SuperJupiterStoreForward-0.1.0.zip",
+      "size": 24502,
+      "checksum": "SHA-256:9e213c8698c5451cf160ac32f406919cb1ae393c97f9efa020fb18d38a09139e"
+    },
+    {
+      "name": "SuperJupiterStoreForward",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Acknowledged bounded upload queue with explicit retry timing and record identities.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-store-forward",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-store-forward.git",
+      "providesIncludes": [
+        "SuperJupiterStoreForward.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterStoreForward-0.1.1.zip",
+      "archiveFileName": "SuperJupiterStoreForward-0.1.1.zip",
+      "size": 27993,
+      "checksum": "SHA-256:35a2573085a79dc71ba8a348b97e237463dc71bb61fd89736a01becec6ff1a03"
+    },
+    {
+      "name": "SuperJupiterConfigStore",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Two-slot versioned configuration with integrity checks and recoverable writes.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-config-store",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-config-store.git",
+      "providesIncludes": [
+        "SuperJupiterConfigStore.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterConfigStore-0.1.0.zip",
+      "archiveFileName": "SuperJupiterConfigStore-0.1.0.zip",
+      "size": 27320,
+      "checksum": "SHA-256:2c28a9da4a1b8a868a4b33edb885f709907ae7b467ada1bf3237540aca56c720"
+    },
+    {
+      "name": "SuperJupiterConfigStore",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Two-slot versioned configuration with integrity checks and recoverable writes.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-config-store",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-config-store.git",
+      "providesIncludes": [
+        "SuperJupiterConfigStore.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterConfigStore-0.1.1.zip",
+      "archiveFileName": "SuperJupiterConfigStore-0.1.1.zip",
+      "size": 31264,
+      "checksum": "SHA-256:10872464b93898dab3c6027c4c31d87997b15200a21f83441576e7f09c32ad00"
+    },
+    {
+      "name": "SuperJupiterDeviceHealth",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Observable sampling gaps, queue pressure and bounded failure counters.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-device-health",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-device-health.git",
+      "providesIncludes": [
+        "SuperJupiterDeviceHealth.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterDeviceHealth-0.1.0.zip",
+      "archiveFileName": "SuperJupiterDeviceHealth-0.1.0.zip",
+      "size": 24201,
+      "checksum": "SHA-256:ef9bd89eb27cbe4929ac2c0d656b118778657b71826af969190b14163cddade2"
+    },
+    {
+      "name": "SuperJupiterDeviceHealth",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Observable sampling gaps, queue pressure and bounded failure counters.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-device-health",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-device-health.git",
+      "providesIncludes": [
+        "SuperJupiterDeviceHealth.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterDeviceHealth-0.1.1.zip",
+      "archiveFileName": "SuperJupiterDeviceHealth-0.1.1.zip",
+      "size": 27497,
+      "checksum": "SHA-256:df29d1dd76f8e2bf0c9950cd938901e62bd635193fb1814dbe500abf79a127e0"
+    },
+    {
+      "name": "SuperJupiterPowerBudget",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Transparent battery-current duty-cycle and runtime estimates.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-power-budget",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-power-budget.git",
+      "providesIncludes": [
+        "SuperJupiterPowerBudget.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterPowerBudget-0.1.0.zip",
+      "archiveFileName": "SuperJupiterPowerBudget-0.1.0.zip",
+      "size": 23813,
+      "checksum": "SHA-256:9a79ea73db99db7627b6271dddb7c70e21970605bec14183954783716143a1f6"
+    },
+    {
+      "name": "SuperJupiterPowerBudget",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Transparent battery-current duty-cycle and runtime estimates.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-power-budget",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-power-budget.git",
+      "providesIncludes": [
+        "SuperJupiterPowerBudget.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterPowerBudget-0.1.1.zip",
+      "archiveFileName": "SuperJupiterPowerBudget-0.1.1.zip",
+      "size": 27403,
+      "checksum": "SHA-256:e987ea12ba63f67e587dd1989ba6613d9c4a668ae08312f997e06f663f91587a"
+    },
+    {
+      "name": "SuperJupiterSensorReplay",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Deterministic timed sensor replay with explicit dropped and replaced readings.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-sensor-replay",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-sensor-replay.git",
+      "providesIncludes": [
+        "SuperJupiterSensorReplay.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSensorReplay-0.1.0.zip",
+      "archiveFileName": "SuperJupiterSensorReplay-0.1.0.zip",
+      "size": 24507,
+      "checksum": "SHA-256:fe7d3126dc48e6f2e5dfdf58f7980dfc59fc8c3c480db0a0b1db06c045febebd"
+    },
+    {
+      "name": "SuperJupiterSensorReplay",
+      "version": "0.1.1",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Deterministic timed sensor replay with explicit dropped and replaced readings.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-sensor-replay",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-sensor-replay.git",
+      "providesIncludes": [
+        "SuperJupiterSensorReplay.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSensorReplay-0.1.1.zip",
+      "archiveFileName": "SuperJupiterSensorReplay-0.1.1.zip",
+      "size": 39150,
+      "checksum": "SHA-256:6580f23dff7db75944ae446ce699a615e744d5e0d447121fe840f8b88e4b1188"
+    },
+    {
+      "name": "SuperJupiterSensorReplay",
+      "version": "0.1.2",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Deterministic timed sensor replay with explicit dropped and replaced readings.",
+      "paragraph": "Portable allocation-free C++11 core, explicit outcomes and synthetic examples. Software tests and board compilation are distinct from physical testing. Hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-sensor-replay",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-sensor-replay.git",
+      "providesIncludes": [
+        "SuperJupiterSensorReplay.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSensorReplay-0.1.2.zip",
+      "archiveFileName": "SuperJupiterSensorReplay-0.1.2.zip",
+      "size": 39991,
+      "checksum": "SHA-256:02769a1dea51c15b2e00a1cc34ba04d18ed7507a8c1d133102730d32f9668da1"
+    },
+    {
+      "name": "Microfono",
+      "version": "0.1.0",
+      "author": "piruetasxyz",
+      "maintainer": "piruetasxyz",
+      "sentence": "Biblioteca para leer microfonos electret con microcontroladores.",
+      "paragraph": "Lee un microfono electret con modulo amplificador y entrega la amplitud del sonido, pico a pico. Compatible con placas Arduino y Raspberry Pi Pico.",
+      "website": "https://github.com/piruetasxyz/Microfono",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/piruetasxyz/Microfono.git",
+      "providesIncludes": [
+        "Microfono.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/piruetasxyz/Microfono-0.1.0.zip",
+      "archiveFileName": "Microfono-0.1.0.zip",
+      "size": 22399,
+      "checksum": "SHA-256:40c8d819c76e838b43543170dc48c747325e947d1c6553d5bb3ad71522371110"
     }
   ]
 }
