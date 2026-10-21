@@ -23494,6 +23494,47 @@
       "checksum": "SHA-256:472daf249f5f6dd8567d3691d880ce37b311c2da1c802087312b4146f9616602"
     },
     {
+      "name": "Adafruit HX8357 Library",
+      "version": "1.2.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Adafruit HX8357 3.5\" display library.",
+      "paragraph": "Adafruit HX8357 3.5\" display library.",
+      "website": "https://github.com/adafruit/Adafruit_HX8357_Library",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_HX8357_Library.git",
+      "dependencies": [
+        {
+          "name": "Adafruit STMPE610"
+        },
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit TouchScreen"
+        },
+        {
+          "name": "SD"
+        },
+        {
+          "name": "Adafruit TSC2007"
+        },
+        {
+          "name": "Adafruit ImageReader Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_HX8357_Library-1.2.0.zip",
+      "archiveFileName": "Adafruit_HX8357_Library-1.2.0.zip",
+      "size": 327783,
+      "checksum": "SHA-256:6ff79fae9bd16cf85048754e95a4472a4204c961d4b45069176b82123df3ac64"
+    },
+    {
       "name": "Adafruit INA219",
       "version": "1.0.0",
       "author": "Adafruit",
@@ -24958,6 +24999,41 @@
       "archiveFileName": "Adafruit_ILI9341-1.6.4.zip",
       "size": 45362,
       "checksum": "SHA-256:7c9d72720f18ff783895294b7938e8e859ea8441fceae3265c50757f042fc738"
+    },
+    {
+      "name": "Adafruit ILI9341",
+      "version": "1.7.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Library for Adafruit ILI9341 displays",
+      "paragraph": "Library for Adafruit ILI9341 displays",
+      "website": "https://github.com/adafruit/Adafruit_ILI9341",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_ILI9341.git",
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit STMPE610"
+        },
+        {
+          "name": "Adafruit TouchScreen"
+        },
+        {
+          "name": "Adafruit TSC2007"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_ILI9341-1.7.0.zip",
+      "archiveFileName": "Adafruit_ILI9341-1.7.0.zip",
+      "size": 45371,
+      "checksum": "SHA-256:1eb034e7ff1954c463f4668cbba3b2242edafc4334d402d9aa9e4b49348046ea"
     },
     {
       "name": "Adafruit L3GD20 U",
@@ -35047,6 +35123,32 @@
       "checksum": "SHA-256:1bfc50dd3dec9328ee38432cf255306560fd5a43360bcc6e2a10069fcbd65879"
     },
     {
+      "name": "Adafruit SSD1331 OLED Driver Library for Arduino",
+      "version": "1.4.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "For 0.96\" OLEDs in the Adafruit shop",
+      "paragraph": "For 0.96\" OLEDs in the Adafruit shop",
+      "website": "https://github.com/adafruit/Adafruit-SSD1331-OLED-Driver-Library-for-Arduino",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit-SSD1331-OLED-Driver-Library-for-Arduino.git",
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_SSD1331_OLED_Driver_Library_for_Arduino-1.4.0.zip",
+      "archiveFileName": "Adafruit_SSD1331_OLED_Driver_Library_for_Arduino-1.4.0.zip",
+      "size": 26329,
+      "checksum": "SHA-256:1026808d3e3419d267b4f280d005e866e3befd27bf13a51dc645b7c55476b25e"
+    },
+    {
       "name": "Adafruit ST7735 and ST7789 Library",
       "version": "1.1.0",
       "author": "Adafruit",
@@ -36621,6 +36723,38 @@
       "archiveFileName": "Adafruit_ST7735_and_ST7789_Library-1.11.0.zip",
       "size": 70001,
       "checksum": "SHA-256:caaccddae871e6a46d8a711b63ad07ffc80344bfcbd3218a24c061e5e0e869ad"
+    },
+    {
+      "name": "Adafruit ST7735 and ST7789 Library",
+      "version": "1.12.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "This is a library for the Adafruit ST7735, ST7789, ST7796S SPI displays.",
+      "paragraph": "This is a library for the Adafruit ST7735, ST7789, ST7796S SPI displays.",
+      "website": "https://github.com/adafruit/Adafruit-ST7735-Library",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit-ST7735-Library.git",
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit seesaw Library"
+        },
+        {
+          "name": "SD"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_ST7735_and_ST7789_Library-1.12.0.zip",
+      "archiveFileName": "Adafruit_ST7735_and_ST7789_Library-1.12.0.zip",
+      "size": 70018,
+      "checksum": "SHA-256:60a88b11a026559712154df97488cc7512b72d5ac1b8ec91c8cace9c2ef853a8"
     },
     {
       "name": "Adafruit STMPE610",
@@ -48792,6 +48926,32 @@
       "archiveFileName": "Adafruit_GFX_Library-1.12.6.zip",
       "size": 357404,
       "checksum": "SHA-256:7d4dc7a7522716d2c88a3b1b9b13521d33cfeeae9ebffa42c2dba0559696a997"
+    },
+    {
+      "name": "Adafruit GFX Library",
+      "version": "1.13.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Adafruit GFX graphics core library, this is the 'core' class that all our other graphics libraries derive from.",
+      "paragraph": "Install this library in addition to the display library for your hardware.",
+      "website": "https://github.com/adafruit/Adafruit-GFX-Library",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit-GFX-Library.git",
+      "dependencies": [
+        {
+          "name": "Adafruit BusIO"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_GFX_Library-1.13.0.zip",
+      "archiveFileName": "Adafruit_GFX_Library-1.13.0.zip",
+      "size": 357665,
+      "checksum": "SHA-256:202ec716ff222fb08ffc544a5f315cb47b8630c35fbbc9944fc9f8c93d903924"
     },
     {
       "name": "Adafruit IO Arduino",
@@ -75457,6 +75617,111 @@
       "archiveFileName": "thinger_io-2.46.0.zip",
       "size": 164594,
       "checksum": "SHA-256:79d6fef4672b048c25883f05a32d558fe814c9a5bc27da9b76ee88e2f97d2f7c"
+    },
+    {
+      "name": "thinger.io",
+      "version": "2.46.1",
+      "author": "Alvaro Luis Bustamante \u003calvarolb@thinger.io\u003e",
+      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
+      "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
+      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating using the protocol IOTMP. Working with several devices like ESP8266, ESP32 (S2, S3, C3, C5, C6, P4), Raspberry Pi Pico W and Pico 2 W, Arduino Ethernet, Arduino Wifi, Arduino MKR1000, Arduino MKR1010, Arduino Nano RP2040 Connect, Arduino Nano 33 IOT, Arduino MKRNB1500, Arduino GSM1400, Arduino Portenta, Arduino Opta, Arduino R4, Arduino UNO Q, Arduino Yun, Adafruit CC3000, Arduino + GSM Modules, Texas Instruments CC3200, ENC28J60, LinkIt ONE.",
+      "website": "https://github.com/thinger-io/Arduino-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/thinger-io/Arduino-Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.46.1.zip",
+      "archiveFileName": "thinger_io-2.46.1.zip",
+      "size": 164821,
+      "checksum": "SHA-256:b9cec04609f52b3f5fabd41d70a36cdffaae21544d95e5bc674c4f2320635084"
+    },
+    {
+      "name": "thinger.io",
+      "version": "2.47.0",
+      "author": "Alvaro Luis Bustamante \u003calvarolb@thinger.io\u003e",
+      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
+      "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
+      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating using the protocol IOTMP. Working with several devices like ESP8266, ESP32 (S2, S3, C3, C5, C6, P4), Raspberry Pi Pico W and Pico 2 W, Arduino Ethernet, Arduino Wifi, Arduino MKR1000, Arduino MKR1010, Arduino Nano RP2040 Connect, Arduino Nano 33 IOT, Arduino MKRNB1500, Arduino GSM1400, Arduino Portenta, Arduino Opta, Arduino R4, Arduino UNO Q, Arduino Yun, Adafruit CC3000, Arduino + GSM Modules, Texas Instruments CC3200, ENC28J60, LinkIt ONE.",
+      "website": "https://github.com/thinger-io/Arduino-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/thinger-io/Arduino-Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.47.0.zip",
+      "archiveFileName": "thinger_io-2.47.0.zip",
+      "size": 168513,
+      "checksum": "SHA-256:4ebd98fb10ad9248d948eb38b43ff15f661b0dca6c301bc1db37d9a332ec3203"
+    },
+    {
+      "name": "thinger.io",
+      "version": "2.47.1",
+      "author": "Alvaro Luis Bustamante \u003calvarolb@thinger.io\u003e",
+      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
+      "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
+      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating using the protocol IOTMP. Working with several devices like ESP8266, ESP32 (S2, S3, C3, C5, C6, P4), Raspberry Pi Pico W and Pico 2 W, Arduino Ethernet, Arduino Wifi, Arduino MKR1000, Arduino MKR1010, Arduino Nano RP2040 Connect, Arduino Nano 33 IOT, Arduino MKRNB1500, Arduino GSM1400, Arduino Portenta, Arduino Opta, Arduino R4, Arduino UNO Q, Arduino Yun, Adafruit CC3000, Arduino + GSM Modules, Texas Instruments CC3200, ENC28J60, LinkIt ONE.",
+      "website": "https://github.com/thinger-io/Arduino-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/thinger-io/Arduino-Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.47.1.zip",
+      "archiveFileName": "thinger_io-2.47.1.zip",
+      "size": 169195,
+      "checksum": "SHA-256:56b7873469691e3773e32455ea9874a040c9595815575d3b61d5bda206d2d715"
+    },
+    {
+      "name": "thinger.io",
+      "version": "2.48.0",
+      "author": "Alvaro Luis Bustamante \u003calvarolb@thinger.io\u003e",
+      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
+      "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
+      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating using the protocol IOTMP. Working with several devices like ESP8266, ESP32 (S2, S3, C3, C5, C6, P4), Raspberry Pi Pico W and Pico 2 W, Arduino Ethernet, Arduino Wifi, Arduino MKR1000, Arduino MKR1010, Arduino Nano RP2040 Connect, Arduino Nano 33 IOT, Arduino MKRNB1500, Arduino GSM1400, Arduino Portenta, Arduino Opta, Arduino R4, Arduino UNO Q, Arduino Yun, Adafruit CC3000, Arduino + GSM Modules, Texas Instruments CC3200, ENC28J60, LinkIt ONE.",
+      "website": "https://github.com/thinger-io/Arduino-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/thinger-io/Arduino-Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.48.0.zip",
+      "archiveFileName": "thinger_io-2.48.0.zip",
+      "size": 172768,
+      "checksum": "SHA-256:a9fc521146d9bba41fc70a83b522a7fe8f8ebddf4e23d2ae9ad0266fc975ac6c"
+    },
+    {
+      "name": "thinger.io",
+      "version": "2.49.0",
+      "author": "Alvaro Luis Bustamante \u003calvarolb@thinger.io\u003e",
+      "maintainer": "Thinger.io \u003cadmin@thinger.io\u003e",
+      "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
+      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating using the protocol IOTMP. Working with several devices like ESP8266, ESP32 (S2, S3, C3, C5, C6, P4), Raspberry Pi Pico W and Pico 2 W, Arduino Ethernet, Arduino Wifi, Arduino MKR1000, Arduino MKR1010, Arduino Nano RP2040 Connect, Arduino Nano 33 IOT, Arduino MKRNB1500, Arduino GSM1400, Arduino Portenta, Arduino Opta, Arduino R4, Arduino UNO Q, Arduino Yun, Adafruit CC3000, Arduino + GSM Modules, Texas Instruments CC3200, ENC28J60, LinkIt ONE.",
+      "website": "https://github.com/thinger-io/Arduino-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/thinger-io/Arduino-Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.49.0.zip",
+      "archiveFileName": "thinger_io-2.49.0.zip",
+      "size": 179867,
+      "checksum": "SHA-256:889271444bc1997b3e97b2e7ccf073e287d18758eba91eac7f20b0299e7aaffa"
     },
     {
       "name": "CmdMessenger",
@@ -330146,6 +330411,35 @@
       "checksum": "SHA-256:fcf008f63dce1d85bdff7d5aa95f9deb9884f1d2a6e73c8d6f5ca6ba7f4aa1fe"
     },
     {
+      "name": "Adafruit INA260 Library",
+      "version": "1.5.4",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Arduino library for the INA260 sensors in the Adafruit shop",
+      "paragraph": "Arduino library for the INA260 sensors in the Adafruit shop",
+      "website": "https://github.com/adafruit/Adafruit_INA260",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_INA260.git",
+      "dependencies": [
+        {
+          "name": "Adafruit BusIO"
+        },
+        {
+          "name": "Adafruit NeoPixel"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_INA260_Library-1.5.4.zip",
+      "archiveFileName": "Adafruit_INA260_Library-1.5.4.zip",
+      "size": 13072,
+      "checksum": "SHA-256:5ec2aeed837134bbce444b48e40d1f15bd5320eba5bd052bb785f4a6fce5decf"
+    },
+    {
       "name": "Legoino",
       "version": "0.1.0",
       "author": "Cornelius Munz \u003clegoino@lulle.de\u003e",
@@ -505305,6 +505599,36 @@
       "checksum": "SHA-256:d41e18c6f25e51004f1a348c1c7ed711291ea7cb5408cac7ba32ab25a297ac0f"
     },
     {
+      "name": "LovyanGFX",
+      "version": "1.2.34",
+      "author": "lovyan03",
+      "maintainer": "lovyan03,tobozo",
+      "sentence": "TFT LCD Graphics driver with touch for ESP32/ESP8266, SAMD21/SAMD51, RP2040/RP2350",
+      "paragraph": "Supports TFT LCD displays using drivers that operate with hardware SPI. ESP32, ESP8266, SAMD21, SAMD51, RP2040, RP2350, M5Stack, M5StackCore2, M5StickC, M5StickCPlus, ODROID-GO, TTGO T-Watch, TTGO T-Wristband, ESP-WROVER-KIT, WioTerminal, WiFiBoy, MakePython, HX8357, ILI9163, ILI9342, ILI9341, ILI9486, ILI9488, ST7735, ST7789, ST7796, ST77916, SSD1351",
+      "website": "https://github.com/lovyan03/LovyanGFX",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "samd",
+        "rp2040",
+        "mbed_rp2040",
+        "mbed_nano",
+        "teensy"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/lovyan03/LovyanGFX.git",
+      "providesIncludes": [
+        "LovyanGFX.hpp"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/lovyan03/LovyanGFX-1.2.34.zip",
+      "archiveFileName": "LovyanGFX-1.2.34.zip",
+      "size": 49037193,
+      "checksum": "SHA-256:a045b6234b4c5a0373f7e06f8a7e519cc1acc7d4388b1b8bd83c8cd8d735be2b"
+    },
+    {
       "name": "PulsePattern",
       "version": "0.0.8",
       "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
@@ -523379,6 +523703,34 @@
       "checksum": "SHA-256:3c6abd60361cae3169622258c43caba0d782a0db665912ce6b4b9bba875281cb"
     },
     {
+      "name": "FastAccelStepper",
+      "version": "2.0.1",
+      "author": "Jochen Kiemes \u003cjochen@kiemes.de\u003e",
+      "maintainer": "Jochen Kiemes \u003cjochen@kiemes.de\u003e",
+      "license": "MIT",
+      "sentence": "A high speed stepper library for Atmega 168/168p/328/328p (nano), 32u4 (leonardo), 2560, ESP32, ESP32S2, ESP32S3, ESP32C3, ESP32C6, Atmel SAM Due, Microchip SAMD51, Raspberry pi pico and pico 2",
+      "paragraph": "Drive stepper motors with acceleration/deceleration profile up to 50 kSteps/s (Atmega) and 200kSteps/s (esp32).",
+      "website": "https://github.com/gin66/FastAccelStepper",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "esp32",
+        "sam",
+        "samd",
+        "rp2040",
+        "rp2350",
+        "teensy"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/gin66/FastAccelStepper.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/gin66/FastAccelStepper-2.0.1.zip",
+      "archiveFileName": "FastAccelStepper-2.0.1.zip",
+      "size": 1761947,
+      "checksum": "SHA-256:1ffebf8691c13268d8e5c7c21376e9c5458b2c4b191a7e5de9247d939076c409"
+    },
+    {
       "name": "mWebSockets",
       "version": "1.2.0",
       "author": "Dawid Kurek",
@@ -537719,6 +538071,30 @@
       "archiveFileName": "DABShield-2.1.3.zip",
       "size": 166720,
       "checksum": "SHA-256:7b48d0f9a1d09a8bb3aeb698f748f5ff88d1391befaf32ed6f4e3f304f344f9e"
+    },
+    {
+      "name": "DABShield",
+      "version": "2.1.4",
+      "author": "Adrian Verity \u003cadrian@dabshield.com\u003e",
+      "maintainer": "Adrian Verity \u003cadrian@dabshield.com\u003e",
+      "sentence": "Library for controlling DABShield DAB/DAB+/FM digital radio shield",
+      "paragraph": "Supports DAB/DAB+ functionality with Service Info, and FM with RDS, Compatible with both 3.3v and 5v boards e.g. UNO, DUE, M0, ZERO, etc",
+      "website": "http://dabshield.com/",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dabshield/DABShield.git",
+      "providesIncludes": [
+        "DABShield.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dabshield/DABShield-2.1.4.zip",
+      "archiveFileName": "DABShield-2.1.4.zip",
+      "size": 174055,
+      "checksum": "SHA-256:eb2039f225334a2cc193407e246e2cc704f8dba1ebd2a3127e4d27ac6aac8d47"
     },
     {
       "name": "I2CKeyPad",
@@ -603317,6 +603693,30 @@
       "archiveFileName": "InkplateLibrary-11.2.0.zip",
       "size": 51520204,
       "checksum": "SHA-256:a95137bb544c9a3d9aa9dc7276fd9e44a0dc6a350e3a43bd38375dfd4f2cd5f9"
+    },
+    {
+      "name": "InkplateLibrary",
+      "version": "11.2.1",
+      "author": "Soldered \u003chello@soldered.com\u003e",
+      "maintainer": "David Zovko \u003chello@soldered.com\u003e",
+      "sentence": "Inkplate boards driver library",
+      "paragraph": "Implements drawing and system functions for Inkplate series of e-paper displays",
+      "website": "https://github.com/SolderedElectronics/Inkplate-Arduino-library",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/e-radionicacom/Inkplate-6-Arduino-library.git",
+      "providesIncludes": [
+        "Inkplate.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/e-radionicacom/InkplateLibrary-11.2.1.zip",
+      "archiveFileName": "InkplateLibrary-11.2.1.zip",
+      "size": 52359633,
+      "checksum": "SHA-256:538a7794cf6401d77b2d5028b35e6bdb57fe29d78143c31497647c3c2181d447"
     },
     {
       "name": "NHB_AD7794",
@@ -679019,6 +679419,32 @@
       "checksum": "SHA-256:4a7a442007f9cf273f0557226dae8dd6123f6724aadeb361d05cd57c673f2895"
     },
     {
+      "name": "FTTech SAMD51 Clicks",
+      "version": "1.3.8",
+      "author": "FTTechBrasil \u003ccontato@fttech.com.br\u003e",
+      "maintainer": "FTTechBrasil \u003ccontato@fttech.com.br\u003e",
+      "sentence": "Arduino IDE Library to make our SAMD51 easier to use.",
+      "paragraph": "Improved usability with common commands and parameters, better interface to sleeping methods and powering sensors.",
+      "website": "https://github.com/FTTechBrasil/FTTech_SAMD51_Clicks",
+      "category": "Other",
+      "architectures": [
+        "samd"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/FTTechBrasil/FTTech_SAMD51_Clicks.git",
+      "dependencies": [
+        {
+          "name": "Adafruit SleepyDog Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/FTTechBrasil/FTTech_SAMD51_Clicks-1.3.8.zip",
+      "archiveFileName": "FTTech_SAMD51_Clicks-1.3.8.zip",
+      "size": 19895,
+      "checksum": "SHA-256:f74ead99a755acc2368c060b0a1ef8af97387735c3b360db548aa426d725f269"
+    },
+    {
       "name": "ACAN_ESP32",
       "version": "1.0.0",
       "author": "Mohamed Irfanulla, Pierre Molinaro",
@@ -690736,6 +691162,30 @@
       "archiveFileName": "M5GFX-0.2.33.zip",
       "size": 49299504,
       "checksum": "SHA-256:5fe22fc933b54e6ce933cca8f55ceb5461c7eb66106d71f1d4ff9925f9522e7d"
+    },
+    {
+      "name": "M5GFX",
+      "version": "0.2.34",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack All Display",
+      "paragraph": "M5Stack, M5Stack Core2, M5Stack CoreInk, M5StickC, M5StickC-Plus, M5Paper, M5Tough, M5Station, M5ATOMS3, Unit OLED, Unit LCD, Unit RCA, ATOM Display, See more on http://M5Stack.com",
+      "website": "https://github.com/m5stack/M5GFX.git",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5GFX.git",
+      "providesIncludes": [
+        "M5GFX.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5GFX-0.2.34.zip",
+      "archiveFileName": "M5GFX-0.2.34.zip",
+      "size": 49301232,
+      "checksum": "SHA-256:8b8c2a1fb56017f159cd8cf21d6b7348cd86c9e1036212b61e3fc269ad2496cf"
     },
     {
       "name": "Tachometer",
@@ -753186,6 +753636,36 @@
       "checksum": "SHA-256:a9514335c03b20eb41f1a262a059678bf2c07405695923a692a1a3de48ddb089"
     },
     {
+      "name": "M5Unified",
+      "version": "0.2.27",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Unified library for M5Stack series",
+      "paragraph": "M5Stack, M5Stack Core2, M5Stack CoreInk, M5StickC, M5StickC-Plus, M5Paper, M5Tough, M5ATOM, M5STAMP, M5Station, See more on http://M5Stack.com",
+      "website": "https://github.com/m5stack/M5Unified.git",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unified.git",
+      "providesIncludes": [
+        "M5Unified.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5GFX",
+          "version": "\u003e=0.2.31"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unified-0.2.27.zip",
+      "archiveFileName": "M5Unified-0.2.27.zip",
+      "size": 726134,
+      "checksum": "SHA-256:ec291d49cc5612bc58ea8db18d52b7fa06bd64a9bdd3890336bff18a80ef46b4"
+    },
+    {
       "name": "WireSusi",
       "version": "0.0.1",
       "author": "Luca Fidanza \u003cTheFidaxContacts@gmail.com\u003e",
@@ -768995,6 +769475,32 @@
       "checksum": "SHA-256:d175711b9ee9102da2e92770ea099a0aa062be48d4c25516967355d51a681b5d"
     },
     {
+      "name": "DFRobot_EnvironmentalSensor",
+      "version": "1.1.1",
+      "author": "DFRobot",
+      "maintainer": "TangJie \u003cjie.tang@dfrobot.com\u003e",
+      "sentence": "A environmental sensor.(SKU:SEN0500\\SEN0501)",
+      "paragraph": "A module that integrates multiple environmental sensors",
+      "website": "https://github.com/DFRobot/DFRobot_EnvironmentalSensor",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_EnvironmentalSensor.git",
+      "dependencies": [
+        {
+          "name": "DFRobot_RTU"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_EnvironmentalSensor-1.1.1.zip",
+      "archiveFileName": "DFRobot_EnvironmentalSensor-1.1.1.zip",
+      "size": 250834,
+      "checksum": "SHA-256:23c91df73627e4b1628fddd73c3f4ec291525db947607bc53419dd1f1a0b7cfd"
+    },
+    {
       "name": "PCA9622",
       "version": "1.1.0",
       "author": "Ruben Neurink-Sluiman",
@@ -772083,6 +772589,53 @@
       "archiveFileName": "Adafruit_TestBed-1.14.5.zip",
       "size": 8167334,
       "checksum": "SHA-256:20c49270a2a900ab4c1218ac5b3a4bc0d63770c0459defd541f560fb8ded2309"
+    },
+    {
+      "name": "Adafruit TestBed",
+      "version": "1.14.6",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Adafruit's internal test bed code library",
+      "paragraph": "Adafruit's internal test bed code library",
+      "website": "https://github.com/adafruit/Adafruit_TestBed",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_TestBed.git",
+      "dependencies": [
+        {
+          "name": "Adafruit NeoPixel"
+        },
+        {
+          "name": "Adafruit MCP4725"
+        },
+        {
+          "name": "Adafruit TinyUSB Library"
+        },
+        {
+          "name": "Adafruit SPIFlash"
+        },
+        {
+          "name": "SdFat - Adafruit Fork"
+        },
+        {
+          "name": "Pico PIO USB"
+        },
+        {
+          "name": "LiquidCrystal"
+        },
+        {
+          "name": "Adafruit DAP library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_TestBed-1.14.6.zip",
+      "archiveFileName": "Adafruit_TestBed-1.14.6.zip",
+      "size": 8168850,
+      "checksum": "SHA-256:4110c9bd26a3de11750a42a2bb7c652d707b942a5e9c3e4b98e87db4a895e57e"
     },
     {
       "name": "SimplePortal",
@@ -941606,6 +942159,32 @@
       "checksum": "SHA-256:ff9c3525afe4e33e4b5e1b532d3ccca128630d283fc2e145c328312a3c2802b1"
     },
     {
+      "name": "Adafruit GC9A01A",
+      "version": "1.2.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Library for GC9A01A displays",
+      "paragraph": "Library for GC9A01A displays",
+      "website": "https://github.com/Adafruit/Adafruit_GC9A01A",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_GC9A01A.git",
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_GC9A01A-1.2.0.zip",
+      "archiveFileName": "Adafruit_GC9A01A-1.2.0.zip",
+      "size": 12472,
+      "checksum": "SHA-256:49037ab04a6c695591a688f47db5c0d8b063f38dd4539d75e6a42dcde2a09494"
+    },
+    {
       "name": "Stepper Async 5",
       "version": "1.1.0",
       "author": "Dang-gun",
@@ -973484,6 +974063,27 @@
       "archiveFileName": "SensorLib-0.5.0.zip",
       "size": 11515935,
       "checksum": "SHA-256:f181e31b8cd70c7b8eb3b1d0b533e3fcbf90328222f3bb3b609c3e54de2f361b"
+    },
+    {
+      "name": "SensorLib",
+      "version": "0.5.1",
+      "author": "Lewis He",
+      "maintainer": "Lewis He \u003clewishe@outlook.com\u003e",
+      "sentence": "Multi-platform I2C and SPI sensor and power device library",
+      "paragraph": "Supports RTC, IMU, magnetometer, accelerometer, touch, PMIC, battery gauge, haptic, light sensor, I/O expander, LED, and finger navigation devices on Arduino, PlatformIO, and ESP-IDF.",
+      "website": "https://github.com/lewisxhe/SensorLib",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/lewisxhe/SensorLib.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/lewisxhe/SensorLib-0.5.1.zip",
+      "archiveFileName": "SensorLib-0.5.1.zip",
+      "size": 11526292,
+      "checksum": "SHA-256:0d47b33aad43724b91ef7e47601f8343c8385a93dfc0205fd562fc06f34fc6dc"
     },
     {
       "name": "readguy",
@@ -1067037,6 +1067637,78 @@
       "archiveFileName": "CmdSerial-1.1.2.zip",
       "size": 16277,
       "checksum": "SHA-256:7a31d2745ab61397fab259ec87720547d7d51e73640a1acac112aa22b9c5a38f"
+    },
+    {
+      "name": "CmdSerial",
+      "version": "1.2.0",
+      "author": "Angel Zaprianov \u003cfire1@abv.bg\u003e",
+      "maintainer": "Angel Zaprianov \u003cfire1@abv.bg\u003e",
+      "sentence": "Simple library that provides an easy way to input/output data from the sketch.",
+      "paragraph": "Command parsing over Serial with templated set/print helpers for debugging sketches.",
+      "website": "https://github.com/fire1/CmdSerial",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/fire1/CmdSerial.git",
+      "providesIncludes": [
+        "CmdSerial.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/fire1/CmdSerial-1.2.0.zip",
+      "archiveFileName": "CmdSerial-1.2.0.zip",
+      "size": 17405,
+      "checksum": "SHA-256:4c03dc7c7926e6b130cd3ea616db1ee48df67418f963c2cf192d1051283b8ec5"
+    },
+    {
+      "name": "CmdSerial",
+      "version": "1.2.1",
+      "author": "Angel Zaprianov \u003cfire1@abv.bg\u003e",
+      "maintainer": "Angel Zaprianov \u003cfire1@abv.bg\u003e",
+      "sentence": "Simple library that provides an easy way to input/output data from the sketch.",
+      "paragraph": "Command parsing over Serial with templated set/print helpers for debugging sketches.",
+      "website": "https://github.com/fire1/CmdSerial",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/fire1/CmdSerial.git",
+      "providesIncludes": [
+        "CmdSerial.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/fire1/CmdSerial-1.2.1.zip",
+      "archiveFileName": "CmdSerial-1.2.1.zip",
+      "size": 17400,
+      "checksum": "SHA-256:ff32e00b01a39fc09f2165bc745f7ff569bb0dafdf350dc3ad662249bb285333"
+    },
+    {
+      "name": "CmdSerial",
+      "version": "1.2.2",
+      "author": "Angel Zaprianov \u003cfire1@abv.bg\u003e",
+      "maintainer": "Angel Zaprianov \u003cfire1@abv.bg\u003e",
+      "sentence": "Simple library that provides an easy way to input/output data from the sketch.",
+      "paragraph": "Command parsing over Serial with templated set/print helpers for debugging sketches.",
+      "website": "https://github.com/fire1/CmdSerial",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/fire1/CmdSerial.git",
+      "providesIncludes": [
+        "CmdSerial.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/fire1/CmdSerial-1.2.2.zip",
+      "archiveFileName": "CmdSerial-1.2.2.zip",
+      "size": 17662,
+      "checksum": "SHA-256:631c0b02807aa3450152bf3a066440f8d7741a12cfecf9e7eb17d10033d83806"
     },
     {
       "name": "LCT200",
@@ -1198908,6 +1199580,36 @@
       "checksum": "SHA-256:c729c1d1e859c1467934ebe3d47acd7a05dff2725535d6b4fe0c6b2d9bd89670"
     },
     {
+      "name": "Rotary_encoder",
+      "version": "3.1.2",
+      "author": "Csermendy Bendeguz",
+      "maintainer": "Csermendy Bendeguz",
+      "sentence": "Reads the position of a rotary encoder and optionally displays on NeoPixel ring/strip.",
+      "paragraph": "Easy to use with multiple funtions.",
+      "website": "https://github.com/Bendeguz-Cs/Rotary_encoder/tree/main",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Bendeguz-Cs/Rotary_encoder.git",
+      "providesIncludes": [
+        "Rotary_encoder.h"
+      ],
+      "dependencies": [
+        {
+          "name": "PinChangeInterrupt",
+          "version": "\u003e=1.2.9 \u0026\u0026 \u003c2.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Bendeguz-Cs/Rotary_encoder-3.1.2.zip",
+      "archiveFileName": "Rotary_encoder-3.1.2.zip",
+      "size": 17161,
+      "checksum": "SHA-256:30820502dd7f529199be57f9e77fb7aa1c7b22909bc6c7e60c706f175748372a"
+    },
+    {
       "name": "GrafikLogger",
       "version": "1.0.0",
       "author": "Aditya Sharma",
@@ -1294808,6 +1295510,27 @@
       "checksum": "SHA-256:522655361d52bebf3a99b0dc3f69ae75c15e38e0bb6bc2cac8f93754eaddb345"
     },
     {
+      "name": "HANUMAN_32",
+      "version": "0.1.5",
+      "author": "hii-nice-2-meet-u \u003c0x0.whitecat@gmail.com\u003e",
+      "maintainer": "hii-nice-2-meet-u \u003c0x0.whitecat@gmail.com\u003e",
+      "sentence": "Arduino Library for HANUMAN-32",
+      "paragraph": "This library easy to read input and control output on Hanuman-32 Board.",
+      "website": "https://github.com/hii-nice-2-meet-u/HANUMAN_32",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/hii-nice-2-meet-u/HANUMAN_32.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/hii-nice-2-meet-u/HANUMAN_32-0.1.5.zip",
+      "archiveFileName": "HANUMAN_32-0.1.5.zip",
+      "size": 9255622,
+      "checksum": "SHA-256:d4c8015d133596cb9fa9506af609ba0799afef49fe5b967d924feefbda81a363"
+    },
+    {
       "name": "CAN_MREx",
       "version": "1.12.0",
       "author": "Chiara Gillam",
@@ -1331067,6 +1331790,40 @@
       "checksum": "SHA-256:d2e437ff2295ef756500223e44defd2747cfc098323af253674b289154f87cd1"
     },
     {
+      "name": "IoTera",
+      "version": "1.3.3",
+      "author": "JslamA Dev",
+      "maintainer": "JslamA Dev",
+      "sentence": "Connect ESP8266/ESP32 to the IoTera app with auto online-status heartbeat.",
+      "paragraph": "Real-time Firebase link between ESP8266/ESP32 and the IoTera mobile dashboard: send sensor data, receive button/slider commands, non-blocking WiFi reconnect, and automatic 30-second heartbeat with piggyback updates so the app shows the true online status.",
+      "website": "https://github.com/juslam/IoTera_Arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/juslam/IoTera_Arduino.git",
+      "providesIncludes": [
+        "IoTeraDevice.h"
+      ],
+      "dependencies": [
+        {
+          "name": "FirebaseClient",
+          "version": "=1.1.8"
+        },
+        {
+          "name": "FirebaseJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/juslam/IoTera-1.3.3.zip",
+      "archiveFileName": "IoTera-1.3.3.zip",
+      "size": 12701,
+      "checksum": "SHA-256:51601f43fc422ca5e30c81a55fdd25c1e6cc2baa7532b35adc3296a19e726cee"
+    },
+    {
       "name": "ESP32P4_ULP",
       "version": "0.0.1",
       "author": "Xorlent",
@@ -1341318,6 +1342075,39 @@
       "archiveFileName": "AutoconnectoSDK-1.7.54.zip",
       "size": 179881,
       "checksum": "SHA-256:a37540b05be97ce5d762ae8c9e851090756ac79c43c7a569bbcc2fef739bdb97"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.56",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
+      "paragraph": "Connects ESP32, ESP32-C3, and ESP32-S3 to Autoconnecto over MQTTS and MQTT-over-WSS, with shared and client attributes, telemetry, RPC, and OTA. ESP8266 and Raspberry Pi Pico W use the HTTPS examples. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.56.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.56.zip",
+      "size": 180140,
+      "checksum": "SHA-256:28c2600a29158f2591cbdd6e32023d9d84c4c8e3888222c73ba56764a0f1e0f3"
     },
     {
       "name": "SPIKeyPad",
@@ -1369256,6 +1370046,30 @@
       "checksum": "SHA-256:0159e3896d28ebfd54cfefaeed46a393d5e2343cec1632dcd922a238e04ba878"
     },
     {
+      "name": "ESP32IRPulseKit",
+      "version": "1.0.6",
+      "author": "TANAKA Masayuki",
+      "maintainer": "TANAKA Masayuki",
+      "sentence": "IR remote send/receive toolkit for ESP32 (Arduino Core 3.0+/ESP-IDF 5 RMT driver).",
+      "paragraph": "Provides RAW tick capture, scoring-based decode candidate handling, and protocol-based send helpers designed for the ESP32 RMT driver, plus a separate air-conditioner layer (esp32irpk::ac) that decodes/encodes vendor state frames (Panasonic, Gree, Mitsubishi, Mitsubishi Heavy, Fujitsu, Daikin, Toshiba, Samsung, Sharp, Kelvinator, Midea, Carrier, Hitachi, Haier, TCL).",
+      "website": "https://github.com/tanakamasayuki/ESP32IRPulseKit",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tanakamasayuki/ESP32IRPulseKit.git",
+      "providesIncludes": [
+        "ESP32IRPulseKit.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/ESP32IRPulseKit-1.0.6.zip",
+      "archiveFileName": "ESP32IRPulseKit-1.0.6.zip",
+      "size": 220324,
+      "checksum": "SHA-256:0deb649eaa9f167a333a0ab30187627ac15ee418dec805753045296116112fd8"
+    },
+    {
       "name": "AsyncBitMatrix",
       "version": "1.0.0",
       "author": "HimC29",
@@ -1388203,6 +1389017,32 @@
       "checksum": "SHA-256:a9a92be7a2cbe41e7e7bffae558d3c9331e2601e383682286e2748f52c9cfc94"
     },
     {
+      "name": "Waveshare_TFT_Touch",
+      "version": "1.3.2",
+      "author": "Tedd OKANO",
+      "maintainer": "Tedd OKANO",
+      "sentence": "Arduino driver for the Waveshare 2.8inch TFT Touch Shield (SKU: 10684; ST7789V LCD + XPT2046 touch)",
+      "paragraph": "Provides ST7789V graphics primitives and XPT2046 resistive touch reading over the shield's shared hardware SPI bus. Pin mapping is fixed by the shield's own PCB (D3/D4/D7/D9/D10, Arduino Uno R3 header form factor) so no wiring configuration is needed.",
+      "website": "https://github.com/teddokano/Waveshare_TFT_Touch_Arduino",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/teddokano/Waveshare_TFT_Touch_Arduino.git",
+      "dependencies": [
+        {
+          "name": "SD"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/teddokano/Waveshare_TFT_Touch-1.3.2.zip",
+      "archiveFileName": "Waveshare_TFT_Touch-1.3.2.zip",
+      "size": 557961,
+      "checksum": "SHA-256:8a1e8fdacaf89c5bc47abcd30b635058b90f5ad6d410bf4f7334ab1e60964436"
+    },
+    {
       "name": "PicoCamera",
       "version": "0.2.0",
       "author": "umeko",
@@ -1394754,6 +1395594,37 @@
       "archiveFileName": "UsbIo-0.4.2.zip",
       "size": 252055,
       "checksum": "SHA-256:3014a6b556b54e4a2c6abc6b90a546df941650de104820e953a79ead6bc9dc14"
+    },
+    {
+      "name": "UsbIo",
+      "version": "0.4.3",
+      "author": "Paolo Bosetti",
+      "maintainer": "Paolo Bosetti \u003cpaolo.bosetti@me.com\u003e",
+      "sentence": "Turns the board into a USB vendor-class I/O device (digital I/O, analog in, PWM, DAC) driven by a libusb host driver.",
+      "paragraph": "Commands travel as USB control requests on endpoint 0 and are executed from loop(); no serial protocol is involved and the CDC Serial port stays free for debugging. Verified stacks: Arduino mbed (Portenta H7 on hardware; GIGA R1, Nano 33 BLE, Nano RP2040 Connect compile-checked), Renesas (UNO R4 Minima, Nano R4) and SAMD21 (Zero, MKR, Nano 33 IoT), both compile-checked. Unverified scaffolding: arduino-pico RP2040 and arduino-esp32 (USB-OTG mode).",
+      "website": "https://github.com/pbosetti/ArduinoDriver",
+      "category": "Communication",
+      "architectures": [
+        "mbed",
+        "mbed_portenta",
+        "mbed_giga",
+        "mbed_nano",
+        "renesas_uno",
+        "samd",
+        "rp2040",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pbosetti/ArduinoDriver.git",
+      "providesIncludes": [
+        "UsbIo.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pbosetti/UsbIo-0.4.3.zip",
+      "archiveFileName": "UsbIo-0.4.3.zip",
+      "size": 252945,
+      "checksum": "SHA-256:9213cecf1146ae1d7c5ebda9f18f1aad3c49f4c6eae34acd0b1c9aba7a267690"
     },
     {
       "name": "Biovo1020A",
@@ -1403445,6 +1404316,48 @@
       "checksum": "SHA-256:ec2abc622fcf15ee2885d550c152d88e2e61b8ce512901fc01f118ddc3d2161d"
     },
     {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.35",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.35.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.35.zip",
+      "size": 877818,
+      "checksum": "SHA-256:1cf5fc1a31355c0e55100a933c8d4c2e820a66e6cb19cf2a750f288a8a8a9f4f"
+    },
+    {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.36",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.36.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.36.zip",
+      "size": 878021,
+      "checksum": "SHA-256:9ae975b389fff748535435a827180e62fbff416513210bef558dffe1176af09d"
+    },
+    {
       "name": "MPU9250-DMP",
       "version": "1.0.0",
       "author": "Renzo Mischianti \u003crenzo.mischianti@gmail.com\u003e",
@@ -1408082,6 +1408995,66 @@
       "archiveFileName": "XeWeCore-3.0.0.zip",
       "size": 267013,
       "checksum": "SHA-256:3bf8c00a40e6a581f4d2482b4ca40e805883dbbe4f6018b09fc34adced49716f"
+    },
+    {
+      "name": "XeWeCore",
+      "version": "3.1.0",
+      "author": "Maxim Dokukin",
+      "maintainer": "Maxim Dokukin",
+      "sentence": "Modular firmware core for ESP32: serial console, command line, typed NVS storage, helpers and a module framework.",
+      "paragraph": "Include \u003cXeWeCore.h\u003e and use the parts on their own (xewe::SerialPort, xewe::Cli, xewe::Nvs) or as a whole through XeWeOs: modules that each own a $group of commands and an NVS namespace, settings declared once as a table, and a JSON settings schema for tools.",
+      "website": "https://github.com/xewe-labs/xewe-os-core",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/xewe-labs/xewe-os-core.git",
+      "providesIncludes": [
+        "XeWeCore.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=7.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeCore-3.1.0.zip",
+      "archiveFileName": "XeWeCore-3.1.0.zip",
+      "size": 309546,
+      "checksum": "SHA-256:6ffa475e46590521c19cfc8a99408cde7ee3d13b60c3fb0a35a9cd897835d9ca"
+    },
+    {
+      "name": "XeWeCore",
+      "version": "3.1.1",
+      "author": "Maxim Dokukin",
+      "maintainer": "Maxim Dokukin",
+      "sentence": "Modular firmware core for ESP32: serial console, command line, typed NVS storage, helpers and a module framework.",
+      "paragraph": "Include \u003cXeWeCore.h\u003e and use the parts on their own (xewe::SerialPort, xewe::Cli, xewe::Nvs) or as a whole through XeWeOs: modules that each own a $group of commands and an NVS namespace, settings declared once as a table, and a JSON settings schema for tools.",
+      "website": "https://github.com/xewe-labs/xewe-os-core",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/xewe-labs/xewe-os-core.git",
+      "providesIncludes": [
+        "XeWeCore.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=7.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeCore-3.1.1.zip",
+      "archiveFileName": "XeWeCore-3.1.1.zip",
+      "size": 332439,
+      "checksum": "SHA-256:219eab4748e84b114291901e27633cf09f2d032eb2af1048ea6d8a325eec4ea3"
     },
     {
       "name": "RepeatedTask",
@@ -1413277,6 +1414250,54 @@
       "checksum": "SHA-256:df45cc753b60c731e245d7e7af162c0abf6985d05a2cf269ca0a4e7db9986c33"
     },
     {
+      "name": "ottu-target",
+      "version": "0.2.0",
+      "author": "Infineon Technologies",
+      "maintainer": "Infineon Technologies \u003cwww.infineon.com\u003e",
+      "sentence": "On-target testing utility support library for embedded devices.",
+      "paragraph": "On-target testing utility support library for embedded devices.",
+      "website": "https://github.com/Infineon/arduino-ottu-target",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Infineon/arduino-ottu-target.git",
+      "providesIncludes": [
+        "ottu.hpp"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Infineon/ottu_target-0.2.0.zip",
+      "archiveFileName": "ottu_target-0.2.0.zip",
+      "size": 83673,
+      "checksum": "SHA-256:afb41b2b9c599db6aedfeb9e47020212ae968a3d848af1aa75d2692896dbb91e"
+    },
+    {
+      "name": "ottu-target",
+      "version": "0.2.1",
+      "author": "Infineon Technologies",
+      "maintainer": "Infineon Technologies \u003cwww.infineon.com\u003e",
+      "sentence": "On-target testing utility support library for embedded devices.",
+      "paragraph": "On-target testing utility support library for embedded devices.",
+      "website": "https://github.com/Infineon/arduino-ottu-target",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Infineon/arduino-ottu-target.git",
+      "providesIncludes": [
+        "ottu.hpp"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Infineon/ottu_target-0.2.1.zip",
+      "archiveFileName": "ottu_target-0.2.1.zip",
+      "size": 83680,
+      "checksum": "SHA-256:d96df8e8dc1f7a98158b0f85c56a4570fd8d473f1a8f75bfe2b9e0e4ebb7e90a"
+    },
+    {
       "name": "SuperJupiterSampleWindow",
       "version": "0.1.0",
       "author": "SuperJupiter",
@@ -1414373,6 +1415394,556 @@
       "archiveFileName": "Microfono-0.1.0.zip",
       "size": 22399,
       "checksum": "SHA-256:40c8d819c76e838b43543170dc48c747325e947d1c6553d5bb3ad71522371110"
+    },
+    {
+      "name": "Microfono",
+      "version": "0.0.2",
+      "author": "piruetasxyz",
+      "maintainer": "piruetasxyz",
+      "sentence": "Biblioteca para usar microfonos con microcontroladores.",
+      "paragraph": "Lee un microfono electret con modulo amplificador y entrega la amplitud del sonido, pico a pico. Compatible con placas Arduino y Raspberry Pi Pico.",
+      "website": "https://github.com/piruetasxyz/Microfono",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/piruetasxyz/Microfono.git",
+      "providesIncludes": [
+        "Microfono.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/piruetasxyz/Microfono-0.0.2.zip",
+      "archiveFileName": "Microfono-0.0.2.zip",
+      "size": 22700,
+      "checksum": "SHA-256:937a675caec93bec0662f5c95f95a189ff8c30cc6dec888fc02936291cd548aa"
+    },
+    {
+      "name": "TM1637binaryLed",
+      "version": "1.0.0",
+      "author": "İsmail Caner Naz",
+      "maintainer": "İsmail Caner Naz",
+      "license": "LGPL-2.1-only",
+      "sentence": "Controls a binary LED matrix using the TM1637 controller.",
+      "paragraph": "Displays six decimal digits as binary values on a custom 20-LED matrix with binary-weighted rows.",
+      "website": "https://github.com/ismailcanernaz/TM1637binaryLed",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ismailcanernaz/TM1637binaryLed.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/ismailcanernaz/TM1637binaryLed-1.0.0.zip",
+      "archiveFileName": "TM1637binaryLed-1.0.0.zip",
+      "size": 19016,
+      "checksum": "SHA-256:3608b7bc705a56b638c799f401a78289c64ecf9d914b6c9ac7902bce8ef15aee"
+    },
+    {
+      "name": "UnoQ_AdafruitTouch",
+      "version": "1.0.0",
+      "author": "ankur608",
+      "maintainer": "ankur608 \u003cankur608@users.noreply.github.com\u003e",
+      "sentence": "Driver and touch calibration wrapper for the Adafruit 2.8\" Capacitive TFT Shield on Arduino UNO Q.",
+      "paragraph": "Provides pre-configured SPI pinouts (MOSI=23, MISO=22, SCK=24) and FT6206 capacitive I2C touch coordinate transformations for all display rotations on the Arduino UNO Q (STM32U585).",
+      "website": "https://github.com/ankur608/ArduinoUnoQ_AdafruitTouch",
+      "category": "Display",
+      "architectures": [
+        "zephyr",
+        "mbed",
+        "stm32",
+        "samd",
+        "avr",
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ankur608/ArduinoUnoQ_AdafruitTouch.git",
+      "providesIncludes": [
+        "ArduinoUnoQ_AdafruitTouch.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit ILI9341"
+        },
+        {
+          "name": "Adafruit FT6206 Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ankur608/UnoQ_AdafruitTouch-1.0.0.zip",
+      "archiveFileName": "UnoQ_AdafruitTouch-1.0.0.zip",
+      "size": 98582,
+      "checksum": "SHA-256:658aae80d310c707a898199d70f12310ae1da0768d66251ffc70f3dbaec3f2b5"
+    },
+    {
+      "name": "EasyMicro",
+      "version": "1.0.0",
+      "author": "Harikrishnan",
+      "maintainer": "Harikrishnan",
+      "sentence": "Simple functions for beginner microcontroller projects.",
+      "paragraph": "Beginner-friendly LED control and timing functions for Arduino-compatible boards.",
+      "website": "https://github.com/Harikrishnan-Dev01/EasyMicro",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Harikrishnan-Dev01/EasyMicro.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Harikrishnan-Dev01/EasyMicro-1.0.0.zip",
+      "archiveFileName": "EasyMicro-1.0.0.zip",
+      "size": 7387,
+      "checksum": "SHA-256:f110671e0bbabf3b34f90db52364f270a19dff68108e85df2ce10e33df5b70a4"
+    },
+    {
+      "name": "EasyMicro",
+      "version": "1.0.2",
+      "author": "Harikrishnan",
+      "maintainer": "Harikrishnan",
+      "sentence": "Simple functions for beginner microcontroller projects.",
+      "paragraph": "Beginner-friendly LED control and timing functions for Arduino-compatible boards.",
+      "website": "https://github.com/Harikrishnan-Dev01/EasyMicro",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Harikrishnan-Dev01/EasyMicro.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Harikrishnan-Dev01/EasyMicro-1.0.2.zip",
+      "archiveFileName": "EasyMicro-1.0.2.zip",
+      "size": 7387,
+      "checksum": "SHA-256:332190876540737d521dd13faec589d42bfbcc3d338929dc30697d80ac134a51"
+    },
+    {
+      "name": "ARDUniaButton",
+      "version": "0.2.0",
+      "author": "Hamidreza Milaninia [ARDUnia]",
+      "maintainer": "Hamidreza Milaninia [ARDUnia]",
+      "sentence": "A non-blocking Arduino button event library with debounce, clicks, long press and repeat.",
+      "paragraph": "Provides deterministic button state and event detection using millis(), with polling and callback APIs. Default wiring uses INPUT_PULLUP with the button connected to GND.",
+      "website": "https://github.com/ARDUnia/ARDUniaButton",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ARDUnia/ARDUniaButton.git",
+      "providesIncludes": [
+        "ARDUniaButton.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ARDUnia/ARDUniaButton-0.2.0.zip",
+      "archiveFileName": "ARDUniaButton-0.2.0.zip",
+      "size": 11072,
+      "checksum": "SHA-256:d4d4ad057350da70e20e382a43e31a4aabcd79cc78b1f5a6dacf211400d828e0"
+    },
+    {
+      "name": "ARDUniaButton",
+      "version": "0.2.1",
+      "author": "Hamidreza Milaninia [ARDUnia] \u003cmilaninia.h@gmail.com\u003e",
+      "maintainer": "Hamidreza Milaninia \u003cmilaninia.h@gmail.com\u003e",
+      "sentence": "A non-blocking Arduino button event library with debounce, clicks, long press and repeat.",
+      "paragraph": "Provides deterministic button state and event detection using millis(), with polling and callback APIs. Default wiring uses INPUT_PULLUP with the button connected to GND.",
+      "website": "https://github.com/ARDUnia/ARDUniaButton",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ARDUnia/ARDUniaButton.git",
+      "providesIncludes": [
+        "ARDUniaButton.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ARDUnia/ARDUniaButton-0.2.1.zip",
+      "archiveFileName": "ARDUniaButton-0.2.1.zip",
+      "size": 12274,
+      "checksum": "SHA-256:7bb8c68aa4db9a9ebbc46cd97f7583a9e84fe20330b9391663f1a0664c672978"
+    },
+    {
+      "name": "SuperJupiterEmbeddedReliability",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Modular embedded storage protocols and device diagnostics.",
+      "paragraph": "Portable C++11 components with explicit outcomes. Preview release; hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-embedded-reliability",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-embedded-reliability.git",
+      "providesIncludes": [
+        "SuperJupiterEmbeddedReliability.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterEmbeddedReliability-0.1.0.zip",
+      "archiveFileName": "SuperJupiterEmbeddedReliability-0.1.0.zip",
+      "size": 90616,
+      "checksum": "SHA-256:0ea43df82b5d9db7773d15ffe944c93b4a9d9226f65b4bbabfce4bbac5ecf9f2"
+    },
+    {
+      "name": "SuperJupiterSensorToolkit",
+      "version": "0.1.0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter \u003cinfo@superjupiter.net\u003e",
+      "license": "MIT",
+      "sentence": "Modular sensor data processing and quality checks.",
+      "paragraph": "Portable C++11 components with explicit outcomes. Preview release; hardware validation pending.",
+      "website": "https://github.com/Super-Jupiter/superjupiter-sensor-toolkit",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Super-Jupiter/superjupiter-sensor-toolkit.git",
+      "providesIncludes": [
+        "SuperJupiterSensorToolkit.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSensorToolkit-0.1.0.zip",
+      "archiveFileName": "SuperJupiterSensorToolkit-0.1.0.zip",
+      "size": 243419,
+      "checksum": "SHA-256:460d65aacf363760a7322185d81d31edb7573ea443ed4c3a2e5903ef23f29282"
+    },
+    {
+      "name": "MAX2870",
+      "version": "2.1.0",
+      "author": "Bryce Cherry, Roberto Visentin",
+      "maintainer": "Roberto Visentin",
+      "sentence": "Driver for the MAX2870 23.5 MHz to 6 GHz wideband frequency synthesizer (Maxim / Analog Devices).",
+      "paragraph": "Exact FRAC/MOD (integer continued fractions), VCO lookup table calibrated from the VTUNE ADC for sweeps without unlocking, register 6 readback, power levels, charge pump and reference settings. Demo sketch with a serial command protocol and a Python control panel. Tested on Arduino Due. No additional library required.",
+      "website": "https://github.com/rvisent/MAX2870",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rvisent/MAX2870.git",
+      "providesIncludes": [
+        "MAX2870.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/rvisent/MAX2870-2.1.0.zip",
+      "archiveFileName": "MAX2870-2.1.0.zip",
+      "size": 41015,
+      "checksum": "SHA-256:88c2d810f1db7630a590d355e359e7db2ae6cd124d2067f6de8d556245110e05"
+    },
+    {
+      "name": "ArdPortal",
+      "version": "0.7.1",
+      "author": "Radoslaw Kubera (rkubera on GitHub)",
+      "maintainer": "Radoslaw Kubera",
+      "sentence": "WiFi and MQTT configuration portal using only the ESP Arduino core.",
+      "paragraph": "Cooperative HTTP and MQTT with optional verified TLS, asynchronous WiFi scans, reconnect state machine, captive DNS, custom ArdFS storage with native flash backend and JSON journal and configuration change callbacks.",
+      "website": "https://github.com/rkubera/ArdPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rkubera/ArdPortal.git",
+      "providesIncludes": [
+        "ArdPortal.h",
+        "ArdJSON.h",
+        "ArdFS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/rkubera/ArdPortal-0.7.1.zip",
+      "archiveFileName": "ArdPortal-0.7.1.zip",
+      "size": 2921121,
+      "checksum": "SHA-256:82c896c28d8acf0d65c8ca6acb51a86c5a8536d1a84b1fa1a66cfe9725ffe377"
+    },
+    {
+      "name": "ArdPortal",
+      "version": "0.7.2",
+      "author": "Radoslaw Kubera (rkubera on GitHub)",
+      "maintainer": "Radoslaw Kubera",
+      "sentence": "WiFi and MQTT configuration portal using only the ESP Arduino core.",
+      "paragraph": "Cooperative HTTP and MQTT with optional verified TLS, asynchronous WiFi scans, reconnect state machine, captive DNS, custom ArdFS storage with native flash backend and JSON journal and configuration change callbacks.",
+      "website": "https://github.com/rkubera/ArdPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rkubera/ArdPortal.git",
+      "providesIncludes": [
+        "ArdPortal.h",
+        "ArdJSON.h",
+        "ArdFS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/rkubera/ArdPortal-0.7.2.zip",
+      "archiveFileName": "ArdPortal-0.7.2.zip",
+      "size": 3394716,
+      "checksum": "SHA-256:6fae5d5d0c9c87b863483d570c0d86b24a8d19dc6b9494793d03e60afe08a230"
+    },
+    {
+      "name": "ArdPortal",
+      "version": "0.7.3",
+      "author": "Radoslaw Kubera (rkubera on GitHub)",
+      "maintainer": "Radoslaw Kubera",
+      "sentence": "WiFi and MQTT configuration portal using only the ESP Arduino core.",
+      "paragraph": "Cooperative HTTP and MQTT with optional verified TLS, asynchronous WiFi scans, reconnect state machine, captive DNS, custom ArdFS storage with native flash backend and JSON journal and configuration change callbacks.",
+      "website": "https://github.com/rkubera/ArdPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rkubera/ArdPortal.git",
+      "providesIncludes": [
+        "ArdPortal.h",
+        "ArdJSON.h",
+        "ArdFS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/rkubera/ArdPortal-0.7.3.zip",
+      "archiveFileName": "ArdPortal-0.7.3.zip",
+      "size": 3394950,
+      "checksum": "SHA-256:4ef4df40f7c92d432c884ed52f1cbf4deaccdc82a7c36d8acc88a9522217dcf3"
+    },
+    {
+      "name": "ArdPortal",
+      "version": "0.7.4",
+      "author": "Radoslaw Kubera (rkubera on GitHub)",
+      "maintainer": "Radoslaw Kubera",
+      "sentence": "WiFi and MQTT configuration portal using only the ESP Arduino core.",
+      "paragraph": "Cooperative HTTP and MQTT with optional verified TLS, asynchronous WiFi scans, reconnect state machine, captive DNS, custom ArdFS storage with native flash backend and JSON journal and configuration change callbacks.",
+      "website": "https://github.com/rkubera/ArdPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rkubera/ArdPortal.git",
+      "providesIncludes": [
+        "ArdPortal.h",
+        "ArdJSON.h",
+        "ArdFS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/rkubera/ArdPortal-0.7.4.zip",
+      "archiveFileName": "ArdPortal-0.7.4.zip",
+      "size": 3398913,
+      "checksum": "SHA-256:9b03d9b9f645a8923bfd79b1ec057a109e8e96b6f82df15807a7c0eefb306360"
+    },
+    {
+      "name": "ArdPortal",
+      "version": "0.7.5",
+      "author": "Radoslaw Kubera (rkubera on GitHub)",
+      "maintainer": "Radoslaw Kubera",
+      "sentence": "WiFi and MQTT configuration portal using only the ESP Arduino core.",
+      "paragraph": "Cooperative HTTP and MQTT with optional verified TLS, asynchronous WiFi scans, reconnect state machine, captive DNS, custom ArdFS storage with native flash backend and JSON journal and configuration change callbacks.",
+      "website": "https://github.com/rkubera/ArdPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rkubera/ArdPortal.git",
+      "providesIncludes": [
+        "ArdPortal.h",
+        "ArdJSON.h",
+        "ArdFS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/rkubera/ArdPortal-0.7.5.zip",
+      "archiveFileName": "ArdPortal-0.7.5.zip",
+      "size": 3400150,
+      "checksum": "SHA-256:1914e6f2224fb55b252f572983aeaa83254f8deaa227b7a7005128c39d8a4dca"
+    },
+    {
+      "name": "ArdPortal",
+      "version": "0.7.6",
+      "author": "Radoslaw Kubera (rkubera on GitHub)",
+      "maintainer": "Radoslaw Kubera",
+      "sentence": "WiFi and MQTT configuration portal using only the ESP Arduino core.",
+      "paragraph": "Cooperative HTTP and MQTT with optional verified TLS, asynchronous WiFi scans, reconnect state machine, captive DNS, custom ArdFS storage with native flash backend and JSON journal and configuration change callbacks.",
+      "website": "https://github.com/rkubera/ArdPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rkubera/ArdPortal.git",
+      "providesIncludes": [
+        "ArdPortal.h",
+        "ArdJSON.h",
+        "ArdFS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/rkubera/ArdPortal-0.7.6.zip",
+      "archiveFileName": "ArdPortal-0.7.6.zip",
+      "size": 3449923,
+      "checksum": "SHA-256:f1cb4a9abb4eacf9c3bba1ae9268558e3cf5c775e3fe4f317734121169ef828d"
+    },
+    {
+      "name": "ArdPortal",
+      "version": "0.7.7",
+      "author": "Radoslaw Kubera (rkubera on GitHub)",
+      "maintainer": "Radoslaw Kubera",
+      "sentence": "WiFi and MQTT configuration portal using only the ESP Arduino core.",
+      "paragraph": "Cooperative HTTP and MQTT with optional verified TLS, asynchronous WiFi scans, reconnect state machine, captive DNS, custom ArdFS storage with native flash backend and JSON journal and configuration change callbacks.",
+      "website": "https://github.com/rkubera/ArdPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rkubera/ArdPortal.git",
+      "providesIncludes": [
+        "ArdPortal.h",
+        "ArdJSON.h",
+        "ArdFS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/rkubera/ArdPortal-0.7.7.zip",
+      "archiveFileName": "ArdPortal-0.7.7.zip",
+      "size": 3547527,
+      "checksum": "SHA-256:700a0f7234c736b1606b10018f7407ff75a1cf437c37a0e5f5ab172b442960ac"
+    },
+    {
+      "name": "ArdPortal",
+      "version": "0.7.8",
+      "author": "Radoslaw Kubera (rkubera on GitHub)",
+      "maintainer": "Radoslaw Kubera",
+      "sentence": "WiFi and MQTT configuration portal using only the ESP Arduino core.",
+      "paragraph": "Cooperative HTTP and MQTT with optional verified TLS, asynchronous WiFi scans, reconnect state machine, captive DNS, custom ArdFS storage with native flash backend and JSON journal and configuration change callbacks.",
+      "website": "https://github.com/rkubera/ArdPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rkubera/ArdPortal.git",
+      "providesIncludes": [
+        "ArdPortal.h",
+        "ArdJSON.h",
+        "ArdFS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/rkubera/ArdPortal-0.7.8.zip",
+      "archiveFileName": "ArdPortal-0.7.8.zip",
+      "size": 5495226,
+      "checksum": "SHA-256:d9ce31d7d37c12d12361f05022fc3f37f9cada451abfd2e4e612bbea92e6b20e"
+    },
+    {
+      "name": "ArdPortal",
+      "version": "0.8.0",
+      "author": "Radoslaw Kubera (rkubera on GitHub)",
+      "maintainer": "Radoslaw Kubera",
+      "sentence": "Modular ESP portal with MQTT, Home Assistant and native Zigbee integration.",
+      "paragraph": "JSON-defined controls, WiFi/AP setup, MQTT with verified TLS and Home Assistant Discovery, optional native Zigbee End Device/Router on ESP32-C5/C6/H2, Zigbee2MQTT converter and ZHA quirk export, HTTP/Zigbee OTA and diagnostics. Includes ArdFS persistent storage and ArdJSON; networking modules can be excluded at compile time. Uses the ESP Arduino core without external runtime libraries.",
+      "website": "https://github.com/rkubera/ArdPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rkubera/ArdPortal.git",
+      "providesIncludes": [
+        "ArdPortal.h",
+        "ArdJSON.h",
+        "ArdFS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/rkubera/ArdPortal-0.8.0.zip",
+      "archiveFileName": "ArdPortal-0.8.0.zip",
+      "size": 8011235,
+      "checksum": "SHA-256:b42dccea18b6f4bbf4fe4ea627f43beb4f829495cf2bd3c47271662c9d66653a"
+    },
+    {
+      "name": "Adafruit seesaw Peripheral",
+      "version": "2.0.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Library for making seesaw i2c peripherals in Arduino core",
+      "paragraph": "Expose GPIO, ADC, PWM, NeoPixel, encoder, UART, and other features over I2C on supported ATtiny and STM32 boards.",
+      "website": "https://github.com/adafruit/Adafruit_seesawPeripheral",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_seesawPeripheral.git",
+      "providesIncludes": [
+        "Adafruit_seesawPeripheral.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit seesaw Library"
+        },
+        {
+          "name": "Adafruit NeoPixel"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_seesaw_Peripheral-2.0.0.zip",
+      "archiveFileName": "Adafruit_seesaw_Peripheral-2.0.0.zip",
+      "size": 126472,
+      "checksum": "SHA-256:9aa9431a7f460d15fee491f22a907bc72787065c397d04f49f4fa196e240033d"
+    },
+    {
+      "name": "Voltino_TriSense",
+      "version": "1.6.0",
+      "author": "VoltinoLabs (Tomas Michal)",
+      "maintainer": "Tomas Michal",
+      "license": "MIT",
+      "sentence": "Advanced Sensor Fusion library for Voltino TriSense modules (ICM42688P, AK09918C, BMP580).",
+      "paragraph": "Provides high-performance driver and fusion algorithms for the TriSense board. Features include: Advanced FIFO draining for lag-free integration, Gimbal-lock immune Quaternion Math, 10MHz SPI Turbo mode, 6-point Accelerometer calibration (Sphere Fit), and Hard/Soft Iron Mag calibration. Dynamic hardware FPU optimization automatically scales precision (float/double) for platforms like Raspberry Pi Pico 2 (RP2350) and ESP32.",
+      "website": "https://github.com/Tomasraketak/Voltino_TriSense_Library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/VoltinoLabs/Voltino-TriSense-Library.git",
+      "providesIncludes": [
+        "TriSense.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/VoltinoLabs/Voltino_TriSense-1.6.0.zip",
+      "archiveFileName": "Voltino_TriSense-1.6.0.zip",
+      "size": 156100,
+      "checksum": "SHA-256:70177232bbb4f4e641074bc506c94878e67617fb96ff70231d99c64c116e5665"
     }
   ]
 }
