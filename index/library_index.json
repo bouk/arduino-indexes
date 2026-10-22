@@ -190554,6 +190554,30 @@
       "checksum": "SHA-256:58be454dd0b07ebebcaa6f2d92ff8bd7e0e8fe90ffd83cd1c086e2c3c58ba12f"
     },
     {
+      "name": "kRPC",
+      "version": "0.7.0",
+      "author": "djungelorm \u003cdjungelorm@users.noreply.github.com\u003e",
+      "maintainer": "djungelorm \u003cdjungelorm@users.noreply.github.com\u003e",
+      "sentence": "Client library for kRPC, a Remote Procedure Call server for Kerbal Space Program.",
+      "paragraph": "kRPC allows you to control Kerbal Space Program from scripts running outside of the game. This client library is written in C and communicates with the game over a serial port.",
+      "website": "http://krpc.github.io/krpc",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/krpc/krpc-arduino.git",
+      "providesIncludes": [
+        "krpc_cnano.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/krpc/kRPC-0.7.0.zip",
+      "archiveFileName": "kRPC-0.7.0.zip",
+      "size": 277548,
+      "checksum": "SHA-256:679ebec846c38a554642fadee27dbb11b8ca89aebe75c6315f8c350cf05c2324"
+    },
+    {
       "name": "LCDMenuLib2",
       "version": "1.0.0",
       "author": "Nils Feldkaemper \u003cnilsfeld@gmail.com\u003e",
@@ -404504,6 +404528,36 @@
       "checksum": "SHA-256:1a859a4e870bda0b9e0c7fe9a84539d42431ffbe79084daf73787d6afacaaecb"
     },
     {
+      "name": "Grafici-GFX",
+      "version": "4.1.0",
+      "author": "Marco Cattani \u003c03offices_jockey@icloud.com\u003e",
+      "maintainer": "Marco Cattani \u003c03offices_jockey@icloud.com\u003e",
+      "license": "Apache-2.0",
+      "sentence": "Data visualization library for Arduino driven displays.",
+      "paragraph": "Based on Adafruit GFX display libraries. Plot lines, bars, scatters, and more on both squared and round displays. Features data handling, processing, and various visualization options.",
+      "website": "https://github.com/cattanimarco/Grafici-GFX",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/cattanimarco/Grafici-GFX.git",
+      "providesIncludes": [
+        "Grafici.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/cattanimarco/Grafici_GFX-4.1.0.zip",
+      "archiveFileName": "Grafici_GFX-4.1.0.zip",
+      "size": 67850,
+      "checksum": "SHA-256:2adb3547f5bae8ae5b7fac956c965f7df220af06be4f7b2f51675689e06d982e"
+    },
+    {
       "name": "SimpleTimer",
       "version": "1.0.0",
       "author": "Alexander Kiryanenko \u003ckiryanenkoav@gmail.com\u003e",
@@ -551817,6 +551871,35 @@
       "archiveFileName": "SDI_12-2.3.4.zip",
       "size": 6443260,
       "checksum": "SHA-256:ff28f8cc69c63afdd2a2d57765d97fc53aff0fc69c0e17f1cf92ab99f2f519ab"
+    },
+    {
+      "name": "SDI-12",
+      "version": "2.4.0",
+      "author": "Kevin M. Smith \u003cKevin@elite-education.org\u003e, Shannon Hicks \u003cshicks@stroudcenter.org\u003e",
+      "maintainer": "Sara Damiano \u003csdamiano@stroudcenter.org\u003e",
+      "sentence": "An Arduino library for SDI-12 communication with a wide variety of environmental sensors.",
+      "paragraph": "This library provides a general software solution, without requiring any additional hardware.",
+      "website": "https://github.com/EnviroDIY/Arduino-SDI-12",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "sam",
+        "samd",
+        "esp8266",
+        "esp32",
+        "mbed_giga"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/EnviroDIY/Arduino-SDI-12.git",
+      "providesIncludes": [
+        "SDI12.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/EnviroDIY/SDI_12-2.4.0.zip",
+      "archiveFileName": "SDI_12-2.4.0.zip",
+      "size": 3077799,
+      "checksum": "SHA-256:3ba66e3c9e09a78fe71c68303dfe2c05158be88cc3419bee8aeb95763d57d0c3"
     },
     {
       "name": "ES920",
@@ -738807,6 +738890,31 @@
       "archiveFileName": "libasm-1.6.68.zip",
       "size": 14067973,
       "checksum": "SHA-256:35f32dd8ef2981728f4f3c091f35384eca31f372a42603ee280ed59375d54fef"
+    },
+    {
+      "name": "libasm",
+      "version": "1.6.69",
+      "author": "Tadashi G. Takaoka",
+      "maintainer": "Tadashi G. Takaoka \u003ctadashi.g.takaoka@gmail.com\u003e",
+      "license": "Apache-2.0",
+      "sentence": "Cross assembler and disassembler for retro CPUs",
+      "paragraph": "With this, you can integrate assembler or disassembler into your sketch. Supported CPUs are AM29000, CDP1802, CP1600, F3850, H16, H8300, H8500, I8048, I8051, I8080, I8086, I8096, I960, INS8060, INS8070, MC6800, MC68000, MC6805, MC6809, MC68HC12, MC68HC16, MN1610, MOS6502, NS32000, PDP11, PDP8, SCN2650, SUPERH, TLCS90, TLCS900, TMS320, TMS320F, TMS370, TMS7000, TMS9900, Z280, Z380, Z8, Z80, Z8000",
+      "website": "https://github.com/tgtakaoka/libasm",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tgtakaoka/libasm.git",
+      "providesIncludes": [
+        "libasm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.69.zip",
+      "archiveFileName": "libasm-1.6.69.zip",
+      "size": 14068294,
+      "checksum": "SHA-256:234154ebb92d279cfd84301732b0f0335866cc2daeb0f83b67aafea4fafcf736"
     },
     {
       "name": "SparkFun AVR ISP Programming Library",
@@ -1176671,6 +1176779,33 @@
       "checksum": "SHA-256:8e409b4398c1d0cd0ac706695ca20b0b100d1b9ddb72b96c13fc57b24a973fb6"
     },
     {
+      "name": "MentorBit-RGB",
+      "version": "1.0.4",
+      "author": "Digital Codesign",
+      "maintainer": "Digital Codesign",
+      "sentence": "Librería para Módulo MentorBit de LED RGB",
+      "paragraph": "Conjunto de valores y funciones para facilitar su uso y testeo",
+      "website": "https://github.com/DigitalCodesign/MentorBit-RGB",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DigitalCodesign/MentorBit-RGB.git",
+      "dependencies": [
+        {
+          "name": "Adafruit NeoPixel",
+          "version": "=1.12.5"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/DigitalCodesign/MentorBit_RGB-1.0.4.zip",
+      "archiveFileName": "MentorBit_RGB-1.0.4.zip",
+      "size": 233052,
+      "checksum": "SHA-256:b8161e35d427785c007f801e572216dab249d085265e47b482ed8e33c73444c7"
+    },
+    {
       "name": "MentorBit-Ultrasonidos",
       "version": "1.0.0",
       "author": "Digital Codesign",
@@ -1185999,6 +1186134,30 @@
       "archiveFileName": "rotaryDecoderSwitch5-0.1.3.zip",
       "size": 19774,
       "checksum": "SHA-256:ecea3d950713ea85a9f88f9998be818bff347f9baf91a9446234a5cc40081fd4"
+    },
+    {
+      "name": "rotaryDecoderSwitch5",
+      "version": "0.2.0",
+      "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "sentence": "Arduino library for a PCF8575 based rotary decoder + switch.",
+      "paragraph": "Supports up to 5 rotary encoders with a switch.",
+      "website": "https://github.com/RobTillaart/rotaryDecoderSwitch5",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RobTillaart/rotaryDecoderSwitch5.git",
+      "providesIncludes": [
+        "rotaryDecoderSwitch5.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/rotaryDecoderSwitch5-0.2.0.zip",
+      "archiveFileName": "rotaryDecoderSwitch5-0.2.0.zip",
+      "size": 20039,
+      "checksum": "SHA-256:5a588b2674a8b1ac77b338017be88388cbee4d2cac14d8bb4301f8f50ff31609"
     },
     {
       "name": "PDLS_Common",
@@ -1237300,6 +1237459,58 @@
       "checksum": "SHA-256:78d72b8718d4f8c23f051f3611da535fe14fb9c42e04d60b99e6b4953beadf63"
     },
     {
+      "name": "GyverMenu",
+      "version": "1.1.1",
+      "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "maintainer": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "sentence": "Dynamic menu system for Arduino",
+      "paragraph": "Dynamic menu system for Arduino",
+      "website": "https://github.com/GyverLibs/GyverMenu",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/GyverLibs/GyverMenu.git",
+      "dependencies": [
+        {
+          "name": "StringN"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverMenu-1.1.1.zip",
+      "archiveFileName": "GyverMenu-1.1.1.zip",
+      "size": 52158,
+      "checksum": "SHA-256:13440dc97126c4bc5be1b0ecb141c575d9eca0ff954ecd15b6bcc6fa10ab3019"
+    },
+    {
+      "name": "GyverMenu",
+      "version": "1.1.2",
+      "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "maintainer": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "sentence": "Dynamic menu system for Arduino",
+      "paragraph": "Dynamic menu system for Arduino",
+      "website": "https://github.com/GyverLibs/GyverMenu",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/GyverLibs/GyverMenu.git",
+      "dependencies": [
+        {
+          "name": "StringN"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverMenu-1.1.2.zip",
+      "archiveFileName": "GyverMenu-1.1.2.zip",
+      "size": 52170,
+      "checksum": "SHA-256:ac069681d7405a2fed685be6db8763d75c193586a6289bfae4d1e44f9b205177"
+    },
+    {
       "name": "UltraPing",
       "version": "1.0.0",
       "author": "Michael Nixon",
@@ -1279188,6 +1279399,35 @@
       "checksum": "SHA-256:c2b1581b3da4749d2386932df49a72239ca15f2eeb696f9d4d779843b5d649b0"
     },
     {
+      "name": "MicroBlue",
+      "version": "2.1.0",
+      "author": "SnappyXO",
+      "maintainer": "A+ Mobile Solutions Inc",
+      "sentence": "Arduino library to send messages between MicroBlue app and Arduino",
+      "paragraph": "This is an Arduino library to send messages between MicroBlue app and Arduino Uno R3 and R4 boards, using an HM 10 Bluetooth module or the built-in BLE radio of the Uno R4 WiFi",
+      "website": "https://github.com/snappyxo/microblue-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/snappyxo/microblue-arduino.git",
+      "providesIncludes": [
+        "MicroBlue.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/snappyxo/MicroBlue-2.1.0.zip",
+      "archiveFileName": "MicroBlue-2.1.0.zip",
+      "size": 60985,
+      "checksum": "SHA-256:a2b54b6eb11903480bd90b59e169e86fbd8793e65198a073f6528a6efa8c4698"
+    },
+    {
       "name": "OK Micro Dock",
       "version": "0.1.0",
       "author": "Dan Egnor",
@@ -1311962,6 +1312202,31 @@
       "checksum": "SHA-256:99a3a8aa8197c0a99196a5b067af1f90e9bf99c70f0e8fbcc4c518dbd3c7604a"
     },
     {
+      "name": "Javino",
+      "version": "1.7.3",
+      "author": "Nilson M. Lazarin, Carlos E. Pantoja",
+      "maintainer": "Chon Group \u003cchon@grupo.cefet-rj.br\u003e",
+      "license": "CC-BY-4.0",
+      "sentence": "Javino protocol for Arduino boards.",
+      "paragraph": "Javino is a serial message error check protocol for exchanging messages between high-end and low-end IoT devices over serial communication.",
+      "website": "https://github.com/chon-group/javino2arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/chon-group/javino2arduino.git",
+      "providesIncludes": [
+        "Javino.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/chon-group/Javino-1.7.3.zip",
+      "archiveFileName": "Javino-1.7.3.zip",
+      "size": 272353,
+      "checksum": "SHA-256:4d36e12be2803a102e37610f6186c4e4ec9c339a5451c78297dd6310dcac75b4"
+    },
+    {
       "name": "7Semi_AD849x",
       "version": "1.0.0",
       "author": "7Semi",
@@ -1335231,6 +1335496,40 @@
       "checksum": "SHA-256:2f1d9483aefb3842c2ae3c0242178e23c87887bffdbf780650ca4f40c92ebe4b"
     },
     {
+      "name": "M5StackChan",
+      "version": "1.1.1",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "M5StackChan is the StackChan board support package for Arduino development",
+      "website": "https://github.com/m5stack/StackChan-BSP",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/StackChan-BSP.git",
+      "providesIncludes": [
+        "M5StackChan.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "IRremoteESP8266"
+        },
+        {
+          "name": "M5Unit-NFC"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5StackChan-1.1.1.zip",
+      "archiveFileName": "M5StackChan-1.1.1.zip",
+      "size": 80917,
+      "checksum": "SHA-256:bed87c78b9130989c28399caf9138c1be08dd60898a7139d8e828824356cc2ee"
+    },
+    {
       "name": "Soldered LSM6DS3 Arduino library",
       "version": "1.0.0",
       "author": "Soldered",
@@ -1342108,6 +1342407,237 @@
       "archiveFileName": "AutoconnectoSDK-1.7.56.zip",
       "size": 180140,
       "checksum": "SHA-256:28c2600a29158f2591cbdd6e32023d9d84c4c8e3888222c73ba56764a0f1e0f3"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.57",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
+      "paragraph": "Connects ESP32, ESP32-C3, and ESP32-S3 to Autoconnecto over MQTTS and MQTT-over-WSS, with shared and client attributes, telemetry, RPC, and OTA. ESP8266 and Raspberry Pi Pico W use the HTTPS examples. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.57.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.57.zip",
+      "size": 181073,
+      "checksum": "SHA-256:efbb1bc4bb03c0d693c6661c6dae1d5fee23991a2e97b66af73fc35c6baee5a3"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.58",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
+      "paragraph": "Connects ESP32, ESP32-C3, and ESP32-S3 to Autoconnecto over MQTTS and MQTT-over-WSS, with shared and client attributes, telemetry, RPC, and OTA. ESP8266 and Raspberry Pi Pico W use the HTTPS examples. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.58.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.58.zip",
+      "size": 186672,
+      "checksum": "SHA-256:66aad47dda50c4a317702272a98e633109b152ca129fadddd05e8f1f0579dacc"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.59",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
+      "paragraph": "Connects ESP32, ESP32-C3, and ESP32-S3 to Autoconnecto over MQTTS and MQTT-over-WSS, with shared and client attributes, telemetry, RPC, and OTA. ESP8266 and Raspberry Pi Pico W use the HTTPS examples. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.59.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.59.zip",
+      "size": 186672,
+      "checksum": "SHA-256:90dbfd7cb3a91edff89ece67ed98a5afd6983e4be83698a707f59922eaecfcfd"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.61",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
+      "paragraph": "Connects ESP32, ESP32-C3, and ESP32-S3 to Autoconnecto over MQTTS and MQTT-over-WSS, with shared and client attributes, telemetry, RPC, and OTA. ESP8266 and Raspberry Pi Pico W use the HTTPS examples. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.61.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.61.zip",
+      "size": 186672,
+      "checksum": "SHA-256:cba8baea008aebaad305880626438dc3647ce64e14b9d0804e005822a5ffad2f"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.62",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
+      "paragraph": "Connects ESP32, ESP32-C3, and ESP32-S3 to Autoconnecto over MQTTS and MQTT-over-WSS, with shared and client attributes, telemetry, RPC, and OTA. ESP8266 and Raspberry Pi Pico W use the HTTPS examples. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.62.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.62.zip",
+      "size": 186672,
+      "checksum": "SHA-256:66b71f7d293a16a4dfed34cccdd52114d101b47ac3aef7436c64a337c0a448bf"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.63",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
+      "paragraph": "Connects ESP32, ESP32-C3, and ESP32-S3 to Autoconnecto over MQTTS and MQTT-over-WSS, with shared and client attributes, telemetry, RPC, and OTA. ESP8266 and Raspberry Pi Pico W use the HTTPS examples. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.63.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.63.zip",
+      "size": 186939,
+      "checksum": "SHA-256:f3b0a8a8d5540c0ae87009d63b55bd575afeeb3f7cef33273eda8c2592801dd2"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.64",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
+      "paragraph": "Connects ESP32, ESP32-C3, and ESP32-S3 to Autoconnecto over MQTTS and MQTT-over-WSS, with shared and client attributes, telemetry, RPC, and OTA. ESP8266 and Raspberry Pi Pico W use the HTTPS examples. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.64.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.64.zip",
+      "size": 186939,
+      "checksum": "SHA-256:3dbaf0e6077158cdb19f51f8ed21692b880ae6c22c6699ef8611fdea31b26523"
     },
     {
       "name": "SPIKeyPad",
@@ -1389043,6 +1389573,32 @@
       "checksum": "SHA-256:8a1e8fdacaf89c5bc47abcd30b635058b90f5ad6d410bf4f7334ab1e60964436"
     },
     {
+      "name": "Waveshare_TFT_Touch",
+      "version": "1.3.3",
+      "author": "Tedd OKANO",
+      "maintainer": "Tedd OKANO",
+      "sentence": "Arduino driver for the Waveshare 2.8inch TFT Touch Shield (SKU: 10684; ST7789V LCD + XPT2046 touch)",
+      "paragraph": "Provides ST7789V graphics primitives and XPT2046 resistive touch reading over the shield's shared hardware SPI bus. Pin mapping is fixed by the shield's own PCB (D3/D4/D7/D9/D10, Arduino Uno R3 header form factor) so no wiring configuration is needed.",
+      "website": "https://github.com/teddokano/Waveshare_TFT_Touch_Arduino",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/teddokano/Waveshare_TFT_Touch_Arduino.git",
+      "dependencies": [
+        {
+          "name": "SD"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/teddokano/Waveshare_TFT_Touch-1.3.3.zip",
+      "archiveFileName": "Waveshare_TFT_Touch-1.3.3.zip",
+      "size": 557855,
+      "checksum": "SHA-256:35906d1209b3f87451e211243e64948c448644d4e77bc8aa1c0d1c3e16d0766c"
+    },
+    {
       "name": "PicoCamera",
       "version": "0.2.0",
       "author": "umeko",
@@ -1393729,6 +1394285,36 @@
       "archiveFileName": "DevLabDDP-1.0.6.zip",
       "size": 24598,
       "checksum": "SHA-256:733830b25202c05d95fe03f8959791e9330041a55280242687213159be391665"
+    },
+    {
+      "name": "DevLabDDP",
+      "version": "1.0.7",
+      "author": "UNIT Electronics",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino master for the DevLab Device Protocol.",
+      "paragraph": "Discovers, validates and communicates with DDP I2C devices.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_ddp_library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_ddp_library.git",
+      "providesIncludes": [
+        "DevLabDDP.h",
+        "DevLabDDPConsole.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLab_Interface"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLabDDP-1.0.7.zip",
+      "archiveFileName": "DevLabDDP-1.0.7.zip",
+      "size": 24665,
+      "checksum": "SHA-256:67b6bf839ae0df0d39b38dfcebd4c168beb0c293e4b8603f0cdd3746b72715f0"
     },
     {
       "name": "DevLab_TEMT6000",
@@ -1407987,6 +1408573,38 @@
       "checksum": "SHA-256:45eeb70cc20bd44fd1c15fa471c1d0c8a1fdeb83b559d81845ae18460d38bd66"
     },
     {
+      "name": "DevLab_PhotoInterrupter",
+      "version": "1.0.1",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for the 8ITR523S photo interrupter module using the DevLab Device Protocol (DDP) over I2C.",
+      "paragraph": "DevLab PhotoInterrupter library to read a slotted photo interrupter as a digital blocked/free state, a pulse counter and a 12-bit analog level from a PY32F003 node through DDP over I2C (Device ID 0x0112).",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_photointerrupter_library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_photointerrupter_library.git",
+      "providesIncludes": [
+        "DevLab_PhotoInterrupter.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLabDDP"
+        },
+        {
+          "name": "DevLab_Interface"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_PhotoInterrupter-1.0.1.zip",
+      "archiveFileName": "DevLab_PhotoInterrupter-1.0.1.zip",
+      "size": 15699,
+      "checksum": "SHA-256:8c4318c84d8b1133be6d4796de727aa18b67f00c99b0df058fdb9b907c00124a"
+    },
+    {
       "name": "DevLab_IR",
       "version": "1.0.0",
       "author": "UNIT Electronics MX",
@@ -1408017,6 +1408635,38 @@
       "archiveFileName": "DevLab_IR-1.0.0.zip",
       "size": 14039,
       "checksum": "SHA-256:53d11d970add10f78dbd17fb2722371776183621043b1f0b2c5e97726fa90886"
+    },
+    {
+      "name": "DevLab_IR",
+      "version": "1.0.1",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for the IRM-V838M3 infrared receiver module using the DevLab Device Protocol (DDP) over I2C.",
+      "paragraph": "DevLab IRM-V838M3 library to read decoded NEC infrared frames (address, command, repeat) from a PY32F003 node through DDP over I2C (Device ID 0x0111).",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_ir_library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_ir_library.git",
+      "providesIncludes": [
+        "DevLab_IR.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLabDDP"
+        },
+        {
+          "name": "DevLab_Interface"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_IR-1.0.1.zip",
+      "archiveFileName": "DevLab_IR-1.0.1.zip",
+      "size": 14035,
+      "checksum": "SHA-256:2f66327d6467e14e4f3d401bb94e9df63e62cdea8e86b4152fd5d099dc05ef27"
     },
     {
       "name": "MaxwellTrack",
@@ -1408448,6 +1409098,38 @@
       "archiveFileName": "DevLab_LM35-1.0.0.zip",
       "size": 11888,
       "checksum": "SHA-256:60d1899feac70d6d51c6b760f2e10535b49cf36b4298a386ee27780a98b4206c"
+    },
+    {
+      "name": "DevLab_LM35",
+      "version": "1.0.1",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for the I2C LM35 temperature sensor module using the DevLab Device Protocol (DDP).",
+      "paragraph": "DevLab LM35 library to read temperature (0.01 C), millivolts and raw ADC counts through DDP over I2C (Device ID 0x0113).",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_lm35_library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_lm35_library.git",
+      "providesIncludes": [
+        "DevLab_LM35.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLabDDP"
+        },
+        {
+          "name": "DevLab_Interface"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_LM35-1.0.1.zip",
+      "archiveFileName": "DevLab_LM35-1.0.1.zip",
+      "size": 11888,
+      "checksum": "SHA-256:4332a20178ff774757f75cc9c6e7299336473dda99157412416f2093787d94fe"
     },
     {
       "name": "TemperatureMonitor",
@@ -1409055,6 +1409737,36 @@
       "archiveFileName": "XeWeCore-3.1.1.zip",
       "size": 332439,
       "checksum": "SHA-256:219eab4748e84b114291901e27633cf09f2d032eb2af1048ea6d8a325eec4ea3"
+    },
+    {
+      "name": "XeWeCore",
+      "version": "3.1.2",
+      "author": "Maxim Dokukin",
+      "maintainer": "Maxim Dokukin",
+      "sentence": "Modular firmware core for ESP32: serial console, command line, typed NVS storage, helpers and a module framework.",
+      "paragraph": "Include \u003cXeWeCore.h\u003e and use the parts on their own (xewe::SerialPort, xewe::Cli, xewe::Nvs) or as a whole through XeWeOs: modules that each own a $group of commands and an NVS namespace, settings declared once as a table, and a JSON settings schema for tools.",
+      "website": "https://github.com/xewe-labs/xewe-os-core",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/xewe-labs/xewe-os-core.git",
+      "providesIncludes": [
+        "XeWeCore.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=7.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeCore-3.1.2.zip",
+      "archiveFileName": "XeWeCore-3.1.2.zip",
+      "size": 355830,
+      "checksum": "SHA-256:65a556b22c783483678c244f874cc86b3d4171ddf44fe147d4bfe6cbf20028ed"
     },
     {
       "name": "RepeatedTask",
@@ -1409964,6 +1410676,27 @@
       "archiveFileName": "ESP_MOVIE-1.0.1.zip",
       "size": 13994644,
       "checksum": "SHA-256:cc95db6fc000b1c698f4b6596799c01a945751d672e9e7d437c4e74bd8460f50"
+    },
+    {
+      "name": "ESP_MOVIE",
+      "version": "1.1.0",
+      "author": "ShunTomino",
+      "maintainer": "ShunTomino",
+      "sentence": "Movie(MotionJPG/MP3) playback library for ESP32 series.",
+      "paragraph": "Simultaneous playback of Motion JPEG video and MP3 audio from SD card files is supported.",
+      "website": "https://github.com/ShunTomino/ESP_MOVIE",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ShunTomino/ESP_MOVIE.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/ShunTomino/ESP_MOVIE-1.1.0.zip",
+      "archiveFileName": "ESP_MOVIE-1.1.0.zip",
+      "size": 13994971,
+      "checksum": "SHA-256:bf7a550d425ec98e6a6d9da547a6410a18666d3529c07e4597def0e81f511233"
     },
     {
       "name": "Grove IMU 9DOF ICM20600 AK09918 UNO R4",
@@ -1413910,6 +1414643,36 @@
       "checksum": "SHA-256:a482346582cb94e1e40c1d5d9f6fcbcb6920c1f3eac3af88527aed0af117f212"
     },
     {
+      "name": "ILI9341_GFX",
+      "version": "1.0.2",
+      "author": "JKBusse",
+      "maintainer": "JKBusse",
+      "sentence": "Fast ILI9341 SPI display driver for the ESP32, compatible with Adafruit_GFX.",
+      "paragraph": "Register-level DMA driver with hardware D/C switching via SPI dual output, a framebuffer with dirty-region updates, tear-free VSync, hardware scrolling, readback and screenshots. The fast path needs a classic ESP32; other boards use plain SPI.",
+      "website": "https://github.com/JKBusse/ILI9341_GFX",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/JKBusse/ILI9341_GFX.git",
+      "providesIncludes": [
+        "ILI9341_GFX.h",
+        "ILI9341_Framebuffer.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/JKBusse/ILI9341_GFX-1.0.2.zip",
+      "archiveFileName": "ILI9341_GFX-1.0.2.zip",
+      "size": 319423,
+      "checksum": "SHA-256:5450f01e142c0786f8dcb851406dbe7539c91fc1d1e735588b3457876cebbc03"
+    },
+    {
       "name": "Singlish Converter",
       "version": "1.0.0",
       "author": "Oshan Dissanayaka",
@@ -1415944,6 +1416707,231 @@
       "archiveFileName": "Voltino_TriSense-1.6.0.zip",
       "size": 156100,
       "checksum": "SHA-256:70177232bbb4f4e641074bc506c94878e67617fb96ff70231d99c64c116e5665"
+    },
+    {
+      "name": "MotorDrive",
+      "version": "1.0.0",
+      "author": "Nimalaruban Gokul",
+      "maintainer": "Nimalaruban Gokul",
+      "sentence": "A robust library for DC motor control and ultrasonic obstacle avoidance with median filtering.",
+      "paragraph": "A custom Arduino library for controlling DC motors and ultrasonic navigation.",
+      "website": "https://github.com/NimalarubanGokul/MotorDrive",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/NimalarubanGokul/MotorDrive.git",
+      "dependencies": [
+        {
+          "name": "NewPing"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/NimalarubanGokul/MotorDrive-1.0.0.zip",
+      "archiveFileName": "MotorDrive-1.0.0.zip",
+      "size": 6895,
+      "checksum": "SHA-256:cdde68a5d39f0e9e69dcb600162a4021e9f6a6cb6137eaf3532144e3c09f97d1"
+    },
+    {
+      "name": "CommandInterface",
+      "version": "1.1.0",
+      "author": "Felipe Dadison",
+      "maintainer": "Felipe Dadison \u003cfelipe.dadison@gmail.com\u003e",
+      "sentence": "Command-line interface for ESP32 with typed commands, password protection and multi-stream I/O.",
+      "paragraph": "Works with any Arduino Stream (Serial, NetSerial, Bluetooth). Per-stream sessions, brute-force protection, and replies routed to the stream that sent the command.",
+      "website": "https://github.com/FelipeDadison/CommandInterface",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/FelipeDadison/CommandInterface.git",
+      "providesIncludes": [
+        "CommandInterface.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/FelipeDadison/CommandInterface-1.1.0.zip",
+      "archiveFileName": "CommandInterface-1.1.0.zip",
+      "size": 19275,
+      "checksum": "SHA-256:ff28b60c4d466314504e07b3c0396db2c66fec6c48e837d6aaa1347dd055c4e1"
+    },
+    {
+      "name": "CommandInterface",
+      "version": "1.1.1",
+      "author": "Felipe Dadison",
+      "maintainer": "Felipe Dadison \u003cfelipe.dadison@gmail.com\u003e",
+      "sentence": "Command-line interface for ESP32 with typed commands, password protection and multi-stream I/O.",
+      "paragraph": "Works with any Arduino Stream (Serial, NetSerial, Bluetooth). Per-stream sessions, brute-force protection, and replies routed to the stream that sent the command.",
+      "website": "https://github.com/FelipeDadison/CommandInterface",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/FelipeDadison/CommandInterface.git",
+      "providesIncludes": [
+        "CommandInterface.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/FelipeDadison/CommandInterface-1.1.1.zip",
+      "archiveFileName": "CommandInterface-1.1.1.zip",
+      "size": 19436,
+      "checksum": "SHA-256:ba8231ad2a2a67c5c8e02679e1ea181c9e66e7064f33b79b7aa101f41422d477"
+    },
+    {
+      "name": "DebugLogger",
+      "version": "1.1.0",
+      "author": "Felipe Dadison",
+      "maintainer": "Felipe Dadison \u003cfelipe.dadison@gmail.com\u003e",
+      "sentence": "Logging system for ESP32 with log levels, tag filtering, file logging and throttled messages.",
+      "paragraph": "Logs to any Print stream (Serial, NetSerial) with optional ANSI colors, keeps a rotating log file on SPIFFS or LittleFS, and is thread-safe. Optional CommandInterface integration for runtime control.",
+      "website": "https://github.com/FelipeDadison/DebugLogger",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/FelipeDadison/DebugLogger.git",
+      "providesIncludes": [
+        "DebugLogger.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/FelipeDadison/DebugLogger-1.1.0.zip",
+      "archiveFileName": "DebugLogger-1.1.0.zip",
+      "size": 16964,
+      "checksum": "SHA-256:57d8c490289e7d44743ad9176670c816b09a55f4cbd4bdeb6ec1597ff7db3be2"
+    },
+    {
+      "name": "NetSerial",
+      "version": "1.1.0",
+      "author": "Felipe Dadison",
+      "maintainer": "Felipe Dadison \u003cfelipe.dadison@gmail.com\u003e",
+      "sentence": "Multi-protocol Serial communication wrapper for ESP32 supporting TCP, WebSocket, and UDP transports.",
+      "paragraph": "Implements the Arduino Stream interface, so print(), println(), printf(), readStringUntil() and parseInt() work the same as with Serial.",
+      "website": "https://github.com/FelipeDadison/NetSerial",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/FelipeDadison/NetSerial.git",
+      "providesIncludes": [
+        "NetSerial.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Async TCP",
+          "version": "\u003e=3.5.0"
+        },
+        {
+          "name": "ESP Async WebServer",
+          "version": "\u003e=3.12.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/FelipeDadison/NetSerial-1.1.0.zip",
+      "archiveFileName": "NetSerial-1.1.0.zip",
+      "size": 14962,
+      "checksum": "SHA-256:cd58979a547c1d00c2a10065fdc95095f05fcf1d1011bfb5a9d1e15dab29107b"
+    },
+    {
+      "name": "Sitron Labs RX480E Arduino Library",
+      "version": "0.1.0",
+      "author": "Sitron Labs",
+      "maintainer": "Sitron Labs \u003csupport@sitronlabs.com\u003e",
+      "sentence": "Arduino library for the Qiachip RX480E 433.92 MHz EV1527 learning receiver. Pairs keyfobs and changes modes through the VT pin only.",
+      "website": "https://github.com/sitronlabs/SitronLabs_Qiachip_RX480E_Arduino_Library",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sitronlabs/SitronLabs_Qiachip_RX480E_Arduino_Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/sitronlabs/Sitron_Labs_RX480E_Arduino_Library-0.1.0.zip",
+      "archiveFileName": "Sitron_Labs_RX480E_Arduino_Library-0.1.0.zip",
+      "size": 17985,
+      "checksum": "SHA-256:6028222fe67041e5beee90acfa12021bae2bff10f5007af63734e2f2d9b8a8db"
+    },
+    {
+      "name": "Sitron Labs INA219 Arduino Library",
+      "version": "0.1.0",
+      "author": "Sitron Labs",
+      "maintainer": "Sitron Labs \u003csupport@sitronlabs.com\u003e",
+      "sentence": "Arduino library for the Texas Instruments INA219 Voltage, Current and Power Monitor with I2C interface.",
+      "website": "https://github.com/sitronlabs/SitronLabs_TexasInstruments_INA219_Arduino_Library",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sitronlabs/SitronLabs_TexasInstruments_INA219_Arduino_Library.git",
+      "dependencies": [
+        {
+          "name": "Wire"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/sitronlabs/Sitron_Labs_INA219_Arduino_Library-0.1.0.zip",
+      "archiveFileName": "Sitron_Labs_INA219_Arduino_Library-0.1.0.zip",
+      "size": 788213,
+      "checksum": "SHA-256:929c673fdc22616ab290a560bb9cc93a3c6d493a238147af5673a04ff9c214e9"
+    },
+    {
+      "name": "DCC-LocoAddr",
+      "version": "5.0.0",
+      "author": "Christophe BOBILLE \u003c38000184+BOBILLEChristophe@users.noreply.github.com\u003e",
+      "maintainer": "Christophe BOBILLE \u003c38000184+BOBILLEChristophe@users.noreply.github.com\u003e",
+      "sentence": "Reads DCC locomotive addresses from bidirectional track feedback using ESP32 hardware UART.",
+      "paragraph": "Supports short, long and consist addresses, optional physical orientation sensing, multiple detectors, statistics and event-driven reception through the ESP-IDF UART driver.",
+      "website": "https://github.com/BOBILLEChristophe/DCC-LocoAddr",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/BOBILLEChristophe/DCC-LocoAddr.git",
+      "providesIncludes": [
+        "DCC-LocoAddr.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/BOBILLEChristophe/DCC_LocoAddr-5.0.0.zip",
+      "archiveFileName": "DCC_LocoAddr-5.0.0.zip",
+      "size": 6585335,
+      "checksum": "SHA-256:77430cbead775a38d040f2cb74e8f596aa0707e1ecf78e3471e8cf884c4258e5"
+    },
+    {
+      "name": "DCC-LocoAddr",
+      "version": "5.0.1",
+      "author": "Christophe BOBILLE \u003c38000184+BOBILLEChristophe@users.noreply.github.com\u003e",
+      "maintainer": "Christophe BOBILLE \u003c38000184+BOBILLEChristophe@users.noreply.github.com\u003e",
+      "sentence": "Reads DCC locomotive addresses from bidirectional track feedback using ESP32 hardware UART.",
+      "paragraph": "Supports short, long and consist addresses, optional physical orientation sensing, multiple detectors, statistics and event-driven reception through the ESP-IDF UART driver.",
+      "website": "https://github.com/BOBILLEChristophe/DCC-LocoAddr",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/BOBILLEChristophe/DCC-LocoAddr.git",
+      "providesIncludes": [
+        "DCC-LocoAddr.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/BOBILLEChristophe/DCC_LocoAddr-5.0.1.zip",
+      "archiveFileName": "DCC_LocoAddr-5.0.1.zip",
+      "size": 6681962,
+      "checksum": "SHA-256:98895a59d227918b2bc64c5c857297e6ab4ab229f6e7e7284fed8d576db14249"
     }
   ]
 }
