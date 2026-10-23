@@ -81537,6 +81537,27 @@
       "checksum": "SHA-256:b3706c2c845f7d6139c714a7fb4ed97c489a4b745c6e29fddfd3ca8932de7870"
     },
     {
+      "name": "TaskScheduler",
+      "version": "4.1.1",
+      "author": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
+      "maintainer": "Anatoli Arkhipenko \u003carkhipenko@hotmail.com\u003e",
+      "sentence": "Cooperative multitasking for Arduino, ESPx, STM32 and other microcontrollers.",
+      "paragraph": "Supports: periodic task execution (with dynamic execution period in milliseconds or microseconds – frequency of execution), number of iterations (limited or infinite number of iterations), execution of tasks in predefined sequence, dynamic change of task execution parameters (frequency, number of iterations, callback methods), power saving via entering IDLE sleep mode when tasks are not scheduled to run, event-driven task invocation via Status Request object, task IDs and Control Points for error handling and watchdog timer, Local Task Storage pointer (allowing use of same callback code for multiple tasks), layered task prioritization, std::functions (where supported), overall task timeout, static and dynamic callback method binding.",
+      "website": "https://github.com/arkhipenko/TaskScheduler.git",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/arkhipenko/TaskScheduler.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/arkhipenko/TaskScheduler-4.1.1.zip",
+      "archiveFileName": "TaskScheduler-4.1.1.zip",
+      "size": 1041964,
+      "checksum": "SHA-256:28ee9c63124fc7f29a35613363cbcee2b7ede0a23854cac8818828688a6fb60c"
+    },
+    {
       "name": "TMRpcm",
       "version": "1.1.0",
       "author": "TMRh20",
@@ -173580,6 +173601,32 @@
       "checksum": "SHA-256:03768c52b0b254178b536db0229b406d49cdd897122d682f5a878569f21a9c10"
     },
     {
+      "name": "STM32duino STM32Ethernet",
+      "version": "1.6.0",
+      "author": "Various",
+      "maintainer": "STMicroelectronics",
+      "sentence": "Enables network connection (local and Internet) using the STM32 Board.",
+      "paragraph": "With this library you can use the STM32 board to connect to Internet. The library provides both Client and server functionalities. The library permits you to connect to a local network also with DHCP and to resolve DNS. This library depends on the LwIP library.",
+      "website": "https://github.com/stm32duino/STM32Ethernet",
+      "category": "Communication",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/stm32duino/STM32Ethernet.git",
+      "dependencies": [
+        {
+          "name": "STM32duino LwIP"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_STM32Ethernet-1.6.0.zip",
+      "archiveFileName": "STM32duino_STM32Ethernet-1.6.0.zip",
+      "size": 79771,
+      "checksum": "SHA-256:e41c1ceed0d436d0189028253c4b2a01acc1e6c394ddbc772ed8154b95d558ba"
+    },
+    {
       "name": "STM32duino LwIP",
       "version": "2.0.3",
       "author": "Adam Dunkels \u003cadam@sics.se\u003e",
@@ -211392,6 +211439,41 @@
       "archiveFileName": "Adafruit_DAP_library-1.8.4.zip",
       "size": 1524659,
       "checksum": "SHA-256:e1b9f152650cbd1b1f09b08adec2f99914a1b6e31810cdd59424090a5c74433a"
+    },
+    {
+      "name": "Adafruit DAP library",
+      "version": "1.8.5",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Arduino library for DAP programming on ARM cortex microcontroller",
+      "paragraph": "Arduino library for DAP programming on ARM cortex microcontroller",
+      "website": "https://github.com/adafruit/Adafruit_DAP",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_DAP.git",
+      "dependencies": [
+        {
+          "name": "Adafruit SPIFlash"
+        },
+        {
+          "name": "SdFat - Adafruit Fork"
+        },
+        {
+          "name": "Adafruit TinyUSB Library"
+        },
+        {
+          "name": "SD"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_DAP_library-1.8.5.zip",
+      "archiveFileName": "Adafruit_DAP_library-1.8.5.zip",
+      "size": 1525026,
+      "checksum": "SHA-256:b3923f661136cb60bebe4a172f11288a8bdab5da7f826264fea63b5ff3baa74d"
     },
     {
       "name": "log4Esp",
@@ -361960,6 +362042,27 @@
       "checksum": "SHA-256:1794294d6e647da0c6712e2d1ba51344c69c4e6462c8a605f24fb6e56089c893"
     },
     {
+      "name": "PeanutKing Soccer",
+      "version": "4.2.2",
+      "author": "PeanutKing Solutions",
+      "maintainer": "PeanutKing \u003cinfo@peanutkingsolution.com\u003e",
+      "sentence": "Arduino library for controlling Soccer Robot by Peanut King.",
+      "paragraph": "Arduino library for controlling Soccer Robot by Peanut King, including V3, V4",
+      "website": "https://github.com/peanut-king-solution/PeanutKing_Soccer",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/peanut-king-solution/PeanutKing_Soccer.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/peanut-king-solution/PeanutKing_Soccer-4.2.2.zip",
+      "archiveFileName": "PeanutKing_Soccer-4.2.2.zip",
+      "size": 484451,
+      "checksum": "SHA-256:070d4470cadf27948598f44c0377f5497b67368807218748e2517c3605f2e90b"
+    },
+    {
       "name": "DS18B20",
       "version": "1.0.0",
       "author": "Mathias Munk Hansen",
@@ -412775,6 +412878,33 @@
       "archiveFileName": "GroveDriverPack-1.12.0.zip",
       "size": 138940,
       "checksum": "SHA-256:8090e87eef37651e87b8a03d864f98c739287b9492602dcc923409739617d944"
+    },
+    {
+      "name": "GroveDriverPack",
+      "version": "1.13.0",
+      "author": "Seeed K.K.",
+      "maintainer": "matsujirushi",
+      "sentence": "GroveDriverPack",
+      "website": "https://github.com/SeeedJP/GroveDriverPack/blob/main/readme.md",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "Seeed_STM32F4",
+        "stm32",
+        "SeeedJP_ReButton",
+        "samd",
+        "nrf52"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/SeeedJP/GroveDriverPack.git",
+      "providesIncludes": [
+        "GroveDriverPack.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/SeeedJP/GroveDriverPack-1.13.0.zip",
+      "archiveFileName": "GroveDriverPack-1.13.0.zip",
+      "size": 139277,
+      "checksum": "SHA-256:5eb036b90ba9d695a6eecd163f13e48f5b62a903690396b8ff862d36dd15689c"
     },
     {
       "name": "OPTIGA Trust M",
@@ -747716,6 +747846,27 @@
       "checksum": "SHA-256:b736ba10bf2300f58caed3f3163f2e7504fababd7f9fb2c0a5f0106796126dee"
     },
     {
+      "name": "DFRobot_DF1201S",
+      "version": "1.0.3",
+      "author": "DFRobot",
+      "maintainer": "fengli \u003cli.feng@dfrobot.com\u003e and qsjhyy \u003cyihuan.huang@dfrobot.com\u003e",
+      "sentence": "This module is a conversion board, which can drive DF1201S DFPlayer PRO MP3 through I2C.",
+      "paragraph": "DFRobot_DF1201S is the standard library of DFRobot.",
+      "website": "https://github.com/DFRobot/DFRobot_DF1201S",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_DF1201S.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_DF1201S-1.0.3.zip",
+      "archiveFileName": "DFRobot_DF1201S-1.0.3.zip",
+      "size": 431163,
+      "checksum": "SHA-256:ea2b2e0991de4ce6891cae809956fd9780a2e5de91cfc5c9d1ff26d3b66e8f73"
+    },
+    {
       "name": "AVision_ESP8266",
       "version": "1.0.2",
       "author": "A-Vision Software \u003cinfo@a-vision.software\u003e",
@@ -749366,6 +749517,48 @@
       "archiveFileName": "DFRobot_BMX160-1.0.1.zip",
       "size": 87864,
       "checksum": "SHA-256:ec0e0d271b8e1a6fee2f57be45df7c1e40c4df427b5fd3c7523b75ed11d29119"
+    },
+    {
+      "name": "DFRobot_BMX160",
+      "version": "1.0.2",
+      "author": "DFRobot",
+      "maintainer": "Fary DFRobot \u003cfeng.yang@dfrobot.com\u003e",
+      "sentence": "DFRobot_BMX160 is the Sensor library of DFRobot",
+      "paragraph": "The BMX160 contains 16 bit digtial,triaxial accelerometer 16 bit digital, triaxial gyroscope and geomagnetic sensor.",
+      "website": "https://github.com/DFRobot/DFRobot_BMX160",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_BMX160.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_BMX160-1.0.2.zip",
+      "archiveFileName": "DFRobot_BMX160-1.0.2.zip",
+      "size": 87957,
+      "checksum": "SHA-256:489eaeb1e4ac200bc13cd365134db07f87d3f62180325c95e303f68780d8666b"
+    },
+    {
+      "name": "DFRobot_BMX160",
+      "version": "1.0.3",
+      "author": "DFRobot",
+      "maintainer": "Fary DFRobot \u003cfeng.yang@dfrobot.com\u003e",
+      "sentence": "DFRobot_BMX160 is the Sensor library of DFRobot",
+      "paragraph": "The BMX160 contains 16 bit digtial,triaxial accelerometer 16 bit digital, triaxial gyroscope and geomagnetic sensor.",
+      "website": "https://github.com/DFRobot/DFRobot_BMX160",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_BMX160.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_BMX160-1.0.3.zip",
+      "archiveFileName": "DFRobot_BMX160-1.0.3.zip",
+      "size": 88395,
+      "checksum": "SHA-256:d5e7540b91c1ae3a9feff1b12e42c3ba95fe2e712a8e23feccc04f97cfeae7f0"
     },
     {
       "name": "DFRobot_PAJ7620U2",
@@ -777530,6 +777723,27 @@
       "checksum": "SHA-256:021c73f949c11a9b55188b1846855c179ffeca42a9d64eef74a765c4a51fe957"
     },
     {
+      "name": "DFRobot_IICSerial",
+      "version": "1.0.3",
+      "author": "DFRobot",
+      "maintainer": "Arya \u003cxue.peng@dfrobot.com\u003e",
+      "sentence": "DFRobot Standard library(SKU:DFR0627).",
+      "paragraph": "This is an IIC to dual UART module library.",
+      "website": "https://github.com/DFRobot/DFRobot_IICSerial",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_IICSerial.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_IICSerial-1.0.3.zip",
+      "archiveFileName": "DFRobot_IICSerial-1.0.3.zip",
+      "size": 105199,
+      "checksum": "SHA-256:b369e05e350bc18eefb6204880c6104f7f5b8923e5c399f5516bbf47bf9ad9d0"
+    },
+    {
       "name": "UtilsBoards",
       "version": "1.0.0",
       "author": "Carlos Gonçalves",
@@ -781508,6 +781722,27 @@
       "checksum": "SHA-256:aa21bd47d3f269bc99f3c7632cdb0f02d4a131e5882d3d15b1781930b3a94748"
     },
     {
+      "name": "DFRobot_DF1101S",
+      "version": "1.0.1",
+      "author": "DFRobot",
+      "maintainer": "fengli \u003cli.feng@dfrobot.com\u003e",
+      "sentence": "record audio and play audio(SKU:DFR0745).",
+      "paragraph": "DFRobot_DF1101S is the standard library of DFRobot.",
+      "website": "https://github.com/DFRobot/DFRobot_DF1101S",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_DF1101S.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_DF1101S-1.0.1.zip",
+      "archiveFileName": "DFRobot_DF1101S-1.0.1.zip",
+      "size": 253030,
+      "checksum": "SHA-256:ff3e17387d7aba4a662445fe6f7a524e2faed8185cc2fe9e0279206a9cce7820"
+    },
+    {
       "name": "DFRobot_SpeechSynthesis",
       "version": "1.0.1",
       "author": "DFRobot",
@@ -781611,6 +781846,27 @@
       "archiveFileName": "DFRobot_BT401-1.0.0.zip",
       "size": 266574,
       "checksum": "SHA-256:2dd7eb4eb09eda20e8dde0f19f38346d0aedc5eeffa2c4c4d41eba9a3f68b156"
+    },
+    {
+      "name": "DFRobot_BT401",
+      "version": "1.0.1",
+      "author": "DFRobot",
+      "maintainer": "Eddard \u003ceddard.liu@dfrobot.com\u003e",
+      "sentence": "This Bluetooth module features Bluetooth/U-disk/TF-card playback, and Bluetooth call function, supporting simple and clear serial port control function, BLE pass-through, and SPP pass-through functions(SKU:DFR0781)",
+      "paragraph": "DFRobot_BT401 is the standard library of DFRobot.",
+      "website": "https://github.com/DFRobot/DFRobot_BT401",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_BT401.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_BT401-1.0.1.zip",
+      "archiveFileName": "DFRobot_BT401-1.0.1.zip",
+      "size": 266865,
+      "checksum": "SHA-256:abb8f900da74e27bab1302c84b9506e6e8cb212c5d96fc7d7070c8a5c53888fb"
     },
     {
       "name": "DFRobot_VoiceRecorder",
@@ -802346,6 +802602,27 @@
       "archiveFileName": "DFRobot_GP8302-1.0.0.zip",
       "size": 26163,
       "checksum": "SHA-256:12607581ba1f2f98a780926cdc1973d3f8cea39323ca933b9b6ad6f500316aa8"
+    },
+    {
+      "name": "DFRobot_GP8302",
+      "version": "1.0.1",
+      "author": "DFRobot",
+      "maintainer": "Arya \u003cxue.peng@dfrobot.com\u003e",
+      "sentence": "I2C to 0-25mA DAC module(SKU:DFR0972).",
+      "paragraph": "This I2C to 0-25mA DAC module can be used for users to output a current of 0-25mA.",
+      "website": "https://github.com/DFRobot/DFRobot_GP8302",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_GP8302.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_GP8302-1.0.1.zip",
+      "archiveFileName": "DFRobot_GP8302-1.0.1.zip",
+      "size": 26372,
+      "checksum": "SHA-256:49ca1356cd3107e2cfb5794c0de5dc1e0ed2869603890a66e727849ed4f86e1b"
     },
     {
       "name": "DFRobot_MCP9808",
@@ -834140,6 +834417,35 @@
       "checksum": "SHA-256:e9143c87af413e39492d14fc24df9d7aaea56ccf47e4b7821de3e3f562a4fac9"
     },
     {
+      "name": "Deneyap 5x7 LED Matris",
+      "version": "1.1.0",
+      "author": "Turkish Technology Team Foundation (T3) \u003cdestek@deneyapkart.org\u003e",
+      "maintainer": "Turkish Technology Team Foundation (T3) \u003cdestek@deneyapkart.org\u003e",
+      "sentence": "Arduino library for Deneyap 5x7 LED Matrix (single color and RGB modules)",
+      "paragraph": "A simple and efficient library to use Deneyap 5x7 LED Matris via I2C peripheral. DotMatrix class drives the first generation single color module, RGB5x7LedMatris class drives the new generation RGB module.",
+      "website": "https://github.com/deneyapkart/deneyap-5x7-led-matris-arduino-library",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/deneyapkart/deneyap-5x7-led-matris-arduino-library.git",
+      "providesIncludes": [
+        "Deneyap_5x7LedEkran.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit NeoPixel"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/deneyapkart/Deneyap_5x7_LED_Matris-1.1.0.zip",
+      "archiveFileName": "Deneyap_5x7_LED_Matris-1.1.0.zip",
+      "size": 32654,
+      "checksum": "SHA-256:f6837f650d5b42afc9d665a7edbcb86fd818f65fb4beb468c0f306272dae8c49"
+    },
+    {
       "name": "Deneyap OLED Ekran",
       "version": "1.0.0",
       "author": "RFtek Electronics \u003ctechsupport@rftek.com.tr\u003e",
@@ -834898,6 +835204,27 @@
       "archiveFileName": "Deneyap_Cift_Kanalli_Cizgi_Algilayici-1.0.2.zip",
       "size": 14626,
       "checksum": "SHA-256:37f6ee6a8c90755256507a0edd23d4fe6b470d052f2756299365e5b43899a9c7"
+    },
+    {
+      "name": "Deneyap Cift Kanalli Cizgi Algilayici",
+      "version": "1.1.0",
+      "author": "Turkish Technology Team Foundation (T3) \u003cdestek@deneyapkart.org\u003e",
+      "maintainer": "Turkish Technology Team Foundation (T3) \u003cdestek@deneyapkart.org\u003e",
+      "sentence": "Arduino library for Deneyap Line Follower modules (2 channel TCRT5000 and 4 channel GP2S700HCP)",
+      "paragraph": "A simple and efficient library to use Deneyap Dual Channel Line Follower TCRT5000 and Deneyap 4 Channel Line Follower GP2S700HCP modules via I2C peripheral. Includes calibration and line position functions for the 4 channel module.",
+      "website": "https://github.com/deneyapkart/deneyap-cift-kanalli-cizgi-algilayici-arduino-library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/deneyapkart/deneyap-cift-kanalli-cizgi-algilayici-arduino-library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/deneyapkart/Deneyap_Cift_Kanalli_Cizgi_Algilayici-1.1.0.zip",
+      "archiveFileName": "Deneyap_Cift_Kanalli_Cizgi_Algilayici-1.1.0.zip",
+      "size": 29384,
+      "checksum": "SHA-256:cce6fbb31a072be7100408739faa73847fbadaf8bd348ed62691a5872893da71"
     },
     {
       "name": "Deneyap Cift Kanalli Motor Surucu",
@@ -862482,6 +862809,27 @@
       "archiveFileName": "DFRobot_MAX98357A-1.0.1.zip",
       "size": 139729,
       "checksum": "SHA-256:01a704982a835401beb004b6121663a01d6637b3668305cdd33f084c6558fb0f"
+    },
+    {
+      "name": "DFRobot_MAX98357A",
+      "version": "1.0.2",
+      "author": "DFRobot",
+      "maintainer": "qsjhyy \u003cyihuan.huang@dfrobot.com\u003e",
+      "sentence": "This is a Library for MAX98357A(SKU: DFR0954).",
+      "paragraph": "Play the music through Bluetooth or SD card, and then do some simple processing to the audio stream data, finally transmitted to the I2S power MAX98357A equipment to complete the audio playback.",
+      "website": "https://github.com/DFRobot/DFRobot_MAX98357A",
+      "category": "Uncategorized",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_MAX98357A.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_MAX98357A-1.0.2.zip",
+      "archiveFileName": "DFRobot_MAX98357A-1.0.2.zip",
+      "size": 139720,
+      "checksum": "SHA-256:49e9ae19cbc5b39bcd3ec92586a4491d60b870cf803e0578577095b3ab86b573"
     },
     {
       "name": "DFRobot_SCD4X",
@@ -916709,6 +917057,27 @@
       "checksum": "SHA-256:fff5d8c5223f606f8f52ce42694cc3ae9ee110eef76ec1e67b4d8074037e361e"
     },
     {
+      "name": "DFRobot_DF2301Q",
+      "version": "1.0.1",
+      "author": "DFRobot",
+      "maintainer": "qsjhyy \u003cyihuan.huang@dfrobot.com\u003e",
+      "sentence": "This is the library to drive the offline voice recognition module(SKU: SEN0539).",
+      "paragraph": "This module features built-in fixed 150 commonly-used command words and additional command word self-learning function. With dual microphone receiver, it embraces better anti-noise ability and farther recognition distance. Besides, it comes with a speaker and the interface for connecting external speaker, and adopts I2C \u0026 UART communication methods.",
+      "website": "https://github.com/DFRobot/DFRobot_DF2301Q",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_DF2301Q.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_DF2301Q-1.0.1.zip",
+      "archiveFileName": "DFRobot_DF2301Q-1.0.1.zip",
+      "size": 37325,
+      "checksum": "SHA-256:662c273c4eec12366e85761377db6111de492280303dbcd98bf459d2b25b2fbf"
+    },
+    {
       "name": "MagicHome",
       "version": "1.0.0",
       "author": "Nick Jugganaikloo",
@@ -933130,6 +933499,27 @@
       "archiveFileName": "DFRobot_GNSS-1.0.0.zip",
       "size": 122558,
       "checksum": "SHA-256:1fcae38fb8f13b103bc97726cfc3db43caf5790e4f84acb11fa1d4304ad54a4f"
+    },
+    {
+      "name": "DFRobot_GNSS",
+      "version": "1.0.1",
+      "author": "DFRobot",
+      "maintainer": "ZhixinLiu \u003czhixin.liu@dfrobot.com\u003e",
+      "sentence": "Provide longitude and latitude and other satellite information (SKU:TEL0157).",
+      "paragraph": "gps information such as date, time, longitude and latitude can be measured.",
+      "website": "https://github.com/DFRobot/DFRobot_GNSS",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_GNSS.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_GNSS-1.0.1.zip",
+      "archiveFileName": "DFRobot_GNSS-1.0.1.zip",
+      "size": 122689,
+      "checksum": "SHA-256:f21e954555f0f4ff197b68b1d8cff80f67ea5581e0f66cb03fbcd9776a0eb429"
     },
     {
       "name": "DFRobot_LPUPS",
@@ -1142140,6 +1142530,114 @@
       "checksum": "SHA-256:5ad054701b23c1c99f042ba4be074ef4159485c0121bb4c05de3335d326efa37"
     },
     {
+      "name": "AMY Synthesizer",
+      "version": "1.2.201",
+      "author": "Brian Whitman \u003cbrian@variogram.com\u003e, DAn Ellis \u003cdan.ellis@gmail.com\u003e",
+      "maintainer": "Brian Whitman \u003cbrian@variogram.com\u003e",
+      "sentence": "AMY, the Music Synthesizer Library",
+      "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+      "website": "http://github.com/shorepine/amy",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "stm32",
+        "rp2040",
+        "mbed_rp2040",
+        "rp2350",
+        "mbed_rp2350",
+        "teensy",
+        "STM32F1",
+        "STM32F4",
+        "STM32H7",
+        "nrf52",
+        "samd",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shorepine/amy.git",
+      "providesIncludes": [
+        "AMY-Arduino.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.201.zip",
+      "archiveFileName": "AMY_Synthesizer-1.2.201.zip",
+      "size": 44624253,
+      "checksum": "SHA-256:2cc0d3943320d09adb373fd234ec0c6516ed0ac50dde2f29e41e7ac5d9f8e8d2"
+    },
+    {
+      "name": "AMY Synthesizer",
+      "version": "1.2.202",
+      "author": "Brian Whitman \u003cbrian@variogram.com\u003e, DAn Ellis \u003cdan.ellis@gmail.com\u003e",
+      "maintainer": "Brian Whitman \u003cbrian@variogram.com\u003e",
+      "sentence": "AMY, the Music Synthesizer Library",
+      "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+      "website": "http://github.com/shorepine/amy",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "stm32",
+        "rp2040",
+        "mbed_rp2040",
+        "rp2350",
+        "mbed_rp2350",
+        "teensy",
+        "STM32F1",
+        "STM32F4",
+        "STM32H7",
+        "nrf52",
+        "samd",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shorepine/amy.git",
+      "providesIncludes": [
+        "AMY-Arduino.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.202.zip",
+      "archiveFileName": "AMY_Synthesizer-1.2.202.zip",
+      "size": 44627534,
+      "checksum": "SHA-256:7fefabb86a115565e43df88754c42a3fc9143d69b1e9d2cb062cf107e2b4f0c5"
+    },
+    {
+      "name": "AMY Synthesizer",
+      "version": "1.2.203",
+      "author": "Brian Whitman \u003cbrian@variogram.com\u003e, DAn Ellis \u003cdan.ellis@gmail.com\u003e",
+      "maintainer": "Brian Whitman \u003cbrian@variogram.com\u003e",
+      "sentence": "AMY, the Music Synthesizer Library",
+      "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+      "website": "http://github.com/shorepine/amy",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "stm32",
+        "rp2040",
+        "mbed_rp2040",
+        "rp2350",
+        "mbed_rp2350",
+        "teensy",
+        "STM32F1",
+        "STM32F4",
+        "STM32H7",
+        "nrf52",
+        "samd",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shorepine/amy.git",
+      "providesIncludes": [
+        "AMY-Arduino.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.203.zip",
+      "archiveFileName": "AMY_Synthesizer-1.2.203.zip",
+      "size": 44627545,
+      "checksum": "SHA-256:259582fcbced4c00b4a64c482e8b45c0a9db20608a970081f809f74490362814"
+    },
+    {
       "name": "ArduboyI2C",
       "version": "2.0.3",
       "author": "sub1inear",
@@ -1237511,6 +1238009,58 @@
       "checksum": "SHA-256:ac069681d7405a2fed685be6db8763d75c193586a6289bfae4d1e44f9b205177"
     },
     {
+      "name": "GyverMenu",
+      "version": "1.1.3",
+      "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "maintainer": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "sentence": "Dynamic menu system for Arduino",
+      "paragraph": "Dynamic menu system for Arduino",
+      "website": "https://github.com/GyverLibs/GyverMenu",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/GyverLibs/GyverMenu.git",
+      "dependencies": [
+        {
+          "name": "StringN"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverMenu-1.1.3.zip",
+      "archiveFileName": "GyverMenu-1.1.3.zip",
+      "size": 52202,
+      "checksum": "SHA-256:b5e4b8312b19b96ad1b1fe328b0d4dec2a1a824f0d75ccaef01e7d761fd80c6b"
+    },
+    {
+      "name": "GyverMenu",
+      "version": "1.1.4",
+      "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "maintainer": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "sentence": "Dynamic menu system for Arduino",
+      "paragraph": "Dynamic menu system for Arduino",
+      "website": "https://github.com/GyverLibs/GyverMenu",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/GyverLibs/GyverMenu.git",
+      "dependencies": [
+        {
+          "name": "StringN"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverMenu-1.1.4.zip",
+      "archiveFileName": "GyverMenu-1.1.4.zip",
+      "size": 53085,
+      "checksum": "SHA-256:ddc22a90e7e6f0002e8ff3fc5d9e48844d2f35ec6b1d14ca0ce830ff32dc76a9"
+    },
+    {
       "name": "UltraPing",
       "version": "1.0.0",
       "author": "Michael Nixon",
@@ -1245444,6 +1245994,27 @@
       "archiveFileName": "FujitsuAC-1.4.8.zip",
       "size": 33125071,
       "checksum": "SHA-256:fc7202d75cd99542687f4a1abea529ff9b442348a2fd30da84c4a6780405c1bc"
+    },
+    {
+      "name": "FujitsuAC",
+      "version": "1.4.10",
+      "author": "Benas09 \u003cbenas.rag@gmail.com\u003e",
+      "maintainer": "Benas09 \u003cbenas.rag@gmail.com\u003e",
+      "sentence": "Allows ESP32 boards to control FujitsuAC's.",
+      "paragraph": "Replaces UTY-TFSXW1 dongle.",
+      "website": "https://github.com/Benas09/FujitsuAC",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Benas09/FujitsuAC.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Benas09/FujitsuAC-1.4.10.zip",
+      "archiveFileName": "FujitsuAC-1.4.10.zip",
+      "size": 33125950,
+      "checksum": "SHA-256:25bb52acafb2c85468fffb6b79764563d688d3dff5eeeb935bb3880f4e6dcd09"
     },
     {
       "name": "BLE OTA Update",
@@ -1268378,6 +1268949,31 @@
       "checksum": "SHA-256:47da5b320ff3d31e379bd5af88493a966a7a312c8d8d27da406b77953a0d4716"
     },
     {
+      "name": "ESP32CertBundle",
+      "version": "20261020.0.0",
+      "author": "TANAKA Masayuki",
+      "maintainer": "TANAKA Masayuki",
+      "license": "MPL-2.0",
+      "sentence": "ESP32 certificate bundle generated from the ESP-IDF root store.",
+      "paragraph": "Provides an Arduino-compatible header embedding the ESP-IDF TLS root certificate bundle and tooling to refresh it from the Mozilla trust store.",
+      "website": "https://github.com/tanakamasayuki/ESP32CertBundle",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tanakamasayuki/ESP32CertBundle.git",
+      "providesIncludes": [
+        "esp32_cert_bundle.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/ESP32CertBundle-20261020.0.0.zip",
+      "archiveFileName": "ESP32CertBundle-20261020.0.0.zip",
+      "size": 143497,
+      "checksum": "SHA-256:f9961d0eecabfba288173a74be50ada2b5026556abe726ec6ff924d990c34802"
+    },
+    {
       "name": "DIYables ESP32 WebApps",
       "version": "1.0.0",
       "author": "DIYables",
@@ -1268716,6 +1269312,45 @@
       "archiveFileName": "ProtoBot-1.0.6.zip",
       "size": 135170009,
       "checksum": "SHA-256:2c56d56d83971c41c8d08f272d7e30178faa5d78c5f7e15350a4b6def8627ab9"
+    },
+    {
+      "name": "ProtoBot",
+      "version": "1.0.7",
+      "author": "Microbots \u003cinfo@microbots.io\u003e",
+      "maintainer": "Microbots \u003cinfo@microbots.io\u003e",
+      "sentence": "ProtoBot Arduino Library",
+      "paragraph": "ProtoBot is a pocket-sized robot that’s as fun to build as it is to control! Powered by four torquey motor-wheels, this mini-robot is fast, smart, and perfect for hands-on learning.",
+      "website": "https://microbots.io/ProtoBot",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/microbotsio/ProtoBot.git",
+      "providesIncludes": [
+        "ProtoBot.h"
+      ],
+      "dependencies": [
+        {
+          "name": "CodeCell"
+        },
+        {
+          "name": "DriveCell"
+        },
+        {
+          "name": "BLEOTA",
+          "version": "=1.0.6"
+        },
+        {
+          "name": "Adafruit NeoPixel"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/microbotsio/ProtoBot-1.0.7.zip",
+      "archiveFileName": "ProtoBot-1.0.7.zip",
+      "size": 135233136,
+      "checksum": "SHA-256:4f971bfc882a83ca4803d881da006260305451bc3bec66630af3e4c2e6d85d30"
     },
     {
       "name": "EasyENC",
@@ -1340172,6 +1340807,31 @@
       "checksum": "SHA-256:35165c3f0c82509cfccf30c1b45e76a222fcaa5ac59e2cd0df4165431ebf7a12"
     },
     {
+      "name": "SimpleOTAClient",
+      "version": "0.6.0",
+      "author": "SimpleOTA \u003csupport@simpleota.com\u003e",
+      "maintainer": "SimpleOTA \u003csupport@simpleota.com\u003e",
+      "license": "MIT",
+      "sentence": "Thin Arduino-ESP32 client for the SimpleOTA firmware update platform.",
+      "paragraph": "Polls the SimpleOTA check endpoint, streams and flashes firmware with on-the-fly SHA-256 and Ed25519 signature verification, reports lifecycle events, supports trial-install rollback, and persists the assigned build number in NVS. Transport-agnostic; caller owns Wi-Fi/Ethernet bring-up.",
+      "website": "https://github.com/xanderwasserman/SimpleOTAClient-Arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/xanderwasserman/SimpleOTAClient-Arduino.git",
+      "providesIncludes": [
+        "SimpleOTAClient.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/xanderwasserman/SimpleOTAClient-0.6.0.zip",
+      "archiveFileName": "SimpleOTAClient-0.6.0.zip",
+      "size": 130154,
+      "checksum": "SHA-256:b31aff740b4775bf3013ba6f66e55a86f28f9d2f6df008c780c2332ca69a2ca6"
+    },
+    {
       "name": "EmbedDIP",
       "version": "1.0.0",
       "author": "Ozan Durgut",
@@ -1342638,6 +1343298,138 @@
       "archiveFileName": "AutoconnectoSDK-1.7.64.zip",
       "size": 186939,
       "checksum": "SHA-256:3dbaf0e6077158cdb19f51f8ed21692b880ae6c22c6699ef8611fdea31b26523"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.65",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
+      "paragraph": "Connects ESP32, ESP32-C3, and ESP32-S3 to Autoconnecto over MQTTS and MQTT-over-WSS, with shared and client attributes, telemetry, RPC, and OTA. ESP8266 and Raspberry Pi Pico W use the HTTPS examples. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.65.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.65.zip",
+      "size": 186939,
+      "checksum": "SHA-256:00cdedb5cc0e3d53b4e696050108e9763b295f9994033367936cb94cc721c86a"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.66",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
+      "paragraph": "Connects ESP32, ESP32-C3, and ESP32-S3 to Autoconnecto over MQTTS and MQTT-over-WSS, with shared and client attributes, telemetry, RPC, and OTA. ESP8266 and Raspberry Pi Pico W use the HTTPS examples. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.66.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.66.zip",
+      "size": 186939,
+      "checksum": "SHA-256:4f29a605eefec648468ef6ea55030c2be8e82353670504570efd0cc402c01b02"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.67",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
+      "paragraph": "Connects ESP32, ESP32-C3, and ESP32-S3 to Autoconnecto over MQTTS and MQTT-over-WSS, with shared and client attributes, telemetry, RPC, and OTA. ESP8266 and Raspberry Pi Pico W use the HTTPS examples. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.67.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.67.zip",
+      "size": 186939,
+      "checksum": "SHA-256:5767993564be94a43c9d01d0be984046baf0e0681f1e9249ae9ec8ef6612780a"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.68",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
+      "paragraph": "Connects ESP32, ESP32-C3, and ESP32-S3 to Autoconnecto over MQTTS and MQTT-over-WSS, with shared and client attributes, telemetry, RPC, and OTA. ESP8266 and Raspberry Pi Pico W use the HTTPS examples. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.68.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.68.zip",
+      "size": 188158,
+      "checksum": "SHA-256:188160b12f097682f3abf912978a1f14fa231768dbffe80d539dbcc5941a7eaa"
     },
     {
       "name": "SPIKeyPad",
@@ -1404944,6 +1405736,27 @@
       "checksum": "SHA-256:9ae975b389fff748535435a827180e62fbff416513210bef558dffe1176af09d"
     },
     {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.37",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.37.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.37.zip",
+      "size": 949076,
+      "checksum": "SHA-256:41c9ddbd65cba731407b68442b8ad176eb281d98eead593f9eb9f7871f2bf6ee"
+    },
+    {
       "name": "MPU9250-DMP",
       "version": "1.0.0",
       "author": "Renzo Mischianti \u003crenzo.mischianti@gmail.com\u003e",
@@ -1416652,6 +1417465,33 @@
       "checksum": "SHA-256:b42dccea18b6f4bbf4fe4ea627f43beb4f829495cf2bd3c47271662c9d66653a"
     },
     {
+      "name": "ArdPortal",
+      "version": "0.8.1",
+      "author": "Radoslaw Kubera (rkubera on GitHub)",
+      "maintainer": "Radoslaw Kubera",
+      "sentence": "Modular ESP portal with MQTT, Home Assistant and native Zigbee integration.",
+      "paragraph": "JSON-defined controls, WiFi/AP setup, MQTT with verified TLS and Home Assistant Discovery, optional native Zigbee End Device/Router on ESP32-C5/C6/H2, Zigbee2MQTT converter and ZHA quirk export, HTTP/Zigbee OTA and diagnostics. Includes ArdFS persistent storage and ArdJSON; networking modules can be excluded at compile time. Uses the ESP Arduino core without external runtime libraries.",
+      "website": "https://github.com/rkubera/ArdPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rkubera/ArdPortal.git",
+      "providesIncludes": [
+        "ArdPortal.h",
+        "ArdJSON.h",
+        "ArdFS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/rkubera/ArdPortal-0.8.1.zip",
+      "archiveFileName": "ArdPortal-0.8.1.zip",
+      "size": 8084193,
+      "checksum": "SHA-256:d5cf82dc4898012fb8eab95b431bf4f55add9a5f7a5f40529d8930b784bf4cdb"
+    },
+    {
       "name": "Adafruit seesaw Peripheral",
       "version": "2.0.0",
       "author": "Adafruit",
@@ -1416932,6 +1417772,350 @@
       "archiveFileName": "DCC_LocoAddr-5.0.1.zip",
       "size": 6681962,
       "checksum": "SHA-256:98895a59d227918b2bc64c5c857297e6ab4ab229f6e7e7284fed8d576db14249"
+    },
+    {
+      "name": "Bonezegei_DS18B20",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "DS18B20 Temperature Sensor library with built-in OneWire support.",
+      "paragraph": "Bonezegei_DS18B20 provides straightforward temperature reading for DS18B20 sensors without requiring external OneWire library dependencies.",
+      "website": "https://github.com/bonezegei/Bonezegei_DS18B20",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_DS18B20.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_DS18B20-1.0.0.zip",
+      "archiveFileName": "Bonezegei_DS18B20-1.0.0.zip",
+      "size": 16559,
+      "checksum": "SHA-256:b8831a196729c58c7a0f0ddf3f5657b139bd5623bff32260da3dd752ccfe3f0d"
+    },
+    {
+      "name": "Bonezegei_OneWire",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "Arduino library for MCU to MCU communication over OneWire protocol.",
+      "paragraph": "Bonezegei_OneWire provides full Master and Slave roles enabling direct single-wire communication between two microcontrollers.",
+      "website": "https://github.com/bonezegei/Bonezegei_OneWire",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_OneWire.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_OneWire-1.0.0.zip",
+      "archiveFileName": "Bonezegei_OneWire-1.0.0.zip",
+      "size": 18026,
+      "checksum": "SHA-256:a29b10915cd4079c0e476f2de4f76b8fe84121b5f16c9f1457cf886220fca459"
+    },
+    {
+      "name": "Bonezegei_PZEM004T",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "Library for PZEM-004T V3.0 AC Power Meter Module",
+      "paragraph": "Lightweight library to read AC Voltage, Current, Power, Energy, Frequency, and Power Factor via Serial (UART).",
+      "website": "https://github.com/bonezegei/Bonezegei_PZEM004T",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_PZEM004T.git",
+      "providesIncludes": [
+        "Bonezegei_PZEM004T.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_PZEM004T-1.0.0.zip",
+      "archiveFileName": "Bonezegei_PZEM004T-1.0.0.zip",
+      "size": 17133,
+      "checksum": "SHA-256:71ccf73f74ee7ae1d4c1a54f2d1747a99bd4afb76be1c4d1b399879f0e826f3a"
+    },
+    {
+      "name": "Bonezegei_DS1302",
+      "version": "1.0.0",
+      "author": "Jofel Batutay (Bonezegei)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "An Arduino library for interfacing with the DS1302 Real-Time Clock module.",
+      "paragraph": "Bonezegei DS1302 allows reading and setting time, date, day of week, 12/24-hour formats, and AM/PM settings on the DS1302 RTC module using 3-wire synchronous serial communication.",
+      "website": "https://github.com/bonezegei/Bonezegei_DS1302",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_DS1302.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_DS1302-1.0.0.zip",
+      "archiveFileName": "Bonezegei_DS1302-1.0.0.zip",
+      "size": 17939,
+      "checksum": "SHA-256:31b37edabbbb15e7134a9bbb2b4b22763b5f0e6b2b0a0c791a24e1fe74bcf47a"
+    },
+    {
+      "name": "TeensyStepDriver",
+      "version": "1.0.3",
+      "author": "TulioCarmona",
+      "maintainer": "TulioCarmona",
+      "sentence": "Non-blocking stepper motor driver for Teensy 4.1.",
+      "paragraph": "Uses TeensyTimerTool QTIMER hardware timers for precise low-jitter pulse generation. Supports trapezoidal motion profile, continuous speed mode, and up to 8 independent motors simultaneously.",
+      "website": "https://github.com/TulioCarmona/TeensyStepDriver",
+      "category": "Device Control",
+      "architectures": [
+        "teensy_avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/TulioCarmona/TeensyStepDriver.git",
+      "providesIncludes": [
+        "TeensyStepDriver.h"
+      ],
+      "dependencies": [
+        {
+          "name": "TeensyTimerTool",
+          "version": "\u003e=1.3.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/TulioCarmona/TeensyStepDriver-1.0.3.zip",
+      "archiveFileName": "TeensyStepDriver-1.0.3.zip",
+      "size": 11604,
+      "checksum": "SHA-256:39fc58b86e3e1f2673484519e048314a16885cfb4d7a07c1c63ed1ef30411133"
+    },
+    {
+      "name": "Bonezegei_HMC5883L",
+      "version": "1.0.0",
+      "author": "Jofel Batutay (Bonezegei)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "Arduino library for HMC5883L 3-Axis Digital Magnetometer / Compass.",
+      "paragraph": "Easily interface with the HMC5883L sensor via I2C to read raw magnetic field data, calculated Gauss values, and compass heading degrees.",
+      "website": "https://github.com/bonezegei/Bonezegei_HMC5883L",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_HMC5883L.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_HMC5883L-1.0.0.zip",
+      "archiveFileName": "Bonezegei_HMC5883L-1.0.0.zip",
+      "size": 17360,
+      "checksum": "SHA-256:d064472271c88b3a5b3e5681072abf528a00aa45ed488d706b2ba4f2a6c83b38"
+    },
+    {
+      "name": "Bonezegei Keypad",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "Simple non-blocking Arduino library for 4x4 matrix keypads.",
+      "paragraph": "Supports custom key maps, software debouncing, and matrix row/column scanning across standard microcontrollers.",
+      "website": "https://github.com/bonezegei/Bonezegei_Keypad",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_Keypad.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_Keypad-1.0.0.zip",
+      "archiveFileName": "Bonezegei_Keypad-1.0.0.zip",
+      "size": 17466,
+      "checksum": "SHA-256:2917a454fa7aa7297c843d018d711f5b685560a5fe857e7430170130ad68ccfd"
+    },
+    {
+      "name": "Bonezegei_TM1638",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "Arduino library for TM1638 8-digit 7-segment display module with 8 LEDs and 8 buttons.",
+      "paragraph": "Provides complete control for TM1638 modules including 7-segment display formatting, individual LED control, brightness adjustment, and button state reading.",
+      "website": "https://github.com/bonezegei/Bonezegei_TM1638",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_TM1638.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_TM1638-1.0.0.zip",
+      "archiveFileName": "Bonezegei_TM1638-1.0.0.zip",
+      "size": 16681,
+      "checksum": "SHA-256:20b057e2b5a4c0bda909c9f413790c1cf5f9cf5ead1093170fc67e4ebf8738d3"
+    },
+    {
+      "name": "MeshLink",
+      "version": "1.0.1",
+      "author": "Code-hoysala",
+      "maintainer": "Code-hoysala",
+      "sentence": "Zero-configuration peer-to-peer communication for Arduino UNO using NRF24L01+.",
+      "paragraph": "Allows AVR-based Arduino boards to exchange short packets using the RF24 library.",
+      "website": "https://github.com/Code-hoysala/MeshLink",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/code-hoysala/MeshLink.git",
+      "providesIncludes": [
+        "MeshLink.h"
+      ],
+      "dependencies": [
+        {
+          "name": "RF24"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/code-hoysala/MeshLink-1.0.1.zip",
+      "archiveFileName": "MeshLink-1.0.1.zip",
+      "size": 3439,
+      "checksum": "SHA-256:6cac7c620c9572e989e02fe37d88ac430ec1bd1ea342928cd203c1e894405a2c"
+    },
+    {
+      "name": "Bonezegei_PN5180",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "Arduino library for the PN5180 NFC and RFID reader module.",
+      "paragraph": "Supports ISO/IEC 14443 Type A card detection and UID reading via SPI interface.",
+      "website": "https://github.com/bonezegei/Bonezegei_PN5180",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_PN5180.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_PN5180-1.0.0.zip",
+      "archiveFileName": "Bonezegei_PN5180-1.0.0.zip",
+      "size": 7820,
+      "checksum": "SHA-256:800812ab95f1d49676ae8a9cbe34f1a7c61902ed1793187f8754004d860e071e"
+    },
+    {
+      "name": "BMA580",
+      "version": "1.1.1",
+      "author": "mauringo",
+      "maintainer": "mauringo",
+      "sentence": "Arduino I2C driver for Bosch BMA580 using the official SensorAPI.",
+      "paragraph": "Acceleration, temperature, motion wake interrupt, data-ready polling and access to Bosch advanced APIs.",
+      "website": "https://github.com/mauringo/arduino-bma580",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mauringo/arduino-bma580.git",
+      "providesIncludes": [
+        "BMA580.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mauringo/BMA580-1.1.1.zip",
+      "archiveFileName": "BMA580-1.1.1.zip",
+      "size": 63847,
+      "checksum": "SHA-256:f517bcd5b9ad3af9fa82af1cc99e14936e34f7d43c26cbf7604574833cab6ec2"
+    },
+    {
+      "name": "Crowpanel_2.1",
+      "version": "1.0.0",
+      "author": "Charles Vaillancourt",
+      "maintainer": "Charles Vaillancourt",
+      "sentence": "Helper functions to work with a CrowPanel 2.1 LCD display",
+      "paragraph": "This library contains a class that encapsulates all the functions of a Crowpanel 2.1 display including functions to receive events from the rotary encoder (rotation, click, double-click, long press), and to receive events from the touchscreen. It also allows setting the brightness of the LCD display, turning it OFF and ON, and setting the intensity of the LED.",
+      "website": "https://github.com/placidanomaly/Crowpanel_2.1",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/placidanomaly/Crowpanel_2.1.git",
+      "providesIncludes": [
+        "crowpanel_2_1.h"
+      ],
+      "dependencies": [
+        {
+          "name": "lvgl",
+          "version": "\u003e=9.5.0"
+        },
+        {
+          "name": "PCF8574 library"
+        },
+        {
+          "name": "Adafruit CST8XX Library",
+          "version": "\u003e=1.0.1"
+        },
+        {
+          "name": "GFX Library for Arduino",
+          "version": "\u003e=1.4.7"
+        },
+        {
+          "name": "Adafruit BusIO",
+          "version": "\u003e=1.16.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/placidanomaly/Crowpanel_2_1-1.0.0.zip",
+      "archiveFileName": "Crowpanel_2_1-1.0.0.zip",
+      "size": 1349492,
+      "checksum": "SHA-256:f21b567542f39a3691fa242f3d490bc56f50fdacd7a2e43a81999d74ce5bcec6"
+    },
+    {
+      "name": "Crowpanel_2.1",
+      "version": "1.0.1",
+      "author": "Charles Vaillancourt",
+      "maintainer": "Charles Vaillancourt",
+      "sentence": "Helper functions to work with a CrowPanel 2.1 LCD display",
+      "paragraph": "This library contains a class that encapsulates all the functions of a Crowpanel 2.1 display including functions to receive events from the rotary encoder (rotation, click, double-click, long press), and to receive events from the touchscreen. It also allows setting the brightness of the LCD display, turning it OFF and ON, and setting the intensity of the LED.",
+      "website": "https://github.com/placidanomaly/Crowpanel_2.1",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/placidanomaly/Crowpanel_2.1.git",
+      "providesIncludes": [
+        "crowpanel_2_1.h"
+      ],
+      "dependencies": [
+        {
+          "name": "lvgl",
+          "version": "\u003e=9.5.0"
+        },
+        {
+          "name": "PCF8574 library"
+        },
+        {
+          "name": "Adafruit CST8XX Library",
+          "version": "\u003e=1.0.1"
+        },
+        {
+          "name": "GFX Library for Arduino",
+          "version": "\u003e=1.4.7"
+        },
+        {
+          "name": "Adafruit BusIO",
+          "version": "\u003e=1.16.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/placidanomaly/Crowpanel_2_1-1.0.1.zip",
+      "archiveFileName": "Crowpanel_2_1-1.0.1.zip",
+      "size": 1350749,
+      "checksum": "SHA-256:0040b63092a3abbed74e92fe6cc63fdea100e993012d1c0c74e8c1d7680a7e51"
     }
   ]
 }
