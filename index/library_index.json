@@ -79751,6 +79751,35 @@
       "checksum": "SHA-256:4285fc69d5fe3272523e78bf58099850805a33887aaabf5ce99883a1ebd9cdf3"
     },
     {
+      "name": "RF24Network",
+      "version": "2.2.1",
+      "author": "TMRh20",
+      "maintainer": "TMRh20,Avamander",
+      "sentence": "OSI Layer 3 Networking for nrf24L01(+) \u0026 nrf52x devices.",
+      "paragraph": "Provides a simple and seamless network layer for sensor/IoT networks, including routing, addressing and fragmentation/reassembly.",
+      "website": "https://nRF24.github.io/RF24Network/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/TMRh20/RF24Network.git",
+      "dependencies": [
+        {
+          "name": "RF24"
+        },
+        {
+          "name": "nrf_to_nrf"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Network-2.2.1.zip",
+      "archiveFileName": "RF24Network-2.2.1.zip",
+      "size": 1556544,
+      "checksum": "SHA-256:f1b4277e58f3a6a0eb9a2c365ad075093ce995ea2a5d1ca2065a5211f67b12b6"
+    },
+    {
       "name": "RF24",
       "version": "1.2.0",
       "author": "TMRh20",
@@ -211474,6 +211503,41 @@
       "archiveFileName": "Adafruit_DAP_library-1.8.5.zip",
       "size": 1525026,
       "checksum": "SHA-256:b3923f661136cb60bebe4a172f11288a8bdab5da7f826264fea63b5ff3baa74d"
+    },
+    {
+      "name": "Adafruit DAP library",
+      "version": "1.9.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Arduino library for DAP programming on ARM cortex microcontroller",
+      "paragraph": "Arduino library for DAP programming on ARM cortex microcontroller",
+      "website": "https://github.com/adafruit/Adafruit_DAP",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_DAP.git",
+      "dependencies": [
+        {
+          "name": "Adafruit SPIFlash"
+        },
+        {
+          "name": "SdFat - Adafruit Fork"
+        },
+        {
+          "name": "Adafruit TinyUSB Library"
+        },
+        {
+          "name": "SD"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_DAP_library-1.9.0.zip",
+      "archiveFileName": "Adafruit_DAP_library-1.9.0.zip",
+      "size": 1564395,
+      "checksum": "SHA-256:01d1cd588ee09e51dbfd8a1270cd98f7c13a06a581894e3a3cb27b7d1900be31"
     },
     {
       "name": "log4Esp",
@@ -552032,6 +552096,35 @@
       "checksum": "SHA-256:3ba66e3c9e09a78fe71c68303dfe2c05158be88cc3419bee8aeb95763d57d0c3"
     },
     {
+      "name": "SDI-12",
+      "version": "2.5.0",
+      "author": "Kevin M. Smith \u003cKevin@elite-education.org\u003e, Shannon Hicks \u003cshicks@stroudcenter.org\u003e",
+      "maintainer": "Sara Damiano \u003csdamiano@stroudcenter.org\u003e",
+      "sentence": "An Arduino library for SDI-12 communication with a wide variety of environmental sensors.",
+      "paragraph": "This library provides a general software solution, without requiring any additional hardware.",
+      "website": "https://github.com/EnviroDIY/Arduino-SDI-12",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "sam",
+        "samd",
+        "esp8266",
+        "esp32",
+        "mbed_giga"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/EnviroDIY/Arduino-SDI-12.git",
+      "providesIncludes": [
+        "SDI12.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/EnviroDIY/SDI_12-2.5.0.zip",
+      "archiveFileName": "SDI_12-2.5.0.zip",
+      "size": 3079647,
+      "checksum": "SHA-256:ae09fcb44e2ccaa70630d8b387d5988c0b5f23e57f418464aaaefdf7c64268ac"
+    },
+    {
       "name": "ES920",
       "version": "0.1.0",
       "author": "hideakitai",
@@ -819519,6 +819612,35 @@
       "checksum": "SHA-256:4638b5594b3599d7cc7f6d370bb5b8b27095faec8631c55d013cc31be985dd31"
     },
     {
+      "name": "Pico PIO USB",
+      "version": "0.7.3",
+      "author": "sekigon-gonnoc",
+      "maintainer": "sekigon-gonnoc",
+      "sentence": "Pico PIO USB library for Arduino",
+      "paragraph": "Pico PIO USB library for Arduino",
+      "website": "https://github.com/sekigon-gonnoc/Pico-PIO-USB",
+      "category": "Communication",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sekigon-gonnoc/Pico-PIO-USB.git",
+      "providesIncludes": [
+        "pio_usb.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit TinyUSB Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/sekigon-gonnoc/Pico_PIO_USB-0.7.3.zip",
+      "archiveFileName": "Pico_PIO_USB-0.7.3.zip",
+      "size": 53215,
+      "checksum": "SHA-256:78961733e2e15342820f0cda9233fd3cabd7ae9f595fe2aeedfaa9bf144365e9"
+    },
+    {
       "name": "E220Lib",
       "version": "1.1.2",
       "author": "Connor Kirkpatrick",
@@ -933520,6 +933642,27 @@
       "archiveFileName": "DFRobot_GNSS-1.0.1.zip",
       "size": 122689,
       "checksum": "SHA-256:f21e954555f0f4ff197b68b1d8cff80f67ea5581e0f66cb03fbcd9776a0eb429"
+    },
+    {
+      "name": "DFRobot_GNSS",
+      "version": "1.0.2",
+      "author": "DFRobot",
+      "maintainer": "ZhixinLiu \u003czhixin.liu@dfrobot.com\u003e",
+      "sentence": "Provide longitude and latitude and other satellite information (SKU:TEL0157).",
+      "paragraph": "gps information such as date, time, longitude and latitude can be measured.",
+      "website": "https://github.com/DFRobot/DFRobot_GNSS",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_GNSS.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_GNSS-1.0.2.zip",
+      "archiveFileName": "DFRobot_GNSS-1.0.2.zip",
+      "size": 122802,
+      "checksum": "SHA-256:bcd7e0b15cac13a349b30e03da66c9c511f059087d51a3c5ae531b65fa91293d"
     },
     {
       "name": "DFRobot_LPUPS",
@@ -1105404,6 +1105547,28 @@
       "checksum": "SHA-256:9673dfa94a2331f59c6e761fb0faf458c985d5cd8f7ebc89507d89d96442f4a4"
     },
     {
+      "name": "NetWizard",
+      "version": "2.0.0",
+      "author": "Ayush Sharma",
+      "maintainer": "Ayush Sharma \u003casrocks5@gmail.com\u003e",
+      "sentence": "An easy-to-use yet powerful WiFi manager and captive portal library for wireless microcontrollers.",
+      "paragraph": "Avoid the hassle of hard-coding WiFi credentials and let NetWizard take care of everything for your device!",
+      "website": "https://github.com/ayushsharma82/NetWizard",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ayushsharma82/NetWizard.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/ayushsharma82/NetWizard-2.0.0.zip",
+      "archiveFileName": "NetWizard-2.0.0.zip",
+      "size": 1243728,
+      "checksum": "SHA-256:13a21a532f751fc712aeb47fa3d2df6d227b0758bbefd1d5681f425c469eaf1e"
+    },
+    {
       "name": "UnoCar",
       "version": "0.1.0",
       "author": "\"a3510377 \u003ca102009102009@gmail.com\u003e\"",
@@ -1121711,6 +1121876,29 @@
       "archiveFileName": "WioCellular-0.3.15.zip",
       "size": 447070,
       "checksum": "SHA-256:05db27129071edca3c9ab17bd93c5876916ae68a2aa1fcea83377daa6b48a8f7"
+    },
+    {
+      "name": "WioCellular",
+      "version": "0.3.16",
+      "author": "Seeed K.K.",
+      "maintainer": "MATSUOKA Takashi \u003cmatsujirushi@live.jp\u003e",
+      "sentence": "This library to operate the Wio BG770A cellular module.",
+      "website": "https://github.com/SeeedJP/wio_cellular",
+      "category": "Communication",
+      "architectures": [
+        "nrf52"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/SeeedJP/wio_cellular.git",
+      "providesIncludes": [
+        "WioCellular.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/SeeedJP/WioCellular-0.3.16.zip",
+      "archiveFileName": "WioCellular-0.3.16.zip",
+      "size": 450367,
+      "checksum": "SHA-256:aef5e9cd21673eb2ed010ac21c3e27495036ea079cb0c8576358fc89feb59eac"
     },
     {
       "name": "FastBot2",
@@ -1142636,6 +1142824,42 @@
       "archiveFileName": "AMY_Synthesizer-1.2.203.zip",
       "size": 44627545,
       "checksum": "SHA-256:259582fcbced4c00b4a64c482e8b45c0a9db20608a970081f809f74490362814"
+    },
+    {
+      "name": "AMY Synthesizer",
+      "version": "1.2.204",
+      "author": "Brian Whitman \u003cbrian@variogram.com\u003e, DAn Ellis \u003cdan.ellis@gmail.com\u003e",
+      "maintainer": "Brian Whitman \u003cbrian@variogram.com\u003e",
+      "sentence": "AMY, the Music Synthesizer Library",
+      "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+      "website": "http://github.com/shorepine/amy",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "stm32",
+        "rp2040",
+        "mbed_rp2040",
+        "rp2350",
+        "mbed_rp2350",
+        "teensy",
+        "STM32F1",
+        "STM32F4",
+        "STM32H7",
+        "nrf52",
+        "samd",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shorepine/amy.git",
+      "providesIncludes": [
+        "AMY-Arduino.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.204.zip",
+      "archiveFileName": "AMY_Synthesizer-1.2.204.zip",
+      "size": 44643195,
+      "checksum": "SHA-256:3a0def7227191bd3e240f3b9845d016bf9a695acac8cfe94d224b8424052eff4"
     },
     {
       "name": "ArduboyI2C",
@@ -1216470,6 +1216694,27 @@
       "archiveFileName": "DFRobot_C4001-1.0.0.zip",
       "size": 153431,
       "checksum": "SHA-256:1f1b14c32b464eef91c6a4bae5053fc17e7bbb3949d986f9be399da2df2b8cc5"
+    },
+    {
+      "name": "DFRobot_C4001",
+      "version": "1.0.1",
+      "author": "DFRobot",
+      "maintainer": "ZhixinLiu \u003czhixin.liu@dfrobot.com\u003e",
+      "sentence": "Determine whether the object is moving (SKU:SEN0610/SEN0609).",
+      "paragraph": "Radar A sensor that detects whether an object is moving.",
+      "website": "https://github.com/DFRobot/DFRobot_C4001",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_C4001.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_C4001-1.0.1.zip",
+      "archiveFileName": "DFRobot_C4001-1.0.1.zip",
+      "size": 153548,
+      "checksum": "SHA-256:60eb0c6115002d02bc79aaecf3a1a67dd9ff982524a235427b7618c74c8c4b81"
     },
     {
       "name": "RTC_NTP_replacement",
@@ -1323266,6 +1323511,153 @@
       "checksum": "SHA-256:7f30c5cb3004a774c08916c35fc63b8d6d0ef57df7e1a1e901770fcc33cb4ab0"
     },
     {
+      "name": "esp32-tunnel",
+      "version": "5.1.0",
+      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
+      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
+      "sentence": "Public URL for your ESP32/ESP8266 — no port forwarding needed.",
+      "paragraph": "Public URL for your ESP32 without port forwarding. Self-hosted WebSocket relay server (Python/FastAPI). Natively compatible with ESPAsyncWebServer — auto-forwards requests to local server. FreeRTOS, auto-reconnect. Just tunnelSetup() and go.",
+      "website": "https://github.com/HamzaYslmn/esp32-tunnel",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/HamzaYslmn/esp32-tunnel.git",
+      "providesIncludes": [
+        "esp32tunnel.h"
+      ],
+      "dependencies": [
+        {
+          "name": "espfetch"
+        },
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "AsyncTCP"
+        },
+        {
+          "name": "ESPAsyncTCP"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/esp32_tunnel-5.1.0.zip",
+      "archiveFileName": "esp32_tunnel-5.1.0.zip",
+      "size": 50950,
+      "checksum": "SHA-256:d6534d3bd1feb0840f9462a85dfc7f94f341d3ae583865d569e3372ca40de843"
+    },
+    {
+      "name": "esp32-tunnel",
+      "version": "5.1.1",
+      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
+      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
+      "sentence": "Public URL for your ESP32/ESP8266 — no port forwarding needed.",
+      "paragraph": "Public URL for your ESP32 without port forwarding. Self-hosted WebSocket relay server (Python/FastAPI). Natively compatible with ESPAsyncWebServer — auto-forwards requests to local server. FreeRTOS, auto-reconnect. Just tunnelSetup() and go.",
+      "website": "https://github.com/HamzaYslmn/esp32-tunnel",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/HamzaYslmn/esp32-tunnel.git",
+      "providesIncludes": [
+        "esp32tunnel.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "AsyncTCP"
+        },
+        {
+          "name": "ESPAsyncTCP"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/esp32_tunnel-5.1.1.zip",
+      "archiveFileName": "esp32_tunnel-5.1.1.zip",
+      "size": 50593,
+      "checksum": "SHA-256:4d1135b19b63fbc27f6afdf8fabf5434cee1abdb5328ecff36bab7419121be5a"
+    },
+    {
+      "name": "esp32-tunnel",
+      "version": "5.2.0",
+      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
+      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
+      "sentence": "Public URL for your ESP32/ESP8266 — no port forwarding needed.",
+      "paragraph": "Public URL for your ESP32 without port forwarding. Self-hosted WebSocket relay server (Python/FastAPI). Natively compatible with ESPAsyncWebServer — auto-forwards requests to local server. FreeRTOS, auto-reconnect. Just tunnelSetup() and go.",
+      "website": "https://github.com/HamzaYslmn/esp32-tunnel",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/HamzaYslmn/esp32-tunnel.git",
+      "providesIncludes": [
+        "esp32tunnel.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "AsyncTCP"
+        },
+        {
+          "name": "ESPAsyncTCP"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/esp32_tunnel-5.2.0.zip",
+      "archiveFileName": "esp32_tunnel-5.2.0.zip",
+      "size": 58828,
+      "checksum": "SHA-256:80fb1143843ab443c215604c59b461143951cf911778bb37a5ab29e5eaf88271"
+    },
+    {
+      "name": "esp32-tunnel",
+      "version": "5.3.0",
+      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
+      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
+      "sentence": "Public URL for your ESP32/ESP8266 — no port forwarding needed.",
+      "paragraph": "Public URL for your ESP32 without port forwarding. Self-hosted WebSocket relay server (Python/FastAPI). Natively compatible with ESPAsyncWebServer — auto-forwards requests to local server. FreeRTOS, auto-reconnect. Just tunnelSetup() and go.",
+      "website": "https://github.com/HamzaYslmn/esp32-tunnel",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/HamzaYslmn/esp32-tunnel.git",
+      "providesIncludes": [
+        "esp32tunnel.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "AsyncTCP"
+        },
+        {
+          "name": "ESPAsyncTCP"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/esp32_tunnel-5.3.0.zip",
+      "archiveFileName": "esp32_tunnel-5.3.0.zip",
+      "size": 59221,
+      "checksum": "SHA-256:1fdf94432688b71ca24e81f52333b557ff60618bab3a0e5d0d792f9bd7c48016"
+    },
+    {
       "name": "ATGenX_Hub",
       "version": "1.0.0",
       "author": "Seif Emad / ARDUTECH0",
@@ -1323701,6 +1324093,32 @@
       "archiveFileName": "JW_FRAM-1.0.2.zip",
       "size": 14607,
       "checksum": "SHA-256:ddbbe35181deac1f064d32d79737b26af751d77a418b25831fe1e0bb2a511c4c"
+    },
+    {
+      "name": "JW_FRAM",
+      "version": "1.0.3",
+      "author": "JW Control",
+      "maintainer": "JW Control",
+      "sentence": "Libreria SPI FRAM con API estilo EEPROM para ESP32.",
+      "paragraph": "Incluye acceso de bajo nivel y alto nivel para FRAM SPI, con soporte para tipos numericos, String, C strings, structs y bloques validados.",
+      "website": "https://github.com/JW-Control/JW_FRAM",
+      "category": "Data Storage",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/JW-Control/JW_FRAM.git",
+      "dependencies": [
+        {
+          "name": "Adafruit BusIO"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/JW-Control/JW_FRAM-1.0.3.zip",
+      "archiveFileName": "JW_FRAM-1.0.3.zip",
+      "size": 15941,
+      "checksum": "SHA-256:78407a46290ceef51520e1d48d32d6db896ab402567d2e1115d0e2ca30aadbd8"
     },
     {
       "name": "UUtzinger_DRV8704",
@@ -1342290,6 +1342708,30 @@
       "checksum": "SHA-256:b027a32f67db95cb645de20dd5a03bb99e07b501b25b2b7e9926b89e9bafadee"
     },
     {
+      "name": "APA-Dose",
+      "version": "3.19.0",
+      "author": "APADevices \u003ckecup@vazac.eu\u003e",
+      "maintainer": "APADevices \u003ckecup@vazac.eu\u003e",
+      "sentence": "Autonomous proportional chemical dosing for swimming pool pH and ORP control.",
+      "paragraph": "Non-blocking state machine with proportional control, closed-loop feedback, full alarm system, filtration interlock, EEPROM persistence, and RTC scheduling. Supports AVR (including Uno), ESP8266, ESP32, and STM32. No external dependencies beyond Arduino.h and EEPROM.h.",
+      "website": "https://github.com/apadevices/APADOSE",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/apadevices/APADOSE.git",
+      "providesIncludes": [
+        "APADOSE.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/apadevices/APA_Dose-3.19.0.zip",
+      "archiveFileName": "APA_Dose-3.19.0.zip",
+      "size": 306002,
+      "checksum": "SHA-256:6d587ceb5daf92ff1ae1f91cd658d42eab5d27cf4b1c8c4f47db61a3e988b99e"
+    },
+    {
       "name": "EcoSensePower",
       "version": "0.9.10",
       "author": "Parvaz Jamei",
@@ -1343430,6 +1343872,72 @@
       "archiveFileName": "AutoconnectoSDK-1.7.68.zip",
       "size": 188158,
       "checksum": "SHA-256:188160b12f097682f3abf912978a1f14fa231768dbffe80d539dbcc5941a7eaa"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.72",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
+      "paragraph": "Connects ESP32, ESP32-C3, and ESP32-S3 to Autoconnecto over MQTTS and MQTT-over-WSS, with shared and client attributes, telemetry, RPC, and OTA. ESP8266 and Raspberry Pi Pico W use the HTTPS examples. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.72.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.72.zip",
+      "size": 218888,
+      "checksum": "SHA-256:3e29c3c4cd25f9131436a3a3c4b9263547364b955c58b383ea0716629af0720d"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.73",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT / HTTPS IoT client for Autoconnecto ??? telemetry, attributes, RPC, OTA.",
+      "paragraph": "Connect ESP32, ESP32-C3, and ESP32-S3 to the Autoconnecto IoT platform (India) over MQTTS and MQTT-over-WSS: telemetry, shared and client attributes, RPC, and OTA. ESP8266 and Raspberry Pi Pico W use HTTPS examples. Arduino Library Manager: AutoconnectoSDK. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.73.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.73.zip",
+      "size": 219936,
+      "checksum": "SHA-256:d9d794b1b38676e1d744ba32ce7376df1a45b1f01c4fe4bed39958adb6cb864e"
     },
     {
       "name": "SPIKeyPad",
@@ -1353868,6 +1354376,38 @@
       "archiveFileName": "SuperDMZ-1.2.0.zip",
       "size": 229709,
       "checksum": "SHA-256:48ceffc3c74bef326d595957d90175622a3b51f37bf0b4583ded75bfc59463d8"
+    },
+    {
+      "name": "SuperDMZ",
+      "version": "1.2.1",
+      "author": "SuperDMZ Team \u003csupport@superdmz.com\u003e",
+      "maintainer": "SuperDMZ Team \u003csupport@superdmz.com\u003e",
+      "sentence": "Secure reverse tunnel for ESP32 - expose your IoT WebServer at https://your-host.dmzgate.com without a public IP or router port forwarding.",
+      "paragraph": "Connects the ESP32 to a SuperDMZ relay node over WSS (WebSocket TLS) and forwards incoming requests to the WebServer running on the ESP itself. Compatible with ESPAsyncWebServer, WebServer.h or any local TCP service. Includes ping/pong, auto-reconnect, and an optional provisioning captive portal.",
+      "website": "https://github.com/superdmz/SuperDMZ-Arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/superdmz/SuperDMZ-Arduino.git",
+      "providesIncludes": [
+        "SuperDMZ.h"
+      ],
+      "dependencies": [
+        {
+          "name": "WebSockets"
+        },
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/superdmz/SuperDMZ-1.2.1.zip",
+      "archiveFileName": "SuperDMZ-1.2.1.zip",
+      "size": 233046,
+      "checksum": "SHA-256:36ebfc46014981f642d8f5a083a07e235e2f1b7374fbffb1f0275523e48937fe"
     },
     {
       "name": "Timezone64",
@@ -1405757,6 +1406297,27 @@
       "checksum": "SHA-256:41c9ddbd65cba731407b68442b8ad176eb281d98eead593f9eb9f7871f2bf6ee"
     },
     {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.38",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.38.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.38.zip",
+      "size": 950317,
+      "checksum": "SHA-256:18567f98b16482f8b6c81e9b82179d481a8ded62b3c5a1e10774474b2ad86b8a"
+    },
+    {
       "name": "MPU9250-DMP",
       "version": "1.0.0",
       "author": "Renzo Mischianti \u003crenzo.mischianti@gmail.com\u003e",
@@ -1411533,6 +1412094,27 @@
       "checksum": "SHA-256:7419e4015ef2e673d39b4d6044f23d69fdc2d01bad85d1cae60ea59d8b9bcbc6"
     },
     {
+      "name": "Grove IMU 9DOF ICM20600 AK09918 UNO R4",
+      "version": "1.0.1",
+      "author": "Seeed Studio, ebm",
+      "maintainer": "ebm",
+      "sentence": "Arduino library for Grove - IMU 9DOF (ICM20600 + AK09918).",
+      "paragraph": "Based on the original Seeed Studio library, with an I2C compatibility fix for Arduino UNO R4. No sensor API or algorithm changes.",
+      "website": "https://github.com/ebm9991/Seeed_ICM20600_AK09918_UNOR4",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ebm9991/Seeed_ICM20600_AK09918_UNOR4.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/ebm9991/Grove_IMU_9DOF_ICM20600_AK09918_UNO_R4-1.0.1.zip",
+      "archiveFileName": "Grove_IMU_9DOF_ICM20600_AK09918_UNO_R4-1.0.1.zip",
+      "size": 26821,
+      "checksum": "SHA-256:7622e931ef103d18e15082d99099e1e78539e85efe3f94333ec983c41b377393"
+    },
+    {
       "name": "ESP32NFS",
       "version": "1.0.0",
       "author": "Yitao Jiang",
@@ -1412099,64 +1412681,6 @@
       "archiveFileName": "SerialLedger-0.1.0-beta.1.zip",
       "size": 14455,
       "checksum": "SHA-256:4bb17733374fef7c5873fcf2136ba984eebf4dc03194e47429547f185ec9ae37"
-    },
-    {
-      "name": "SchoolLib",
-      "version": "1.0.0",
-      "author": "Dominik",
-      "maintainer": "Dominik",
-      "sentence": "Skolni knihovna: tlacitko s odskokem, hraci kostka, teplomer DS18B20 a termostat.",
-      "paragraph": "Obsahuje tridy Tlacitko, Kostka, Teplomer a Termostat. Priklady (Kostka, Termostat) navic potrebuji knihovnu LiquidTWI2 pro I2C displej.",
-      "website": "https://github.com/h3pereu/SchoolLib",
-      "category": "Other",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/h3pereu/SchoolLib.git",
-      "dependencies": [
-        {
-          "name": "OneWire"
-        },
-        {
-          "name": "DallasTemperature"
-        }
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/h3pereu/SchoolLib-1.0.0.zip",
-      "archiveFileName": "SchoolLib-1.0.0.zip",
-      "size": 9313,
-      "checksum": "SHA-256:7d2c721eb09489ff589b9a3c45884f8bdc84f1246fc7a9b163acce9de03a7bce"
-    },
-    {
-      "name": "SchoolLib",
-      "version": "1.0.1",
-      "author": "Dominik",
-      "maintainer": "Dominik",
-      "sentence": "Skolni knihovna: tlacitko s odskokem, hraci kostka, teplomer DS18B20 a termostat.",
-      "paragraph": "Obsahuje tridy Tlacitko, Kostka, Teplomer a Termostat. Priklady (Kostka, Termostat) navic potrebuji knihovnu LiquidTWI2 pro I2C displej.",
-      "website": "https://github.com/h3pereu/SchoolLib",
-      "category": "Other",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/h3pereu/SchoolLib.git",
-      "dependencies": [
-        {
-          "name": "OneWire"
-        },
-        {
-          "name": "DallasTemperature"
-        }
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/h3pereu/SchoolLib-1.0.1.zip",
-      "archiveFileName": "SchoolLib-1.0.1.zip",
-      "size": 10401,
-      "checksum": "SHA-256:49301e2624c56177b38377469fd5c2c4dae41cb43a77ccbfbbdb9d314c707ac5"
     },
     {
       "name": "ReflectJSON",
@@ -1413510,12 +1414034,12 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/pin-node/RPUMachines.git",
+      "repository": "https://github.com/wifijt/RPUMachines.git",
       "providesIncludes": [
         "BallyStarTrek1979.h",
         "WilliamsScorpion1980.h"
       ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/pin-node/RPUMachines-0.3.0.zip",
+      "url": "https://downloads.arduino.cc/libraries/github.com/wifijt/RPUMachines-0.3.0.zip",
       "archiveFileName": "RPUMachines-0.3.0.zip",
       "size": 24879,
       "checksum": "SHA-256:52dd43264e5d6fa9ef897cabe97bf7bfa615d2537c5c6e21529744af71113675"
@@ -1413535,12 +1414059,12 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/pin-node/RPUMachines.git",
+      "repository": "https://github.com/wifijt/RPUMachines.git",
       "providesIncludes": [
         "BallyStarTrek1979.h",
         "WilliamsScorpion1980.h"
       ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/pin-node/RPUMachines-0.3.1.zip",
+      "url": "https://downloads.arduino.cc/libraries/github.com/wifijt/RPUMachines-0.3.1.zip",
       "archiveFileName": "RPUMachines-0.3.1.zip",
       "size": 27223,
       "checksum": "SHA-256:a4f52ef240cf0adeefb6430f7a5b52c0c91f80159e2669e168b5d7a0d43a43e2"
@@ -1413560,12 +1414084,12 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/pin-node/RPUMachines.git",
+      "repository": "https://github.com/wifijt/RPUMachines.git",
       "providesIncludes": [
         "BallyStarTrek1979.h",
         "WilliamsScorpion1980.h"
       ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/pin-node/RPUMachines-0.3.2.zip",
+      "url": "https://downloads.arduino.cc/libraries/github.com/wifijt/RPUMachines-0.3.2.zip",
       "archiveFileName": "RPUMachines-0.3.2.zip",
       "size": 28134,
       "checksum": "SHA-256:52bd0c589ed0388958ea14d2483334214c9bfa25fa22f300b6b5b2b5223cfa35"
@@ -1413585,12 +1414109,12 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/pin-node/RPUMachines.git",
+      "repository": "https://github.com/wifijt/RPUMachines.git",
       "providesIncludes": [
         "BallyStarTrek1979.h",
         "WilliamsScorpion1980.h"
       ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/pin-node/RPUMachines-0.3.3.zip",
+      "url": "https://downloads.arduino.cc/libraries/github.com/wifijt/RPUMachines-0.3.3.zip",
       "archiveFileName": "RPUMachines-0.3.3.zip",
       "size": 27898,
       "checksum": "SHA-256:8981eb2af9b5ca645dfc88fc03cfb5ecc1ba134f99d488413c05f5be5beee203"
@@ -1413610,12 +1414134,12 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/pin-node/RPUMachines.git",
+      "repository": "https://github.com/wifijt/RPUMachines.git",
       "providesIncludes": [
         "BallyStarTrek1979.h",
         "WilliamsScorpion1980.h"
       ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/pin-node/RPUMachines-0.3.4.zip",
+      "url": "https://downloads.arduino.cc/libraries/github.com/wifijt/RPUMachines-0.3.4.zip",
       "archiveFileName": "RPUMachines-0.3.4.zip",
       "size": 27945,
       "checksum": "SHA-256:10833e9f1582825eb768ba5ea7488cb0fe1a96ca1d1c4962944d4dc26cd76e73"
@@ -1413635,12 +1414159,12 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/pin-node/RPUMachines.git",
+      "repository": "https://github.com/wifijt/RPUMachines.git",
       "providesIncludes": [
         "BallyStarTrek1979.h",
         "WilliamsScorpion1980.h"
       ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/pin-node/RPUMachines-0.3.5.zip",
+      "url": "https://downloads.arduino.cc/libraries/github.com/wifijt/RPUMachines-0.3.5.zip",
       "archiveFileName": "RPUMachines-0.3.5.zip",
       "size": 29170,
       "checksum": "SHA-256:b20a0b18faef36431d85eb41263eeb2b6423289199635b79796b88f452fedd0b"
@@ -1413660,12 +1414184,12 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/pin-node/RPUMachines.git",
+      "repository": "https://github.com/wifijt/RPUMachines.git",
       "providesIncludes": [
         "BallyStarTrek1979.h",
         "WilliamsScorpion1980.h"
       ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/pin-node/RPUMachines-0.3.6.zip",
+      "url": "https://downloads.arduino.cc/libraries/github.com/wifijt/RPUMachines-0.3.6.zip",
       "archiveFileName": "RPUMachines-0.3.6.zip",
       "size": 30186,
       "checksum": "SHA-256:75d402187c177b1b30a4b58b0639d775e367c8de5fd6c546a800d65b4cbd5d84"
@@ -1415370,6 +1415894,31 @@
       "archiveFileName": "CasioST75256-1.0.0.zip",
       "size": 1063039,
       "checksum": "SHA-256:3e2eefd2a747a7729bcefc4bbef2470953def7869cc6e83aaabae1bae5c3827a"
+    },
+    {
+      "name": "CasioST75256",
+      "version": "1.1.0",
+      "author": "GrayKazu",
+      "maintainer": "GrayKazu",
+      "license": "MIT",
+      "sentence": "Driver for the ST75256 192x63 LCD (+ icon row) of the fake Casio fx-880BTG: antialiased Unicode fonts (VI, TH, ZH), QR codes, haunted FX, WraithUI, console, MJPEG and C2V video.",
+      "paragraph": "4-gray framebuffer with diff-based partial refresh, rotation, fonts, shapes, gauges, graphs, dithering, bitmaps, icon row, plus haunted FX (glitch, static, melt, ghost trails, CRT-off). Tested on ESP32-S3, SPI mode 0.",
+      "website": "https://example.invalid/casio-st75256",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tkhoi0821-svg/Casio-classwiz-880BTG-lib.git",
+      "providesIncludes": [
+        "CasioST75256.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tkhoi0821-svg/CasioST75256-1.1.0.zip",
+      "archiveFileName": "CasioST75256-1.1.0.zip",
+      "size": 1134215,
+      "checksum": "SHA-256:e0fa445b157e150a5f1f0e9b0cde308e900816d479fb5b8eab5bfbacdd1dbd6b"
     },
     {
       "name": "ESP32ServicePortal",
@@ -1418116,6 +1418665,171 @@
       "archiveFileName": "Crowpanel_2_1-1.0.1.zip",
       "size": 1350749,
       "checksum": "SHA-256:0040b63092a3abbed74e92fe6cc63fdea100e993012d1c0c74e8c1d7680a7e51"
+    },
+    {
+      "name": "Bonezegei_MAX7219",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "Arduino library for MAX7219 LED matrix displays with support for cascading, custom icons, and running text.",
+      "paragraph": "Supports Hardware SPI and Software SPI bit-banging, dynamic cascading of multiple 8x8 matrices, drawing primitives, icons, 5x7 ASCII font rendering, and scrolling text animations.",
+      "website": "https://github.com/bonezegei/Bonezegei_MAX7219",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_MAX7219.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_MAX7219-1.0.0.zip",
+      "archiveFileName": "Bonezegei_MAX7219-1.0.0.zip",
+      "size": 8755,
+      "checksum": "SHA-256:3a1535d51670d1110ec9666e5040c38aab2531c26f006cb6cabeb29405d97ae9"
+    },
+    {
+      "name": "Bonezegei_VL53L0",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "Arduino Library for VL53L0X Time-of-Flight (ToF) Distance Sensor.",
+      "paragraph": "Provides I2C communication and distance measurement functions for the STMicroelectronics VL53L0X sensor.",
+      "website": "https://github.com/bonezegei/Bonezegei_VL53L0",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_VL53L0.git",
+      "providesIncludes": [
+        "Bonezegei_VL53L0.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_VL53L0-1.0.0.zip",
+      "archiveFileName": "Bonezegei_VL53L0-1.0.0.zip",
+      "size": 5179,
+      "checksum": "SHA-256:bac1eb64554bd3ca23adb9f77e61070aaf226664fd5396126e91a0e630d0e7c4"
+    },
+    {
+      "name": "Bonezegei_SX1278",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "Arduino library for the SX1278 LoRa module with protocol-ready hooks.",
+      "paragraph": "A lightweight and modular driver for the SX1278 LoRa module supporting SPI communication, raw frame transmission, RSSI/SNR monitoring, non-blocking callback hooks, and frame header extensions for mesh networking protocols.",
+      "website": "https://github.com/bonezegei/Bonezegei_SX1278",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_SX1278.git",
+      "providesIncludes": [
+        "Bonezegei_SX1278.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_SX1278-1.0.0.zip",
+      "archiveFileName": "Bonezegei_SX1278-1.0.0.zip",
+      "size": 15109,
+      "checksum": "SHA-256:492fdba012e13481ed346b46645dab4dbbd71e86af0579ff94085a8cbad5c057"
+    },
+    {
+      "name": "Bonezegei_NeuralNet",
+      "version": "0.1.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "Neural Network (demo)",
+      "paragraph": "Simple Neural Network for Microcontrollers",
+      "website": "https://github.com/bonezegei/Bonezegei_NeuralNet",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_NeuralNet.git",
+      "providesIncludes": [
+        "Bonezegei_NeuralNet.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_NeuralNet-0.1.0.zip",
+      "archiveFileName": "Bonezegei_NeuralNet-0.1.0.zip",
+      "size": 17063,
+      "checksum": "SHA-256:c07979affe2e9ef4033e9822ec71f0320aa897508476fd03048f9bf9bd9a4143"
+    },
+    {
+      "name": "LTC2943",
+      "version": "0.1.0",
+      "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "sentence": "Arduino library for the LTC2943 battery charge and discharge (Coulomb) meter.",
+      "paragraph": "voltage, current, temperature.",
+      "website": "https://github.com/RobTillaart/LTC2943",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RobTillaart/LTC2943.git",
+      "providesIncludes": [
+        "LTC2943.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/LTC2943-0.1.0.zip",
+      "archiveFileName": "LTC2943-0.1.0.zip",
+      "size": 247259,
+      "checksum": "SHA-256:d5c26fa7279fb683c9c722a872a6b4ab39549b503353d91170a50f43d7da8cd3"
+    },
+    {
+      "name": "LTC2942_RT",
+      "version": "0.1.0",
+      "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "sentence": "Arduino library for the LTC2942 battery charge and discharge (Coulomb) meter.",
+      "paragraph": "voltage, temperature.",
+      "website": "https://github.com/RobTillaart/LTC2942_RT",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RobTillaart/LTC2942_RT.git",
+      "providesIncludes": [
+        "LTC2942.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/LTC2942_RT-0.1.0.zip",
+      "archiveFileName": "LTC2942_RT-0.1.0.zip",
+      "size": 405904,
+      "checksum": "SHA-256:1d88436d90baec4b17cb77c816875192bd94fc37f6bdb6c2b7a1d4e9fb6ab7da"
+    },
+    {
+      "name": "LTC2944",
+      "version": "0.1.0",
+      "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "sentence": "Arduino library for the LTC2944 battery charge and discharge (Coulomb) meter.",
+      "paragraph": "voltage, current, temperature.",
+      "website": "https://github.com/RobTillaart/LTC2944",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RobTillaart/LTC2944.git",
+      "providesIncludes": [
+        "LTC2944.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/LTC2944-0.1.0.zip",
+      "archiveFileName": "LTC2944-0.1.0.zip",
+      "size": 234297,
+      "checksum": "SHA-256:d5bf93e49a439024ffe0c4c721cf670cfee91eeb33613c7f2730ccdeaf4d2777"
     }
   ]
 }
