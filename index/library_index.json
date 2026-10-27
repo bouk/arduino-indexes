@@ -638224,6 +638224,30 @@
       "checksum": "SHA-256:33ba2ab9f6c2f34190c23d4d6b4a81de7f65a0e5daf2369e9a1fb43f17c7624d"
     },
     {
+      "name": "AsyncTimer",
+      "version": "2.5.0",
+      "author": "Aasim-A",
+      "maintainer": "Aasim-A \u003cgithub.com/Aasim-A\u003e",
+      "sentence": "JavaScript-like async timing functions (setTimeout, setInterval).",
+      "paragraph": "Simplify your code with these helper functions to avoid using blocking functions and make it easier to read/write.",
+      "website": "https://github.com/Aasim-A/AsyncTimer",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Aasim-A/AsyncTimer.git",
+      "providesIncludes": [
+        "AsyncTimer.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Aasim-A/AsyncTimer-2.5.0.zip",
+      "archiveFileName": "AsyncTimer-2.5.0.zip",
+      "size": 33891,
+      "checksum": "SHA-256:6118916b8e143e58a6da29a6325808af09cf15dca11ee94752121b2d5b766384"
+    },
+    {
       "name": "Ethernet_Manager",
       "version": "1.0.0",
       "author": "Khoi Hoang",
@@ -734786,6 +734810,27 @@
       "checksum": "SHA-256:3612a8d1b593dff819e2d3d7af434f037a04b4b07df593b0d7e6226496506879"
     },
     {
+      "name": "DFRobot_RTU",
+      "version": "1.0.7",
+      "author": "Arya DFRobot",
+      "maintainer": "DFRobot \u003cwww.dfrobot.com\u003e",
+      "sentence": "Modbus RTU library for Arduino.",
+      "paragraph": "A library to use an Arduino as master to control and communicate via modbus protocol.",
+      "website": "https://github.com/DFRobot/DFRobot_RTU",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_RTU.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_RTU-1.0.7.zip",
+      "archiveFileName": "DFRobot_RTU-1.0.7.zip",
+      "size": 27586,
+      "checksum": "SHA-256:c6b6e8c9c4f30193fe1da380423691d3aea58099249bb73bfc978f742faf2ba8"
+    },
+    {
       "name": "AndreyRybalko WT2003M02 MP3 Decoder",
       "version": "1.0.0",
       "author": "Andrey Rybalko \u003croot.andriell@gmail.com\u003e",
@@ -739342,6 +739387,31 @@
       "archiveFileName": "libasm-1.6.69.zip",
       "size": 14068294,
       "checksum": "SHA-256:234154ebb92d279cfd84301732b0f0335866cc2daeb0f83b67aafea4fafcf736"
+    },
+    {
+      "name": "libasm",
+      "version": "1.6.70",
+      "author": "Tadashi G. Takaoka",
+      "maintainer": "Tadashi G. Takaoka \u003ctadashi.g.takaoka@gmail.com\u003e",
+      "license": "Apache-2.0",
+      "sentence": "Cross assembler and disassembler for retro CPUs",
+      "paragraph": "With this, you can integrate assembler or disassembler into your sketch. Supported CPUs are AM29000, C166, CDP1802, CP1600, F3850, H16, H8300, H8500, I8048, I8051, I8080, I8086, I8096, I960, INS8060, INS8070, MC6800, MC68000, MC6805, MC6809, MC68HC12, MC68HC16, MN1610, MOS6502, NS32000, PDP11, PDP8, SCN2650, SUPERH, TLCS90, TLCS900, TMS320, TMS320F, TMS370, TMS7000, TMS9900, Z280, Z380, Z8, Z80, Z8000",
+      "website": "https://github.com/tgtakaoka/libasm",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tgtakaoka/libasm.git",
+      "providesIncludes": [
+        "libasm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.70.zip",
+      "archiveFileName": "libasm-1.6.70.zip",
+      "size": 14213277,
+      "checksum": "SHA-256:365b8e8b5c03192a9d393c429458b7bf1d6a0bdb00ee583f3ff43511acd17d6b"
     },
     {
       "name": "SparkFun AVR ISP Programming Library",
@@ -840851,6 +840921,42 @@
       "checksum": "SHA-256:60bf62901e52e072c6797f754658b204fba46a362a0035e48403a56284122182"
     },
     {
+      "name": "M5Unit-DDS",
+      "version": "0.2.0",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack Unit DDS using M5UnitUnified",
+      "paragraph": "See more on https://docs.m5stack.com/en/unit/dds",
+      "website": "https://github.com/m5stack/M5Unit-DDS",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-DDS.git",
+      "providesIncludes": [
+        "Unit_DDS.h",
+        "M5UnitUnifiedDDS.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_DDS-0.2.0.zip",
+      "archiveFileName": "M5Unit_DDS-0.2.0.zip",
+      "size": 142036,
+      "checksum": "SHA-256:eca19c1eaa477b94e3096b519c16df3afb05ce28ee9a31a65be5fe67ce0c8460"
+    },
+    {
       "name": "ESPLogger",
       "version": "2.0.0",
       "author": "Fabiano Riccardi",
@@ -935326,6 +935432,28 @@
       "archiveFileName": "nrf_to_nrf-1.5.0.zip",
       "size": 88446,
       "checksum": "SHA-256:9a8ca69dd84f450754d419d75e7c21a82d64002902b495c329900dad31954cb0"
+    },
+    {
+      "name": "nrf_to_nrf",
+      "version": "1.5.1",
+      "author": "TMRh20",
+      "maintainer": "TMRh20",
+      "sentence": "OSI Layer 2 - NRF52x to NRF24L01+ ESB communication",
+      "paragraph": "Communicate to \u0026 from both NRF52x and NRF24L01+ using the API of the RF24 library",
+      "website": "https://github.com/TMRh20/nrf_to_nrf",
+      "category": "Communication",
+      "architectures": [
+        "nordicnrf52",
+        "nrf52"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/TMRh20/nrf_to_nrf.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/nrf_to_nrf-1.5.1.zip",
+      "archiveFileName": "nrf_to_nrf-1.5.1.zip",
+      "size": 88456,
+      "checksum": "SHA-256:bca9a0faeb6789ee183ffc42d7a3ee4ac06d09bb944852499765fe830870a921"
     },
     {
       "name": "ConfigAssist",
@@ -1217640,6 +1217768,41 @@
       "checksum": "SHA-256:1090581cb8a3e9354fa1c65c674dae159925c707ef8ec71de9880d55701c8750"
     },
     {
+      "name": "M5Unit-DISTANCE",
+      "version": "0.3.0",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT DISTANCE using M5UnitUnified",
+      "paragraph": "Supports RCWL-9620 ultrasonic distance sensors: Unit Ultrasonic-I2C (SKU:U098-B1) and Unit Ultrasonic-IO (SKU:U098-B2). Measures 2cm-450cm range.",
+      "website": "https://github.com/m5stack/M5Unit-DISTANCE",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-DISTANCE.git",
+      "providesIncludes": [
+        "M5UnitUnifiedDISTANCE.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_DISTANCE-0.3.0.zip",
+      "archiveFileName": "M5Unit_DISTANCE-0.3.0.zip",
+      "size": 80390,
+      "checksum": "SHA-256:a32f1f4570bd9948970e172abea82d257d6e7972c3b6f34fea772067c0adaffb"
+    },
+    {
       "name": "Module-Audio",
       "version": "0.0.1",
       "author": "M5Stack",
@@ -1228835,6 +1228998,29 @@
       "checksum": "SHA-256:079edcde2fd8c409bde2b63148002147f9b2a7fa8390ceef38a292dc3c25d5c9"
     },
     {
+      "name": "pdi-framework",
+      "version": "1.3.11",
+      "author": "Suraj I.",
+      "maintainer": "Suraj I. \u003csurajinamdar151@gmail.com\u003e",
+      "sentence": "Portable Device Interface (PDI) framework stack for easy configurable applications running over avr, esp8266, esp32 devices. Designed to easily manage services such as WiFi, HTTP/S, MQTT, SSH server, SFTP, Telnet server, OTA, GPIO, Serial, Time, Crontab, Commandline terminal and much more.",
+      "paragraph": "pdi framework includes all services like gpio, wifi, cmd, mqtt, ntp, ota, napt, http/s server, telnet, ssh server, sftp, Time, Crontab, commandline terminal etc. which are ready to use in all applications where arduino, esp8266, esp32 devices will be used.",
+      "website": "https://github.com/Suraj151/pdi-framework",
+      "category": "Other",
+      "architectures": [
+        "avr",
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Suraj151/pdi-framework.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.3.11.zip",
+      "archiveFileName": "pdi_framework-1.3.11.zip",
+      "size": 9015434,
+      "checksum": "SHA-256:7e92872e7df1937b3d02fac1182950b311aae43c6f7a90e1b531cc55a2436520"
+    },
+    {
       "name": "Pico_Bidir_DShot",
       "version": "0.2.2",
       "author": "Bastian2001",
@@ -1238037,6 +1238223,41 @@
       "archiveFileName": "M5Unit_TUBE-0.0.2.zip",
       "size": 56383,
       "checksum": "SHA-256:b3618232a2aed4b7833ef095c0a50528713de2c5d6954e454a787ca104f6d566"
+    },
+    {
+      "name": "M5Unit-TUBE",
+      "version": "0.1.0",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT TUBE using M5UnitUnified",
+      "paragraph": "Supports MCP-H10-B200KPPN analog pressure sensor (SKU:U130) for -100 to 200 kPa measurement.",
+      "website": "https://github.com/m5stack/M5Unit-TUBE",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-TUBE.git",
+      "providesIncludes": [
+        "M5UnitUnifiedTUBE.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_TUBE-0.1.0.zip",
+      "archiveFileName": "M5Unit_TUBE-0.1.0.zip",
+      "size": 66007,
+      "checksum": "SHA-256:70b8ea8e41ae3a8add7fe685aead76dc6769a472c479c76035c8afa568507333"
     },
     {
       "name": "QTRMuxes",
@@ -1253802,6 +1254023,38 @@
       "archiveFileName": "Universal_Button-2.0.0.zip",
       "size": 62246,
       "checksum": "SHA-256:4ad832e5a415c9828e1b2146af51cb25f52d0aa9b7f0394a04541197f731525f"
+    },
+    {
+      "name": "Universal_Button",
+      "version": "2.0.2",
+      "author": "Little Man Builds (Darren Osborne)",
+      "maintainer": "Little Man Builds \u003clittlemanbuilds@gmail.com\u003e",
+      "license": "MIT",
+      "sentence": "Debounced multi-button input with explicit reader validity, preserved interaction events, long-hold state, and latching.",
+      "paragraph": "Header-only Arduino library for native GPIO, logical pressed-state callbacks, electrical-level callbacks, and validity-aware external readers. Provides per-button debounce/timing, short/double/long interaction classification, LongStarted/LongReleased semantics, a bounded event queue with overflow diagnostics, input freshness and sequence metadata, synchronized reconfiguration/recovery, optional latching, enum-friendly access, and zero dynamic allocation. ESP32-S3 is the primary project target; portable compile gates cover AVR, megaAVR, SAMD, ESP32, ESP8266, RP2040, Teensy and STM32.",
+      "website": "https://github.com/LittleManBuilds/Universal_Button",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "avr",
+        "megaavr",
+        "samd",
+        "esp32",
+        "esp8266",
+        "stm32",
+        "teensy",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/littlemanbuilds/Universal_Button.git",
+      "providesIncludes": [
+        "Universal_Button.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/Universal_Button-2.0.2.zip",
+      "archiveFileName": "Universal_Button-2.0.2.zip",
+      "size": 73164,
+      "checksum": "SHA-256:703c590f07fa161c09254dbdbfd92a023edb7be738e85097cb7e8ced8b7bb11e"
     },
     {
       "name": "7Semi_MAX17048",
@@ -1272548,6 +1272801,35 @@
       "checksum": "SHA-256:b6596e2e27c23d07f2be4ea308aa3dbc77134a0edfde9fbe4efd83d1c66424a7"
     },
     {
+      "name": "Sensirion I2C SFM3505",
+      "version": "1.2.0",
+      "author": "Sensirion",
+      "maintainer": "Sensirion",
+      "sentence": "Library for the SFM3505 sensor by Sensirion",
+      "paragraph": "Enables you to use the SFM3505 sensor via I2C.",
+      "website": "https://github.com/Sensirion/arduino-i2c-sfm3505",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Sensirion/arduino-i2c-sfm3505.git",
+      "providesIncludes": [
+        "SensirionI2cSfm3505.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Sensirion Core"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Sensirion/Sensirion_I2C_SFM3505-1.2.0.zip",
+      "archiveFileName": "Sensirion_I2C_SFM3505-1.2.0.zip",
+      "size": 2268715,
+      "checksum": "SHA-256:7a0da9062aad3761c0164daccd5b9d6074ba2b1217a8e073f7687e7c8a79ecdd"
+    },
+    {
       "name": "Arduino_LTR381RGB",
       "version": "1.0.0",
       "author": "Arduino",
@@ -1280432,6 +1280714,41 @@
       "archiveFileName": "M5Unit_FINGER-0.2.0.zip",
       "size": 156526,
       "checksum": "SHA-256:69f9478eaa1b1a21d4f78345a9f30acec3a436c2bb598029e372e6d0c973d822"
+    },
+    {
+      "name": "M5Unit-FINGER",
+      "version": "0.2.1",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT FINGER using M5UnitUnified",
+      "paragraph": "Supports UnitFinger (FPC1020A), HatFinger, FacesFinger, and UnitFinger2 (STM32+A-K323CP) via UART communication.",
+      "website": "https://github.com/m5stack/M5Unit-FINGER",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-FINGER.git",
+      "providesIncludes": [
+        "M5UnitUnifiedFINGER.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_FINGER-0.2.1.zip",
+      "archiveFileName": "M5Unit_FINGER-0.2.1.zip",
+      "size": 173351,
+      "checksum": "SHA-256:4779452869d4f86e87e9dd22fadad7ff6f372286dafe993d6fd2f9e0a1ab91d6"
     },
     {
       "name": "M5Unit-RF433",
@@ -1292948,6 +1293265,43 @@
       "archiveFileName": "DFPongController-2.3.0.zip",
       "size": 70294,
       "checksum": "SHA-256:0d3daa46377e69701d620b50497010270cfbb608f01056886843f04a42fa2c3b"
+    },
+    {
+      "name": "DFPongController",
+      "version": "2.3.1",
+      "author": "Digital Futures OCAD U",
+      "maintainer": "Digital Futures OCAD U",
+      "sentence": "BLE controller library for the DF Pong game.",
+      "paragraph": "Support library for BLE Pong Controllers that control the online game df-pong. Version 2 adds player settings (name, color, paddle speed and size, custom sounds and background music) and game rule requests, and handles the connection handshake automatically. Supports Arduino Nano 33 IoT, Nano 33 BLE, UNO R4 WiFi, and ESP32 (NimBLE-Arduino 2.x).",
+      "website": "https://github.com/DigitalFuturesOCADU/df-pong-controller",
+      "category": "Communication",
+      "architectures": [
+        "samd",
+        "nrf52",
+        "mbed",
+        "mbed_nano",
+        "renesas_uno",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DigitalFuturesOCADU/df-pong-controller.git",
+      "providesIncludes": [
+        "DFPongController.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoBLE"
+        },
+        {
+          "name": "NimBLE-Arduino"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.3.1.zip",
+      "archiveFileName": "DFPongController-2.3.1.zip",
+      "size": 72270,
+      "checksum": "SHA-256:13968b2074d259eff8cf6d039034e3e8cc2eb0a0fc05e3d6baf781698bef95d0"
     },
     {
       "name": "CamS3Library",
@@ -1349128,6 +1349482,45 @@
       "checksum": "SHA-256:ef442bfc2c6d02e5da8059492ce1fb57b383729c1ecd57dbe5801f60ac32bad0"
     },
     {
+      "name": "DevLab_BL",
+      "version": "1.1.0",
+      "author": "Cesar Bautista",
+      "maintainer": "Cesar Bautista \u003ccesar.bautista@uelectronics.com\u003e",
+      "sentence": "Arduino library for Bluetooth Low Energy (BLE) communication for ESP32 H2, ESP32 C6",
+      "paragraph": "DevLab BL library for Bluetooth Low Energy (BLE) communication for ESP32 H2, ESP32 C6.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_bl_library",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_bl_library.git",
+      "providesIncludes": [
+        "DevLab_BL.h",
+        "DevLabEyes.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit SSD1306"
+        },
+        {
+          "name": "RTClib"
+        },
+        {
+          "name": "SparkFun BMI270 Arduino Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_BL-1.1.0.zip",
+      "archiveFileName": "DevLab_BL-1.1.0.zip",
+      "size": 65407,
+      "checksum": "SHA-256:bc395c8918983f310eb15616714079ec56338d1a55a51e634baf85c19a694e3f"
+    },
+    {
       "name": "BindThings",
       "version": "1.0.0",
       "author": "BindThings \u003cgetbindthings@gmail.com\u003e",
@@ -1373262,6 +1373655,30 @@
       "checksum": "SHA-256:876e9361448926b5de5a7bf895ceaeeae499886b4f3d62caa24aebb249abe970"
     },
     {
+      "name": "Lucarne",
+      "version": "0.3.0",
+      "author": "Techalchemy",
+      "maintainer": "Puparia",
+      "sentence": "UI toolkit for SPI and MIPI displays on Arduino and ESP32 — drivers, widgets, and Studio export.",
+      "paragraph": "Lucarne provides SPI display drivers (ST7789, ST7735S, ST7796, ILI9342), ESP32-P4 MIPI preview (Waveshare 5-DSI-TOUCH-A), a lightweight graphics layer, configurable framebuffering, a high-level UI runtime, and Lucarne Studio.",
+      "website": "https://github.com/Pupariaa/Lucarne",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Pupariaa/Lucarne.git",
+      "providesIncludes": [
+        "Lucarne.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Pupariaa/Lucarne-0.3.0.zip",
+      "archiveFileName": "Lucarne-0.3.0.zip",
+      "size": 5906677,
+      "checksum": "SHA-256:da195f56f01f3f09386b04eb79325148455cb9535672514644a6ec0c6223725d"
+    },
+    {
       "name": "ProtoCentral AS6221",
       "version": "1.0.0",
       "author": "ProtoCentral Electronics \u003csupport@protocentral.com\u003e",
@@ -1375932,6 +1376349,30 @@
       "checksum": "SHA-256:501ad946b29ce3afa8b72d6a99655c9f10e1b912c1d800684c5552f4a5f15ab6"
     },
     {
+      "name": "AERL C Framework",
+      "version": "0.0.5",
+      "author": "Applied Electronics and Robotics Laboratory LLP",
+      "maintainer": "AERL \u003cinfo@aerl.space\u003e",
+      "sentence": "A HAL framework that makes embedded and robotics code fast, simple, and reliable — built for beginners.",
+      "paragraph": "Beta. One global object (AERL), no setup boilerplate: include it and use it. Non-blocking timing (glow/flash/glctrl), unified logging, run-once/run-N control, and UART/I2C/SPI helpers. Works right beside Arduino.h.",
+      "website": "https://github.com/AERL-Official/AERL-C-Framework",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AERL-Official/AERL-C-Framework.git",
+      "providesIncludes": [
+        "AERL.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AERL-Official/AERL_C_Framework-0.0.5.zip",
+      "archiveFileName": "AERL_C_Framework-0.0.5.zip",
+      "size": 13041,
+      "checksum": "SHA-256:d6da97c495fef58ed5a618425d6be6abd64803f4f6bc65e9376ff4bafd0302d0"
+    },
+    {
       "name": "NiusCam",
       "version": "0.1.0",
       "author": "dunknowcoding",
@@ -1376277,6 +1376718,87 @@
       "archiveFileName": "XC_GUI-1.1.3.zip",
       "size": 1722390,
       "checksum": "SHA-256:e055493b4953ef4942e9b3d82a6ba24c46dced4d901f37043e10ef2a40bc4330"
+    },
+    {
+      "name": "XC_GUI",
+      "version": "1.1.4",
+      "author": "Gigasitron Xcross",
+      "maintainer": "Gigasitron \u003cinquiry@gigasitron.com\u003e",
+      "sentence": "Lightweight buffered graphics primitive library for embedded displays.",
+      "paragraph": "Fast embedded graphics primitives for TFT, OLED, memory LCD, and pixel displays. Includes lines, rectangles, circles, text, bitmap rendering, and buffered drawing without a widget system.",
+      "website": "https://github.com/Gigasitron-xcross/XC_GUI",
+      "category": "Display",
+      "architectures": [
+        "stm32",
+        "rp2040",
+        "esp32",
+        "samd"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Gigasitron-xcross/XC_GUI.git",
+      "providesIncludes": [
+        "XC_GUI.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Gigasitron-xcross/XC_GUI-1.1.4.zip",
+      "archiveFileName": "XC_GUI-1.1.4.zip",
+      "size": 1732379,
+      "checksum": "SHA-256:76afce41dc62c4b022163dc76eb84cbde5863772400c2c192e95aacde54ad53d"
+    },
+    {
+      "name": "XC_GUI",
+      "version": "1.1.5",
+      "author": "Gigasitron Xcross",
+      "maintainer": "Gigasitron \u003cinquiry@gigasitron.com\u003e",
+      "sentence": "Lightweight buffered graphics primitive library for embedded displays.",
+      "paragraph": "Fast embedded graphics primitives for TFT, OLED, memory LCD, and pixel displays. Includes lines, rectangles, circles, text, bitmap rendering, and buffered drawing without a widget system.",
+      "website": "https://github.com/Gigasitron-xcross/XC_GUI",
+      "category": "Display",
+      "architectures": [
+        "stm32",
+        "rp2040",
+        "esp32",
+        "samd"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Gigasitron-xcross/XC_GUI.git",
+      "providesIncludes": [
+        "XC_GUI.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Gigasitron-xcross/XC_GUI-1.1.5.zip",
+      "archiveFileName": "XC_GUI-1.1.5.zip",
+      "size": 1732379,
+      "checksum": "SHA-256:28a1594ee4c3c463b2daacf6e86e608e3b58263ac5db7e484353e53c0a065e33"
+    },
+    {
+      "name": "XC_GUI",
+      "version": "1.1.6",
+      "author": "Gigasitron Xcross",
+      "maintainer": "Gigasitron \u003cinquiry@gigasitron.com\u003e",
+      "sentence": "Lightweight buffered graphics primitive library for embedded displays.",
+      "paragraph": "Fast embedded graphics primitives for TFT, OLED, memory LCD, and pixel displays. Includes lines, rectangles, circles, text, bitmap rendering, and buffered drawing without a widget system.",
+      "website": "https://github.com/Gigasitron-xcross/XC_GUI",
+      "category": "Display",
+      "architectures": [
+        "stm32",
+        "rp2040",
+        "esp32",
+        "samd"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Gigasitron-xcross/XC_GUI.git",
+      "providesIncludes": [
+        "XC_GUI.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Gigasitron-xcross/XC_GUI-1.1.6.zip",
+      "archiveFileName": "XC_GUI-1.1.6.zip",
+      "size": 1732379,
+      "checksum": "SHA-256:5ad75568eb8d8f041a7d5f043d778f65d312579895d47e4447513517e12ea471"
     },
     {
       "name": "RFDO",
@@ -1391086,6 +1391608,35 @@
       "checksum": "SHA-256:d0c777cca0c93ad8f2f9b04d0d74d5e394eba13d77bb5ea47d802ebbfb30328e"
     },
     {
+      "name": "ExecuTorch",
+      "version": "1.5.1",
+      "author": "Meta Platforms",
+      "maintainer": "ExecuTorch Team \u003cexecutorch@meta.com\u003e",
+      "sentence": "Run PyTorch models on Arduino microcontrollers with ExecuTorch.",
+      "paragraph": "ExecuTorch is a PyTorch runtime optimized for on-device inference. This library packages the ExecuTorch runtime with CMSIS-NN acceleration for ARM Cortex-M boards, enabling quantized model inference directly from Arduino sketches.",
+      "website": "https://github.com/meta-pytorch/executorch-arduino",
+      "category": "Data Processing",
+      "architectures": [
+        "zephyr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/meta-pytorch/executorch-arduino.git",
+      "providesIncludes": [
+        "ExecuTorch.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Arduino_RouterBridge"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/meta-pytorch/ExecuTorch-1.5.1.zip",
+      "archiveFileName": "ExecuTorch-1.5.1.zip",
+      "size": 1429588,
+      "checksum": "SHA-256:14b6e0fcb017f80978f2595fd594f77bda5bd7f80e87412ecf1f3d09696bce3a"
+    },
+    {
       "name": "Vendista",
       "version": "1.0.0",
       "author": "Zernov \u003czernovyt@vk.com\u003e",
@@ -1403870,6 +1404421,32 @@
       "checksum": "SHA-256:0154cca226780c417ac2da5fbabde80b9d356b655856d5850cc9fc6b5ae0d1f1"
     },
     {
+      "name": "Preflight",
+      "version": "1.1.0",
+      "author": "James Cartwright",
+      "maintainer": "James Cartwright",
+      "sentence": "Captive-portal WiFi setup, web logger, and an OTA update page with rollback for ESP32 projects.",
+      "paragraph": "Network scanning, a captive-portal setup page, NVS-stored credentials, mDNS, a buffered logger with a web view and crash reports, an OTA update page with automatic rollback, and an optional LVGL boot screen. Web assets are embedded; no filesystem partition needed.",
+      "website": "https://github.com/diydoohickeys/Preflight-Arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/diydoohickeys/Preflight-Arduino.git",
+      "providesIncludes": [
+        "WiFiSetupManager.h",
+        "OTAManager.h",
+        "Logger.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/diydoohickeys/Preflight-1.1.0.zip",
+      "archiveFileName": "Preflight-1.1.0.zip",
+      "size": 536896,
+      "checksum": "SHA-256:2b10b2eef123846bf51a4a47271679879dc6db90f4b2d97bfe43ef37c9521bc0"
+    },
+    {
       "name": "ST25R3916-NFC-RFAL",
       "version": "1.0.1",
       "author": "STMicroelectronics, Arduino fork contributors",
@@ -1411093,6 +1411670,70 @@
       "archiveFileName": "DevLab_IR-1.0.1.zip",
       "size": 14035,
       "checksum": "SHA-256:2f66327d6467e14e4f3d401bb94e9df63e62cdea8e86b4152fd5d099dc05ef27"
+    },
+    {
+      "name": "DevLab_IR",
+      "version": "1.0.2",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for the IRM-V838M3 infrared receiver module using the DevLab Device Protocol (DDP) over I2C.",
+      "paragraph": "DevLab IRM-V838M3 library to read decoded NEC infrared frames (address, command, repeat) from a PY32F003 node through DDP over I2C (Device ID 0x0111).",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_ir_library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_ir_library.git",
+      "providesIncludes": [
+        "DevLab_IR.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLabDDP"
+        },
+        {
+          "name": "DevLab_Interface"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_IR-1.0.2.zip",
+      "archiveFileName": "DevLab_IR-1.0.2.zip",
+      "size": 17337,
+      "checksum": "SHA-256:cb5d2eefa96af9172f0843a27e04630f1cb3d2b857a8ec18f63128be43024fd6"
+    },
+    {
+      "name": "DevLab_IR",
+      "version": "1.0.3",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for the IRM-V838M3 infrared receiver module using the DevLab Device Protocol (DDP) over I2C.",
+      "paragraph": "DevLab IRM-V838M3 library to read decoded NEC infrared frames (address, command, repeat) from a PY32F003 node through DDP over I2C (Device ID 0x0111).",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_ir_library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_ir_library.git",
+      "providesIncludes": [
+        "DevLab_IR.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLabDDP"
+        },
+        {
+          "name": "DevLab_Interface"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_IR-1.0.3.zip",
+      "archiveFileName": "DevLab_IR-1.0.3.zip",
+      "size": 17655,
+      "checksum": "SHA-256:5480a8909da93552ac3cab00773cf887381622caa204668b75414fddb8d64d7f"
     },
     {
       "name": "MaxwellTrack",
@@ -1419192,6 +1419833,33 @@
       "checksum": "SHA-256:be9bac4408a4bddb10c351b2f3a70efc9f4c6e51671c1cfb1e4002830da4690f"
     },
     {
+      "name": "ArdPortal",
+      "version": "0.9.0",
+      "author": "Radoslaw Kubera (rkubera on GitHub)",
+      "maintainer": "Radoslaw Kubera",
+      "sentence": "Modular ESP portal with MQTT, Home Assistant and native Zigbee and Matter integration.",
+      "paragraph": "JSON-defined controls, WiFi/AP setup, MQTT with verified TLS and Home Assistant Discovery, optional native Zigbee End Device/Router on ESP32-C5/C6/H2, Zigbee2MQTT converter and ZHA quirk export, Matter over Wi-Fi/Thread on supported ESP32 targets, HTTP/Zigbee OTA and diagnostics. Includes ArdFS persistent storage and ArdJSON; networking modules can be excluded at compile time. Uses the ESP Arduino core without external runtime libraries.",
+      "website": "https://github.com/rkubera/ArdPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rkubera/ArdPortal.git",
+      "providesIncludes": [
+        "ArdPortal.h",
+        "ArdJSON.h",
+        "ArdFS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/rkubera/ArdPortal-0.9.0.zip",
+      "archiveFileName": "ArdPortal-0.9.0.zip",
+      "size": 12739264,
+      "checksum": "SHA-256:892d38064ac84146f43c3ad7d7a540444a1f9f38ec29b22495d4aea1ec912b91"
+    },
+    {
       "name": "Adafruit seesaw Peripheral",
       "version": "2.0.0",
       "author": "Adafruit",
@@ -1420097,6 +1420765,29 @@
       "checksum": "SHA-256:4318a68f845a8b080cac04a7ca6adf4f2b98377eb5d50669e43f10734a69c021"
     },
     {
+      "name": "QMC5883PMagnetometer",
+      "version": "0.0.2",
+      "author": "mumanchu",
+      "maintainer": "mumanchu \u003cinfo@muman.ch\u003e",
+      "sentence": "Arduino Library for QMC5883P 3-Axis Magnetometer",
+      "website": "https://github.com/mumanchu/QMC5883PMagnetometer",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mumanchu/QMC5883PMagnetometer.git",
+      "providesIncludes": [
+        "QMC5883PMagnetometer.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/QMC5883PMagnetometer-0.0.2.zip",
+      "archiveFileName": "QMC5883PMagnetometer-0.0.2.zip",
+      "size": 359659,
+      "checksum": "SHA-256:f9c7d9d5d9c40afdf5bd6b13c67db528ebabf52e5e7e895f57ff393e33aa7be3"
+    },
+    {
       "name": "Bridge555",
       "version": "1.0.2",
       "author": "Code-hoysala",
@@ -1420438,6 +1421129,272 @@
       "archiveFileName": "asyncTelegramAPI-1.0.0.zip",
       "size": 46680,
       "checksum": "SHA-256:68bf7fc02041cb9ae2f37a59d61fff6f67fefc31165d86430060a5de83dffbdb"
+    },
+    {
+      "name": "JMCMotors",
+      "version": "0.5.0",
+      "author": "LAGARI A \u003clagariscience@gmail.com\u003e",
+      "maintainer": "LAGARI A \u003clagariscience@gmail.com\u003e",
+      "sentence": "UDP command system for integrated servo/stepper drives (Modbus-RTU / RS-485) on Controllino.",
+      "paragraph": "Hardened Modbus-RTU transport (CRC-verified responses, exception detection, retries, real timeouts), unit-correct motor control (position, velocity, homing methods 1-12, zero/position redefinition), a non-blocking status monitor that pushes limit-switch (CW/CCW), origin-switch, homing-complete, fault and online/offline events over UDP, and one uniform command grammar: CMD:\u003cslots\u003e for individual motors, CMDA for all motors (P, PR, V, VS, ACC, DEC, B0-B3, L, BS, Z, ZO, ZS, HV, HVZ, HACC, HO, H1-H12, S, SD, LS, DG, I, R) plus MC, SAVE/LOAD (EEPROM), VER, PING, X. Motor count 1-32.",
+      "website": "https://github.com/ailagari/JMCMotors",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ailagari/JMCMotors.git",
+      "providesIncludes": [
+        "JMCMotors.h"
+      ],
+      "dependencies": [
+        {
+          "name": "CONTROLLINO"
+        },
+        {
+          "name": "Ethernet"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ailagari/JMCMotors-0.5.0.zip",
+      "archiveFileName": "JMCMotors-0.5.0.zip",
+      "size": 76685,
+      "checksum": "SHA-256:2c5513f2b70e04ee2739715cf7377f619347bbb70245566e1e89de31a81f8728"
+    },
+    {
+      "name": "JMCMotors",
+      "version": "0.5.1",
+      "author": "LAGARI A \u003clagariscience@gmail.com\u003e",
+      "maintainer": "LAGARI A \u003clagariscience@gmail.com\u003e",
+      "sentence": "UDP command system for integrated servo/stepper drives (Modbus-RTU / RS-485) on Controllino.",
+      "paragraph": "Hardened Modbus-RTU transport (CRC-verified responses, exception detection, retries, real timeouts), unit-correct motor control (position, velocity, homing methods 1-12, zero/position redefinition), a non-blocking status monitor that pushes limit-switch (CW/CCW), origin-switch, homing-complete, fault and online/offline events over UDP, and one uniform command grammar: CMD:\u003cslots\u003e for individual motors, CMDA for all motors (P, PR, V, VS, ACC, DEC, B0-B3, L, BS, Z, ZO, ZS, HV, HVZ, HACC, HO, H1-H12, S, SD, LS, DG, I, R) plus MC, SAVE/LOAD (EEPROM), VER, PING, X. Motor count 1-32.",
+      "website": "https://github.com/ailagari/JMCMotors",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ailagari/JMCMotors.git",
+      "providesIncludes": [
+        "JMCMotors.h"
+      ],
+      "dependencies": [
+        {
+          "name": "CONTROLLINO"
+        },
+        {
+          "name": "Ethernet"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ailagari/JMCMotors-0.5.1.zip",
+      "archiveFileName": "JMCMotors-0.5.1.zip",
+      "size": 77671,
+      "checksum": "SHA-256:34b38d5d0f180bdebb523732b86097575f89b53d6652c65077bcfe35868b95b8"
+    },
+    {
+      "name": "system",
+      "version": "1.0.0",
+      "author": "code-hoysala",
+      "maintainer": "code-hoysala ( Shashank Hoysala )\u003cshashankhoysala04@outlook.com\u003e",
+      "sentence": "Enables seamless Serial communication bridge between Arduino and system CMD/PowerShell.",
+      "paragraph": "A lightweight communication and command-dispatching library for linking microcontrollers with Windows Command Prompt and PowerShell workflows.",
+      "website": "https://github.com/code-hoysala/system",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/code-hoysala/System.git",
+      "providesIncludes": [
+        "system.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/code-hoysala/system-1.0.0.zip",
+      "archiveFileName": "system-1.0.0.zip",
+      "size": 3921,
+      "checksum": "SHA-256:67f58fa67039992aa55582d1cf8728fa92b52082bc2f8ab691d216aba0fca42a"
+    },
+    {
+      "name": "sysmon",
+      "version": "1.0.0",
+      "author": "code-hoysala",
+      "maintainer": "code-hoysala ( Shashank Hoysala ) \u003cshashankhoysala04@outlook.com\u003e",
+      "sentence": "Lightweight embedded system health and performance monitor for Arduino.",
+      "paragraph": "Tracks internal microcontroller vitals, loop execution frequency, free RAM headroom, and uptime with zero memory overhead.",
+      "website": "https://github.com/code-hoysala/sysmon",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/code-hoysala/sysmon.git",
+      "providesIncludes": [
+        "sysmon.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/code-hoysala/sysmon-1.0.0.zip",
+      "archiveFileName": "sysmon-1.0.0.zip",
+      "size": 4168,
+      "checksum": "SHA-256:0c1b075583c077d3c014a2e8be734b8d105d66be72fead90ed979f9bc6844172"
+    },
+    {
+      "name": "FizziQ",
+      "version": "0.1.0",
+      "author": "FizziQLabs",
+      "maintainer": "FizziQLabs \u003cinfo@fizziqlab.org\u003e",
+      "sentence": "Send measurements from an Arduino board to the FizziQ app (Bluetooth) and FizziQ Web (USB).",
+      "paragraph": "The board is seen by FizziQ as a FizziQ Connect box. USB on every board, Bluetooth LE on boards that have it (ESP32, Nano ESP32, Uno R4 WiFi, Nano 33 BLE...).",
+      "website": "https://github.com/Chris-FizziQ/FizziQ-Arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Chris-FizziQ/FizziQ-Arduino.git",
+      "dependencies": [
+        {
+          "name": "ArduinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Chris-FizziQ/FizziQ-0.1.0.zip",
+      "archiveFileName": "FizziQ-0.1.0.zip",
+      "size": 6460,
+      "checksum": "SHA-256:bfc74e1ffb716a9a27596d91df9e20d361a7da0484a66243958e002f485665bf"
+    },
+    {
+      "name": "DevLab_AudioDriver",
+      "version": "0.3.1",
+      "author": "Phil Schatzmann, Cesar Bautista, Adrián Rabadán",
+      "maintainer": "Phil Schatzmann, UNIT Electronics",
+      "sentence": "Audio Codecs",
+      "paragraph": "Library to manage many Audio Codecs",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_fork_arduino_audio_driver",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_fork_arduino_audio_driver.git",
+      "providesIncludes": [
+        "DevLab_AudioDriver.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AudioDriver-0.3.1.zip",
+      "archiveFileName": "DevLab_AudioDriver-0.3.1.zip",
+      "size": 300757,
+      "checksum": "SHA-256:8e069a6eea17d8ab6ccfea9ce977d6a5afe48e9a40b420962f98913ccc639f36"
+    },
+    {
+      "name": "DevLab_LibHelix",
+      "version": "0.9.4",
+      "author": "Phil Schatzmann, Cesar Bautista, Adrián Rabadán",
+      "maintainer": "Phil Schatzmann, UNIT Electronics",
+      "sentence": "libhelix audio decoder for Arduino",
+      "paragraph": "Based on Phil Schatzmann's codec-helix and maintained as a UNIT DevLab fork for audio playback examples.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_fork_arduino_libhelix",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_fork_arduino_libhelix.git",
+      "providesIncludes": [
+        "DevLab_LibHelix.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_LibHelix-0.9.4.zip",
+      "archiveFileName": "DevLab_LibHelix-0.9.4.zip",
+      "size": 2500333,
+      "checksum": "SHA-256:25271d505d2786237982a0107ae8c040059b9b72b04408f74129380c59bf6483"
+    },
+    {
+      "name": "DevLab_Codec_ES",
+      "version": "0.1.0",
+      "author": "Cesar Bautista, Adrián Rabadán",
+      "maintainer": "UNIT Electronics",
+      "sentence": "ES-series audio codec support for UNIT DevLab projects.",
+      "paragraph": "Currently configures ES8311 I2C and I2S pins with the UNIT DevLab Audio Driver library; MP3 examples use Audio Tools and LibHelix.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_codec_library",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_codec_library.git",
+      "providesIncludes": [
+        "DevLab_Codec_ES.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_Codec_ES-0.1.0.zip",
+      "archiveFileName": "DevLab_Codec_ES-0.1.0.zip",
+      "size": 67775,
+      "checksum": "SHA-256:8c9edf4c931c7e4344d32d562c04ad9d1d22c966f33e96252928657c3470f999"
+    },
+    {
+      "name": "DevLab_AudioTools",
+      "version": "1.2.6",
+      "author": "Phil Schatzmann, Cesar Bautista, Adrián Rabadán",
+      "maintainer": "Phil Schatzmann, UNIT Electronics",
+      "sentence": "Some useful audio processing classes",
+      "paragraph": "Arduino Audio Tools (Music Player, Music Recorder supporting I2S, Microphones, DAC, ADC, A2DP, Url), MP3 Player, AAC Player",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_fork_arduino_audio_tools",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_fork_arduino_audio_tools.git",
+      "providesIncludes": [
+        "DevLab_AudioTools.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AudioTools-1.2.6.zip",
+      "archiveFileName": "DevLab_AudioTools-1.2.6.zip",
+      "size": 25233545,
+      "checksum": "SHA-256:c44a9e6ac96801beb677f0f44073642b9a48418f0f736dbd6d989d30e8ce929d"
+    },
+    {
+      "name": "DevLab_TrafficLights",
+      "version": "1.0.0",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for the UE0183 I2C traffic lights module using the DevLab Device Protocol (DDP).",
+      "paragraph": "DevLab TrafficLights library to drive the red, yellow and green LEDs through DDP over I2C (Device ID 0x0116, address 0x36).",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_trafficlight_library",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_trafficlight_library.git",
+      "providesIncludes": [
+        "DevLab_TrafficLights.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLabDDP"
+        },
+        {
+          "name": "DevLab_Interface"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_TrafficLights-1.0.0.zip",
+      "archiveFileName": "DevLab_TrafficLights-1.0.0.zip",
+      "size": 30809,
+      "checksum": "SHA-256:039b7cb77805668317b2b8eb5adacb94ce2e40e59f21512e1e1509c040dd39d2"
     }
   ]
 }
