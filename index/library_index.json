@@ -603293,6 +603293,28 @@
       "checksum": "SHA-256:5f59afdfc1251e410c9765659473bce54b247b47caee2f6f2952c0ce7ad8b1d8"
     },
     {
+      "name": "GoGoBoard Arduino Library",
+      "version": "3.0.0",
+      "author": "P.Pongpakatien, T.Phoeyphon",
+      "maintainer": "LILCMU \u003cpeeranut32@gmail.com\u003e",
+      "sentence": "A library for the built-in co-MCU on GoGoBoard (STM32 on GoGo Board 6, ESP32-C3 on GoGo Board 7) to enable full hardware control alongside student programs.",
+      "paragraph": "Install this library to use GoGoBoard arduino core extension. Supports both GoGo Board 6 (STM32F1) and GoGo Board 7 (ESP32-C3) hardware.",
+      "website": "https://github.com/LILCMU/GoGoBoard-Arduino",
+      "category": "Device Control",
+      "architectures": [
+        "stm32",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/LILCMU/GoGoBoard-Arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/LILCMU/GoGoBoard_Arduino_Library-3.0.0.zip",
+      "archiveFileName": "GoGoBoard_Arduino_Library-3.0.0.zip",
+      "size": 21625,
+      "checksum": "SHA-256:1792c823fcc7b16ee8a1031d56a0af4ef7d52b09704888bb2b38d93405a5802c"
+    },
+    {
       "name": "InkplateLibrary",
       "version": "1.0.0",
       "author": "David Zovko \u003cdavid.zovko@e-radionica.com\u003e, Borna Biro \u003cborna.biro@e-radionica.com\u003e, Denis Vajak \u003cdenis.vajak@e-radionica.com\u003e, Zvonimir Haramustek \u003czvonimir.haramustek@e-radionica.com\u003e",
@@ -670526,6 +670548,30 @@
       "archiveFileName": "ProtoCentral_ADS1293_ECG_Library-1.3.0.zip",
       "size": 3555923,
       "checksum": "SHA-256:8375f5acaab16d213f5e9e687feda80575bec9caf8c86287360785498983ad00"
+    },
+    {
+      "name": "ProtoCentral ADS1293 ECG Library",
+      "version": "2.0.0",
+      "author": "ProtoCentral Electronics \u003csupport@protocentral.com\u003e",
+      "maintainer": "ProtoCentral Electronics \u003csupport@protocentral.com\u003e",
+      "sentence": "Driver for the TI ADS1293 three-channel 24-bit ECG front end on the ProtoCentral ADS1293 Breakout.",
+      "paragraph": "3-lead and 5-lead ECG at 25 SPS to 1.6 kSPS (up to 6.4 kSPS per channel with the fast modulator), with every ADS1293 feature: flexible input routing, Wilson and Goldberger terminals, right-leg drive, DC / analog-AC / digital-AC lead-off detection, digital and analog pace channels, battery / supply monitoring, test signals, error and alarm registers, external clock and multi-board clock sync. Polled or interrupt-driven, verified register writes, conversion to microvolts, and an OpenView streaming example. For research and education only - not a medical device.",
+      "website": "https://github.com/Protocentral/protocentral-ads1293-arduino",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Protocentral/protocentral-ads1293-arduino.git",
+      "providesIncludes": [
+        "Protocentral_ADS1293.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Protocentral/ProtoCentral_ADS1293_ECG_Library-2.0.0.zip",
+      "archiveFileName": "ProtoCentral_ADS1293_ECG_Library-2.0.0.zip",
+      "size": 301386,
+      "checksum": "SHA-256:37f3c6b0779fee625284b485fde6bad81d3aa0a7dfab07bb5dd1a2d979d45c43"
     },
     {
       "name": "SNMP Manager",
@@ -799456,6 +799502,54 @@
       "archiveFileName": "FastLEDHub-2.3.0.zip",
       "size": 67350,
       "checksum": "SHA-256:d621d2b3edc82f462eeb4608b558a81c62aaa89c8d532882fc4224fd9007fde3"
+    },
+    {
+      "name": "FastLEDHub",
+      "version": "2.4.0",
+      "author": "Stephan Rumswinkel",
+      "maintainer": "Stephan Rumswinkel",
+      "sentence": "Control multiple FastLED lightstrip animations on the ESP8266 and ESP32 without reuploading.",
+      "paragraph": "FastLEDHub allows you to manage all of your FastLED sketches on the ESP8266 and ESP32 with minimal changes to your existing code. It requires little knowledge about the ESP8266/ESP32 platform making in an ideal playground for beginners getting started with FastLED animations.",
+      "website": "https://github.com/srwi/FastLEDHub.git",
+      "category": "Display",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/srwi/FastLEDHub.git",
+      "dependencies": [
+        {
+          "name": "WiFiManager",
+          "version": "\u003e=2.0.0"
+        },
+        {
+          "name": "ESPEssentials",
+          "version": "\u003e=2.1.0"
+        },
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=7.0.0"
+        },
+        {
+          "name": "LinkedList"
+        },
+        {
+          "name": "FastLED"
+        },
+        {
+          "name": "WebSockets"
+        },
+        {
+          "name": "PubSubClient"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/srwi/FastLEDHub-2.4.0.zip",
+      "archiveFileName": "FastLEDHub-2.4.0.zip",
+      "size": 69947,
+      "checksum": "SHA-256:3aa7106f316259454aa7353dbaaf82f51b72dcbe80f8666b420286f7ee9bb631"
     },
     {
       "name": "DFRobot_INA219",
@@ -969942,6 +970036,44 @@
       "checksum": "SHA-256:2e89143b8d63f12858597a759ccc36843cbe1105f4e26ea1ad28cc95f334cae5"
     },
     {
+      "name": "M5Module-GNSS",
+      "version": "1.0.3",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack GNSS Module",
+      "paragraph": "See more on http://M5Stack.com",
+      "website": "https://github.com/m5stack/M5Module-GNSS",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Module-GNSS.git",
+      "providesIncludes": [
+        "M5Module_GNSS.h"
+      ],
+      "dependencies": [
+        {
+          "name": "TinyGPSPlus"
+        },
+        {
+          "name": "Adafruit BMP280 Library"
+        },
+        {
+          "name": "Adafruit Unified Sensor"
+        },
+        {
+          "name": "Adafruit BusIO"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Module_GNSS-1.0.3.zip",
+      "archiveFileName": "M5Module_GNSS-1.0.3.zip",
+      "size": 210071,
+      "checksum": "SHA-256:0bf9b7b1d835c4636e339da3b1387801634a9c3d5d3d6b868d451e15ed1552cc"
+    },
+    {
       "name": "Arduino_POSIXStorage",
       "version": "1.0.0",
       "author": "Arduino",
@@ -998922,6 +999054,61 @@
       "checksum": "SHA-256:6573f47299f91a8065abdc4fd1021ab3c1e42981aa8482bd2a53bd46f8f7ab4b"
     },
     {
+      "name": "JBWopr",
+      "version": "1.3.2",
+      "author": "Jonny Bergdahl",
+      "maintainer": "Jonny Bergdahl \u003cgithub@bergdahl.org\u003e",
+      "sentence": "Support library for the Unexpected Maker W.O.P.R. boards",
+      "paragraph": "This library contains complete firmware for using the Unexpected Maker W.O.P.R. boards in your own projects. Includes firmware code for use over WiFi, MQTT or with Home Assistant",
+      "website": "https://github.com/jonnybergdahl/Arduino_JBWopr_Library",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/jonnybergdahl/Arduino_JBWopr_Library.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e7.4.1"
+        },
+        {
+          "name": "Adafruit GFX Library",
+          "version": "\u003e=1.12.1"
+        },
+        {
+          "name": "Adafruit LED Backpack Library",
+          "version": "\u003e=1.5.0"
+        },
+        {
+          "name": "Adafruit NeoPixel",
+          "version": "\u003e=1.15.1"
+        },
+        {
+          "name": "OneButton",
+          "version": "\u003e=2.6.1"
+        },
+        {
+          "name": "PubSubClient",
+          "version": "\u003e=2.8.0"
+        },
+        {
+          "name": "WiFiManager",
+          "version": "\u003e=2.0.1"
+        },
+        {
+          "name": "JBLogger",
+          "version": "\u003e=1.0.6"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/jonnybergdahl/JBWopr-1.3.2.zip",
+      "archiveFileName": "JBWopr-1.3.2.zip",
+      "size": 462472,
+      "checksum": "SHA-256:26b27820f300b10d57403fe1ebbaef8fd40c0a49568312164975634da9581999"
+    },
+    {
       "name": "MBusinoLib",
       "version": "0.1.0",
       "author": "Zeppelin500 \u003c****@***.**\u003e",
@@ -1024300,6 +1024487,39 @@
       "checksum": "SHA-256:90b701341c1ca25adcabb8f7c437301848f65355ac41fe1ae6e00225fc018e50"
     },
     {
+      "name": "IOSignal",
+      "version": "7.0.0",
+      "author": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "maintainer": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "sentence": "IOSignal Arduino Client.",
+      "paragraph": "Support Uno Ethernet,Uno R4 WiFi, ESP8266 and ESP32.",
+      "website": "https://github.com/remocons/iosignal-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/remocons/iosignal-arduino.git",
+      "dependencies": [
+        {
+          "name": "Boho",
+          "version": "\u003e=1.0.0"
+        },
+        {
+          "name": "Crypto"
+        },
+        {
+          "name": "Bounce2"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-7.0.0.zip",
+      "archiveFileName": "IOSignal-7.0.0.zip",
+      "size": 1418902,
+      "checksum": "SHA-256:1a181a22246da57c379ca99b67ac57cd6d23cac1f85ad626bccf5acfe2523485"
+    },
+    {
       "name": "SpeeduinoGL",
       "version": "0.0.1",
       "author": "Benjamin Gombala",
@@ -1029081,6 +1029301,57 @@
       "archiveFileName": "Remocon-3.0.1.zip",
       "size": 1426387,
       "checksum": "SHA-256:9406bdbfe72c97b980e97c56a3c59456c765171af4d33284cb1ebd3deaab35ca"
+    },
+    {
+      "name": "Remocon",
+      "version": "4.0.0",
+      "author": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "maintainer": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "sentence": "IOSignal Arduino examples for remocon.kr and test.iosignal.net.",
+      "paragraph": "Control DIY Arduino IoT remote control system with the web app.",
+      "website": "https://github.com/remocons/remocon-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/remocons/remocon-arduino.git",
+      "dependencies": [
+        {
+          "name": "IOSignal",
+          "version": "\u003e=7.0.0"
+        },
+        {
+          "name": "Crypto"
+        },
+        {
+          "name": "Boho"
+        },
+        {
+          "name": "Bounce2"
+        },
+        {
+          "name": "U8g2"
+        },
+        {
+          "name": "IRremote"
+        },
+        {
+          "name": "WiFiManager"
+        },
+        {
+          "name": "FastLED"
+        },
+        {
+          "name": "Ethernet"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/remocons/Remocon-4.0.0.zip",
+      "archiveFileName": "Remocon-4.0.0.zip",
+      "size": 1426396,
+      "checksum": "SHA-256:346168940fec7953e55adea34dc99e21500fe5017b850454a4553c2ddd855774"
     },
     {
       "name": "SimplifiedTimer",
@@ -1143503,6 +1143774,42 @@
       "checksum": "SHA-256:88e268eacaf76c3f34e5d09f1089036903cba7e4d5d8621f25cb2a8c3c44d611"
     },
     {
+      "name": "AMY Synthesizer",
+      "version": "1.2.208",
+      "author": "Brian Whitman \u003cbrian@variogram.com\u003e, DAn Ellis \u003cdan.ellis@gmail.com\u003e",
+      "maintainer": "Brian Whitman \u003cbrian@variogram.com\u003e",
+      "sentence": "AMY, the Music Synthesizer Library",
+      "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+      "website": "http://github.com/shorepine/amy",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "stm32",
+        "rp2040",
+        "mbed_rp2040",
+        "rp2350",
+        "mbed_rp2350",
+        "teensy",
+        "STM32F1",
+        "STM32F4",
+        "STM32H7",
+        "nrf52",
+        "samd",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shorepine/amy.git",
+      "providesIncludes": [
+        "AMY-Arduino.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.208.zip",
+      "archiveFileName": "AMY_Synthesizer-1.2.208.zip",
+      "size": 44644404,
+      "checksum": "SHA-256:6f231cf2d8522fcaf59dff75478dfc3849ab1f6398af08c2fc15c77e3fdc0916"
+    },
+    {
       "name": "ArduboyI2C",
       "version": "2.0.3",
       "author": "sub1inear",
@@ -1241434,6 +1241741,27 @@
       "checksum": "SHA-256:1f7f9869f7149f366fc6b3e27b5a9615f86c15381950dfee8fee579aed11c8a1"
     },
     {
+      "name": "GyverPing",
+      "version": "1.0.4",
+      "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "maintainer": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "sentence": "Library for measuring distance with HC-SR04",
+      "paragraph": "Library for measuring distance with HC-SR04",
+      "website": "https://github.com/GyverLibs/GyverPing",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/GyverLibs/GyverPing.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverPing-1.0.4.zip",
+      "archiveFileName": "GyverPing-1.0.4.zip",
+      "size": 18259,
+      "checksum": "SHA-256:aacb004d6e99e9823894e53ba9271bd23085ad57f14d8df3cdded9d2a3c2c653"
+    },
+    {
       "name": "ClearDS1302",
       "version": "1.0.1",
       "author": "Rahmat Hidayat, rahmatcraft21544@gmail.com",
@@ -1264184,6 +1264512,77 @@
       "checksum": "SHA-256:876f3235dcc0a729eb6b8504dd5c466d5bc3c9117d56811288acbd4e3b0265f6"
     },
     {
+      "name": "Frugal-IoT",
+      "version": "2.0.7",
+      "author": "Mitra Ardron",
+      "maintainer": "Mitra Ardron \u003cmitra@mitra.biz\u003e",
+      "sentence": "Platform for affordable sensors",
+      "paragraph": "The Frugal-IoT library implement an easy to use platform for a variety of sensors communicating over WiFi, LoRa, MQTT etc",
+      "website": "https://github.com/mitra42/frugal-iot",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mitra42/frugal-iot.git",
+      "providesIncludes": [
+        "Frugal-IoT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "BH1750"
+        },
+        {
+          "name": "Button2"
+        },
+        {
+          "name": "DHTNEW"
+        },
+        {
+          "name": "HX711"
+        },
+        {
+          "name": "MQTT"
+        },
+        {
+          "name": "OneWireNg"
+        },
+        {
+          "name": "hd44780"
+        },
+        {
+          "name": "TinyGPSPlus"
+        },
+        {
+          "name": "ModbusMaster"
+        },
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit SSD1306"
+        },
+        {
+          "name": "Adafruit SSD1327"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.7.zip",
+      "archiveFileName": "Frugal_IoT-2.0.7.zip",
+      "size": 1034085,
+      "checksum": "SHA-256:d90261807c18b3962266ea85d56be949e2387a377e7aae57951e59908024d862"
+    },
+    {
       "name": "FastLED_min",
       "version": "1.0.0",
       "author": "Based on FastLED RMT implementation",
@@ -1277884,6 +1278283,30 @@
       "archiveFileName": "MTD2A-1.3.1.zip",
       "size": 26174075,
       "checksum": "SHA-256:cd63bf255b1b2e8b0d0587a6c4aae7e0613c0f1bcf82dff63a32c7a88ffbd61b"
+    },
+    {
+      "name": "MTD2A",
+      "version": "1.3.5",
+      "author": "Joergen Bo Madsen",
+      "maintainer": "Jorgen Bo Madsen \u003cMTD2A@jorgen-madsen.dk\u003e",
+      "sentence": "Model Train Detection and Action library",
+      "paragraph": "Simple, efficient and user friendly non-blocking building blocks to read sensors an activate various devices (servo, relay, sound, LED etc). 24 PWM timed mathematical motion curves. Support parallel processing. DEMO videos: https://www.youtube.com/channel/UCRJ741XZt0DmYYmp0MSDLcQ",
+      "website": "https://github.com/MTD2A/MTD2A",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/MTD2A/MTD2A.git",
+      "providesIncludes": [
+        "MTD2A.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/MTD2A/MTD2A-1.3.5.zip",
+      "archiveFileName": "MTD2A-1.3.5.zip",
+      "size": 27461401,
+      "checksum": "SHA-256:607d9acd494960459be8309c7e37d344987c89dd6c48fc5203520dd706704342"
     },
     {
       "name": "esp_cron",
@@ -1293590,6 +1294013,117 @@
       "archiveFileName": "DFPongController-2.3.1.zip",
       "size": 72270,
       "checksum": "SHA-256:13968b2074d259eff8cf6d039034e3e8cc2eb0a0fc05e3d6baf781698bef95d0"
+    },
+    {
+      "name": "DFPongController",
+      "version": "2.4.0",
+      "author": "Digital Futures OCAD U",
+      "maintainer": "Digital Futures OCAD U",
+      "sentence": "BLE controller library for the DF Pong game.",
+      "paragraph": "Support library for BLE Pong Controllers that control the online game df-pong. Version 2 adds player settings (name, color, paddle speed and size, custom sounds and background music) and game rule requests, and handles the connection handshake automatically. Supports Arduino Nano 33 IoT, Nano 33 BLE, UNO R4 WiFi, and ESP32 (NimBLE-Arduino 2.x).",
+      "website": "https://github.com/DigitalFuturesOCADU/df-pong-controller",
+      "category": "Communication",
+      "architectures": [
+        "samd",
+        "nrf52",
+        "mbed",
+        "mbed_nano",
+        "renesas_uno",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DigitalFuturesOCADU/df-pong-controller.git",
+      "providesIncludes": [
+        "DFPongController.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoBLE"
+        },
+        {
+          "name": "NimBLE-Arduino"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.4.0.zip",
+      "archiveFileName": "DFPongController-2.4.0.zip",
+      "size": 72421,
+      "checksum": "SHA-256:337b9d0d0fdc379baec764f695af0f36cd2cb44ef18b73cc2a04196bb8f65127"
+    },
+    {
+      "name": "DFPongController",
+      "version": "2.4.1",
+      "author": "Digital Futures OCAD U",
+      "maintainer": "Digital Futures OCAD U",
+      "sentence": "BLE controller library for the DF Pong game.",
+      "paragraph": "Support library for BLE Pong Controllers that control the online game df-pong. Version 2 adds player settings (name, color, paddle speed and size, custom sounds and background music) and game rule requests, and handles the connection handshake automatically. Supports Arduino Nano 33 IoT, Nano 33 BLE, UNO R4 WiFi, and ESP32 (NimBLE-Arduino 2.x).",
+      "website": "https://github.com/DigitalFuturesOCADU/df-pong-controller",
+      "category": "Communication",
+      "architectures": [
+        "samd",
+        "nrf52",
+        "mbed",
+        "mbed_nano",
+        "renesas_uno",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DigitalFuturesOCADU/df-pong-controller.git",
+      "providesIncludes": [
+        "DFPongController.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoBLE"
+        },
+        {
+          "name": "NimBLE-Arduino"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.4.1.zip",
+      "archiveFileName": "DFPongController-2.4.1.zip",
+      "size": 72726,
+      "checksum": "SHA-256:a0b8b9d00dfb64dff902c5330538443bd37fcbf22ce4e9cdf17d605ac24ce495"
+    },
+    {
+      "name": "DFPongController",
+      "version": "2.4.2",
+      "author": "Digital Futures OCAD U",
+      "maintainer": "Digital Futures OCAD U",
+      "sentence": "BLE controller library for the DF Pong game.",
+      "paragraph": "Support library for BLE Pong Controllers that control the online game df-pong. Version 2 adds player settings (name, color, paddle speed and size, custom sounds and background music) and game rule requests, and handles the connection handshake automatically. Supports Arduino Nano 33 IoT, Nano 33 BLE, UNO R4 WiFi, and ESP32 (NimBLE-Arduino 2.x).",
+      "website": "https://github.com/DigitalFuturesOCADU/df-pong-controller",
+      "category": "Communication",
+      "architectures": [
+        "samd",
+        "nrf52",
+        "mbed",
+        "mbed_nano",
+        "renesas_uno",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DigitalFuturesOCADU/df-pong-controller.git",
+      "providesIncludes": [
+        "DFPongController.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoBLE"
+        },
+        {
+          "name": "NimBLE-Arduino"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.4.2.zip",
+      "archiveFileName": "DFPongController-2.4.2.zip",
+      "size": 77359,
+      "checksum": "SHA-256:ed282340400864186bae67b05d6aa9a46e652ce8f1df2c25e4fd989c6503d319"
     },
     {
       "name": "CamS3Library",
@@ -1352831,6 +1353365,28 @@
       "checksum": "SHA-256:7dd91d4dc83e91d3d80e369871ea61a8fa26dc835d29de13098ed0f2bf6c9e95"
     },
     {
+      "name": "GT7 UDP Telemetry Parser",
+      "version": "2.1.4",
+      "author": "MacManley",
+      "maintainer": "MacManley",
+      "license": "MIT",
+      "sentence": "UDP Telemetry Parser for Gran Turismo 7",
+      "paragraph": "UDP Telemetry Parser for Gran Turismo 7",
+      "website": "https://github.com/MacManley/gt7-udp",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/MacManley/gt7-udp.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/MacManley/GT7_UDP_Telemetry_Parser-2.1.4.zip",
+      "archiveFileName": "GT7_UDP_Telemetry_Parser-2.1.4.zip",
+      "size": 31738,
+      "checksum": "SHA-256:432dc42908027260d57ebfc89e0107ab1c72f39c78d04644f875c4eb9fc5cedc"
+    },
+    {
       "name": "assetto-corsa-udp",
       "version": "1.0.1",
       "author": "MacManley",
@@ -1357709,6 +1358265,35 @@
       "archiveFileName": "Arduino_Video-1.0.3.zip",
       "size": 246265,
       "checksum": "SHA-256:792f543eb197b4f575b0adf952f186175f0c26b64af0f2a05305a1f7e98a1a67"
+    },
+    {
+      "name": "Arduino_Video",
+      "version": "1.1.0",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Video and display driver library for high-performance Arduino boards.",
+      "paragraph": "Enables MIPI DSI video output and GUI creation on supported Arduino boards (GIGA R1, Portenta H7). Supports ArduinoGraphics drawing functions and LVGL v9.",
+      "website": "https://github.com/arduino-libraries/Arduino_Video",
+      "category": "Display",
+      "architectures": [
+        "zephyr_main"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "repository": "https://github.com/arduino-libraries/Arduino_Video.git",
+      "dependencies": [
+        {
+          "name": "ArduinoGraphics"
+        },
+        {
+          "name": "lvgl"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_Video-1.1.0.zip",
+      "archiveFileName": "Arduino_Video-1.1.0.zip",
+      "size": 248820,
+      "checksum": "SHA-256:5d0703bc7be68adf9784c4de32f4bf88f14fadce97296da758446bb24c3e66d8"
     },
     {
       "name": "DevLab_VEML7700",
@@ -1375221,6 +1375806,31 @@
       "checksum": "SHA-256:beee8f2a06fe7165df828bfaa4a3ccdc2ce1c019d7ba4d7a9d76b9e1c2d4a87c"
     },
     {
+      "name": "LionStreams",
+      "version": "1.3.0",
+      "author": "leva \u003cleva.the.lion@gmail.com\u003e",
+      "maintainer": "leva \u003cleva.the.lion@gmail.com\u003e",
+      "sentence": "Tiny Arduino Stream adapters: a String-backed stream and a chunk-flushing web-server stream.",
+      "paragraph": "StringStream is a read/write Stream view over an external String (non-owning — the String must outlive the stream; reset() rewinds the read cursor and clears the String). ServerStream is a write-only Stream that buffers Print output and flushes it in chunks via server.sendContent() on ESP8266WebServer / ESP32 WebServer, so large HTML pages stream out without holding the whole response in RAM (start a chunked/unknown-length response first and call flush() at the end). Both are header-only and non-copyable. For ESPAsyncWebServer use the built-in beginResponseStream() instead.",
+      "website": "https://github.com/blah188/LionStreams",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/blah188/LionStreams.git",
+      "providesIncludes": [
+        "LionStreams.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/blah188/LionStreams-1.3.0.zip",
+      "archiveFileName": "LionStreams-1.3.0.zip",
+      "size": 18467,
+      "checksum": "SHA-256:d21f220157dff3d2159105ad6226d823864730055faaf8e9c3e7ecbfe0b7bfd8"
+    },
+    {
       "name": "SyntropicOS",
       "version": "2026.6.1",
       "author": "Charles Galant \u003ccgalant@gmail.com\u003e",
@@ -1382912,6 +1383522,178 @@
       "checksum": "SHA-256:5aa647dd220cdf81da3099af151492bf7fea6ed67e8d035f386df196150f1914"
     },
     {
+      "name": "NetworkProfile",
+      "version": "0.11.0",
+      "author": "Péter Soós",
+      "maintainer": "Péter Soós",
+      "license": "MIT",
+      "sentence": "Thread-safe network interface configuration profiles for ESP32, ESP8266 and AVR.",
+      "paragraph": "WiFiProfile and EthProfile hold a network interface's configuration (DHCP/static IP, DNS, hostname, MAC address, priority for ETH -\u003e WiFi fallback). NtpProfile holds the NTP servers a device synchronises from, and MqttProfile the settings needed to reach an MQTT broker. All four offer thread-safe access, validation, persistent storage via Preferences, and JSON serialisation. Depends on the Host library.",
+      "website": "https://github.com/soosp/NetworkProfile",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/NetworkProfile.git",
+      "providesIncludes": [
+        "NetworkProfile.h",
+        "EthProfile.h",
+        "WiFiProfile.h",
+        "MqttProfile.h",
+        "NtpProfile.h",
+        "SyslogProfile.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Host"
+        },
+        {
+          "name": "EEPROMPreferences"
+        },
+        {
+          "name": "Preferences"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.11.0.zip",
+      "archiveFileName": "NetworkProfile-0.11.0.zip",
+      "size": 96393,
+      "checksum": "SHA-256:e3b409aea7d5d03b122d98d83473625c7ae34ee9c17645f31f46373afc2bf240"
+    },
+    {
+      "name": "NetworkProfile",
+      "version": "0.11.1",
+      "author": "Péter Soós",
+      "maintainer": "Péter Soós",
+      "license": "MIT",
+      "sentence": "Thread-safe network interface configuration profiles for ESP32, ESP8266 and AVR.",
+      "paragraph": "WiFiProfile and EthProfile hold a network interface's configuration (DHCP/static IP, DNS, hostname, MAC address, priority for ETH -\u003e WiFi fallback). NtpProfile holds the NTP servers a device synchronises from, and MqttProfile the settings needed to reach an MQTT broker. All four offer thread-safe access, validation, persistent storage via Preferences, and JSON serialisation. Depends on the Host library.",
+      "website": "https://github.com/soosp/NetworkProfile",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/NetworkProfile.git",
+      "providesIncludes": [
+        "NetworkProfile.h",
+        "EthProfile.h",
+        "WiFiProfile.h",
+        "MqttProfile.h",
+        "NtpProfile.h",
+        "SyslogProfile.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Host"
+        },
+        {
+          "name": "EEPROMPreferences"
+        },
+        {
+          "name": "Preferences"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.11.1.zip",
+      "archiveFileName": "NetworkProfile-0.11.1.zip",
+      "size": 96642,
+      "checksum": "SHA-256:3be137b888f2eae89ffa41db2382caa42c7f590b961152558e33402b268dcf8b"
+    },
+    {
+      "name": "NetworkProfile",
+      "version": "0.11.2",
+      "author": "Péter Soós",
+      "maintainer": "Péter Soós",
+      "license": "MIT",
+      "sentence": "Thread-safe network interface configuration profiles for ESP32, ESP8266 and AVR.",
+      "paragraph": "WiFiProfile and EthProfile hold a network interface's configuration (DHCP/static IP, DNS, hostname, MAC address, priority for ETH -\u003e WiFi fallback). NtpProfile holds the NTP servers a device synchronises from, and MqttProfile the settings needed to reach an MQTT broker. All four offer thread-safe access, validation, persistent storage via Preferences, and JSON serialisation. Depends on the Host library.",
+      "website": "https://github.com/soosp/NetworkProfile",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/NetworkProfile.git",
+      "providesIncludes": [
+        "NetworkProfile.h",
+        "EthProfile.h",
+        "WiFiProfile.h",
+        "MqttProfile.h",
+        "NtpProfile.h",
+        "SyslogProfile.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Host"
+        },
+        {
+          "name": "EEPROMPreferences"
+        },
+        {
+          "name": "Preferences"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.11.2.zip",
+      "archiveFileName": "NetworkProfile-0.11.2.zip",
+      "size": 96699,
+      "checksum": "SHA-256:9ad31376a980f25857bf46a2123bff4ffb4cefa2d4b39ebb16a4092cc4b1b681"
+    },
+    {
+      "name": "NetworkProfile",
+      "version": "0.11.3",
+      "author": "Péter Soós",
+      "maintainer": "Péter Soós",
+      "license": "MIT",
+      "sentence": "Thread-safe network interface configuration profiles for ESP32, ESP8266 and AVR.",
+      "paragraph": "WiFiProfile and EthProfile hold a network interface's configuration (DHCP/static IP, DNS, hostname, MAC address, priority for ETH -\u003e WiFi fallback). NtpProfile holds the NTP servers a device synchronises from, and MqttProfile the settings needed to reach an MQTT broker. All four offer thread-safe access, validation, persistent storage via Preferences, and JSON serialisation. Depends on the Host library.",
+      "website": "https://github.com/soosp/NetworkProfile",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/NetworkProfile.git",
+      "providesIncludes": [
+        "NetworkProfile.h",
+        "EthProfile.h",
+        "WiFiProfile.h",
+        "MqttProfile.h",
+        "NtpProfile.h",
+        "SyslogProfile.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Host"
+        },
+        {
+          "name": "EEPROMPreferences"
+        },
+        {
+          "name": "Preferences"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.11.3.zip",
+      "archiveFileName": "NetworkProfile-0.11.3.zip",
+      "size": 97574,
+      "checksum": "SHA-256:3881a2636826472ead721eefa8e84d929e95d3e844b7279b2f29bd53281b519e"
+    },
+    {
       "name": "NetworkManager",
       "version": "0.1.0",
       "author": "Péter Soós \u003chttps://github.com/soosp\u003e",
@@ -1383599,6 +1384381,165 @@
       "archiveFileName": "NetworkManager-0.4.1.zip",
       "size": 157386,
       "checksum": "SHA-256:a76c9165398c28725c6b7899165a287b5141cc7424d2e483229f658cad22b61d"
+    },
+    {
+      "name": "NetworkManager",
+      "version": "0.5.0",
+      "author": "Péter Soós \u003chttps://github.com/soosp\u003e",
+      "maintainer": "Péter Soós \u003chttps://github.com/soosp\u003e",
+      "sentence": "Priority-based network connection manager with automatic fallback.",
+      "paragraph": "Supports WiFi and Ethernet on ESP32, ESP8266 and AVR. Manages multiple network adapters with priority-based fallback, NTP configuration and thread-safe operation.",
+      "website": "https://github.com/soosp/NetworkManager",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/NetworkManager.git",
+      "providesIncludes": [
+        "NetworkManager.h",
+        "NetworkManagerCore.h",
+        "NetworkAdapter.h",
+        "EthAdapter.h",
+        "WiFiAdapter.h",
+        "ESP32EthAdapter.h",
+        "ESP32WiFiAdapter.h",
+        "ESP8266EthAdapter.h",
+        "ESP8266WiFiAdapter.h",
+        "AVREthernetAdapter.h",
+        "NetworkManagerNtpSyncHook.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Host"
+        },
+        {
+          "name": "NetworkProfile"
+        },
+        {
+          "name": "Preferences"
+        },
+        {
+          "name": "EEPROMPreferences"
+        },
+        {
+          "name": "Ethernet"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.5.0.zip",
+      "archiveFileName": "NetworkManager-0.5.0.zip",
+      "size": 160364,
+      "checksum": "SHA-256:7c25d3a5810a7c0c62436cb5924c500746732bf0676de74653f070b913f37b5f"
+    },
+    {
+      "name": "NetworkManager",
+      "version": "0.5.1",
+      "author": "Péter Soós \u003chttps://github.com/soosp\u003e",
+      "maintainer": "Péter Soós \u003chttps://github.com/soosp\u003e",
+      "sentence": "Priority-based network connection manager with automatic fallback.",
+      "paragraph": "Supports WiFi and Ethernet on ESP32, ESP8266 and AVR. Manages multiple network adapters with priority-based fallback, NTP configuration and thread-safe operation.",
+      "website": "https://github.com/soosp/NetworkManager",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/NetworkManager.git",
+      "providesIncludes": [
+        "NetworkManager.h",
+        "NetworkManagerCore.h",
+        "NetworkAdapter.h",
+        "EthAdapter.h",
+        "WiFiAdapter.h",
+        "ESP32EthAdapter.h",
+        "ESP32WiFiAdapter.h",
+        "ESP8266EthAdapter.h",
+        "ESP8266WiFiAdapter.h",
+        "AVREthernetAdapter.h",
+        "NetworkManagerNtpSyncHook.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Host"
+        },
+        {
+          "name": "NetworkProfile"
+        },
+        {
+          "name": "Preferences"
+        },
+        {
+          "name": "EEPROMPreferences"
+        },
+        {
+          "name": "Ethernet"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.5.1.zip",
+      "archiveFileName": "NetworkManager-0.5.1.zip",
+      "size": 160403,
+      "checksum": "SHA-256:4286944e3c99831cea083c5d5b44be50f7bb17f820a82dc9edaf5b0fff43b8b8"
+    },
+    {
+      "name": "NetworkManager",
+      "version": "0.5.2",
+      "author": "Péter Soós \u003chttps://github.com/soosp\u003e",
+      "maintainer": "Péter Soós \u003chttps://github.com/soosp\u003e",
+      "sentence": "Priority-based network connection manager with automatic fallback.",
+      "paragraph": "Supports WiFi and Ethernet on ESP32, ESP8266 and AVR. Manages multiple network adapters with priority-based fallback, NTP configuration and thread-safe operation.",
+      "website": "https://github.com/soosp/NetworkManager",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/NetworkManager.git",
+      "providesIncludes": [
+        "NetworkManager.h",
+        "NetworkManagerCore.h",
+        "NetworkAdapter.h",
+        "EthAdapter.h",
+        "WiFiAdapter.h",
+        "ESP32EthAdapter.h",
+        "ESP32WiFiAdapter.h",
+        "ESP8266EthAdapter.h",
+        "ESP8266WiFiAdapter.h",
+        "AVREthernetAdapter.h",
+        "NetworkManagerNtpSyncHook.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Host"
+        },
+        {
+          "name": "NetworkProfile"
+        },
+        {
+          "name": "Preferences"
+        },
+        {
+          "name": "EEPROMPreferences"
+        },
+        {
+          "name": "Ethernet"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.5.2.zip",
+      "archiveFileName": "NetworkManager-0.5.2.zip",
+      "size": 161031,
+      "checksum": "SHA-256:7badaefab3e9a9548d2a89dd0729c46e6a20eb68ed05d9d48ba24cd560931311"
     },
     {
       "name": "MPU6050_Nexa",
@@ -1397294,6 +1398235,43 @@
       "checksum": "SHA-256:eb62688114ebb7202ecbc916e3d1ed613950d1c70776113a117a00c83fb7719c"
     },
     {
+      "name": "AsyncConfigPortal",
+      "version": "0.18.0",
+      "author": "Peter Soos",
+      "maintainer": "Peter Soos",
+      "license": "MIT",
+      "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+      "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+      "website": "https://github.com/soosp/AsyncConfigPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncConfigPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "HttpDigestAuth"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.18.0.zip",
+      "archiveFileName": "AsyncConfigPortal-0.18.0.zip",
+      "size": 216150,
+      "checksum": "SHA-256:eae74ae770b1ca33146437b83583a6acd43e29027b6b0b45896c7afcba6147e5"
+    },
+    {
       "name": "AsyncWiFiPortal",
       "version": "0.1.0",
       "author": "soosp",
@@ -1397370,6 +1398348,84 @@
       "archiveFileName": "AsyncWiFiPortal-0.2.0.zip",
       "size": 40408,
       "checksum": "SHA-256:6b534f60bb84530b38c6f66453e9b187a7e47a0f69498e072e2d3c6c0eb9a13f"
+    },
+    {
+      "name": "AsyncWiFiPortal",
+      "version": "0.2.1",
+      "author": "soosp",
+      "maintainer": "soosp",
+      "sentence": "Reboot-into-portal Wi-Fi recovery captive portal for ESP32 and ESP8266.",
+      "paragraph": "The device restarts into a setup access point, brings up a captive portal, and gets its radio onto a network. Presence-gated.",
+      "website": "https://github.com/soosp/AsyncWiFiPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncWiFiPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "NetworkProfile"
+        },
+        {
+          "name": "Preferences"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncWiFiPortal-0.2.1.zip",
+      "archiveFileName": "AsyncWiFiPortal-0.2.1.zip",
+      "size": 40743,
+      "checksum": "SHA-256:f7d11f89f72c4d90603bbf902a96f3c09b5261546f932d872a8e89da78610f5c"
+    },
+    {
+      "name": "AsyncWiFiPortal",
+      "version": "0.2.2",
+      "author": "soosp",
+      "maintainer": "soosp",
+      "sentence": "Reboot-into-portal Wi-Fi recovery captive portal for ESP32 and ESP8266.",
+      "paragraph": "The device restarts into a setup access point, brings up a captive portal, and gets its radio onto a network. Presence-gated.",
+      "website": "https://github.com/soosp/AsyncWiFiPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncWiFiPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "NetworkProfile"
+        },
+        {
+          "name": "Preferences"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncWiFiPortal-0.2.2.zip",
+      "archiveFileName": "AsyncWiFiPortal-0.2.2.zip",
+      "size": 40782,
+      "checksum": "SHA-256:93742471bf6ee6995106306d7b8e0201b855e84ff9e4ce685d9aa5d4baafdf35"
     },
     {
       "name": "DevLabDDP",
@@ -1397595,6 +1398651,36 @@
       "archiveFileName": "DevLabDDP-1.0.7.zip",
       "size": 24665,
       "checksum": "SHA-256:67b6bf839ae0df0d39b38dfcebd4c168beb0c293e4b8603f0cdd3746b72715f0"
+    },
+    {
+      "name": "DevLabDDP",
+      "version": "1.0.9",
+      "author": "UNIT Electronics",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino master for the DevLab Device Protocol.",
+      "paragraph": "Discovers, validates and communicates with DDP I2C devices.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_ddp_library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_ddp_library.git",
+      "providesIncludes": [
+        "DevLabDDP.h",
+        "DevLabDDPConsole.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLab_Interface"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLabDDP-1.0.9.zip",
+      "archiveFileName": "DevLabDDP-1.0.9.zip",
+      "size": 24803,
+      "checksum": "SHA-256:6a7c215a21f7bc5a9a1451dd4fad72ae391fb641f17bb0dd58a797e983d762d1"
     },
     {
       "name": "DevLab_TEMT6000",
@@ -1422262,6 +1423348,89 @@
       "archiveFileName": "mannaNAUTA_WS2812-2.0.0.zip",
       "size": 12771,
       "checksum": "SHA-256:1b1ae0ea43ed413c7450577e7df6add9a5fc9840560354bda44080621f740482"
+    },
+    {
+      "name": "WirelessTagTiny",
+      "version": "0.1.0",
+      "author": "Wireless-Tag",
+      "maintainer": "Wireless-Tag",
+      "sentence": "Board helpers for Wireless-Tag TINY Arduino variants.",
+      "paragraph": "Provides the onboard RGB LED, active-low button, board identity, and SD setup on supported boards. Requires a Wireless-Tag TINY board variant; ESP32-S31 SD is not supported.",
+      "website": "https://github.com/Wireless-TAG-Maker/WirelessTagTiny",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Wireless-TAG-Maker/WirelessTagTiny.git",
+      "providesIncludes": [
+        "WirelessTagTiny.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Wireless-TAG-Maker/WirelessTagTiny-0.1.0.zip",
+      "archiveFileName": "WirelessTagTiny-0.1.0.zip",
+      "size": 21447,
+      "checksum": "SHA-256:925035f4ce946acfbad25cf803f3dc63559ff772fe20aee6018a7085b1343884"
+    },
+    {
+      "name": "AnalogKeypad5",
+      "version": "1.0.0",
+      "author": "mumanchu",
+      "maintainer": "mumanchu",
+      "sentence": "Arduino Library for 5-Key Analog Keypad",
+      "paragraph": "Easily adapted for any keypad",
+      "website": "https://github.com/mumanchu/AnalogKeypad5",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mumanchu/AnalogKeypad5.git",
+      "providesIncludes": [
+        "AnalogKeypad5.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/AnalogKeypad5-1.0.0.zip",
+      "archiveFileName": "AnalogKeypad5-1.0.0.zip",
+      "size": 89283,
+      "checksum": "SHA-256:82e670d485537dc85b4aa5319864cd540abef77b0c90e4792d91f2a9786aa686"
+    },
+    {
+      "name": "Adafruit LT8912B",
+      "version": "1.0.0",
+      "author": "Adafruit, Espressif Systems",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Arduino driver for the LT8912B MIPI DSI to HDMI/DVI bridge.",
+      "paragraph": "Provides portable I2C bridge control and an ESP32-P4 display helper for framebuffer output, with color-bar and Adafruit GFX examples.",
+      "website": "https://github.com/adafruit/Adafruit_LT8912B",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_LT8912B.git",
+      "providesIncludes": [
+        "Adafruit_LT8912B.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit BusIO"
+        },
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit TestBed"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_LT8912B-1.0.0.zip",
+      "archiveFileName": "Adafruit_LT8912B-1.0.0.zip",
+      "size": 28203,
+      "checksum": "SHA-256:d506fd1281970dd10729f5ffb9929e10eaa9349cea361dce136c5b2623d90fed"
     }
   ]
 }
