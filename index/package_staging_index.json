@@ -19665,6 +19665,120 @@
           "libraryDependencies": [
             {
               "name": "Arduino_RouterBridge",
+              "version": "0.4.4"
+            },
+            {
+              "name": "Arduino_RPClite",
+              "version": "0.3.1"
+            },
+            {
+              "name": "MsgPack",
+              "version": "0.4.2"
+            },
+            {
+              "name": "DebugLog",
+              "version": "0.8.4"
+            },
+            {
+              "name": "ArxTypeTraits",
+              "version": "0.3.2"
+            },
+            {
+              "name": "ArxContainer",
+              "version": "0.7.0"
+            }
+          ],
+          "name": "Arduino Q Boards",
+          "architecture": "zephyr",
+          "version": "1.1.0",
+          "category": "Arduino",
+          "url": "https://downloads.arduino.cc/cores/zephyr/ArduinoCore-zephyr_unoq-f07865dd.tar.bz2",
+          "archiveFileName": "ArduinoCore-zephyr_unoq-f07865dd.tar.bz2",
+          "checksum": "SHA-256:534394d5b4b387dc09f400e63fc1bf62881e93923a0c70159111449acdc63ee1",
+          "size": "10698143",
+          "help": {
+            "online": "https://www.arduino.cc/en/Reference/HomePage"
+          },
+          "boards": [
+            {
+              "name": "Arduino UNO Q"
+            },
+            {
+              "name": "Arduino Ventuno Q"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "adb",
+              "version": "32.0.0"
+            },
+            {
+              "packager": "zephyr",
+              "name": "arm-zephyr-eabi",
+              "version": "1.0.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bin2uf2",
+              "version": "0.1.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "gen-rodata-ld",
+              "version": "0.1.1"
+            },
+            {
+              "packager": "SiliconLabs",
+              "name": "openocd",
+              "version": "0.12.0-arduino1-static"
+            },
+            {
+              "packager": "arduino",
+              "name": "remoteocd",
+              "version": "0.1.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "rp2040tools",
+              "version": "1.1.0-rc1"
+            },
+            {
+              "packager": "arduino",
+              "name": "scripting-tools",
+              "version": "0.0.7"
+            },
+            {
+              "packager": "arduino",
+              "name": "sync-zephyr-artifacts",
+              "version": "0.2.4"
+            },
+            {
+              "packager": "arduino",
+              "name": "zephyr-check-size",
+              "version": "0.1.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "zephyr-sketch-tool",
+              "version": "0.4.2"
+            }
+          ]
+        },
+        {
+          "libraryDependencies": [
+            {
+              "name": "Arduino_RouterBridge",
               "version": "0.4.3"
             },
             {
@@ -25799,6 +25913,116 @@
           "libraryDependencies": [],
           "name": "Arduino Zephyr Boards",
           "architecture": "zephyr_main",
+          "version": "1.1.0",
+          "category": "Arduino",
+          "url": "https://downloads.arduino.cc/cores/zephyr/ArduinoCore-zephyr_main-f07865dd.tar.bz2",
+          "archiveFileName": "ArduinoCore-zephyr_main-f07865dd.tar.bz2",
+          "checksum": "SHA-256:adb4530f0bad0d5678a752f34c053c44b13cf315c925380ad169cdc4df9b1c42",
+          "size": "69723528",
+          "help": {
+            "online": "https://www.arduino.cc/en/Reference/HomePage"
+          },
+          "boards": [
+            {
+              "name": "Arduino Giga R1"
+            },
+            {
+              "name": "Arduino Nano 33 BLE"
+            },
+            {
+              "name": "Arduino Nano Matter"
+            },
+            {
+              "name": "Arduino Nano RP2040 Connect"
+            },
+            {
+              "name": "Arduino Nicla Sense ME"
+            },
+            {
+              "name": "Arduino Nicla Vision"
+            },
+            {
+              "name": "Arduino Opta"
+            },
+            {
+              "name": "Arduino Portenta C33"
+            },
+            {
+              "name": "Arduino Portenta H7"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "adb",
+              "version": "32.0.0"
+            },
+            {
+              "packager": "zephyr",
+              "name": "arm-zephyr-eabi",
+              "version": "1.0.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bin2uf2",
+              "version": "0.1.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "gen-rodata-ld",
+              "version": "0.1.1"
+            },
+            {
+              "packager": "SiliconLabs",
+              "name": "openocd",
+              "version": "0.12.0-arduino1-static"
+            },
+            {
+              "packager": "arduino",
+              "name": "remoteocd",
+              "version": "0.1.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "rp2040tools",
+              "version": "1.1.0-rc1"
+            },
+            {
+              "packager": "arduino",
+              "name": "scripting-tools",
+              "version": "0.0.7"
+            },
+            {
+              "packager": "arduino",
+              "name": "sync-zephyr-artifacts",
+              "version": "0.2.4"
+            },
+            {
+              "packager": "arduino",
+              "name": "zephyr-check-size",
+              "version": "0.1.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "zephyr-sketch-tool",
+              "version": "0.4.2"
+            }
+          ]
+        },
+        {
+          "libraryDependencies": [],
+          "name": "Arduino Zephyr Boards",
+          "architecture": "zephyr_main",
           "version": "1.0.0",
           "category": "Arduino",
           "url": "https://downloads.arduino.cc/cores/zephyr/ArduinoCore-zephyr_main-79b3f1af.tar.bz2",
@@ -27256,6 +27480,98 @@
               "packager": "arduino",
               "name": "zephyr-sketch-tool",
               "version": "0.1.0"
+            }
+          ]
+        },
+        {
+          "libraryDependencies": [],
+          "name": "Zephyr Community Boards",
+          "architecture": "zephyr_contrib",
+          "version": "1.1.0",
+          "category": "Contributed",
+          "url": "https://downloads.arduino.cc/cores/zephyr/ArduinoCore-zephyr_contrib-f07865dd.tar.bz2",
+          "archiveFileName": "ArduinoCore-zephyr_contrib-f07865dd.tar.bz2",
+          "checksum": "SHA-256:6e1131cebb812a77eeb007688bee634be76243bbf45837b46f74aee529d6141c",
+          "size": "22919097",
+          "help": {
+            "online": "https://www.arduino.cc/en/Reference/HomePage"
+          },
+          "boards": [
+            {
+              "name": "NXP FRDM MCXN947"
+            },
+            {
+              "name": "NXP FRDM RW612"
+            },
+            {
+              "name": "Renesas RA8D1 EK"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "adb",
+              "version": "32.0.0"
+            },
+            {
+              "packager": "zephyr",
+              "name": "arm-zephyr-eabi",
+              "version": "1.0.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bin2uf2",
+              "version": "0.1.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "gen-rodata-ld",
+              "version": "0.1.1"
+            },
+            {
+              "packager": "SiliconLabs",
+              "name": "openocd",
+              "version": "0.12.0-arduino1-static"
+            },
+            {
+              "packager": "arduino",
+              "name": "remoteocd",
+              "version": "0.1.1"
+            },
+            {
+              "packager": "arduino",
+              "name": "rp2040tools",
+              "version": "1.1.0-rc1"
+            },
+            {
+              "packager": "arduino",
+              "name": "scripting-tools",
+              "version": "0.0.7"
+            },
+            {
+              "packager": "arduino",
+              "name": "sync-zephyr-artifacts",
+              "version": "0.2.4"
+            },
+            {
+              "packager": "arduino",
+              "name": "zephyr-check-size",
+              "version": "0.1.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "zephyr-sketch-tool",
+              "version": "0.4.2"
             }
           ]
         },

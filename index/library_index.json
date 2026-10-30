@@ -536433,6 +536433,30 @@
       "checksum": "SHA-256:fcb272788e76981e6f26455f6cfb92abfbec3aa0c9a6292032b448de11d3d089"
     },
     {
+      "name": "HX711",
+      "version": "0.6.6",
+      "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "sentence": "Arduino library for HX711 load cell amplifier.",
+      "paragraph": "includes calibrate functions, reading median and median_average.",
+      "website": "https://github.com/RobTillaart/HX711",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RobTillaart/HX711.git",
+      "providesIncludes": [
+        "HX711.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/HX711-0.6.6.zip",
+      "archiveFileName": "HX711-0.6.6.zip",
+      "size": 43695,
+      "checksum": "SHA-256:e1196d41efb6cfe7e215fd46979bde20aec1e471b8b2399aa1c01a50eef33c41"
+    },
+    {
       "name": "AceMenu",
       "version": "0.1.0",
       "author": "Johny Hoops \u003cjohnyhoops@gmail.com\u003e",
@@ -578153,6 +578177,43 @@
       "archiveFileName": "phyphox_BLE-1.3.1.zip",
       "size": 112929,
       "checksum": "SHA-256:4cb0f2c77902efb5d2712e34178b473190d9392708d2a0d2ba8d501a311cb9af"
+    },
+    {
+      "name": "phyphox BLE",
+      "version": "2.0.0",
+      "author": "RWTH Aachen University \u003ccontact@phyphox.org\u003e",
+      "maintainer": "Dominik Dorsel \u003cdominik@phyphox.org\u003e",
+      "sentence": "Use the app phyphox to visualize your sensor data on your phone or tablet!",
+      "paragraph": "The purpose of this library is to use the open source phyphox app (see https://phyphox.org) to plot sensor data on your phone. phyphox is much more than only 'plotting your data'. You can also perform data analysis with it or access your phones sensors to use in your Arduino project.",
+      "website": "https://phyphox.org/arduino",
+      "category": "Other",
+      "architectures": [
+        "mbed",
+        "esp32",
+        "samd",
+        "mbed_nano",
+        "renesas_uno",
+        "stm32",
+        "mbed_portenta",
+        "mbed_giga",
+        "mbed_nicla"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/phyphox/phyphox-arduino.git",
+      "providesIncludes": [
+        "phyphoxBle.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/phyphox/phyphox_BLE-2.0.0.zip",
+      "archiveFileName": "phyphox_BLE-2.0.0.zip",
+      "size": 264264,
+      "checksum": "SHA-256:cadf20461ab0345957a86d0c351673df9b2efb166a6bf3d4bcc93659cb4bfcef"
     },
     {
       "name": "IoTivity-Lite",
@@ -835840,6 +835901,27 @@
       "checksum": "SHA-256:cce6fbb31a072be7100408739faa73847fbadaf8bd348ed62691a5872893da71"
     },
     {
+      "name": "Deneyap Cift Kanalli Cizgi Algilayici",
+      "version": "1.1.1",
+      "author": "Turkish Technology Team Foundation (T3) \u003cdestek@deneyapkart.org\u003e",
+      "maintainer": "Turkish Technology Team Foundation (T3) \u003cdestek@deneyapkart.org\u003e",
+      "sentence": "Arduino library for Deneyap Line Follower modules (2 channel TCRT5000 and 4 channel GP2S700HCP)",
+      "paragraph": "A simple and efficient library to use Deneyap Dual Channel Line Follower TCRT5000 and Deneyap 4 Channel Line Follower GP2S700HCP modules via I2C peripheral. Includes calibration and line position functions for the 4 channel module.",
+      "website": "https://github.com/deneyapkart/deneyap-cift-kanalli-cizgi-algilayici-arduino-library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/deneyapkart/deneyap-cift-kanalli-cizgi-algilayici-arduino-library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/deneyapkart/Deneyap_Cift_Kanalli_Cizgi_Algilayici-1.1.1.zip",
+      "archiveFileName": "Deneyap_Cift_Kanalli_Cizgi_Algilayici-1.1.1.zip",
+      "size": 30945,
+      "checksum": "SHA-256:305b1573cb4085d4e6157dd83e47bada83b936d0534e8c513ee900ea6869bd53"
+    },
+    {
       "name": "Deneyap Cift Kanalli Motor Surucu",
       "version": "1.0.0",
       "author": "RFtek Electronics \u003ctechsupport@rftek.com.tr\u003e",
@@ -912848,6 +912930,30 @@
       "archiveFileName": "HX711_MP-0.3.5.zip",
       "size": 22275,
       "checksum": "SHA-256:530c578e60d7a5d520416385852bdcb70ce1a6060a68b20b949cf5584ce0a95f"
+    },
+    {
+      "name": "HX711_MP",
+      "version": "0.3.6",
+      "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "sentence": "Arduino library for HX711 load cell amplifier.",
+      "paragraph": "Multipoint calibration version.",
+      "website": "https://github.com/RobTillaart/HX711_MP",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RobTillaart/HX711_MP.git",
+      "providesIncludes": [
+        "HX711_MP.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/HX711_MP-0.3.6.zip",
+      "archiveFileName": "HX711_MP-0.3.6.zip",
+      "size": 23536,
+      "checksum": "SHA-256:bbe4cf1c329d4728130be5319bb69b6b0ea3c2305c2c5abdb6bf48da663ae411"
     },
     {
       "name": "STMSpeeduino",
@@ -1294126,6 +1294232,43 @@
       "checksum": "SHA-256:ed282340400864186bae67b05d6aa9a46e652ce8f1df2c25e4fd989c6503d319"
     },
     {
+      "name": "DFPongController",
+      "version": "2.4.3",
+      "author": "Digital Futures OCAD U",
+      "maintainer": "Digital Futures OCAD U",
+      "sentence": "BLE controller library for the DF Pong game.",
+      "paragraph": "Support library for BLE Pong Controllers that control the online game df-pong. Version 2 adds player settings (name, color, paddle speed and size, custom sounds and background music) and game rule requests, and handles the connection handshake automatically. Supports Arduino Nano 33 IoT, Nano 33 BLE, UNO R4 WiFi, and ESP32 (NimBLE-Arduino 2.x).",
+      "website": "https://github.com/DigitalFuturesOCADU/df-pong-controller",
+      "category": "Communication",
+      "architectures": [
+        "samd",
+        "nrf52",
+        "mbed",
+        "mbed_nano",
+        "renesas_uno",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DigitalFuturesOCADU/df-pong-controller.git",
+      "providesIncludes": [
+        "DFPongController.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoBLE"
+        },
+        {
+          "name": "NimBLE-Arduino"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.4.3.zip",
+      "archiveFileName": "DFPongController-2.4.3.zip",
+      "size": 78684,
+      "checksum": "SHA-256:1b99186bbcf32226945e84559bdae171b25b2bcbc981d2bf09abcbc74fb7248f"
+    },
+    {
       "name": "CamS3Library",
       "version": "1.2.0",
       "author": "Ginés",
@@ -1298194,6 +1298337,30 @@
       "archiveFileName": "wireguard_pico_w-0.1.7.zip",
       "size": 68167,
       "checksum": "SHA-256:9344e4b98aca80d258841bfbd6ec5b51e7263df5fa89f99836587909b397d790"
+    },
+    {
+      "name": "wireguard-pico-w",
+      "version": "0.2.0",
+      "author": "Kenta Ida (original); Daniel Hope (upstream); Marcin Kielesiński (RP2040/Pico W port)",
+      "maintainer": "Marcin Kielesiński",
+      "sentence": "WireGuard for RP2040/Pico W, port of WireGuard-ESP32.",
+      "paragraph": "Port of the original WireGuard-ESP32 library to Raspberry Pi Pico W (RP2040 + CYW43) using earlephilhower-arduino-pico, and lwIP. ESP-IDF/ESP32-specific parts are replaced with a Pico/lwIP compatibility layer.",
+      "website": "https://github.com/jaszczurtd/arduino-wireguard-pico-w",
+      "category": "Communication",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/jaszczurtd/arduino-wireguard-pico-w.git",
+      "providesIncludes": [
+        "arduino-wireguard-pico-w.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/jaszczurtd/wireguard_pico_w-0.2.0.zip",
+      "archiveFileName": "wireguard_pico_w-0.2.0.zip",
+      "size": 90344,
+      "checksum": "SHA-256:6f893e431655bc3ed0a75dd3f6997cc52dd51b90c95b9a3807ed76aad36fda48"
     },
     {
       "name": "HANUMAN_32",
@@ -1340389,6 +1340556,35 @@
       "checksum": "SHA-256:110d09ffa419e717916a003a7274339bd6125cd49b6956423c6fbf50aca8d324"
     },
     {
+      "name": "BLECommands",
+      "version": "1.1.2",
+      "author": "Andrey Rodin",
+      "maintainer": "Andrey Rodin \u003candrey.val.rodin@gmail.com\u003e",
+      "sentence": "Simple Arduino BLE library implementing text-based command/response protocol.",
+      "paragraph": "Developed as a server-side analogue of the BleCommands .NET library - ideal for controlling Arduino projects from .NET applications.",
+      "website": "https://github.com/andrey-val-rodin/BleCommands.Arduino/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/andrey-val-rodin/BleCommands.Arduino.git",
+      "providesIncludes": [
+        "BLECommands.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/andrey-val-rodin/BLECommands-1.1.2.zip",
+      "archiveFileName": "BLECommands-1.1.2.zip",
+      "size": 9186,
+      "checksum": "SHA-256:ef60e9a37a28d3447733cbae976776ccf794789f9a9d930d06fcb8d438b338dd"
+    },
+    {
       "name": "CircuitDigestCloud",
       "version": "2.0.0",
       "author": "Jobit Joseph, Circuit Digest",
@@ -1342209,6 +1342405,28 @@
       "archiveFileName": "TinyRTOS-1.4.0.zip",
       "size": 17690,
       "checksum": "SHA-256:ec5bbba1697765d33fc2302c50f0d13032d6e5e4114f249e2f3ba281d2dfb0b9"
+    },
+    {
+      "name": "TinyRTOS",
+      "version": "1.5.0",
+      "author": "Nikolai Radke",
+      "maintainer": "Nikolai Radke",
+      "license": "Apache-2.0",
+      "sentence": "Cooperative task scheduler with resource locks for ATtiny and ATmega AVR MCUs.",
+      "paragraph": "Enables cooperative multitasking on AVR MCUs with as little as 256 bytes of RAM. Compatible with any AVR MCU with up to 128 KB flash. Experimental ATmega2560 support included.",
+      "website": "https://github.com/NikolaiRadke/TinyRTOS",
+      "category": "Timing",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/NikolaiRadke/TinyRTOS.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/NikolaiRadke/TinyRTOS-1.5.0.zip",
+      "archiveFileName": "TinyRTOS-1.5.0.zip",
+      "size": 18506,
+      "checksum": "SHA-256:e91d930fcb7c86c1358472a970a032414d625783a70ce25e53c4d8d95dd0b600"
     },
     {
       "name": "Statechart",
@@ -1349842,6 +1350060,30 @@
       "checksum": "SHA-256:01e183f8dee07be53ef4b230006787260a48f4d8446b20084fd6832e30e8c922"
     },
     {
+      "name": "GitReleaseOTA",
+      "version": "1.1.0",
+      "author": "Jishnu Mahanta",
+      "maintainer": "Jishnu Mahanta",
+      "sentence": "ESP32 OTA updater via GitHub Releases with SHA-256 integrity verification and automated release pipeline.",
+      "paragraph": "Stream firmware from GitHub Releases with hardware-accelerated SHA-256 verification, optional ECDSA signature checking, semantic version comparison (1.10.0 \u003e 1.9.0), non-blocking FreeRTOS version checks, thread-safe state, maintenance and failure callbacks to safely stop and resume hardware around a flash, and a one-command automated release script. No custom server required.",
+      "website": "https://github.com/jishnumahanta/GitReleaseOTA",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/jishnumahanta/GitReleaseOTA.git",
+      "providesIncludes": [
+        "GitReleaseOTA.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/jishnumahanta/GitReleaseOTA-1.1.0.zip",
+      "archiveFileName": "GitReleaseOTA-1.1.0.zip",
+      "size": 44528,
+      "checksum": "SHA-256:57cca9a3dd8a69a7206c6e9735c8ff485837b123f4aa68109ccbd05571fac280"
+    },
+    {
       "name": "NeuDB",
       "version": "1.0.0",
       "author": "Ulywae \u003culywae@gmail.com\u003e",
@@ -1353385,6 +1353627,28 @@
       "archiveFileName": "GT7_UDP_Telemetry_Parser-2.1.4.zip",
       "size": 31738,
       "checksum": "SHA-256:432dc42908027260d57ebfc89e0107ab1c72f39c78d04644f875c4eb9fc5cedc"
+    },
+    {
+      "name": "GT7 UDP Telemetry Parser",
+      "version": "2.1.5",
+      "author": "MacManley",
+      "maintainer": "MacManley",
+      "license": "MIT",
+      "sentence": "UDP Telemetry Parser for Gran Turismo 7",
+      "paragraph": "UDP Telemetry Parser for Gran Turismo 7",
+      "website": "https://github.com/MacManley/gt7-udp",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/MacManley/gt7-udp.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/MacManley/GT7_UDP_Telemetry_Parser-2.1.5.zip",
+      "archiveFileName": "GT7_UDP_Telemetry_Parser-2.1.5.zip",
+      "size": 31739,
+      "checksum": "SHA-256:a2f1e9826e3385fb12595567f3da00a4585c1f3ab387326350baea54d8f8ac7a"
     },
     {
       "name": "assetto-corsa-udp",
@@ -1373391,6 +1373655,54 @@
       "checksum": "SHA-256:682ceac8ff598cfb97fa2e8fb1da3a14f88d32559f613206e9a4857211b750cd"
     },
     {
+      "name": "MTW TinyLoopScheduler",
+      "version": "0.2.0",
+      "author": "MyTechWaifu",
+      "maintainer": "MyTechWaifu \u003cMyTechWaifu@web3msg.fun\u003e",
+      "sentence": "A compact cooperative scheduler with static memory allocation for Arduino-compatible boards, with AVR and Generic backends.",
+      "paragraph": "MTW TinyLoopScheduler provides periodic, delayed, posted, polling and step-based PARTED task execution without dynamic memory allocation. The AVR backend additionally provides optional IDLE sleep and ISR deferral. Scheduler subsystems and fixed-capacity queue profiles are selected at compile time for predictable SRAM and Flash usage.",
+      "website": "https://github.com/MyTechWaifu/MTW_TinyLoopScheduler",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/MyTechWaifu/MTW_TinyLoopScheduler.git",
+      "providesIncludes": [
+        "MTW_TinyLoopScheduler.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/MyTechWaifu/MTW_TinyLoopScheduler-0.2.0.zip",
+      "archiveFileName": "MTW_TinyLoopScheduler-0.2.0.zip",
+      "size": 158282,
+      "checksum": "SHA-256:be4f6e4ddf37d879aa623767263655ba3d8f68c37ec6a53398161ce02b5ed339"
+    },
+    {
+      "name": "MTW TinyLoopScheduler",
+      "version": "0.2.1",
+      "author": "MyTechWaifu",
+      "maintainer": "MyTechWaifu \u003cMyTechWaifu@web3msg.fun\u003e",
+      "sentence": "A compact cooperative scheduler with static memory allocation for Arduino-compatible boards, with AVR and Generic backends.",
+      "paragraph": "MTW TinyLoopScheduler provides periodic, delayed, posted, polling and step-based PARTED task execution without dynamic memory allocation. The AVR backend additionally provides optional IDLE sleep and ISR deferral. Scheduler subsystems and fixed-capacity queue profiles are selected at compile time for predictable SRAM and Flash usage.",
+      "website": "https://github.com/MyTechWaifu/MTW_TinyLoopScheduler",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/MyTechWaifu/MTW_TinyLoopScheduler.git",
+      "providesIncludes": [
+        "MTW_TinyLoopScheduler.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/MyTechWaifu/MTW_TinyLoopScheduler-0.2.1.zip",
+      "archiveFileName": "MTW_TinyLoopScheduler-0.2.1.zip",
+      "size": 162306,
+      "checksum": "SHA-256:f106af3916ccd7dd87e6494657ffe0d16bc47e756ef32e2904fc4689f0eeff97"
+    },
+    {
       "name": "UnitCMSISDAP",
       "version": "0.1.0",
       "author": "Cesar Bautista, Unit Electronics",
@@ -1374122,6 +1374434,30 @@
       "archiveFileName": "ESP32IRPulseKit-1.0.6.zip",
       "size": 220324,
       "checksum": "SHA-256:0deb649eaa9f167a333a0ab30187627ac15ee418dec805753045296116112fd8"
+    },
+    {
+      "name": "ESP32IRPulseKit",
+      "version": "1.0.7",
+      "author": "TANAKA Masayuki",
+      "maintainer": "TANAKA Masayuki",
+      "sentence": "IR remote send/receive toolkit for ESP32 (Arduino Core 3.0+/ESP-IDF 5 RMT driver).",
+      "paragraph": "Provides RAW tick capture, scoring-based decode candidate handling, and protocol-based send helpers designed for the ESP32 RMT driver, plus a separate air-conditioner layer (esp32irpk::ac) that decodes/encodes vendor state frames (Panasonic, Gree, Mitsubishi, Mitsubishi Heavy, Fujitsu, Daikin, Toshiba, Samsung, Sharp, Kelvinator, Midea, Carrier, Hitachi, Haier, TCL).",
+      "website": "https://github.com/tanakamasayuki/ESP32IRPulseKit",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tanakamasayuki/ESP32IRPulseKit.git",
+      "providesIncludes": [
+        "ESP32IRPulseKit.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/ESP32IRPulseKit-1.0.7.zip",
+      "archiveFileName": "ESP32IRPulseKit-1.0.7.zip",
+      "size": 250342,
+      "checksum": "SHA-256:055bea037926ae7e14551b39b2600f92d393f764415e63ffe8977504a525c40d"
     },
     {
       "name": "AsyncBitMatrix",
@@ -1389022,6 +1389358,30 @@
       "checksum": "SHA-256:334a2687001975431185389eeba33f055174978b0c8c1d972c7e6dbab10ef40b"
     },
     {
+      "name": "Soldered BME688 Library",
+      "version": "1.0.1",
+      "author": "Soldered",
+      "maintainer": "Soldered \u003csoldered@soldered.com\u003e",
+      "sentence": "Arduino Library for the BME688 Environmental and Air sensor",
+      "paragraph": "An Arduino library that lets you measure the Temperature, humidity, pressure and gas resistance using the BME688 sensor",
+      "website": "https://www.soldered.com/",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/SolderedElectronics/Soldered-BME688-Sensor-Arduino-Library.git",
+      "providesIncludes": [
+        "BME688-Soldered.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Soldered_BME688_Library-1.0.1.zip",
+      "archiveFileName": "Soldered_BME688_Library-1.0.1.zip",
+      "size": 54607,
+      "checksum": "SHA-256:be96ff168e9a74418fa832e66264c93e44133dfb07f795ad94921f3f255eb1ba"
+    },
+    {
       "name": "Soldered u-blox GPS GNSS",
       "version": "1.0.0",
       "author": "Soldered",
@@ -1389546,6 +1389906,29 @@
       "archiveFileName": "EpochTime-1.1.0.zip",
       "size": 61185,
       "checksum": "SHA-256:860493ebafb1aa1cf817f20233897689f7dffe3cae2c47f5fc706cd3710cd11a"
+    },
+    {
+      "name": "EpochTime",
+      "version": "1.1.1",
+      "author": "Sara Damiano \u003csdamiano@stroudcenter.org\u003e",
+      "maintainer": "Sara Damiano \u003csdamiano@stroudcenter.org\u003e",
+      "sentence": "An Arduino library for converting between time in parts as used by core gmtime functions and epoch time.",
+      "website": "https://github.com/EnviroDIY/EpochTime",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/EnviroDIY/EpochTime.git",
+      "providesIncludes": [
+        "EpochTime.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/EnviroDIY/EpochTime-1.1.1.zip",
+      "archiveFileName": "EpochTime-1.1.1.zip",
+      "size": 61583,
+      "checksum": "SHA-256:4a8d40e574fa8c0cab52021ab051936211b5081fcf11f3afe0972c8d8f1e4aa0"
     },
     {
       "name": "FarmSense",
@@ -1416151,6 +1416534,36 @@
       "checksum": "SHA-256:19d3cfde1ea79e73a4073ee70e754ff8b9e7859a32dc6574e2ea66d2ee9b618e"
     },
     {
+      "name": "IOTFIY",
+      "version": "1.0.2",
+      "author": "Iotfiy Solutions",
+      "maintainer": "iotfiy.solution@gmail.com",
+      "sentence": "A library for IoT device connectivity using MQTT.",
+      "paragraph": "IOTFIY provides a simple way to create sensors and controls for IoT devices, handling MQTT communication, WiFi connections, and data formatting. Compatible with ESP8266 and ESP32.",
+      "website": "https://github.com/iotfiy-solutions/Gateway_Library.git",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/iotfiy-solutions/Gateway_Library.git",
+      "dependencies": [
+        {
+          "name": "PubSubClient"
+        },
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/iotfiy-solutions/IOTFIY-1.0.2.zip",
+      "archiveFileName": "IOTFIY-1.0.2.zip",
+      "size": 21799,
+      "checksum": "SHA-256:6683ae124f6c9f8abb2a2fbfacd76947434e706746735283ba0f1604ce35ae24"
+    },
+    {
       "name": "AmperiaSTEM",
       "version": "0.9.0",
       "author": "EdPro",
@@ -1423398,6 +1423811,30 @@
       "checksum": "SHA-256:82e670d485537dc85b4aa5319864cd540abef77b0c90e4792d91f2a9786aa686"
     },
     {
+      "name": "AnalogKeypad5",
+      "version": "1.0.1",
+      "author": "mumanchu",
+      "maintainer": "mumanchu",
+      "sentence": "Arduino Library for 5-Key Analog Keypad",
+      "paragraph": "Easily adapted for any keypad",
+      "website": "https://github.com/mumanchu/AnalogKeypad5",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mumanchu/AnalogKeypad5.git",
+      "providesIncludes": [
+        "AnalogKeypad5.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/AnalogKeypad5-1.0.1.zip",
+      "archiveFileName": "AnalogKeypad5-1.0.1.zip",
+      "size": 89366,
+      "checksum": "SHA-256:1a30e85176d7f87edc29bf47e704899700f432dd22ad3b46b30457df42b27ac9"
+    },
+    {
       "name": "Adafruit LT8912B",
       "version": "1.0.0",
       "author": "Adafruit, Espressif Systems",
@@ -1423431,6 +1423868,109 @@
       "archiveFileName": "Adafruit_LT8912B-1.0.0.zip",
       "size": 28203,
       "checksum": "SHA-256:d506fd1281970dd10729f5ffb9929e10eaa9349cea361dce136c5b2623d90fed"
+    },
+    {
+      "name": "Adafruit RV8803",
+      "version": "1.0.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Arduino library for the RV-8803-C7 Real-Time Clock",
+      "paragraph": "Supports alarm, countdown timer, external event timestamp, CLKOUT, and offset calibration. I2C interface, 1.5-5.5V operation.",
+      "website": "https://github.com/adafruit/Adafruit_RV8803",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_RV8803.git",
+      "dependencies": [
+        {
+          "name": "RTClib"
+        },
+        {
+          "name": "Adafruit BusIO"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_RV8803-1.0.0.zip",
+      "archiveFileName": "Adafruit_RV8803-1.0.0.zip",
+      "size": 59083,
+      "checksum": "SHA-256:612a15704bd9a30f1dd3eb6a549296bac8555c9d44b93f2bd78084f62d878fa9"
+    },
+    {
+      "name": "MPU6050Classroom",
+      "version": "1.0.0",
+      "author": "MPU6050Classroom contributors",
+      "maintainer": "MPU6050Classroom contributors",
+      "sentence": "MPU-6050 motion sensor library for students on ESP32 and Arduino UNO R3/R4: two-line start, automatic freeze repair, Wi-Fi setup page, project examples.",
+      "paragraph": "Examples from a spirit level and fall detector to a self-balancing robot, plus Wi-Fi projects with phone messages (ntfy). The library prints only to a stream you choose. DMP firmware images are the MIT-licensed captures from the i2cdevlib/ElectronicCats library.",
+      "website": "https://github.com/Teacher-Heiko/MPU6050Classroom",
+      "category": "Sensors",
+      "architectures": [
+        "esp32",
+        "avr",
+        "renesas_uno"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Teacher-Heiko/MPU6050Classroom.git",
+      "providesIncludes": [
+        "MPU6050Classroom.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Teacher-Heiko/MPU6050Classroom-1.0.0.zip",
+      "archiveFileName": "MPU6050Classroom-1.0.0.zip",
+      "size": 433472,
+      "checksum": "SHA-256:3a2b7a31edd140e4b553e12b495b111ec8c5cdb3b0cce86de8450daf379e8401"
+    },
+    {
+      "name": "AMK_CYD_Universal_TFT",
+      "version": "1.1.1",
+      "author": "Aung Moe Khine",
+      "maintainer": "Aung Moe Khine \u003caungmoekhine@gmail.com\u003e",
+      "sentence": "Universal standalone TFT, touch, and sprite driver for all ESP32 Cheap Yellow Display (CYD) resistive boards.",
+      "paragraph": "Bundles high-speed display and touch drivers with runtime hardware auto-probing for 2.4\", 2.8\", 3.2\", 3.5\", and 4.0\" CYD resistive boards (ILI9341, ST7789, ST7796, XPT2046, including Dual-USB and ELEGOO 2.8\" variants). Features full TFT_eSPI drop-in compatibility, TFT_eSprite off-screen buffering, and persistent NVS touch calibration.",
+      "website": "https://github.com/aungmoekhine/AMK_CYD_Universal_TFT",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AungMoeKhine/AMK_CYD_Universal_TFT.git",
+      "providesIncludes": [
+        "AMK_CYD_Universal_TFT.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.1.1.zip",
+      "archiveFileName": "AMK_CYD_Universal_TFT-1.1.1.zip",
+      "size": 369203,
+      "checksum": "SHA-256:ecf4007999266408ba844385bf4659413c1226efa26d02cd8037e593b32c74ce"
+    },
+    {
+      "name": "AMK_CYD_Universal_TFT",
+      "version": "1.2.0",
+      "author": "Aung Moe Khine",
+      "maintainer": "Aung Moe Khine \u003caungmoekhine@gmail.com\u003e",
+      "sentence": "Universal standalone TFT, touch, and sprite driver for all ESP32 Cheap Yellow Display (CYD) resistive boards.",
+      "paragraph": "Bundles high-speed display and touch drivers with runtime hardware auto-probing for 2.4\", 2.8\", 3.2\", 3.5\", and 4.0\" CYD resistive boards (ILI9341, ST7789, ST7796, XPT2046, including Dual-USB and ELEGOO 2.8\" variants). Features full TFT_eSPI drop-in compatibility, TFT_eSprite off-screen buffering, and persistent NVS touch calibration.",
+      "website": "https://github.com/aungmoekhine/AMK_CYD_Universal_TFT",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AungMoeKhine/AMK_CYD_Universal_TFT.git",
+      "providesIncludes": [
+        "AMK_CYD_Universal_TFT.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.2.0.zip",
+      "archiveFileName": "AMK_CYD_Universal_TFT-1.2.0.zip",
+      "size": 379717,
+      "checksum": "SHA-256:c3f2a6f7fd66fabc5a056cf8f7a66753dfc6166e078e0169d98bc7c3d6d89a46"
     }
   ]
 }
