@@ -79780,6 +79780,35 @@
       "checksum": "SHA-256:f1b4277e58f3a6a0eb9a2c365ad075093ce995ea2a5d1ca2065a5211f67b12b6"
     },
     {
+      "name": "RF24Network",
+      "version": "2.3.0",
+      "author": "TMRh20",
+      "maintainer": "TMRh20,Avamander",
+      "sentence": "OSI Layer 3 Networking for nrf24L01(+) \u0026 nrf52x devices.",
+      "paragraph": "Provides a simple and seamless network layer for sensor/IoT networks, including routing, addressing and fragmentation/reassembly.",
+      "website": "https://nRF24.github.io/RF24Network/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/TMRh20/RF24Network.git",
+      "dependencies": [
+        {
+          "name": "RF24"
+        },
+        {
+          "name": "nrf_to_nrf"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Network-2.3.0.zip",
+      "archiveFileName": "RF24Network-2.3.0.zip",
+      "size": 1561471,
+      "checksum": "SHA-256:2705a12028de2f53803531c064549e766fc467f6bc57abce6f49ae71c20d8c2a"
+    },
+    {
       "name": "RF24",
       "version": "1.2.0",
       "author": "TMRh20",
@@ -91464,6 +91493,41 @@
       "archiveFileName": "RF24Ethernet-2.2.2.zip",
       "size": 434286,
       "checksum": "SHA-256:6870b23179057f67145a3342222b2b4d374d062ac1b09fcc39a24339f39979e6"
+    },
+    {
+      "name": "RF24Ethernet",
+      "version": "2.2.3",
+      "author": "TMRh20",
+      "maintainer": "TMRh20",
+      "sentence": "OSI layer 4/5 (TCP/IP) wireless/radio IoT mesh networks for nRF24L01(+) \u0026 nRF52",
+      "paragraph": "Automated, wireless(not WiFi), sensor/IoT networks that communicate/link together using standard protocols \u0026 networking. An experiment disconnected...",
+      "website": "https://nRF24.github.io/RF24Ethernet/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/TMRh20/RF24Ethernet.git",
+      "dependencies": [
+        {
+          "name": "RF24"
+        },
+        {
+          "name": "RF24Network"
+        },
+        {
+          "name": "RF24Mesh"
+        },
+        {
+          "name": "lwIP"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Ethernet-2.2.3.zip",
+      "archiveFileName": "RF24Ethernet-2.2.3.zip",
+      "size": 435179,
+      "checksum": "SHA-256:c2e69f4e16c492522c15ae4339c555ca469e4e583341de00404983aadcaa1d57"
     },
     {
       "name": "RapifireMqttClient",
@@ -341004,6 +341068,37 @@
       "checksum": "SHA-256:ccec5a3216700701a590ebf2ed112279e6bcbd54457c14b118c6940ea360787f"
     },
     {
+      "name": "NeoPatterns",
+      "version": "3.5.0",
+      "author": "Armin Joachimsmeyer",
+      "maintainer": "Armin Joachimsmeyer \u003carmin.arduino@gmail.com\u003e",
+      "sentence": "Patterns for NeoPixel strips and matrixes including the patterns of the NeoPattern example by Adafruit.",
+      "paragraph": "Patterns not from Adafruit are: SCANNER, STRIPES, FLASH, TWINKLE, DELAY, PROCESS_SELECTIVE, FADE_SELECTIVE. The original SCANNER pattern is extended and includes the CYLON as well as the ROCKET or FALLING_STAR pattern. The more versatile STRIPES pattern replaces the old THEATER_CHASE one. NeoPixel-Matrix pattern are: MOVING_PICTURE, MOVE, TICKER, FIRE, SNOW, SNAKE.",
+      "website": "https://github.com/ArminJo/NeoPatterns",
+      "category": "Display",
+      "architectures": [
+        "avr",
+        "megaavr",
+        "esp8266",
+        "esp32",
+        "stm32",
+        "STM32F1"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ArminJo/NeoPatterns.git",
+      "dependencies": [
+        {
+          "name": "Adafruit NeoPixel"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ArminJo/NeoPatterns-3.5.0.zip",
+      "archiveFileName": "NeoPatterns-3.5.0.zip",
+      "size": 2278223,
+      "checksum": "SHA-256:b96d92b49cd4a4000766f8b8412eed02c4675997dbcd835e165f03d6748544b7"
+    },
+    {
       "name": "PlayRtttl",
       "version": "1.0.0",
       "author": "Armin Joachimsmeyer",
@@ -410058,6 +410153,30 @@
       "archiveFileName": "bb_spi_lcd-2.9.7.zip",
       "size": 6071186,
       "checksum": "SHA-256:c4b1c3fbe83c3a3e3947b8a4f87d4a16483beba3892c4274368745fbf115b603"
+    },
+    {
+      "name": "bb_spi_lcd",
+      "version": "2.9.10",
+      "author": "Larry Bank",
+      "maintainer": "Larry Bank",
+      "sentence": "Color SPI LCD+OLED library with many unique features.",
+      "paragraph": "Supports most popular LCD and OLED color display controllers. Includes DMA support, display Windows BMP (and RLE), bitmap rotation, transparent text, translucent 1-bpp masks and optimized primitives. Optional back buffer for fast memory operations.",
+      "website": "https://github.com/bitbank2/bb_spi_lcd",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bitbank2/bb_spi_lcd.git",
+      "providesIncludes": [
+        "bb_spi_lcd.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bitbank2/bb_spi_lcd-2.9.10.zip",
+      "archiveFileName": "bb_spi_lcd-2.9.10.zip",
+      "size": 6054319,
+      "checksum": "SHA-256:3d76f378f1ea3631b32b5f080db5d62de215db399814e219352503d2eab8c4af"
     },
     {
       "name": "BQ25896",
@@ -505930,6 +506049,36 @@
       "archiveFileName": "LovyanGFX-1.2.35.zip",
       "size": 49078618,
       "checksum": "SHA-256:e117e8be99036a67d81eb7e4e08b5b1dbb2e48f14f340bfedf874d1f2448c328"
+    },
+    {
+      "name": "LovyanGFX",
+      "version": "1.2.36",
+      "author": "lovyan03",
+      "maintainer": "lovyan03,tobozo",
+      "sentence": "TFT LCD Graphics driver with touch for ESP32/ESP8266, SAMD21/SAMD51, RP2040/RP2350",
+      "paragraph": "Supports TFT LCD displays using drivers that operate with hardware SPI. ESP32, ESP8266, SAMD21, SAMD51, RP2040, RP2350, M5Stack, M5StackCore2, M5StickC, M5StickCPlus, ODROID-GO, TTGO T-Watch, TTGO T-Wristband, ESP-WROVER-KIT, WioTerminal, WiFiBoy, MakePython, HX8357, ILI9163, ILI9342, ILI9341, ILI9486, ILI9488, ST7735, ST7789, ST7796, ST77916, SSD1351",
+      "website": "https://github.com/lovyan03/LovyanGFX",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "samd",
+        "rp2040",
+        "mbed_rp2040",
+        "mbed_nano",
+        "teensy"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/lovyan03/LovyanGFX.git",
+      "providesIncludes": [
+        "LovyanGFX.hpp"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/lovyan03/LovyanGFX-1.2.36.zip",
+      "archiveFileName": "LovyanGFX-1.2.36.zip",
+      "size": 49081284,
+      "checksum": "SHA-256:7229bc0bcab3a97de4634bd06e5b6b79b2359242d9d5e442365247d5102a2448"
     },
     {
       "name": "PulsePattern",
@@ -691829,6 +691978,30 @@
       "checksum": "SHA-256:50e1d9a6163feb3d07adfd0bdb224b8a71573ba9dd75799aa0b72eadb8e71e35"
     },
     {
+      "name": "M5GFX",
+      "version": "0.2.36",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack All Display",
+      "paragraph": "M5Stack, M5Stack Core2, M5Stack CoreInk, M5StickC, M5StickC-Plus, M5Paper, M5Tough, M5Station, M5ATOMS3, Unit OLED, Unit LCD, Unit RCA, ATOM Display, See more on http://M5Stack.com",
+      "website": "https://github.com/m5stack/M5GFX.git",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5GFX.git",
+      "providesIncludes": [
+        "M5GFX.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5GFX-0.2.36.zip",
+      "archiveFileName": "M5GFX-0.2.36.zip",
+      "size": 49345149,
+      "checksum": "SHA-256:4da7a6f677ea34dc7b2ecf3462e10184294ba40663ac130be95b5fb850c5cef9"
+    },
+    {
       "name": "Tachometer",
       "version": "1.0.0",
       "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
@@ -754469,6 +754642,36 @@
       "archiveFileName": "M5Unified-0.2.28.zip",
       "size": 728144,
       "checksum": "SHA-256:9b9bbf928ceb9071c96c48508a692aad4131d540ff43152b576c15fc72a03d6c"
+    },
+    {
+      "name": "M5Unified",
+      "version": "0.2.29",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Unified library for M5Stack series",
+      "paragraph": "M5Stack, M5Stack Core2, M5Stack CoreInk, M5StickC, M5StickC-Plus, M5Paper, M5Tough, M5ATOM, M5STAMP, M5Station, See more on http://M5Stack.com",
+      "website": "https://github.com/m5stack/M5Unified.git",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unified.git",
+      "providesIncludes": [
+        "M5Unified.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5GFX",
+          "version": "\u003e=0.2.35"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unified-0.2.29.zip",
+      "archiveFileName": "M5Unified-0.2.29.zip",
+      "size": 728179,
+      "checksum": "SHA-256:0cdc8b1c8464f6711e57b7ec52712ec91f5b3dc616485f095b48eec7589a8ab2"
     },
     {
       "name": "WireSusi",
@@ -1001863,6 +1002066,35 @@
       "checksum": "SHA-256:6271b02bf9d909bd5cecdf8ed00d0d794e7e9c72c62fa762b186e4ac3097ffeb"
     },
     {
+      "name": "roo_time",
+      "version": "2.0.2",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Basic management of elapsed time, wall time, and date time, with multi-timezone support.",
+      "paragraph": "Provides type safety around durations and different time units, guarding against common programming errors like confusing time units, or confusing 'timestamps' with 'durations'. Tested on ESP32 SOC family, as well as RP2040-based Raspberry Pi Pico.",
+      "website": "https://github.com/dejwk/roo_time",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_time.git",
+      "providesIncludes": [
+        "roo_time.h"
+      ],
+      "dependencies": [
+        {
+          "name": "roo_backport"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time-2.0.2.zip",
+      "archiveFileName": "roo_time-2.0.2.zip",
+      "size": 87799,
+      "checksum": "SHA-256:4fc05ad45024e8791dd16009227284267f29db61863d134209fe9ab089d49156"
+    },
+    {
       "name": "SettingsManagerESP32",
       "version": "1.0.0",
       "author": "Maximiliano Ramirez \u003cmaximiliano.ramirezbravo@gmail.com\u003e",
@@ -1128996,6 +1129228,32 @@
       "checksum": "SHA-256:eb9d07dde389f39329a99108982f05ceb49b47082b223cf5f4619fa1959de53b"
     },
     {
+      "name": "ConnectionHelper",
+      "version": "3.0.17",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "MIT",
+      "sentence": "Library for setting up WiFi and OTA (Over The Air)",
+      "paragraph": "Reduce boilerplate in WiFi and OTA setup.",
+      "website": "https://github.com/Johboh/ConnectionHelper",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/ConnectionHelper.git",
+      "providesIncludes": [
+        "OtaHelper.h",
+        "WiFiHelper.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ConnectionHelper-3.0.17.zip",
+      "archiveFileName": "ConnectionHelper-3.0.17.zip",
+      "size": 40249,
+      "checksum": "SHA-256:c9dbb5315999e2ec3ff05698c0a44f6cdfdb629b5e70dbfb6a3e7606a8fadf72"
+    },
+    {
       "name": "MQTTRemote",
       "version": "1.0.0",
       "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
@@ -1129473,6 +1129731,39 @@
       "archiveFileName": "MQTTRemote-6.0.4.zip",
       "size": 39073,
       "checksum": "SHA-256:045e03d6cd680df562c008cf3d08ab50dadb2d33de4bb1223b6aab97cea2dbbe"
+    },
+    {
+      "name": "MQTTRemote",
+      "version": "6.0.5",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "MIT",
+      "sentence": "MQTT wrapper for setting up an MQTT connection",
+      "paragraph": "Reduce boiler plate for setting up MQTT.",
+      "website": "https://github.com/Johboh/MQTTRemote",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32",
+        "samd"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/MQTTRemote.git",
+      "providesIncludes": [
+        "MQTTRemote.h"
+      ],
+      "dependencies": [
+        {
+          "name": "MQTT",
+          "version": "\u003e=2.5.1 \u0026\u0026 \u003c3.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/MQTTRemote-6.0.5.zip",
+      "archiveFileName": "MQTTRemote-6.0.5.zip",
+      "size": 40608,
+      "checksum": "SHA-256:f26438847280c7c724921345085c9db4a00f6eb9c71ac2b57237116eaf8fae0e"
     },
     {
       "name": "HomeAssistantEntities",
@@ -1153601,6 +1153892,27 @@
       "archiveFileName": "Dashio-1.2.4.zip",
       "size": 36288,
       "checksum": "SHA-256:9e6ad28fc78573f721bddb5a1d08cdc740b1093df1e1c6e769ce19e90feacc43"
+    },
+    {
+      "name": "Dashio",
+      "version": "1.2.5",
+      "author": "DashIO Connect \u003cinfo@dashio.io\u003e",
+      "maintainer": "DashIO Connect \u003cinfo@dashio.io\u003e",
+      "sentence": "Utility Classes to support libraries for the free Dash IoT app.",
+      "paragraph": "Enables messaging for BLE, TCP and MQTT communications between IoT devices and the Dash IoT app. Called from dev board specific libraries.",
+      "website": "https://dashio.io",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dashio-connect/arduin-dashio-utils.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/dashio-connect/Dashio-1.2.5.zip",
+      "archiveFileName": "Dashio-1.2.5.zip",
+      "size": 37252,
+      "checksum": "SHA-256:46aab08847b413e218771bda92dadb6913e72fa3d66c96a6e599e70325208bb1"
     },
     {
       "name": "DashioMKR1500",
@@ -1187227,6 +1187539,29 @@
       "archiveFileName": "GeoluxCamera-0.1.3.zip",
       "size": 80825,
       "checksum": "SHA-256:4130dee53892ec3e4ac2d23b2becd6a18dc018d46f31a7ea336d43dd1047d033"
+    },
+    {
+      "name": "GeoluxCamera",
+      "version": "0.1.4",
+      "author": "Sara Damiano \u003csdamiano@stroudcenter.org\u003e",
+      "maintainer": "Sara Damiano \u003csdamiano@stroudcenter.org\u003e",
+      "sentence": "Arduino library for communication with Geolux serial camera.",
+      "website": "https://github.com/EnviroDIY/GeoluxCamera",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/EnviroDIY/GeoluxCamera.git",
+      "providesIncludes": [
+        "GeoluxCamera.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/EnviroDIY/GeoluxCamera-0.1.4.zip",
+      "archiveFileName": "GeoluxCamera-0.1.4.zip",
+      "size": 83240,
+      "checksum": "SHA-256:ddd37b8e08029998a88f651f852d9743444a2ab9e9efdefeeae40d17e84c0762"
     },
     {
       "name": "Distance-Sensor",
@@ -1325801,6 +1326136,42 @@
       "checksum": "SHA-256:55c9fdeb274cf2e5c93743953d5ddc4ad26cfed867ef99dca993377f674887ec"
     },
     {
+      "name": "ATGenX_Hub",
+      "version": "2.7.0",
+      "author": "Seif Emad / ARDUTECH0",
+      "maintainer": "Seif Emad \u003csupport@atgenx.com\u003e",
+      "sentence": "Connect ESP32 / ESP8266 boards to the ATGenX IoT cloud: outputs, sensors, dashboard and automations.",
+      "paragraph": "Wi-Fi set from the ATGenX app (no network in the sketch). One MQTT connection for relays, LEDs, servos and sensors (DHT, PIR, LDR, analog, ultrasonic, sound) with non-blocking reconnect, online/offline status and board discovery.",
+      "website": "https://github.com/ARDUTECH0/ATGenXIOT",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ARDUTECH0/ATGenXIOT.git",
+      "providesIncludes": [
+        "ATGenXIOT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "PubSubClient"
+        },
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "DHT sensor library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGenX_Hub-2.7.0.zip",
+      "archiveFileName": "ATGenX_Hub-2.7.0.zip",
+      "size": 54511,
+      "checksum": "SHA-256:eb9d6d3108cf51bd6663ef0c4befdceb72395d98155e039b21ab476afa7bb4e2"
+    },
+    {
       "name": "OptimizedGPIO",
       "version": "1.0.0",
       "author": "mumanchu \u003cinfo@muman.ch\u003e",
@@ -1336474,7 +1336845,7 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/HamzaYslmn/Esp-BLE-Web.git",
+      "repository": "https://github.com/HamzaYslmn/Esp-BleDeck.git",
       "providesIncludes": [
         "EspBleWeb.h"
       ],
@@ -1336498,7 +1336869,7 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/HamzaYslmn/Esp-BLE-Web.git",
+      "repository": "https://github.com/HamzaYslmn/Esp-BleDeck.git",
       "providesIncludes": [
         "EspBleWeb.h"
       ],
@@ -1336522,7 +1336893,7 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/HamzaYslmn/Esp-BLE-Web.git",
+      "repository": "https://github.com/HamzaYslmn/Esp-BleDeck.git",
       "providesIncludes": [
         "EspBleWeb.h"
       ],
@@ -1336546,7 +1336917,7 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/HamzaYslmn/Esp-BLE-Web.git",
+      "repository": "https://github.com/HamzaYslmn/Esp-BleDeck.git",
       "providesIncludes": [
         "EspBleWeb.h"
       ],
@@ -1336570,7 +1336941,7 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/HamzaYslmn/Esp-BLE-Web.git",
+      "repository": "https://github.com/HamzaYslmn/Esp-BleDeck.git",
       "providesIncludes": [
         "EspBleWeb.h"
       ],
@@ -1336594,7 +1336965,7 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/HamzaYslmn/Esp-BLE-Web.git",
+      "repository": "https://github.com/HamzaYslmn/Esp-BleDeck.git",
       "providesIncludes": [
         "EspBleWeb.h"
       ],
@@ -1336618,7 +1336989,7 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/HamzaYslmn/Esp-BLE-Web.git",
+      "repository": "https://github.com/HamzaYslmn/Esp-BleDeck.git",
       "providesIncludes": [
         "EspBleWeb.h"
       ],
@@ -1343197,11 +1343568,11 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/xanderwasserman/SimpleOTAClient-Arduino.git",
+      "repository": "https://github.com/wassie-dev/simpleOTAClient-Arduino.git",
       "providesIncludes": [
         "SimpleOTAClient.h"
       ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/xanderwasserman/SimpleOTAClient-0.1.0.zip",
+      "url": "https://downloads.arduino.cc/libraries/github.com/wassie-dev/SimpleOTAClient-0.1.0.zip",
       "archiveFileName": "SimpleOTAClient-0.1.0.zip",
       "size": 30590,
       "checksum": "SHA-256:dcfb9d942b4941ca2ac532f3316656ddc9bba2e41fb12ad3735491f718567cf3"
@@ -1343222,11 +1343593,11 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/xanderwasserman/SimpleOTAClient-Arduino.git",
+      "repository": "https://github.com/wassie-dev/simpleOTAClient-Arduino.git",
       "providesIncludes": [
         "SimpleOTAClient.h"
       ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/xanderwasserman/SimpleOTAClient-0.2.0.zip",
+      "url": "https://downloads.arduino.cc/libraries/github.com/wassie-dev/SimpleOTAClient-0.2.0.zip",
       "archiveFileName": "SimpleOTAClient-0.2.0.zip",
       "size": 44820,
       "checksum": "SHA-256:8cb5f79f5b0d600bc00bbb73c8bcf032bb48ca9b77f3e4d7b1a3b6e0b0d3b7f8"
@@ -1343247,11 +1343618,11 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/xanderwasserman/SimpleOTAClient-Arduino.git",
+      "repository": "https://github.com/wassie-dev/simpleOTAClient-Arduino.git",
       "providesIncludes": [
         "SimpleOTAClient.h"
       ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/xanderwasserman/SimpleOTAClient-0.3.0.zip",
+      "url": "https://downloads.arduino.cc/libraries/github.com/wassie-dev/SimpleOTAClient-0.3.0.zip",
       "archiveFileName": "SimpleOTAClient-0.3.0.zip",
       "size": 45179,
       "checksum": "SHA-256:19fbba51f39ef0134de08408d33e8b9c4bd8d0285365a073e7b103d2384fc264"
@@ -1343272,11 +1343643,11 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/xanderwasserman/SimpleOTAClient-Arduino.git",
+      "repository": "https://github.com/wassie-dev/simpleOTAClient-Arduino.git",
       "providesIncludes": [
         "SimpleOTAClient.h"
       ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/xanderwasserman/SimpleOTAClient-0.4.0.zip",
+      "url": "https://downloads.arduino.cc/libraries/github.com/wassie-dev/SimpleOTAClient-0.4.0.zip",
       "archiveFileName": "SimpleOTAClient-0.4.0.zip",
       "size": 106614,
       "checksum": "SHA-256:b22495ac0e4f74cd9f5b4e7061fd717dd31971e3e5b55dc71c6a519463de75d6"
@@ -1343297,11 +1343668,11 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/xanderwasserman/SimpleOTAClient-Arduino.git",
+      "repository": "https://github.com/wassie-dev/simpleOTAClient-Arduino.git",
       "providesIncludes": [
         "SimpleOTAClient.h"
       ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/xanderwasserman/SimpleOTAClient-0.5.0.zip",
+      "url": "https://downloads.arduino.cc/libraries/github.com/wassie-dev/SimpleOTAClient-0.5.0.zip",
       "archiveFileName": "SimpleOTAClient-0.5.0.zip",
       "size": 126064,
       "checksum": "SHA-256:35165c3f0c82509cfccf30c1b45e76a222fcaa5ac59e2cd0df4165431ebf7a12"
@@ -1343322,11 +1343693,11 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/xanderwasserman/SimpleOTAClient-Arduino.git",
+      "repository": "https://github.com/wassie-dev/simpleOTAClient-Arduino.git",
       "providesIncludes": [
         "SimpleOTAClient.h"
       ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/xanderwasserman/SimpleOTAClient-0.6.0.zip",
+      "url": "https://downloads.arduino.cc/libraries/github.com/wassie-dev/SimpleOTAClient-0.6.0.zip",
       "archiveFileName": "SimpleOTAClient-0.6.0.zip",
       "size": 130154,
       "checksum": "SHA-256:b31aff740b4775bf3013ba6f66e55a86f28f9d2f6df008c780c2332ca69a2ca6"
@@ -1343347,11 +1343718,11 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/xanderwasserman/SimpleOTAClient-Arduino.git",
+      "repository": "https://github.com/wassie-dev/simpleOTAClient-Arduino.git",
       "providesIncludes": [
         "simpleota.h"
       ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/xanderwasserman/SimpleOTAClient-1.0.0.zip",
+      "url": "https://downloads.arduino.cc/libraries/github.com/wassie-dev/SimpleOTAClient-1.0.0.zip",
       "archiveFileName": "SimpleOTAClient-1.0.0.zip",
       "size": 152089,
       "checksum": "SHA-256:a87dffd7247180003def85c35155b6bd8828cdd2f5df7346d668e69cb36609fe"
@@ -1343679,6 +1344050,31 @@
       "archiveFileName": "DashlyClient-2.2.0.zip",
       "size": 17707,
       "checksum": "SHA-256:8fbacc24b5a90dc402cc5fae77070943b32b160528dcd057c3d1538a73f3c26d"
+    },
+    {
+      "name": "DashlyClient",
+      "version": "2.4.0",
+      "author": "Arsen Vardanyan",
+      "maintainer": "Smart Stack Solutions \u003csupport@dashlyiot.com\u003e",
+      "sentence": "Official Arduino client for DashlyIoT.com.",
+      "paragraph": "A fast and lightweight library to connect your ESP32 or ESP8266 to DashlyIoT dashboards. Send sensor data and receive real-time commands with ease.",
+      "website": "https://dashlyiot.com",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Unical-A/DashlyClient.git",
+      "providesIncludes": [
+        "DashlyClient.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Unical-A/DashlyClient-2.4.0.zip",
+      "archiveFileName": "DashlyClient-2.4.0.zip",
+      "size": 23322,
+      "checksum": "SHA-256:694c94d70540a9afda0bab3f7d3ab005d0a537f24f951a3469f4ffdaf7258830"
     },
     {
       "name": "FDCxCapSense",
@@ -1344888,29 +1345284,6 @@
       "archiveFileName": "EcoSensePower-0.9.10.zip",
       "size": 320290,
       "checksum": "SHA-256:71267277efeef15ae36734d884aec295c9ab0a366ef88816587a2bce9693b4b7"
-    },
-    {
-      "name": "WS25QxxFlash",
-      "version": "1.0.0",
-      "author": "mumanchu \u003cinfo@muman.ch\u003e",
-      "maintainer": "mumanchu \u003cinfo@muman.ch\u003e",
-      "sentence": "Library for all Winbond SPI Flash memory chips, WS25Q10..W25Q512",
-      "website": "https://github.com/mumanchu/WS25QxxFlash",
-      "category": "Data Storage",
-      "architectures": [
-        "*"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/mumanchu/W25QxxFlash.git",
-      "providesIncludes": [
-        "WS25QxxFlash.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/WS25QxxFlash-1.0.0.zip",
-      "archiveFileName": "WS25QxxFlash-1.0.0.zip",
-      "size": 10552,
-      "checksum": "SHA-256:b285bd4a4970000dbede7e7b579c122d869d2de39ec696aa717fbb89bff72a59"
     },
     {
       "name": "AutoconnectoSDK",
@@ -1353741,658 +1354114,6 @@
       "archiveFileName": "DTC_Lookup-1.0.0.zip",
       "size": 13599,
       "checksum": "SHA-256:3495ff5374150a874457ea1c47c7c941480fff4df0e4408e03aa4cda91820c55"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.3.4",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.3.4.zip",
-      "archiveFileName": "python_esp_bridge-0.3.4.zip",
-      "size": 1296131,
-      "checksum": "SHA-256:a26dff2530fc3e70551adaf2cfcc89ccae3cff031e6bfa012f02bf7d9cf0f3a3"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.3.5",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.3.5.zip",
-      "archiveFileName": "python_esp_bridge-0.3.5.zip",
-      "size": 1299324,
-      "checksum": "SHA-256:f42eca93779f1bfbdda6f53f3f0e7846631969742fe68ef4e17d5d42230c87d7"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.4.0",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.4.0.zip",
-      "archiveFileName": "python_esp_bridge-0.4.0.zip",
-      "size": 1513053,
-      "checksum": "SHA-256:c907a8ef4054a8aa54498d515007f95ad0e93519d5d8f7c36bf5b82fe1608c73"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.5.0",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.5.0.zip",
-      "archiveFileName": "python_esp_bridge-0.5.0.zip",
-      "size": 1540439,
-      "checksum": "SHA-256:fb16b6e88818f5c734e8e5320ff6ef71d55f6dae6c84a733de3c101f40ecd831"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.6.0",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.6.0.zip",
-      "archiveFileName": "python_esp_bridge-0.6.0.zip",
-      "size": 1557171,
-      "checksum": "SHA-256:4f606f382488884e5729ef26dec13af9a495e25fab3356ca8b3a7effa682ca8f"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.7.0",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.7.0.zip",
-      "archiveFileName": "python_esp_bridge-0.7.0.zip",
-      "size": 1575261,
-      "checksum": "SHA-256:fe5dce41081b9b623595b780977b8891f6e78a7c3c7635b6c083474ce07ca146"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.8.0",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.8.0.zip",
-      "archiveFileName": "python_esp_bridge-0.8.0.zip",
-      "size": 1637161,
-      "checksum": "SHA-256:48b1b2362137b15ba5a4f293ee5da5438609e5bd6ed0fa46666ed5e52216fc3a"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.9.0",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.9.0.zip",
-      "archiveFileName": "python_esp_bridge-0.9.0.zip",
-      "size": 1643108,
-      "checksum": "SHA-256:f2292ee4ef7c1a47f98042f2146a836c4e024d2c3f395a3ff747834911724c1c"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.9.1",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.9.1.zip",
-      "archiveFileName": "python_esp_bridge-0.9.1.zip",
-      "size": 1650367,
-      "checksum": "SHA-256:30b74155ccf3b54bbd1a8c9bfc5d0d5979316729d58ee26b282f10f67c1c872c"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.10.0",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.10.0.zip",
-      "archiveFileName": "python_esp_bridge-0.10.0.zip",
-      "size": 1654190,
-      "checksum": "SHA-256:50377e4c716b74a7ae0f9f239a16695172e311ba9c2dc9334e1e70f3eaf28bf0"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.11.0",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.11.0.zip",
-      "archiveFileName": "python_esp_bridge-0.11.0.zip",
-      "size": 1655936,
-      "checksum": "SHA-256:49554562c03fba8998c245121a543c736bbc2df12a1f99c1e15f9e90243f9984"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.11.1",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.11.1.zip",
-      "archiveFileName": "python_esp_bridge-0.11.1.zip",
-      "size": 1656950,
-      "checksum": "SHA-256:e14a8ae7d0012e8b79854045ecdddab345e979b43f5a97871482726bcc40cfc9"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.11.2",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.11.2.zip",
-      "archiveFileName": "python_esp_bridge-0.11.2.zip",
-      "size": 1658304,
-      "checksum": "SHA-256:4dac04e87d36b5a1f14c1e775196144b4a6af6eaf98db844927b6c6d06eeb444"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.11.3",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.11.3.zip",
-      "archiveFileName": "python_esp_bridge-0.11.3.zip",
-      "size": 1660708,
-      "checksum": "SHA-256:d537d5bc28887318b034deb6882266a03442f1bfc0555ab820ee9be9665d6b4b"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.11.4",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.11.4.zip",
-      "archiveFileName": "python_esp_bridge-0.11.4.zip",
-      "size": 1661025,
-      "checksum": "SHA-256:7ebe16dc0823058648e57140ed27b4532983d347162dee667c2f3545464a546f"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.11.5",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.11.5.zip",
-      "archiveFileName": "python_esp_bridge-0.11.5.zip",
-      "size": 1672343,
-      "checksum": "SHA-256:cf89e3b5da6c9a547431daa1458c1ad868084e3b2d32262d3f34bf0c75174b06"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.11.6",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.11.6.zip",
-      "archiveFileName": "python_esp_bridge-0.11.6.zip",
-      "size": 1674524,
-      "checksum": "SHA-256:484ae54532b68df6e377e4dd21f18917a4638c2e62f1a3959a803695091fc4ca"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.12.0",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.12.0.zip",
-      "archiveFileName": "python_esp_bridge-0.12.0.zip",
-      "size": 1704223,
-      "checksum": "SHA-256:620d640f18e3f015dc397d0331dfbe81c01d1c6e157af698caa0a152aeb22519"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.12.1",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.12.1.zip",
-      "archiveFileName": "python_esp_bridge-0.12.1.zip",
-      "size": 1705104,
-      "checksum": "SHA-256:59857da356012b2205230d018bd8e09e2ef6d08fc72bfa3341c2277d29303db6"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.12.2",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.12.2.zip",
-      "archiveFileName": "python_esp_bridge-0.12.2.zip",
-      "size": 1704923,
-      "checksum": "SHA-256:80c691c52b22024460621097fb250c86feea6e564679a9c4dcbfb4e0049abb74"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.13.0",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.13.0.zip",
-      "archiveFileName": "python_esp_bridge-0.13.0.zip",
-      "size": 1712133,
-      "checksum": "SHA-256:76746711d96fd841a84b267a7430beb804d9fb4f8610e84e7bdd90d9a1e80b15"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.14.0",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.14.0.zip",
-      "archiveFileName": "python_esp_bridge-0.14.0.zip",
-      "size": 1704923,
-      "checksum": "SHA-256:bd7efd376ed15884cf8ca9a526fe9f969d2c6fcbcc42f16f62854da42a276869"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.14.1",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once ESP32 firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.14.1.zip",
-      "archiveFileName": "python_esp_bridge-0.14.1.zip",
-      "size": 1677016,
-      "checksum": "SHA-256:9dcd0614d5baac1e510e98b54b9c87100327e1bf10a50382cd15c33c730478c6"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.15.0",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x. Also runs on the Nordic nRF52840 (Seeed XIAO / Adafruit Bluefruit core) with a capability-gated subset: BLE link, GPIO, ADC, PWM and I2C.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32",
-        "nrf52"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.15.0.zip",
-      "archiveFileName": "python_esp_bridge-0.15.0.zip",
-      "size": 1709544,
-      "checksum": "SHA-256:1fd0a4ef5f3ca0f912239afac6feda7db53b21a736b4fefcbb8b6e4b46b3cfd8"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "0.16.0",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x. Also runs on the Nordic nRF52840 (Seeed XIAO / Adafruit Bluefruit core) with a capability-gated subset: BLE link, GPIO, ADC, PWM and I2C.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32",
-        "nrf52"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.16.0.zip",
-      "archiveFileName": "python_esp_bridge-0.16.0.zip",
-      "size": 1725039,
-      "checksum": "SHA-256:35bc45e88889d21e0bc386a1bd5dda881c631866b625ac056b1367669d9fcd28"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "1.0.0",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x. Also runs on the Nordic nRF52840 (Seeed XIAO / Adafruit Bluefruit core) with a capability-gated subset: BLE link, GPIO, ADC, PWM and I2C.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32",
-        "nrf52"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-1.0.0.zip",
-      "archiveFileName": "python_esp_bridge-1.0.0.zip",
-      "size": 1760446,
-      "checksum": "SHA-256:434c0a1386ea893af5b20553d4f0772bd58bd8a19728370d1d0636eb70f7b185"
-    },
-    {
-      "name": "python esp bridge",
-      "version": "1.0.1",
-      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
-      "sentence": "Flash-once firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x. Also runs on the Nordic nRF52840 (Seeed XIAO / Adafruit Bluefruit core) with a capability-gated subset: BLE link, GPIO, ADC, PWM and I2C.",
-      "website": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "category": "Communication",
-      "architectures": [
-        "esp32",
-        "nrf52"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/HamzaYslmn/python-esp-bridge.git",
-      "providesIncludes": [
-        "PythonEspBridge.h"
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-1.0.1.zip",
-      "archiveFileName": "python_esp_bridge-1.0.1.zip",
-      "size": 1748736,
-      "checksum": "SHA-256:fbbb75dacff0d10fc33cdce4e5fb2032c47afc55726ead56c22d6b088608773c"
     },
     {
       "name": "TTP223Row",
@@ -1376733,6 +1376454,48 @@
       "checksum": "SHA-256:4658f530753305219faff7978e2e5d8c7e2837a1f427c8c1af68b5306f2c2d41"
     },
     {
+      "name": "LionDallas",
+      "version": "1.2.0",
+      "author": "leva \u003cleva.the.lion@gmail.com\u003e",
+      "maintainer": "leva \u003cleva.the.lion@gmail.com\u003e",
+      "sentence": "Compact DS18B20 driver over OneWire for the Lion* stack (ESP8266 / ESP32).",
+      "paragraph": "Discovers DS18B20 addresses once at startup and keeps them (cures \"the second sensor drops off\"); reads them non-blocking; caches the last good reading and rides out transient -127/fault values for a tolerance window. Includes the DallasTemperature 4.0.6 power-on-reset / insufficient-power / fault detection. Optional fixed addresses skip the unreliable SearchROM on long wiring (read by MatchROM). DS18B20 family (0x28) only. The consumer defines one global LionLogger Logger. On ESP8266 the reads run in a LionTask LionCriticalTask (pump LionTask::Loop() from loop()); on ESP32 they run in a dedicated LionRtosTask FreeRTOS task (no pump needed). Portions ported from the Arduino Temperature Control Library (c) Miles Burton, MIT.",
+      "website": "https://github.com/blah188/LionDallas",
+      "category": "Sensors",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/blah188/LionDallas.git",
+      "providesIncludes": [
+        "LionDallas.h"
+      ],
+      "dependencies": [
+        {
+          "name": "OneWire"
+        },
+        {
+          "name": "LionArray"
+        },
+        {
+          "name": "LionLogger"
+        },
+        {
+          "name": "LionTask"
+        },
+        {
+          "name": "LionRtosTask"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/blah188/LionDallas-1.2.0.zip",
+      "archiveFileName": "LionDallas-1.2.0.zip",
+      "size": 20589,
+      "checksum": "SHA-256:41a0b41ce4049f19b9abd99e6c11b016eba6831b1c95ea0492089d448257c7c0"
+    },
+    {
       "name": "FlareDom",
       "version": "1.0.0",
       "author": "Moaaz",
@@ -1390798,6 +1390561,41 @@
       "checksum": "SHA-256:14cb178f25aa0fa37d30bd62bf9392c84339394126ddbb422f2f59d360cf5e35"
     },
     {
+      "name": "M5Unit-LIGHT",
+      "version": "0.1.0",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT LIGHT using M5UnitUnified",
+      "paragraph": "Supports BH1750FVI (UnitDLight, SKU:U136 / HatDLight, SKU:U134) for ambient light detection, and LM393 + photoresistor (UnitLight, SKU:U021) for analog light sensing.",
+      "website": "https://github.com/m5stack/M5Unit-LIGHT",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-LIGHT.git",
+      "providesIncludes": [
+        "M5UnitUnifiedLIGHT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_LIGHT-0.1.0.zip",
+      "archiveFileName": "M5Unit_LIGHT-0.1.0.zip",
+      "size": 97382,
+      "checksum": "SHA-256:ad6466e2a02e0901eca7986ffebc01559eab19bcf699c1b325a3f0b13eb2d611"
+    },
+    {
       "name": "M5Unit-FLASHLIGHT",
       "version": "0.0.1",
       "author": "M5Stack",
@@ -1390866,6 +1390664,41 @@
       "archiveFileName": "M5Unit_FLASHLIGHT-0.0.2.zip",
       "size": 61943,
       "checksum": "SHA-256:9fc15f5a40864a23de19b4e3a67531cf7fa0cacd04293dfb9c75a1426c1b071a"
+    },
+    {
+      "name": "M5Unit-FLASHLIGHT",
+      "version": "0.1.0",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT FLASHLIGHT using M5UnitUnified",
+      "paragraph": "Supports AW3641E (UnitFlashLight, SKU:U152) — 1-wire controlled flash LED driver with 8 brightness levels and 2 timeout settings, controlled via a single GPIO pulse train protocol.",
+      "website": "https://github.com/m5stack/M5Unit-FLASHLIGHT",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unit-FLASHLIGHT.git",
+      "providesIncludes": [
+        "M5UnitUnifiedFLASHLIGHT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5UnitUnified"
+        },
+        {
+          "name": "M5Utility"
+        },
+        {
+          "name": "M5HAL"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_FLASHLIGHT-0.1.0.zip",
+      "archiveFileName": "M5Unit_FLASHLIGHT-0.1.0.zip",
+      "size": 70664,
+      "checksum": "SHA-256:3d1be438e67dc07fdfbf99632be64b5bb860404362217712dba48b6309005f51"
     },
     {
       "name": "EC11Encoder",
@@ -1401786,134 +1401619,6 @@
       "checksum": "SHA-256:d6827b5c171ce7022d637ad48c9324f43b92cc3a92b3878c0a0098590865bb53"
     },
     {
-      "name": "LagariMotors",
-      "version": "0.1.0",
-      "author": "LAGARI A \u003clagariscience@gmail.com\u003e",
-      "maintainer": "LAGARI A \u003clagariscience@gmail.com\u003e",
-      "sentence": "Internal beta - UDP command system for integrated servo/stepper drives (Modbus-RTU / RS-485) on Controllino.",
-      "paragraph": "Hardened Modbus-RTU transport (CRC-verified responses, exception detection, retries, real timeouts), unit-correct motor control (position, velocity, homing, zero/position redefinition), a non-blocking status monitor that pushes limit-switch, fault and online/offline events over UDP, and a full command set (P, PA, S, SD, B, L, BS, Z, ZO, ZS, R, I, X plus V/VA/VS/HV/H extensions). Internal test build - not the final public release.",
-      "website": "https://github.com/ailagari/LagariMotors",
-      "category": "Device Control",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/ailagari/LagariMotors.git",
-      "providesIncludes": [
-        "LagariMotors.h"
-      ],
-      "dependencies": [
-        {
-          "name": "CONTROLLINO"
-        },
-        {
-          "name": "Ethernet"
-        }
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/ailagari/LagariMotors-0.1.0.zip",
-      "archiveFileName": "LagariMotors-0.1.0.zip",
-      "size": 43430,
-      "checksum": "SHA-256:3ca2c41f877b692c82c60ecaf79ad96c4a2d0f0537ea0ac2d3ccb3b9c23bbce1"
-    },
-    {
-      "name": "LagariMotors",
-      "version": "0.1.1",
-      "author": "LAGARI A \u003clagariscience@gmail.com\u003e",
-      "maintainer": "LAGARI A \u003clagariscience@gmail.com\u003e",
-      "sentence": "Internal beta - UDP command system for integrated servo/stepper drives (Modbus-RTU / RS-485) on Controllino.",
-      "paragraph": "Hardened Modbus-RTU transport (CRC-verified responses, exception detection, retries, real timeouts), unit-correct motor control (position, velocity, homing, zero/position redefinition), a non-blocking status monitor that pushes limit-switch, fault and online/offline events over UDP, and a full command set (P, PA, S, SD, B, L, BS, Z, ZO, ZS, R, I, X plus V/VA/VS/HV/H extensions). Internal test build - not the final public release.",
-      "website": "https://github.com/ailagari/LagariMotors",
-      "category": "Device Control",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/ailagari/LagariMotors.git",
-      "providesIncludes": [
-        "LagariMotors.h"
-      ],
-      "dependencies": [
-        {
-          "name": "CONTROLLINO"
-        },
-        {
-          "name": "Ethernet"
-        }
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/ailagari/LagariMotors-0.1.1.zip",
-      "archiveFileName": "LagariMotors-0.1.1.zip",
-      "size": 43655,
-      "checksum": "SHA-256:e2eb8589e65b5586798c3f2852565a5bd39030e7b102becbae2d2229704e93e2"
-    },
-    {
-      "name": "LagariMotors",
-      "version": "0.2.0",
-      "author": "LAGARI A \u003clagariscience@gmail.com\u003e",
-      "maintainer": "LAGARI A \u003clagariscience@gmail.com\u003e",
-      "sentence": "UDP command system for integrated servo/stepper drives (Modbus-RTU / RS-485) on Controllino.",
-      "paragraph": "Hardened Modbus-RTU transport (CRC-verified responses, exception detection, retries, real timeouts), unit-correct motor control (position, velocity, homing, zero/position redefinition), a non-blocking status monitor that pushes limit-switch, fault and online/offline events over UDP, and a full command set (P, PR, PA, S, SD, B, L, BS, Z, ZO, ZS, R, I, X, MC, DG plus V/VA/VS/AD/HV/HO/H extensions).",
-      "website": "https://github.com/ailagari/LagariMotors",
-      "category": "Device Control",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/ailagari/LagariMotors.git",
-      "providesIncludes": [
-        "LagariMotors.h"
-      ],
-      "dependencies": [
-        {
-          "name": "CONTROLLINO"
-        },
-        {
-          "name": "Ethernet"
-        }
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/ailagari/LagariMotors-0.2.0.zip",
-      "archiveFileName": "LagariMotors-0.2.0.zip",
-      "size": 45372,
-      "checksum": "SHA-256:0ca5b6fcce17cf6015cb191de422447be27bfd2a0a2d4b1060bad2bf299dad26"
-    },
-    {
-      "name": "LagariMotors",
-      "version": "0.3.0",
-      "author": "LAGARI A \u003clagariscience@gmail.com\u003e",
-      "maintainer": "LAGARI A \u003clagariscience@gmail.com\u003e",
-      "sentence": "UDP command system for integrated servo/stepper drives (Modbus-RTU / RS-485) on Controllino.",
-      "paragraph": "Hardened Modbus-RTU transport (CRC-verified responses, exception detection, retries, real timeouts), unit-correct motor control (position, velocity, homing, zero/position redefinition), a non-blocking status monitor that pushes limit-switch, fault and online/offline events over UDP, and a full command set (P, PR, PA, S, SD, B, L, BS, Z, ZO, ZS, R, I, X, MC, DG plus V/VA/VS/AD/HV/HO/H extensions).",
-      "website": "https://github.com/ailagari/LagariMotors",
-      "category": "Device Control",
-      "architectures": [
-        "avr"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/ailagari/LagariMotors.git",
-      "providesIncludes": [
-        "LagariMotors.h"
-      ],
-      "dependencies": [
-        {
-          "name": "CONTROLLINO"
-        },
-        {
-          "name": "Ethernet"
-        }
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/ailagari/LagariMotors-0.3.0.zip",
-      "archiveFileName": "LagariMotors-0.3.0.zip",
-      "size": 46165,
-      "checksum": "SHA-256:d97c5fea1c206b54b83d3e37d17df0c6c7a4ac692d8f99f2f425543ca6acbf5c"
-    },
-    {
       "name": "AS7331UVSensor",
       "version": "1.0.0",
       "author": "matt",
@@ -1409943,6 +1409648,27 @@
       "checksum": "SHA-256:ba6451084f8cd2745993283f99e60dcfc7876a44841b5bd48ab08cfc8960a692"
     },
     {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.40",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.40.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.40.zip",
+      "size": 1017605,
+      "checksum": "SHA-256:1675edf60429a8fbc06f29d3216940ce50053957d5af0c704c2321540eb91863"
+    },
+    {
       "name": "MPU9250-DMP",
       "version": "1.0.0",
       "author": "Renzo Mischianti \u003crenzo.mischianti@gmail.com\u003e",
@@ -1417738,6 +1417464,58 @@
       "checksum": "SHA-256:74a413e7c068ea369713a23a469ed027d89a4b0ef1af06b614cfd83844b5eb15"
     },
     {
+      "name": "PinNode",
+      "version": "0.3.19",
+      "author": "PinNode",
+      "maintainer": "PinNode",
+      "sentence": "PinNode for RetroPinUpgrade games: scores, achievements, stats and settings to a PinNode node.",
+      "paragraph": "The RPU-Link (UART for RPU Rev 4/102, SPI for future PinNode boards) and the PinNode API for Arduino Mega game code, plus the types for the pinnode-gen generated header.",
+      "website": "https://github.com/pin-node/PinNode",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pin-node/PinNode.git",
+      "providesIncludes": [
+        "PinNode.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.19.zip",
+      "archiveFileName": "PinNode-0.3.19.zip",
+      "size": 218655,
+      "checksum": "SHA-256:1dba6e603a6dd9ec5444ab5e611188181198930e80c8862fbf349926b5b3fe58"
+    },
+    {
+      "name": "PinNode",
+      "version": "0.3.20",
+      "author": "PinNode",
+      "maintainer": "PinNode",
+      "sentence": "PinNode for RetroPinUpgrade games: scores, achievements, stats and settings to a PinNode node.",
+      "paragraph": "The RPU-Link (UART for RPU Rev 4/102, SPI for future PinNode boards) and the PinNode API for Arduino Mega game code, plus the types for the pinnode-gen generated header.",
+      "website": "https://github.com/pin-node/PinNode",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pin-node/PinNode.git",
+      "providesIncludes": [
+        "PinNode.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.20.zip",
+      "archiveFileName": "PinNode-0.3.20.zip",
+      "size": 218811,
+      "checksum": "SHA-256:7db33946fd84ebbdbbec9282517a5c0caba5b0b3ba91743764a55f54399bfe96"
+    },
+    {
       "name": "Radio_GemTek",
       "version": "1.0.0",
       "author": "İsmail Caner Naz",
@@ -1423971,6 +1423749,251 @@
       "archiveFileName": "AMK_CYD_Universal_TFT-1.2.0.zip",
       "size": 379717,
       "checksum": "SHA-256:c3f2a6f7fd66fabc5a056cf8f7a66753dfc6166e078e0169d98bc7c3d6d89a46"
+    },
+    {
+      "name": "AMK_CYD_Universal_TFT",
+      "version": "1.2.1",
+      "author": "Aung Moe Khine",
+      "maintainer": "Aung Moe Khine \u003caungmoekhine@gmail.com\u003e",
+      "sentence": "Universal standalone TFT, touch, and sprite driver with LVGL support for all ESP32 Cheap Yellow Display (CYD) resistive boards.",
+      "paragraph": "Bundles high-speed display and touch drivers with runtime hardware auto-probing for 2.4\", 2.8\", 3.2\", 3.5\", and 4.0\" CYD resistive boards (ILI9341, ST7789, ST7796, XPT2046, including Dual-USB and ELEGOO 2.8\" variants). Features full TFT_eSPI drop-in compatibility, TFT_eSprite off-screen buffering, persistent NVS touch calibration, and zero-boilerplate LVGL v8/v9 integration.",
+      "website": "https://github.com/aungmoekhine/AMK_CYD_Universal_TFT",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AungMoeKhine/AMK_CYD_Universal_TFT.git",
+      "providesIncludes": [
+        "AMK_CYD_Universal_TFT.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.2.1.zip",
+      "archiveFileName": "AMK_CYD_Universal_TFT-1.2.1.zip",
+      "size": 402492,
+      "checksum": "SHA-256:ee73bd75a0ff6466f5e136eba02658751b5063a97d7654b98ee77aa79845d9d5"
+    },
+    {
+      "name": "DTG_IoT",
+      "version": "1.1.1",
+      "author": "DTG Corp",
+      "maintainer": "DTG Corp \u003ciot@dtgsoft.vn\u003e",
+      "sentence": "Official ESP32 client for DTG IoT Hub (MQTT, Modbus RTU, no-code I/O, FOTA).",
+      "paragraph": "Wi-Fi and cellular MQTT client with a Let's Encrypt trust store (ISRG Root X1/X2, Root YR/YE), Hub downlink, no-code GPIO, Modbus RTU, and checksum-verified HTTPS OTA. Install PubSubClient, ArduinoJson, and TinyGPSPlus from Library Manager. For Modbus sketches also install eModbus from GitHub (eModbus/eModbus).",
+      "website": "https://github.com/DTG-Corp/dtg-arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DTG-Corp/dtg-arduino.git",
+      "providesIncludes": [
+        "DTG_IoT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "PubSubClient"
+        },
+        {
+          "name": "TinyGPSPlus"
+        },
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/DTG-Corp/DTG_IoT-1.1.1.zip",
+      "archiveFileName": "DTG_IoT-1.1.1.zip",
+      "size": 134899,
+      "checksum": "SHA-256:562b48502976d7257a9f6e00662750e675a0b20caacea703f0fd6e8e1d9d92d0"
+    },
+    {
+      "name": "DFRobot_HuskylensV2",
+      "version": "1.0.4",
+      "author": "DFRobot",
+      "maintainer": "ouki.wang \u003couki.wang@dfrobot.com\u003e",
+      "sentence": "Standard library for DFRobot HuskylensV2 (SKU:SEN0638)",
+      "paragraph": "DFRobot multimedia AI Sensor",
+      "website": "https://github.com/DFRobot/DFRobot_HuskeylensV2",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_HuskylensV2.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_HuskylensV2-1.0.4.zip",
+      "archiveFileName": "DFRobot_HuskylensV2-1.0.4.zip",
+      "size": 45776,
+      "checksum": "SHA-256:2b683d0271782cbc7037accb08623145c82952ac3fafe938ba46cd6cbffb8bbf"
+    },
+    {
+      "name": "DFRobot_HuskylensV2",
+      "version": "1.0.7",
+      "author": "DFRobot",
+      "maintainer": "ouki.wang \u003couki.wang@dfrobot.com\u003e",
+      "sentence": "Standard library for DFRobot HuskylensV2 (SKU:SEN0638)",
+      "paragraph": "DFRobot multimedia AI Sensor",
+      "website": "https://github.com/DFRobot/DFRobot_HuskylensV2",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_HuskylensV2.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_HuskylensV2-1.0.7.zip",
+      "archiveFileName": "DFRobot_HuskylensV2-1.0.7.zip",
+      "size": 102373,
+      "checksum": "SHA-256:d6f601723452a53541cdc86a8ed8c807a2547d89b5287127078ea0402b974aeb"
+    },
+    {
+      "name": "DFRobot_HuskylensV2",
+      "version": "1.0.9",
+      "author": "DFRobot",
+      "maintainer": "ouki.wang \u003couki.wang@dfrobot.com\u003e",
+      "sentence": "Standard library for DFRobot HuskylensV2 (SKU:SEN0638)",
+      "paragraph": "DFRobot multimedia AI Sensor",
+      "website": "https://github.com/DFRobot/DFRobot_HuskylensV2",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_HuskylensV2.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_HuskylensV2-1.0.9.zip",
+      "archiveFileName": "DFRobot_HuskylensV2-1.0.9.zip",
+      "size": 114115,
+      "checksum": "SHA-256:70e8d7f9d635e62f5ce7ce9e4eb8f6b6ccbe7f1591bba2993f554a3f9e9d09b1"
+    },
+    {
+      "name": "DFRobot_HuskylensV2",
+      "version": "1.4.2",
+      "author": "DFRobot",
+      "maintainer": "ouki.wang \u003couki.wang@dfrobot.com\u003e",
+      "sentence": "Standard library for DFRobot HuskylensV2 (SKU:SEN0638)",
+      "paragraph": "DFRobot multimedia AI Sensor",
+      "website": "https://github.com/DFRobot/DFRobot_HuskylensV2",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_HuskylensV2.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_HuskylensV2-1.4.2.zip",
+      "archiveFileName": "DFRobot_HuskylensV2-1.4.2.zip",
+      "size": 153369,
+      "checksum": "SHA-256:2f419923f3d8e1920471a44f99f5bb2c7289e65b2d1dd2ef77d8281fbe1a8655"
+    },
+    {
+      "name": "W25QxxFlash",
+      "version": "1.0.1",
+      "author": "mumanchu \u003cinfo@muman.ch\u003e",
+      "maintainer": "mumanchu \u003cinfo@muman.ch\u003e",
+      "sentence": "Library for all Winbond SPI Flash memory chips, W25Q10..W25Q512",
+      "website": "https://github.com/mumanchu/W25QxxFlash",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mumanchu/W25QxxFlash.git",
+      "providesIncludes": [
+        "W25QxxFlash.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/W25QxxFlash-1.0.1.zip",
+      "archiveFileName": "W25QxxFlash-1.0.1.zip",
+      "size": 10529,
+      "checksum": "SHA-256:6974cbb0b3a78e87681da5714fe3bc12a15d4638d6ca6ade1362c6796c18cbbc"
+    },
+    {
+      "name": "W25QxxFlash",
+      "version": "1.0.2",
+      "author": "mumanchu",
+      "maintainer": "mumanchu \u003cinfo@muman.ch\u003e",
+      "sentence": "Library for SPI Flash memory chips, 1..512Mbits",
+      "website": "https://github.com/mumanchu/W25QxxFlash",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mumanchu/W25QxxFlash.git",
+      "providesIncludes": [
+        "W25QxxFlash.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/W25QxxFlash-1.0.2.zip",
+      "archiveFileName": "W25QxxFlash-1.0.2.zip",
+      "size": 12110,
+      "checksum": "SHA-256:0e23c9e45968b88c10165292d72e14c038147798d5a90c5ef7aedbe959842750"
+    },
+    {
+      "name": "ThreeZoneDriver",
+      "version": "1.0.0",
+      "author": "watersRand",
+      "maintainer": "watersRand",
+      "sentence": "A high-current 3-zone independent motor driver library using the 74HC595 shift register.",
+      "paragraph": "MCU-agnostic control for 6 DC motors across 3 independent zones with deadtime protection and PWM speed control via 74HC595.",
+      "website": "https://github.com/watersRand/ThreeZoneDriver",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/watersRand/ThreeZoneDriver.git",
+      "providesIncludes": [
+        "ThreeZoneDriver.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/watersRand/ThreeZoneDriver-1.0.0.zip",
+      "archiveFileName": "ThreeZoneDriver-1.0.0.zip",
+      "size": 326025,
+      "checksum": "SHA-256:07805c2cfcaa3eeec979eb675383b90408aaeb0f3b41e2448c84e5c696b0a29c"
+    },
+    {
+      "name": "Telar",
+      "version": "0.1.0",
+      "author": "Luis Díaz-Faes",
+      "maintainer": "Luis Díaz-Faes",
+      "sentence": "Turn an ESP32 into a Telar device: its sensors show up in Telar and Telar drives its LEDs, relays, servos and motors.",
+      "paragraph": "Announces inputs and outputs to the Telar hub over Wi-Fi (ws:// or wss://) or USB, sends normalised values and receives LED frames, values, servo angles and motor speeds. Wi-Fi and hub are stored on the board over USB from Telar, without recompiling. Docs in Spanish, Galician and English.",
+      "website": "https://github.com/CyberMODE/Telar-Arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/CyberMODE/Telar-Arduino.git",
+      "providesIncludes": [
+        "Telar.h"
+      ],
+      "dependencies": [
+        {
+          "name": "WebSockets"
+        },
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/CyberMODE/Telar-0.1.0.zip",
+      "archiveFileName": "Telar-0.1.0.zip",
+      "size": 42243,
+      "checksum": "SHA-256:b589e581a20226775b79e788433631eea4c8063866b46962d377ee9ba6108b26"
     }
   ]
 }
