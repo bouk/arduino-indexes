@@ -134026,6 +134026,31 @@
       "checksum": "SHA-256:e3ebebc8dedd88c1470ee88cda646b4de05c70b8aa41c0dece17b8d7a6248330"
     },
     {
+      "name": "ATMlib",
+      "version": "2.2.0",
+      "author": "TEAM a.r.g., Joeri Gantois aka JO3RI, Davey Taylor aka STG",
+      "maintainer": "joerigantois@gmail.com",
+      "sentence": "The Arduboy Tracker Music library.",
+      "paragraph": "A library for playing 4 channel chiptune music and oscilator sounds, intended for use with the Arduboy game system",
+      "website": "https://t-arg.github.io/ATMlib",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/T-arg/ATMlib.git",
+      "providesIncludes": [
+        "ATMlib.h",
+        "ATMcmds.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/T-arg/ATMlib-2.2.0.zip",
+      "archiveFileName": "ATMlib-2.2.0.zip",
+      "size": 270826,
+      "checksum": "SHA-256:49cdd94b373b7c7e069db312b20c4435332becc339407b092148947cd40c1706"
+    },
+    {
       "name": "LedBlinky",
       "version": "1.3.1",
       "author": "BiagioMkr",
@@ -1130893,6 +1130918,29 @@
       "checksum": "SHA-256:5adc9d804e584024d27771e983ba4f4bf8d9223b0afdbc05ff2ae0bbff477023"
     },
     {
+      "name": "HomeAssistantEntities",
+      "version": "9.0.0",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "MIT",
+      "sentence": "Library for providing sensors and actuators to Home Assistant using MQTT.",
+      "paragraph": "Simplify and standardize the use of sensors and actuators in Home Assistant.",
+      "website": "https://github.com/Johboh/HomeAssistantEntities",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/HomeAssistantEntities.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/HomeAssistantEntities-9.0.0.zip",
+      "archiveFileName": "HomeAssistantEntities-9.0.0.zip",
+      "size": 107037,
+      "checksum": "SHA-256:b0b4124b46768016161b465765f6485dfd656abb0c091775a255ae481c971f60"
+    },
+    {
       "name": "nlohmann-json",
       "version": "3.11.3",
       "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
@@ -1153787,6 +1153835,37 @@
       "archiveFileName": "DashioNano33BLE-1.2.3.zip",
       "size": 8698,
       "checksum": "SHA-256:a33fd7e044e70a4c5250e5968144f8124c52b4fcb7a6c88fcdf204e6e62adb75"
+    },
+    {
+      "name": "DashioNano33BLE",
+      "version": "1.2.4",
+      "author": "DashIO Connect \u003cinfo@dashio.io\u003e",
+      "maintainer": "DashIO Connect \u003cinfo@dashio.io\u003e",
+      "sentence": "Arduino NANO 33 BLE library for communicating with the free Dash IoT dashboard app.",
+      "paragraph": "Enables messaging for BLE communications between IoT devices and the Dash IoT app.",
+      "website": "https://dashio.io",
+      "category": "Communication",
+      "architectures": [
+        "mbed_nano",
+        "mbed"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dashio-connect/arduino-dashioNano33BLE.git",
+      "dependencies": [
+        {
+          "name": "Dashio",
+          "version": "\u003e=1.2.5"
+        },
+        {
+          "name": "ArduinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dashio-connect/DashioNano33BLE-1.2.4.zip",
+      "archiveFileName": "DashioNano33BLE-1.2.4.zip",
+      "size": 14773,
+      "checksum": "SHA-256:63acb12655359c08b3304c169017d886a31ddc55bdf99dead22e41e6ecee5434"
     },
     {
       "name": "Dashio",
@@ -1220793,6 +1220872,72 @@
       "checksum": "SHA-256:d1d7bc4737413d8cea4d89a89d177a851b88786960aa67ecb5816d6f96edb899"
     },
     {
+      "name": "ieee-802_15_4",
+      "version": "1.0.0",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "GPL-3.0-or-later",
+      "sentence": "Simplified version of sending and receiving messages over 802.15.4",
+      "paragraph": "Supports sending frames between devices, as well as data requests and broadcasts.",
+      "website": "https://github.com/Johboh/ieee-802_15_4",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/ieee-802_15_4.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.0.zip",
+      "archiveFileName": "ieee_802_15_4-1.0.0.zip",
+      "size": 37071,
+      "checksum": "SHA-256:dd7e6489b5892071e118e2911a383305e7cd8dc600414ccc71118f04e226b737"
+    },
+    {
+      "name": "ieee-802_15_4",
+      "version": "1.0.1",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "GPL-3.0-or-later",
+      "sentence": "Simplified version of sending and receiving messages over 802.15.4",
+      "paragraph": "Supports sending frames between devices, as well as data requests and broadcasts.",
+      "website": "https://github.com/Johboh/ieee-802_15_4",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/ieee-802_15_4.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.1.zip",
+      "archiveFileName": "ieee_802_15_4-1.0.1.zip",
+      "size": 37267,
+      "checksum": "SHA-256:e4dd4e36dfa0b14701da9479003ee32134d3f7a5237b19781411e996b57303d6"
+    },
+    {
+      "name": "ieee-802_15_4",
+      "version": "1.0.2",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "GPL-3.0-or-later",
+      "sentence": "Simplified version of sending and receiving messages over 802.15.4",
+      "paragraph": "Supports sending frames between devices, as well as data requests and broadcasts.",
+      "website": "https://github.com/Johboh/ieee-802_15_4",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/ieee-802_15_4.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.2.zip",
+      "archiveFileName": "ieee_802_15_4-1.0.2.zip",
+      "size": 37345,
+      "checksum": "SHA-256:eb24b138383be137374a9a46aafec7afd26be566d6d05d3afcbb23d823e47036"
+    },
+    {
       "name": "ieee-802_15_4-network-shared",
       "version": "0.6.0",
       "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
@@ -1227886,6 +1228031,42 @@
       "checksum": "SHA-256:778090df194ec1fc40df1be44cceff9f807caefc85e9be6ee0e8ed3ad31356fd"
     },
     {
+      "name": "ieee-802_15_4-network-host",
+      "version": "1.0.0",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "GPL-3.0-or-later",
+      "sentence": "IEEE 802.15.4 Network Host",
+      "paragraph": "See https://github.com/Johboh/ieee-802_15_4-network-host for more details.",
+      "website": "https://github.com/Johboh/ieee-802_15_4-network-host",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/ieee-802_15_4-network-host.git",
+      "dependencies": [
+        {
+          "name": "GCMEncryption",
+          "version": "\u003e=0.5.3"
+        },
+        {
+          "name": "ieee-802_15_4",
+          "version": "\u003e=1.0.0"
+        },
+        {
+          "name": "ieee-802_15_4-network-shared",
+          "version": "\u003e=0.6.7"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4_network_host-1.0.0.zip",
+      "archiveFileName": "ieee_802_15_4_network_host-1.0.0.zip",
+      "size": 29173,
+      "checksum": "SHA-256:3a64a49e1347d3fe736c85dea172791f6c3ebbca31e3830a5321e26a02cf4550"
+    },
+    {
       "name": "ieee-802_15_4-network-node",
       "version": "0.1.0",
       "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
@@ -1227994,6 +1228175,28 @@
       "archiveFileName": "ieee_802_15_4_network_node-0.2.2.zip",
       "size": 31386,
       "checksum": "SHA-256:fe7baa3686b58197ab114d1716fcb29925838b2c439795d4b5567d1c2d83d7ed"
+    },
+    {
+      "name": "ieee-802_15_4-network-node",
+      "version": "1.0.0",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "GPL-3.0-or-later",
+      "sentence": "IEEE 802.15.4 Network Node",
+      "paragraph": "See https://github.com/Johboh/ieee-802_15_4-network-node for more details.",
+      "website": "https://github.com/Johboh/ieee-802_15_4-network-node",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/ieee-802_15_4-network-node.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4_network_node-1.0.0.zip",
+      "archiveFileName": "ieee_802_15_4_network_node-1.0.0.zip",
+      "size": 32061,
+      "checksum": "SHA-256:b23599468e55ca0fe29f017065460eebf46f3480aa354a1d6c537ffb1ba1f4b5"
     },
     {
       "name": "Servo_TCA",
@@ -1315210,6 +1315413,27 @@
       "checksum": "SHA-256:8c8eefa3158d3e5929a3a279319d1338a9e2c48ad9d49a03a648d5988fffc562"
     },
     {
+      "name": "microDecoder",
+      "version": "1.0.2",
+      "author": "Tim Tierney",
+      "maintainer": "tmrh20 \u003ctmrh20@gmail.com\u003e",
+      "sentence": "Modified Arduino library for mp3 decoding",
+      "paragraph": "This library provides an easy to use and modular interface to decode mp3 files",
+      "website": "https://github.com/TMRh20/microDecoder",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/TMRh20/microDecoder.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/microDecoder-1.0.2.zip",
+      "archiveFileName": "microDecoder-1.0.2.zip",
+      "size": 244839,
+      "checksum": "SHA-256:27ed0848b30e5df601de877b96157b92a3d1c45d072daaeeeca1fc828451ec68"
+    },
+    {
       "name": "Javino",
       "version": "1.7.0",
       "author": "Lazarin, NM and Pantoja, CE",
@@ -1340956,6 +1341180,35 @@
       "checksum": "SHA-256:ef60e9a37a28d3447733cbae976776ccf794789f9a9d930d06fcb8d438b338dd"
     },
     {
+      "name": "BLECommands",
+      "version": "1.1.3",
+      "author": "Andrey Rodin",
+      "maintainer": "Andrey Rodin \u003candrey.val.rodin@gmail.com\u003e",
+      "sentence": "Simple Arduino BLE library implementing a text-based command/response protocol.",
+      "paragraph": "Server side for two official clients: the .NET BleCommands library and the blecommands npm package (Web Bluetooth).",
+      "website": "https://github.com/andrey-val-rodin/BleCommands.Arduino/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/andrey-val-rodin/BleCommands.Arduino.git",
+      "providesIncludes": [
+        "BLECommands.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/andrey-val-rodin/BLECommands-1.1.3.zip",
+      "archiveFileName": "BLECommands-1.1.3.zip",
+      "size": 9369,
+      "checksum": "SHA-256:acf1b075ee559f4794a5569b47c5291bb769a89d4b28e9ba9e69a1ea2f366338"
+    },
+    {
       "name": "CircuitDigestCloud",
       "version": "2.0.0",
       "author": "Jobit Joseph, Circuit Digest",
@@ -1343906,6 +1344159,33 @@
       "checksum": "SHA-256:2ba909395e9057f48f565dd00867ff3d11af2b86ea6bc310b8dab5fc7dd04f4f"
     },
     {
+      "name": "microTelegramAPI",
+      "version": "1.2.1",
+      "author": "Serhii Lebedenko",
+      "maintainer": "Serhii Lebedenko (slebedenko@gmail.com)",
+      "sentence": "A simple library implementing basic Telegram API functions.",
+      "paragraph": "Various transport types are supported, such as GSM modems.",
+      "website": "https://github.com/SerhiiLe/microTelegramAPI",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/SerhiiLe/microTelegramAPI.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=7.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/SerhiiLe/microTelegramAPI-1.2.1.zip",
+      "archiveFileName": "microTelegramAPI-1.2.1.zip",
+      "size": 43231,
+      "checksum": "SHA-256:6b19b5e89b5646a29b7acc2dd582a461bd791cc5e04167ab09cf03326003b29b"
+    },
+    {
       "name": "DFMiniMp3E",
       "version": "1.2.3",
       "author": "Michael C. Miller (makuna@live.com)",
@@ -1343925,6 +1344205,27 @@
       "archiveFileName": "DFMiniMp3E-1.2.3.zip",
       "size": 32811,
       "checksum": "SHA-256:8bde41df9f25ab9d1564abdff1e6038a35e0c403a0560479a81ee5e66e16c1bd"
+    },
+    {
+      "name": "DFMiniMp3E",
+      "version": "1.2.4",
+      "author": "Michael C. Miller (makuna@live.com)",
+      "maintainer": "Serhii Lebedenko (slebedenko@gmail.com)",
+      "sentence": "Library for the DFPlayer Mini Mp3 module",
+      "paragraph": "This library allows your Arduino project to control the DFPlayer Mini MP3 module.  It supports both hardware serial and software serial.  It was designed to fit in the smallest Arduino hardware by consuming less code and memory space than other libraries.",
+      "website": "https://github.com/SerhiiLe/DFMiniMp3E",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/SerhiiLe/DFMiniMp3E.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/SerhiiLe/DFMiniMp3E-1.2.4.zip",
+      "archiveFileName": "DFMiniMp3E-1.2.4.zip",
+      "size": 32812,
+      "checksum": "SHA-256:3de4db9bd6af4bb041039568f09292aa86fefe783f944dd449e929eb4abfc5f0"
     },
     {
       "name": "DashlyClient",
@@ -1346631,6 +1346932,99 @@
       "archiveFileName": "AutoconnectoSDK-1.7.84.zip",
       "size": 246949,
       "checksum": "SHA-256:6bc68c9cde7c1e52ad5932b091952a249179f5eac88029ac5c182c8104fea794"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.95",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT and HTTPS IoT client for Autoconnecto - telemetry, attributes, RPC, OTA.",
+      "paragraph": "Connect an ESP32 to the Autoconnecto IoT platform (India) over MQTTS and MQTT-over-WSS: telemetry, shared and client attributes, RPC, and OTA. Tested on ESP32. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.95.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.95.zip",
+      "size": 249851,
+      "checksum": "SHA-256:e781928d86a68d020e3e536a8a08434b02161b198a3018fdef78f608f4688864"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.96",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT and HTTPS IoT client for Autoconnecto - telemetry, attributes, RPC, OTA.",
+      "paragraph": "Connect an ESP32 to the Autoconnecto IoT platform (India) over MQTTS and MQTT-over-WSS: telemetry, shared and client attributes, RPC, and OTA. Tested on ESP32. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.96.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.96.zip",
+      "size": 249863,
+      "checksum": "SHA-256:ff6603a38f715e3bc812dcdb310bc75f2bf7e811b2e6374215579bfa175564a8"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.97",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT and HTTPS IoT client for Autoconnecto - telemetry, attributes, RPC, OTA.",
+      "paragraph": "Connect an ESP32 to the Autoconnecto IoT platform (India) over MQTTS and MQTT-over-WSS: telemetry, shared and client attributes, RPC, and OTA. Tested on ESP32. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.97.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.97.zip",
+      "size": 249863,
+      "checksum": "SHA-256:6ee6c4b9e189a65f8e21a2ec4d0fdbdb3225ca93cbc0a7f97feaa9dc4b31f7fe"
     },
     {
       "name": "SPIKeyPad",
@@ -1392323,6 +1392717,36 @@
       "checksum": "SHA-256:820a938e05edce08dcf193afc6e6d292e41a2cea6b4743d50f3603b176cfe1e5"
     },
     {
+      "name": "BACnet-Arduino",
+      "version": "0.7.0",
+      "author": "NitrofMtl \u003chttps://github.com/NitrofMtl\u003e",
+      "maintainer": "NitrofMtl \u003chttps://github.com/NitrofMtl\u003e",
+      "license": "MIT",
+      "sentence": "Arduino BACnet library based on the open-source bacnet-stack project.",
+      "paragraph": "Provides an Arduino-friendly interface for BACnet communication, including BACnet/IP support, object handling, scheduling, and platform integration callbacks.",
+      "website": "https://github.com/NitrofMtl/BACnet-Arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/NitrofMtl/BACnet-Arduino.git",
+      "providesIncludes": [
+        "BACnet-Arduino.h"
+      ],
+      "dependencies": [
+        {
+          "name": "WeeklyAlarm"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/NitrofMtl/BACnet_Arduino-0.7.0.zip",
+      "archiveFileName": "BACnet_Arduino-0.7.0.zip",
+      "size": 1321531,
+      "checksum": "SHA-256:34931acaa67a823fc97563b502429e893fceece2b1e5b955a74fe54a2b90fbe1"
+    },
+    {
       "name": "BAVA Protocol",
       "version": "1.0.0",
       "author": "Nishanth Raj",
@@ -1404019,6 +1404443,30 @@
       "checksum": "SHA-256:6f880961575889368b6fbb27c170c8e8e6a941c19d06234d9cdc0bd6090829b5"
     },
     {
+      "name": "espdlx",
+      "version": "1.2.0",
+      "author": "Simone Salerno",
+      "maintainer": "Simone Salerno",
+      "sentence": "esp-dl port for Arduino (ESP32-S3 + ESP32-P4 core+vision+audio)",
+      "paragraph": "Arduino port of esp-dl v3.3.11 — unified dl core + vision + audio, flattened for Arduino. Ships per-target prebuilt fbs_model libs (src/esp32s3, src/esp32p4); arch assembly guarded per target. Excludes JPEG codec (needs esp_new_jpeg). P4 needs ChipVariant=postv3 on v3.x silicon.",
+      "website": "https://github.com/salernosimone/arduino-espdlx",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/salernosimone/arduino-espdlx.git",
+      "providesIncludes": [
+        "espdlx.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/salernosimone/espdlx-1.2.0.zip",
+      "archiveFileName": "espdlx-1.2.0.zip",
+      "size": 2664667,
+      "checksum": "SHA-256:b99e1f665e1fe89c5da31a273b6cde49ff761ca78def32f7fccd72ed4e8fe934"
+    },
+    {
       "name": "ZanWifiSetup",
       "version": "1.0.0",
       "author": "ZAN Tech",
@@ -1409667,6 +1410115,27 @@
       "archiveFileName": "OpenEmbeddedProbe-0.0.40.zip",
       "size": 1017605,
       "checksum": "SHA-256:1675edf60429a8fbc06f29d3216940ce50053957d5af0c704c2321540eb91863"
+    },
+    {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.41",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.41.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.41.zip",
+      "size": 1020271,
+      "checksum": "SHA-256:44363dc752f4ed69556c3248466940f85ea719d3c78040d4d68c2301ed49479f"
     },
     {
       "name": "MPU9250-DMP",
@@ -1423492,6 +1423961,37 @@
       "checksum": "SHA-256:a01826a508f0be9990a27954e6eebbe72cf6f9589d6abd90c05c0f8d4cccac58"
     },
     {
+      "name": "pairble",
+      "version": "0.4.0",
+      "author": "Pajenicko",
+      "maintainer": "pairble \u003csupport@pairble.com\u003e",
+      "sentence": "Wi-Fi setup for ESP32 and Raspberry Pi Pico W over Bluetooth, nothing to install.",
+      "paragraph": "The phone's camera opens an App Clip (iPhone) or a web page (Android, computers); the device shows the networks it can see and gets the password over an encrypted Bluetooth session. Falls back to the device's own Wi-Fi. Needs arduino-esp32 3.3 or newer, or arduino-pico with Bluetooth enabled.",
+      "website": "https://pairble.com",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pairble/pairble-arduino.git",
+      "providesIncludes": [
+        "pairble.h"
+      ],
+      "dependencies": [
+        {
+          "name": "NimBLE-Arduino",
+          "version": "\u003e=2.5.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pairble/pairble-0.4.0.zip",
+      "archiveFileName": "pairble-0.4.0.zip",
+      "size": 211422,
+      "checksum": "SHA-256:b70cbdcb1616a721fbba6e8e1da9d17e2ede3756d943bfae2e4fb4bff5af587e"
+    },
+    {
       "name": "asyncHTTP",
       "version": "1.0.0",
       "author": "Serhii Lebedenko",
@@ -1423539,6 +1424039,30 @@
       "archiveFileName": "mannaNAUTA_WS2812-2.0.0.zip",
       "size": 12771,
       "checksum": "SHA-256:1b1ae0ea43ed413c7450577e7df6add9a5fc9840560354bda44080621f740482"
+    },
+    {
+      "name": "mannaNAUTA WS2812",
+      "version": "1.0.0",
+      "author": "wuigor",
+      "maintainer": "wuigor",
+      "sentence": "Controls WS2812 LED strips using the mannaNAUTA board with ESP32-S3.",
+      "paragraph": "Provides functions for controlling colors, animations, symbols, letters, and numbers on WS2812 LED matrices using Arduino ESP32 core 2.0.17.",
+      "website": "https://github.com/wuigor/mannaNAUTA_WS2812_Lib",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/wuigor/mannaNAUTA_WS2812_Lib.git",
+      "providesIncludes": [
+        "mannaNAUTA_WS2812.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/wuigor/mannaNAUTA_WS2812-1.0.0.zip",
+      "archiveFileName": "mannaNAUTA_WS2812-1.0.0.zip",
+      "size": 12948,
+      "checksum": "SHA-256:a03fb7fbc4ab50758329c99ab0d348e3e1a3e98de61f5dcdf6c6e5114704a28c"
     },
     {
       "name": "WirelessTagTiny",
@@ -1423775,6 +1424299,54 @@
       "checksum": "SHA-256:ee73bd75a0ff6466f5e136eba02658751b5063a97d7654b98ee77aa79845d9d5"
     },
     {
+      "name": "AMK_CYD_Universal_TFT",
+      "version": "1.3.1",
+      "author": "Aung Moe Khine",
+      "maintainer": "Aung Moe Khine \u003caungmoekhine@gmail.com\u003e",
+      "sentence": "Universal standalone TFT, touch, sprite, TFT_eSPI_Button, and visual GUI driver for all ESP32 Cheap Yellow Display (CYD) resistive boards.",
+      "paragraph": "Bundles high-speed display and touch drivers with runtime hardware auto-probing for 2.4\", 2.8\", 3.2\", 3.5\", and 4.0\" CYD resistive boards (ILI9341, ST7789, ST7796, XPT2046, including Dual-USB and ELEGOO 2.8\" variants). Features full TFT_eSPI and TFT_eSPI_Button drop-in compatibility, TFT_eSprite off-screen buffering, persistent NVS touch calibration, zero-boilerplate LVGL v8/v9 integration, PlatformIO/Visual Studio support, and seamless SquareLine Studio / EEZ Studio visual GUI builder support.",
+      "website": "https://github.com/aungmoekhine/AMK_CYD_Universal_TFT",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AungMoeKhine/AMK_CYD_Universal_TFT.git",
+      "providesIncludes": [
+        "AMK_CYD_Universal_TFT.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.3.1.zip",
+      "archiveFileName": "AMK_CYD_Universal_TFT-1.3.1.zip",
+      "size": 414329,
+      "checksum": "SHA-256:6c762fb56076c123b116e26e6001752d86b0beca9d4cff02a1b572b71b4c970d"
+    },
+    {
+      "name": "AMK_CYD_Universal_TFT",
+      "version": "1.4.0",
+      "author": "Aung Moe Khine",
+      "maintainer": "Aung Moe Khine \u003caungmoekhine@gmail.com\u003e",
+      "sentence": "Universal standalone TFT, touch, sprite, TFT_eSPI_Button, gradients, and visual GUI driver for all ESP32 Cheap Yellow Display (CYD) resistive boards.",
+      "paragraph": "Bundles high-speed display and touch drivers with runtime hardware auto-probing for 2.4\", 2.8\", 3.2\", 3.5\", and 4.0\" CYD resistive boards (ILI9341, ST7789, ST7796, XPT2046, including Dual-USB and ELEGOO 2.8\" variants). Features full TFT_eSPI and TFT_eSPI_Button drop-in compatibility, linear vertical \u0026 horizontal color gradients, alpha blending, TFT_eSprite off-screen buffering, persistent NVS touch calibration, zero-boilerplate LVGL v8/v9 integration, PlatformIO/Visual Studio support, and seamless SquareLine Studio / EEZ Studio visual GUI builder support.",
+      "website": "https://github.com/aungmoekhine/AMK_CYD_Universal_TFT",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AungMoeKhine/AMK_CYD_Universal_TFT.git",
+      "providesIncludes": [
+        "AMK_CYD_Universal_TFT.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.4.0.zip",
+      "archiveFileName": "AMK_CYD_Universal_TFT-1.4.0.zip",
+      "size": 412246,
+      "checksum": "SHA-256:26ab2c6b8ab8d67d2bf65bf0458fcac92d655ffa3f715bcb1c8065e30d72b4dc"
+    },
+    {
       "name": "DTG_IoT",
       "version": "1.1.1",
       "author": "DTG Corp",
@@ -1423994,6 +1424566,288 @@
       "archiveFileName": "Telar-0.1.0.zip",
       "size": 42243,
       "checksum": "SHA-256:b589e581a20226775b79e788433631eea4c8063866b46962d377ee9ba6108b26"
+    },
+    {
+      "name": "Lonely Binary Fingerprint",
+      "version": "1.0.0",
+      "author": "Lonely Binary \u003coffice@lonelybinary.com\u003e",
+      "maintainer": "Lonely Binary \u003coffice@lonelybinary.com\u003e",
+      "sentence": "Lonely Binary driver for Hi-Link HLK-ZW series capacitive fingerprint modules (ZW111 and others, UART 0xEF01 protocol).",
+      "paragraph": "Enroll, identify (1:N), verify (1:1), delete, LED ring control, index table, notepad, and low-power sleep with touch wake-up through TOUCH_OUT, including ESP32 deep sleep. 15 one-feature examples. A matching MicroPython library is in extras/micropython.",
+      "website": "https://github.com/Lonely-Binary/Fingerprint",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Lonely-Binary/Fingerprint.git",
+      "providesIncludes": [
+        "LB_Fingerprint.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Lonely-Binary/Lonely_Binary_Fingerprint-1.0.0.zip",
+      "archiveFileName": "Lonely_Binary_Fingerprint-1.0.0.zip",
+      "size": 60275,
+      "checksum": "SHA-256:2a27707b02f242cadd9530c2517926fd3c198420956b68c00c81aab600507ae4"
+    },
+    {
+      "name": "mannaNAUTA LSM6DS",
+      "version": "1.0.1",
+      "author": "wuigor",
+      "maintainer": "wuigor",
+      "sentence": "LSM6DS accelerometer and gyroscope helper library for mannaNAUTA ESP32-S3 hardware.",
+      "paragraph": "Standalone I2C driver that uses SDA pin 5 and SCL pin 4 by default, while allowing custom I2C pins, addresses, buses, and LSM6DS variants.",
+      "website": "https://github.com/wuigor/mannaNAUTA_LSM6DS_Lib",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/wuigor/mannaNAUTA_LSM6DS_Lib.git",
+      "providesIncludes": [
+        "MannaNAUTA_LSM6DS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/wuigor/mannaNAUTA_LSM6DS-1.0.1.zip",
+      "archiveFileName": "mannaNAUTA_LSM6DS-1.0.1.zip",
+      "size": 14998,
+      "checksum": "SHA-256:e93bc9f3aa4a2873efed4ea46be98e89faec6af3bdb95b715f377dbd17f36caa"
+    },
+    {
+      "name": "INA229_SPI_Driver",
+      "version": "1.0.0",
+      "author": "Josh Jenkins",
+      "maintainer": "Josh Jenkins \u003c32035241+wonderful123@users.noreply.github.com\u003e",
+      "sentence": "SPI driver for the TI INA229 power, energy, and charge monitor.",
+      "paragraph": "Supports signed measurements, temperature compensation, diagnostics, and configuration recovery. Requires C++17 and the ESP32 Arduino core 3.x or newer.",
+      "website": "https://github.com/wonderful123/INA229-SPI-Driver",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/wonderful123/INA229-SPI-Driver.git",
+      "providesIncludes": [
+        "INA229_SPI_Driver.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/wonderful123/INA229_SPI_Driver-1.0.0.zip",
+      "archiveFileName": "INA229_SPI_Driver-1.0.0.zip",
+      "size": 56148,
+      "checksum": "SHA-256:bb74c26154238ecc06a8318393f3932f8fc6834a26a58a956777dee814957926"
+    },
+    {
+      "name": "pix_efi",
+      "version": "1.0.0",
+      "author": "Jean Carlos Mappelli \u003cjeanmappelli123@gmail.com\u003e",
+      "maintainer": "Jean Carlos Mappelli \u003cjeanmappelli123@gmail.com\u003e",
+      "sentence": "Biblioteca pré-compilada para cobranças Pix via EFI.",
+      "paragraph": "Biblioteca fechada para ESP32 que permite criar e consultar cobranças Pix usando a instituição financeira EFI.",
+      "website": "https://github.com/jean-mappelli/esp32_pix_efi",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/jean-mappelli/esp32_pix_efi.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/jean-mappelli/pix_efi-1.0.0.zip",
+      "archiveFileName": "pix_efi-1.0.0.zip",
+      "size": 207066,
+      "checksum": "SHA-256:3e0586e144d2d996c42dcb23cf3774e624e7db58c31c6b4bba88599f88427a05"
+    },
+    {
+      "name": "Companion microSatellite",
+      "version": "1.0.1",
+      "author": "Elliot Matson \u003chttps://github.com/elliotmatson\u003e",
+      "maintainer": "Elliot Matson \u003chttps://github.com/elliotmatson\u003e",
+      "sentence": "Connect ESP32 microcontrollers to Bitfocus Companion via the Companion Satellite API.",
+      "paragraph": "Turns an ESP32 into a virtual Stream Deck-style surface for Bitfocus Companion: virtual button surfaces with bitmaps/colors/text, layout manifests with per-control styles and LED rings, rotary encoders with step counts, pincode input, button subscriptions, and variables. Requires Companion Satellite API version 1.10.0 or later (Companion v4.3+).",
+      "website": "https://github.com/elliotmatson/companion-microsatellite",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/elliotmatson/companion-microsatellite.git",
+      "providesIncludes": [
+        "companion-satellite.hpp"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=7.4.3"
+        },
+        {
+          "name": "Async TCP",
+          "version": "\u003e=3.5.0"
+        },
+        {
+          "name": "ESP Async WebServer",
+          "version": "\u003e=3.12.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/elliotmatson/Companion_microSatellite-1.0.1.zip",
+      "archiveFileName": "Companion_microSatellite-1.0.1.zip",
+      "size": 127396,
+      "checksum": "SHA-256:844a5bac3113dba1ae06d4861e4f9ec7eddcd250044ce31422ab591670eaca27"
+    },
+    {
+      "name": "RV565",
+      "version": "0.1.0",
+      "author": "Ayushman Bhattacharya",
+      "maintainer": "Ayushman Bhattacharya \u003cayushman.elixpo@gmail.com\u003e",
+      "sentence": "Frame-independent RGB565 video on ESP32-S3 and RP2350 SPI displays, with a dual-core decode and DMA pipeline.",
+      "paragraph": "Plays RV565 clips (independently zlib-compressed RGB565 frames) on ST7789 panels, seeks in O(1), and predicts from the file alone whether a clip will play without missed frames. Measured at 24 FPS with zero misses on the ESP32-S3 (arXiv:2610.35935); the RP2350 port is experimental.",
+      "website": "https://github.com/elixpo/rv565",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/elixpo/rv565.git",
+      "providesIncludes": [
+        "RV565.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/elixpo/RV565-0.1.0.zip",
+      "archiveFileName": "RV565-0.1.0.zip",
+      "size": 109684,
+      "checksum": "SHA-256:502aa04ef172b8b8787262a31d3d9afd7d5f94b958bf41ea29439fb3f2f51431"
+    },
+    {
+      "name": "RV565",
+      "version": "1.0.0",
+      "author": "Ayushman Bhattacharya",
+      "maintainer": "Ayushman Bhattacharya \u003cayushman.elixpo@gmail.com\u003e",
+      "sentence": "Frame-independent RGB565 video on ESP32-S3 and RP2350 SPI displays, with a dual-core decode and DMA pipeline.",
+      "paragraph": "Plays RV565 clips (independently zlib-compressed RGB565 frames) on ST7789 panels, seeks in O(1), and predicts from the file alone whether a clip will play without missed frames. Measured at 24 FPS with zero misses on the ESP32-S3 (arXiv:2610.35935); the RP2350 port is experimental.",
+      "website": "https://github.com/elixpo/rv565",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/elixpo/rv565.git",
+      "providesIncludes": [
+        "RV565.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/elixpo/RV565-1.0.0.zip",
+      "archiveFileName": "RV565-1.0.0.zip",
+      "size": 111214,
+      "checksum": "SHA-256:a8d9a62304bdc1989cd3efb4b3f08c51cb43b50f9199bf0c725e71ede6a88cd6"
+    },
+    {
+      "name": "TinyLED",
+      "version": "1.0.0",
+      "author": "SerhiiLe",
+      "maintainer": "SerhiiLe",
+      "license": "LGPL-3.0-or-later",
+      "sentence": "Ultra-lightweight WS2812B LED library for ESP8266, ESP32, and RP2040 with FastLED drop-in API.",
+      "paragraph": "Super compact (~2.2 KB Flash vs ~110 KB FastLED), zero dynamic RAM allocations. Hardware RMT for ESP32/S2/S3/C3/C6, hardware PIO for RP2040/RP2350, and cycle-accurate IRAM bitbang for ESP8266. Full FastLED API compatibility for clock and matrix projects.",
+      "website": "https://github.com/SerhiiLe/TinyLED",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/SerhiiLe/TinyLED.git",
+      "providesIncludes": [
+        "TinyLED.h",
+        "FastLED.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/SerhiiLe/TinyLED-1.0.0.zip",
+      "archiveFileName": "TinyLED-1.0.0.zip",
+      "size": 37613,
+      "checksum": "SHA-256:67e62926bd456c56c7b8f5b074bb6bc136cd7f0425c36e0d3c4cdd78fc5417a1"
+    },
+    {
+      "name": "WiFiSetup",
+      "version": "1.0.0",
+      "author": "Serhii Lebedenko \u003cslebedenko@gmail.com\u003e",
+      "maintainer": "Serhii Lebedenko \u003cslebedenko@gmail.com\u003e",
+      "sentence": "Lightweight, non-blocking captive portal Wi-Fi configuration library for ESP8266 and ESP32.",
+      "paragraph": "A modern, minimal replacement for WiFiManager. Features pure PROGMEM gzip-compressed Web UI (~1.9 KB flash footprint, 0 RAM when idle), asynchronous network scan, native SDK Wi-Fi storage, and on-the-fly captive portal activation without rebooting.",
+      "website": "https://github.com/SerhiiLe/WiFiSetup",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/SerhiiLe/WiFiSetup.git",
+      "providesIncludes": [
+        "WiFiSetup.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/SerhiiLe/WiFiSetup-1.0.0.zip",
+      "archiveFileName": "WiFiSetup-1.0.0.zip",
+      "size": 22216,
+      "checksum": "SHA-256:4140a43fe162975668c593b254a3edac5af504718f712fc3f0f3f878d829a23a"
+    },
+    {
+      "name": "PLCStandard",
+      "version": "1.0.0",
+      "author": "Giuseppe Gambacorta",
+      "maintainer": "Giuseppe Gambacorta \u003cgambacortagiuseppe@outlook.it\u003e",
+      "sentence": "IEC 61131-3 inspired standard library for Arduino.",
+      "paragraph": "IEC 61131-3 inspired PLC standard library for Arduino, ESP32 and compatible boards.",
+      "website": "https://github.com/GiuseppeGambacorta/PLC-Standard-Library-for-Arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/GiuseppeGambacorta/PLC-Standard-Library-for-Arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/GiuseppeGambacorta/PLCStandard-1.0.0.zip",
+      "archiveFileName": "PLCStandard-1.0.0.zip",
+      "size": 20698,
+      "checksum": "SHA-256:c023174ba342c4889891f9c8746f23d38bf1762991b1f4efdf8bb642987830e5"
+    },
+    {
+      "name": "FroqMQTT",
+      "version": "2.0.0",
+      "author": "Achim Diedrichs",
+      "maintainer": "Achim Diedrichs",
+      "sentence": "Lightweight MQTT 3.1.1 client that binds bool/float variables directly to MQTT topics.",
+      "paragraph": "Publish on change, subscribe writes straight into your variable. Handles multiple MQTT packets per TCP segment, QoS 0/1/2, Last Will, keep-alive and auto-reconnect. Fixed RAM footprint, no heap use at runtime. Works with any Arduino Client (ESP8266, ESP32, Ethernet, WiFiNINA, TLS).",
+      "website": "https://github.com/AchD/FroqMQTT",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AchD/FroqMQTT.git",
+      "providesIncludes": [
+        "Froq.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AchD/FroqMQTT-2.0.0.zip",
+      "archiveFileName": "FroqMQTT-2.0.0.zip",
+      "size": 30483,
+      "checksum": "SHA-256:2203209c46a5473fe78b41bfb8818ec4e55dd30e9c710b23764c0faed2e6f3c6"
     }
   ]
 }
