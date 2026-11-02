@@ -83173,6 +83173,30 @@
       "checksum": "SHA-256:be5ae844be49d40494b586f13ae0284c14adf315eb24477c3aad509b76c9dd50"
     },
     {
+      "name": "FastLED",
+      "version": "3.10.9",
+      "author": "Daniel Garcia",
+      "maintainer": "Daniel Garcia \u003cdgarcia@fastled.io\u003e",
+      "sentence": "Multi-platform library for controlling dozens of different types of LEDs along with optimized math, effect, and noise functions.",
+      "paragraph": "FastLED is a fast, efficient, easy-to-use Arduino library for programming addressable LED strips and pixels such as WS2810, WS2811, LPD8806, Neopixel and more. FastLED also provides high-level math functions that can be used for generative art and graphics.",
+      "website": "https://github.com/FastLED/FastLED",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/FastLED/FastLED.git",
+      "providesIncludes": [
+        "FastLED.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/FastLED/FastLED-3.10.9.zip",
+      "archiveFileName": "FastLED-3.10.9.zip",
+      "size": 40467527,
+      "checksum": "SHA-256:9cf4968269a17f5f76462cdb9f7b6f62c40fc81d4553aa3482a58cc70506f7d1"
+    },
+    {
       "name": "Sodaq_RN2483",
       "version": "1.0.0",
       "author": "Alex Tsamakos,SODAQ",
@@ -134049,6 +134073,31 @@
       "archiveFileName": "ATMlib-2.2.0.zip",
       "size": 270826,
       "checksum": "SHA-256:49cdd94b373b7c7e069db312b20c4435332becc339407b092148947cd40c1706"
+    },
+    {
+      "name": "ATMlib",
+      "version": "2.2.1",
+      "author": "TEAM a.r.g., Joeri Gantois aka JO3RI, Davey Taylor aka STG",
+      "maintainer": "joerigantois@gmail.com",
+      "sentence": "The Arduboy Tracker Music library.",
+      "paragraph": "A library for playing 4 channel chiptune music and oscilator sounds, intended for use with the Arduboy game system",
+      "website": "https://t-arg.github.io/ATMlib",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/T-arg/ATMlib.git",
+      "providesIncludes": [
+        "ATMlib.h",
+        "ATMcmds.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/T-arg/ATMlib-2.2.1.zip",
+      "archiveFileName": "ATMlib-2.2.1.zip",
+      "size": 270827,
+      "checksum": "SHA-256:53a8d0c10a19c27ba816f0f29d92524b8be554d52771734e899d67588ffe16fb"
     },
     {
       "name": "LedBlinky",
@@ -932892,6 +932941,33 @@
       "checksum": "SHA-256:780f891cd3a6b9b4cb614cf06cb7fa88e3ccbe4377e9a2c58b7073cc2069e8d9"
     },
     {
+      "name": "ACAN2040",
+      "version": "1.0.8",
+      "author": "Duncan Greenwood \u003cduncan_greenwood@hotmail.com\u003e",
+      "maintainer": "Duncan Greenwood \u003cduncan_greenwood@hotmail.com\u003e",
+      "sentence": "ACAN2040",
+      "paragraph": "Arduino library wrapper for can2040",
+      "website": "https://github.com/obdevel/ACAN2040",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/obdevel/ACAN2040.git",
+      "providesIncludes": [
+        "ACAN2040.cpp",
+        "ACAN2040.h",
+        "can2040.c",
+        "can2040.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/obdevel/ACAN2040-1.0.8.zip",
+      "archiveFileName": "ACAN2040-1.0.8.zip",
+      "size": 29954,
+      "checksum": "SHA-256:e0a94fca675ae685f4540427ceffd1554004c7d12503e3bf1251c1af64e1dae0"
+    },
+    {
       "name": "CBUSACAN2040",
       "version": "0.0.1",
       "author": "Duncan Greenwood \u003cduncan_greenwood@hotmail.com\u003e",
@@ -957670,6 +957746,54 @@
       "archiveFileName": "GovoroxSSLClient-1.3.2.zip",
       "size": 139856,
       "checksum": "SHA-256:2d4be5c6357944e88506127d62583fff103270bad86bac36d2ad9e89a30bc3fc"
+    },
+    {
+      "name": "GovoroxSSLClient",
+      "version": "1.3.3",
+      "author": "V Govorovski",
+      "maintainer": "Robert Byrnes \u003crobbyrnes@hotmail.co.uk\u003e",
+      "sentence": "Provides secure network connection over a generic Client transport object.",
+      "paragraph": "With this library you can make a TLS or SSL connection to a remote server.",
+      "website": "https://github.com/govorox/SSLClient.git",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/govorox/SSLClient.git",
+      "providesIncludes": [
+        "SSLClient.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/govorox/GovoroxSSLClient-1.3.3.zip",
+      "archiveFileName": "GovoroxSSLClient-1.3.3.zip",
+      "size": 141320,
+      "checksum": "SHA-256:65a15c55b98c83245641e50b760f66b1d0503f5bf62bce703f0f6841c31de178"
+    },
+    {
+      "name": "GovoroxSSLClient",
+      "version": "1.4.0",
+      "author": "V Govorovski",
+      "maintainer": "Robert Byrnes \u003crobbyrnes@hotmail.co.uk\u003e",
+      "sentence": "Provides secure network connection over a generic Client transport object.",
+      "paragraph": "Establish TLS/SSL connections over an Arduino Client transport, including TinyGSM and Ethernet, with independently configurable library logging.",
+      "website": "https://github.com/govorox/SSLClient.git",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/govorox/SSLClient.git",
+      "providesIncludes": [
+        "SSLClient.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/govorox/GovoroxSSLClient-1.4.0.zip",
+      "archiveFileName": "GovoroxSSLClient-1.4.0.zip",
+      "size": 143402,
+      "checksum": "SHA-256:a4ad1fc5c5cb19f24599fc8a646218e4beaf470ded659219694c247e220ab3fa"
     },
     {
       "name": "fog",
@@ -1023164,6 +1023288,30 @@
       "checksum": "SHA-256:0c132b4ed21ef3ed789d3f97665455881e309380bf2b152a861d3246c60abe59"
     },
     {
+      "name": "MAVLink",
+      "version": "2.0.35",
+      "author": "Oleg Kalachev \u003cokalachev@gmail.com",
+      "maintainer": "Oleg Kalachev \u003cokalachev@gmail.com\u003e",
+      "sentence": "MAVLink v2 for Arduino.",
+      "paragraph": "MAVLink is a lightweight communication protocol for communication between drones (and/or ground systems) and their components.",
+      "website": "https://github.com/okalachev/mavlink-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/okalachev/mavlink-arduino.git",
+      "providesIncludes": [
+        "MAVLink.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/okalachev/MAVLink-2.0.35.zip",
+      "archiveFileName": "MAVLink-2.0.35.zip",
+      "size": 1765865,
+      "checksum": "SHA-256:12c98968992b33eb226237f260606f846978f10c79622e164274b2acbbde4f38"
+    },
+    {
       "name": "EloquentRTLS",
       "version": "1.0.0",
       "author": "Simone Salerno \u003csupport@eloquentarduino.com\u003e",
@@ -1049813,6 +1049961,28 @@
       "archiveFileName": "MycilaTaskManager-4.2.5.zip",
       "size": 25611,
       "checksum": "SHA-256:5934e582d7f8cfa4ba1205e82000e8c53c555d6a24b6cf9cadb9d8917253f6ae"
+    },
+    {
+      "name": "MycilaTaskManager",
+      "version": "5.0.0",
+      "author": "Mathieu Carbou \u003cmathieu.carbou@gmail.com\u003e",
+      "maintainer": "Mathieu Carbou \u003cmathieu.carbou@gmail.com\u003e",
+      "license": "MIT",
+      "sentence": "Arduino / ESP32 Task Manager Library",
+      "paragraph": "Compatible with ESP32",
+      "website": "https://github.com/mathieucarbou/MycilaTaskManager",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mathieucarbou/MycilaTaskManager.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaTaskManager-5.0.0.zip",
+      "archiveFileName": "MycilaTaskManager-5.0.0.zip",
+      "size": 73700,
+      "checksum": "SHA-256:c45a955616926b11037f2fcd2fa6ba2b1914b498eb018f53f31bb87a3d1d7d6a"
     },
     {
       "name": "r4SwRTC",
@@ -1154808,6 +1154978,43 @@
       "checksum": "SHA-256:5c742db6333eabc3e4df226f45d293a14610f6fa0d1442e14f838fe41b9aa0a2"
     },
     {
+      "name": "DashioESP",
+      "version": "1.4.0",
+      "author": "DashIO Connect \u003cinfo@dashio.io\u003e",
+      "maintainer": "DashIO Connect \u003cinfo@dashio.io\u003e",
+      "sentence": "ESP32 \u0026 ESP8266 library for communicating with the free Dash IoT dashboard app.",
+      "paragraph": "Enables messaging for BLE, TCP and MQTT communications between IoT devices and the Dash IoT app.",
+      "website": "https://dashio.io",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dashio-connect/arduino-dashioESP.git",
+      "dependencies": [
+        {
+          "name": "Dashio",
+          "version": "\u003e=1.2.5"
+        },
+        {
+          "name": "MQTT"
+        },
+        {
+          "name": "Preferences"
+        },
+        {
+          "name": "NimBLE-Arduino"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dashio-connect/DashioESP-1.4.0.zip",
+      "archiveFileName": "DashioESP-1.4.0.zip",
+      "size": 84993,
+      "checksum": "SHA-256:aeda73015f68b0aa5c6a415c19b3c78774c7047e271de97318317e83117a2de8"
+    },
+    {
       "name": "DashioBluno",
       "version": "1.1.0",
       "author": "DashIO Connect Limited \u003cinfo@dashio.io\u003e",
@@ -1155079,6 +1155286,52 @@
       "archiveFileName": "DashioSAMD_NINA-1.2.3.zip",
       "size": 16997,
       "checksum": "SHA-256:1bb544349145f1e29e4461e4b95ef69427b939633170fa5e39fe2f8509912f68"
+    },
+    {
+      "name": "DashioSAMD_NINA",
+      "version": "1.3.0",
+      "author": "DashIO Connect \u003cinfo@dashio.io\u003e",
+      "maintainer": "DashIO Connect \u003cinfo@dashio.io\u003e",
+      "sentence": "Arduino SAMD NINA library for communicating with the free Dash IoT dashboard app.",
+      "paragraph": "Enables messaging for BLE, TCP and MQTT communications between IoT devices and the Dash IoT app.",
+      "website": "https://dashio.io",
+      "category": "Communication",
+      "architectures": [
+        "samd"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dashio-connect/arduino-dashioSAMD_NINA.git",
+      "dependencies": [
+        {
+          "name": "Dashio"
+        },
+        {
+          "name": "ArduinoBLE",
+          "version": "\u003e=2.0.0"
+        },
+        {
+          "name": "WiFiNINA",
+          "version": "\u003e=2.0.0"
+        },
+        {
+          "name": "ArduinoMqttClient"
+        },
+        {
+          "name": "arduino-timer"
+        },
+        {
+          "name": "FlashStorage"
+        },
+        {
+          "name": "MDNS_Generic"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dashio-connect/DashioSAMD_NINA-1.3.0.zip",
+      "archiveFileName": "DashioSAMD_NINA-1.3.0.zip",
+      "size": 27966,
+      "checksum": "SHA-256:03b1dbd0a7db4c0eb88e03c41e769f284b6ccf39adecbc3502f4041ff1811554"
     },
     {
       "name": "DIYables_LED_Matrix",
@@ -1220938,6 +1221191,50 @@
       "checksum": "SHA-256:eb24b138383be137374a9a46aafec7afd26be566d6d05d3afcbb23d823e47036"
     },
     {
+      "name": "ieee-802_15_4",
+      "version": "1.0.3",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "GPL-3.0-or-later",
+      "sentence": "Simplified version of sending and receiving messages over 802.15.4",
+      "paragraph": "Supports sending frames between devices, as well as data requests and broadcasts.",
+      "website": "https://github.com/Johboh/ieee-802_15_4",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/ieee-802_15_4.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.3.zip",
+      "archiveFileName": "ieee_802_15_4-1.0.3.zip",
+      "size": 37456,
+      "checksum": "SHA-256:38cb7f628a6f4a56099246f1ea642cd15e9dc123bf606b9d407c160fed387b5e"
+    },
+    {
+      "name": "ieee-802_15_4",
+      "version": "1.0.4",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "GPL-3.0-or-later",
+      "sentence": "Simplified version of sending and receiving messages over 802.15.4",
+      "paragraph": "Supports sending frames between devices, as well as data requests and broadcasts.",
+      "website": "https://github.com/Johboh/ieee-802_15_4",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/ieee-802_15_4.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.4.zip",
+      "archiveFileName": "ieee_802_15_4-1.0.4.zip",
+      "size": 37373,
+      "checksum": "SHA-256:3bea469d262eec5a93610a69ebcda6a474cdbe34bd2535ddda0c2cb107f88cdb"
+    },
+    {
       "name": "ieee-802_15_4-network-shared",
       "version": "0.6.0",
       "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
@@ -1228067,6 +1228364,42 @@
       "checksum": "SHA-256:3a64a49e1347d3fe736c85dea172791f6c3ebbca31e3830a5321e26a02cf4550"
     },
     {
+      "name": "ieee-802_15_4-network-host",
+      "version": "1.0.3",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "GPL-3.0-or-later",
+      "sentence": "IEEE 802.15.4 Network Host",
+      "paragraph": "See https://github.com/Johboh/ieee-802_15_4-network-host for more details.",
+      "website": "https://github.com/Johboh/ieee-802_15_4-network-host",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/ieee-802_15_4-network-host.git",
+      "dependencies": [
+        {
+          "name": "GCMEncryption",
+          "version": "\u003e=0.5.3"
+        },
+        {
+          "name": "ieee-802_15_4",
+          "version": "\u003e=1.0.3"
+        },
+        {
+          "name": "ieee-802_15_4-network-shared",
+          "version": "\u003e=0.6.7"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4_network_host-1.0.3.zip",
+      "archiveFileName": "ieee_802_15_4_network_host-1.0.3.zip",
+      "size": 29513,
+      "checksum": "SHA-256:0f16053c16ba08e636ff293822d7c07e376ec10b720c1a8f3fb6d2025148c3c2"
+    },
+    {
       "name": "ieee-802_15_4-network-node",
       "version": "0.1.0",
       "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
@@ -1228197,6 +1228530,46 @@
       "archiveFileName": "ieee_802_15_4_network_node-1.0.0.zip",
       "size": 32061,
       "checksum": "SHA-256:b23599468e55ca0fe29f017065460eebf46f3480aa354a1d6c537ffb1ba1f4b5"
+    },
+    {
+      "name": "ieee-802_15_4-network-node",
+      "version": "1.0.3",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "GPL-3.0-or-later",
+      "sentence": "IEEE 802.15.4 Network Node",
+      "paragraph": "See https://github.com/Johboh/ieee-802_15_4-network-node for more details.",
+      "website": "https://github.com/Johboh/ieee-802_15_4-network-node",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/ieee-802_15_4-network-node.git",
+      "dependencies": [
+        {
+          "name": "GCMEncryption",
+          "version": "\u003e=0.5.3"
+        },
+        {
+          "name": "ieee-802_15_4",
+          "version": "\u003e=1.0.3"
+        },
+        {
+          "name": "ieee-802_15_4-network-shared",
+          "version": "\u003e=0.6.7"
+        },
+        {
+          "name": "ConnectionHelper",
+          "version": "\u003e=3.0.17"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4_network_node-1.0.3.zip",
+      "archiveFileName": "ieee_802_15_4_network_node-1.0.3.zip",
+      "size": 32139,
+      "checksum": "SHA-256:3fd1c010bab7637a3a6602370a5717e7f6c3fca9eae5e3c17af8e4f8dce861c3"
     },
     {
       "name": "Servo_TCA",
@@ -1241830,6 +1242203,48 @@
       "archiveFileName": "HydroNode_Library-1.8.0.zip",
       "size": 67977,
       "checksum": "SHA-256:d9fd0e1a3bec9bcdd3eeb677f8bd1f2823cd4aa1116dd6f2fb41828db6e528a4"
+    },
+    {
+      "name": "HydroNode-Library",
+      "version": "1.9.0",
+      "author": "Felix Knoll",
+      "maintainer": "Felix Knoll \u003ccontact@hydronode.tech\u003e",
+      "license": "MIT",
+      "sentence": "Send signed sensor data to HydroNode over WiFi, Ethernet, LTE-M, NB-IoT or any Arduino Client.",
+      "paragraph": "Easy API client for HydroNode sensors and actuators, with typed command callbacks, HMAC-SHA256 auth, TLS with bundled root CAs, time sync (NTP, modem clock or your own), battery thresholds (HydroNodeBatteryGuard) and pluggable transports: ESP32/ESP8266 WiFi and Ethernet, W5500, cellular via TinyGSM (SIM7080G, A7670, BG95 ...) with WiFi fallback, or any TLS Client (UNO R4 WiFi, MKR, Pico W, nRF52, STM32).",
+      "website": "https://hydronode.tech/docs/guide/arduino/",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040",
+        "mbed_rp2040",
+        "samd",
+        "nrf52",
+        "mbed_nano",
+        "renesas_uno",
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/TexhFexLabs/HydroNode-Library.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=7.0.0"
+        },
+        {
+          "name": "ArduinoHttpClient"
+        },
+        {
+          "name": "WiFiManager"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/TexhFexLabs/HydroNode_Library-1.9.0.zip",
+      "archiveFileName": "HydroNode_Library-1.9.0.zip",
+      "size": 136773,
+      "checksum": "SHA-256:a80bb997621f52785647f39e3fe5f072688f5a4d5741572bd7c85fce6ebaf0de"
     },
     {
       "name": "EdgeSense",
@@ -1279444,6 +1279859,54 @@
       "archiveFileName": "AlashUltrasonic-1.0.7.zip",
       "size": 10978,
       "checksum": "SHA-256:aaed706d06784e35426f0ae7af504824f6ff85bdb0201011e1bcc76c907e390a"
+    },
+    {
+      "name": "AlashUltrasonic",
+      "version": "1.0.8",
+      "author": "Aiten Bexultan \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "A library for interfacing with the RCWL-9610 ultrasonic distance sensor.",
+      "paragraph": "This library allows you to measure distances using the RCWL-9610 sensor with support for GPIO, I2C, UART, and 1-Wire interfaces. Compatible with Arduino, ESP32, ESP8266, and other Arduino-compatible boards.",
+      "website": "https://github.com/Alash-electronics/AlashUltrasonic",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashUltrasonic.git",
+      "providesIncludes": [
+        "AlashUltrasonic.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashUltrasonic-1.0.8.zip",
+      "archiveFileName": "AlashUltrasonic-1.0.8.zip",
+      "size": 10970,
+      "checksum": "SHA-256:f90f916be797b3f67ce454e1a755dc66cb156d70b3e61c890f05a9c1baf84040"
+    },
+    {
+      "name": "AlashUltrasonic",
+      "version": "1.0.9",
+      "author": "Aiten Bexultan \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "A library for interfacing with the RCWL-9610 ultrasonic distance sensor.",
+      "paragraph": "This library allows you to measure distances using the RCWL-9610 sensor with support for GPIO, I2C, UART, and 1-Wire interfaces. Compatible with Arduino, ESP32, ESP8266, and other Arduino-compatible boards.",
+      "website": "https://github.com/Alash-electronics/AlashUltrasonic",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashUltrasonic.git",
+      "providesIncludes": [
+        "AlashUltrasonic.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashUltrasonic-1.0.9.zip",
+      "archiveFileName": "AlashUltrasonic-1.0.9.zip",
+      "size": 11466,
+      "checksum": "SHA-256:2c46395232ff4550a726f52f33b032edf464524adf0ab3ea0d4b675039e036bd"
     },
     {
       "name": "ESP32_Thermistor",
@@ -1347027,6 +1347490,68 @@
       "checksum": "SHA-256:6ee6c4b9e189a65f8e21a2ec4d0fdbdb3225ca93cbc0a7f97feaa9dc4b31f7fe"
     },
     {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.98",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT and HTTPS IoT client for Autoconnecto - telemetry, attributes, RPC, OTA.",
+      "paragraph": "Connect an ESP32 to the Autoconnecto IoT platform (India) over MQTTS and MQTT-over-WSS: telemetry, shared and client attributes, RPC, and OTA. Tested on ESP32. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.98.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.98.zip",
+      "size": 249863,
+      "checksum": "SHA-256:6a0126a51cfd68b6b8eefe594710be188a4d7513b72e763ab60ddd3c400c267f"
+    },
+    {
+      "name": "AutoconnectoSDK",
+      "version": "1.7.99",
+      "author": "Autoconnecto",
+      "maintainer": "Autoconnecto \u003chttps://github.com/autoconnecto/autoconnecto-sdk/issues\u003e",
+      "license": "MIT",
+      "sentence": "ESP32 MQTT and HTTPS IoT client for Autoconnecto - telemetry, attributes, RPC, OTA.",
+      "paragraph": "Connect an ESP32 to the Autoconnecto IoT platform (India) over MQTTS and MQTT-over-WSS: telemetry, shared and client attributes, RPC, and OTA. Tested on ESP32. Requires ArduinoJson.",
+      "website": "https://github.com/autoconnecto/autoconnecto-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/autoconnecto/autoconnecto-sdk.git",
+      "providesIncludes": [
+        "AutoconnectoSDK.h",
+        "OtaUpdate.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.99.zip",
+      "archiveFileName": "AutoconnectoSDK-1.7.99.zip",
+      "size": 249863,
+      "checksum": "SHA-256:3580b99f966f0510aa0e9cf17266f98ab16760efcfc003f4ad1e5d99d91172cd"
+    },
+    {
       "name": "SPIKeyPad",
       "version": "0.1.0",
       "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
@@ -1392810,6 +1393335,27 @@
       "checksum": "SHA-256:04508a9c74357aa277190f83adedc45195990eab4e7c86d914a72fc82f7c5184"
     },
     {
+      "name": "BAVA Protocol",
+      "version": "2.0.0",
+      "author": "Nishanth Raj",
+      "maintainer": "Nishanth Raj",
+      "sentence": "Reliable variable sync between two microcontrollers over serial, with CRC-16 and no dynamic memory.",
+      "paragraph": "Register a variable under an ID and write or read it on the other board. Binary frames use a sync preamble, length field, byte-stuffing and CRC-16 checked before memory is updated, so partial or corrupted serial data is rejected instead of parsed. Non-blocking state machine, zero heap, fixed stack. Works on any board with a serial port; examples for Arduino, ESP32 and STM32. GPL-3.0, commercial licence available.",
+      "website": "https://github.com/NishanthRaj707/bavaprotocol",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/NishanthRaj707/bavaarduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/NishanthRaj707/BAVA_Protocol-2.0.0.zip",
+      "archiveFileName": "BAVA_Protocol-2.0.0.zip",
+      "size": 30371,
+      "checksum": "SHA-256:ce3cce78db41489380cc6fc66de82afc62186ead4235b96e56d1ccdb1a45cbb7"
+    },
+    {
       "name": "NobroRTOSCore",
       "version": "1.0.0",
       "author": "dunknowcoding (YouTube NiusRobotLab)",
@@ -1419446,6 +1419992,30 @@
       "checksum": "SHA-256:1a72e919a629dd2fb9a07842306bb4b1262b58dbce503ce439278070c316f960"
     },
     {
+      "name": "OttoI2R",
+      "version": "1.1.0",
+      "author": "i2r",
+      "maintainer": "i2r",
+      "sentence": "Otto 로봇(YL/YR/RL/RR 서보 4개) 공통 제어 라이브러리",
+      "paragraph": "핀 번호, 서보 구동(ESP32 기본 PWM 사용, 추가 라이브러리 없음), 각도 보정, 걷기와 굴리기 등 기본 동작을 모아 둔 라이브러리. 보정값은 웹의 [로봇 맞추기]에서 맞춰 보드에 저장하고, 스케치는 ottoInit() 한 줄로 불러 쓴다.",
+      "website": "https://github.com/kdi6033/otto",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/kdi6033/OttoI2R.git",
+      "providesIncludes": [
+        "OttoI2R.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/kdi6033/OttoI2R-1.1.0.zip",
+      "archiveFileName": "OttoI2R-1.1.0.zip",
+      "size": 6856470,
+      "checksum": "SHA-256:1373e19e088ec0a0c808721649e85686d1d76a7cb5e75eb7706de9d1c3299b8f"
+    },
+    {
       "name": "ButtonEvents",
       "version": "0.1.0",
       "author": "Péter Soós \u003chttps://github.com/soosp\u003e",
@@ -1424347,6 +1424917,30 @@
       "checksum": "SHA-256:26ab2c6b8ab8d67d2bf65bf0458fcac92d655ffa3f715bcb1c8065e30d72b4dc"
     },
     {
+      "name": "AMK_CYD_Universal_TFT",
+      "version": "1.5.0",
+      "author": "Aung Moe Khine",
+      "maintainer": "Aung Moe Khine \u003caungmoekhine@gmail.com\u003e",
+      "sentence": "Universal standalone TFT, touch, sprite, TFT_eSPI_Button, gradients, and visual GUI driver for ESP32 CYD resistive boards and ESP32-S3 RGB capacitive boards.",
+      "paragraph": "Bundles high-speed display and touch drivers with runtime hardware auto-probing for 2.4\", 2.8\", 3.2\", 3.5\", and 4.0\" CYD resistive boards (ILI9341, ST7789, ST7796, XPT2046) and ESP32-S3 parallel RGB boards (4.3\", 5.0\", 7.0\" 800x480 ST7262 + GT911 capacitive touch). Features full TFT_eSPI and TFT_eSPI_Button drop-in compatibility, linear vertical \u0026 horizontal color gradients, alpha blending, TFT_eSprite off-screen buffering, persistent NVS touch calibration, zero-boilerplate LVGL v8/v9 integration, PlatformIO/Visual Studio support, and seamless SquareLine Studio / EEZ Studio visual GUI builder support.",
+      "website": "https://github.com/aungmoekhine/AMK_CYD_Universal_TFT",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AungMoeKhine/AMK_CYD_Universal_TFT.git",
+      "providesIncludes": [
+        "AMK_CYD_Universal_TFT.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.5.0.zip",
+      "archiveFileName": "AMK_CYD_Universal_TFT-1.5.0.zip",
+      "size": 462881,
+      "checksum": "SHA-256:2a8943e3497f6c34f05e6a399c5f231ea6888e16ec2716236b591d508085e1e3"
+    },
+    {
       "name": "DTG_IoT",
       "version": "1.1.1",
       "author": "DTG Corp",
@@ -1424510,6 +1425104,31 @@
       "archiveFileName": "W25QxxFlash-1.0.2.zip",
       "size": 12110,
       "checksum": "SHA-256:0e23c9e45968b88c10165292d72e14c038147798d5a90c5ef7aedbe959842750"
+    },
+    {
+      "name": "W25QxxFlash",
+      "version": "1.0.4",
+      "author": "mumanchu",
+      "maintainer": "mumanchu \u003cinfo@muman.ch\u003e",
+      "sentence": "Library for SPI Flash memory chips, 1..512Mbits",
+      "website": "https://github.com/mumanchu/W25QxxFlash",
+      "category": "Data Storage",
+      "architectures": [
+        "stm32",
+        "esp32",
+        "samd51"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mumanchu/W25QxxFlash.git",
+      "providesIncludes": [
+        "W25QxxFlash.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/W25QxxFlash-1.0.4.zip",
+      "archiveFileName": "W25QxxFlash-1.0.4.zip",
+      "size": 15188,
+      "checksum": "SHA-256:236d6f76e6bebfaf12bdc7ecbf9b3bfc3e43cc4112226ecb91c5d600605e1b36"
     },
     {
       "name": "ThreeZoneDriver",
@@ -1424754,6 +1425373,31 @@
       "checksum": "SHA-256:a8d9a62304bdc1989cd3efb4b3f08c51cb43b50f9199bf0c725e71ede6a88cd6"
     },
     {
+      "name": "RV565",
+      "version": "1.1.0",
+      "author": "Ayushman Bhattacharya",
+      "maintainer": "Ayushman Bhattacharya \u003cayushman.elixpo@gmail.com\u003e",
+      "sentence": "Frame-independent RGB565 video on ESP32-S3 and RP2350 SPI displays, with a dual-core decode and DMA pipeline.",
+      "paragraph": "Plays RV565 clips (independently zlib-compressed RGB565 frames) on ST7789 panels, seeks in O(1), and predicts from the file alone whether a clip will play without missed frames. Measured at 24 FPS with zero misses on the ESP32-S3 (arXiv:2610.35935); the RP2350 port is experimental.",
+      "website": "https://github.com/elixpo/rv565",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/elixpo/rv565.git",
+      "providesIncludes": [
+        "RV565.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/elixpo/RV565-1.1.0.zip",
+      "archiveFileName": "RV565-1.1.0.zip",
+      "size": 155706,
+      "checksum": "SHA-256:a7774f310af992dd220db5bfcb1ada90ca84b7635f5b3920ff00c4a8de0dd6c2"
+    },
+    {
       "name": "TinyLED",
       "version": "1.0.0",
       "author": "SerhiiLe",
@@ -1424848,6 +1425492,1013 @@
       "archiveFileName": "FroqMQTT-2.0.0.zip",
       "size": 30483,
       "checksum": "SHA-256:2203209c46a5473fe78b41bfb8818ec4e55dd30e9c710b23764c0faed2e6f3c6"
+    },
+    {
+      "name": "lilty",
+      "version": "0.1.0",
+      "author": "lilty contributors",
+      "maintainer": "lilty contributors \u003czupub@163.com\u003e",
+      "sentence": "GUI framework for 128x64 monochrome OLEDs: focus navigation, layer stack, spring animation.",
+      "paragraph": "Spring-driven animation, a layer stack, focus navigation and a small widget set. Display and input backends live in their own folders, so porting to another screen or another set of keys means adding one file each and leaving the core untouched. C++ port of the lilt project by chhongzh (https://github.com/chhongzh/lilt).",
+      "website": "https://github.com/zupub/lilty",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/zupub/lilty.git",
+      "providesIncludes": [
+        "lilty.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/zupub/lilty-0.1.0.zip",
+      "archiveFileName": "lilty-0.1.0.zip",
+      "size": 92804,
+      "checksum": "SHA-256:aeb6bb0c60746beb52568a8c4af0495ee5414f9647c7688e108987856dda87fc"
+    },
+    {
+      "name": "lilty",
+      "version": "0.1.1",
+      "author": "lilty contributors",
+      "maintainer": "lilty contributors \u003czupub@163.com\u003e",
+      "sentence": "GUI framework for 128x64 monochrome OLEDs: focus navigation, layer stack, spring animation.",
+      "paragraph": "Spring-driven animation, a layer stack, focus navigation and a small widget set. Display and input backends live in their own folders, so porting to another screen or another set of keys means adding one file each and leaving the core untouched. C++ rewrite of the lilt project by chhongzh (https://github.com/chhongzh/lilt).",
+      "website": "https://github.com/zupub/lilty",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/zupub/lilty.git",
+      "providesIncludes": [
+        "lilty.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/zupub/lilty-0.1.1.zip",
+      "archiveFileName": "lilty-0.1.1.zip",
+      "size": 98809,
+      "checksum": "SHA-256:6d89b1a7ce4f941b3b0e47acbded63811f925206467492344b34e9b0a3e0a0a9"
+    },
+    {
+      "name": "CZ-N706B-Arduino",
+      "version": "0.0.1",
+      "author": "CodeZoo",
+      "maintainer": "CodeZoo \u003crooney.jang@codezoo.co.kr\u003e",
+      "sentence": "AT command support and examples for the CodeZoo CZ-N706B modem on UNO R4, ESP32 and ESP32-S3.",
+      "paragraph": "Shared UART and power control with 21 examples for module checks, network setup and monitoring, files, certificates, TCP/UDP, TLS, Gmail SMTP, HTTP/HTTPS, downloads, MQTT, AWS IoT and time synchronization. Supports UNO R4, ESP32 Dev Module and ESP32S3 Dev Module.",
+      "website": "https://www.codezoo.co.kr/n706b.html",
+      "category": "Communication",
+      "architectures": [
+        "renesas_uno",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/codezoo-ltd/CZ-N706B-Arduino.git",
+      "providesIncludes": [
+        "ModemAT.h",
+        "ModemPower.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/codezoo-ltd/CZ_N706B_Arduino-0.0.1.zip",
+      "archiveFileName": "CZ_N706B_Arduino-0.0.1.zip",
+      "size": 244935,
+      "checksum": "SHA-256:52d97882717e8dd3060f2815240c6ab26b27fdb5b95bcfb812788ea0d40b0404"
+    },
+    {
+      "name": "NiroTronixMotorDriver",
+      "version": "1.0.0",
+      "author": "NiroTronix \u003csupport@nirotronix.com\u003e",
+      "maintainer": "NiroTronix \u003csupport@nirotronix.com\u003e",
+      "sentence": "Control NiroTronix MD series brushed DC motor drivers with PWM and DIR.",
+      "paragraph": "Signed speed control, smooth ramps and safe reversing for the MD-1.15.40, MD-1.30.40, MD-2.15.40 and MD-2.15.40T boards. Runs PWM at 25 kHz for silent motors on ESP32 and on Arduino UNO pins 9 and 10.",
+      "website": "https://nirotronix.com/resources/",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/abdallah-shehawey/NiroTronixMotorDriver.git",
+      "providesIncludes": [
+        "NiroTronixMotorDriver.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/abdallah-shehawey/NiroTronixMotorDriver-1.0.0.zip",
+      "archiveFileName": "NiroTronixMotorDriver-1.0.0.zip",
+      "size": 9604,
+      "checksum": "SHA-256:16cddff1a6fa9b5eb517e0bdc3974d832bce30bc8d3a16203d565adacd37235c"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "0.1.0",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-0.1.0.zip",
+      "archiveFileName": "ocean_imu-0.1.0.zip",
+      "size": 2893459,
+      "checksum": "SHA-256:3b9571fb7dad7cdd4357bc8e69f01bed4cae23897a8935ba3605948a194e9b02"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "0.5.0",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-0.5.0.zip",
+      "archiveFileName": "ocean_imu-0.5.0.zip",
+      "size": 1129773,
+      "checksum": "SHA-256:92fc7b8d01b497167a0106f47aaf50a0fb78ee57dcdd71f083965cf8981cb95a"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "0.6.0",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-0.6.0.zip",
+      "archiveFileName": "ocean_imu-0.6.0.zip",
+      "size": 1129970,
+      "checksum": "SHA-256:e21e42282691e5097c1b71a251143f67e50f34499a0527855eef8683d7542cb6"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "0.8.5",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-0.8.5.zip",
+      "archiveFileName": "ocean_imu-0.8.5.zip",
+      "size": 1185047,
+      "checksum": "SHA-256:410eab3508ea24bf6783bf13c62b7f012fa465393bf23a3540fff03feaba3fa5"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "1.0.1",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-1.0.1.zip",
+      "archiveFileName": "ocean_imu-1.0.1.zip",
+      "size": 1239750,
+      "checksum": "SHA-256:018246f767aa1567c0eb88b252c8ced3d1d097da4d839114dd1c05f3bb5c6367"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "1.0.2",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-1.0.2.zip",
+      "archiveFileName": "ocean_imu-1.0.2.zip",
+      "size": 1249404,
+      "checksum": "SHA-256:a35df501bae8369b617f6d2f4256c69a3b2983b3ad1fb128a4987f92b48acfec"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "1.0.4",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-1.0.4.zip",
+      "archiveFileName": "ocean_imu-1.0.4.zip",
+      "size": 1256505,
+      "checksum": "SHA-256:0d8dfde1af7eb140d0d70a66fc41e9d54204e83d2ed90bd73550739f02668ba1"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "1.1.7",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-1.1.7.zip",
+      "archiveFileName": "ocean_imu-1.1.7.zip",
+      "size": 3691607,
+      "checksum": "SHA-256:8bdb809f4f0ea74d3abbe050a2cfed020a7b4560e8fcb34136a9a0f2513731e6"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.1.2",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.1.2.zip",
+      "archiveFileName": "ocean_imu-2.1.2.zip",
+      "size": 4513721,
+      "checksum": "SHA-256:e40f2431ee1470655eef5a027836dd1ad3a5ade0444b71c7c5795469bbf737d6"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.2.3",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.2.3.zip",
+      "archiveFileName": "ocean_imu-2.2.3.zip",
+      "size": 12413675,
+      "checksum": "SHA-256:98e9c0150269c738ab90f1afbf8c424691c6cf5b6e599b9e92d97a5ace7087b1"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.2.6",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.2.6.zip",
+      "archiveFileName": "ocean_imu-2.2.6.zip",
+      "size": 12871553,
+      "checksum": "SHA-256:b8055eeeb85404d3e85bfa814a14469755a3c238c762251e818c864b70cc2b7a"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.2.9",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.2.9.zip",
+      "archiveFileName": "ocean_imu-2.2.9.zip",
+      "size": 19201248,
+      "checksum": "SHA-256:d9757d2f7fc2bf6d2d480c1b4447f37a9234c8394e3011766611d54c9a6f6389"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.3.3",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.3.3.zip",
+      "archiveFileName": "ocean_imu-2.3.3.zip",
+      "size": 19203474,
+      "checksum": "SHA-256:92571b95f183287bca9cda4a4611bf73a3074661031ea42a3287ae09296eb1d3"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.3.5",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.3.5.zip",
+      "archiveFileName": "ocean_imu-2.3.5.zip",
+      "size": 19787615,
+      "checksum": "SHA-256:7a35844f33db387fa0d3d8a409529a08359835e0c8d2a4066aa60efabda70b6a"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.4.0",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.4.0.zip",
+      "archiveFileName": "ocean_imu-2.4.0.zip",
+      "size": 20898811,
+      "checksum": "SHA-256:c8bd4226cfc1cdd2553a2a2ac372f27156227010a3555f68c2a2d51cee33c623"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.4.1",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.4.1.zip",
+      "archiveFileName": "ocean_imu-2.4.1.zip",
+      "size": 22815085,
+      "checksum": "SHA-256:5624a3e2f5921291d926cfff6d112d3f9c9e3cfdb9b642142371a66671a55646"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.4.2",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.4.2.zip",
+      "archiveFileName": "ocean_imu-2.4.2.zip",
+      "size": 22884398,
+      "checksum": "SHA-256:872da571b34f034c6b330e7350cb4739ef11ac51b10a212e24c65c5027d4bd12"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.4.3",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.4.3.zip",
+      "archiveFileName": "ocean_imu-2.4.3.zip",
+      "size": 22919683,
+      "checksum": "SHA-256:b15d46ea6dad52e420a0dabd2fb9f85ac8a7ac2893dc61c20f62dbb2af245d25"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.4.4",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.4.4.zip",
+      "archiveFileName": "ocean_imu-2.4.4.zip",
+      "size": 22985815,
+      "checksum": "SHA-256:865acacd2780325ac3a8bed9c8923df4b527b7790849d0e78fef623fd7ec0d84"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.4.5",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.4.5.zip",
+      "archiveFileName": "ocean_imu-2.4.5.zip",
+      "size": 22833647,
+      "checksum": "SHA-256:7530050aad23cde9a9d26cb709f002d7e033ff02ad589b8a3b0a9dc8f7a4c261"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.5.0",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.5.0.zip",
+      "archiveFileName": "ocean_imu-2.5.0.zip",
+      "size": 22837782,
+      "checksum": "SHA-256:96912d11c3a202ba9c938c1ba4aa4a797eb0f3cbd416e2c5601143790db0c1b3"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.5.1",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.5.1.zip",
+      "archiveFileName": "ocean_imu-2.5.1.zip",
+      "size": 22838867,
+      "checksum": "SHA-256:5b98677f63aa9f751eef2ac41f43eb11dafb837b52038699b8f16d684e8240a4"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.6.0",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.6.0.zip",
+      "archiveFileName": "ocean_imu-2.6.0.zip",
+      "size": 22838990,
+      "checksum": "SHA-256:1ad60596143b4b36e52be58222ad58a739321b10c97a818700cef9934ff6535f"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.6.1",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.6.1.zip",
+      "archiveFileName": "ocean_imu-2.6.1.zip",
+      "size": 22870817,
+      "checksum": "SHA-256:75296b679e1f155f8cb3339df66af5204b75197fc5022fce53c9481b05ccb23d"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.7.1",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.7.1.zip",
+      "archiveFileName": "ocean_imu-2.7.1.zip",
+      "size": 33364739,
+      "checksum": "SHA-256:dfd3d320f678d7fa8aaeba3e2750f62f91641346fd2cb4f99f6d8379a1118c4a"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.7.2",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.7.2.zip",
+      "archiveFileName": "ocean_imu-2.7.2.zip",
+      "size": 33370152,
+      "checksum": "SHA-256:0124b8992a0d8e98140e408f79779aa8c5e850e1569a70afc27a1339054cbef8"
+    },
+    {
+      "name": "AlashBME280",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy BME280 / BMP280 sensor library: temperature, humidity, pressure, altitude, dew point. Auto-detects address, clear error messages, no dependencies.",
+      "paragraph": "Reads BME280 and BMP280 over I2C with a one-line begin(): finds the address (0x76/0x77) and the chip itself, explains wiring problems in Russian, Kazakh or English, and measures only when needed. Works on Arduino AVR, ESP32, ESP8266 and other boards. Needs only the built-in Wire library. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashBME280",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashBME280.git",
+      "providesIncludes": [
+        "AlashBME280.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashBME280-1.0.0.zip",
+      "archiveFileName": "AlashBME280-1.0.0.zip",
+      "size": 21674,
+      "checksum": "SHA-256:414bfe67270689870e79f2b7feab0e901f492fbdae60cdb732ae5fc86d31c155"
     }
   ]
 }
