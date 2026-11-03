@@ -739768,6 +739768,31 @@
       "checksum": "SHA-256:365b8e8b5c03192a9d393c429458b7bf1d6a0bdb00ee583f3ff43511acd17d6b"
     },
     {
+      "name": "libasm",
+      "version": "1.6.71",
+      "author": "Tadashi G. Takaoka",
+      "maintainer": "Tadashi G. Takaoka \u003ctadashi.g.takaoka@gmail.com\u003e",
+      "license": "Apache-2.0",
+      "sentence": "Cross assembler and disassembler for retro CPUs",
+      "paragraph": "With this, you can integrate assembler or disassembler into your sketch. Supported CPUs are AM29000, C166, CDP1802, CP1600, F3850, H16, H8300, H8500, I8048, I8051, I8080, I8086, I8096, I960, INS8060, INS8070, MC6800, MC68000, MC6805, MC6809, MC68HC12, MC68HC16, MN1610, MOS6502, NS32000, PDP11, PDP8, SCN2650, SUPERH, TLCS90, TLCS900, TMS320, TMS320F, TMS370, TMS7000, TMS9900, Z280, Z380, Z8, Z80, Z8000",
+      "website": "https://github.com/tgtakaoka/libasm",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tgtakaoka/libasm.git",
+      "providesIncludes": [
+        "libasm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.71.zip",
+      "archiveFileName": "libasm-1.6.71.zip",
+      "size": 14235093,
+      "checksum": "SHA-256:e72705525265407dd860a839aded8d933821e18928b5fada6daaa4e9cb7adebe"
+    },
+    {
       "name": "SparkFun AVR ISP Programming Library",
       "version": "1.0.0",
       "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
@@ -743227,6 +743252,30 @@
       "archiveFileName": "SHT2x-0.5.5.zip",
       "size": 45693,
       "checksum": "SHA-256:e0cee33a45668bb622874ae9a88c80132ef68f6be118f84062cd017e9cf850e7"
+    },
+    {
+      "name": "SHT2x",
+      "version": "0.5.6",
+      "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "sentence": "Arduino library for the I2C SHT20 SHT21 SHT25 series temperature and humidity sensor.",
+      "paragraph": "Derived classes for HTU20D(F), HTU21D(F), Si7013, Si7020, Si7021, GY21.",
+      "website": "https://github.com/RobTillaart/SHT2x",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RobTillaart/SHT2x.git",
+      "providesIncludes": [
+        "SHT2x.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/SHT2x-0.5.6.zip",
+      "archiveFileName": "SHT2x-0.5.6.zip",
+      "size": 46065,
+      "checksum": "SHA-256:7ccd8a7f907ab0b4b6026e5f77fc2327869400d28c11c2cda98c7f9869641ac3"
     },
     {
       "name": "DFRobot_VL6180X",
@@ -902928,6 +902977,72 @@
       "checksum": "SHA-256:7903d6fe8f8e27a754376c4eaec0a7cccf77515a86c6e686e7370c067673397f"
     },
     {
+      "name": "IotKernel",
+      "version": "0.3.3",
+      "author": "Maxime Moreillon",
+      "maintainer": "Maxime Moreillon",
+      "sentence": "A library for basic functions of IoT devices",
+      "paragraph": "Provides basic IoT functions like Wifi, MQTT, configuration via Web UI, OTA updates",
+      "website": "https://github.com/maximemoreillon/iot-kernel",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/maximemoreillon/iot-kernel.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/maximemoreillon/IotKernel-0.3.3.zip",
+      "archiveFileName": "IotKernel-0.3.3.zip",
+      "size": 13507,
+      "checksum": "SHA-256:bf95829da57b7568594aebe8d4a8bdf6c830f31962080c8a420f90af9c46c603"
+    },
+    {
+      "name": "IotKernel",
+      "version": "0.3.4",
+      "author": "Maxime Moreillon",
+      "maintainer": "Maxime Moreillon",
+      "sentence": "A library for basic functions of IoT devices",
+      "paragraph": "Provides basic IoT functions like Wifi, MQTT, configuration via Web UI, OTA updates",
+      "website": "https://github.com/maximemoreillon/iot-kernel",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/maximemoreillon/iot-kernel.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/maximemoreillon/IotKernel-0.3.4.zip",
+      "archiveFileName": "IotKernel-0.3.4.zip",
+      "size": 13666,
+      "checksum": "SHA-256:2735eeb24595ced41672a3953d9d41ee3eaca3c18288b9f92391caeb7fb3c268"
+    },
+    {
+      "name": "IotKernel",
+      "version": "0.3.5",
+      "author": "Maxime Moreillon",
+      "maintainer": "Maxime Moreillon",
+      "sentence": "A library for basic functions of IoT devices",
+      "paragraph": "Provides basic IoT functions like Wifi, MQTT, configuration via Web UI, OTA updates",
+      "website": "https://github.com/maximemoreillon/iot-kernel",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/maximemoreillon/iot-kernel.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/maximemoreillon/IotKernel-0.3.5.zip",
+      "archiveFileName": "IotKernel-0.3.5.zip",
+      "size": 14263,
+      "checksum": "SHA-256:cd585433d37def92bd028cbed5a2d61fd55d8a1e20e1f529ba91dd7850d10c10"
+    },
+    {
       "name": "Escon",
       "version": "1.0.0",
       "author": "Dzulfikar Sadid",
@@ -914631,6 +914746,30 @@
       "archiveFileName": "hsmcpp-1.0.2.zip",
       "size": 95901,
       "checksum": "SHA-256:5d18d9c618224c24f9277f719c537fd0fa382e6425168668d33d1b9899f2b316"
+    },
+    {
+      "name": "hsmcpp",
+      "version": "1.0.6",
+      "author": "Ihor Krechetov \u003cihor.krechetov.public@gmail.com\u003e",
+      "maintainer": "Ihor Krechetov \u003cihor.krechetov.public@gmail.com\u003e",
+      "sentence": "C++ library for Hierarchical State Machines (HSM, FSM)",
+      "paragraph": "C++ library for hierarchical state machines / finite state machines. Provides a code-free visual approach for defining state machine logic using GUI editors with automatic code and diagram generation. Check out https://hsmcpp.readthedocs.io for detailed documentation.",
+      "website": "https://hsmcpp.readthedocs.io",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/igor-krechetov/hsmcpp-arduinoide.git",
+      "providesIncludes": [
+        "hsmcpp.hpp"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/igor-krechetov/hsmcpp-1.0.6.zip",
+      "archiveFileName": "hsmcpp-1.0.6.zip",
+      "size": 101274,
+      "checksum": "SHA-256:7e2151583489ecc6fb2d99cd0c39b372038f27d69b31fe3dbf29f16250125ba5"
     },
     {
       "name": "ms5540c",
@@ -946001,6 +946140,33 @@
       "archiveFileName": "SunFounder_AI_Camera-1.2.2.zip",
       "size": 25393,
       "checksum": "SHA-256:f7b09299b83b9c9f65330522e61fe58003f8e904544300b8b914fb4d0d23fc1e"
+    },
+    {
+      "name": "SunFounder AI Camera",
+      "version": "1.2.3",
+      "author": "SunFounder",
+      "maintainer": "SunFounder",
+      "sentence": "SunFounder AI Camera library.",
+      "paragraph": "Support Library for SunFounder ESP32 Cam AI Camera.",
+      "website": "https://github.com/sunfounder/SunFounder_Ai_Camera",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sunfounder/SunFounder_Ai_Camera.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=6.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/sunfounder/SunFounder_AI_Camera-1.2.3.zip",
+      "archiveFileName": "SunFounder_AI_Camera-1.2.3.zip",
+      "size": 26534,
+      "checksum": "SHA-256:da72e9aa338a360bdb9525f349489567b51288ed56abdd3266af69dc3835c939"
     },
     {
       "name": "DFRobot_GP8XXX",
@@ -1025031,6 +1025197,39 @@
       "checksum": "SHA-256:1a181a22246da57c379ca99b67ac57cd6d23cac1f85ad626bccf5acfe2523485"
     },
     {
+      "name": "IOSignal",
+      "version": "9.0.0",
+      "author": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "maintainer": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "sentence": "IOSignal Arduino Client.",
+      "paragraph": "Support Uno Ethernet,Uno R4 WiFi, ESP8266 and ESP32.",
+      "website": "https://github.com/remocons/iosignal-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/remocons/iosignal-arduino.git",
+      "dependencies": [
+        {
+          "name": "Boho",
+          "version": "\u003e=1.0.0"
+        },
+        {
+          "name": "Crypto"
+        },
+        {
+          "name": "Bounce2"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-9.0.0.zip",
+      "archiveFileName": "IOSignal-9.0.0.zip",
+      "size": 1423629,
+      "checksum": "SHA-256:95fcb339ba4029696a8485eb750b1673f3a2fddc79613ccf9b90cef6ee9134b5"
+    },
+    {
       "name": "SpeeduinoGL",
       "version": "0.0.1",
       "author": "Benjamin Gombala",
@@ -1029863,6 +1030062,57 @@
       "archiveFileName": "Remocon-4.0.0.zip",
       "size": 1426396,
       "checksum": "SHA-256:346168940fec7953e55adea34dc99e21500fe5017b850454a4553c2ddd855774"
+    },
+    {
+      "name": "Remocon",
+      "version": "9.0.0",
+      "author": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "maintainer": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "sentence": "IOSignal Arduino examples for remocon.kr and test.iosignal.net.",
+      "paragraph": "Control DIY Arduino IoT remote control system with the web app.",
+      "website": "https://github.com/remocons/remocon-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/remocons/remocon-arduino.git",
+      "dependencies": [
+        {
+          "name": "IOSignal",
+          "version": "\u003e=9.0.0"
+        },
+        {
+          "name": "Crypto"
+        },
+        {
+          "name": "Boho"
+        },
+        {
+          "name": "Bounce2"
+        },
+        {
+          "name": "U8g2"
+        },
+        {
+          "name": "IRremote"
+        },
+        {
+          "name": "WiFiManager"
+        },
+        {
+          "name": "FastLED"
+        },
+        {
+          "name": "Ethernet"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/remocons/Remocon-9.0.0.zip",
+      "archiveFileName": "Remocon-9.0.0.zip",
+      "size": 1427716,
+      "checksum": "SHA-256:0a95f33128ddb5807edcf9069649359f729af462000d073ae1afe69abb5fadac"
     },
     {
       "name": "SimplifiedTimer",
@@ -1129447,6 +1129697,32 @@
       "archiveFileName": "ConnectionHelper-3.0.17.zip",
       "size": 40249,
       "checksum": "SHA-256:c9dbb5315999e2ec3ff05698c0a44f6cdfdb629b5e70dbfb6a3e7606a8fadf72"
+    },
+    {
+      "name": "ConnectionHelper",
+      "version": "3.0.18",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "MIT",
+      "sentence": "Library for setting up WiFi and OTA (Over The Air)",
+      "paragraph": "Reduce boilerplate in WiFi and OTA setup.",
+      "website": "https://github.com/Johboh/ConnectionHelper",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/ConnectionHelper.git",
+      "providesIncludes": [
+        "OtaHelper.h",
+        "WiFiHelper.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ConnectionHelper-3.0.18.zip",
+      "archiveFileName": "ConnectionHelper-3.0.18.zip",
+      "size": 38080,
+      "checksum": "SHA-256:f662a778742299c5718621b6002a7ffc485bdf3f6e86be4a0c4e81cde42b9001"
     },
     {
       "name": "MQTTRemote",
@@ -1243141,6 +1243417,27 @@
       "checksum": "SHA-256:3dbc8eed7abb827e9539613e2a1a87f87d864bf6e9d44ea7d4a49e25415cf172"
     },
     {
+      "name": "MQTTESP8266",
+      "version": "7.0.2",
+      "author": "Petr B.",
+      "maintainer": "Petr B.",
+      "sentence": "Lightweight MQTT client library for Arduino using ESP8266 or ESP32 AT command firmware.",
+      "paragraph": "Provides an MQTT client for Arduino boards communicating with ESP8266 or ESP32 modules via AT commands. Supports MQTT 3.1/3.1.1, publish/subscribe, QoS 0/1, and WiFi reconnection. Designed for resource-constrained devices.",
+      "website": "https://github.com/Zefek/MQTTESP8266",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Zefek/MQTTESP8266.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Zefek/MQTTESP8266-7.0.2.zip",
+      "archiveFileName": "MQTTESP8266-7.0.2.zip",
+      "size": 68095,
+      "checksum": "SHA-256:342bdf2c7d9780ef478dc96b7f344766ebb18d0609ac4e11a18fdf983dc88cf8"
+    },
+    {
       "name": "microdsp",
       "version": "1.0.0",
       "author": "Aneesh Arnav Chikkala  \u003caneesharnavchikkala@gmail.com\u003e",
@@ -1278687,6 +1278984,37 @@
       "checksum": "SHA-256:8a526cec7821b3836f921adc6456d3e9d7f6e65e17b7c03bf80441e4458acbe4"
     },
     {
+      "name": "BLE Serial - NUS",
+      "version": "1.3.3",
+      "author": "Urs Utzinger",
+      "maintainer": "Urs Utzinger",
+      "sentence": "Library creating a Nordic UART Service on a BLE device. Server mode.",
+      "paragraph": "Provides Serial over BLE. This is not a serial port emulation but a Nordic UART Service (NUS) implementation using the NimBLE-Arduino library.",
+      "website": "https://github.com/uutzinger/Arduino_BLESerial",
+      "category": "Uncategorized",
+      "architectures": [],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/uutzinger/Arduino_BLESerial.git",
+      "dependencies": [
+        {
+          "name": "NimBLE-Arduino"
+        },
+        {
+          "name": "UUtzinger_RingBuffer"
+        },
+        {
+          "name": "UUtzinger_logger",
+          "version": "\u003e=2.2.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/uutzinger/BLE_Serial___NUS-1.3.3.zip",
+      "archiveFileName": "BLE_Serial___NUS-1.3.3.zip",
+      "size": 80422,
+      "checksum": "SHA-256:8939669cb3fc7149dbff932adaaa0b0fb5e0bbce26053a5c437784f0177afead"
+    },
+    {
       "name": "EspHelper",
       "version": "0.1.1",
       "author": "TANAKA Masayuki",
@@ -1309748,6 +1310076,44 @@
       "checksum": "SHA-256:dfa05ac5a7c4ef0861873b72ff4ae02f24ec3e3c127e360c9a80ae18b3a3c90b"
     },
     {
+      "name": "Ryzobee",
+      "version": "2.0.0",
+      "author": "Ryzobee Team",
+      "maintainer": "Ryzobee Team",
+      "sentence": "Arduino library for Ryzobee ESP32 boards.",
+      "paragraph": "Provides easy-to-use APIs for Ryzobee ESP32 development boards, including onboard LEDs, sensors, buttons and battery monitoring.",
+      "website": "https://github.com/Ryzobee/Ryzobee_arduino_esp32",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Ryzobee/Ryzobee_arduino_esp32.git",
+      "providesIncludes": [
+        "Ryzobee.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit NeoPixel",
+          "version": "\u003e=1.12.3"
+        },
+        {
+          "name": "STM32duino LIS2DW12",
+          "version": "\u003e=2.1.1"
+        },
+        {
+          "name": "AnimatedGIF",
+          "version": "\u003e=2.2.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Ryzobee/Ryzobee-2.0.0.zip",
+      "archiveFileName": "Ryzobee-2.0.0.zip",
+      "size": 629378,
+      "checksum": "SHA-256:eb30d5f3baf070256883a6c9886fa83a754fc90af045c1e5636b171bebabfdf6"
+    },
+    {
       "name": "HarborScaleSDK",
       "version": "0.1.4",
       "author": "Harbor Scale \u003csupport@harborscale.com\u003e",
@@ -1335091,6 +1335457,30 @@
       "archiveFileName": "ICM56622-1.0.1.zip",
       "size": 474204,
       "checksum": "SHA-256:65ef1ab5750f88c32f385ee180380e742693437431e711784bf8decf3d9382d8"
+    },
+    {
+      "name": "ICM56622",
+      "version": "2.0.0",
+      "author": "TDK/Invensense",
+      "maintainer": "TDK/Invensense",
+      "sentence": "Allows to read accelerometer, gyroscope and temperature sensors from an ICM56622 Invensence IMU device.",
+      "paragraph": "This library allows to easily configure and log accelerometer, gyroscope and temperature data from an ICM56622 device, using the SPI or the I2C interface. It also provides embedded algorithms such as WoM and LowG",
+      "website": "https://github.com/tdk-invn-oss/motion.arduino.ICM56622",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tdk-invn-oss/motion.arduino.ICM56622.git",
+      "providesIncludes": [
+        "ICM566xx.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/ICM56622-2.0.0.zip",
+      "archiveFileName": "ICM56622-2.0.0.zip",
+      "size": 473436,
+      "checksum": "SHA-256:17d832c4d087a08c061c1fd4d6e23f323bd3b69823e91c3fd132e15f4165e93d"
     },
     {
       "name": "ICM45606",
@@ -1385560,6 +1385950,59 @@
       "checksum": "SHA-256:7badaefab3e9a9548d2a89dd0729c46e6a20eb68ed05d9d48ba24cd560931311"
     },
     {
+      "name": "NetworkManager",
+      "version": "0.5.3",
+      "author": "Péter Soós \u003chttps://github.com/soosp\u003e",
+      "maintainer": "Péter Soós \u003chttps://github.com/soosp\u003e",
+      "sentence": "Priority-based network connection manager with automatic fallback.",
+      "paragraph": "Supports WiFi and Ethernet on ESP32, ESP8266 and AVR. Manages multiple network adapters with priority-based fallback, NTP configuration and thread-safe operation.",
+      "website": "https://github.com/soosp/NetworkManager",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/NetworkManager.git",
+      "providesIncludes": [
+        "NetworkManager.h",
+        "NetworkManagerCore.h",
+        "NetworkAdapter.h",
+        "EthAdapter.h",
+        "WiFiAdapter.h",
+        "ESP32EthAdapter.h",
+        "ESP32WiFiAdapter.h",
+        "ESP8266EthAdapter.h",
+        "ESP8266WiFiAdapter.h",
+        "AVREthernetAdapter.h",
+        "NetworkManagerNtpSyncHook.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Host"
+        },
+        {
+          "name": "NetworkProfile"
+        },
+        {
+          "name": "Preferences"
+        },
+        {
+          "name": "EEPROMPreferences"
+        },
+        {
+          "name": "Ethernet"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.5.3.zip",
+      "archiveFileName": "NetworkManager-0.5.3.zip",
+      "size": 162065,
+      "checksum": "SHA-256:1a087ef91a89eb567c84ffd305c3f09a9128606841964c2c83fd9b63b6b62374"
+    },
+    {
       "name": "MPU6050_Nexa",
       "version": "1.0.5",
       "author": "Nesara Thejan",
@@ -1393995,6 +1394438,151 @@
       "checksum": "SHA-256:1f9abae12a219831f269e58f59c7da8dc3deb955b9b49fd620a752ab4617b6c9"
     },
     {
+      "name": "Hyperwisor-IOT",
+      "version": "3.3.0",
+      "author": "NIKOLAINDUSTRY",
+      "maintainer": "NIKOLAINDUSTRY \u003csupport@nikolaindustry.com\u003e",
+      "sentence": "A powerful abstraction layer for ESP32-based IoT devices.",
+      "paragraph": "Handles Wi-Fi provisioning, real-time communication via nikolaindustry-realtime, OTA updates, GPIO management, and structured JSON command execution out of the box.",
+      "website": "https://github.com/nikolaindustry/hyperwisor-iot-arduino-library",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/nikolaindustry/hyperwisor-iot-arduino-library.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "WebSockets"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/nikolaindustry/Hyperwisor_IOT-3.3.0.zip",
+      "archiveFileName": "Hyperwisor_IOT-3.3.0.zip",
+      "size": 76428,
+      "checksum": "SHA-256:00e916b959228964c42e3e220408485b37adf4243fdab79f226ea0076b30a6cb"
+    },
+    {
+      "name": "Hyperwisor-IOT",
+      "version": "3.3.1",
+      "author": "NIKOLAINDUSTRY",
+      "maintainer": "NIKOLAINDUSTRY \u003csupport@nikolaindustry.com\u003e",
+      "sentence": "Connect an ESP32 to the Hyperwisor IoT platform in a few lines.",
+      "paragraph": "Wi-Fi provisioning with a captive setup portal, an authenticated real-time channel, OTA updates, GPIO control and structured JSON commands. Every device generates an ECDSA P-256 keypair on-chip and proves its identity before any data flows; the private key never leaves the ESP32.",
+      "website": "https://github.com/nikolaindustry/hyperwisor-iot-arduino-library",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/nikolaindustry/hyperwisor-iot-arduino-library.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "WebSockets"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/nikolaindustry/Hyperwisor_IOT-3.3.1.zip",
+      "archiveFileName": "Hyperwisor_IOT-3.3.1.zip",
+      "size": 76590,
+      "checksum": "SHA-256:890eeca47cb032276a96e7f6a74499bacfbbb209d7dae27cfd720446920ad2eb"
+    },
+    {
+      "name": "Hyperwisor-IOT",
+      "version": "3.3.2",
+      "author": "NIKOLAINDUSTRY",
+      "maintainer": "NIKOLAINDUSTRY \u003csupport@nikolaindustry.com\u003e",
+      "sentence": "Connect an ESP32 to the Hyperwisor IoT platform in a few lines.",
+      "paragraph": "Wi-Fi provisioning with a captive setup portal, an authenticated real-time channel, OTA updates, GPIO control and structured JSON commands. Every device generates an ECDSA P-256 keypair on-chip and proves its identity before any data flows; the private key never leaves the ESP32.",
+      "website": "https://github.com/nikolaindustry/hyperwisor-iot-arduino-library",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/nikolaindustry/hyperwisor-iot-arduino-library.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "WebSockets"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/nikolaindustry/Hyperwisor_IOT-3.3.2.zip",
+      "archiveFileName": "Hyperwisor_IOT-3.3.2.zip",
+      "size": 76901,
+      "checksum": "SHA-256:d0e9e3b04eee94953023150706a8734a4e0ae1ec968125962ec5f564bdcff69a"
+    },
+    {
+      "name": "Hyperwisor-IOT",
+      "version": "3.3.3",
+      "author": "NIKOLAINDUSTRY",
+      "maintainer": "NIKOLAINDUSTRY \u003csupport@nikolaindustry.com\u003e",
+      "sentence": "Connect an ESP32 to the Hyperwisor IoT platform in a few lines.",
+      "paragraph": "Wi-Fi provisioning with a captive setup portal, an authenticated real-time channel, OTA updates, GPIO control and structured JSON commands. Every device generates an ECDSA P-256 keypair on-chip and proves its identity before any data flows; the private key never leaves the ESP32.",
+      "website": "https://github.com/nikolaindustry/hyperwisor-iot-arduino-library",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/nikolaindustry/hyperwisor-iot-arduino-library.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "WebSockets"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/nikolaindustry/Hyperwisor_IOT-3.3.3.zip",
+      "archiveFileName": "Hyperwisor_IOT-3.3.3.zip",
+      "size": 79877,
+      "checksum": "SHA-256:1f434f1e04f2b201882ab53ff2f5318faf92b22625a7d27224e5aa2cb29f45d2"
+    },
+    {
+      "name": "Hyperwisor-IOT",
+      "version": "3.3.4",
+      "author": "NIKOLAINDUSTRY",
+      "maintainer": "NIKOLAINDUSTRY \u003csupport@nikolaindustry.com\u003e",
+      "sentence": "Connect an ESP32 to the Hyperwisor IoT platform in a few lines.",
+      "paragraph": "Wi-Fi provisioning with a captive setup portal, an authenticated real-time channel, OTA updates, GPIO control and structured JSON commands. Every device generates an ECDSA P-256 keypair on-chip and proves its identity before any data flows; the private key never leaves the ESP32.",
+      "website": "https://github.com/nikolaindustry/hyperwisor-iot-arduino-library",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/nikolaindustry/hyperwisor-iot-arduino-library.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "WebSockets"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/nikolaindustry/Hyperwisor_IOT-3.3.4.zip",
+      "archiveFileName": "Hyperwisor_IOT-3.3.4.zip",
+      "size": 80706,
+      "checksum": "SHA-256:763289fa4c13b07be62065ed608a8a7eb852823ebd767dc4d90af80ac915ac4c"
+    },
+    {
       "name": "AlloyLogger",
       "version": "0.5.0",
       "author": "Hugh Phan",
@@ -1399456,6 +1400044,80 @@
       "archiveFileName": "AsyncConfigPortal-0.18.0.zip",
       "size": 216150,
       "checksum": "SHA-256:eae74ae770b1ca33146437b83583a6acd43e29027b6b0b45896c7afcba6147e5"
+    },
+    {
+      "name": "AsyncConfigPortal",
+      "version": "0.18.1",
+      "author": "Peter Soos",
+      "maintainer": "Peter Soos",
+      "license": "MIT",
+      "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+      "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+      "website": "https://github.com/soosp/AsyncConfigPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncConfigPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "HttpDigestAuth"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.18.1.zip",
+      "archiveFileName": "AsyncConfigPortal-0.18.1.zip",
+      "size": 219370,
+      "checksum": "SHA-256:41a27a9020ce9f1dbf4ef2707d4415f6fa812bd836b7307569218ebf1d780e26"
+    },
+    {
+      "name": "AsyncConfigPortal",
+      "version": "0.18.2",
+      "author": "Peter Soos",
+      "maintainer": "Peter Soos",
+      "license": "MIT",
+      "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+      "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+      "website": "https://github.com/soosp/AsyncConfigPortal",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/AsyncConfigPortal.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "HttpDigestAuth"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.18.2.zip",
+      "archiveFileName": "AsyncConfigPortal-0.18.2.zip",
+      "size": 221136,
+      "checksum": "SHA-256:b3ba8f0f51210bb2210bd57c60e837dbf3d3271ba654e369ea5749e0feeca9b8"
     },
     {
       "name": "AsyncWiFiPortal",
@@ -1407083,6 +1407745,32 @@
       "checksum": "SHA-256:2b10b2eef123846bf51a4a47271679879dc6db90f4b2d97bfe43ef37c9521bc0"
     },
     {
+      "name": "Preflight",
+      "version": "1.1.1",
+      "author": "James Cartwright",
+      "maintainer": "James Cartwright",
+      "sentence": "Captive-portal WiFi setup, web logger, and an OTA update page with rollback for ESP32 projects.",
+      "paragraph": "Network scanning, a captive-portal setup page, NVS-stored credentials, mDNS, a buffered logger with a web view and crash reports, an OTA update page with automatic rollback, and an optional LVGL boot screen. Web assets are embedded; no filesystem partition needed.",
+      "website": "https://github.com/diydoohickeys/Preflight-Arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/diydoohickeys/Preflight-Arduino.git",
+      "providesIncludes": [
+        "WiFiSetupManager.h",
+        "OTAManager.h",
+        "Logger.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/diydoohickeys/Preflight-1.1.1.zip",
+      "archiveFileName": "Preflight-1.1.1.zip",
+      "size": 537950,
+      "checksum": "SHA-256:97def6189c91cb0c4dedeb3f458c2be60a3f3c859ecf561e43c6b7754566f8ad"
+    },
+    {
       "name": "ST25R3916-NFC-RFAL",
       "version": "1.0.1",
       "author": "STMicroelectronics, Arduino fork contributors",
@@ -1409038,6 +1409726,27 @@
       "archiveFileName": "Periph-1.2.1.zip",
       "size": 620106,
       "checksum": "SHA-256:f8b6ec9da9e0cc7fd8633ba45cb2414a313b9ee9b400e887f3f4e2da85a7b4ee"
+    },
+    {
+      "name": "Periph",
+      "version": "1.3.0",
+      "author": "Till Uhde",
+      "maintainer": "Till Uhde \u003ctill@uhde.com\u003e",
+      "sentence": "Peripheral chip drivers for Arduino (I2C/SPI).",
+      "paragraph": "Drivers for sensors and actuators connected via I2C or SPI transports.",
+      "website": "https://github.com/tuhde/Periph",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tuhde/Periph-Arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/tuhde/Periph-1.3.0.zip",
+      "archiveFileName": "Periph-1.3.0.zip",
+      "size": 833891,
+      "checksum": "SHA-256:689e95a49b241de7a32ce375853733f2b989dc5ee26f9c036aaec099ff3c6334"
     },
     {
       "name": "eOS3",
@@ -1419210,6 +1419919,30 @@
       "checksum": "SHA-256:9e52f6e52bb414c5b6daefc696e9ec26059b963a9968e9524bfe9412152f6e63"
     },
     {
+      "name": "Pinscope",
+      "version": "0.2.11",
+      "author": "Filip Code \u003chello@pinscope.dev\u003e",
+      "maintainer": "Filip Code \u003chello@pinscope.dev\u003e",
+      "sentence": "Reach your ESP32's web server from anywhere, with live logs, crash reports and OTA updates, in 9.4 KB of RAM.",
+      "paragraph": "One outbound connection to the Pinscope service gives the device's own web server an HTTPS address and carries its logs, metrics, crash reports and firmware updates. No port forwarding, no TLS library on the device. Needs a Pinscope account (three devices free).",
+      "website": "https://pinscope.dev/docs",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pinscope-dev/pinscope-esp.git",
+      "providesIncludes": [
+        "pinscope.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.11.zip",
+      "archiveFileName": "Pinscope-0.2.11.zip",
+      "size": 56620,
+      "checksum": "SHA-256:9811c3e8aec323a2b1186f09ce6996bbe43b7f57bf6f9a0dcdc8831b34d10f08"
+    },
+    {
       "name": "lvgl_theme_shadcn",
       "version": "0.1.1",
       "author": "Alix ANNERAUD \u003calix@anneraud.fr\u003e",
@@ -1424323,6 +1425056,57 @@
       "checksum": "SHA-256:8c9edf4c931c7e4344d32d562c04ad9d1d22c966f33e96252928657c3470f999"
     },
     {
+      "name": "DevLab_Codec_ES",
+      "version": "0.2.0",
+      "author": "Cesar Bautista, Adrián Rabadán",
+      "maintainer": "UNIT Electronics",
+      "sentence": "ES-series audio codec support for UNIT DevLab projects.",
+      "paragraph": "Configures ES8311 I2C and I2S pins for microphone capture and full-duplex PCM playback. MP3 examples use Audio Tools and LibHelix.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_codec_library",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_codec_library.git",
+      "providesIncludes": [
+        "DevLab_Codec_ES.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLab_AudioDriver",
+          "version": "\u003e=0.3.1"
+        },
+        {
+          "name": "DevLab_AudioTools",
+          "version": "\u003e=1.2.6"
+        },
+        {
+          "name": "DevLab_LibHelix",
+          "version": "\u003e=0.9.4"
+        },
+        {
+          "name": "DevLab_BL",
+          "version": "\u003e=1.1.0"
+        },
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit SSD1306"
+        },
+        {
+          "name": "Adafruit NeoPixel"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_Codec_ES-0.2.0.zip",
+      "archiveFileName": "DevLab_Codec_ES-0.2.0.zip",
+      "size": 80939,
+      "checksum": "SHA-256:fbcadae8902b3360532ac8647672b66aa592c51882ed01284a850c09f440645c"
+    },
+    {
       "name": "DevLab_AudioTools",
       "version": "1.2.6",
       "author": "Phil Schatzmann, Cesar Bautista, Adrián Rabadán",
@@ -1424345,6 +1425129,30 @@
       "archiveFileName": "DevLab_AudioTools-1.2.6.zip",
       "size": 25233545,
       "checksum": "SHA-256:c44a9e6ac96801beb677f0f44073642b9a48418f0f736dbd6d989d30e8ce929d"
+    },
+    {
+      "name": "DevLab_AudioTools",
+      "version": "1.2.7",
+      "author": "Phil Schatzmann, Cesar Bautista, Adrián Rabadán",
+      "maintainer": "Phil Schatzmann, UNIT Electronics",
+      "sentence": "Some useful audio processing classes",
+      "paragraph": "Arduino Audio Tools (Music Player, Music Recorder supporting I2S, Microphones, DAC, ADC, A2DP, Url), MP3 Player, AAC Player",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_fork_arduino_audio_tools",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_fork_arduino_audio_tools.git",
+      "providesIncludes": [
+        "DevLab_AudioTools.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AudioTools-1.2.7.zip",
+      "archiveFileName": "DevLab_AudioTools-1.2.7.zip",
+      "size": 25233803,
+      "checksum": "SHA-256:892ad795745f70b25fd9570cc0f2640d9f70b80a11bb25d911577c6943b647d8"
     },
     {
       "name": "DevLab_TrafficLights",
@@ -1425542,6 +1426350,30 @@
       "checksum": "SHA-256:6d89b1a7ce4f941b3b0e47acbded63811f925206467492344b34e9b0a3e0a0a9"
     },
     {
+      "name": "lilty",
+      "version": "0.1.2",
+      "author": "lilty contributors",
+      "maintainer": "lilty contributors \u003czupub@163.com\u003e",
+      "sentence": "GUI framework for 128x64 monochrome OLEDs: focus navigation, layer stack, spring animation.",
+      "paragraph": "Spring-driven animation, a layer stack, focus navigation and a small widget set. Display and input backends live in their own folders, so porting to another screen or another set of keys means adding one file each and leaving the core untouched. C++ rewrite of the lilt project by chhongzh (https://github.com/chhongzh/lilt).",
+      "website": "https://github.com/zupub/lilty",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/zupub/lilty.git",
+      "providesIncludes": [
+        "lilty.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/zupub/lilty-0.1.2.zip",
+      "archiveFileName": "lilty-0.1.2.zip",
+      "size": 9624173,
+      "checksum": "SHA-256:c8af470c550254bd32771b6613b5031b8b59cce3e55298a09b7f8d8776e527f5"
+    },
+    {
       "name": "CZ-N706B-Arduino",
       "version": "0.0.1",
       "author": "CodeZoo",
@@ -1426499,6 +1427331,2399 @@
       "archiveFileName": "AlashBME280-1.0.0.zip",
       "size": 21674,
       "checksum": "SHA-256:414bfe67270689870e79f2b7feab0e901f492fbdae60cdb732ae5fc86d31c155"
+    },
+    {
+      "name": "PIDcon",
+      "version": "1.0.0",
+      "author": "Guilherme Keiel",
+      "maintainer": "Guilherme Keiel",
+      "sentence": "Digital PID controller library for Arduino.",
+      "paragraph": "Supports Euler and Tustin discretization methods, derivative filtering, and conditional integration for anti-windup protection.",
+      "website": "https://github.com/gkeiel/PIDcon",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/gkeiel/PIDcon.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/gkeiel/PIDcon-1.0.0.zip",
+      "archiveFileName": "PIDcon-1.0.0.zip",
+      "size": 5668,
+      "checksum": "SHA-256:875e02918153c7d6a5073e15e13c61ce89b6e51137baf7fa2ef0d5f89229e015"
+    },
+    {
+      "name": "PIDcon",
+      "version": "1.1.0",
+      "author": "Guilherme Keiel",
+      "maintainer": "Guilherme Keiel",
+      "sentence": "Digital PID controller library for Arduino.",
+      "paragraph": "Supports Euler and Tustin discretization methods, derivative filtering, and conditional integration for anti-windup protection.",
+      "website": "https://github.com/gkeiel/PIDcon",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/gkeiel/PIDcon.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/gkeiel/PIDcon-1.1.0.zip",
+      "archiveFileName": "PIDcon-1.1.0.zip",
+      "size": 5820,
+      "checksum": "SHA-256:75193fa19a874c6809c1207a1b100674b0cc03592e0282c9eb0d27759c233b7a"
+    },
+    {
+      "name": "ParoClaw",
+      "version": "0.2.1",
+      "author": "Dhruv Kotian",
+      "maintainer": "Dhruv Kotian",
+      "sentence": "An ESP32-S3 local AI agent with Ollama tool calling and persistent memory.",
+      "paragraph": "Provides natural-language interaction with allowlisted hardware tools, GPIO and ADC access, PWM, NeoPixel control, LittleFS event memory, and Ollama chat integration.",
+      "website": "https://github.com/dhruvkotian/ParoClaw",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dhruvkotian/ParoClaw.git",
+      "providesIncludes": [
+        "ParoClaw.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "Adafruit NeoPixel"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dhruvkotian/ParoClaw-0.2.1.zip",
+      "archiveFileName": "ParoClaw-0.2.1.zip",
+      "size": 57913,
+      "checksum": "SHA-256:c475ddd633094861b442f724f9694525afb84e21107924f737e5ce5c77396662"
+    },
+    {
+      "name": "Yoke",
+      "version": "0.0.1",
+      "author": "Ryzobee Team",
+      "maintainer": "Ryzobee Team",
+      "sentence": "Arduino library for the Yoke series of Ryzobee development boards.",
+      "paragraph": "Provides easy-to-use Yoker series peripheral APIs for Ryzobee ESP32 development boards.",
+      "website": "https://github.com/Ryzobee/Yoke_arduino_lib",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Ryzobee/Yoke_arduino_lib.git",
+      "providesIncludes": [
+        "ryzobee_yoke.hpp"
+      ],
+      "dependencies": [
+        {
+          "name": "LovyanGFX",
+          "version": "\u003e=1.2.19"
+        },
+        {
+          "name": "AnimatedGIF",
+          "version": "\u003e=2.2.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Ryzobee/Yoke-0.0.1.zip",
+      "archiveFileName": "Yoke-0.0.1.zip",
+      "size": 36694,
+      "checksum": "SHA-256:bf622b85948235dc77c04d6892a437db217af49b1c7ad262be75ca4545e201de"
+    },
+    {
+      "name": "AlashPID",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "PID controller without global variables: out = pid.compute(input). Anti-windup, no derivative kick, filter, slew limit, bumpless manual/auto and relay auto-tuning. No dependencies.",
+      "paragraph": "Keeps a temperature, speed or light level at a setpoint: AlashPID pid(2, 0.5, 0); pid.setSetpoint(60); analogWrite(pin, pid.compute(sensor)). No pointers to global variables. Integral windup protection, derivative on measurement (no kick when the setpoint changes), derivative filter, deadband, output slew limit, feed-forward, safe output on a failed sensor, DIRECT and REVERSE action. AlashPIDAutoTune finds the gains by the relay method and Ziegler-Nichols or Tyreus-Luyben rules. Explains problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266. Examples with a virtual oven need no hardware. Made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashPID",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashPID.git",
+      "providesIncludes": [
+        "AlashPID.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashPID-1.0.0.zip",
+      "archiveFileName": "AlashPID-1.0.0.zip",
+      "size": 34874,
+      "checksum": "SHA-256:ce9357f40e523e8875a4d75520c0314efbbef0c5502053d08c40077da8f4c780"
+    },
+    {
+      "name": "AlashPID",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "PID controller without global variables: out = pid.compute(input). Anti-windup, no derivative kick, filter, slew limit, bumpless manual/auto and relay auto-tuning. No dependencies.",
+      "paragraph": "Keeps a temperature, speed or light level at a setpoint: AlashPID pid(2, 0.5, 0); pid.setSetpoint(60); analogWrite(pin, pid.compute(sensor)). No pointers to global variables. Integral windup protection, derivative on measurement (no kick when the setpoint changes), derivative filter, deadband, output slew limit, feed-forward, safe output on a failed sensor, DIRECT and REVERSE action. AlashPIDAutoTune finds the gains by the relay method and Ziegler-Nichols or Tyreus-Luyben rules. Explains problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266. Examples with a virtual oven need no hardware. Made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashPID",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashPID.git",
+      "providesIncludes": [
+        "AlashPID.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashPID-1.0.1.zip",
+      "archiveFileName": "AlashPID-1.0.1.zip",
+      "size": 36508,
+      "checksum": "SHA-256:faba4417bf083eab0415274f584f890af5531a477a34bd0a37aff798bd725586"
+    },
+    {
+      "name": "AlashADS1115",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy ADS1115 / ADS1015 16-bit ADC library: volts on 4 inputs, differential reads, automatic range, voltage dividers. No dependencies.",
+      "paragraph": "Reads the ADS1115 or ADS1015 analog-to-digital converter over I2C with a one-line begin(): finds the address, gives voltage(channel) in volts, differential voltageDiff(), picks the most accurate range by itself, applies a voltage divider factor per input and explains wiring problems in Russian, Kazakh or English. Much more accurate than analogRead() and independent of Wi-Fi on ESP32. Needs only the built-in Wire library. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashADS1115",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashADS1115.git",
+      "providesIncludes": [
+        "AlashADS1115.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashADS1115-1.0.0.zip",
+      "archiveFileName": "AlashADS1115-1.0.0.zip",
+      "size": 28300,
+      "checksum": "SHA-256:eefd876244a693291480a50d74dcf34fc5454e914252ec447e58594e597c7f42"
+    },
+    {
+      "name": "AlashADS1115",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy ADS1115 / ADS1015 16-bit ADC library: volts on 4 inputs, differential reads, automatic range, voltage dividers. No dependencies.",
+      "paragraph": "Reads the ADS1115 or ADS1015 analog-to-digital converter over I2C with a one-line begin(): finds the address, gives voltage(channel) in volts, differential voltageDiff(), picks the most accurate range by itself, applies a voltage divider factor per input and explains wiring problems in Russian, Kazakh or English. Much more accurate than analogRead() and independent of Wi-Fi on ESP32. Needs only the built-in Wire library. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashADS1115",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashADS1115.git",
+      "providesIncludes": [
+        "AlashADS1115.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashADS1115-1.0.1.zip",
+      "archiveFileName": "AlashADS1115-1.0.1.zip",
+      "size": 29828,
+      "checksum": "SHA-256:90c7cd5a8db2d4e3ce15601c9fe5a67b02e217c2d0186081f054f778d637545a"
+    },
+    {
+      "name": "AlashAHT",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy AHT10 / AHT20 / AHT21 / AHT30 temperature and humidity library: one begin(), checked data, dew point, clear messages. No dependencies.",
+      "paragraph": "Reads AHT10, AHT20, AHT21 and AHT30 sensors over I2C with a one-line begin(): initializes the chip, checks the data checksum, caches readings, gives temperature(), humidity(), dewPoint() and heatIndex(), and explains wiring problems in Russian, Kazakh or English. A more accurate and reliable replacement for DHT11 and DHT22. Needs only the built-in Wire library. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashAHT",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashAHT.git",
+      "providesIncludes": [
+        "AlashAHT.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashAHT-1.0.0.zip",
+      "archiveFileName": "AlashAHT-1.0.0.zip",
+      "size": 24760,
+      "checksum": "SHA-256:aee5ad8ba49fcfa6b73fb9a8116908a3809383fb88a42d6a240dced33090a571"
+    },
+    {
+      "name": "AlashAHT",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy AHT10 / AHT20 / AHT21 / AHT30 temperature and humidity library: one begin(), checked data, dew point, clear messages. No dependencies.",
+      "paragraph": "Reads AHT10, AHT20, AHT21 and AHT30 sensors over I2C with a one-line begin(): initializes the chip, checks the data checksum, caches readings, gives temperature(), humidity(), dewPoint() and heatIndex(), and explains wiring problems in Russian, Kazakh or English. A more accurate and reliable replacement for DHT11 and DHT22. Needs only the built-in Wire library. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashAHT",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashAHT.git",
+      "providesIncludes": [
+        "AlashAHT.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashAHT-1.0.1.zip",
+      "archiveFileName": "AlashAHT-1.0.1.zip",
+      "size": 25468,
+      "checksum": "SHA-256:ce973b106f91d9a9611b810d576115dbfae4c6a938f94a571bd2b085c42071eb"
+    },
+    {
+      "name": "AlashAnalog",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy analog sensor library: soil moisture, light, water level, gas and battery voltage in percent or words with calibration, median filter and hysteresis.",
+      "paragraph": "Turns raw analogRead() numbers into something useful: percent from a two-point calibration (or autoRange), median filtering against spikes, voltage through a divider, thresholds with hysteresis for pumps and lamps, and plain words such as dry, dark, gas in Russian, Kazakh or English. diagnose() tells if the sensor has no power, a broken wire or a floating pin. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashAnalog",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashAnalog.git",
+      "providesIncludes": [
+        "AlashAnalog.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashAnalog-1.0.0.zip",
+      "archiveFileName": "AlashAnalog-1.0.0.zip",
+      "size": 28339,
+      "checksum": "SHA-256:3beea4e9a5876c518334e90d793d0357ad7f9ef06ba23eec310cb36c091ef845"
+    },
+    {
+      "name": "AlashAnalog",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy analog sensor library: soil moisture, light, water level, gas and battery voltage in percent or words with calibration, median filter and hysteresis.",
+      "paragraph": "Turns raw analogRead() numbers into something useful: percent from a two-point calibration (or autoRange), median filtering against spikes, voltage through a divider, thresholds with hysteresis for pumps and lamps, and plain words such as dry, dark, gas in Russian, Kazakh or English. diagnose() tells if the sensor has no power, a broken wire or a floating pin. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashAnalog",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashAnalog.git",
+      "providesIncludes": [
+        "AlashAnalog.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashAnalog-1.0.1.zip",
+      "archiveFileName": "AlashAnalog-1.0.1.zip",
+      "size": 30339,
+      "checksum": "SHA-256:d67d7e4efa79017dc3d4a6a629b5f29f15b9ade8f351956bd0f4b26131382753"
+    },
+    {
+      "name": "AlashBH1750",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy BH1750 light sensor library (GY-302): lux with automatic range from 0.1 to 100000 lx, plain-words description, no dependencies.",
+      "paragraph": "Reads the BH1750 ambient light sensor over I2C with a one-line begin(): finds the address, picks the sensitivity by itself so the result is right in a dark room and in direct sun, tells the light level in words (dark, lit room, direct sunlight) and explains wiring problems in Russian, Kazakh or English. Needs only the built-in Wire library. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashBH1750",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashBH1750.git",
+      "providesIncludes": [
+        "AlashBH1750.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashBH1750-1.0.0.zip",
+      "archiveFileName": "AlashBH1750-1.0.0.zip",
+      "size": 25573,
+      "checksum": "SHA-256:a7ee1329aa9f1eeb991e5aacb4e003be71bc23b432d1e1409cc07198ffe2691c"
+    },
+    {
+      "name": "AlashBH1750",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy BH1750 light sensor library (GY-302): lux with automatic range from 0.1 to 100000 lx, plain-words description, no dependencies.",
+      "paragraph": "Reads the BH1750 ambient light sensor over I2C with a one-line begin(): finds the address, picks the sensitivity by itself so the result is right in a dark room and in direct sun, tells the light level in words (dark, lit room, direct sunlight) and explains wiring problems in Russian, Kazakh or English. Needs only the built-in Wire library. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashBH1750",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashBH1750.git",
+      "providesIncludes": [
+        "AlashBH1750.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashBH1750-1.0.1.zip",
+      "archiveFileName": "AlashBH1750-1.0.1.zip",
+      "size": 26476,
+      "checksum": "SHA-256:169def9838a8fb9029572906afe3887a2c6e19b04ec5790e9ccb4203a56d30f7"
+    },
+    {
+      "name": "AlashBluetooth",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy Bluetooth module setup for HC-05, HC-06 and HM-10: auto-detect the module and baud rate, set name, PIN and speed, read phone commands.",
+      "paragraph": "Configures HC-05, HC-06 and HM-10 Bluetooth modules without memorizing AT commands: detect() finds the module type and the baud rate by itself, setName(), setPin() and setBaudRate() use the right command for each module with sensible value checks, and readLine()/parseCommand() receive text commands such as speed=80 from a phone app without blocking. Explains why a silent module is silent (wiring, AT mode, connected phone) in Russian, Kazakh or English. Works on Arduino AVR, ESP32 and ESP8266 with any Stream. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashBluetooth",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashBluetooth.git",
+      "providesIncludes": [
+        "AlashBluetooth.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashBluetooth-1.0.0.zip",
+      "archiveFileName": "AlashBluetooth-1.0.0.zip",
+      "size": 31196,
+      "checksum": "SHA-256:40be81613841523583efea3e2e1ed863de52ce57cd96fd91c149789fc8e98dd6"
+    },
+    {
+      "name": "AlashBluetooth",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy Bluetooth module setup for HC-05, HC-06 and HM-10: auto-detect the module and baud rate, set name, PIN and speed, read phone commands.",
+      "paragraph": "Configures HC-05, HC-06 and HM-10 Bluetooth modules without memorizing AT commands: detect() finds the module type and the baud rate by itself, setName(), setPin() and setBaudRate() use the right command for each module with sensible value checks, and readLine()/parseCommand() receive text commands such as speed=80 from a phone app without blocking. Explains why a silent module is silent (wiring, AT mode, connected phone) in Russian, Kazakh or English. Works on Arduino AVR, ESP32 and ESP8266 with any Stream. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashBluetooth",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashBluetooth.git",
+      "providesIncludes": [
+        "AlashBluetooth.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashBluetooth-1.0.1.zip",
+      "archiveFileName": "AlashBluetooth-1.0.1.zip",
+      "size": 33047,
+      "checksum": "SHA-256:b31ee1e9b446b19b49ad3866ae90607b2428ac6f447039493740529d80e8270a"
+    },
+    {
+      "name": "AlashButton",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy button library: debounce, click, double click, long press and hold-repeat without delay(). Many buttons, clear tips, no dependencies.",
+      "paragraph": "Reads push buttons on any pin with a short code: clicked(), doubleClicked(), longPressed(), repeat(). Removes contact bounce, never blocks the program, supports internal pull-up or pull-down, optional callbacks, and explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266 and other boards. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashButton",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashButton.git",
+      "providesIncludes": [
+        "AlashButton.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashButton-1.0.0.zip",
+      "archiveFileName": "AlashButton-1.0.0.zip",
+      "size": 25337,
+      "checksum": "SHA-256:7a9b85e0aa8627c070bbc1b1f2725de76a598540181b7d8c528398b71218b02a"
+    },
+    {
+      "name": "AlashButton",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy button library: debounce, click, double click, long press and hold-repeat without delay(). Many buttons, clear tips, no dependencies.",
+      "paragraph": "Reads push buttons on any pin with a short code: clicked(), doubleClicked(), longPressed(), repeat(). Removes contact bounce, never blocks the program, supports internal pull-up or pull-down, optional callbacks, and explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266 and other boards. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashButton",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashButton.git",
+      "providesIncludes": [
+        "AlashButton.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashButton-1.0.1.zip",
+      "archiveFileName": "AlashButton-1.0.1.zip",
+      "size": 26875,
+      "checksum": "SHA-256:df8be9d18af7fddb4e8390e6c122cb52dae22f7ea63314507952e61ebcac44c6"
+    },
+    {
+      "name": "AlashBuzzer",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy buzzer library for active and passive buzzers: beeps, series, melodies and RTTTL ringtones without delay(). Built-in tunes, no dependencies.",
+      "paragraph": "Plays beeps, beep series, note arrays and RTTTL ringtones on a passive or active buzzer without blocking the program: beep(2000, 100), beepTimes(3), playRTTTL(F(\"...\")) and ready tunes such as Ode to Joy, Twinkle, Happy Birthday, Jingle Bells and start, success, error and alarm signals. Keeps strings in flash memory and explains problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashBuzzer",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashBuzzer.git",
+      "providesIncludes": [
+        "AlashBuzzer.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashBuzzer-1.0.0.zip",
+      "archiveFileName": "AlashBuzzer-1.0.0.zip",
+      "size": 26119,
+      "checksum": "SHA-256:2a110c24fccb3178d54423aa02b0b8e087c45a7a92f967714280fec3eec8492c"
+    },
+    {
+      "name": "AlashBuzzer",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy buzzer library for active and passive buzzers: beeps, series, melodies and RTTTL ringtones without delay(). Built-in tunes, no dependencies.",
+      "paragraph": "Plays beeps, beep series, note arrays and RTTTL ringtones on a passive or active buzzer without blocking the program: beep(2000, 100), beepTimes(3), playRTTTL(F(\"...\")) and ready tunes such as Ode to Joy, Twinkle, Happy Birthday, Jingle Bells and start, success, error and alarm signals. Keeps strings in flash memory and explains problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashBuzzer",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashBuzzer.git",
+      "providesIncludes": [
+        "AlashBuzzer.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashBuzzer-1.0.1.zip",
+      "archiveFileName": "AlashBuzzer-1.0.1.zip",
+      "size": 27790,
+      "checksum": "SHA-256:0ee79eddba90125702891d9e0cf23595efdfe10bf549f87180caee54af7d8a31"
+    },
+    {
+      "name": "AlashCar",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy 2-side robot car library for L298N / TB6612 drivers: forward, turn, joystick mixing, smooth ramp, Bluetooth commands and a failsafe stop.",
+      "paragraph": "Drives a four-wheel robot car (such as the Alash Phobo kit) with car.forward(70), car.turnRight(), car.drive(speed, turn) for a joystick and car.handleStream(bluetooth) for F, B, L, R, S commands from a phone app. Smooth acceleration, a minimum PWM for weak motors, reversing a side without rewiring, and an automatic stop when Bluetooth disconnects. Explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR and ESP32. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashCar",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashCar.git",
+      "providesIncludes": [
+        "AlashCar.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashCar-1.0.0.zip",
+      "archiveFileName": "AlashCar-1.0.0.zip",
+      "size": 27318,
+      "checksum": "SHA-256:d116d1a4ebcce1d2fbdd7bb9a27d294148b3c3b309137c259b14f511b17cc658"
+    },
+    {
+      "name": "AlashCar",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy 2-side robot car library for L298N / TB6612 drivers: forward, turn, joystick mixing, smooth ramp, Bluetooth commands and a failsafe stop.",
+      "paragraph": "Drives a four-wheel robot car (such as the Alash Phobo kit) with car.forward(70), car.turnRight(), car.drive(speed, turn) for a joystick and car.handleStream(bluetooth) for F, B, L, R, S commands from a phone app. Smooth acceleration, a minimum PWM for weak motors, reversing a side without rewiring, and an automatic stop when Bluetooth disconnects. Explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR and ESP32. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashCar",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashCar.git",
+      "providesIncludes": [
+        "AlashCar.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashCar-1.0.1.zip",
+      "archiveFileName": "AlashCar-1.0.1.zip",
+      "size": 29142,
+      "checksum": "SHA-256:01c10d2560fc231095e51b216abb4941170258dc5ed80928385c336e7a20f670"
+    },
+    {
+      "name": "AlashCar",
+      "version": "1.1.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Robot car for any motor driver (L298N, TB6612, L9110S, DRV8833, BTS7960, Cytron), 2WD or 4WD: drive, turn, smooth ramp, failsafe, Bluetooth commands. No dependencies.",
+      "paragraph": "Drives a four-wheel robot car (such as the Alash Phobo kit) with car.forward(70), car.turnRight(), car.drive(speed, turn) for a joystick and car.handleStream(bluetooth) for F, B, L, R, S commands from a phone app. Smooth acceleration, a minimum PWM for weak motors, reversing a side without rewiring, and an automatic stop when Bluetooth disconnects. Explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR and ESP32. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashCar",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashCar.git",
+      "providesIncludes": [
+        "AlashCar.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashCar-1.1.0.zip",
+      "archiveFileName": "AlashCar-1.1.0.zip",
+      "size": 40878,
+      "checksum": "SHA-256:3c2af91c332ef99b1dcc74223e6b94b1afa24781d93695ed5fc1cd243dba8d41"
+    },
+    {
+      "name": "AlashCompass",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy magnetic compass library for QMC5883L and HMC5883L (GY-271): heading 0-360, compass direction in words, rotation calibration. No dependencies.",
+      "paragraph": "Reads the GY-271 compass over I2C with a one-line begin(): tells QMC5883L from HMC5883L by itself, gives heading(), direction in words (North, South-west) in Russian, Kazakh or English, calibrates the hard-iron and soft-iron error by rotating the board, applies magnetic declination, smooths readings and warns about strong magnets or motors nearby. Needs only the built-in Wire library. Examples included, made for classes, robots and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashCompass",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashCompass.git",
+      "providesIncludes": [
+        "AlashCompass.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashCompass-1.0.0.zip",
+      "archiveFileName": "AlashCompass-1.0.0.zip",
+      "size": 30701,
+      "checksum": "SHA-256:c954b0312dbcaa0d8b1a217b79a06d5809056deb00224b6e833c585800af334e"
+    },
+    {
+      "name": "AlashCompass",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy magnetic compass library for QMC5883L and HMC5883L (GY-271): heading 0-360, compass direction in words, rotation calibration. No dependencies.",
+      "paragraph": "Reads the GY-271 compass over I2C with a one-line begin(): tells QMC5883L from HMC5883L by itself, gives heading(), direction in words (North, South-west) in Russian, Kazakh or English, calibrates the hard-iron and soft-iron error by rotating the board, applies magnetic declination, smooths readings and warns about strong magnets or motors nearby. Needs only the built-in Wire library. Examples included, made for classes, robots and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashCompass",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashCompass.git",
+      "providesIncludes": [
+        "AlashCompass.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashCompass-1.0.1.zip",
+      "archiveFileName": "AlashCompass-1.0.1.zip",
+      "size": 32180,
+      "checksum": "SHA-256:594cc587e56591484294df8f8898476f68733ebfc9ce337f7e12decee3135b9d"
+    },
+    {
+      "name": "AlashCompass",
+      "version": "1.1.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy magnetic compass library for QMC5883L, HMC5883L and QMC5883P (GY-271): heading 0-360, compass direction in words, rotation calibration. No dependencies.",
+      "paragraph": "Reads the GY-271 compass over I2C with a one-line begin(): tells QMC5883L from HMC5883L by itself, gives heading(), direction in words (North, South-west) in Russian, Kazakh or English, calibrates the hard-iron and soft-iron error by rotating the board, applies magnetic declination, smooths readings and warns about strong magnets or motors nearby. Needs only the built-in Wire library. Examples included, made for classes, robots and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashCompass",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashCompass.git",
+      "providesIncludes": [
+        "AlashCompass.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashCompass-1.1.0.zip",
+      "archiveFileName": "AlashCompass-1.1.0.zip",
+      "size": 34383,
+      "checksum": "SHA-256:a44b18983e0bf387d4bc5d935bdc186b99b328d02d956b8915cb965420323549"
+    },
+    {
+      "name": "AlashDS18B20",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy DS18B20 temperature sensor library: several sensors on one wire, non-blocking reads, clear errors. No OneWire or DallasTemperature needed.",
+      "paragraph": "Reads DS18B20 (also DS18S20 and DS1822) sensors on a 1-Wire pin with a one-line begin(): finds all sensors itself, measures them at once, checks data with CRC and explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266 and other boards without any extra libraries. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashDS18B20",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashDS18B20.git",
+      "providesIncludes": [
+        "AlashDS18B20.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashDS18B20-1.0.0.zip",
+      "archiveFileName": "AlashDS18B20-1.0.0.zip",
+      "size": 34516,
+      "checksum": "SHA-256:ebf73151b6dd7661514688f3851a1dc10e95e646f88b607e3a82e84f339be9c0"
+    },
+    {
+      "name": "AlashDS18B20",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy DS18B20 temperature sensor library: several sensors on one wire, non-blocking reads, clear errors. No OneWire or DallasTemperature needed.",
+      "paragraph": "Reads DS18B20 (also DS18S20 and DS1822) sensors on a 1-Wire pin with a one-line begin(): finds all sensors itself, measures them at once, checks data with CRC and explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266 and other boards without any extra libraries. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashDS18B20",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashDS18B20.git",
+      "providesIncludes": [
+        "AlashDS18B20.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashDS18B20-1.0.1.zip",
+      "archiveFileName": "AlashDS18B20-1.0.1.zip",
+      "size": 36181,
+      "checksum": "SHA-256:2b3e1e5e68ffd1e38224f1a29d49f162459b548a3a9faa3d4d04714ac92f53ec"
+    },
+    {
+      "name": "AlashDS18B20",
+      "version": "1.1.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy DS18B20 temperature sensor library: several sensors on one wire, non-blocking reads, parasite power, clear errors. No OneWire or DallasTemperature needed.",
+      "paragraph": "Reads DS18B20 (also DS18S20 and DS1822) sensors on a 1-Wire pin with a one-line begin(): finds all sensors itself, measures them at once, checks data with CRC, supports parasite (two-wire) power and explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266 and other boards without any extra libraries. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashDS18B20",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashDS18B20.git",
+      "providesIncludes": [
+        "AlashDS18B20.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashDS18B20-1.1.0.zip",
+      "archiveFileName": "AlashDS18B20-1.1.0.zip",
+      "size": 43514,
+      "checksum": "SHA-256:9cf2f7a3a762fe52c546bc1d1f64c0ca9b1bc85909475503a6daa9e98dc57156"
+    },
+    {
+      "name": "AlashESPNow",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Send messages between ESP32 / ESP8266 boards over ESP-NOW without a router: send, broadcast, receive queue, clear tips (ru/kk/en).",
+      "paragraph": "Simple ESP-NOW for ESP32 and ESP8266. Boards talk directly to each other without a router: send text or a whole struct to a MAC address, broadcast to all boards, read received messages from a queue. Peers are added automatically, delivery is confirmed with wait(), and the same code works on both chips and on old and new ESP32 cores. Explains problems in Russian, Kazakh or English and has diagnose() for a quick check. Needs only the built-in ESP-NOW. Made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashESPNow",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashESPNow.git",
+      "providesIncludes": [
+        "AlashESPNow.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashESPNow-1.0.0.zip",
+      "archiveFileName": "AlashESPNow-1.0.0.zip",
+      "size": 42172,
+      "checksum": "SHA-256:2a819a63e0c280e1529282e4549e1ca29854501f2e06b2e11e78d125998b8e54"
+    },
+    {
+      "name": "AlashESPNow",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Send messages between ESP32 / ESP8266 boards over ESP-NOW without a router: send, broadcast, receive queue, clear tips (ru/kk/en).",
+      "paragraph": "Simple ESP-NOW for ESP32 and ESP8266. Boards talk directly to each other without a router: send text or a whole struct to a MAC address, broadcast to all boards, read received messages from a queue. Peers are added automatically, delivery is confirmed with wait(), and the same code works on both chips and on old and new ESP32 cores. Explains problems in Russian, Kazakh or English and has diagnose() for a quick check. Needs only the built-in ESP-NOW. Made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashESPNow",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashESPNow.git",
+      "providesIncludes": [
+        "AlashESPNow.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashESPNow-1.0.1.zip",
+      "archiveFileName": "AlashESPNow-1.0.1.zip",
+      "size": 43475,
+      "checksum": "SHA-256:8d791cb12e2fd2e889686a5ba86e85a7417636924af43de6002c76cbd05ff7b5"
+    },
+    {
+      "name": "AlashEncoder",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy rotary encoder library (KY-040): clicks, value with limits, acceleration, button click and long press. Polling or interrupts, no dependencies.",
+      "paragraph": "Reads a rotary encoder with a button on any pins with a short code: value(), changed(), turnedRight(), clicked(). Filters contact noise and lost pulses, supports limits with wrap-around, step, acceleration, polling or interrupt mode, and explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266 and other boards. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashEncoder",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashEncoder.git",
+      "providesIncludes": [
+        "AlashEncoder.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashEncoder-1.0.0.zip",
+      "archiveFileName": "AlashEncoder-1.0.0.zip",
+      "size": 26597,
+      "checksum": "SHA-256:c2fa02f1ba8640c14c0922e781137f430070e2415b7e03f6f344cfd24f38c6ee"
+    },
+    {
+      "name": "AlashEncoder",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy rotary encoder library (KY-040): clicks, value with limits, acceleration, button click and long press. Polling or interrupts, no dependencies.",
+      "paragraph": "Reads a rotary encoder with a button on any pins with a short code: value(), changed(), turnedRight(), clicked(). Filters contact noise and lost pulses, supports limits with wrap-around, step, acceleration, polling or interrupt mode, and explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266 and other boards. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashEncoder",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashEncoder.git",
+      "providesIncludes": [
+        "AlashEncoder.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashEncoder-1.0.1.zip",
+      "archiveFileName": "AlashEncoder-1.0.1.zip",
+      "size": 27951,
+      "checksum": "SHA-256:f6f4c3bb1f8d4d7426f164faa3856024997a07532d40e6421f42bf783a552ba1"
+    },
+    {
+      "name": "AlashEncoder",
+      "version": "1.1.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy rotary encoder library (KY-040): clicks, value with limits, acceleration, button click and long press. Polling or interrupts, no dependencies.",
+      "paragraph": "Reads a rotary encoder with a button on any pins with a short code: value(), changed(), turnedRight(), clicked(). Filters contact noise and lost pulses, supports limits with wrap-around, step, acceleration, polling or interrupt mode, and explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266 and other boards. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashEncoder",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashEncoder.git",
+      "providesIncludes": [
+        "AlashEncoder.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashEncoder-1.1.0.zip",
+      "archiveFileName": "AlashEncoder-1.1.0.zip",
+      "size": 31575,
+      "checksum": "SHA-256:f281dcef68b70b8cd28ffe1dcc48bef1711cba69f0f08436543401880de63ae8"
+    },
+    {
+      "name": "AlashFilter",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Filters for noisy sensors with one API, y = f.update(x): moving average, EMA, median, Kalman, One Euro, limiter and running statistics. No dependencies.",
+      "paragraph": "Smooths and cleans sensor readings: AlashAverage avg(10); float y = avg.update(analogRead(A0)). Moving average, exponential smoothing (also with a real time step), median that removes single spikes, one-dimensional Kalman filter, One Euro filter (smooth at rest, no lag on fast moves), a limiter for the rate of change and running statistics (mean, deviation, min, max). NaN readings are skipped safely. Explains problems and tuning in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashFilter",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashFilter.git",
+      "providesIncludes": [
+        "AlashFilter.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashFilter-1.0.0.zip",
+      "archiveFileName": "AlashFilter-1.0.0.zip",
+      "size": 30582,
+      "checksum": "SHA-256:2d36f0a093604ebd79c3c86f3714f220a15736e084ecaa3f8c203efa6cb829aa"
+    },
+    {
+      "name": "AlashFilter",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Filters for noisy sensors with one API, y = f.update(x): moving average, EMA, median, Kalman, One Euro, limiter and running statistics. No dependencies.",
+      "paragraph": "Smooths and cleans sensor readings: AlashAverage avg(10); float y = avg.update(analogRead(A0)). Moving average, exponential smoothing (also with a real time step), median that removes single spikes, one-dimensional Kalman filter, One Euro filter (smooth at rest, no lag on fast moves), a limiter for the rate of change and running statistics (mean, deviation, min, max). NaN readings are skipped safely. Explains problems and tuning in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashFilter",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashFilter.git",
+      "providesIncludes": [
+        "AlashFilter.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashFilter-1.0.1.zip",
+      "archiveFileName": "AlashFilter-1.0.1.zip",
+      "size": 31877,
+      "checksum": "SHA-256:8947b476d8b03042c339f582362a0c775d6f10fadf3d680ff5a8d9ccb2cebb1c"
+    },
+    {
+      "name": "AlashGPS",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy GPS library for NEO-6M / NEO-7M / NEO-8M (NMEA): latitude, longitude, altitude, speed, time, satellites, distance. No TinyGPS needed.",
+      "paragraph": "Reads any NMEA GPS module with a one-line begin(): lat(), lon(), altitude(), speedKmh(), local time (Kazakhstan UTC+5 by default), distanceTo() and bearingTo(). Checks every sentence with its checksum, tells whether the module sends nothing, sends garbage or just has no satellites yet, in Russian, Kazakh or English. Works on Arduino AVR, ESP32 and ESP8266 with built-in libraries only. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashGPS",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashGPS.git",
+      "providesIncludes": [
+        "AlashGPS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashGPS-1.0.0.zip",
+      "archiveFileName": "AlashGPS-1.0.0.zip",
+      "size": 28527,
+      "checksum": "SHA-256:2a304fd8eb0b529f8e3ce550a4a74d418eca7b8b2ad2c36807f6593afd3b9420"
+    },
+    {
+      "name": "AlashGPS",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy GPS library for NEO-6M / NEO-7M / NEO-8M (NMEA): latitude, longitude, altitude, speed, time, satellites, distance. No TinyGPS needed.",
+      "paragraph": "Reads any NMEA GPS module with a one-line begin(): lat(), lon(), altitude(), speedKmh(), local time (Kazakhstan UTC+5 by default), distanceTo() and bearingTo(). Checks every sentence with its checksum, tells whether the module sends nothing, sends garbage or just has no satellites yet, in Russian, Kazakh or English. Works on Arduino AVR, ESP32 and ESP8266 with built-in libraries only. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashGPS",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashGPS.git",
+      "providesIncludes": [
+        "AlashGPS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashGPS-1.0.1.zip",
+      "archiveFileName": "AlashGPS-1.0.1.zip",
+      "size": 29917,
+      "checksum": "SHA-256:5bfe0d9ac328a041d077b4b8f56b5196de572cd0b1d6a6b0cf2a4cf1493a37e5"
+    },
+    {
+      "name": "AlashHX711",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy HX711 load cell library: tare, calibration with a known weight, weight in grams, stable reading detection. No dependencies.",
+      "paragraph": "Builds digital scales from a load cell and the HX711 module: tare(), calibrate(500) with a known weight, weight() in grams, average without outliers, a stable-reading check, and clear messages in Russian, Kazakh or English when the module does not answer, the signal saturates or the scale factor is missing. Works on Arduino AVR, ESP32, ESP8266 with any two digital pins. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashHX711",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashHX711.git",
+      "providesIncludes": [
+        "AlashHX711.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashHX711-1.0.0.zip",
+      "archiveFileName": "AlashHX711-1.0.0.zip",
+      "size": 26216,
+      "checksum": "SHA-256:73967afdfde12432d64414d9c687272cfe69e9ddad8fc8bc64ff7dc7c6ab612e"
+    },
+    {
+      "name": "AlashHX711",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy HX711 load cell library: tare, calibration with a known weight, weight in grams, stable reading detection. No dependencies.",
+      "paragraph": "Builds digital scales from a load cell and the HX711 module: tare(), calibrate(500) with a known weight, weight() in grams, average without outliers, a stable-reading check, and clear messages in Russian, Kazakh or English when the module does not answer, the signal saturates or the scale factor is missing. Works on Arduino AVR, ESP32, ESP8266 with any two digital pins. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashHX711",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashHX711.git",
+      "providesIncludes": [
+        "AlashHX711.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashHX711-1.0.1.zip",
+      "archiveFileName": "AlashHX711-1.0.1.zip",
+      "size": 27696,
+      "checksum": "SHA-256:1961043c7095135b30b84c84ec210bd505dfe9ae5d670c5a95a4ca2e1624a988"
+    },
+    {
+      "name": "AlashINA219",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy INA219 current and voltage sensor library: volts, mA, mW and mAh with a ready 0.1 ohm shunt module, range tips, no dependencies.",
+      "paragraph": "Measures voltage, current and power of a load over I2C with a one-line begin(): finds the INA219 among other chips on 0x40-0x4F, works with the common 0.1 ohm module, picks the range, averages readings, counts consumed energy in mAh and mWh and tells when the range is exceeded or the sensor is wired wrongly, in Russian, Kazakh or English. Needs only the built-in Wire library. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashINA219",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashINA219.git",
+      "providesIncludes": [
+        "AlashINA219.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashINA219-1.0.0.zip",
+      "archiveFileName": "AlashINA219-1.0.0.zip",
+      "size": 26585,
+      "checksum": "SHA-256:1f913516a638521dd44d61d0db048230ab83ccbe45f9d59b48c6ede807131080"
+    },
+    {
+      "name": "AlashINA219",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy INA219 current and voltage sensor library: volts, mA, mW and mAh with a ready 0.1 ohm shunt module, range tips, no dependencies.",
+      "paragraph": "Measures voltage, current and power of a load over I2C with a one-line begin(): finds the INA219 among other chips on 0x40-0x4F, works with the common 0.1 ohm module, picks the range, averages readings, counts consumed energy in mAh and mWh and tells when the range is exceeded or the sensor is wired wrongly, in Russian, Kazakh or English. Needs only the built-in Wire library. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashINA219",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashINA219.git",
+      "providesIncludes": [
+        "AlashINA219.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashINA219-1.0.1.zip",
+      "archiveFileName": "AlashINA219-1.0.1.zip",
+      "size": 27655,
+      "checksum": "SHA-256:18e93b768e624fa8b5ce4357847377c40eb2798f32464b2461363b4d348cf7f1"
+    },
+    {
+      "name": "AlashJoystick",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy analog joystick library (KY-023): auto center calibration, dead zone, -100..100 values, 8 directions, angle, button. No dependencies.",
+      "paragraph": "Reads a two-axis analog joystick with a button: x() and y() from -100 to 100, direction(), angle(), magnitude(). Finds the real center at start, ignores jitter near the center with a dead zone, supports Arduino AVR and ESP32 ADC ranges, and explains wiring problems in Russian, Kazakh or English. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashJoystick",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashJoystick.git",
+      "providesIncludes": [
+        "AlashJoystick.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashJoystick-1.0.0.zip",
+      "archiveFileName": "AlashJoystick-1.0.0.zip",
+      "size": 23537,
+      "checksum": "SHA-256:7386f7a47baae63ff68bb123005204ea59897954e082ecd742b2f8e43328b703"
+    },
+    {
+      "name": "AlashJoystick",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy analog joystick library (KY-023): auto center calibration, dead zone, -100..100 values, 8 directions, angle, button. No dependencies.",
+      "paragraph": "Reads a two-axis analog joystick with a button: x() and y() from -100 to 100, direction(), angle(), magnitude(). Finds the real center at start, ignores jitter near the center with a dead zone, supports Arduino AVR and ESP32 ADC ranges, and explains wiring problems in Russian, Kazakh or English. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashJoystick",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashJoystick.git",
+      "providesIncludes": [
+        "AlashJoystick.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashJoystick-1.0.1.zip",
+      "archiveFileName": "AlashJoystick-1.0.1.zip",
+      "size": 24723,
+      "checksum": "SHA-256:fb9ba0ed0db63e485c4ca212e6f7f50185b6fd47d0883ddd771e39ae86b66864"
+    },
+    {
+      "name": "AlashJoystick",
+      "version": "1.1.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy analog joystick library (KY-023): auto center calibration, dead zone, -100..100 values, 8 directions, angle, button. No dependencies.",
+      "paragraph": "Reads a two-axis analog joystick with a button: x() and y() from -100 to 100, direction(), angle(), magnitude(). Finds the real center at start, ignores jitter near the center with a dead zone, supports Arduino AVR and ESP32 ADC ranges, and explains wiring problems in Russian, Kazakh or English. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashJoystick",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashJoystick.git",
+      "providesIncludes": [
+        "AlashJoystick.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashJoystick-1.1.0.zip",
+      "archiveFileName": "AlashJoystick-1.1.0.zip",
+      "size": 26918,
+      "checksum": "SHA-256:46847e2a60573a8fe620c7110cabf30b58b7111eeb09864480366c5a40c9eac2"
+    },
+    {
+      "name": "AlashLogger",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy CSV data logger for SD cards: header, time, file rotation, safe flush and clear tips (ru/kk/en), no dependencies.",
+      "paragraph": "Writes sensor readings to a CSV file on an SD card in three lines: setColumns(), add() for each value and save(). Writes the header once, adds a time column (uptime or your own RTC text), starts a new file when the old one gets big, continues in the last file after a restart, flushes on a timer so the card does not wear out and recovers when the card is pulled out and put back. Explains problems in Russian, Kazakh or English. Needs only the built-in SD library. Made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashLogger",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashLogger.git",
+      "providesIncludes": [
+        "AlashLogger.h"
+      ],
+      "dependencies": [
+        {
+          "name": "SD"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashLogger-1.0.0.zip",
+      "archiveFileName": "AlashLogger-1.0.0.zip",
+      "size": 28357,
+      "checksum": "SHA-256:57a8534b5e792c34280966a99435137205af2ebf8b599ae5068605952b4eb684"
+    },
+    {
+      "name": "AlashLogger",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy CSV data logger for SD cards: header, time, file rotation, safe flush and clear tips (ru/kk/en), no dependencies.",
+      "paragraph": "Writes sensor readings to a CSV file on an SD card in three lines: setColumns(), add() for each value and save(). Writes the header once, adds a time column (uptime or your own RTC text), starts a new file when the old one gets big, continues in the last file after a restart, flushes on a timer so the card does not wear out and recovers when the card is pulled out and put back. Explains problems in Russian, Kazakh or English. Needs only the built-in SD library. Made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashLogger",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashLogger.git",
+      "providesIncludes": [
+        "AlashLogger.h"
+      ],
+      "dependencies": [
+        {
+          "name": "SD"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashLogger-1.0.1.zip",
+      "archiveFileName": "AlashLogger-1.0.1.zip",
+      "size": 29204,
+      "checksum": "SHA-256:c31907db5fec030fcb5739848d080e0942ebec382ffac35d3f692ab38f53d8d7"
+    },
+    {
+      "name": "AlashLogger",
+      "version": "1.1.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy CSV data logger for SD cards: header, time, file rotation, safe flush and clear tips (ru/kk/en), no dependencies.",
+      "paragraph": "Writes sensor readings to a CSV file on an SD card in three lines: setColumns(), add() for each value and save(). Writes the header once, adds a time column (uptime or your own RTC text), starts a new file when the old one gets big, continues in the last file after a restart, flushes on a timer so the card does not wear out and recovers when the card is pulled out and put back. Explains problems in Russian, Kazakh or English. Needs only the built-in SD library. Made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashLogger",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashLogger.git",
+      "providesIncludes": [
+        "AlashLogger.h"
+      ],
+      "dependencies": [
+        {
+          "name": "SD"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashLogger-1.1.0.zip",
+      "archiveFileName": "AlashLogger-1.1.0.zip",
+      "size": 35430,
+      "checksum": "SHA-256:ed0702d90463cf757ff40f433d3737afa386ca0d8a00c6219314687c776063d8"
+    },
+    {
+      "name": "AlashMPU",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy MPU6050 / MPU6500 / MPU9250 (GY-521) library: acceleration, rotation, tilt angles with a filter, calibration. No dependencies.",
+      "paragraph": "Reads the accelerometer and gyroscope over I2C with a one-line begin(): finds the address and the chip itself, gives accelX(), gyroZ(), roll(), pitch(), yaw() and tilt() with a complementary filter, calibrates the zero offsets, and explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266 and other boards with only the built-in Wire library. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashMPU",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashMPU.git",
+      "providesIncludes": [
+        "AlashMPU.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashMPU-1.0.0.zip",
+      "archiveFileName": "AlashMPU-1.0.0.zip",
+      "size": 29067,
+      "checksum": "SHA-256:f9b86ebad152c96bafb068af1ca95234f7ca692398b1cb8ac40477dcd571eec0"
+    },
+    {
+      "name": "AlashMPU",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy MPU6050 / MPU6500 / MPU9250 (GY-521) library: acceleration, rotation, tilt angles with a filter, calibration. No dependencies.",
+      "paragraph": "Reads the accelerometer and gyroscope over I2C with a one-line begin(): finds the address and the chip itself, gives accelX(), gyroZ(), roll(), pitch(), yaw() and tilt() with a complementary filter, calibrates the zero offsets, and explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266 and other boards with only the built-in Wire library. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashMPU",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashMPU.git",
+      "providesIncludes": [
+        "AlashMPU.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashMPU-1.0.1.zip",
+      "archiveFileName": "AlashMPU-1.0.1.zip",
+      "size": 30440,
+      "checksum": "SHA-256:c23107346747dcab15ab651232fadb4ba5e6536dd1508a834a60e9151e52bdaa"
+    },
+    {
+      "name": "AlashMQTT",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy MQTT client for ESP32, ESP8266 and Ethernet: publish, subscribe, auto-reconnect with re-subscribe, last will, clear errors. No PubSubClient needed.",
+      "paragraph": "Publishes and subscribes to MQTT topics for smart-home and IoT projects with mqtt.publish(), mqtt.subscribe() and mqtt.update() in loop(): reconnects with growing delays, restores subscriptions after a drop, supports login, last will, retained messages and numbers as text, and explains refusals (wrong password, bad client id, blocked port) in Russian, Kazakh or English. Works over any Arduino Client (WiFiClient, WiFiClientSecure, EthernetClient). Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashMQTT",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashMQTT.git",
+      "providesIncludes": [
+        "AlashMQTT.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashMQTT-1.0.0.zip",
+      "archiveFileName": "AlashMQTT-1.0.0.zip",
+      "size": 32895,
+      "checksum": "SHA-256:c48b7c14201f24c49c2922bfa1c58e0fd9b5e83cd5d7aea592033ac87bfbc35f"
+    },
+    {
+      "name": "AlashMQTT",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy MQTT client for ESP32, ESP8266 and Ethernet: publish, subscribe, auto-reconnect with re-subscribe, last will, clear errors. No PubSubClient needed.",
+      "paragraph": "Publishes and subscribes to MQTT topics for smart-home and IoT projects with mqtt.publish(), mqtt.subscribe() and mqtt.update() in loop(): reconnects with growing delays, restores subscriptions after a drop, supports login, last will, retained messages and numbers as text, and explains refusals (wrong password, bad client id, blocked port) in Russian, Kazakh or English. Works over any Arduino Client (WiFiClient, WiFiClientSecure, EthernetClient). Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashMQTT",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashMQTT.git",
+      "providesIncludes": [
+        "AlashMQTT.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashMQTT-1.0.1.zip",
+      "archiveFileName": "AlashMQTT-1.0.1.zip",
+      "size": 34290,
+      "checksum": "SHA-256:f2a0b65fa73d3c1ffaa9f188503e1bc2482a6065e2246238c620039147bdb3d2"
+    },
+    {
+      "name": "AlashNTP",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy NTP time library for ESP32 and ESP8266: exact internet time, Kazakhstan time zone by default, non-blocking sync, date and weekday.",
+      "paragraph": "Gets the exact time from the internet over Wi-Fi with ntp.begin() and ntp.update() in loop(): syncs once an hour without stopping the program, keeps counting between syncs, compensates network delay, checks that the reply is genuine, retries with back-off when the network is gone and gives hour(), day(), year(), weekday(), unixTime() and a text timestamp for any time zone (UTC+5 by default). Explains problems in Russian, Kazakh or English. Needs only the built-in WiFi libraries. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashNTP",
+      "category": "Timing",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashNTP.git",
+      "providesIncludes": [
+        "AlashNTP.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashNTP-1.0.0.zip",
+      "archiveFileName": "AlashNTP-1.0.0.zip",
+      "size": 27068,
+      "checksum": "SHA-256:f852ca6f3f256246d00ce8b7bf71d45ca590b4d2139c5b3d90c3647fa62ec08d"
+    },
+    {
+      "name": "AlashNTP",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy NTP time library for ESP32 and ESP8266: exact internet time, Kazakhstan time zone by default, non-blocking sync, date and weekday.",
+      "paragraph": "Gets the exact time from the internet over Wi-Fi with ntp.begin() and ntp.update() in loop(): syncs once an hour without stopping the program, keeps counting between syncs, compensates network delay, checks that the reply is genuine, retries with back-off when the network is gone and gives hour(), day(), year(), weekday(), unixTime() and a text timestamp for any time zone (UTC+5 by default). Explains problems in Russian, Kazakh or English. Needs only the built-in WiFi libraries. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashNTP",
+      "category": "Timing",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashNTP.git",
+      "providesIncludes": [
+        "AlashNTP.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashNTP-1.0.1.zip",
+      "archiveFileName": "AlashNTP-1.0.1.zip",
+      "size": 27871,
+      "checksum": "SHA-256:9b7fa1547ca33a44479396f8a2d86f2339965cf9aad1ac15665bd246d5f44a3a"
+    },
+    {
+      "name": "AlashNeoPixel",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "WS2812 / NeoPixel LED strips with ready effects, HSV, gradient, gamma and a current limiter. Own driver for AVR 16 MHz, ESP8266 and ESP32, no dependencies.",
+      "paragraph": "Drives WS2812, WS2812B and SK6812 (RGB and RGBW) addressable LEDs: AlashNeoPixel strip(30, 6); strip.fill(AlashNeoPixel::RED); strip.show(). Colors by HSV, color wheel, rainbow, gradient, fade, rotate, gamma correction, global brightness that keeps the pixel data, and setMaxMilliamps() that protects the power supply. Ten ready effects without delay(): rainbow, chase, comet, breathe, blink, twinkle, fire, wipe, theater, scanner. Writes the signal itself (AVR at 16 MHz, ESP8266, ESP32 with core 3.x RMT), setWriter() lets other boards plug in an output. Explains problems in Russian, Kazakh or English. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashNeoPixel",
+      "category": "Display",
+      "architectures": [
+        "avr",
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashNeoPixel.git",
+      "providesIncludes": [
+        "AlashNeoPixel.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashNeoPixel-1.0.0.zip",
+      "archiveFileName": "AlashNeoPixel-1.0.0.zip",
+      "size": 39226,
+      "checksum": "SHA-256:a3af4c779c09e870a37b588619795125e14d273e32ba8dae0bb658f461af880c"
+    },
+    {
+      "name": "AlashNeoPixel",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "WS2812 / NeoPixel LED strips with ready effects, HSV, gradient, gamma and a current limiter. Own driver for AVR 16 MHz, ESP8266 and ESP32, no dependencies.",
+      "paragraph": "Drives WS2812, WS2812B and SK6812 (RGB and RGBW) addressable LEDs: AlashNeoPixel strip(30, 6); strip.fill(AlashNeoPixel::RED); strip.show(). Colors by HSV, color wheel, rainbow, gradient, fade, rotate, gamma correction, global brightness that keeps the pixel data, and setMaxMilliamps() that protects the power supply. Ten ready effects without delay(): rainbow, chase, comet, breathe, blink, twinkle, fire, wipe, theater, scanner. Writes the signal itself (AVR at 16 MHz, ESP8266, ESP32 with core 3.x RMT), setWriter() lets other boards plug in an output. Explains problems in Russian, Kazakh or English. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashNeoPixel",
+      "category": "Display",
+      "architectures": [
+        "avr",
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashNeoPixel.git",
+      "providesIncludes": [
+        "AlashNeoPixel.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashNeoPixel-1.0.1.zip",
+      "archiveFileName": "AlashNeoPixel-1.0.1.zip",
+      "size": 40669,
+      "checksum": "SHA-256:8de615b79f1df4dbe9230e50eed81fd13b31822459d8d47e81c75a792c7dd72a"
+    },
+    {
+      "name": "AlashOTA",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Update ESP32 / ESP8266 firmware from a web browser over Wi-Fi: password, file and chip checks, clear tips (ru/kk/en).",
+      "paragraph": "Adds a firmware update page to ESP32 and ESP8266 in three lines. Open the page on a phone or computer, choose the .bin file and the board updates itself. A password is required, the file type and the target chip are checked before writing so a wrong file cannot break the board, and a failed upload leaves the old firmware running. Works with your own web server or alone. Explains problems in Russian, Kazakh or English. Needs only the built-in WebServer and Update. Made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashOTA",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashOTA.git",
+      "providesIncludes": [
+        "AlashOTA.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashOTA-1.0.0.zip",
+      "archiveFileName": "AlashOTA-1.0.0.zip",
+      "size": 32657,
+      "checksum": "SHA-256:5d810b6fc71a376b283fd4ce70f5ff884c430785c1cb3c9bb0c1578082b3c732"
+    },
+    {
+      "name": "AlashOTA",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Update ESP32 / ESP8266 firmware from a web browser over Wi-Fi: password, file and chip checks, clear tips (ru/kk/en).",
+      "paragraph": "Adds a firmware update page to ESP32 and ESP8266 in three lines. Open the page on a phone or computer, choose the .bin file and the board updates itself. A password is required, the file type and the target chip are checked before writing so a wrong file cannot break the board, and a failed upload leaves the old firmware running. Works with your own web server or alone. Explains problems in Russian, Kazakh or English. Needs only the built-in WebServer and Update. Made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashOTA",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashOTA.git",
+      "providesIncludes": [
+        "AlashOTA.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashOTA-1.0.1.zip",
+      "archiveFileName": "AlashOTA-1.0.1.zip",
+      "size": 33643,
+      "checksum": "SHA-256:f069516a048d01fc37e98aae3d17fcfeca5038adafaa41316488f4c76e486fb4"
+    },
+    {
+      "name": "AlashOled",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "OLED SSD1306 / SH1106 I2C library with Russian and Kazakh text, graphics and clear error tips, no dependencies.",
+      "paragraph": "Drives 128x64 and 128x32 I2C OLED displays (SSD1306 and SH1106) with a one-line begin(): finds the address, writes Cyrillic and Kazakh letters (Ә Ғ Қ Ң Ө Ұ Ү Һ, tenge) straight from UTF-8 strings, draws lines, rectangles, circles, bitmaps, progress bars and charts, and sends only the changed parts of the screen. Explains wiring problems in Russian, Kazakh or English. Needs only the built-in Wire library. Made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashOled",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashOled.git",
+      "providesIncludes": [
+        "AlashOled.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashOled-1.0.0.zip",
+      "archiveFileName": "AlashOled-1.0.0.zip",
+      "size": 37451,
+      "checksum": "SHA-256:d888b75f42a1e4bcf1a4b7a762bed30725c796d09d7a3426ef9509f0777aedac"
+    },
+    {
+      "name": "AlashOled",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "OLED SSD1306 / SH1106 I2C library with Russian and Kazakh text, graphics and clear error tips, no dependencies.",
+      "paragraph": "Drives 128x64 and 128x32 I2C OLED displays (SSD1306 and SH1106) with a one-line begin(): finds the address, writes Cyrillic and Kazakh letters (Ә Ғ Қ Ң Ө Ұ Ү Һ, tenge) straight from UTF-8 strings, draws lines, rectangles, circles, bitmaps, progress bars and charts, and sends only the changed parts of the screen. Explains wiring problems in Russian, Kazakh or English. Needs only the built-in Wire library. Made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashOled",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashOled.git",
+      "providesIncludes": [
+        "AlashOled.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashOled-1.0.1.zip",
+      "archiveFileName": "AlashOled-1.0.1.zip",
+      "size": 38355,
+      "checksum": "SHA-256:dc0cf8a7c7289ec0ff3e62b8a06adeba5679943d2e91fb3f3a40b44a54c1e064"
+    },
+    {
+      "name": "AlashOled",
+      "version": "1.1.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "OLED SSD1306 / SH1106 library for I2C and SPI modules with Russian and Kazakh text, graphics and clear error tips, no dependencies.",
+      "paragraph": "Drives 128x64 and 128x32 OLED displays (SSD1306 and SH1106) over I2C with a one-line begin() that finds the address, and over SPI (7-pin modules) on hardware SPI or on any pins. Writes Cyrillic and Kazakh letters (Ә Ғ Қ Ң Ө Ұ Ү Һ, tenge) straight from UTF-8 strings, draws lines, rectangles, circles, bitmaps, progress bars and charts, and sends only the changed parts of the screen. Explains wiring problems in Russian, Kazakh or English. Needs only the built-in Wire and SPI libraries. Made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashOled",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashOled.git",
+      "providesIncludes": [
+        "AlashOled.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashOled-1.1.0.zip",
+      "archiveFileName": "AlashOled-1.1.0.zip",
+      "size": 46644,
+      "checksum": "SHA-256:de3187261f85f154be991c0d84c22b6eb0ea39ac9b9e5db622ecc2a2b066a619"
+    },
+    {
+      "name": "AlashPCA9685",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy PCA9685 servo and PWM library: angles instead of pulses, per-servo calibration, smooth moves, robot poses. No dependencies.",
+      "paragraph": "Drives up to 16 servos or LEDs through a PCA9685 board with servo(channel, 90): finds the address itself, calibrates each servo (min, max, center, limits, invert), moves smoothly without blocking, sets whole robot poses at once and explains power and wiring problems in Russian, Kazakh or English. Needs only the built-in Wire library. Examples included, made for classes, robot dogs and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashPCA9685",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashPCA9685.git",
+      "providesIncludes": [
+        "AlashPCA9685.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashPCA9685-1.0.0.zip",
+      "archiveFileName": "AlashPCA9685-1.0.0.zip",
+      "size": 34840,
+      "checksum": "SHA-256:e8e7d2bb077df7419e516ac9abc1eb82daa8f42780b307bea96a57ab0f50971d"
+    },
+    {
+      "name": "AlashPCA9685",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy PCA9685 servo and PWM library: angles instead of pulses, per-servo calibration, smooth moves, robot poses. No dependencies.",
+      "paragraph": "Drives up to 16 servos or LEDs through a PCA9685 board with servo(channel, 90): finds the address itself, calibrates each servo (min, max, center, limits, invert), moves smoothly without blocking, sets whole robot poses at once and explains power and wiring problems in Russian, Kazakh or English. Needs only the built-in Wire library. Examples included, made for classes, robot dogs and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashPCA9685",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashPCA9685.git",
+      "providesIncludes": [
+        "AlashPCA9685.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashPCA9685-1.0.1.zip",
+      "archiveFileName": "AlashPCA9685-1.0.1.zip",
+      "size": 36985,
+      "checksum": "SHA-256:28c1daa7d525a2663a34c2810f8c1c3dbff024cf7af340b793c28ef70349e863"
+    },
+    {
+      "name": "AlashRFID",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy RC522 RFID card reader library: UID as text, allowed-card list, repeat protection, wiring check and clear tips. No MFRC522 library needed.",
+      "paragraph": "Reads MIFARE cards and key fobs with the RC522 module: rfid.available() fires once per card, uidString() gives 04:A1:B2:C3, addCard() builds an allowed list so rfid.isAllowed() opens a door lock, and the same card left on the reader does not repeat. Checks that the RC522 really answers and tells in Russian, Kazakh or English what to fix (3.3 V only, SPI wires, SS and RST pins). The proven public-domain RC522 driver is built in, so no separate MFRC522 library is needed. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashRFID",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashRFID.git",
+      "providesIncludes": [
+        "AlashRFID.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashRFID-1.0.0.zip",
+      "archiveFileName": "AlashRFID-1.0.0.zip",
+      "size": 56660,
+      "checksum": "SHA-256:40c55e0f8b6ffafc4b291c018677219a6ebb256880a92399d69fc6c04d86813b"
+    },
+    {
+      "name": "AlashRFID",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy RC522 RFID card reader library: UID as text, allowed-card list, repeat protection, wiring check and clear tips. No MFRC522 library needed.",
+      "paragraph": "Reads MIFARE cards and key fobs with the RC522 module: rfid.available() fires once per card, uidString() gives 04:A1:B2:C3, addCard() builds an allowed list so rfid.isAllowed() opens a door lock, and the same card left on the reader does not repeat. Checks that the RC522 really answers and tells in Russian, Kazakh or English what to fix (3.3 V only, SPI wires, SS and RST pins). The proven public-domain RC522 driver is built in, so no separate MFRC522 library is needed. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashRFID",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashRFID.git",
+      "providesIncludes": [
+        "AlashRFID.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashRFID-1.0.1.zip",
+      "archiveFileName": "AlashRFID-1.0.1.zip",
+      "size": 58155,
+      "checksum": "SHA-256:0e8ecff38964c2a2bd6440c45d6874043e88e2750f816aa11742279bf0b296af"
+    },
+    {
+      "name": "AlashRTC",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy DS3231 / DS1307 real-time clock library: date, time, unix time, temperature, alarm. Auto-detects the chip, clear messages, no RTClib needed.",
+      "paragraph": "Reads and sets a DS3231 or DS1307 clock module over I2C with a one-line begin(): finds the chip itself, sets the time from the compile time, tells when the battery was lost, gives year(), hour(), dayOfWeek(), unixTime(), a text timestamp, the DS3231 temperature and daily alarm, and explains problems in Russian, Kazakh or English. Needs only the built-in Wire library. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashRTC",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashRTC.git",
+      "providesIncludes": [
+        "AlashRTC.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashRTC-1.0.0.zip",
+      "archiveFileName": "AlashRTC-1.0.0.zip",
+      "size": 30644,
+      "checksum": "SHA-256:f85d2e4502080b782e69013f7302c0c90c07ffadd9450c29cd237420ff65b071"
+    },
+    {
+      "name": "AlashRTC",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy DS3231 / DS1307 real-time clock library: date, time, unix time, temperature, alarm. Auto-detects the chip, clear messages, no RTClib needed.",
+      "paragraph": "Reads and sets a DS3231 or DS1307 clock module over I2C with a one-line begin(): finds the chip itself, sets the time from the compile time, tells when the battery was lost, gives year(), hour(), dayOfWeek(), unixTime(), a text timestamp, the DS3231 temperature and daily alarm, and explains problems in Russian, Kazakh or English. Needs only the built-in Wire library. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashRTC",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashRTC.git",
+      "providesIncludes": [
+        "AlashRTC.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashRTC-1.0.1.zip",
+      "archiveFileName": "AlashRTC-1.0.1.zip",
+      "size": 32142,
+      "checksum": "SHA-256:9c9c976525d5552d44fbc883d32cb4db4c45ea193d9d511d606d6d6dd523a703"
+    },
+    {
+      "name": "AlashRTC",
+      "version": "1.1.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy real-time clock library for DS3231, DS1307, PCF8563 and DS1302: date, time, unix time, temperature, alarm. Auto-detects the chip, clear messages, no RTClib needed.",
+      "paragraph": "Reads and sets DS3231, DS1307 and PCF8563 clock modules over I2C with a one-line begin() that finds the chip itself, and the three-wire DS1302 with beginDS1302(). Sets the time from the compile time, tells when the battery was lost, gives year(), hour(), dayOfWeek(), unixTime(), a text timestamp, the DS3231 temperature and daily alarm, and explains problems in Russian, Kazakh or English. Needs only the built-in Wire library. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashRTC",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashRTC.git",
+      "providesIncludes": [
+        "AlashRTC.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashRTC-1.1.0.zip",
+      "archiveFileName": "AlashRTC-1.1.0.zip",
+      "size": 40759,
+      "checksum": "SHA-256:1624f8b747f5b0fc8554c78a44c69366afce8b06aee8a222a647aa90267632b2"
+    },
+    {
+      "name": "AlashRelay",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy relay module library: no click at power-up, active-low support, timed pulses, switching protection and interlock for motor reversing. No dependencies.",
+      "paragraph": "Controls relay modules safely: begin() sets the off level before enabling the pin so the relay does not click at start, supports active-LOW modules, runs timed pulses and delays without delay(), limits too frequent switching, switches off after a maximum on-time, interlocks two relays for motor reversing with a dead time and counts switches. Explains problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashRelay",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashRelay.git",
+      "providesIncludes": [
+        "AlashRelay.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashRelay-1.0.0.zip",
+      "archiveFileName": "AlashRelay-1.0.0.zip",
+      "size": 24244,
+      "checksum": "SHA-256:7bb067e0e005c6e2eecdec89c82cea395c27fc37daf05d1bf7b721a3831a0bec"
+    },
+    {
+      "name": "AlashRelay",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy relay module library: no click at power-up, active-low support, timed pulses, switching protection and interlock for motor reversing. No dependencies.",
+      "paragraph": "Controls relay modules safely: begin() sets the off level before enabling the pin so the relay does not click at start, supports active-LOW modules, runs timed pulses and delays without delay(), limits too frequent switching, switches off after a maximum on-time, interlocks two relays for motor reversing with a dead time and counts switches. Explains problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashRelay",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashRelay.git",
+      "providesIncludes": [
+        "AlashRelay.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashRelay-1.0.1.zip",
+      "archiveFileName": "AlashRelay-1.0.1.zip",
+      "size": 26153,
+      "checksum": "SHA-256:9d2158a05237bbffb6d1043e6558dce3b7a59bf7426b7057313b541a38a8f5a7"
+    },
+    {
+      "name": "AlashServo",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Smooth non-blocking servo: moveTo(angle, time, easing), speed, limits, reverse, groups and sweep. One API for Arduino AVR, ESP8266 and ESP32 without extra libraries.",
+      "paragraph": "Moves hobby servos smoothly without delay(): servo.moveTo(120, 1500, AlashServo::SMOOTH) goes there in 1.5 seconds while the program keeps running. Speed in degrees per second, soft limits to protect the mechanics, reverse and trim, easing curves (smooth, quadratic, bounce), sweep for radars and robot heads, AlashServoGroup to move a robot arm so that all joints arrive together, automatic release of the signal to stop buzzing. On ESP32 it drives the LEDC hardware PWM itself, no ESP32Servo needed; on AVR and ESP8266 it uses the built-in Servo library. Explains problems in Russian, Kazakh or English. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashServo",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashServo.git",
+      "providesIncludes": [
+        "AlashServo.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Servo"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashServo-1.0.0.zip",
+      "archiveFileName": "AlashServo-1.0.0.zip",
+      "size": 35863,
+      "checksum": "SHA-256:10c70be9f7ba2e98470c917ab32d1dbbb6592e21acf905089c7418960de84c81"
+    },
+    {
+      "name": "AlashServo",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Smooth non-blocking servo: moveTo(angle, time, easing), speed, limits, reverse, groups and sweep. One API for Arduino AVR, ESP8266 and ESP32 without extra libraries.",
+      "paragraph": "Moves hobby servos smoothly without delay(): servo.moveTo(120, 1500, AlashServo::SMOOTH) goes there in 1.5 seconds while the program keeps running. Speed in degrees per second, soft limits to protect the mechanics, reverse and trim, easing curves (smooth, quadratic, bounce), sweep for radars and robot heads, AlashServoGroup to move a robot arm so that all joints arrive together, automatic release of the signal to stop buzzing. On ESP32 it drives the LEDC hardware PWM itself, no ESP32Servo needed; on AVR and ESP8266 it uses the built-in Servo library. Explains problems in Russian, Kazakh or English. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashServo",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashServo.git",
+      "providesIncludes": [
+        "AlashServo.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Servo"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashServo-1.0.1.zip",
+      "archiveFileName": "AlashServo-1.0.1.zip",
+      "size": 37522,
+      "checksum": "SHA-256:5ffd9472d8260bf7782d9f766f77a8a3366668b811cdff86c301324af21e7bb1"
+    },
+    {
+      "name": "AlashSettings",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Settings in EEPROM as one struct: checksum, versions and defaults, wear leveling, power-loss safe writes, migration and delayed autosave. AVR, ESP8266, ESP32.",
+      "paragraph": "Stores your settings struct in EEPROM safely: AlashSettings\u003cConfig\u003e settings; settings.begin(defaults); settings.data.volume = 7; settings.save(). A checksum catches corrupt data, a version number catches a changed struct, and the first start loads your defaults. Writes rotate over several slots to multiply EEPROM life and a power loss during a write never destroys the previous data. onMigrate() carries old data to a new struct version, autosave() writes only after the value stops changing, save() skips writing when nothing changed. Uses the built-in EEPROM library on Arduino AVR, ESP8266 and ESP32 (begin and commit handled). Explains problems in Russian, Kazakh or English. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashSettings",
+      "category": "Data Storage",
+      "architectures": [
+        "avr",
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashSettings.git",
+      "providesIncludes": [
+        "AlashSettings.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashSettings-1.0.0.zip",
+      "archiveFileName": "AlashSettings-1.0.0.zip",
+      "size": 33140,
+      "checksum": "SHA-256:e41cb7baeef883be80a3f5c6c18f0482edd5c901a21ac767dee4ca01c6c8d9fa"
+    },
+    {
+      "name": "AlashSettings",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Settings in EEPROM as one struct: checksum, versions and defaults, wear leveling, power-loss safe writes, migration and delayed autosave. AVR, ESP8266, ESP32.",
+      "paragraph": "Stores your settings struct in EEPROM safely: AlashSettings\u003cConfig\u003e settings; settings.begin(defaults); settings.data.volume = 7; settings.save(). A checksum catches corrupt data, a version number catches a changed struct, and the first start loads your defaults. Writes rotate over several slots to multiply EEPROM life and a power loss during a write never destroys the previous data. onMigrate() carries old data to a new struct version, autosave() writes only after the value stops changing, save() skips writing when nothing changed. Uses the built-in EEPROM library on Arduino AVR, ESP8266 and ESP32 (begin and commit handled). Explains problems in Russian, Kazakh or English. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashSettings",
+      "category": "Data Storage",
+      "architectures": [
+        "avr",
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashSettings.git",
+      "providesIncludes": [
+        "AlashSettings.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashSettings-1.0.1.zip",
+      "archiveFileName": "AlashSettings-1.0.1.zip",
+      "size": 34419,
+      "checksum": "SHA-256:9b4a283c91ac226393c761a6877e26d9b2639e580e86d0289e0485c0ff78e275"
+    },
+    {
+      "name": "AlashStepper",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy 28BYJ-48 stepper motor library (ULN2003): angles, turns, smooth acceleration, non-blocking, auto coil release. No dependencies.",
+      "paragraph": "Drives the popular 28BYJ-48 stepper motor with a ULN2003 board: moveDegrees(90), goToAngle(), rotate(), spin(). Uses the real gearbox ratio so one turn is a true 360 degrees, speeds up and slows down smoothly, never blocks the program, turns the coils off when idle so the motor does not heat, and explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashStepper",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashStepper.git",
+      "providesIncludes": [
+        "AlashStepper.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashStepper-1.0.0.zip",
+      "archiveFileName": "AlashStepper-1.0.0.zip",
+      "size": 26960,
+      "checksum": "SHA-256:c8260b06ca7fc8c6021f314728d0dbeac2f808c94a508f09b4993f5ec8da71c1"
+    },
+    {
+      "name": "AlashStepper",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy 28BYJ-48 stepper motor library (ULN2003): angles, turns, smooth acceleration, non-blocking, auto coil release. No dependencies.",
+      "paragraph": "Drives the popular 28BYJ-48 stepper motor with a ULN2003 board: moveDegrees(90), goToAngle(), rotate(), spin(). Uses the real gearbox ratio so one turn is a true 360 degrees, speeds up and slows down smoothly, never blocks the program, turns the coils off when idle so the motor does not heat, and explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashStepper",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashStepper.git",
+      "providesIncludes": [
+        "AlashStepper.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashStepper-1.0.1.zip",
+      "archiveFileName": "AlashStepper-1.0.1.zip",
+      "size": 28285,
+      "checksum": "SHA-256:7d23b8f43e7c07dc74334932b1cb0f6729e4d56e20d819cc30bb5389fcf80b2b"
+    },
+    {
+      "name": "AlashStepper",
+      "version": "1.1.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Stepper motors with any driver: 28BYJ-48 + ULN2003, NEMA17 via A4988 / DRV8825 / TB6600 (STEP/DIR) and bipolar motors via L298N: angles, microsteps, smooth acceleration, non-blocking.",
+      "paragraph": "Drives stepper motors with one simple interface for three kinds of drivers: the 28BYJ-48 with a ULN2003 board, any bipolar motor through a STEP/DIR driver (A4988, DRV8825, TMC2208, TB6600) with microsteps, an enable pin and pulse width, and a 4-wire bipolar motor through two H-bridges (L298N, L293D, TB6612). Turn by an angle or revolutions, spin continuously, smooth acceleration and braking without missed steps, non-blocking run() in loop(), automatic coil release. Explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashStepper",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashStepper.git",
+      "providesIncludes": [
+        "AlashStepper.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashStepper-1.1.0.zip",
+      "archiveFileName": "AlashStepper-1.1.0.zip",
+      "size": 42760,
+      "checksum": "SHA-256:0b76a569f2e809a3194c7b944ae8b75993d7b401044411de4dafe4880aa4d1c8"
+    },
+    {
+      "name": "AlashTCS3200",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy TCS3200 / TCS230 color sensor library: calibrated RGB 0-255 and the color name in words (ru/kk/en), no dependencies.",
+      "paragraph": "Reads the TCS3200 and TCS230 color sensor modules with a one-line begin(): measures the four channels by pulse width, calibrates on white and black so the result does not depend on the lamp, returns RGB 0 to 255 and names the color in Russian, Kazakh or English. Calibration numbers can be pasted into the sketch. Explains wiring problems in three languages. Needs no other library. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashTCS3200",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashTCS3200.git",
+      "providesIncludes": [
+        "AlashTCS3200.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashTCS3200-1.0.0.zip",
+      "archiveFileName": "AlashTCS3200-1.0.0.zip",
+      "size": 25117,
+      "checksum": "SHA-256:da43774db3b6f81100db6762c247ed1db2bc8f8b93b50602222a1f5082eaa9c7"
+    },
+    {
+      "name": "AlashTCS3200",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy TCS3200 / TCS230 color sensor library: calibrated RGB 0-255 and the color name in words (ru/kk/en), no dependencies.",
+      "paragraph": "Reads the TCS3200 and TCS230 color sensor modules with a one-line begin(): measures the four channels by pulse width, calibrates on white and black so the result does not depend on the lamp, returns RGB 0 to 255 and names the color in Russian, Kazakh or English. Calibration numbers can be pasted into the sketch. Explains wiring problems in three languages. Needs no other library. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashTCS3200",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashTCS3200.git",
+      "providesIncludes": [
+        "AlashTCS3200.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashTCS3200-1.0.1.zip",
+      "archiveFileName": "AlashTCS3200-1.0.1.zip",
+      "size": 25978,
+      "checksum": "SHA-256:af5c2e85c2e6a7386d949a4e3b4e65fc8bd1f063f3981c382e16ac129aafb418"
+    },
+    {
+      "name": "AlashTM1637",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy TM1637 4-digit 7-segment display library: numbers, decimals, clock with colon, text, scrolling, brightness. No dependencies.",
+      "paragraph": "Drives the popular TM1637 4-digit display module with showNumber(), showFloat(), showTime() and showText(): right-aligned numbers with minus sign, decimal point on the right digit, blinking colon for clocks, letters and scrolling text, brightness 0-7, and tells in Russian, Kazakh or English when the display does not answer. Works on Arduino AVR, ESP32, ESP8266 with any two digital pins. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashTM1637",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashTM1637.git",
+      "providesIncludes": [
+        "AlashTM1637.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashTM1637-1.0.0.zip",
+      "archiveFileName": "AlashTM1637-1.0.0.zip",
+      "size": 26860,
+      "checksum": "SHA-256:af06ad986810a24ea64c37414e07640c2717f21b05894ac9a4bedc9d427d29e3"
+    },
+    {
+      "name": "AlashTM1637",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy TM1637 4-digit 7-segment display library: numbers, decimals, clock with colon, text, scrolling, brightness. No dependencies.",
+      "paragraph": "Drives the popular TM1637 4-digit display module with showNumber(), showFloat(), showTime() and showText(): right-aligned numbers with minus sign, decimal point on the right digit, blinking colon for clocks, letters and scrolling text, brightness 0-7, and tells in Russian, Kazakh or English when the display does not answer. Works on Arduino AVR, ESP32, ESP8266 with any two digital pins. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashTM1637",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashTM1637.git",
+      "providesIncludes": [
+        "AlashTM1637.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashTM1637-1.0.1.zip",
+      "archiveFileName": "AlashTM1637-1.0.1.zip",
+      "size": 28355,
+      "checksum": "SHA-256:68b94ecdb6c16d1ac680044c551d55a7a695eaed0028e22829a1a54679fb2fb7"
+    },
+    {
+      "name": "AlashTM1637",
+      "version": "1.1.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy TM1637 4- and 6-digit 7-segment display library: numbers, decimals, clock with colon, text, scrolling, brightness. No dependencies.",
+      "paragraph": "Drives the popular TM1637 4-digit and 6-digit display modules with showNumber(), showFloat(), showTime(), showTimeHMS() and showText(): right-aligned numbers with minus sign, decimal point on the right digit, blinking colon, scrolling text and brightness. The odd digit order of 6-digit modules is handled for you and can be changed with setDigitMap(). begin() reports a missing display and explains wiring problems in Russian, Kazakh or English. Works on any two pins, no dependencies.",
+      "website": "https://github.com/Alash-electronics/AlashTM1637",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashTM1637.git",
+      "providesIncludes": [
+        "AlashTM1637.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashTM1637-1.1.0.zip",
+      "archiveFileName": "AlashTM1637-1.1.0.zip",
+      "size": 33196,
+      "checksum": "SHA-256:c217dc199acc4e96009fc454c3a7c09224c4b1532ef9c4e9b3089ee743c258ac"
+    },
+    {
+      "name": "AlashTelegram",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy Telegram bot for ESP32 and ESP8266: receive commands, send messages and inline buttons, only your own chat, clear errors. No ArduinoJson.",
+      "paragraph": "Turns an ESP32 or ESP8266 into a Telegram bot: bot.onMessage() receives commands and button presses, bot.send() and bot.sendButtons() answer with text and inline buttons, bot.allowChat() accepts commands only from your own chat so strangers cannot control your lamp, and 64-bit chat ids and Cyrillic text work correctly. Explains token, Wi-Fi and blocked-network problems in Russian, Kazakh or English. Needs only WiFiClientSecure, no ArduinoJson. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashTelegram",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashTelegram.git",
+      "providesIncludes": [
+        "AlashTelegram.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashTelegram-1.0.0.zip",
+      "archiveFileName": "AlashTelegram-1.0.0.zip",
+      "size": 34629,
+      "checksum": "SHA-256:32a0d7e572a4fa47e599565142baf6c106a9895955473194dbce2e74f6245680"
+    },
+    {
+      "name": "AlashTelegram",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy Telegram bot for ESP32 and ESP8266: receive commands, send messages and inline buttons, only your own chat, clear errors. No ArduinoJson.",
+      "paragraph": "Turns an ESP32 or ESP8266 into a Telegram bot: bot.onMessage() receives commands and button presses, bot.send() and bot.sendButtons() answer with text and inline buttons, bot.allowChat() accepts commands only from your own chat so strangers cannot control your lamp, and 64-bit chat ids and Cyrillic text work correctly. Explains token, Wi-Fi and blocked-network problems in Russian, Kazakh or English. Needs only WiFiClientSecure, no ArduinoJson. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashTelegram",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashTelegram.git",
+      "providesIncludes": [
+        "AlashTelegram.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashTelegram-1.0.1.zip",
+      "archiveFileName": "AlashTelegram-1.0.1.zip",
+      "size": 35957,
+      "checksum": "SHA-256:9e42d1b9fb050f88396a4e481549c04d9eb513c5e31c78bc4bbca836a7e2a5e7"
+    },
+    {
+      "name": "AlashTimer",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy non-blocking timers without delay(): every(), once, stopwatch and blinking LED patterns. Safe over millis() overflow, no dependencies.",
+      "paragraph": "Replaces delay() and millis() boilerplate: AlashTimer t(1000); if (t.ready()) ... runs code every second without stopping the program, once after a delay, with pause and resume, in milliseconds or microseconds. AlashBlinker blinks an LED with blink(), flash(3) or a custom pattern such as SOS. Works on Arduino AVR, ESP32, ESP8266 and other boards. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashTimer",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashTimer.git",
+      "providesIncludes": [
+        "AlashTimer.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashTimer-1.0.0.zip",
+      "archiveFileName": "AlashTimer-1.0.0.zip",
+      "size": 21634,
+      "checksum": "SHA-256:239fb77f4baf3b778d2dff4bb24d3ef56075c56a03cb3cf9a6a5d5835ec0d91d"
+    },
+    {
+      "name": "AlashTimer",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy non-blocking timers without delay(): every(), once, stopwatch and blinking LED patterns. Safe over millis() overflow, no dependencies.",
+      "paragraph": "Replaces delay() and millis() boilerplate: AlashTimer t(1000); if (t.ready()) ... runs code every second without stopping the program, once after a delay, with pause and resume, in milliseconds or microseconds. AlashBlinker blinks an LED with blink(), flash(3) or a custom pattern such as SOS. Works on Arduino AVR, ESP32, ESP8266 and other boards. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashTimer",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashTimer.git",
+      "providesIncludes": [
+        "AlashTimer.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashTimer-1.0.1.zip",
+      "archiveFileName": "AlashTimer-1.0.1.zip",
+      "size": 22913,
+      "checksum": "SHA-256:b444e38834ad990dc04b0a84fc1204c6f3a7cdd4cc71a4847cb24d330db742ee"
+    },
+    {
+      "name": "AlashWeb",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy web control panel for ESP32 and ESP8266: buttons, switches, sliders, live values with a chart on a page you open from a phone. No AsyncWebServer.",
+      "paragraph": "Builds a mobile-friendly control page in a few lines: web.addSwitch(), addButton(), addSlider(), addValue() with an optional live chart and addText(); the page shows up at the board address, updates every second and sends commands back to your functions. Optional password, dark theme, Cyrillic labels, and clear tips in Russian, Kazakh or English when the page does not open. Needs only the built-in WebServer, no AsyncWebServer or SPIFFS. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashWeb",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashWeb.git",
+      "providesIncludes": [
+        "AlashWeb.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashWeb-1.0.0.zip",
+      "archiveFileName": "AlashWeb-1.0.0.zip",
+      "size": 36062,
+      "checksum": "SHA-256:76b521cf90b333cd27a6a2e741e952f0e2275f2a0741f7cfff52a7575cba960a"
+    },
+    {
+      "name": "AlashWeb",
+      "version": "1.0.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy web control panel for ESP32 and ESP8266: buttons, switches, sliders, live values with a chart on a page you open from a phone. No AsyncWebServer.",
+      "paragraph": "Builds a mobile-friendly control page in a few lines: web.addSwitch(), addButton(), addSlider(), addValue() with an optional live chart and addText(); the page shows up at the board address, updates every second and sends commands back to your functions. Optional password, dark theme, Cyrillic labels, and clear tips in Russian, Kazakh or English when the page does not open. Needs only the built-in WebServer, no AsyncWebServer or SPIFFS. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashWeb",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashWeb.git",
+      "providesIncludes": [
+        "AlashWeb.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashWeb-1.0.1.zip",
+      "archiveFileName": "AlashWeb-1.0.1.zip",
+      "size": 37280,
+      "checksum": "SHA-256:69231f6c23f3cc7087fd6d2f1f480f3c2b5de855ac745d6a2f3cfca911322feb"
+    },
+    {
+      "name": "AlashWiFi",
+      "version": "1.1.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy Wi-Fi library for ESP32 and ESP8266: clear error reasons, auto-reconnect, saved network and a phone setup portal like WiFiManager.",
+      "paragraph": "Connects an ESP32 or ESP8266 to Wi-Fi with wifi.begin(name, password) and tells why it failed (network not found, wrong password, 5 GHz network, weak signal) in Russian, Kazakh or English. wifi.autoConnect() opens a setup page on your phone the first time, saves the network and reconnects by itself afterwards, with growing retry delays. Includes a network scanner and a diagnose() helper. Needs only the built-in WiFi, WebServer and DNSServer libraries. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashWiFi",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashWiFi.git",
+      "providesIncludes": [
+        "AlashWiFi.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashWiFi-1.1.0.zip",
+      "archiveFileName": "AlashWiFi-1.1.0.zip",
+      "size": 41842,
+      "checksum": "SHA-256:bd6ca0b4bdaae931128d56f00909550d0565583fc4a224c9269afc066fad9c16"
+    },
+    {
+      "name": "AlashWiFi",
+      "version": "1.1.1",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Easy Wi-Fi library for ESP32 and ESP8266: clear error reasons, auto-reconnect, saved network and a phone setup portal like WiFiManager.",
+      "paragraph": "Connects an ESP32 or ESP8266 to Wi-Fi with wifi.begin(name, password) and tells why it failed (network not found, wrong password, 5 GHz network, weak signal) in Russian, Kazakh or English. wifi.autoConnect() opens a setup page on your phone the first time, saves the network and reconnects by itself afterwards, with growing retry delays. Includes a network scanner and a diagnose() helper. Needs only the built-in WiFi, WebServer and DNSServer libraries. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashWiFi",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashWiFi.git",
+      "providesIncludes": [
+        "AlashWiFi.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashWiFi-1.1.1.zip",
+      "archiveFileName": "AlashWiFi-1.1.1.zip",
+      "size": 43565,
+      "checksum": "SHA-256:296772d972b5d032e46313002d1999ce7a0d18f59c9438bce45c5546d4497ae4"
+    },
+    {
+      "name": "AlashMLX90614",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "MLX90614 / GY-906 infrared non-contact thermometer: object and ambient temperature, emissivity, offset, checked data (PEC), clear messages. No dependencies.",
+      "paragraph": "Reads the MLX90614 and GY-906 infrared thermometer over I2C with a one-line begin(): objectTemperature() for what the sensor looks at, ambientTemperature() for the surroundings, emissivity and offset settings, PEC checksum verification with a retry, and the data-sheet EEPROM write sequence. Explains wiring and range problems in Russian, Kazakh or English. Needs only the built-in Wire library. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashMLX90614",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashMLX90614.git",
+      "providesIncludes": [
+        "AlashMLX90614.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashMLX90614-1.0.0.zip",
+      "archiveFileName": "AlashMLX90614-1.0.0.zip",
+      "size": 33907,
+      "checksum": "SHA-256:f419aadcd105c316ea13a6c8cca9ad83a43ed903b48494ae90949bda67a60f99"
+    },
+    {
+      "name": "AlashThermocouple",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Type K thermocouple library for MAX6675 and MAX31855 modules: temperature up to 1350 C, cold junction, open and short detection, clear messages. No dependencies.",
+      "paragraph": "Reads a type K thermocouple through a MAX6675 (0 to 1024 C) or MAX31855 (-200 to 1350 C) SPI module with one object: AlashThermocouple tc(AlashThermocouple::MAX6675, cs, clk, miso); tc.temperature(). Software SPI on any pins or hardware SPI, internal cold junction temperature of the MAX31855, detection of a broken thermocouple and of a short to GND or VCC, frame plausibility check, caching to the chip conversion time, offset. Explains wiring problems in Russian, Kazakh or English. Needs only the built-in SPI library. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashThermocouple",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashThermocouple.git",
+      "providesIncludes": [
+        "AlashThermocouple.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashThermocouple-1.0.0.zip",
+      "archiveFileName": "AlashThermocouple-1.0.0.zip",
+      "size": 30001,
+      "checksum": "SHA-256:d68040aef6caaf3d0894de3008ea176654098e7160dac82292fa56479bd2a71a"
+    },
+    {
+      "name": "AlashPMS5003",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Dust sensors PMS5003, PMS7003, PMSA003 (Plantower): PM1.0, PM2.5, PM10, AQI, particle counts, sleep and passive mode, checked frames. No dependencies.",
+      "paragraph": "Reads Plantower PMS5003, PMS7003, PMSA003, PMS1003 and PMS3003 dust sensors over UART without blocking: update() in loop(), pm1(), pm25(), pm10(), particle counts, the US EPA air quality index aqi() with a verbal rating, frame checksum verification, resynchronization after garbage, active and passive mode, sleep and wake to extend the sensor life. Works with any port (Serial, Serial2, SoftwareSerial). Explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashPMS5003",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashPMS5003.git",
+      "providesIncludes": [
+        "AlashPMS5003.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashPMS5003-1.0.0.zip",
+      "archiveFileName": "AlashPMS5003-1.0.0.zip",
+      "size": 33954,
+      "checksum": "SHA-256:3737f4dbe481c1865076b7dc2a45a9bc83e08c0955a4f8fbadd50351da6c5baf"
+    },
+    {
+      "name": "AlashMHZ19",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "CO2 sensors MH-Z19B, MH-Z19C, MH-Z19E, MH-Z14A over UART: ppm, ventilation rating, calibration, ABC, range, checked replies. No dependencies.",
+      "paragraph": "Reads Winsen MH-Z19B, MH-Z19C, MH-Z19D, MH-Z19E and MH-Z14A carbon dioxide sensors over UART: read() or non-blocking poll() and update(), co2() in ppm, a verbal ventilation rating, reply checksum verification, zero calibration, ABC auto-calibration switch, measuring range, warm-up tracking. Works with any port (Serial, Serial2, SoftwareSerial). Explains wiring problems in Russian, Kazakh or English. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashMHZ19",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashMHZ19.git",
+      "providesIncludes": [
+        "AlashMHZ19.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashMHZ19-1.0.0.zip",
+      "archiveFileName": "AlashMHZ19-1.0.0.zip",
+      "size": 32922,
+      "checksum": "SHA-256:2128267cdca2ff9df51f5fcb294da13448680f59f9ca87a1e61d94d6384a944a"
+    },
+    {
+      "name": "Bonezegei_PN532",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "PN532 RFID Driver",
+      "paragraph": "Simple PN532 RFID Driver for scanning 13.56MHz Rfid Tags",
+      "website": "https://github.com/bonezegei/Bonezegei_PN532",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_PN532.git",
+      "providesIncludes": [
+        "Bonezegei_PN532.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_PN532-1.0.0.zip",
+      "archiveFileName": "Bonezegei_PN532-1.0.0.zip",
+      "size": 9495,
+      "checksum": "SHA-256:156d75f7f4841209e2d391d22c1e4a7f4cc067f111dca1dda4a8d3c008601c2b"
+    },
+    {
+      "name": "AlashLineSensor",
+      "version": "1.0.0",
+      "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
+      "maintainer": "Alash engineering \u003calash.electronics@gmail.com\u003e",
+      "sentence": "Line sensor bar (QTR, TCRT5000) for line-following robots: calibration, line position, lost line, crossings, black or white line, analog or digital. No dependencies.",
+      "paragraph": "Reads a bar of 1 to 16 reflectance sensors (QTR-5A, QTR-8A, TCRT5000 modules) for a line-following robot: calibrate() once, then position() gives the line position 0 to (n-1)*1000, offset() the deviation from the center for steering, lineLost() and crossing() for special cases. Black or white line, analog or digital sensors, 10-bit or 12-bit ADC, an optional emitter pin, averaging and a detection threshold. Explains calibration and wiring problems in Russian, Kazakh or English. Needs nothing besides the Arduino core. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and robot kits by Alash Electronics.",
+      "website": "https://github.com/Alash-electronics/AlashLineSensor",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Alash-electronics/AlashLineSensor.git",
+      "providesIncludes": [
+        "AlashLineSensor.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashLineSensor-1.0.0.zip",
+      "archiveFileName": "AlashLineSensor-1.0.0.zip",
+      "size": 44737,
+      "checksum": "SHA-256:a27bb80db0c4d45f473f19fb45cf8d7520cdc456954cf5d3c7e94679258750be"
+    },
+    {
+      "name": "Arduino_RouterBridge_ROS",
+      "version": "0.0.2",
+      "author": "Lucio Rossi, Giovanni Bruno, Arduino",
+      "maintainer": "Arduino",
+      "sentence": "An Arduino_RouterBridge based ROS 2 bridge",
+      "paragraph": "This library provides a simple ROS 2 bridge for ArduinoCore_Zephyr boards (UNO Q, Ventuno Q)",
+      "website": "https://github.com/arduino-libraries/Arduino_RouterBridge_ROS",
+      "category": "Uncategorized",
+      "architectures": [
+        "zephyr"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "repository": "https://github.com/arduino-libraries/Arduino_RouterBridge_ROS.git",
+      "dependencies": [
+        {
+          "name": "Arduino_RouterBridge"
+        },
+        {
+          "name": "Arduino_RPClite",
+          "version": "\u003e=0.3.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_RouterBridge_ROS-0.0.2.zip",
+      "archiveFileName": "Arduino_RouterBridge_ROS-0.0.2.zip",
+      "size": 102982,
+      "checksum": "SHA-256:a5caa0941376e52e6017a93d5de97af2e0c1d3867a7eb695963d704cacdf9d06"
     }
   ]
 }
