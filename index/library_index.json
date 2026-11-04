@@ -91554,6 +91554,41 @@
       "checksum": "SHA-256:c2e69f4e16c492522c15ae4339c555ca469e4e583341de00404983aadcaa1d57"
     },
     {
+      "name": "RF24Ethernet",
+      "version": "2.2.4",
+      "author": "TMRh20",
+      "maintainer": "TMRh20",
+      "sentence": "OSI layer 4/5 (TCP/IP) wireless/radio IoT mesh networks for nRF24L01(+) \u0026 nRF52",
+      "paragraph": "Automated, wireless(not WiFi), sensor/IoT networks that communicate/link together using standard protocols \u0026 networking. An experiment disconnected...",
+      "website": "https://nRF24.github.io/RF24Ethernet/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/TMRh20/RF24Ethernet.git",
+      "dependencies": [
+        {
+          "name": "RF24"
+        },
+        {
+          "name": "RF24Network"
+        },
+        {
+          "name": "RF24Mesh"
+        },
+        {
+          "name": "lwIP"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Ethernet-2.2.4.zip",
+      "archiveFileName": "RF24Ethernet-2.2.4.zip",
+      "size": 439380,
+      "checksum": "SHA-256:dcce4b7b071898149861c80bde8d745835aaa8069abc833d244a325c35723d48"
+    },
+    {
       "name": "RapifireMqttClient",
       "version": "1.0.0",
       "author": "Rapifire",
@@ -106334,6 +106369,27 @@
       "archiveFileName": "Button-1.2.0.zip",
       "size": 13210,
       "checksum": "SHA-256:4c06159fd3718d03d5527ba013ee26c716f02300c1eae9540e729ac1b4cdf513"
+    },
+    {
+      "name": "Button",
+      "version": "1.3.0",
+      "author": "Michael Adams \u003cgithub@michaeladams.org\u003e",
+      "maintainer": "Michael Adams \u003cgithub@michaeladams.org\u003e",
+      "sentence": "Button is a tiny library to make reading buttons very simple.",
+      "paragraph": "It handles debouncing automatically, and monitoring of state.",
+      "website": "https://github.com/madleech/Button",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/madleech/Button.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/madleech/Button-1.3.0.zip",
+      "archiveFileName": "Button-1.3.0.zip",
+      "size": 15238,
+      "checksum": "SHA-256:85f0d5b24f6d85c27ada3589a86cf1f7aa4d9cb6836248645886ca722c004a6a"
     },
     {
       "name": "TurnoutPulser",
@@ -187862,6 +187918,34 @@
       "archiveFileName": "ESPUI-2.2.4.zip",
       "size": 1224504,
       "checksum": "SHA-256:eceb3ac084df4e058e64c74b94311d99ed2e015522692ee81846e1b7ea186b97"
+    },
+    {
+      "name": "ESPUI",
+      "version": "2.3.0",
+      "author": "Lukas Bachschwell",
+      "maintainer": "Lukas Bachschwell \u003clukas@lbsfilm.at\u003e",
+      "sentence": "ESP32, ESP8266, Raspberry Pi Pico W and Pico 2 W Web Interface Library",
+      "paragraph": "A simple library that implements a web graphical user interface for ESP32, ESP8266 and Raspberry Pi Pico W / Pico 2 W (arduino-pico core). It is simple to use and works side by side with your sketch.",
+      "website": "https://github.com/s00500/ESPUI",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/s00500/ESPUI.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/s00500/ESPUI-2.3.0.zip",
+      "archiveFileName": "ESPUI-2.3.0.zip",
+      "size": 1258281,
+      "checksum": "SHA-256:5ef5282296945136a2ee3f32a2caf4f4799707c6cdf09d6dfad74bdc884f3952"
     },
     {
       "name": "jm_Pin",
@@ -739793,6 +739877,31 @@
       "checksum": "SHA-256:e72705525265407dd860a839aded8d933821e18928b5fada6daaa4e9cb7adebe"
     },
     {
+      "name": "libasm",
+      "version": "1.6.72",
+      "author": "Tadashi G. Takaoka",
+      "maintainer": "Tadashi G. Takaoka \u003ctadashi.g.takaoka@gmail.com\u003e",
+      "license": "Apache-2.0",
+      "sentence": "Cross assembler and disassembler for retro CPUs",
+      "paragraph": "With this, you can integrate assembler or disassembler into your sketch. Supported CPUs are AM29000, C166, CDP1802, CP1600, F3850, H16, H8300, H8500, I8048, I8051, I8080, I8086, I8096, I960, INS8060, INS8070, MC6800, MC68000, MC6805, MC6809, MC68HC12, MC68HC16, MN1610, MOS6502, NS32000, PDP11, PDP8, SCN2650, SUPERH, TLCS90, TLCS900, TMS320, TMS320F, TMS370, TMS7000, TMS9900, Z280, Z380, Z8, Z80, Z8000",
+      "website": "https://github.com/tgtakaoka/libasm",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tgtakaoka/libasm.git",
+      "providesIncludes": [
+        "libasm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.72.zip",
+      "archiveFileName": "libasm-1.6.72.zip",
+      "size": 14235247,
+      "checksum": "SHA-256:c7479126fa5044e85ab61a71e2a54db4384f89edafd7227e86cce35728fe658b"
+    },
+    {
       "name": "SparkFun AVR ISP Programming Library",
       "version": "1.0.0",
       "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
@@ -770654,6 +770763,32 @@
       "archiveFileName": "DFRobot_EnvironmentalSensor-1.1.1.zip",
       "size": 250834,
       "checksum": "SHA-256:23c91df73627e4b1628fddd73c3f4ec291525db947607bc53419dd1f1a0b7cfd"
+    },
+    {
+      "name": "DFRobot_EnvironmentalSensor",
+      "version": "1.3.0",
+      "author": "DFRobot",
+      "maintainer": "thdyyl \u003cyuanlong.yu@dfrobot.com\u003e",
+      "sentence": "A environmental sensor.(SKU:SEN0500\\SEN0501)",
+      "paragraph": "A module that integrates multiple environmental sensors",
+      "website": "https://github.com/DFRobot/DFRobot_EnvironmentalSensor",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DFRobot/DFRobot_EnvironmentalSensor.git",
+      "dependencies": [
+        {
+          "name": "DFRobot_RTU"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_EnvironmentalSensor-1.3.0.zip",
+      "archiveFileName": "DFRobot_EnvironmentalSensor-1.3.0.zip",
+      "size": 1155839,
+      "checksum": "SHA-256:e33eb5dc8d08dc04c62719e60793ce19f486fa8f36d7c54a46b843e351e122f9"
     },
     {
       "name": "PCA9622",
@@ -899851,6 +899986,76 @@
       "checksum": "SHA-256:941f018eabf60e1961758ef612e35e8aa61a4340012649d4198178ddb8483493"
     },
     {
+      "name": "ThingsCloud_ESP_SDK",
+      "version": "1.0.16",
+      "author": "thingscloud",
+      "maintainer": "thingscloud\u003cgithub@qijiwanwu.com\u003e",
+      "license": "MIT",
+      "sentence": "Build your IoT project in minutes!",
+      "paragraph": "ThingsCloud IoT Platform WiFi and MQTT client library for ESP8266/ESP32 based boards using arduino framework.",
+      "website": "https://www.thingscloud.xyz/",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/IoT-ThingsCloud/thingscloud-esp-sdk.git",
+      "providesIncludes": [
+        "ThingsCloudMQTT.h",
+        "ThingsCloudWiFiManager.h"
+      ],
+      "dependencies": [
+        {
+          "name": "PubSubClient"
+        },
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/IoT-ThingsCloud/ThingsCloud_ESP_SDK-1.0.16.zip",
+      "archiveFileName": "ThingsCloud_ESP_SDK-1.0.16.zip",
+      "size": 1021644,
+      "checksum": "SHA-256:08dfd63fda13b4c6f4ba79cd7bca4ab45cf2fd85cc1cd774e251b80be538c591"
+    },
+    {
+      "name": "ThingsCloud_ESP_SDK",
+      "version": "1.0.17",
+      "author": "thingscloud",
+      "maintainer": "thingscloud\u003cgithub@qijiwanwu.com\u003e",
+      "license": "MIT",
+      "sentence": "Build your IoT project in minutes!",
+      "paragraph": "ThingsCloud IoT Platform WiFi and MQTT client library for ESP8266/ESP32 based boards using arduino framework.",
+      "website": "https://www.thingscloud.xyz/",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/IoT-ThingsCloud/thingscloud-esp-sdk.git",
+      "providesIncludes": [
+        "ThingsCloudMQTT.h",
+        "ThingsCloudWiFiManager.h"
+      ],
+      "dependencies": [
+        {
+          "name": "PubSubClient"
+        },
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/IoT-ThingsCloud/ThingsCloud_ESP_SDK-1.0.17.zip",
+      "archiveFileName": "ThingsCloud_ESP_SDK-1.0.17.zip",
+      "size": 1021729,
+      "checksum": "SHA-256:b5c7dd10149c726d736016080ead94030578ec36327824ee9b4dfac7868fdbd9"
+    },
+    {
       "name": "SensorWLED",
       "version": "0.2.0",
       "author": "Debinix Team \u003cdebinixteam@triatagroup.com\u003e",
@@ -903041,6 +903246,106 @@
       "archiveFileName": "IotKernel-0.3.5.zip",
       "size": 14263,
       "checksum": "SHA-256:cd585433d37def92bd028cbed5a2d61fd55d8a1e20e1f529ba91dd7850d10c10"
+    },
+    {
+      "name": "IotKernel",
+      "version": "0.4.0",
+      "author": "Maxime Moreillon",
+      "maintainer": "Maxime Moreillon",
+      "sentence": "A library for basic functions of IoT devices",
+      "paragraph": "Provides basic IoT functions like Wifi, MQTT, configuration via Web UI, OTA updates",
+      "website": "https://github.com/maximemoreillon/iot-kernel",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/maximemoreillon/iot-kernel.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/maximemoreillon/IotKernel-0.4.0.zip",
+      "archiveFileName": "IotKernel-0.4.0.zip",
+      "size": 17852,
+      "checksum": "SHA-256:6c9edd1da1539cbe9a0e8da475050bb0425734e76a14b9cd00ae80cfb75f287c"
+    },
+    {
+      "name": "IotKernel",
+      "version": "1.0.0",
+      "author": "Maxime Moreillon",
+      "maintainer": "Maxime Moreillon",
+      "sentence": "A minimal starting point for ESP8266 and ESP32 IoT devices",
+      "paragraph": "Handles what every device needs: WiFi with access point fallback and captive portal, configuration via a web page, OTA updates, an optional admin password and an MQTT connection with availability. Device-specific behaviour stays in the sketch.",
+      "website": "https://github.com/maximemoreillon/iot-kernel",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/maximemoreillon/iot-kernel.git",
+      "dependencies": [
+        {
+          "name": "PubSubClient"
+        },
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/maximemoreillon/IotKernel-1.0.0.zip",
+      "archiveFileName": "IotKernel-1.0.0.zip",
+      "size": 20044,
+      "checksum": "SHA-256:793c4792cf6b83e4a65a226be40102f4f551ab39c244e516a35eec1d7d5035d4"
+    },
+    {
+      "name": "IotKernel",
+      "version": "1.0.1",
+      "author": "Maxime Moreillon",
+      "maintainer": "Maxime Moreillon",
+      "sentence": "A minimal starting point for ESP8266 and ESP32 IoT devices",
+      "paragraph": "Handles what every device needs: WiFi with access point fallback and captive portal, configuration via a web page, OTA updates, an optional admin password and an MQTT connection with availability. Device-specific behaviour stays in the sketch.",
+      "website": "https://github.com/maximemoreillon/iot-kernel",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/maximemoreillon/iot-kernel.git",
+      "dependencies": [
+        {
+          "name": "PubSubClient"
+        },
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/maximemoreillon/IotKernel-1.0.1.zip",
+      "archiveFileName": "IotKernel-1.0.1.zip",
+      "size": 20266,
+      "checksum": "SHA-256:ad37555f6a5e7175d5924a1bc9d3b5d85742cb46166e3caa551805dd8d5c999a"
     },
     {
       "name": "Escon",
@@ -1238980,6 +1239285,27 @@
       "checksum": "SHA-256:d963408fb6c930b1bdc2f282c18c680b40d201efcabfdf0feeeb79c770285881"
     },
     {
+      "name": "StringN",
+      "version": "1.0.9",
+      "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "maintainer": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "sentence": "Light and fast static string builder",
+      "paragraph": "Light and fast static string builder",
+      "website": "https://github.com/GyverLibs/StringN",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/GyverLibs/StringN.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/StringN-1.0.9.zip",
+      "archiveFileName": "StringN-1.0.9.zip",
+      "size": 15842,
+      "checksum": "SHA-256:74b276d7d9de63443c62d8551ca51907256c4a2b50c81d9eb604bbcb80794e01"
+    },
+    {
       "name": "GVector",
       "version": "1.0.0",
       "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
@@ -1249541,6 +1249867,30 @@
       "archiveFileName": "Packet_Device-1.0.13.zip",
       "size": 66105,
       "checksum": "SHA-256:81d81df71deddd0a03df1c94c5ff585c77a5dc68a8ad8c257bb39c6ff3fad496"
+    },
+    {
+      "name": "Packet_Device",
+      "version": "1.0.14",
+      "author": "Pallob K. Gain \u003cpallobkgain@gmail.com\u003e",
+      "maintainer": "Pallob K. Gain \u003cpallobkgain@gmail.com\u003e",
+      "sentence": "Packetized, event-driven communication over Arduino Stream (UART/SPI/Wire/BT).",
+      "paragraph": "Framing + CRC integrity + raw/structured bytes with handler callbacks. Works across transports; Node.js client available.",
+      "website": "https://github.com/Pallob-Gain/packet_device",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Pallob-Gain/packet_device.git",
+      "providesIncludes": [
+        "Packet_Device.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Pallob-Gain/Packet_Device-1.0.14.zip",
+      "archiveFileName": "Packet_Device-1.0.14.zip",
+      "size": 66142,
+      "checksum": "SHA-256:1025e9bf5ccf3c876eb33b3a61c7d525d900e55a3481b7f9e46edf6530efa66d"
     },
     {
       "name": "MentorBit-LIS3DH",
@@ -1265937,6 +1266287,77 @@
       "archiveFileName": "Frugal_IoT-2.0.7.zip",
       "size": 1034085,
       "checksum": "SHA-256:d90261807c18b3962266ea85d56be949e2387a377e7aae57951e59908024d862"
+    },
+    {
+      "name": "Frugal-IoT",
+      "version": "2.0.8",
+      "author": "Mitra Ardron",
+      "maintainer": "Mitra Ardron \u003cmitra@mitra.biz\u003e",
+      "sentence": "Platform for affordable sensors",
+      "paragraph": "The Frugal-IoT library implement an easy to use platform for a variety of sensors communicating over WiFi, LoRa, MQTT etc",
+      "website": "https://github.com/mitra42/frugal-iot",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mitra42/frugal-iot.git",
+      "providesIncludes": [
+        "Frugal-IoT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "BH1750"
+        },
+        {
+          "name": "Button2"
+        },
+        {
+          "name": "DHTNEW"
+        },
+        {
+          "name": "HX711"
+        },
+        {
+          "name": "MQTT"
+        },
+        {
+          "name": "OneWireNg"
+        },
+        {
+          "name": "hd44780"
+        },
+        {
+          "name": "TinyGPSPlus"
+        },
+        {
+          "name": "ModbusMaster"
+        },
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit SSD1306"
+        },
+        {
+          "name": "Adafruit SSD1327"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.8.zip",
+      "archiveFileName": "Frugal_IoT-2.0.8.zip",
+      "size": 1046369,
+      "checksum": "SHA-256:d1899188ccbd4666f7159a85e4b2cd0fccff2ffdb5c59919296241c8411686fb"
     },
     {
       "name": "FastLED_min",
@@ -1304167,6 +1304588,30 @@
       "checksum": "SHA-256:d5959605cbdd89b40e7b2d797b76db90739c7fadc9cd2c48f3cb99c41f88e3a7"
     },
     {
+      "name": "ESP32-HTTP-Client",
+      "version": "1.9.1",
+      "author": "Pedro Fonseca",
+      "maintainer": "Pedro Fonseca \u003cpedropereira.pp26@gmail.com\u003e",
+      "sentence": "A lightweight, low-allocation, high-performance HTTP client library for ESP32.",
+      "paragraph": "Direct stream-to-variable binding, zero-heap streaming parser for REST, SOAP, GraphQL, and JSON-RPC 2.0 services, and minimal memory footprint.",
+      "website": "https://github.com/PedroFnseca/esp32-http-client",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/PedroFnseca/esp32-http-client.git",
+      "providesIncludes": [
+        "ESP32HTTPClient.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.9.1.zip",
+      "archiveFileName": "ESP32_HTTP_Client-1.9.1.zip",
+      "size": 5920646,
+      "checksum": "SHA-256:4f00a2124d29f2ea0147a3465b9edd1efb9d9f86b06bfad06735bb14c23be1fe"
+    },
+    {
       "name": "PZEM004Tv40_R4",
       "version": "1.0.0",
       "author": "Bharani Dharan Rangaraj \u003cbharanidharanrangaraj@gmail.com\u003e",
@@ -1327440,6 +1327885,30 @@
       "checksum": "SHA-256:d5ac2540344d5af25f8db6ed521f909ad027288157ef0735a3785a89497369b8"
     },
     {
+      "name": "JW_MatrixButtons",
+      "version": "1.0.7",
+      "author": "JW Control",
+      "maintainer": "JW Control \u003cjw.control.peru@gmail.com\u003e",
+      "sentence": "Button scanner with matrix and direct modes, debounce, press/release/repeat events and HMI/PLC helpers.",
+      "paragraph": "Generic button scanner for Arduino and ESP32 with matrix R x C mode, direct 1 x N GPIO mode, debouncing, repeat, event queue, axis helpers, and pending-input cleanup helpers for multi-screen applications.",
+      "website": "https://github.com/JW-Control/JW_MatrixButtons",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/JW-Control/JW_MatrixButtons.git",
+      "providesIncludes": [
+        "JW_MatrixButtons.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/JW-Control/JW_MatrixButtons-1.0.7.zip",
+      "archiveFileName": "JW_MatrixButtons-1.0.7.zip",
+      "size": 23241,
+      "checksum": "SHA-256:8021eeba14ce786a52c9f9d20b6430cc706f51458e6734d6504e0f9953b6341d"
+    },
+    {
       "name": "JW_DWIN_RS485",
       "version": "1.0.0",
       "author": "JW Control",
@@ -1327545,6 +1328014,32 @@
       "archiveFileName": "JW_FRAM-1.0.3.zip",
       "size": 15941,
       "checksum": "SHA-256:78407a46290ceef51520e1d48d32d6db896ab402567d2e1115d0e2ca30aadbd8"
+    },
+    {
+      "name": "JW_FRAM",
+      "version": "1.0.4",
+      "author": "JW Control",
+      "maintainer": "JW Control",
+      "sentence": "Libreria SPI FRAM con API estilo EEPROM para ESP32.",
+      "paragraph": "Incluye acceso de bajo nivel y alto nivel para FRAM SPI, con soporte para tipos numericos, String, C strings, structs y bloques validados.",
+      "website": "https://github.com/JW-Control/JW_FRAM",
+      "category": "Data Storage",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/JW-Control/JW_FRAM.git",
+      "dependencies": [
+        {
+          "name": "Adafruit BusIO"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/JW-Control/JW_FRAM-1.0.4.zip",
+      "archiveFileName": "JW_FRAM-1.0.4.zip",
+      "size": 18143,
+      "checksum": "SHA-256:2c2eff9c2dc62238f92d228b2b02cd9ba58a074f44be8c4bfcfaf54f8e3e27c5"
     },
     {
       "name": "UUtzinger_DRV8704",
@@ -1349934,6 +1350429,27 @@
       "checksum": "SHA-256:b24381a5859ae397582acf15d58de0e8905c7b4561bf21e1b50ec5d24a304bb8"
     },
     {
+      "name": "JW_SD",
+      "version": "1.0.3",
+      "author": "JW Control",
+      "maintainer": "JW Control",
+      "sentence": "Libreria SD con API protegida para buses SPI compartidos.",
+      "paragraph": "Wrapper para microSD basado en SD nativa, con proteccion de bus SPI compartido y DataLog buffered de alto nivel. En JWPLC Basic el runtime puede autoservir hasta cuatro DataLogs, manteniendo commits SD fuera del camino caliente de la aplicacion.",
+      "website": "https://github.com/JW-Control/JW_SD",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/JW-Control/JW_SD.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/JW-Control/JW_SD-1.0.3.zip",
+      "archiveFileName": "JW_SD-1.0.3.zip",
+      "size": 19127,
+      "checksum": "SHA-256:e14d652ca1760de925fb9cbb483d1ff918a05c6d7fbc097245ebb41a9b8ed7e3"
+    },
+    {
       "name": "JW_RTC",
       "version": "1.0.0",
       "author": "JW Control",
@@ -1350004,6 +1350520,30 @@
       "archiveFileName": "JW_RTC-1.0.2.zip",
       "size": 14074,
       "checksum": "SHA-256:8030c194e59729975337d75da6c0e5195bd816a8777d37a9506cf9ea68aa03c1"
+    },
+    {
+      "name": "JW_RTC",
+      "version": "1.0.3",
+      "author": "JW Control",
+      "maintainer": "JW Control",
+      "sentence": "RTC library for DS3232M/DS3232 with clean JW-style API for JWPLC.",
+      "paragraph": "JW_RTC is a lightweight RTC library for DS3232M/DS3232 devices with a clean JW-style API. Version 1.0.1 keeps the jwplc_i2c_bridge backend and adds friendlier public aliases such as JWRTCDateTime.",
+      "website": "https://github.com/JW-Control/JW_RTC",
+      "category": "Timing",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/JW-Control/JW_RTC.git",
+      "providesIncludes": [
+        "JW_RTC.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/JW-Control/JW_RTC-1.0.3.zip",
+      "archiveFileName": "JW_RTC-1.0.3.zip",
+      "size": 15657,
+      "checksum": "SHA-256:46156a675d3c08fc3b1448d81844a4a4e30c7fe2d35729677608202c5130602a"
     },
     {
       "name": "ICM53607",
@@ -1402539,6 +1403079,38 @@
       "checksum": "SHA-256:f4aec381e9b9a23b9db769305100ef720318896cacb36f2657855202caa53a63"
     },
     {
+      "name": "MicroedenConnect",
+      "version": "1.0.4",
+      "author": "Microeden",
+      "maintainer": "Microeden \u003cinfo@microeden.io\u003e",
+      "sentence": "Connect Arduino-compatible devices to the MicroEden platform over MQTT.",
+      "paragraph": "Publishes widget data and receives commands through the Microeden MQTT broker.",
+      "website": "https://github.com/Microeden/MicroedenConnect",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Microeden/MicroedenConnect.git",
+      "providesIncludes": [
+        "MicroedenConnect.h"
+      ],
+      "dependencies": [
+        {
+          "name": "PubSubClient"
+        },
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Microeden/MicroedenConnect-1.0.4.zip",
+      "archiveFileName": "MicroedenConnect-1.0.4.zip",
+      "size": 49831,
+      "checksum": "SHA-256:5fd147f62abb08c9e938494bb0ed85d39cccc9271f5958e40f0d8914aa159347"
+    },
+    {
       "name": "MyDot",
       "version": "1.0.4",
       "author": "Microeden",
@@ -1402930,6 +1403502,56 @@
       "archiveFileName": "MyDot-1.0.12.zip",
       "size": 150211,
       "checksum": "SHA-256:1ade1474cb337888a51d1589819a77f8aa9835dd2c5894c8c961420c532a003a"
+    },
+    {
+      "name": "MyDot",
+      "version": "1.0.13",
+      "author": "Microeden",
+      "maintainer": "Microeden \u003cinfo@microeden.io\u003e",
+      "sentence": "Library for the Microeden MyDot board and Microeden cloud platform.",
+      "paragraph": "Controls the MyDot board peripherals and connects compatible Wi-Fi boards to Microeden over MQTT.",
+      "website": "https://github.com/Microeden/MyDotLib",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "samd",
+        "rp2040",
+        "mbed_nano"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Microeden/MyDotLib.git",
+      "providesIncludes": [
+        "MyDot.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit NeoPixel"
+        },
+        {
+          "name": "Adafruit SSD1306"
+        },
+        {
+          "name": "Adafruit BME680 Library"
+        },
+        {
+          "name": "PubSubClient"
+        },
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "SD"
+        },
+        {
+          "name": "WiFiNINA"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Microeden/MyDot-1.0.13.zip",
+      "archiveFileName": "MyDot-1.0.13.zip",
+      "size": 152491,
+      "checksum": "SHA-256:4f94ec86950c3e5ec51ff70346bbf40c6ca1179b0d7a42b407dbd5489bd1cea8"
     },
     {
       "name": "SNMP_Embedded",
@@ -1409749,6 +1410371,27 @@
       "checksum": "SHA-256:689e95a49b241de7a32ce375853733f2b989dc5ee26f9c036aaec099ff3c6334"
     },
     {
+      "name": "Periph",
+      "version": "1.3.2",
+      "author": "Till Uhde",
+      "maintainer": "Till Uhde \u003ctill@uhde.com\u003e",
+      "sentence": "Peripheral chip drivers for Arduino (I2C/SPI).",
+      "paragraph": "Drivers for sensors and actuators connected via I2C or SPI transports.",
+      "website": "https://github.com/tuhde/Periph",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tuhde/Periph-Arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/tuhde/Periph-1.3.2.zip",
+      "archiveFileName": "Periph-1.3.2.zip",
+      "size": 833891,
+      "checksum": "SHA-256:b54ca350b9b8dda1ed08090cf80c9db740f34563eb1dfecad3316a1efe86e22e"
+    },
+    {
       "name": "eOS3",
       "version": "1.0.0",
       "author": "Stefan Staub",
@@ -1411391,6 +1412034,69 @@
       "archiveFileName": "OpenEmbeddedProbe-0.0.41.zip",
       "size": 1020271,
       "checksum": "SHA-256:44363dc752f4ed69556c3248466940f85ea719d3c78040d4d68c2301ed49479f"
+    },
+    {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.42",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.42.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.42.zip",
+      "size": 1021699,
+      "checksum": "SHA-256:a75569b2ff2993e4a2c3f64aa7c6d6dded1728271e40cd9ea96e463d37242852"
+    },
+    {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.43",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.43.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.43.zip",
+      "size": 1021704,
+      "checksum": "SHA-256:e8a2d2a9ffd8d19ce284047c206298793d7ef0893ec6c34b629b1750eacfd1df"
+    },
+    {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.44",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.44.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.44.zip",
+      "size": 1022920,
+      "checksum": "SHA-256:68667022d18c5fc102877da16139239d6f4579dfa5d442043d55da98bcc6c9e4"
     },
     {
       "name": "MPU9250-DMP",
@@ -1415769,6 +1416475,27 @@
       "archiveFileName": "AlfredoFusion-1.0.0.zip",
       "size": 48310,
       "checksum": "SHA-256:e5b11e2fe85535ddac437446ab0fb932c1b4d6879027176721d7ea59bb818ff0"
+    },
+    {
+      "name": "AlfredoFusion",
+      "version": "1.1.0",
+      "author": "Alfredo Systems",
+      "maintainer": "Jacob Williams",
+      "sentence": "IMU drivers (LSM6 family, H3LIS331DL, MMC5983MA) and VQF sensor fusion with automatic gyro bias calibration.",
+      "paragraph": "Short, simple drivers for the ST LSM6 accelerometer/gyroscope family, the ST H3LIS331DL high-g accelerometer and the MEMSIC MMC5983MA magnetometer, plus the VQF orientation filter (Laidig and Seel 2023): quaternion and yaw/pitch/roll from any IMU, with gyro bias learned automatically whenever the sensor rests. Used by the Alfredo-NoU3 and SimpleMelt libraries.",
+      "website": "https://github.com/AlfredoSystems/AlfredoFusion",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AlfredoSystems/AlfredoFusion.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/AlfredoSystems/AlfredoFusion-1.1.0.zip",
+      "archiveFileName": "AlfredoFusion-1.1.0.zip",
+      "size": 47753,
+      "checksum": "SHA-256:bdfe0be7ef87e700945de63b338e3ff9e4532f1e20c1ac0b41416310877ed6ef"
     },
     {
       "name": "7Semi VL6180X",
@@ -1424226,6 +1424953,51 @@
       "checksum": "SHA-256:6bd4b0f4e062925d79c2a09569bfd52e39450bc02e93c2af070c77f29a8da776"
     },
     {
+      "name": "Crowpanel_2.1",
+      "version": "2.0.0",
+      "author": "Charles Vaillancourt",
+      "maintainer": "Charles Vaillancourt",
+      "sentence": "Helper functions to work with a CrowPanel 2.1 LCD display",
+      "paragraph": "This library contains a class that encapsulates all the functions of a Crowpanel 2.1 display including functions to receive events from the rotary encoder (rotation, click, double-click, long press), and to receive events from the touchscreen. It also allows setting the brightness of the LCD display, turning it OFF and ON, and setting the intensity of the LED.",
+      "website": "https://github.com/placidanomaly/Crowpanel_2.1",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/placidanomaly/Crowpanel_2.1.git",
+      "providesIncludes": [
+        "crowpanel_2_1.h"
+      ],
+      "dependencies": [
+        {
+          "name": "lvgl",
+          "version": "\u003e=9.5.0"
+        },
+        {
+          "name": "PCF8574 library"
+        },
+        {
+          "name": "Adafruit CST8XX Library",
+          "version": "\u003e=1.0.1"
+        },
+        {
+          "name": "GFX Library for Arduino",
+          "version": "\u003e=1.4.7"
+        },
+        {
+          "name": "Adafruit BusIO",
+          "version": "\u003e=1.16.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/placidanomaly/Crowpanel_2_1-2.0.0.zip",
+      "archiveFileName": "Crowpanel_2_1-2.0.0.zip",
+      "size": 1425053,
+      "checksum": "SHA-256:6efed3d20623fcd3852a6a3fdde64d3ab953b8bcc4799efc3a6593c6ff96041f"
+    },
+    {
       "name": "Bonezegei_MAX7219",
       "version": "1.0.0",
       "author": "Bonezegei (Jofel Batutay)",
@@ -1429724,6 +1430496,252 @@
       "archiveFileName": "Arduino_RouterBridge_ROS-0.0.2.zip",
       "size": 102982,
       "checksum": "SHA-256:a5caa0941376e52e6017a93d5de97af2e0c1d3867a7eb695963d704cacdf9d06"
+    },
+    {
+      "name": "DevLab_AudioInput",
+      "version": "0.3.0",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Cesar Bautista, Jonathan Mejorado Lopez",
+      "sentence": "Capture PCM audio from I2S and PDM microphones on ESP32 and RP2040/RP2350.",
+      "paragraph": "DevLab audio input library with mono PCM16 capture and serial streaming examples. RP PDM is hardware tested; RP I2S is experimental and only compile tested.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_audioinput_library",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_audioinput_library.git",
+      "providesIncludes": [
+        "DevLab_AudioInput.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AudioInput-0.3.0.zip",
+      "archiveFileName": "DevLab_AudioInput-0.3.0.zip",
+      "size": 20645,
+      "checksum": "SHA-256:c824141c643754c1f4d1cd1f214207aab6a3faaa65357885e43e5e3cc7542654"
+    },
+    {
+      "name": "DevLab_AudioInput",
+      "version": "0.3.1",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Cesar Bautista, Jonathan Mejorado Lopez",
+      "sentence": "Capture PCM audio from I2S and PDM microphones on ESP32 and RP2040/RP2350.",
+      "paragraph": "DevLab audio input library with mono PCM16 capture and serial streaming examples. RP PDM is hardware tested; RP I2S is experimental and only compile tested.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_audioinput_library",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_audioinput_library.git",
+      "providesIncludes": [
+        "DevLab_AudioInput.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AudioInput-0.3.1.zip",
+      "archiveFileName": "DevLab_AudioInput-0.3.1.zip",
+      "size": 20682,
+      "checksum": "SHA-256:a8e8de1f48259cbc5de0fa8efd44bca2f90ad86365f6a67cf5934684e18cf665"
+    },
+    {
+      "name": "DevLab_AudioInput",
+      "version": "0.3.2",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Cesar Bautista, Jonathan Mejorado Lopez",
+      "sentence": "Capture PCM audio from I2S and PDM microphones on ESP32 and RP2040/RP2350.",
+      "paragraph": "DevLab audio input library with mono PCM16 capture and serial streaming examples. Hardware tested only on ESP32-S3; RP2040/RP2350 PDM and I2S are compile tested only.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_audioinput_library",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_audioinput_library.git",
+      "providesIncludes": [
+        "DevLab_AudioInput.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AudioInput-0.3.2.zip",
+      "archiveFileName": "DevLab_AudioInput-0.3.2.zip",
+      "size": 20696,
+      "checksum": "SHA-256:d52c1691d95c325519baa75397a044038b1a20fa7ab1fb886a186d9d5b8c50d2"
+    },
+    {
+      "name": "DevLab_AudioInput",
+      "version": "0.3.3",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Cesar Bautista, Jonathan Mejorado Lopez",
+      "sentence": "Capture PCM audio from I2S and PDM microphones on ESP32 and RP2040/RP2350.",
+      "paragraph": "DevLab audio input library with mono PCM16 capture and serial streaming examples. Hardware tested only on ESP32-S3; RP2040/RP2350 PDM and I2S are compile tested only.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_audioinput_library",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_audioinput_library.git",
+      "providesIncludes": [
+        "DevLab_AudioInput.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AudioInput-0.3.3.zip",
+      "archiveFileName": "DevLab_AudioInput-0.3.3.zip",
+      "size": 23359,
+      "checksum": "SHA-256:f555d8e056dc90355efbb10f163b5fe6c34c4b92b6939699746951e1de74f4ba"
+    },
+    {
+      "name": "FTPServer",
+      "version": "1.0.0",
+      "author": "Serhii Lebedenko",
+      "maintainer": "Serhii Lebedenko",
+      "license": "LGPL-3.0-or-later",
+      "sentence": "Lightweight, robust FTP Server for ESP8266 and ESP32 with LittleFS / SPIFFS / SD support",
+      "paragraph": "A standalone, non-blocking FTP Server library supporting LittleFS, SPIFFS, and SD on ESP8266, ESP32, and ESP32-C3 without heap fragmentation or client bloat.",
+      "website": "https://github.com/SerhiiLe/FTPServer",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/SerhiiLe/FTPServer.git",
+      "providesIncludes": [
+        "FTPServer.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/SerhiiLe/FTPServer-1.0.0.zip",
+      "archiveFileName": "FTPServer-1.0.0.zip",
+      "size": 24337,
+      "checksum": "SHA-256:a5e40dc0866b5d6717ee515e3df50cb5118cdca295fc5db291515f842ccaac13"
+    },
+    {
+      "name": "Buttons",
+      "version": "1.0.0",
+      "author": "Serhii Lebedenko",
+      "maintainer": "Serhii Lebedenko \u003cslebedenko@gmail.com\u003e",
+      "sentence": "Lightweight, zero-dependency button library with debounce, multi-clicks, hold, step, and custom event sources.",
+      "paragraph": "A fast and reliable button library inspired by EncButton and GyverButton. Supports multiple clicks counting, long hold, auto-repeat steps, debouncing, and an abstract base class to support custom sources (such as ESP32 capacitive touch, ADC, etc.). Compatible with Arduino AVR, ESP8266, ESP32 (including core 3.x / platform 8.x), STM32, and RP2040.",
+      "website": "https://github.com/SerhiiLe/Buttons",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/SerhiiLe/Buttons.git",
+      "providesIncludes": [
+        "Buttons.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/SerhiiLe/Buttons-1.0.0.zip",
+      "archiveFileName": "Buttons-1.0.0.zip",
+      "size": 27891,
+      "checksum": "SHA-256:81afd08f78bad06b0886dc653e9d212ea9018820d57ec2d54b0b4e52dafe047d"
+    },
+    {
+      "name": "util_use",
+      "version": "1.0.0",
+      "author": "Rafael N. B. A. Aires",
+      "maintainer": "Rafael N. B. A. Aires",
+      "sentence": "A simple Arduino library for LEDs and ultrasonic distance sensors.",
+      "paragraph": "Provides easy-to-use functions for blinking LEDs, controlling LED brightness with PWM, and measuring distances using ultrasonic sensors.",
+      "website": "https://github.com/studiosdasunshine-boop/util_use",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/studiosdasunshine-boop/util_use.git",
+      "providesIncludes": [
+        "util_use.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/studiosdasunshine-boop/util_use-1.0.0.zip",
+      "archiveFileName": "util_use-1.0.0.zip",
+      "size": 6278,
+      "checksum": "SHA-256:37ce808ee0a1dfbb63ade3d8b7e430d63b563de82fb8814aabc24cc981beec42"
+    },
+    {
+      "name": "util_use",
+      "version": "1.0.1",
+      "author": "Rafael N. B. A. Aires",
+      "maintainer": "Rafael N. B. A. Aires",
+      "sentence": "A simple Arduino library for LEDs and ultrasonic distance sensors.",
+      "paragraph": "Provides easy-to-use functions for blinking LEDs, controlling LED brightness with PWM, and measuring distances using ultrasonic sensors.",
+      "website": "https://github.com/studiosdasunshine-boop/util_use",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/studiosdasunshine-boop/util_use.git",
+      "providesIncludes": [
+        "util_use.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/studiosdasunshine-boop/util_use-1.0.1.zip",
+      "archiveFileName": "util_use-1.0.1.zip",
+      "size": 6308,
+      "checksum": "SHA-256:ca32449a91e535bc5a1f2db7267e379fe41167678c7af6d0e1ed7682bbeb4acb"
+    },
+    {
+      "name": "SLF3S",
+      "version": "0.1.0",
+      "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "sentence": "Arduino library for the Sensirion I2C Low Flow sensor SLF3S.",
+      "paragraph": "SLF3S-0600F,SLF3S-1300F,SLF3C-1300F",
+      "website": "https://github.com/RobTillaart/SLF3S",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RobTillaart/SLF3S.git",
+      "providesIncludes": [
+        "SLF3S.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/SLF3S-0.1.0.zip",
+      "archiveFileName": "SLF3S-0.1.0.zip",
+      "size": 4205251,
+      "checksum": "SHA-256:c56a57d8277d8e523ff8dea7a698f53dc096f8ffe6710e4a5f3e55b67c256ac1"
+    },
+    {
+      "name": "Leokani",
+      "version": "1.0.0",
+      "author": "Milliwatt Labs \u003chello@milliwattlabs.com\u003e",
+      "maintainer": "Milliwatt Labs \u003chello@milliwattlabs.com\u003e",
+      "sentence": "Text to speech on ESP32-S3 and ESP32-P4.",
+      "paragraph": "Speaks English text through an I2S amp or codec, on the board, with no network.",
+      "website": "https://github.com/Milliwatt-Labs/leokani-arduino",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Milliwatt-Labs/leokani-arduino.git",
+      "providesIncludes": [
+        "Leokani.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Milliwatt-Labs/Leokani-1.0.0.zip",
+      "archiveFileName": "Leokani-1.0.0.zip",
+      "size": 80493,
+      "checksum": "SHA-256:c7f14549a4fc0891ec513dee3c1ca427acecb0ec8abb55cdb3490c8a88ff492e"
     }
   ]
 }
