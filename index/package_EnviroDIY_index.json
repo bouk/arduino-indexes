@@ -12,6 +12,28 @@
         {
           "name": "EnviroDIY ATmega Boards",
           "architecture": "avr",
+          "version": "2.2.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://www.envirodiy.org/help/"
+          },
+          "url": "https://github.com/EnviroDIY/Arduino_boards/raw/master/EnviroDIYAVRBoards/envirodiyatmegaboards-2.2.0.zip",
+          "archiveFileName": "envirodiyatmegaboards-2.2.0.zip",
+          "checksum": "SHA-256:316000328da9c35276ab15ea1756fe33e68da6777cfdcdcf169a638e05e04bec",
+          "size": "48186",
+          "boards": [
+            {
+              "name": "mayfly"
+            },
+            {
+              "name": "mayfly2"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "EnviroDIY ATmega Boards",
+          "architecture": "avr",
           "version": "2.1.2",
           "category": "Contributed",
           "help": {
