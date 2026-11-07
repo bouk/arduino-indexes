@@ -400818,6 +400818,27 @@
       "checksum": "SHA-256:2aa4a8eaa00c25be2bb8b6f191a2c81d92c1446e37f4e43ae4d3fc182fdc053e"
     },
     {
+      "name": "SerialTransfer",
+      "version": "4.0.0",
+      "author": "PowerBroker2 \u003cgitstuff2@gmail.com\u003e",
+      "maintainer": "PowerBroker2 \u003cgitstuff2@gmail.com\u003e",
+      "sentence": "Arduino library to transfer packetized data fast/reliably via UART/Serial",
+      "paragraph": "Arduino library to transfer packetized data fast/reliably via UART/Serial",
+      "website": "https://github.com/PowerBroker2/SerialTransfer",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/PowerBroker2/SerialTransfer.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/PowerBroker2/SerialTransfer-4.0.0.zip",
+      "archiveFileName": "SerialTransfer-4.0.0.zip",
+      "size": 179687,
+      "checksum": "SHA-256:17ce697a8e638b8fb7aacb3104f654f145bb0d3aad1de1f02684329db7efad80"
+    },
+    {
       "name": "YouTube Sight",
       "version": "1.0.0",
       "author": "Taste The Code",
@@ -449741,6 +449762,34 @@
       "checksum": "SHA-256:9632012548b2dcc23d90f45e539626447e1883fff54e17342540bbc3ae442472"
     },
     {
+      "name": "ESP32-targz",
+      "version": "1.4.0",
+      "author": "tobozo \u003ctobozo@noreply.github.com\u003e",
+      "maintainer": "tobozo \u003ctobozo@noreply.github.com\u003e",
+      "sentence": "A library to compress/decompress tar+gzip archives.",
+      "paragraph": "Archive a directory to tar.gz, extract tar.gz to a filesystem or stream, gzip webserver responses on the fly, perform OTA updates from compressed binary.",
+      "website": "https://github.com/tobozo/ESP32-targz",
+      "category": "Data Processing",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040",
+        "mbed_rp2040",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tobozo/ESP32-targz.git",
+      "providesIncludes": [
+        "ESP32-targz.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tobozo/ESP32_targz-1.4.0.zip",
+      "archiveFileName": "ESP32_targz-1.4.0.zip",
+      "size": 4330297,
+      "checksum": "SHA-256:d0590f408e931b04ca02c8e928ed214330f5e35ca0f263f00161d78d36aa4731"
+    },
+    {
       "name": "Functional-Vlpp",
       "version": "1.0.1",
       "author": "Vlpp",
@@ -451283,6 +451332,27 @@
       "archiveFileName": "OpenLCB_Single_Thread-0.1.22.zip",
       "size": 1929349,
       "checksum": "SHA-256:082b887d66ac4ab955029d53aeb6eb200c7c6dbe7f552b7588122287bd5987c4"
+    },
+    {
+      "name": "OpenLCB_Single_Thread",
+      "version": "0.1.23",
+      "author": "David Harris, Bob Jacobsen, OpenLCB team",
+      "maintainer": "David Harris \u003cdrdpharris@gmail.com\u003e",
+      "sentence": "Implements Single-threaded OpenLCB/LCC stack based on Arduino IDE.",
+      "paragraph": "This library allows you to interface to a OpenLCB/LCC CAN system.  It supports: ATMega328+MCP2515, AT90CAN, Tiva, Teensy, ESP32.",
+      "website": "https://github.com/openlcb/OpenLCB_Single_Thread",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/openlcb/OpenLCB_Single_Thread.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/openlcb/OpenLCB_Single_Thread-0.1.23.zip",
+      "archiveFileName": "OpenLCB_Single_Thread-0.1.23.zip",
+      "size": 1930167,
+      "checksum": "SHA-256:17a040f126aa2c7c31508bd409fb410c3756a42a802a05204a2894ad0a335f26"
     },
     {
       "name": "CEClient",
@@ -506237,6 +506307,36 @@
       "archiveFileName": "LovyanGFX-1.2.36.zip",
       "size": 49081284,
       "checksum": "SHA-256:7229bc0bcab3a97de4634bd06e5b6b79b2359242d9d5e442365247d5102a2448"
+    },
+    {
+      "name": "LovyanGFX",
+      "version": "1.3.0",
+      "author": "lovyan03",
+      "maintainer": "lovyan03,tobozo",
+      "sentence": "TFT LCD Graphics driver with touch for ESP32/ESP8266, SAMD21/SAMD51, RP2040/RP2350",
+      "paragraph": "Supports TFT LCD displays using drivers that operate with hardware SPI. ESP32, ESP8266, SAMD21, SAMD51, RP2040, RP2350, M5Stack, M5StackCore2, M5StickC, M5StickCPlus, ODROID-GO, TTGO T-Watch, TTGO T-Wristband, ESP-WROVER-KIT, WioTerminal, WiFiBoy, MakePython, HX8357, ILI9163, ILI9342, ILI9341, ILI9486, ILI9488, ST7735, ST7789, ST7796, ST77916, SSD1351",
+      "website": "https://github.com/lovyan03/LovyanGFX",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "samd",
+        "rp2040",
+        "mbed_rp2040",
+        "mbed_nano",
+        "teensy"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/lovyan03/LovyanGFX.git",
+      "providesIncludes": [
+        "LovyanGFX.hpp"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/lovyan03/LovyanGFX-1.3.0.zip",
+      "archiveFileName": "LovyanGFX-1.3.0.zip",
+      "size": 49090704,
+      "checksum": "SHA-256:6917e810b5b7cdbc629dfd061b02578417e5249612a8f4b8294fa842569eafd8"
     },
     {
       "name": "PulsePattern",
@@ -692160,6 +692260,30 @@
       "checksum": "SHA-256:4da7a6f677ea34dc7b2ecf3462e10184294ba40663ac130be95b5fb850c5cef9"
     },
     {
+      "name": "M5GFX",
+      "version": "0.3.0",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack All Display",
+      "paragraph": "M5Stack, M5Stack Core2, M5Stack CoreInk, M5StickC, M5StickC-Plus, M5Paper, M5Tough, M5Station, M5ATOMS3, Unit OLED, Unit LCD, Unit RCA, ATOM Display, See more on http://M5Stack.com",
+      "website": "https://github.com/m5stack/M5GFX.git",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5GFX.git",
+      "providesIncludes": [
+        "M5GFX.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5GFX-0.3.0.zip",
+      "archiveFileName": "M5GFX-0.3.0.zip",
+      "size": 50765797,
+      "checksum": "SHA-256:c2a440be1228b626b744c53314acd752cfa0a506e1fe4b969fabef1358f2de34"
+    },
+    {
       "name": "Tachometer",
       "version": "1.0.0",
       "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
@@ -739902,6 +740026,31 @@
       "checksum": "SHA-256:c7479126fa5044e85ab61a71e2a54db4384f89edafd7227e86cce35728fe658b"
     },
     {
+      "name": "libasm",
+      "version": "1.6.73",
+      "author": "Tadashi G. Takaoka",
+      "maintainer": "Tadashi G. Takaoka \u003ctadashi.g.takaoka@gmail.com\u003e",
+      "license": "Apache-2.0",
+      "sentence": "Cross assembler and disassembler for retro CPUs",
+      "paragraph": "With this, you can integrate assembler or disassembler into your sketch. Supported CPUs are AM29000, C166, CDP1802, CP1600, F3850, H16, H8300, H8500, I8048, I8051, I8080, I8086, I8096, I960, INS8060, INS8070, MC6800, MC68000, MC6805, MC6809, MC68HC12, MC68HC16, MN1610, MOS6502, NS32000, PDP11, PDP8, SCN2650, SUPERH, TLCS90, TLCS900, TMS320, TMS320F, TMS370, TMS7000, TMS9900, Z280, Z380, Z8, Z80, Z8000",
+      "website": "https://github.com/tgtakaoka/libasm",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tgtakaoka/libasm.git",
+      "providesIncludes": [
+        "libasm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.73.zip",
+      "archiveFileName": "libasm-1.6.73.zip",
+      "size": 14182442,
+      "checksum": "SHA-256:b3910341767471a87aae262d9dd60d48b19278d10e6bdfd916fe7543e98f8fa7"
+    },
+    {
       "name": "SparkFun AVR ISP Programming Library",
       "version": "1.0.0",
       "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
@@ -754904,6 +755053,36 @@
       "archiveFileName": "M5Unified-0.2.29.zip",
       "size": 728179,
       "checksum": "SHA-256:0cdc8b1c8464f6711e57b7ec52712ec91f5b3dc616485f095b48eec7589a8ab2"
+    },
+    {
+      "name": "M5Unified",
+      "version": "0.3.0",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Unified library for M5Stack series",
+      "paragraph": "M5Stack, M5Stack Core2, M5Stack CoreInk, M5StickC, M5StickC-Plus, M5Paper, M5Tough, M5ATOM, M5STAMP, M5Station, See more on http://M5Stack.com",
+      "website": "https://github.com/m5stack/M5Unified.git",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Unified.git",
+      "providesIncludes": [
+        "M5Unified.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5GFX",
+          "version": "\u003e=0.3.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unified-0.3.0.zip",
+      "archiveFileName": "M5Unified-0.3.0.zip",
+      "size": 748015,
+      "checksum": "SHA-256:850d9f438bc6fb0b0ce4c178d610139803514cf0da4670f3a14881247ce3e9df"
     },
     {
       "name": "WireSusi",
@@ -870101,6 +870280,30 @@
       "checksum": "SHA-256:74e24369bc93cd38dfacc34c6b6a312c446bb70f53aac0dc1104b25738bbfbc9"
     },
     {
+      "name": "ProtoCentral MAX30001",
+      "version": "2.1.0",
+      "author": "ProtoCentral Electronics \u003csupport@protocentral.com\u003e",
+      "maintainer": "ProtoCentral Electronics \u003csupport@protocentral.com\u003e",
+      "sentence": "Driver for the Analog Devices MAX30001 ECG and bio-impedance (respiration) AFE on the ProtoCentral MAX30001 Breakout.",
+      "paragraph": "Reads single-lead ECG at 128/256/512 SPS and bio-impedance (BioZ) respiration at 64 SPS over SPI, with the chip's hardware R-to-R heart-rate detector, per-electrode DC lead-off detection, FIFO interrupts on INTB, and configurable gain and filters. Includes a ProtoCentral OpenView streaming example. Every example fits on an Arduino Uno. For research and education only - not a medical device.",
+      "website": "https://github.com/Protocentral/protocentral_max30001_arduino_library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Protocentral/protocentral_max30001_arduino_library.git",
+      "providesIncludes": [
+        "protocentral_max30001.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Protocentral/ProtoCentral_MAX30001-2.1.0.zip",
+      "archiveFileName": "ProtoCentral_MAX30001-2.1.0.zip",
+      "size": 2373278,
+      "checksum": "SHA-256:f39d882dd49003a0dbdf498f14c8f5f301acff5b35ef676908541522ab3f21dd"
+    },
+    {
       "name": "M5Unit-Thermal2",
       "version": "0.0.1",
       "author": "M5Stack",
@@ -936583,6 +936786,28 @@
       "checksum": "SHA-256:5d3423fd5af609d84a1349cae0fb9305b2a574333a94ab0717cb6c33b8113ec0"
     },
     {
+      "name": "nrf_to_nrf",
+      "version": "1.7.0",
+      "author": "TMRh20",
+      "maintainer": "TMRh20",
+      "sentence": "OSI Layer 2 - NRF52x to NRF24L01+ ESB communication",
+      "paragraph": "Communicate to \u0026 from both NRF52x and NRF24L01+ using the API of the RF24 library",
+      "website": "https://github.com/TMRh20/nrf_to_nrf",
+      "category": "Communication",
+      "architectures": [
+        "nordicnrf52",
+        "nrf52"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/TMRh20/nrf_to_nrf.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/nrf_to_nrf-1.7.0.zip",
+      "archiveFileName": "nrf_to_nrf-1.7.0.zip",
+      "size": 91283,
+      "checksum": "SHA-256:00ba039334f4252b6f0abf9f242f4e9eb2c09e7d30b6926bbf8bc648a25b9db7"
+    },
+    {
       "name": "ConfigAssist",
       "version": "2.6.0",
       "author": "gemi254 \u003cgemi254@hotmail.com\u003e",
@@ -1002769,6 +1002994,35 @@
       "archiveFileName": "roo_time-2.0.2.zip",
       "size": 87799,
       "checksum": "SHA-256:4fc05ad45024e8791dd16009227284267f29db61863d134209fe9ab089d49156"
+    },
+    {
+      "name": "roo_time",
+      "version": "2.1.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Basic management of elapsed time, wall time, and date time, with multi-timezone support.",
+      "paragraph": "Provides type safety around durations and different time units, guarding against common programming errors like confusing time units, or confusing 'timestamps' with 'durations'. Tested on ESP32 SOC family, as well as RP2040-based Raspberry Pi Pico.",
+      "website": "https://github.com/dejwk/roo_time",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_time.git",
+      "providesIncludes": [
+        "roo_time.h"
+      ],
+      "dependencies": [
+        {
+          "name": "roo_backport"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time-2.1.0.zip",
+      "archiveFileName": "roo_time-2.1.0.zip",
+      "size": 152518,
+      "checksum": "SHA-256:b0ffc9afca8f03293808f7df24c4947b1c32487ef4698b6f258b2ee8b38e0521"
     },
     {
       "name": "SettingsManagerESP32",
@@ -1153717,6 +1153971,35 @@
       "checksum": "SHA-256:8529b0302392b83abd25cbd1aa7cbd543994a3b6d0344ca307ed89a0d75799ff"
     },
     {
+      "name": "ESP-NOW MIDI",
+      "version": "0.19.1",
+      "author": "Thomas Geissl",
+      "maintainer": "Thomas Geissl \u003cthomas.geissl@gmail.com\u003e",
+      "sentence": "Arduino library for sending and receiving MIDI messages via the ESP-NOW protocol.",
+      "paragraph": "Arduino library for sending and receiving MIDI messages via the ESP-NOW protocol.",
+      "website": "https://github.com/grantler-instruments/ESP-NOW-MIDI",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/grantler-instruments/ESP-NOW-MIDI.git",
+      "providesIncludes": [
+        "esp_now_midi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit TinyUSB Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/grantler-instruments/ESP_NOW_MIDI-0.19.1.zip",
+      "archiveFileName": "ESP_NOW_MIDI-0.19.1.zip",
+      "size": 554208,
+      "checksum": "SHA-256:79416c35fff277e80b9ff712c260d9dce1e5c2e2e86d8aac473ce0c2afe95648"
+    },
+    {
       "name": "TinyIO",
       "version": "0.0.1",
       "author": "Ettore Leandro Tognoli",
@@ -1166920,6 +1167203,30 @@
       "archiveFileName": "CheerLights-1.0.4.zip",
       "size": 11258,
       "checksum": "SHA-256:d8589feb0e14f334d1f743de630b92b4c2b1b44396f255cabfe7219686c336a8"
+    },
+    {
+      "name": "CheerLights",
+      "version": "1.0.5",
+      "author": "Hans Scharler \u003cnothans@duck.com\u003e",
+      "maintainer": "Hans Scharler \u003cnothans@duck.com\u003e",
+      "sentence": "Fetch and use the latest CheerLights color.",
+      "paragraph": "An Arduino library to synchronize with the global CheerLights color by fetching the latest color from the CheerLights API.",
+      "website": "https://github.com/cheerlights/cheerlights-arduino-library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/cheerlights/cheerlights-arduino-library.git",
+      "providesIncludes": [
+        "CheerLights.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/cheerlights/CheerLights-1.0.5.zip",
+      "archiveFileName": "CheerLights-1.0.5.zip",
+      "size": 11962,
+      "checksum": "SHA-256:9db573d8b7dfe7632a7ecf0b65353cbf6f6e209a3bf4dd7193f41fba39990c6a"
     },
     {
       "name": "DpsPowerSupply",
@@ -1201311,6 +1201618,30 @@
       "archiveFileName": "ESP32_Host_MIDI-7.3.0.zip",
       "size": 5788058,
       "checksum": "SHA-256:cee3f9f5bf2110117bcf4bb6a002f7f1ebe73ec992af91d6b38018faf5b9ba01"
+    },
+    {
+      "name": "ESP32_Host_MIDI",
+      "version": "7.3.1",
+      "author": "sauloverissimo",
+      "maintainer": "Saulo Verissimo \u003csauloverissimo@gmail.com\u003e",
+      "sentence": "MIDI hub for ESP32: USB Host, BLE, Apple MIDI/WiFi, OSC, Ethernet, UART/DIN-5, ESP-NOW.",
+      "paragraph": "Connect USB MIDI keyboards via USB Host OTG; receive BLE MIDI from iPhone, iPad, and iOS apps; bridge DAWs with Apple MIDI / RTP-MIDI over WiFi or Ethernet (W5500/P4); control Max/MSP and Pure Data via OSC; reach vintage DIN-5 synthesizers over serial UART; link ESP32 boards wirelessly with ESP-NOW. All transports share a single event queue and a unified send API; read the queue and resend to bridge one transport to another. Chord detection, active note tracking, PSRAM history, SysEx queue, thread-safe queue. Supports ESP32-S3, S2, P4, and classic ESP32. Arduino IDE, PlatformIO, ESP-IDF.",
+      "website": "https://github.com/sauloverissimo/ESP32_Host_MIDI",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sauloverissimo/ESP32_Host_MIDI.git",
+      "providesIncludes": [
+        "ESP32_Host_MIDI.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/sauloverissimo/ESP32_Host_MIDI-7.3.1.zip",
+      "archiveFileName": "ESP32_Host_MIDI-7.3.1.zip",
+      "size": 5788686,
+      "checksum": "SHA-256:641472329a4db3f4e0bd69bf05788b0e9bfe6d35889d3ea8991e5f495c318e61"
     },
     {
       "name": "GigaDAQ",
@@ -1237729,6 +1238060,32 @@
       "checksum": "SHA-256:762b8f5765e725c94317ecedaa54a675fc4a681357635646e1c9b7392471a28b"
     },
     {
+      "name": "roo_threads",
+      "version": "1.3.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Portable threading library for microcontrollers.",
+      "paragraph": "Works with the ESP32 family, as well as RP2040 SMP. Should be easy to port to anything that uses FreeRTOS.",
+      "website": "https://github.com/dejwk/roo_threads",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_threads.git",
+      "dependencies": [
+        {
+          "name": "roo_time"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_threads-1.3.0.zip",
+      "archiveFileName": "roo_threads-1.3.0.zip",
+      "size": 59713,
+      "checksum": "SHA-256:433c4ec141e8c8e96372cc670f634a2eed746decb5be0f5fa18df23266edf8eb"
+    },
+    {
       "name": "BMP390",
       "version": "1.0.0",
       "author": "Mohammed Faisal I \u003cucantseemej@gmail.com\u003e",
@@ -1266615,6 +1266972,77 @@
       "checksum": "SHA-256:4adcfa1bb6149db8fa2c0dd555d825d66e3c00f74333717c055faee38b4d92c5"
     },
     {
+      "name": "Frugal-IoT",
+      "version": "2.0.10",
+      "author": "Mitra Ardron",
+      "maintainer": "Mitra Ardron \u003cmitra@mitra.biz\u003e",
+      "sentence": "Platform for affordable sensors",
+      "paragraph": "The Frugal-IoT library implement an easy to use platform for a variety of sensors communicating over WiFi, LoRa, MQTT etc",
+      "website": "https://github.com/mitra42/frugal-iot",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mitra42/frugal-iot.git",
+      "providesIncludes": [
+        "Frugal-IoT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "BH1750"
+        },
+        {
+          "name": "Button2"
+        },
+        {
+          "name": "DHTNEW"
+        },
+        {
+          "name": "HX711"
+        },
+        {
+          "name": "MQTT"
+        },
+        {
+          "name": "OneWireNg"
+        },
+        {
+          "name": "hd44780"
+        },
+        {
+          "name": "TinyGPSPlus"
+        },
+        {
+          "name": "ModbusMaster"
+        },
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit SSD1306"
+        },
+        {
+          "name": "Adafruit SSD1327"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.10.zip",
+      "archiveFileName": "Frugal_IoT-2.0.10.zip",
+      "size": 1123758,
+      "checksum": "SHA-256:2b732f4b017a0ea75b6f2141c84b147b452880977a604743b4d132718a77ab61"
+    },
+    {
       "name": "FastLED_min",
       "version": "1.0.0",
       "author": "Based on FastLED RMT implementation",
@@ -1269776,6 +1270204,48 @@
       "archiveFileName": "AutoPlex7-4.0.0.zip",
       "size": 19560,
       "checksum": "SHA-256:3e2c79262e2546564029d67ad61036d3d1ba3df476ed2cd266065ff34c6e7ae5"
+    },
+    {
+      "name": "AutoPlex7",
+      "version": "4.0.1",
+      "author": "Nyjah",
+      "maintainer": "Nyjah",
+      "sentence": "Control seven segment displays with ease.",
+      "paragraph": "AutoPlex7 is a simple and versatile library for controlling seven segment displays. It works with both main types of displays, has flexible pin layout, and handles multiplexing in the background so you never have to worry about refresh calls.",
+      "website": "https://github.com/TechTronicsEngineering/AutoPlex7",
+      "category": "Display",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/TechTronicsEngineering/AutoPlex7.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/TechTronicsEngineering/AutoPlex7-4.0.1.zip",
+      "archiveFileName": "AutoPlex7-4.0.1.zip",
+      "size": 19653,
+      "checksum": "SHA-256:9849f2c7bf70f8ee7b32f4b6037ce951e127ba640bc99caa842b23390b0b631d"
+    },
+    {
+      "name": "AutoPlex7",
+      "version": "4.0.2",
+      "author": "Nyjah",
+      "maintainer": "Nyjah",
+      "sentence": "Control seven segment displays with ease.",
+      "paragraph": "AutoPlex7 is a simple and versatile library for controlling seven segment displays. It works with both main types of displays, has flexible pin layout, and handles multiplexing in the background so you never have to worry about refresh calls.",
+      "website": "https://github.com/TechTronicsEngineering/AutoPlex7",
+      "category": "Display",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/TechTronicsEngineering/AutoPlex7.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/TechTronicsEngineering/AutoPlex7-4.0.2.zip",
+      "archiveFileName": "AutoPlex7-4.0.2.zip",
+      "size": 19635,
+      "checksum": "SHA-256:681a3f02856a239002885314c36df4c5760910cc4c3f463d0d23bd41e214d779"
     },
     {
       "name": "SegMap595",
@@ -1312304,6 +1312774,41 @@
       "checksum": "SHA-256:24b44b8002107d15005a96bf20570d29b227189c2644204c3c09baa42d9ba9d5"
     },
     {
+      "name": "UNI",
+      "version": "1.2.0",
+      "author": "UNI Team \u003cfadeev.iliya.2008@gmail.com\u003e",
+      "maintainer": "UNI Team \u003cfadeev.iliya.2008@gmail.com\u003e",
+      "sentence": "Educational robotics library for UNI platform with motor control, sensors, and LightRing effects.",
+      "paragraph": "Complete robotics control library featuring dual motor control with encoders, odometry tracking, OLED display, ultrasonic sensors, light ring with 7 built-in effects, traffic light simulation, and button interface. Perfect for educational robotics projects and competitions.",
+      "website": "https://github.com/fadeev-iliya/UNI",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/fadeev-iliya/UNI.git",
+      "providesIncludes": [
+        "UNI.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit SSD1306"
+        },
+        {
+          "name": "Adafruit NeoPixel"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/fadeev-iliya/UNI-1.2.0.zip",
+      "archiveFileName": "UNI-1.2.0.zip",
+      "size": 217013,
+      "checksum": "SHA-256:d1ca95d5b620cf1ad7482a746dc4bb9e5cfa912f9b4ee9338a2ac20dbc44b9f6"
+    },
+    {
       "name": "Orbito",
       "version": "1.0.0",
       "author": "Digital Codesign",
@@ -1334567,6 +1335072,30 @@
       "checksum": "SHA-256:ac382c939613fdce59146dbf123f896877c378ed9c8b4aa214f87b4231df8a68"
     },
     {
+      "name": "HeapSafeLog",
+      "version": "1.2.0",
+      "author": "MDO",
+      "maintainer": "MDO",
+      "sentence": "Heap-safe, variadic logging for Arduino without String usage.",
+      "paragraph": "A lightweight Arduino logging library designed to avoid heap fragmentation by not using String. Supports variadic arguments, some formatters (for hex, for example) and custom Printable types.",
+      "website": "https://github.com/mjdonders/HeapSafeLog",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mjdonders/HeapSafeLog.git",
+      "providesIncludes": [
+        "HeapSafeLog.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mjdonders/HeapSafeLog-1.2.0.zip",
+      "archiveFileName": "HeapSafeLog-1.2.0.zip",
+      "size": 8580,
+      "checksum": "SHA-256:38678af74d86e25cece82831bc5643cded0bb6cbd4a6240c514bd0083fc52111"
+    },
+    {
       "name": "SteadyPing",
       "version": "1.0.0",
       "author": "CaptainEXE",
@@ -1343716,14 +1344245,38 @@
       "types": [
         "Contributed"
       ],
-      "repository": "https://github.com/RobotBuzzard/ClearCoreWatchdog.git",
+      "repository": "https://github.com/og-buzz/ClearCoreWatchdog.git",
       "providesIncludes": [
         "ClearCoreWatchdog.h"
       ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/RobotBuzzard/ClearCoreWatchdog-1.0.0.zip",
+      "url": "https://downloads.arduino.cc/libraries/github.com/og-buzz/ClearCoreWatchdog-1.0.0.zip",
       "archiveFileName": "ClearCoreWatchdog-1.0.0.zip",
       "size": 15987,
       "checksum": "SHA-256:93f8a15fafcfbd16f706f5f04c53cd2dd55d3f5bbde25757beb6dcb67ca006e4"
+    },
+    {
+      "name": "ClearCoreWatchdog",
+      "version": "1.1.0",
+      "author": "RobotBuzzard",
+      "maintainer": "RobotBuzzard \u003cbuzzy@reasonablerobot.io\u003e",
+      "sentence": "Hardware watchdog timer for the Teknic ClearCore (Microchip SAME53N19A).",
+      "paragraph": "Direct CMSIS register access to the SAMD51/SAME53 WDT block. Teknic's ClearCore Arduino library does not expose any watchdog API; this fills the gap. Bench-validated on a real ClearCore — deliberate-hang test confirms automatic reset within the configured timeout, bracketed long operations do not trigger spurious resets. Configurable timeouts from 1s to 16s (default 8s), Always-On mode, early-warning callback, reset-cause introspection via RSTC.RCAUSE.",
+      "website": "https://github.com/RobotBuzzard/ClearCoreWatchdog",
+      "category": "Timing",
+      "architectures": [
+        "sam"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/og-buzz/ClearCoreWatchdog.git",
+      "providesIncludes": [
+        "ClearCoreWatchdog.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/og-buzz/ClearCoreWatchdog-1.1.0.zip",
+      "archiveFileName": "ClearCoreWatchdog-1.1.0.zip",
+      "size": 21004,
+      "checksum": "SHA-256:9c69d905bbd15e5035b35f6dcb58966cbb33e394bdbf06e1ad9bc8a630efbdfe"
     },
     {
       "name": "SimcomA76xx",
@@ -1345673,6 +1346226,30 @@
       "archiveFileName": "XYdraw-1.3.0.zip",
       "size": 49985,
       "checksum": "SHA-256:29f44ea53e9648183eaac63e23c3c9797a83126d67a59ab5e5be8d2f7eb25e13"
+    },
+    {
+      "name": "XYdraw",
+      "version": "1.4.0",
+      "author": "Daniel Nemes",
+      "maintainer": "Daniel Nemes",
+      "sentence": "2D and 3D vector graphics on an oscilloscope in XY mode using the ESP32 DAC pins.",
+      "paragraph": "Renders lines, rectangles, circles, ellipses, Bézier curves, and full 3D scenes with perspective projection and occlusion onto an oscilloscope via the ESP32's built-in DAC pins. Writes the DAC registers directly for fast output, and offers a flicker-free buffered mode that replays finished frames from the second CPU core at a constant point rate. Includes a scene buffer for hidden-line removal and a complete vector font with support for all printable ASCII characters.",
+      "website": "https://github.com/CITROMOSEPER/XYdraw",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/CITROMOSEPER/XYdraw.git",
+      "providesIncludes": [
+        "XYdraw.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/CITROMOSEPER/XYdraw-1.4.0.zip",
+      "archiveFileName": "XYdraw-1.4.0.zip",
+      "size": 58748,
+      "checksum": "SHA-256:a93020dd42bbd4f107ab8c0b146c5d6197853afbb350a13613a54447ee90af88"
     },
     {
       "name": "SimpleOTAClient",
@@ -1377849,6 +1378426,30 @@
       "checksum": "SHA-256:611b3ce94cb06cda6daf1f4f6f48d58e10f7e10ed47f61457683ae37ca8efb12"
     },
     {
+      "name": "Hapbeat",
+      "version": "1.0.0",
+      "author": "Hapbeat",
+      "maintainer": "Hapbeat \u003cyus988@hapbeat.com\u003e",
+      "sentence": "Drive Hapbeat haptic devices from ESP32 / M5Stack over Wi-Fi UDP.",
+      "paragraph": "Fire kit events (command mode) or register endpoint-scoped synthesized sine sources mixed to stereo PCM16 on Hapbeat haptic devices on the same network. No stored audio needed. Works on ESP32-series, ESP8266, and Arduino-compatible Wi-Fi boards. The examples use M5Unified.",
+      "website": "https://github.com/hapbeat/hapbeat-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/hapbeat/hapbeat-arduino.git",
+      "providesIncludes": [
+        "Hapbeat.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/hapbeat/Hapbeat-1.0.0.zip",
+      "archiveFileName": "Hapbeat-1.0.0.zip",
+      "size": 84383,
+      "checksum": "SHA-256:6528221ddf800bdd58133e84f41e8fbc605c9249a0b2ba71ba11d3e0a0601f99"
+    },
+    {
       "name": "LionArray",
       "version": "1.0.0",
       "author": "leva \u003cleva.the.lion@gmail.com\u003e",
@@ -1383078,6 +1383679,40 @@
       "archiveFileName": "ProtoCentral_HealthyPi_5-2.1.1.zip",
       "size": 257184,
       "checksum": "SHA-256:0274b45b4f9b42a9f3405ba91b413d386afca5a00a5609ad36aa01e9a132a7c2"
+    },
+    {
+      "name": "ProtoCentral HealthyPi 5",
+      "version": "2.1.2",
+      "author": "ProtoCentral Electronics",
+      "maintainer": "ProtoCentral Electronics \u003csupport@protocentral.com\u003e",
+      "sentence": "Dual-core NEXT runtime and board support for the ProtoCentral HealthyPi 5 (RP2040).",
+      "paragraph": "Encapsulates the production HealthyPi 5 NEXT dual-core AMP architecture for the arduino-pico core: core1 does lossless 128 SPS acquisition (MAX30001 + AFE4400) into a lock-free ring while core0 runs a broker, per-sink queues, a built-in OpenView 2 streamer, 1 Hz telemetry and a hardware watchdog. Includes board.h, the canonical pin map for HealthyPi 5 revisions 5.2-5.7, and auto-detects the on-board temperature sensor (MAX30205 or AS6221). Requires the arduino-pico FreeRTOS variant (include \u003cFreeRTOS.h\u003e in the sketch).",
+      "website": "https://github.com/Protocentral/protocentral_healthypi_5_firmware",
+      "category": "Sensors",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Protocentral/protocentral_healthypi_5_firmware.git",
+      "providesIncludes": [
+        "Protocentral_HealthyPi_5.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ProtoCentral MAX30001",
+          "version": "\u003e=2.1.0"
+        },
+        {
+          "name": "ProtoCentral AFE4490 PPG and SpO2 boards library",
+          "version": "\u003e=1.4.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Protocentral/ProtoCentral_HealthyPi_5-2.1.2.zip",
+      "archiveFileName": "ProtoCentral_HealthyPi_5-2.1.2.zip",
+      "size": 257727,
+      "checksum": "SHA-256:ee51c65c4fb97b4ed88fe631cfaee30ffb3e58982e4c6e0174dd108f1b188454"
     },
     {
       "name": "Ultra1602Ultimate",
@@ -1390950,6 +1391585,30 @@
       "checksum": "SHA-256:d2fd58246ca37e19d9841d10bd5f6df5710b00557bf3dd13204f2cac87bb90c0"
     },
     {
+      "name": "LC29H_GNSS",
+      "version": "0.3.4",
+      "author": "LC29H_GNSS Contributors",
+      "maintainer": "LC29H_GNSS Contributors \u003cmaintainers@users.noreply.github.com\u003e",
+      "sentence": "Configure Quectel LC29H BA, BS, DA, and EA GNSS modules over UART.",
+      "paragraph": "Identifies the IC before SAVEPAR, applies rover or base presets with Survey-In, and drains mixed NMEA plus RTCM on ESP32 so one UART does not overflow. Assembles complete RTCM frames (CRC-24Q) before they are written to the module. DA and EA need PAIR023 after save, not PAIR003. Serial Monitor commands for bench setup. Not an NTRIP caster. Quectel protocol PDFs remain required.",
+      "website": "https://github.com/bnorth12/LC29H_GNSS-Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bnorth12/LC29H_GNSS-Library.git",
+      "providesIncludes": [
+        "LC29H_GNSS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bnorth12/LC29H_GNSS-0.3.4.zip",
+      "archiveFileName": "LC29H_GNSS-0.3.4.zip",
+      "size": 158631,
+      "checksum": "SHA-256:6d20383400f0422648558ef72c45213f4bb0e3a19c9be957681302c890a5ff29"
+    },
+    {
       "name": "BD37033",
       "version": "1.0.2",
       "author": "Kirill Primus \u003cprimus180@mail.ru\u003e",
@@ -1392297,6 +1392956,29 @@
       "checksum": "SHA-256:4a8d40e574fa8c0cab52021ab051936211b5081fcf11f3afe0972c8d8f1e4aa0"
     },
     {
+      "name": "EpochTime",
+      "version": "1.2.0",
+      "author": "Sara Damiano \u003csdamiano@stroudcenter.org\u003e",
+      "maintainer": "Sara Damiano \u003csdamiano@stroudcenter.org\u003e",
+      "sentence": "An Arduino library for converting between time in parts as used by core gmtime functions and epoch time.",
+      "website": "https://github.com/EnviroDIY/EpochTime",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/EnviroDIY/EpochTime.git",
+      "providesIncludes": [
+        "EpochTime.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/EnviroDIY/EpochTime-1.2.0.zip",
+      "archiveFileName": "EpochTime-1.2.0.zip",
+      "size": 79354,
+      "checksum": "SHA-256:fd84b510fcebdb9043aedfb0745e9443daedca1bd700621a7af4eacd6457c0b1"
+    },
+    {
       "name": "FarmSense",
       "version": "1.0.0",
       "author": "nawawimegahertz",
@@ -1393564,6 +1394246,32 @@
       "archiveFileName": "ADRF6655-1.0.1.zip",
       "size": 29040,
       "checksum": "SHA-256:3b39dcd93d47224138d7a12abc47f119cc32538102f778d5a7c975826e1a55ac"
+    },
+    {
+      "name": "ADRF6655",
+      "version": "1.1.0",
+      "author": "kinny",
+      "maintainer": "kinny \u003c[email protected]\u003e",
+      "license": "MIT",
+      "sentence": "Driver for the Analog Devices ADRF6655 broadband up/downconverting mixer with integrated fractional-N PLL and VCO.",
+      "paragraph": "Provides one configuration function per register (R0-R7), a single low-level SPI write primitive, automatic INT/MOD/FRAC calculation from a target LO frequency (exact 64-bit integer math, optional best-fit MOD), and the full deactivate-\u003ereconfigure-\u003eactivate sequence required on every frequency change. Designed for ESP32 control of the ADRF6655 evaluation board over SPI.",
+      "website": "https://github.com/Kinshuk-2005/ADRF6655",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Kinshuk-2005/ADRF6655.git",
+      "providesIncludes": [
+        "ADRF6655.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Kinshuk-2005/ADRF6655-1.1.0.zip",
+      "archiveFileName": "ADRF6655-1.1.0.zip",
+      "size": 41440,
+      "checksum": "SHA-256:6ce9200ead1254ff9862d8b1a17d582b5001449be4b4585669898079e6b23783"
     },
     {
       "name": "LogicPins",
@@ -1395822,36 +1396530,6 @@
       "archiveFileName": "Hyperwisor_IOT-3.3.4.zip",
       "size": 80706,
       "checksum": "SHA-256:763289fa4c13b07be62065ed608a8a7eb852823ebd767dc4d90af80ac915ac4c"
-    },
-    {
-      "name": "AlloyLogger",
-      "version": "0.5.0",
-      "author": "Hugh Phan",
-      "maintainer": "Hugh Phan \u003chugh@usealloy.ai\u003e",
-      "sentence": "Stream ESP32 and Arduino UNO R4 WiFi sensor telemetry directly to Alloy (usealloy.ai).",
-      "paragraph": "RAM-buffered logging from Arduino boards to the Alloy data platform. ESP32 retains the existing background logger; UNO R4 WiFi uses a separate cooperative, allocation-free binary capture core with a bounded RAM journal and verified TLS transport. Every power-on becomes one MCAP mission in Alloy.",
-      "website": "https://github.com/alloyrobotics/alloy-logger-arduino",
-      "category": "Communication",
-      "architectures": [
-        "esp32",
-        "renesas_uno"
-      ],
-      "types": [
-        "Contributed"
-      ],
-      "repository": "https://github.com/alloyrobotics/alloy-logger-arduino.git",
-      "providesIncludes": [
-        "Alloy.h"
-      ],
-      "dependencies": [
-        {
-          "name": "ArduinoJson"
-        }
-      ],
-      "url": "https://downloads.arduino.cc/libraries/github.com/alloyrobotics/AlloyLogger-0.5.0.zip",
-      "archiveFileName": "AlloyLogger-0.5.0.zip",
-      "size": 16376798,
-      "checksum": "SHA-256:c11c31e6c5167b525fc237ed4a6cd2c13104f3724c60e43b08e7b002f124a943"
     },
     {
       "name": "MakerEdu I2C Motor Driver",
@@ -1399941,6 +1400619,31 @@
       "checksum": "SHA-256:0ae45bb5596a9cde655274f00c634142973a0f053c82fe635e8e3781cbb8c3dc"
     },
     {
+      "name": "cyfney-cpp",
+      "version": "3.0.2",
+      "author": "anka",
+      "maintainer": "anka",
+      "license": "MIT",
+      "sentence": "Reusable C++ utilities and base classes.",
+      "paragraph": "A header-only library providing general-purpose building blocks, common tools, and foundational components for C++ projects.",
+      "website": "https://github.com/cyfney/cyfney-cpp-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/cyfney/cyfney-cpp-arduino.git",
+      "providesIncludes": [
+        "cyf.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/cyfney/cyfney_cpp-3.0.2.zip",
+      "archiveFileName": "cyfney_cpp-3.0.2.zip",
+      "size": 26244,
+      "checksum": "SHA-256:acee6fe5466de0cca5d5d6826a15ae3d3cf70009b955f13896bd687cf2bd7225"
+    },
+    {
       "name": "SparkFun SSD168x I2C Interface Library",
       "version": "1.0.0",
       "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
@@ -1402855,6 +1403558,27 @@
       "archiveFileName": "AutoPlex14-1.1.1.zip",
       "size": 14845,
       "checksum": "SHA-256:6fa6ae47b06a7325e2dbc1567bc08b923a00b04d867fb69686b177dfa2d548aa"
+    },
+    {
+      "name": "AutoPlex14",
+      "version": "1.1.2",
+      "author": "Nyjah",
+      "maintainer": "Nyjah",
+      "sentence": "AutoPlex14 — the most capable Arduino library for fourteen-segment displays",
+      "paragraph": "AutoPlex14 is the simplest and most powerful Arduno library for fourteen-segment displays. Capable of displaying numerical data, text, bitmaps, custom fonts, and even Unicode characters, AutoPlex14 offers high flexibility; all while automatically handling multiplexing in the background.",
+      "website": "https://github.com/TechTronicsEngineering/AutoPlex14",
+      "category": "Display",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/TechTronicsEngineering/AutoPlex14.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/TechTronicsEngineering/AutoPlex14-1.1.2.zip",
+      "archiveFileName": "AutoPlex14-1.1.2.zip",
+      "size": 14931,
+      "checksum": "SHA-256:a5d6ad5dc95af4147fb9c09c49399711fc077ad5ccad8b5ca75c98f9df4910e1"
     },
     {
       "name": "Pyintel Lux",
@@ -1411312,6 +1412036,27 @@
       "checksum": "SHA-256:b54ca350b9b8dda1ed08090cf80c9db740f34563eb1dfecad3316a1efe86e22e"
     },
     {
+      "name": "Periph",
+      "version": "1.3.3",
+      "author": "Till Uhde",
+      "maintainer": "Till Uhde \u003ctill@uhde.com\u003e",
+      "sentence": "Peripheral chip drivers for Arduino (I2C/SPI).",
+      "paragraph": "Drivers for sensors and actuators connected via I2C or SPI transports.",
+      "website": "https://github.com/tuhde/Periph",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tuhde/Periph-Arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/tuhde/Periph-1.3.3.zip",
+      "archiveFileName": "Periph-1.3.3.zip",
+      "size": 1057314,
+      "checksum": "SHA-256:7f6d4e33f0b65909ed8f1ef2cc7f75c876d22409e665d604b7644430040d2144"
+    },
+    {
       "name": "eOS3",
       "version": "1.0.0",
       "author": "Stefan Staub",
@@ -1413143,6 +1413888,27 @@
       "archiveFileName": "OpenEmbeddedProbe-0.0.50.zip",
       "size": 1036952,
       "checksum": "SHA-256:613ae9abeabd90d0dfc0361d88af46ce5b8a2ab3b178cbd9ea2e2b0186148ed8"
+    },
+    {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.51",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.51.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.51.zip",
+      "size": 1043993,
+      "checksum": "SHA-256:48c73c2a016a12df50fb5f2999eeab3677bda1ba5f09a6bedf5ac417747f989b"
     },
     {
       "name": "MPU9250-DMP",
@@ -1421763,6 +1422529,78 @@
       "checksum": "SHA-256:9811c3e8aec323a2b1186f09ce6996bbe43b7f57bf6f9a0dcdc8831b34d10f08"
     },
     {
+      "name": "Pinscope",
+      "version": "0.2.12",
+      "author": "Filip Code \u003chello@pinscope.dev\u003e",
+      "maintainer": "Filip Code \u003chello@pinscope.dev\u003e",
+      "sentence": "Reach your ESP32's web server from anywhere, with live logs, crash reports and OTA updates, in 9.4 KB of RAM.",
+      "paragraph": "One outbound connection to the Pinscope service gives the device's own web server an HTTPS address and carries its logs, metrics, crash reports and firmware updates. No port forwarding, no TLS library on the device. Needs a Pinscope account (three devices free).",
+      "website": "https://pinscope.dev/docs",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pinscope-dev/pinscope-esp.git",
+      "providesIncludes": [
+        "pinscope.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.12.zip",
+      "archiveFileName": "Pinscope-0.2.12.zip",
+      "size": 57832,
+      "checksum": "SHA-256:f234e9b02b45b420644806e2a707a9840d45acbd6998e897e7f8aaf444efe574"
+    },
+    {
+      "name": "Pinscope",
+      "version": "0.2.13",
+      "author": "Pinscope \u003chello@pinscope.dev\u003e",
+      "maintainer": "Pinscope \u003chello@pinscope.dev\u003e",
+      "sentence": "Reach your ESP32's web server from anywhere, with live logs, crash reports and OTA updates, in 9.4 KB of RAM.",
+      "paragraph": "One outbound connection to the Pinscope service gives the device's own web server an HTTPS address and carries its logs, metrics, crash reports and firmware updates. No port forwarding, no TLS library on the device. Needs a Pinscope account (three devices free).",
+      "website": "https://pinscope.dev/docs",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pinscope-dev/pinscope-esp.git",
+      "providesIncludes": [
+        "pinscope.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.13.zip",
+      "archiveFileName": "Pinscope-0.2.13.zip",
+      "size": 57718,
+      "checksum": "SHA-256:ea7d95b45cf8368e65a61870deae20259ad42edbb3bcdd42c4c36267e05c043e"
+    },
+    {
+      "name": "Pinscope",
+      "version": "0.2.14",
+      "author": "Pinscope \u003chello@pinscope.dev\u003e",
+      "maintainer": "Pinscope \u003chello@pinscope.dev\u003e",
+      "sentence": "Reach your ESP32's web server from anywhere, with live logs, crash reports and OTA updates, in 9.4 KB of RAM.",
+      "paragraph": "One outbound connection to the Pinscope service gives the device's own web server an HTTPS address and carries its logs, metrics, crash reports and firmware updates. No port forwarding, no TLS library on the device. Needs a Pinscope account (three devices free).",
+      "website": "https://pinscope.dev/docs",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pinscope-dev/pinscope-esp.git",
+      "providesIncludes": [
+        "pinscope.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.14.zip",
+      "archiveFileName": "Pinscope-0.2.14.zip",
+      "size": 57715,
+      "checksum": "SHA-256:0a58814908933bdf578459a06037cd7d75b9fab888d0b7ff163f32c086fd290f"
+    },
+    {
       "name": "lvgl_theme_shadcn",
       "version": "0.1.1",
       "author": "Alix ANNERAUD \u003calix@anneraud.fr\u003e",
@@ -1426136,6 +1426974,51 @@
       "checksum": "SHA-256:d4f4a21228f2335d5dec367c892078c23f573b3efa9a1cae3e71c98c263acc99"
     },
     {
+      "name": "Crowpanel_2.1",
+      "version": "3.0.0",
+      "author": "Charles Vaillancourt",
+      "maintainer": "Charles Vaillancourt",
+      "sentence": "Helper functions to work with a CrowPanel 2.1 LCD display",
+      "paragraph": "This library contains a class that encapsulates all the functions of a Crowpanel 2.1 display including functions to receive events from the rotary encoder (rotation, click, double-click, long press), and to receive events from the touchscreen. It also allows setting the brightness of the LCD display, turning it OFF and ON, and setting the intensity of the LED.",
+      "website": "https://github.com/placidanomaly/Crowpanel_2.1",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/placidanomaly/Crowpanel_2.1.git",
+      "providesIncludes": [
+        "crowpanel_2_1.h"
+      ],
+      "dependencies": [
+        {
+          "name": "lvgl",
+          "version": "\u003e=9.5.0"
+        },
+        {
+          "name": "PCF8574 library"
+        },
+        {
+          "name": "Adafruit CST8XX Library",
+          "version": "\u003e=1.0.1"
+        },
+        {
+          "name": "GFX Library for Arduino",
+          "version": "\u003e=1.4.7"
+        },
+        {
+          "name": "Adafruit BusIO",
+          "version": "\u003e=1.16.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/placidanomaly/Crowpanel_2_1-3.0.0.zip",
+      "archiveFileName": "Crowpanel_2_1-3.0.0.zip",
+      "size": 1478790,
+      "checksum": "SHA-256:29c871d5d420f58976390326c4635c843473f57115c0d6209cdd77dd831d5db7"
+    },
+    {
       "name": "Bonezegei_MAX7219",
       "version": "1.0.0",
       "author": "Bonezegei (Jofel Batutay)",
@@ -1427719,6 +1428602,30 @@
       "archiveFileName": "AMK_CYD_Universal_TFT-1.5.1.zip",
       "size": 486397,
       "checksum": "SHA-256:641eb5cd8a5979d5601dbb53c5155783cf0685d1ff8a6ade1a6fea3686ab1a37"
+    },
+    {
+      "name": "AMK_CYD_Universal_TFT",
+      "version": "1.6.0",
+      "author": "Aung Moe Khine",
+      "maintainer": "Aung Moe Khine \u003caungmoekhine@gmail.com\u003e",
+      "sentence": "Universal standalone TFT, touch, sprite, TFT_eSPI_Button, gradients, and visual GUI driver with 1-line autoSetup and adaptive multi-point autoCalibrate for ESP32 CYD resistive \u0026 capacitive boards and ESP32-S3 RGB capacitive boards.",
+      "paragraph": "Bundles high-speed display and touch drivers with runtime hardware auto-probing for 2.4\", 2.8\", 3.2\", 3.5\", and 4.0\" CYD resistive and capacitive boards (ILI9341, ST7789, ST7796, XPT2046, GT911, CST820) and ESP32-S3 parallel RGB boards (4.3\", 5.0\", 7.0\" 800x480 ST7262 + GT911 capacitive touch). Features 1-line universal hardware auto-setup (tft.autoSetup()), adaptive multi-point statistical touch calibration with NVS persistence (tft.autoCalibrate()), built-in ambient light auto-dimming with LDR moving average filtering (tft.adjustBrightness()), universal Active-LOW RGB LED control (tft.setRgbLed()), dual touch controller auto-detection, half-duplex SPI readback on SDA, persistent NVS hardware overrides, full TFT_eSPI and TFT_eSPI_Button drop-in compatibility, linear vertical \u0026 horizontal color gradients, alpha blending, TFT_eSprite off-screen buffering, zero-boilerplate LVGL v8/v9 integration, PlatformIO/Visual Studio support, and seamless SquareLine Studio / EEZ Studio visual GUI builder support.",
+      "website": "https://github.com/aungmoekhine/AMK_CYD_Universal_TFT",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AungMoeKhine/AMK_CYD_Universal_TFT.git",
+      "providesIncludes": [
+        "AMK_CYD_Universal_TFT.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.6.0.zip",
+      "archiveFileName": "AMK_CYD_Universal_TFT-1.6.0.zip",
+      "size": 505768,
+      "checksum": "SHA-256:aca7e9a718c375af072b84a8bab42174010619185e6b9d7c540bbf8fa6f93ea5"
     },
     {
       "name": "DTG_IoT",
@@ -1431978,6 +1432885,31 @@
       "checksum": "SHA-256:f2a917939a3ba958b0359a38c4255aee319ad7e7b44a59d140512eb2b43b3181"
     },
     {
+      "name": "DevLab_AudioInput",
+      "version": "0.3.6",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Cesar Bautista, Jonathan Mejorado Lopez",
+      "sentence": "Capture PCM audio from I2S and PDM microphones on ESP32 and RP2040/RP2350.",
+      "paragraph": "DevLab audio input library with mono PCM16 capture and serial streaming examples. Hardware tested only on ESP32-S3; RP2040/RP2350 PDM and I2S are compile tested only.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_audioinput_library",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_audioinput_library.git",
+      "providesIncludes": [
+        "DevLab_AudioInput.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AudioInput-0.3.6.zip",
+      "archiveFileName": "DevLab_AudioInput-0.3.6.zip",
+      "size": 25135,
+      "checksum": "SHA-256:4e9c8051b8557fd5ee37414896b93d3e3327d5b0bda937bf95a4cadb2840be3c"
+    },
+    {
       "name": "FTPServer",
       "version": "1.0.0",
       "author": "Serhii Lebedenko",
@@ -1432386,6 +1433318,30 @@
       "checksum": "SHA-256:6a07a1e249b942ade42ea404e60f52df0192e39dabc496e8a93dd278517b750d"
     },
     {
+      "name": "ProtoCentral easyEMG",
+      "version": "1.1.0",
+      "author": "ProtoCentral Electronics \u003csupport@protocentral.com\u003e",
+      "maintainer": "ProtoCentral Electronics \u003csupport@protocentral.com\u003e",
+      "sentence": "Arduino library for the ProtoCentral easyEMG single-channel surface EMG breakout board.",
+      "paragraph": "Reads surface electromyography (sEMG) from the ProtoCentral easyEMG board over I2C. Gives you the raw band-limited muscle waveform in microvolts plus a built-in RMS envelope, muscle-activation detection, and %MVC normalisation. Standalone - no external dependencies. For research and education only - not a medical device.",
+      "website": "https://github.com/Protocentral/protocentral_easyemg_arduino",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Protocentral/protocentral_easyemg_arduino.git",
+      "providesIncludes": [
+        "ProtoCentral_easyEMG.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Protocentral/ProtoCentral_easyEMG-1.1.0.zip",
+      "archiveFileName": "ProtoCentral_easyEMG-1.1.0.zip",
+      "size": 2605232,
+      "checksum": "SHA-256:9c386145a2bde7c44d9ffbe9935712532683b5b3d5fd26ccfd60602266000cc8"
+    },
+    {
       "name": "SwarmNode",
       "version": "0.1.0",
       "author": "Mohammed Raihan Soniwala",
@@ -1432473,6 +1433429,42 @@
       "archiveFileName": "SwarmNode-0.3.0.zip",
       "size": 41482,
       "checksum": "SHA-256:06c3e04641672d82d94ed14a928c8a254ac322bb83d868056c5847f2322ea3bb"
+    },
+    {
+      "name": "SwarmNode",
+      "version": "0.4.0",
+      "author": "Mohammed Raihan Soniwala",
+      "maintainer": "Mohammed Raihan Soniwala \u003craihann.eu@gmail.com\u003e",
+      "sentence": "Zero-Touch Hardware Declaration Slave Library for Distributed Robotics.",
+      "paragraph": "Turns Wi-Fi microcontrollers (ESP32, Nano RP2040 Connect, Pico W, UNO R4 WiFi, UNO WiFi Rev2, Nano 33 IoT) into network-transparent Slave nodes. Configure Wi-Fi and hardware pins in setup(), leave loop() 100% empty, and run all control logic on a Linux Master.",
+      "website": "https://github.com/raihhann/OpenSwarm",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "megaavr",
+        "samd",
+        "mbed_nano",
+        "rp2040",
+        "renesas_uno"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/raihhann/OpenSwarm.git",
+      "providesIncludes": [
+        "SwarmNode.h",
+        "OpenSwarm.h"
+      ],
+      "dependencies": [
+        {
+          "name": "WiFiNINA",
+          "version": "\u003e=2.1.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/raihhann/SwarmNode-0.4.0.zip",
+      "archiveFileName": "SwarmNode-0.4.0.zip",
+      "size": 42196,
+      "checksum": "SHA-256:37cc5214186050ba99b614d979cf2ea104a27bffc92d16394bff429b3ca04ad7"
     },
     {
       "name": "KampCepSensors",
@@ -1432878,6 +1433870,144 @@
       "archiveFileName": "Moonlight_MQTT-0.1.0.zip",
       "size": 27786,
       "checksum": "SHA-256:3577b1dc2810f1da2fa017c86034391deb7883bb4987c2f85c0ba70e73c9c13c"
+    },
+    {
+      "name": "AARUESP",
+      "version": "1.0.0",
+      "author": "AARUTO \u003caaruto@example.com\u003e",
+      "maintainer": "AARUTO \u003caaruto@example.com\u003e",
+      "sentence": "Universal ESP32 / ESP8266 library — 1000+ sensors, actuators, displays and comms in one consistent API.",
+      "paragraph": "MADE BY AARUTO. One API for analog, digital, I2C, SPI, UART, 1-Wire, PWM, servo, stepper, RGB, displays, GPS and IR across the whole ESP family: ESP32, ESP32-S2, ESP32-S3, ESP32-C3, ESP32-C6, ESP32-H2 and ESP8266 — 200+ board variants supported with compile-time board detection. Core has no mandatory third-party dependencies.",
+      "website": "https://github.com/AARUTO347/AARUESP",
+      "category": "Other",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AARUTO347/AARUESP.git",
+      "providesIncludes": [
+        "AARUESP.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AARUTO347/AARUESP-1.0.0.zip",
+      "archiveFileName": "AARUESP-1.0.0.zip",
+      "size": 212007,
+      "checksum": "SHA-256:06a640800778a521ad279ec27f03b0379939b32574135efaebe7927f547b330c"
+    },
+    {
+      "name": "BlueGraysIoT",
+      "version": "0.1.0",
+      "author": "Yunus Emre Eke \u003cinfo@bluegrays.com\u003e",
+      "maintainer": "BlueGrays \u003cinfo@bluegrays.com\u003e",
+      "sentence": "Control ESP32 and Raspberry Pi Pico W boards from the BlueGrays app over a secure WebSocket.",
+      "paragraph": "Switches, sliders, colors and live sensor values with charts in the BlueGrays mobile app. TLS with bundled root certificates, automatic Wi-Fi and server reconnects, rate limiting and state restore after a power cut. The BlueGrays app generates the code. The device key travels only in the connection header and is never printed.",
+      "website": "https://bluegrays.com",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/yemreeke/BlueGraysIoT.git",
+      "providesIncludes": [
+        "BlueGraysIoT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "WebSockets",
+          "version": "\u003e=2.6.0"
+        },
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=7.0.0"
+        },
+        {
+          "name": "DHT sensor library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/yemreeke/BlueGraysIoT-0.1.0.zip",
+      "archiveFileName": "BlueGraysIoT-0.1.0.zip",
+      "size": 48365,
+      "checksum": "SHA-256:9307938c60e426e1e214bd8473ba5d4b9ff80a624c3a447e258aebb32aab26ba"
+    },
+    {
+      "name": "MicroTaskMonitor",
+      "version": "1.0.0",
+      "author": "MicroTask Monitor Contributors",
+      "maintainer": "MicroTask Monitor Project",
+      "sentence": "Universal embedded system monitoring and diagnostics library inspired by Windows Task Manager.",
+      "paragraph": "Real-time monitoring of RAM, heap, CPU, storage, temperature, power, RTOS tasks, network, uptime and performance profiling across AVR, ESP32, ESP8266, STM32, RP2040 and SAMD microcontrollers, with JSON/CSV telemetry, alerts, history and a modular transport layer.",
+      "website": "https://github.com/microtaskmonitor/MicroTaskMonitor",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/atharvaphadnis-ai/mtm.git",
+      "providesIncludes": [
+        "MicroTaskMonitor.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/atharvaphadnis-ai/MicroTaskMonitor-1.0.0.zip",
+      "archiveFileName": "MicroTaskMonitor-1.0.0.zip",
+      "size": 114904,
+      "checksum": "SHA-256:ddccaa62db2c4dac51895a80401015a42318c8a327fc1db6366b204538fa96c5"
+    },
+    {
+      "name": "EasyEspAndroid",
+      "version": "1.0.2",
+      "author": "Arul",
+      "maintainer": "Arul",
+      "sentence": "A robust library to provision ESP32 to Wi-Fi via an Android app.",
+      "paragraph": "Pairs seamlessly with the Android EasyEsp KMM library for dual-mode Wi-Fi setup. Features an asynchronous webserver and network scanner.",
+      "website": "https://github.com/codingwitharul/esay-esp",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/codingwitharul/esay-esp.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/codingwitharul/EasyEspAndroid-1.0.2.zip",
+      "archiveFileName": "EasyEspAndroid-1.0.2.zip",
+      "size": 1477226,
+      "checksum": "SHA-256:34525003b322c6fa04ec35ec554948de8ca209d7d69c4425bbe27d0f83974609"
+    },
+    {
+      "name": "AlloyStorage",
+      "version": "0.6.0",
+      "author": "Hugh Phan",
+      "maintainer": "Hugh Phan \u003chugh@usealloy.ai\u003e",
+      "sentence": "Alloy Storage SDK for Arduino: stream ESP32 and Arduino UNO R4 WiFi sensor telemetry straight to Alloy Storage (usealloy.ai).",
+      "paragraph": "Formerly AlloyLogger. RAM-buffered logging from Arduino boards to Alloy Storage. ESP32 runs a background uploader with automatic GPIO capture; UNO R4 WiFi uses a cooperative, allocation-free binary capture core with a bounded RAM journal and verified TLS transport. Every power-on becomes one MCAP mission in Alloy Storage.",
+      "website": "https://github.com/alloyrobotics/alloy-storage-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "renesas_uno"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/alloyrobotics/alloy-logger-arduino.git",
+      "providesIncludes": [
+        "Alloy.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/alloyrobotics/AlloyStorage-0.6.0.zip",
+      "archiveFileName": "AlloyStorage-0.6.0.zip",
+      "size": 15963461,
+      "checksum": "SHA-256:eedadd9531cb451ad3c0de9890339391cb302c9b6bf2ce12056a6a797d3aa1e7"
     }
   ]
 }
