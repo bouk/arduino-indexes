@@ -91589,6 +91589,41 @@
       "checksum": "SHA-256:dcce4b7b071898149861c80bde8d745835aaa8069abc833d244a325c35723d48"
     },
     {
+      "name": "RF24Ethernet",
+      "version": "2.2.5",
+      "author": "TMRh20",
+      "maintainer": "TMRh20",
+      "sentence": "OSI layer 4/5 (TCP/IP) wireless/radio IoT mesh networks for nRF24L01(+) \u0026 nRF52",
+      "paragraph": "Automated, wireless(not WiFi), sensor/IoT networks that communicate/link together using standard protocols \u0026 networking. An experiment disconnected...",
+      "website": "https://nRF24.github.io/RF24Ethernet/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/TMRh20/RF24Ethernet.git",
+      "dependencies": [
+        {
+          "name": "RF24"
+        },
+        {
+          "name": "RF24Network"
+        },
+        {
+          "name": "RF24Mesh"
+        },
+        {
+          "name": "lwIP"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Ethernet-2.2.5.zip",
+      "archiveFileName": "RF24Ethernet-2.2.5.zip",
+      "size": 459947,
+      "checksum": "SHA-256:9ca0ef3737298f098b2cef5f535f8956e03f3b4ec534327224748d871749127d"
+    },
+    {
       "name": "RapifireMqttClient",
       "version": "1.0.0",
       "author": "Rapifire",
@@ -366362,6 +366397,30 @@
       "archiveFileName": "RadioLib-7.8.1.zip",
       "size": 5532693,
       "checksum": "SHA-256:8c2315391264fecec670958df36e815866d571a650c8546879f586bf91a93203"
+    },
+    {
+      "name": "RadioLib",
+      "version": "8.0.0",
+      "author": "Jan Gromes \u003cgromes.jan@gmail.com\u003e",
+      "maintainer": "Jan Gromes \u003cgromes.jan@gmail.com\u003e",
+      "sentence": "Universal wireless communication library",
+      "paragraph": "User-friendly library for sub-GHz radio modules (SX1278, RF69, CC1101, SX1268, LR1110, LR2021 and many others), as well as ham radio digital modes (RTTY, SSTV, AX.25 etc.) and other protocols (Pagers, LoRaWAN, ADS-B).",
+      "website": "https://github.com/jgromes/RadioLib",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/jgromes/RadioLib.git",
+      "providesIncludes": [
+        "RadioLib.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/jgromes/RadioLib-8.0.0.zip",
+      "archiveFileName": "RadioLib-8.0.0.zip",
+      "size": 5606935,
+      "checksum": "SHA-256:cecc3f6d9366670d01292c852d1cdea7d83417cf1bace5a8b22b4c87b2bdcd9a"
     },
     {
       "name": "ClosedCube_I2C_Driver",
@@ -740051,6 +740110,31 @@
       "checksum": "SHA-256:b3910341767471a87aae262d9dd60d48b19278d10e6bdfd916fe7543e98f8fa7"
     },
     {
+      "name": "libasm",
+      "version": "1.6.74",
+      "author": "Tadashi G. Takaoka",
+      "maintainer": "Tadashi G. Takaoka \u003ctadashi.g.takaoka@gmail.com\u003e",
+      "license": "Apache-2.0",
+      "sentence": "Cross assembler and disassembler for retro CPUs",
+      "paragraph": "With this, you can integrate assembler or disassembler into your sketch. Supported CPUs are AM29000, C166, CDP1802, CP1600, F3850, H16, H8300, H8500, I8048, I8051, I8080, I8086, I8096, I960, INS8060, INS8070, MC6800, MC68000, MC6805, MC6809, MC68HC12, MC68HC16, MN1610, MOS6502, NS32000, PDP11, PDP8, SCN2650, SUPERH, TLCS90, TLCS900, TMS320, TMS320F, TMS370, TMS7000, TMS9900, Z280, Z380, Z8, Z80, Z8000",
+      "website": "https://github.com/tgtakaoka/libasm",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tgtakaoka/libasm.git",
+      "providesIncludes": [
+        "libasm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.74.zip",
+      "archiveFileName": "libasm-1.6.74.zip",
+      "size": 14184404,
+      "checksum": "SHA-256:6ae78fd3fdc77aed5271d9ad590968050cfb7d99d93ac867e1b15f10c04180fb"
+    },
+    {
       "name": "SparkFun AVR ISP Programming Library",
       "version": "1.0.0",
       "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
@@ -1062116,6 +1062200,30 @@
       "checksum": "SHA-256:7814a96a2c78fd6bf7cf17ccbe91113e7cba2affa8799e7bf4ed99cc3b7aebc2"
     },
     {
+      "name": "FlixPeriph",
+      "version": "1.13.0",
+      "author": "Oleg Kalachev \u003cokalachev@gmail.com\u003e",
+      "maintainer": "Oleg Kalachev \u003cokalachev@gmail.com\u003e",
+      "sentence": "Arduino drivers for the Flix drone peripherals.",
+      "paragraph": "Flix is open source ESP32-based quadcopter made from scratch.",
+      "website": "https://github.com/okalachev/flixperiph",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/okalachev/flixperiph.git",
+      "providesIncludes": [
+        "FlixPeriph.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/okalachev/FlixPeriph-1.13.0.zip",
+      "archiveFileName": "FlixPeriph-1.13.0.zip",
+      "size": 163994,
+      "checksum": "SHA-256:3233030fa4e116654e34977cdb1ed5a172368d49a93e6c6d9ac17742d5fb696f"
+    },
+    {
       "name": "CROZONE-VEML6040",
       "version": "0.1.0",
       "author": "YuTTYL \u003cyuttapichai@crozone.xyz\u003e",
@@ -1132059,6 +1132167,52 @@
       "checksum": "SHA-256:b0b4124b46768016161b465765f6485dfd656abb0c091775a255ae481c971f60"
     },
     {
+      "name": "HomeAssistantEntities",
+      "version": "10.0.0",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "MIT",
+      "sentence": "Library for providing sensors and actuators to Home Assistant using MQTT.",
+      "paragraph": "Simplify and standardize the use of sensors and actuators in Home Assistant.",
+      "website": "https://github.com/Johboh/HomeAssistantEntities",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/HomeAssistantEntities.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/HomeAssistantEntities-10.0.0.zip",
+      "archiveFileName": "HomeAssistantEntities-10.0.0.zip",
+      "size": 194838,
+      "checksum": "SHA-256:784b437e55b914ccb2b0c79bcbe67888acebc9778b723250d6c407920b6e5979"
+    },
+    {
+      "name": "HomeAssistantEntities",
+      "version": "10.0.1",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "MIT",
+      "sentence": "Library for providing sensors and actuators to Home Assistant using MQTT.",
+      "paragraph": "Simplify and standardize the use of sensors and actuators in Home Assistant.",
+      "website": "https://github.com/Johboh/HomeAssistantEntities",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/HomeAssistantEntities.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/HomeAssistantEntities-10.0.1.zip",
+      "archiveFileName": "HomeAssistantEntities-10.0.1.zip",
+      "size": 249182,
+      "checksum": "SHA-256:d0a841fad07a7f8075f8d90591a292937dfe0a9a7b53182f2655aa8f1e1832f0"
+    },
+    {
       "name": "nlohmann-json",
       "version": "3.11.3",
       "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
@@ -1145371,6 +1145525,42 @@
       "archiveFileName": "AMY_Synthesizer-1.2.208.zip",
       "size": 44644404,
       "checksum": "SHA-256:6f231cf2d8522fcaf59dff75478dfc3849ab1f6398af08c2fc15c77e3fdc0916"
+    },
+    {
+      "name": "AMY Synthesizer",
+      "version": "1.2.209",
+      "author": "Brian Whitman \u003cbrian@variogram.com\u003e, DAn Ellis \u003cdan.ellis@gmail.com\u003e",
+      "maintainer": "Brian Whitman \u003cbrian@variogram.com\u003e",
+      "sentence": "AMY, the Music Synthesizer Library",
+      "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+      "website": "http://github.com/shorepine/amy",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "stm32",
+        "rp2040",
+        "mbed_rp2040",
+        "rp2350",
+        "mbed_rp2350",
+        "teensy",
+        "STM32F1",
+        "STM32F4",
+        "STM32H7",
+        "nrf52",
+        "samd",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shorepine/amy.git",
+      "providesIncludes": [
+        "AMY-Arduino.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.209.zip",
+      "archiveFileName": "AMY_Synthesizer-1.2.209.zip",
+      "size": 44645095,
+      "checksum": "SHA-256:676630817d936610d20fa55b7daad7c7c2cde43784e2847e5ba343148c2f0950"
     },
     {
       "name": "ArduboyI2C",
@@ -1267043,6 +1267233,77 @@
       "checksum": "SHA-256:2b732f4b017a0ea75b6f2141c84b147b452880977a604743b4d132718a77ab61"
     },
     {
+      "name": "Frugal-IoT",
+      "version": "2.0.11",
+      "author": "Mitra Ardron",
+      "maintainer": "Mitra Ardron \u003cmitra@mitra.biz\u003e",
+      "sentence": "Platform for affordable sensors",
+      "paragraph": "The Frugal-IoT library implement an easy to use platform for a variety of sensors communicating over WiFi, LoRa, MQTT etc",
+      "website": "https://github.com/mitra42/frugal-iot",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mitra42/frugal-iot.git",
+      "providesIncludes": [
+        "Frugal-IoT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "BH1750"
+        },
+        {
+          "name": "Button2"
+        },
+        {
+          "name": "DHTNEW"
+        },
+        {
+          "name": "HX711"
+        },
+        {
+          "name": "MQTT"
+        },
+        {
+          "name": "OneWireNg"
+        },
+        {
+          "name": "hd44780"
+        },
+        {
+          "name": "TinyGPSPlus"
+        },
+        {
+          "name": "ModbusMaster"
+        },
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit SSD1306"
+        },
+        {
+          "name": "Adafruit SSD1327"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.11.zip",
+      "archiveFileName": "Frugal_IoT-2.0.11.zip",
+      "size": 1123911,
+      "checksum": "SHA-256:42b5671d9bba4905ed043588eed4bae8143b2015b010041113717c78d910144c"
+    },
+    {
       "name": "FastLED_min",
       "version": "1.0.0",
       "author": "Based on FastLED RMT implementation",
@@ -1315576,6 +1315837,53 @@
       "archiveFileName": "ATGENXlib-2.2.0.zip",
       "size": 91931,
       "checksum": "SHA-256:68350dd1627edf5f88133a799b85aac5ab5400e710ff91419f2cdcb55992a116"
+    },
+    {
+      "name": "ATGENXlib",
+      "version": "2.3.0",
+      "author": "ATGenX",
+      "maintainer": "Seif Emad \u003csupport@atgenx.com\u003e",
+      "sentence": "Modular runtime and ready-made components (buttons, sensors, LEDs, relays, buzzers, DHT, steppers and robots) for Arduino, ESP32 and Raspberry Pi Pico.",
+      "paragraph": "Non-blocking runtime, scheduler and event bus with debounced inputs, multi-click buttons and timed outputs. The official library behind the ATGenX visual builder (atgenx.com). WiFi provisioning and the smart-home hub are available on ESP32.",
+      "website": "https://github.com/ARDUTECH0/ATGENXlib-0.0.1",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ARDUTECH0/ATGENXlib-0.0.1.git",
+      "providesIncludes": [
+        "ATGENXlib.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DHT sensor library"
+        },
+        {
+          "name": "Adafruit Unified Sensor"
+        },
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "WebSockets"
+        },
+        {
+          "name": "Servo"
+        },
+        {
+          "name": "ESP32Servo"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGENXlib-2.3.0.zip",
+      "archiveFileName": "ATGENXlib-2.3.0.zip",
+      "size": 105331,
+      "checksum": "SHA-256:62f7476b96c9939a3d881a37dbe40f390320087d5b751b872f755a88d4c4e833"
     },
     {
       "name": "TimezoneTranslator",
@@ -1406663,6 +1406971,30 @@
       "checksum": "SHA-256:62edf1c03e0213b573a9c4f42d015d65ef588b9b6d63777521984c1db1c6889b"
     },
     {
+      "name": "SnappyXOShield",
+      "version": "0.3.2",
+      "author": "SnappyXO",
+      "maintainer": "A+ Mobile Solutions Inc",
+      "sentence": "Motor control library for the SnappyXO Motor Shield v2 and v3.",
+      "paragraph": "Knows the shield's motor pins and drives a two-wheeled robot: forward, reverse, spins, each wheel's speed, joystick-style drive(throttle, steering), stop and brake.",
+      "website": "https://github.com/snappyxo/SnappyXOShield",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/snappyxo/SnappyXOShield.git",
+      "providesIncludes": [
+        "SnappyXOShield.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/snappyxo/SnappyXOShield-0.3.2.zip",
+      "archiveFileName": "SnappyXOShield-0.3.2.zip",
+      "size": 11723,
+      "checksum": "SHA-256:8f9b62af21d025bead6d21be354b601772180cf3f541a763a2a7fa43672451e2"
+    },
+    {
       "name": "MpxCpp17",
       "version": "1.0.0",
       "author": "Francisco Bischoff \u003cfranzbischoff@gmail.com\u003e",
@@ -1411237,6 +1411569,30 @@
       "checksum": "SHA-256:6d69b4e608220f96af402cad41289322c306f3f0b0fcb59e58d011154b42a1bf"
     },
     {
+      "name": "MicroMDNS",
+      "version": "0.1.1",
+      "author": "Sean Cardus",
+      "maintainer": "Sean Cardus",
+      "sentence": "Minimal heap-free mDNS responder for the ESP8266.",
+      "paragraph": "Answers for one host name and one DNS-SD service from the main loop, out of fixed buffers, instead of in the WiFi stack's receive callback.",
+      "website": "https://github.com/scardus/MicroMDNS",
+      "category": "Communication",
+      "architectures": [
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/scardus/MicroMDNS.git",
+      "providesIncludes": [
+        "MicroMDNS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/scardus/MicroMDNS-0.1.1.zip",
+      "archiveFileName": "MicroMDNS-0.1.1.zip",
+      "size": 34247,
+      "checksum": "SHA-256:5c71e80618a5c5be397db46eb357d5ccfa38193c012a0ad22e211a2e59683680"
+    },
+    {
       "name": "Adafruit Monster Eyes",
       "version": "2.0.0",
       "author": "Adafruit Industries",
@@ -1413909,6 +1414265,27 @@
       "archiveFileName": "OpenEmbeddedProbe-0.0.51.zip",
       "size": 1043993,
       "checksum": "SHA-256:48c73c2a016a12df50fb5f2999eeab3677bda1ba5f09a6bedf5ac417747f989b"
+    },
+    {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.52",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.52.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.52.zip",
+      "size": 1102390,
+      "checksum": "SHA-256:352d78dc76f6d363943e176f93c047442432123be8e6cb349b8b031e50e6b613"
     },
     {
       "name": "MPU9250-DMP",
@@ -1417781,6 +1418158,33 @@
       "archiveFileName": "MaxwellTrack-1.3.1.zip",
       "size": 1342550,
       "checksum": "SHA-256:ca9120ae8b032b90eee022968d5cf33e533f0b02b6b71df2db8d9c55e25c2918"
+    },
+    {
+      "name": "MaxwellTrack",
+      "version": "1.4.0",
+      "author": "MaxwellTrack",
+      "maintainer": "MaxwellTrack \u003csupport@maxwelltrack.com\u003e",
+      "sentence": "Connect Arduino boards to the MaxwellTrack IoT Cloud over WiFi or cellular (GSM/LTE).",
+      "paragraph": "Encrypted, per-device secure connection. Send readings to datastreams, receive dashboard commands, offline buffering, automatic reconnect and over-the-air updates. ESP32, ESP8266, Arduino UNO R4 WiFi, Raspberry Pi Pico W and Arduino's WiFiNINA boards connect over WiFi; any supported board, including the UNO R4 Minima and Nano R4, connects over a SIM800 or SIM7600 modem. Provide only your Device ID and Auth Token from the dashboard.",
+      "website": "https://maxwelltrack.com",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "stm32",
+        "rp2040",
+        "samd",
+        "avr",
+        "renesas_uno"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/maxwelltrack/maxwelltrack-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/maxwelltrack/MaxwellTrack-1.4.0.zip",
+      "archiveFileName": "MaxwellTrack-1.4.0.zip",
+      "size": 1964265,
+      "checksum": "SHA-256:3dc6548d7124f1447ae827771bc84875bf258bd790b6ab28b04fa09d3942a4fa"
     },
     {
       "name": "ERDILRF_LRF",
@@ -1427019,6 +1427423,51 @@
       "checksum": "SHA-256:29c871d5d420f58976390326c4635c843473f57115c0d6209cdd77dd831d5db7"
     },
     {
+      "name": "Crowpanel_2.1",
+      "version": "3.0.1",
+      "author": "Charles Vaillancourt",
+      "maintainer": "Charles Vaillancourt",
+      "sentence": "Helper functions to work with a CrowPanel 2.1 LCD display",
+      "paragraph": "This library contains a class that encapsulates all the functions of a Crowpanel 2.1 display including functions to receive events from the rotary encoder (rotation, click, double-click, long press), and to receive events from the touchscreen. It also allows setting the brightness of the LCD display, turning it OFF and ON, and setting the intensity of the LED.",
+      "website": "https://github.com/placidanomaly/Crowpanel_2.1",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/placidanomaly/Crowpanel_2.1.git",
+      "providesIncludes": [
+        "crowpanel_2_1.h"
+      ],
+      "dependencies": [
+        {
+          "name": "lvgl",
+          "version": "\u003e=9.5.0"
+        },
+        {
+          "name": "PCF8574 library"
+        },
+        {
+          "name": "Adafruit CST8XX Library",
+          "version": "\u003e=1.0.1"
+        },
+        {
+          "name": "GFX Library for Arduino",
+          "version": "\u003e=1.4.7"
+        },
+        {
+          "name": "Adafruit BusIO",
+          "version": "\u003e=1.16.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/placidanomaly/Crowpanel_2_1-3.0.1.zip",
+      "archiveFileName": "Crowpanel_2_1-3.0.1.zip",
+      "size": 1479239,
+      "checksum": "SHA-256:0ab64ab1c4e19e53714ab8fdba513bb04c31f747d2ec4d0d287553bab6b6d0a2"
+    },
+    {
       "name": "Bonezegei_MAX7219",
       "version": "1.0.0",
       "author": "Bonezegei (Jofel Batutay)",
@@ -1428626,6 +1429075,54 @@
       "archiveFileName": "AMK_CYD_Universal_TFT-1.6.0.zip",
       "size": 505768,
       "checksum": "SHA-256:aca7e9a718c375af072b84a8bab42174010619185e6b9d7c540bbf8fa6f93ea5"
+    },
+    {
+      "name": "AMK_CYD_Universal_TFT",
+      "version": "1.6.1",
+      "author": "Aung Moe Khine",
+      "maintainer": "Aung Moe Khine \u003caungmoekhine@gmail.com\u003e",
+      "sentence": "Universal standalone TFT, touch, sprite, TFT_eSPI_Button, gradients, and visual GUI driver with 1-line autoSetup and adaptive multi-point autoCalibrate for ESP32 CYD resistive \u0026 capacitive boards and ESP32-S3 RGB capacitive boards.",
+      "paragraph": "Bundles high-speed display and touch drivers with runtime hardware auto-probing for 2.4\", 2.8\", 3.2\", 3.5\", and 4.0\" CYD resistive and capacitive boards (ILI9341, ST7789, ST7796, XPT2046, GT911, CST820) and ESP32-S3 parallel RGB boards (4.3\", 5.0\", 7.0\" 800x480 ST7262 + GT911 capacitive touch). Features 1-line universal hardware auto-setup (tft.autoSetup()), adaptive multi-point statistical touch calibration with NVS persistence (tft.autoCalibrate()), built-in ambient light auto-dimming with LDR moving average filtering (tft.adjustBrightness()), universal Active-LOW RGB LED control (tft.setRgbLed()), dual touch controller auto-detection, half-duplex SPI readback on SDA, persistent NVS hardware overrides, full TFT_eSPI and TFT_eSPI_Button drop-in compatibility, linear vertical \u0026 horizontal color gradients, alpha blending, TFT_eSprite off-screen buffering, zero-boilerplate LVGL v8/v9 integration, PlatformIO/Visual Studio support, and seamless SquareLine Studio / EEZ Studio visual GUI builder support.",
+      "website": "https://github.com/aungmoekhine/AMK_CYD_Universal_TFT",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AungMoeKhine/AMK_CYD_Universal_TFT.git",
+      "providesIncludes": [
+        "AMK_CYD_Universal_TFT.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.6.1.zip",
+      "archiveFileName": "AMK_CYD_Universal_TFT-1.6.1.zip",
+      "size": 506046,
+      "checksum": "SHA-256:1a56924a7e165bf02836dac4f922bd4aa969a6658ba92b80589921d9ce3964e3"
+    },
+    {
+      "name": "AMK_CYD_Universal_TFT",
+      "version": "1.6.2",
+      "author": "Aung Moe Khine",
+      "maintainer": "Aung Moe Khine \u003caungmoekhine@gmail.com\u003e",
+      "sentence": "Universal standalone TFT, touch, sprite, TFT_eSPI_Button, gradients, and visual GUI driver with 1-line autoSetup and adaptive multi-point autoCalibrate for ESP32 CYD resistive \u0026 capacitive boards and ESP32-S3 RGB capacitive boards.",
+      "paragraph": "Bundles high-speed display and touch drivers with runtime hardware auto-probing for 2.4\", 2.8\", 3.2\", 3.5\", and 4.0\" CYD resistive and capacitive boards (ILI9341, ST7789, ST7796, XPT2046, GT911, CST820) and ESP32-S3 parallel RGB boards (4.3\", 5.0\", 7.0\" 800x480 ST7262 + GT911 capacitive touch). Features 1-line universal hardware auto-setup (tft.autoSetup()), adaptive multi-point statistical touch calibration with NVS persistence (tft.autoCalibrate()), built-in ambient light auto-dimming with LDR moving average filtering (tft.adjustBrightness()), universal Active-LOW RGB LED control (tft.setRgbLed()), dual touch controller auto-detection, half-duplex SPI readback on SDA, persistent NVS hardware overrides, full TFT_eSPI and TFT_eSPI_Button drop-in compatibility, linear vertical \u0026 horizontal color gradients, alpha blending, TFT_eSprite off-screen buffering, zero-boilerplate LVGL v8/v9 integration, PlatformIO/Visual Studio support, and seamless SquareLine Studio / EEZ Studio visual GUI builder support.",
+      "website": "https://github.com/aungmoekhine/AMK_CYD_Universal_TFT",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AungMoeKhine/AMK_CYD_Universal_TFT.git",
+      "providesIncludes": [
+        "AMK_CYD_Universal_TFT.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.6.2.zip",
+      "archiveFileName": "AMK_CYD_Universal_TFT-1.6.2.zip",
+      "size": 507590,
+      "checksum": "SHA-256:c7b4c24f067fc6ba4b83c9ca7f9484a2a9c87db25cd3c9067fa553d8c8d2f11f"
     },
     {
       "name": "DTG_IoT",
@@ -1434008,6 +1434505,226 @@
       "archiveFileName": "AlloyStorage-0.6.0.zip",
       "size": 15963461,
       "checksum": "SHA-256:eedadd9531cb451ad3c0de9890339391cb302c9b6bf2ce12056a6a797d3aa1e7"
+    },
+    {
+      "name": "MTW NetLoopScheduler",
+      "version": "0.1.0",
+      "author": "MyTechWaifu",
+      "maintainer": "MyTechWaifu \u003cMyTechWaifu@web3msg.fun\u003e",
+      "sentence": "Lightweight AVR task scheduling with automatic UART shared-variable exchange.",
+      "paragraph": "Combines periodic, delayed and event-driven tasks with ordinary shared variables for two-MCU projects. Based on TinyLoopScheduler, with background native-UART exchange, VALUE-only SUM8, acknowledgements and retries. Procedural API and static memory; no heap or custom serial driver.",
+      "website": "https://github.com/MyTechWaifu/MTW_NetLoopScheduler",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "megaavr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/MyTechWaifu/MTW_NetLoopScheduler.git",
+      "providesIncludes": [
+        "MTW_NetLoopScheduler.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/MyTechWaifu/MTW_NetLoopScheduler-0.1.0.zip",
+      "archiveFileName": "MTW_NetLoopScheduler-0.1.0.zip",
+      "size": 196604,
+      "checksum": "SHA-256:f3dafd892bf65508a88086a415b5fa84941c81a357d6da82d173b7bcf7dfe1dc"
+    },
+    {
+      "name": "MTW NetLoopScheduler",
+      "version": "0.1.1",
+      "author": "MyTechWaifu",
+      "maintainer": "MyTechWaifu \u003cMyTechWaifu@web3msg.fun\u003e",
+      "sentence": "Lightweight AVR task scheduling with automatic UART shared-variable exchange.",
+      "paragraph": "Combines periodic, delayed and event-driven tasks with ordinary shared variables for two-MCU projects. Based on TinyLoopScheduler, with background native-UART exchange, VALUE-only SUM8, acknowledgements and retries. Procedural API and static memory; no heap or custom serial driver.",
+      "website": "https://github.com/MyTechWaifu/MTW_NetLoopScheduler",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "megaavr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/MyTechWaifu/MTW_NetLoopScheduler.git",
+      "providesIncludes": [
+        "MTW_NetLoopScheduler.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/MyTechWaifu/MTW_NetLoopScheduler-0.1.1.zip",
+      "archiveFileName": "MTW_NetLoopScheduler-0.1.1.zip",
+      "size": 197125,
+      "checksum": "SHA-256:d31c8e14a2d20de4502b08c3fa80fd01b07c9e526ee6fecc4174b63febe00445"
+    },
+    {
+      "name": "MTW NetLoopScheduler",
+      "version": "0.1.2",
+      "author": "MyTechWaifu",
+      "maintainer": "MyTechWaifu \u003cMyTechWaifu@web3msg.fun\u003e",
+      "sentence": "Lightweight AVR task scheduling with automatic UART shared-variable exchange.",
+      "paragraph": "Combines periodic, delayed and event-driven tasks with ordinary shared variables for two-MCU projects. Based on TinyLoopScheduler, with background native-UART exchange, VALUE-only SUM8, acknowledgements and retries. Procedural API and static memory; no heap or custom serial driver.",
+      "website": "https://github.com/MyTechWaifu/MTW_NetLoopScheduler",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "megaavr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/MyTechWaifu/MTW_NetLoopScheduler.git",
+      "providesIncludes": [
+        "MTW_NetLoopScheduler.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/MyTechWaifu/MTW_NetLoopScheduler-0.1.2.zip",
+      "archiveFileName": "MTW_NetLoopScheduler-0.1.2.zip",
+      "size": 198234,
+      "checksum": "SHA-256:18ba1bd4697a6b5cc6e920052f658ec61adb4b88316556fb577c58b34f2d135a"
+    },
+    {
+      "name": "CISIoT",
+      "version": "1.0.0",
+      "author": "CIS-IoT Thaksin University (TSU) \u003cworawat.sooksai@gmail.com\u003e",
+      "maintainer": "CIS-IoT Thaksin University (TSU) \u003csworawat@tsu.ac.th\u003e",
+      "sentence": "Official Arduino \u0026 ESP32/ESP8266/UNO R4 WiFi (UNO Q) Client Library for the IoT Scidi (CIS-IoT) Platform.",
+      "paragraph": "Connects ESP32, ESP8266, and Arduino UNO R4 WiFi / UNO Q boards to the IoT Scidi (CIS-IoT) platform at Thaksin University. Supports Virtual Pin telemetry (V0-V99), real-time command polling, status reporting, HTTPS insecure client mode, internal campus IP fallback, and ESP32 Watchdog Timer auto-recovery.",
+      "website": "https://github.com/worawat-sooksai/CISIoT",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "renesas_uno",
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/worawat-sooksai/CISIoT.git",
+      "providesIncludes": [
+        "CISIoT.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/worawat-sooksai/CISIoT-1.0.0.zip",
+      "archiveFileName": "CISIoT-1.0.0.zip",
+      "size": 18693,
+      "checksum": "SHA-256:7e0901595b124e60942036e34aeff7d8572d6bf46db8dc0290396a7359df28ab"
+    },
+    {
+      "name": "ESPLiveScript2",
+      "version": "2.0.0",
+      "author": "Yves BAZIN",
+      "maintainer": "Yves BAZIN",
+      "sentence": "Compile C-like scripts to Xtensa machine code on the ESP32 itself, and run them.",
+      "paragraph": "Works on the Xtensa ESP32 chips: ESP32, ESP32-S2 and ESP32-S3 (with or without PSRAM). Scripts run on their own FreeRTOS tasks if you want (executeAsTask, scriptScheduler).",
+      "website": "https://github.com/hpwit/new-parser",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/hpwit/new-parser.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/hpwit/ESPLiveScript2-2.0.0.zip",
+      "archiveFileName": "ESPLiveScript2-2.0.0.zip",
+      "size": 954120,
+      "checksum": "SHA-256:60b0dde89d44617c7e6140a51ed57380e2d15ed3af0b52970bf6cd688b52fdb2"
+    },
+    {
+      "name": "Dal",
+      "version": "0.1.6",
+      "author": "Dalal Nasrallah",
+      "maintainer": "Dalal Nasrallah",
+      "sentence": "Arabic text for small screens: connected letters, lam-alef, harakat, right-to-left with numbers and Latin, word wrap.",
+      "paragraph": "Works with LovyanGFX, TFT_eSPI, Adafruit GFX or any drawPixel(). Anti-aliased glyphs generated from real Arabic fonts.",
+      "website": "https://github.com/Dalal-Nsrallah/Dal-Arabic",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Dalal-Nsrallah/Dal-Arabic.git",
+      "providesIncludes": [
+        "Dal.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Dalal-Nsrallah/Dal-0.1.6.zip",
+      "archiveFileName": "Dal-0.1.6.zip",
+      "size": 128907,
+      "checksum": "SHA-256:eea9d97f0ff13a03d4f968e679aa697c9247f85cc9e291697655e3042e4a5789"
+    },
+    {
+      "name": "MicroSwap",
+      "version": "0.2.0",
+      "author": "espmaniac",
+      "maintainer": "espmaniac",
+      "sentence": "Vectors, strings, maps and ring buffers bigger than your board's RAM, swapped to an SD card, an SPI memory chip or flash.",
+      "paragraph": "Keeps a few pages of data in RAM and moves the rest to storage by itself as you use it. VMVector, VMString (any length), VMMap, VMRingBuffer, VMArray and VMPtr work like the standard containers. Storage: a file on SD or flash, SPI SRAM, PSRAM or FRAM chips, or two functions of your own. No malloc, no exceptions; AVR, ESP32, ESP8266, STM32, SAMD, RP2040 and any core with a C++11 compiler.",
+      "website": "https://github.com/espmaniac/MicroSwap",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/espmaniac/MicroSwap.git",
+      "providesIncludes": [
+        "MicroSwap.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/espmaniac/MicroSwap-0.2.0.zip",
+      "archiveFileName": "MicroSwap-0.2.0.zip",
+      "size": 100461,
+      "checksum": "SHA-256:4323b6e8133255fa22048715d750f10e944c7e3df0ceaad0e1bb8ff4418b8cae"
+    },
+    {
+      "name": "Esp32AdaptiveClock",
+      "version": "0.1.0",
+      "author": "Arda Kora",
+      "maintainer": "Arda Kora",
+      "sentence": "Job-driven CPU clock scaling for offline classic ESP32 sketches.",
+      "paragraph": "Selects an idle clock and adjusts the active clock for recurring jobs using measured run times. Uses the Arduino ESP32 clock API.",
+      "website": "https://github.com/ardakora/Esp32AdaptiveClock",
+      "category": "Timing",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ardakora/Esp32AdaptiveClock.git",
+      "providesIncludes": [
+        "Esp32AdaptiveClock.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ardakora/Esp32AdaptiveClock-0.1.0.zip",
+      "archiveFileName": "Esp32AdaptiveClock-0.1.0.zip",
+      "size": 8916,
+      "checksum": "SHA-256:efc24257ddea5b3f9e128ad2a2aedfe140db8dcc09cb5d6b3ca054bfe0c86506"
+    },
+    {
+      "name": "PixBand",
+      "version": "2.0.0",
+      "author": "Arda Kora",
+      "maintainer": "Arda Kora",
+      "sentence": "Low-memory SPI TFT drawing for ESP32.",
+      "paragraph": "Redraws changed regions in RGB565 bands using a caller-owned buffer, with optional single-window SPI streaming and DMA. Includes ILI9341 and ST7789 panel profiles.",
+      "website": "https://github.com/ardakora/PixBand",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ardakora/PixBand.git",
+      "providesIncludes": [
+        "PixBand.h",
+        "PixBand_SPI.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ardakora/PixBand-2.0.0.zip",
+      "archiveFileName": "PixBand-2.0.0.zip",
+      "size": 31116,
+      "checksum": "SHA-256:24cee63d1053a9b56acad9eeb1d69a400c8659aaf3c4f9b347d212cf3d80153b"
     }
   ]
 }
