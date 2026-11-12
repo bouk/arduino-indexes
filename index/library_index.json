@@ -45297,6 +45297,44 @@
       "checksum": "SHA-256:e41418354059ffdcbd4e891bc6506af44a52f60f7360da0a941013c31856d42e"
     },
     {
+      "name": "Adafruit MQTT Library",
+      "version": "3.0.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "MQTT library that supports the FONA, ESP8266, ESP32, Yun, and generic Arduino Client hardware.",
+      "paragraph": "Simple MQTT library that supports the bare minimum to publish and subscribe to topics.",
+      "website": "https://github.com/adafruit/Adafruit_MQTT_Library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_MQTT_Library.git",
+      "dependencies": [
+        {
+          "name": "Adafruit SleepyDog Library"
+        },
+        {
+          "name": "Adafruit FONA Library"
+        },
+        {
+          "name": "WiFi101"
+        },
+        {
+          "name": "WiFiNINA_-_Adafruit_Fork"
+        },
+        {
+          "name": "Ethernet"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_MQTT_Library-3.0.0.zip",
+      "archiveFileName": "Adafruit_MQTT_Library-3.0.0.zip",
+      "size": 929813,
+      "checksum": "SHA-256:f8347bcb743a8d1109bec9ff98ca56c9aeca7d129e41022d7cf9d4409406dae4"
+    },
+    {
       "name": "Adafruit SleepyDog Library",
       "version": "1.0.0",
       "author": "Adafruit",
@@ -67031,6 +67069,30 @@
       "archiveFileName": "DMD2-0.0.3.zip",
       "size": 53866,
       "checksum": "SHA-256:7f2be5d8087e1b8f08995fc5f2cdca57d6f5754c259730defc02526f031d9c16"
+    },
+    {
+      "name": "DMD2",
+      "version": "0.0.4",
+      "author": "Freetronics, Angus Gratton \u003cangus@freetronics.com\u003e",
+      "maintainer": "Harrison Mclean \u003ch4rm0n1c@gmail.com\u003e",
+      "sentence": "Updated (beta) library for Freetronics DMD dot matrix displays.",
+      "paragraph": "Supports graphics operations (test, images, etc.) Still experimental, the stable library is called called \"DMD\"",
+      "website": "https://github.com/freetronics/DMD2/",
+      "category": "Display",
+      "architectures": [
+        "avr",
+        "sam",
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/freetronics/DMD2.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/freetronics/DMD2-0.0.4.zip",
+      "archiveFileName": "DMD2-0.0.4.zip",
+      "size": 63167,
+      "checksum": "SHA-256:3ed26c25ecf9616771fde30285339de864e672d60ab05b7d4f905c98b6695e62"
     },
     {
       "name": "BaroLibrary",
@@ -496580,6 +496642,30 @@
       "archiveFileName": "MoonPhase-2.0.0.zip",
       "size": 13880049,
       "checksum": "SHA-256:c7d7c4cd1cb2b71e84fdbbbdcb7dd39a4e4e0e73d80fde4257efb5437ef07c5b"
+    },
+    {
+      "name": "MoonPhase",
+      "version": "3.0.0",
+      "author": "Cellie \u003cCelliesProjects@users.noreply.github.com\u003e",
+      "maintainer": "Cellie \u003cCelliesProjects@users.noreply.github.com\u003e",
+      "sentence": "Get lunar phase information on ESP32 devices.",
+      "paragraph": "ESP32 library to calculate the moon phase angle and illuminated fraction for a given time.",
+      "website": "https://github.com/CelliesProjects/moonPhase-esp32",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/CelliesProjects/moonPhase-esp32.git",
+      "providesIncludes": [
+        "MoonPhase.hpp"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/CelliesProjects/MoonPhase-3.0.0.zip",
+      "archiveFileName": "MoonPhase-3.0.0.zip",
+      "size": 13879819,
+      "checksum": "SHA-256:bd928f3ff76c6cac05818f84654d88a173008349305dc8ed0dd367f0338d50b0"
     },
     {
       "name": "tcMenu",
@@ -976922,6 +977008,27 @@
       "checksum": "SHA-256:0d47b33aad43724b91ef7e47601f8343c8385a93dfc0205fd562fc06f34fc6dc"
     },
     {
+      "name": "SensorLib",
+      "version": "0.5.2",
+      "author": "Lewis He",
+      "maintainer": "Lewis He \u003clewishe@outlook.com\u003e",
+      "sentence": "Multi-platform I2C and SPI sensor and power device library",
+      "paragraph": "Supports RTC, IMU, magnetometer, accelerometer, touch, PMIC, battery gauge, haptic, light sensor, I/O expander, LED, and finger navigation devices on Arduino, PlatformIO, and ESP-IDF.",
+      "website": "https://github.com/lewisxhe/SensorLib",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/lewisxhe/SensorLib.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/lewisxhe/SensorLib-0.5.2.zip",
+      "archiveFileName": "SensorLib-0.5.2.zip",
+      "size": 11526784,
+      "checksum": "SHA-256:02e8375771c30a05849c3a21002cdb21464d4693a91b0baa4c1d12d011e60cab"
+    },
+    {
       "name": "readguy",
       "version": "1.1.0",
       "author": "fsender \u003cf_ender@163.com\u003e",
@@ -1026227,6 +1026334,39 @@
       "checksum": "SHA-256:f2318eb8f552bac7cd8da2660a2f4767c48e119f2b6b5dce94a38f8484123fdc"
     },
     {
+      "name": "IOSignal",
+      "version": "9.12.0",
+      "author": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "maintainer": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "sentence": "IOSignal Arduino Client.",
+      "paragraph": "Support Uno Ethernet,Uno R4 WiFi, ESP8266 and ESP32.",
+      "website": "https://github.com/remocons/iosignal-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/remocons/iosignal-arduino.git",
+      "dependencies": [
+        {
+          "name": "Boho",
+          "version": "\u003e=1.0.0"
+        },
+        {
+          "name": "Crypto"
+        },
+        {
+          "name": "Bounce2"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-9.12.0.zip",
+      "archiveFileName": "IOSignal-9.12.0.zip",
+      "size": 1409570,
+      "checksum": "SHA-256:bdcf0f0a582dc82888b1f51add5d362721d7ddd0bd72d80d6895ddfe95e5cc94"
+    },
+    {
       "name": "SpeeduinoGL",
       "version": "0.0.1",
       "author": "Benjamin Gombala",
@@ -1031161,6 +1031301,57 @@
       "archiveFileName": "Remocon-9.6.0.zip",
       "size": 1843032,
       "checksum": "SHA-256:fe0bfabf43b1eee20ab56c2e46c820ede308692734201e92572b96759fec4042"
+    },
+    {
+      "name": "Remocon",
+      "version": "9.12.0",
+      "author": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "maintainer": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "sentence": "IOSignal Arduino examples for remocon.kr and test.iosignal.net.",
+      "paragraph": "Control DIY Arduino IoT remote control system with the web app.",
+      "website": "https://github.com/remocons/remocon-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/remocons/remocon-arduino.git",
+      "dependencies": [
+        {
+          "name": "IOSignal",
+          "version": "\u003e=9.12.0"
+        },
+        {
+          "name": "Crypto"
+        },
+        {
+          "name": "Boho"
+        },
+        {
+          "name": "Bounce2"
+        },
+        {
+          "name": "U8g2"
+        },
+        {
+          "name": "IRremote"
+        },
+        {
+          "name": "WiFiManager"
+        },
+        {
+          "name": "FastLED"
+        },
+        {
+          "name": "Ethernet"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/remocons/Remocon-9.12.0.zip",
+      "archiveFileName": "Remocon-9.12.0.zip",
+      "size": 1841410,
+      "checksum": "SHA-256:1008bfa6e24a2dfebd2415f1175c92eef978dabb77154ab80260e443ab2528ec"
     },
     {
       "name": "SimplifiedTimer",
@@ -1223240,6 +1223431,28 @@
       "checksum": "SHA-256:c624a11a5080694b04b962d1d82d0f1bd27b5b6326efe0dbfb19b4bcbd882879"
     },
     {
+      "name": "ieee-802_15_4",
+      "version": "1.0.7",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "GPL-2.0-or-later OR GPL-3.0-or-later",
+      "sentence": "Simplified version of sending and receiving messages over 802.15.4",
+      "paragraph": "Supports sending frames between devices, as well as data requests and broadcasts.",
+      "website": "https://github.com/Johboh/ieee-802_15_4",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/ieee-802_15_4.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.7.zip",
+      "archiveFileName": "ieee_802_15_4-1.0.7.zip",
+      "size": 55821,
+      "checksum": "SHA-256:e5b8a85d1591dfaba5379bc4147dd20ca7d4371905440ff83aaf25dd12ecd5a8"
+    },
+    {
       "name": "ieee-802_15_4-network-shared",
       "version": "0.6.0",
       "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
@@ -1302153,6 +1302366,54 @@
       "checksum": "SHA-256:6f893e431655bc3ed0a75dd3f6997cc52dd51b90c95b9a3807ed76aad36fda48"
     },
     {
+      "name": "wireguard-pico-w",
+      "version": "0.2.1",
+      "author": "Kenta Ida (original); Daniel Hope (upstream); Marcin Kielesiński (RP2040/Pico W port)",
+      "maintainer": "Marcin Kielesiński",
+      "sentence": "WireGuard for RP2040/Pico W, port of WireGuard-ESP32.",
+      "paragraph": "Port of the original WireGuard-ESP32 library to Raspberry Pi Pico W (RP2040 + CYW43) using earlephilhower-arduino-pico, and lwIP. ESP-IDF/ESP32-specific parts are replaced with a Pico/lwIP compatibility layer.",
+      "website": "https://github.com/jaszczurtd/arduino-wireguard-pico-w",
+      "category": "Communication",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/jaszczurtd/arduino-wireguard-pico-w.git",
+      "providesIncludes": [
+        "arduino-wireguard-pico-w.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/jaszczurtd/wireguard_pico_w-0.2.1.zip",
+      "archiveFileName": "wireguard_pico_w-0.2.1.zip",
+      "size": 106117,
+      "checksum": "SHA-256:417179fe1ca1554178ad841f86aad3400d2ad36aa52d0a04581ff17463621790"
+    },
+    {
+      "name": "wireguard-pico-w",
+      "version": "0.2.2",
+      "author": "Kenta Ida (original); Daniel Hope (upstream); Marcin Kielesiński (RP2040/Pico W port)",
+      "maintainer": "Marcin Kielesiński",
+      "sentence": "WireGuard for RP2040/Pico W, port of WireGuard-ESP32.",
+      "paragraph": "Port of the original WireGuard-ESP32 library to Raspberry Pi Pico W (RP2040 + CYW43) using earlephilhower-arduino-pico, and lwIP. ESP-IDF/ESP32-specific parts are replaced with a Pico/lwIP compatibility layer.",
+      "website": "https://github.com/jaszczurtd/arduino-wireguard-pico-w",
+      "category": "Communication",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/jaszczurtd/arduino-wireguard-pico-w.git",
+      "providesIncludes": [
+        "arduino-wireguard-pico-w.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/jaszczurtd/wireguard_pico_w-0.2.2.zip",
+      "archiveFileName": "wireguard_pico_w-0.2.2.zip",
+      "size": 110003,
+      "checksum": "SHA-256:9797ae7ad174b79cc93b058af5e33692a6fc2fcb6434511f1e9ea5c873c8e36d"
+    },
+    {
       "name": "HANUMAN_32",
       "version": "0.1.0",
       "author": "hii-nice-2-meet-u \u003c0x0.whitecat@gmail.com\u003e",
@@ -1338100,6 +1338361,30 @@
       "checksum": "SHA-256:adbdf7be9bafdbb5a5fddca7176eb8837966380809e8e50ba61abd5a4521199c"
     },
     {
+      "name": "DS2482",
+      "version": "1.1.1",
+      "author": "APADevices \u003ckecup@vazac.eu\u003e",
+      "maintainer": "APADevices \u003ckecup@vazac.eu\u003e",
+      "sentence": "A modern library for DS2482-800 I2C to 1-Wire bridge with DS18B20 support.",
+      "paragraph": "Simplified single-sensor-per-channel operation, non-blocking design, and optional diagnostics. No dependencies except Wire library.",
+      "website": "https://github.com/apadevices/DS2482",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/apadevices/DS2482.git",
+      "providesIncludes": [
+        "DS2482.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/apadevices/DS2482-1.1.1.zip",
+      "archiveFileName": "DS2482-1.1.1.zip",
+      "size": 17877,
+      "checksum": "SHA-256:d7ab6d50d13035dc755bc1ba582135ef12d1417abb7cf702d850835862d16e5e"
+    },
+    {
       "name": "APAPHX2_ADS1115",
       "version": "1.1.0",
       "author": "APADevices [@kecup]",
@@ -1353228,6 +1353513,30 @@
       "checksum": "SHA-256:410f70d2b5de712a6a9d634fdd761e7df582198de75207a59740a041c8fc6522"
     },
     {
+      "name": "ICM53607",
+      "version": "3.0.1",
+      "author": "TDK/Invensense",
+      "maintainer": "TDK/Invensense",
+      "sentence": "Allows to read accelerometer, gyroscope and temperature sensors from an ICM53607 Invensence IMU device.",
+      "paragraph": "This library allows to easily configure and log accelerometer, gyroscope and temperature data from an ICM53607 device, using the SPI or the I2C interface. It also provides embedded algorithms such as Tilt, Tap, WoM, Freefall, HighG and LowG",
+      "website": "https://github.com/tdk-invn-oss/motion.arduino.ICM53607",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tdk-invn-oss/motion.arduino.ICM53607.git",
+      "providesIncludes": [
+        "ICM536xx.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/ICM53607-3.0.1.zip",
+      "archiveFileName": "ICM53607-3.0.1.zip",
+      "size": 464134,
+      "checksum": "SHA-256:e77514799f79fd227f7475c17ac3e09eb2374a40316f9d5ccfb77c73ebb1e63c"
+    },
+    {
       "name": "ICM53611",
       "version": "1.0.0",
       "author": "TDK/Invensense",
@@ -1353298,6 +1353607,30 @@
       "archiveFileName": "ICM53611-1.0.2.zip",
       "size": 464143,
       "checksum": "SHA-256:06388fa59acf228b6e53b02ce164816c0420fdb21a227790c6f721828a564685"
+    },
+    {
+      "name": "ICM53611",
+      "version": "3.0.1",
+      "author": "TDK/Invensense",
+      "maintainer": "TDK/Invensense",
+      "sentence": "Allows to read accelerometer, gyroscope and temperature sensors from an ICM53611 Invensence IMU device.",
+      "paragraph": "This library allows to easily configure and log accelerometer, gyroscope and temperature data from an ICM53611 device, using the SPI or the I2C interface. It also provides embedded algorithms such as Tilt, Tap, WoM, Freefall, HighG and LowG",
+      "website": "https://github.com/tdk-invn-oss/motion.arduino.ICM53611",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tdk-invn-oss/motion.arduino.ICM53611.git",
+      "providesIncludes": [
+        "ICM536xx.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/ICM53611-3.0.1.zip",
+      "archiveFileName": "ICM53611-3.0.1.zip",
+      "size": 464134,
+      "checksum": "SHA-256:917ba2c7de2b0d7ec389e89ca3566fa9131358922173116df125c717400f5cbb"
     },
     {
       "name": "ICM53621",
@@ -1353372,6 +1353705,30 @@
       "checksum": "SHA-256:8fbeae2f7d1809533c58395eb885847f69a0e071774aebb7e41a00456d65fd0b"
     },
     {
+      "name": "ICM53621",
+      "version": "3.0.1",
+      "author": "TDK/Invensense",
+      "maintainer": "TDK/Invensense",
+      "sentence": "Allows to read accelerometer, gyroscope and temperature sensors from an ICM53621 Invensence IMU device.",
+      "paragraph": "This library allows to easily configure and log accelerometer, gyroscope and temperature data from an ICM53621 device, using the SPI or the I2C interface. It also provides embedded algorithms such as Tilt, Tap, WoM, Freefall, HighG and LowG",
+      "website": "https://github.com/tdk-invn-oss/motion.arduino.ICM53621",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tdk-invn-oss/motion.arduino.ICM53621.git",
+      "providesIncludes": [
+        "ICM536xx.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/ICM53621-3.0.1.zip",
+      "archiveFileName": "ICM53621-3.0.1.zip",
+      "size": 467954,
+      "checksum": "SHA-256:23277d1dbc888eef1f405fdc25a77b5ff60833913732161b307977276a0e5a2b"
+    },
+    {
       "name": "ICM53622",
       "version": "1.0.0",
       "author": "TDK/Invensense",
@@ -1353418,6 +1353775,30 @@
       "archiveFileName": "ICM53622-1.0.2.zip",
       "size": 467963,
       "checksum": "SHA-256:43ed880bc7a5c3492fadeddd1e238f54f2e1a29d5631f502aaf8e53380bf56c2"
+    },
+    {
+      "name": "ICM53622",
+      "version": "3.0.1",
+      "author": "TDK/Invensense",
+      "maintainer": "TDK/Invensense",
+      "sentence": "Allows to read accelerometer, gyroscope and temperature sensors from an ICM53622 Invensence IMU device.",
+      "paragraph": "This library allows to easily configure and log accelerometer, gyroscope and temperature data from an ICM53622 device, using the SPI or the I2C interface. It also provides embedded algorithms such as Tilt, Tap, WoM, Freefall, HighG and LowG",
+      "website": "https://github.com/tdk-invn-oss/motion.arduino.ICM53622",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tdk-invn-oss/motion.arduino.ICM53622.git",
+      "providesIncludes": [
+        "ICM536xx.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/ICM53622-3.0.1.zip",
+      "archiveFileName": "ICM53622-3.0.1.zip",
+      "size": 467954,
+      "checksum": "SHA-256:1eed9d01d6e381803f0171000f3b67d09d99b12b7f908af631815e03bf9cb880"
     },
     {
       "name": "Ascon128",
@@ -1354721,6 +1355102,27 @@
       "archiveFileName": "HANUMAN_32_mini-0.1.6.zip",
       "size": 6900883,
       "checksum": "SHA-256:0d70c493f87796172b64877aa7cfbb4a8033147fb90a89c63ef3a588c3bd6b30"
+    },
+    {
+      "name": "HANUMAN_32_mini",
+      "version": "0.1.7",
+      "author": "hii-nice-2-meet-u \u003c0x0.whitecat@gmail.com\u003e",
+      "maintainer": "hii-nice-2-meet-u \u003c0x0.whitecat@gmail.com\u003e",
+      "sentence": "Arduino Library for HANUMAN-32 mini",
+      "paragraph": "This library easy to read input and control output on Hanuman-32 mini Board.",
+      "website": "https://github.com/hii-nice-2-meet-u/HANUMAN_32_mini",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/hii-nice-2-meet-u/HANUMAN_32_mini.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/hii-nice-2-meet-u/HANUMAN_32_mini-0.1.7.zip",
+      "archiveFileName": "HANUMAN_32_mini-0.1.7.zip",
+      "size": 6902386,
+      "checksum": "SHA-256:c7d48b6091a3c7eb20dc8b6a5172edab85c4176fe842a44ed5a2c1a79e530336"
     },
     {
       "name": "ButtonPoll_CW",
@@ -1380608,6 +1381010,30 @@
       "checksum": "SHA-256:77e9334aed4f02cd1b772610af590a01466f96fef6ee2700d1e382a3b1f168d5"
     },
     {
+      "name": "SyntropicOS",
+      "version": "2026.11.0",
+      "author": "Charles Galant \u003ccgalant@gmail.com\u003e",
+      "maintainer": "Charles Galant \u003ccgalant@gmail.com\u003e",
+      "sentence": "Cooperative RTOS for embedded systems.",
+      "paragraph": "Lightweight cooperative scheduler, priority-inheriting mutexes, CLI, BLE host stack, TLS/DTLS 1.3, LwM2M, OCPP 2.1 EVSE, WebAssembly VM, Audio DSP, USB MSC/MIDI/Audio, FOC motor control, and 250+ modules. Zero dependencies, pure C99, runs on AVR through Cortex-M and RISC-V.",
+      "website": "https://github.com/outlookhazy/SyntropicOS",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/outlookhazy/SyntropicOS.git",
+      "providesIncludes": [
+        "SyntropicOS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/outlookhazy/SyntropicOS-2026.11.0.zip",
+      "archiveFileName": "SyntropicOS-2026.11.0.zip",
+      "size": 5559421,
+      "checksum": "SHA-256:f327ec7377598c8b01d3fa0688af95667a1a381014889cd20137608203dd5a83"
+    },
+    {
       "name": "ESP32BLECombo",
       "version": "0.1.0",
       "author": "kokodev",
@@ -1381833,6 +1382259,30 @@
       "archiveFileName": "EspUsbDevice-3.1.0.zip",
       "size": 1143171,
       "checksum": "SHA-256:2c6ddbbe46c2de03b14de930e8a2fa611f74de9704c1ca31ece7e9a3c4916685"
+    },
+    {
+      "name": "EspUsbDevice",
+      "version": "3.2.0",
+      "author": "TANAKA Masayuki",
+      "maintainer": "TANAKA Masayuki",
+      "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
+      "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, vendor-specific bulk/control APIs, a CDC-NCM network device with optional lwIP/DHCP, a CCID smart card reader, USB Audio (UAC1/UAC2), a USB Video (UVC) camera, DFU firmware update, and multi-function composite devices for ESP32-S2/S3/P4 Arduino sketches.",
+      "website": "https://github.com/tanakamasayuki/EspUsbDevice",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tanakamasayuki/EspUsbDevice.git",
+      "providesIncludes": [
+        "EspUsbDevice.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-3.2.0.zip",
+      "archiveFileName": "EspUsbDevice-3.2.0.zip",
+      "size": 1145960,
+      "checksum": "SHA-256:3a77d5a1455e93ea83c4856561b090d9426afcb74cdb7b7437147bb2acf33d12"
     },
     {
       "name": "GamepadCodec",
@@ -1402219,6 +1402669,106 @@
       "checksum": "SHA-256:97edd09c1fa7ed6be7fea0cb9ab1ceec45a7802b580f00a781da45c03040ee7d"
     },
     {
+      "name": "cyfney-cpp",
+      "version": "5.0.0",
+      "author": "anka",
+      "maintainer": "anka",
+      "license": "MIT",
+      "sentence": "Reusable C++ utilities and base classes.",
+      "paragraph": "A header-only library providing general-purpose building blocks, common tools, and foundational components for C++ projects.",
+      "website": "https://github.com/cyfney/cyfney-cpp-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/cyfney/cyfney-cpp-arduino.git",
+      "providesIncludes": [
+        "cyf.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/cyfney/cyfney_cpp-5.0.0.zip",
+      "archiveFileName": "cyfney_cpp-5.0.0.zip",
+      "size": 55989,
+      "checksum": "SHA-256:ab63c1260a132812946e6cac538dbee2829a56dc3fa130f969be02b68b8125b6"
+    },
+    {
+      "name": "cyfney-cpp",
+      "version": "5.1.0",
+      "author": "anka",
+      "maintainer": "anka",
+      "license": "MIT",
+      "sentence": "Reusable C++ utilities and base classes.",
+      "paragraph": "A header-only library providing general-purpose building blocks, common tools, and foundational components for C++ projects.",
+      "website": "https://github.com/cyfney/cyfney-cpp-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/cyfney/cyfney-cpp-arduino.git",
+      "providesIncludes": [
+        "cyf.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/cyfney/cyfney_cpp-5.1.0.zip",
+      "archiveFileName": "cyfney_cpp-5.1.0.zip",
+      "size": 58323,
+      "checksum": "SHA-256:6a44df26596c24cc19a06fbd4a4a97ff79f872bc1f5aa2fd42f46fc9872cae0a"
+    },
+    {
+      "name": "cyfney-cpp",
+      "version": "5.2.0",
+      "author": "anka",
+      "maintainer": "anka",
+      "license": "MIT",
+      "sentence": "Reusable C++ utilities and base classes.",
+      "paragraph": "A header-only library providing general-purpose building blocks, common tools, and foundational components for C++ projects.",
+      "website": "https://github.com/cyfney/cyfney-cpp-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/cyfney/cyfney-cpp-arduino.git",
+      "providesIncludes": [
+        "cyf.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/cyfney/cyfney_cpp-5.2.0.zip",
+      "archiveFileName": "cyfney_cpp-5.2.0.zip",
+      "size": 56200,
+      "checksum": "SHA-256:fa3ea6b51562a517dc3759c6dca7eaee35959c08a26a259a325fc6747e22af93"
+    },
+    {
+      "name": "cyfney-cpp",
+      "version": "5.2.1",
+      "author": "anka",
+      "maintainer": "anka",
+      "license": "MIT",
+      "sentence": "Reusable C++ utilities and base classes.",
+      "paragraph": "A header-only library providing general-purpose building blocks, common tools, and foundational components for C++ projects.",
+      "website": "https://github.com/cyfney/cyfney-cpp-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/cyfney/cyfney-cpp-arduino.git",
+      "providesIncludes": [
+        "cyf.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/cyfney/cyfney_cpp-5.2.1.zip",
+      "archiveFileName": "cyfney_cpp-5.2.1.zip",
+      "size": 56972,
+      "checksum": "SHA-256:fa4d452413a5de80abc944bc60c662a0ab43e1dc304c3e8b13d66634310f1dec"
+    },
+    {
       "name": "SparkFun SSD168x I2C Interface Library",
       "version": "1.0.0",
       "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
@@ -1415687,6 +1416237,27 @@
       "checksum": "SHA-256:d8030fef850e99ce4743d35e5fbc0b94fca7ee84a88d7e036ef5c9663bcea016"
     },
     {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.54",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.54.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.54.zip",
+      "size": 1134940,
+      "checksum": "SHA-256:d94e49ac6d699cda32e2f6fbd79befb1800a6a5a256dcf7a907599f008535466"
+    },
+    {
       "name": "MPU9250-DMP",
       "version": "1.0.0",
       "author": "Renzo Mischianti \u003crenzo.mischianti@gmail.com\u003e",
@@ -1416432,6 +1417003,38 @@
       "archiveFileName": "VCAN2040-1.0.1.zip",
       "size": 393299,
       "checksum": "SHA-256:523ba6832c91a12204ffef3754468fe6d3855a8cf25bea96adb88df056225393"
+    },
+    {
+      "name": "VCAN2040",
+      "version": "1.1.0",
+      "author": "Martin Da Costa \u003cmartindc.merg@gmail.com",
+      "maintainer": "Martin Da Costa \u003cmartindc.merg@gmail.com",
+      "sentence": "Library for VLCB use on RP2040",
+      "paragraph": "Implements functionality required to create a VLCB module based on software CAN controller",
+      "website": "https://github.com/MartinDaCosta53/VCAN2040",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/MartinDaCosta53/VCAN2040.git",
+      "providesIncludes": [
+        "VCAN2040.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Streaming"
+        },
+        {
+          "name": "VLCB"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/MartinDaCosta53/VCAN2040-1.1.0.zip",
+      "archiveFileName": "VCAN2040-1.1.0.zip",
+      "size": 409119,
+      "checksum": "SHA-256:a1766c5714dfbd9630040fbe8d3cc9fd0da81f4d5a7833617250feeaeda88e86"
     },
     {
       "name": "RcLights",
@@ -1432398,6 +1433001,40 @@
       "checksum": "SHA-256:cd7f91fdb641d4cd9685af1a5470cef8313f6e5180192cfd983d543b5aa68966"
     },
     {
+      "name": "ocean_imu",
+      "version": "2.7.4",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.7.4.zip",
+      "archiveFileName": "ocean_imu-2.7.4.zip",
+      "size": 32787254,
+      "checksum": "SHA-256:0e004d8dad7e72756b5af6271769ce5316d9980eda28b43c0248beba9e257637"
+    },
+    {
       "name": "AlashBME280",
       "version": "1.0.0",
       "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
@@ -1435086,6 +1435723,31 @@
       "checksum": "SHA-256:794b9d232f2314414e674f8215558aee729382ca405a4fca24199f8ce7ad50cb"
     },
     {
+      "name": "DevLab_AudioInput",
+      "version": "0.3.10",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Cesar Bautista, Jonathan Mejorado Lopez",
+      "sentence": "Capture PCM audio from I2S and PDM microphones on ESP32 and RP2040/RP2350.",
+      "paragraph": "DevLab audio input library with mono PCM16 capture and serial streaming examples. Hardware tested on ESP32-S3 (I2S and PDM) and on RP2350 PDM (UNIT Pulsar RP2350A, up to 48 kHz); RP2040 and RP I2S are compile tested only.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_audioinput_library",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_audioinput_library.git",
+      "providesIncludes": [
+        "DevLab_AudioInput.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AudioInput-0.3.10.zip",
+      "archiveFileName": "DevLab_AudioInput-0.3.10.zip",
+      "size": 30909,
+      "checksum": "SHA-256:69cf11b29551384b768956f77d93e09c1ed799876d482fd5ec450b7ccd95c7b8"
+    },
+    {
       "name": "FTPServer",
       "version": "1.0.0",
       "author": "Serhii Lebedenko",
@@ -1435739,6 +1436401,42 @@
       "checksum": "SHA-256:1ddbce16d446a52f99aedd8fee7f2116468273f1f7b3ba837984ae840c61558c"
     },
     {
+      "name": "SwarmNode",
+      "version": "0.4.3",
+      "author": "Mohammed Raihan Soniwala",
+      "maintainer": "Mohammed Raihan Soniwala \u003craihann.eu@gmail.com\u003e",
+      "sentence": "Zero-Touch Hardware Declaration Slave Library for Distributed Robotics.",
+      "paragraph": "Turns Wi-Fi microcontrollers (ESP32, Nano RP2040 Connect, Pico W, UNO R4 WiFi, UNO WiFi Rev2, Nano 33 IoT) into network-transparent Slave nodes. Configure Wi-Fi and hardware pins in setup(), leave loop() 100% empty, and run all control logic on a Linux Master.",
+      "website": "https://github.com/raihhann/OpenSwarm",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "megaavr",
+        "samd",
+        "mbed_nano",
+        "rp2040",
+        "renesas_uno"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/raihhann/OpenSwarm.git",
+      "providesIncludes": [
+        "SwarmNode.h",
+        "OpenSwarm.h"
+      ],
+      "dependencies": [
+        {
+          "name": "WiFiNINA",
+          "version": "\u003e=2.1.1"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/raihhann/SwarmNode-0.4.3.zip",
+      "archiveFileName": "SwarmNode-0.4.3.zip",
+      "size": 45491,
+      "checksum": "SHA-256:9cc8744e05ff5594bae3b16d1f299f9f58b1908c0aa2ad268cd147bb6f2dbc99"
+    },
+    {
       "name": "KampCepSensors",
       "version": "0.1.0",
       "author": "Arda Kora",
@@ -1436073,6 +1436771,102 @@
       "archiveFileName": "KymoCore-7.2.1.zip",
       "size": 717530,
       "checksum": "SHA-256:075e981f344f811b3c8518ed8792570156f9d87a084805db8d759733a70a6059"
+    },
+    {
+      "name": "KymoCore",
+      "version": "7.3.0",
+      "author": "Christof Seidel",
+      "maintainer": "Christof Seidel",
+      "sentence": "Allocation-free compact binary streaming for KymoStudio",
+      "paragraph": "Portable C++11 Init/Main telemetry for KymoStudio: 256 channels, 9 to 21 byte binary frames, optional XYZ, timestamps and CRC (disabled by default). Static buffers, backpressure and asynchronous transport support through application callbacks; no SDK dependencies or heap in the core.",
+      "website": "https://github.com/KymoTrace/kymocore",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/KymoTrace/kymocore.git",
+      "providesIncludes": [
+        "KymoCore.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/KymoTrace/KymoCore-7.3.0.zip",
+      "archiveFileName": "KymoCore-7.3.0.zip",
+      "size": 869966,
+      "checksum": "SHA-256:670088056d7f3a698787aa54410da03e0c7a74bddfac3e06101b3e565286993e"
+    },
+    {
+      "name": "KymoCore",
+      "version": "7.3.1",
+      "author": "Christof Seidel",
+      "maintainer": "Christof Seidel",
+      "sentence": "Allocation-free compact binary streaming for KymoStudio",
+      "paragraph": "Portable C++11 Init/Main telemetry for KymoStudio: 256 channels, 9 to 21 byte binary frames, optional XYZ, timestamps and CRC (disabled by default). Static buffers, backpressure and asynchronous transport support through application callbacks; no SDK dependencies or heap in the core.",
+      "website": "https://github.com/KymoTrace/kymocore",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/KymoTrace/kymocore.git",
+      "providesIncludes": [
+        "KymoCore.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/KymoTrace/KymoCore-7.3.1.zip",
+      "archiveFileName": "KymoCore-7.3.1.zip",
+      "size": 871488,
+      "checksum": "SHA-256:daf7baef96ab63b8c62534f5e9318758460702949e792adfb1561a1c01530883"
+    },
+    {
+      "name": "KymoCore",
+      "version": "7.3.2",
+      "author": "Christof Seidel",
+      "maintainer": "Christof Seidel",
+      "sentence": "Allocation-free compact binary streaming for KymoStudio",
+      "paragraph": "Portable C++11 Init/Main telemetry for KymoStudio: 256 channels, 9 to 21 byte binary frames, optional XYZ, timestamps and CRC (disabled by default). Static buffers, backpressure and asynchronous transport support through application callbacks; no SDK dependencies or heap in the core.",
+      "website": "https://github.com/KymoTrace/kymocore",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/KymoTrace/kymocore.git",
+      "providesIncludes": [
+        "KymoCore.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/KymoTrace/KymoCore-7.3.2.zip",
+      "archiveFileName": "KymoCore-7.3.2.zip",
+      "size": 872129,
+      "checksum": "SHA-256:3d0db5d1ff2beaa53d813836d44b337ba99e3c5a3b48231201d2c16d71921820"
+    },
+    {
+      "name": "KymoCore",
+      "version": "7.3.3",
+      "author": "Christof Seidel",
+      "maintainer": "Christof Seidel",
+      "sentence": "Allocation-free compact binary streaming for KymoStudio",
+      "paragraph": "Portable C++11 Init/Main telemetry for KymoStudio: 256 channels, 9 to 21 byte binary frames, optional XYZ, timestamps and CRC (disabled by default). Static buffers, backpressure and asynchronous transport support through application callbacks; no SDK dependencies or heap in the core.",
+      "website": "https://github.com/KymoTrace/kymocore",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/KymoTrace/kymocore.git",
+      "providesIncludes": [
+        "KymoCore.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/KymoTrace/KymoCore-7.3.3.zip",
+      "archiveFileName": "KymoCore-7.3.3.zip",
+      "size": 872881,
+      "checksum": "SHA-256:8af40f88155fdd6786e99057d4336c1b178fba242b2db2ad3149268e8ee9f8d0"
     },
     {
       "name": "EmbeddedGUI_Lite",
@@ -1437070,6 +1437864,52 @@
       "checksum": "SHA-256:6ed92fc92b0d0c2761d874f12d9ba281e1e2ad8a74ed15c800a1c5450ddb721e"
     },
     {
+      "name": "lavi",
+      "version": "0.4.0",
+      "author": "Mike Burton \u003cmb-github@niskala.org\u003e",
+      "maintainer": "Mike Burton \u003cmb-github@niskala.org\u003e",
+      "sentence": "Lavi statechart runtime for C/C++ (XState v5 compatible), powered by Rust.",
+      "paragraph": "Portable state machine and statechart runtime supporting hierarchical and parallel states, guards, actions, invoke, snapshot persistence, and delayed transitions.",
+      "website": "https://github.com/emmby/lavi",
+      "category": "Data Processing",
+      "architectures": [
+        "esp32",
+        "esp32s2",
+        "esp32s3",
+        "esp32c3",
+        "esp32c6",
+        "esp32h2",
+        "cortex-m0plus",
+        "cortex-m3",
+        "cortex-m4",
+        "cortex-m7",
+        "cortex-m33",
+        "renesas_uno",
+        "samd",
+        "sam",
+        "rp2040",
+        "mbed",
+        "mbed_nano",
+        "mbed_rp2040",
+        "mbed_giga",
+        "mbed_portenta",
+        "stm32",
+        "nrf52"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/emmby/lavi-arduino.git",
+      "providesIncludes": [
+        "lavi.h",
+        "lavi.hpp"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/emmby/lavi-0.4.0.zip",
+      "archiveFileName": "lavi-0.4.0.zip",
+      "size": 17866825,
+      "checksum": "SHA-256:3e2c66b1acad146e451621e0335a25bd6d4edfd9a9be0557fa982425ee8e4465"
+    },
+    {
       "name": "Wbskt",
       "version": "0.9.0-beta.1",
       "author": "wbskt",
@@ -1437483,6 +1438323,215 @@
       "archiveFileName": "AARUARDUINO-1.0.2.zip",
       "size": 642349,
       "checksum": "SHA-256:9139bd0f3712472ca337429571f16d93d2798b6369852207d5b6b9323291154b"
+    },
+    {
+      "name": "AARUARDUINO",
+      "version": "1.0.3",
+      "author": "AARUTO",
+      "maintainer": "AARUTO",
+      "sentence": "Universal Arduino library - 1000+ sensors, actuators, displays and comms in one consistent API.",
+      "paragraph": "MADE BY AARUTO. One API for analog, digital, I2C, SPI, UART, 1-Wire, PWM, servo, stepper, RGB, displays, GPS and IR across all Arduino IDE boards: Uno R3/R4, Nano, Mega, Leonardo, Micro, Due, Zero, ESP32, ESP8266. Core has no mandatory third-party dependencies.",
+      "website": "https://github.com/AARUTO347/AARUARDUINO",
+      "category": "Sensors",
+      "architectures": [
+        "avr",
+        "megaavr",
+        "renesas_uno",
+        "samd",
+        "esp32",
+        "esp8266",
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AARUTO347/AARUARDUINO.git",
+      "providesIncludes": [
+        "AARUARDUINO.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AARUTO347/AARUARDUINO-1.0.3.zip",
+      "archiveFileName": "AARUARDUINO-1.0.3.zip",
+      "size": 642445,
+      "checksum": "SHA-256:a697ccbba95ca15bec502f8f5a8789f626e7081cbcb7ca64684feb9272ade557"
+    },
+    {
+      "name": "EnigmaIoT",
+      "version": "0.5.0",
+      "author": "Rahmat Purnomo",
+      "maintainer": "Rahmat Purnomo",
+      "sentence": "Connect ESP32 / ESP8266 to the Enigma IoT platform: realtime dashboard, virtual pins, MQTT, OTA updates and WiFi setup portal.",
+      "paragraph": "Library resmi Enigma IoT (platform IoT Indonesia). Kirim data sensor dan terima perintah dari dashboard lewat MQTT dengan virtual pin (V0-V255), update firmware lewat WiFi (OTA), portal WiFi (atur WiFi \u0026 token dari HP), peta GPS, kamera ESP32-CAM, serta widget sensor DHT, MPU6050, radar, gas, dan ketinggian.",
+      "website": "https://github.com/rahmatpurnomo/EnigmaIoT",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rahmatpurnomo/EnigmaIoT.git",
+      "providesIncludes": [
+        "EnigmaIoT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "PubSubClient"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/rahmatpurnomo/EnigmaIoT-0.5.0.zip",
+      "archiveFileName": "EnigmaIoT-0.5.0.zip",
+      "size": 30900,
+      "checksum": "SHA-256:2d19b3cbb55d3864ab840d29376ea09abd9b6939f6f0e42c64eb3e80fd5bc069"
+    },
+    {
+      "name": "EnigmaIoT",
+      "version": "0.6.0",
+      "author": "Rahmat Purnomo",
+      "maintainer": "Rahmat Purnomo",
+      "sentence": "Connect ESP32 / ESP8266 to the Enigma IoT platform: realtime dashboard, virtual pins, MQTT, OTA updates and WiFi setup portal.",
+      "paragraph": "Library resmi Enigma IoT (platform IoT Indonesia). Kirim data sensor dan terima perintah dari dashboard lewat MQTT dengan virtual pin (V0-V255), update firmware lewat WiFi (OTA), portal WiFi (atur WiFi \u0026 token dari HP), peta GPS, kamera ESP32-CAM, serta widget sensor DHT, MPU6050, radar, gas, dan ketinggian.",
+      "website": "https://github.com/rahmatpurnomo/EnigmaIoT",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rahmatpurnomo/EnigmaIoT.git",
+      "providesIncludes": [
+        "EnigmaIoT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "PubSubClient"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/rahmatpurnomo/EnigmaIoT-0.6.0.zip",
+      "archiveFileName": "EnigmaIoT-0.6.0.zip",
+      "size": 41037,
+      "checksum": "SHA-256:1a501fe7651c7e5b950a3f6e21c1ba1198def3bf50262620a2befbb8a32fa09e"
+    },
+    {
+      "name": "esp_new_jpeg",
+      "version": "1.0.2",
+      "author": "Espressif Systems",
+      "maintainer": "SunFounder R\u0026D",
+      "license": "MIT",
+      "sentence": "Espressif JPEG encoder and decoder for ESP32-S3 (prebuilt binary, Arduino packaging).",
+      "paragraph": "Arduino packaging of the Espressif esp_new_jpeg component v1.0.2. Provides JPEG decode (esp_jpeg_dec) and encode (esp_jpeg_enc) for ESP32 / ESP32-S3. The prebuilt static libraries are taken unmodified from the upstream component; this repository only adds Arduino library metadata, documentation and examples.",
+      "website": "https://github.com/sunfounder/arduino-esp-new-jpeg",
+      "category": "Data Processing",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sunfounder/arduino-esp-new-jpeg.git",
+      "providesIncludes": [
+        "esp_jpeg_dec.h",
+        "esp_jpeg_enc.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/sunfounder/esp_new_jpeg-1.0.2.zip",
+      "archiveFileName": "esp_new_jpeg-1.0.2.zip",
+      "size": 469497,
+      "checksum": "SHA-256:30e3fc06ba41bbb24ba6515c7470fe9d3ee9f5b3c2346d143c9fe2f8145c41d4"
+    },
+    {
+      "name": "CFMEGA",
+      "version": "1.0.0",
+      "author": "COMFILE Technology",
+      "maintainer": "COMFILE Technology \u003ccubloc@naver.com\u003e",
+      "sentence": "Arduino library for COMFILE Technology FAduino controllers.",
+      "paragraph": "Provides functions for accessing I/O on supported FAduino hardware.",
+      "website": "https://github.com/SINCHULHO/CFMEGA",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/SINCHULHO/CFMEGA.git",
+      "providesIncludes": [
+        "CFMEGA.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/SINCHULHO/CFMEGA-1.0.0.zip",
+      "archiveFileName": "CFMEGA-1.0.0.zip",
+      "size": 21837,
+      "checksum": "SHA-256:cbcb985e4717340ae79cc4b6153784ef1689722b717323707355c547f5f6f9f5"
+    },
+    {
+      "name": "STPM32_UART",
+      "version": "1.0.0",
+      "author": "mustafabagr",
+      "maintainer": "mustafabagr",
+      "sentence": "UART driver for the ST STPM32 single-phase energy metering IC on ESP32.",
+      "paragraph": "Reads RMS voltage and current, active, reactive and apparent power, energy counters and line frequency. Handles baud rate negotiation, CRC, configuration stored in NVS, calibration trim and sag/swell/overcurrent protection on INT1. Thread-safe (FreeRTOS recursive mutex).",
+      "website": "https://github.com/mustafabagr/STPM32_UART",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mustafabagr/STPM32_UART.git",
+      "providesIncludes": [
+        "STPM32_UART.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mustafabagr/STPM32_UART-1.0.0.zip",
+      "archiveFileName": "STPM32_UART-1.0.0.zip",
+      "size": 26600,
+      "checksum": "SHA-256:4c7415acd733323fb3246383afc54ad2cccc9c9a81d1204c29bed6ad75e06f81"
+    },
+    {
+      "name": "Bonezegei_AHT20",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "Simple library for AHT20 temperature and humidity sensor over I2C.",
+      "paragraph": "A library for interfacing with the AHT20 environmental sensor using I2C communication.",
+      "website": "https://github.com/bonezegei/Bonezegei_AHT20",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_AHT20.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_AHT20-1.0.0.zip",
+      "archiveFileName": "Bonezegei_AHT20-1.0.0.zip",
+      "size": 4680,
+      "checksum": "SHA-256:3df2eba8b5482a7146fe6a183cf6cb914cfe4964bee3a4c61106086e2e3de9b9"
+    },
+    {
+      "name": "ADS7142",
+      "version": "0.1.0",
+      "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "maintainer": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
+      "sentence": "Arduino library for I2C ADS7142 2-Channel ADC Programmable Sensor Monitor.",
+      "paragraph": "ADS7142-Q1",
+      "website": "https://github.com/RobTillaart/ADS7142",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RobTillaart/ADS7142.git",
+      "providesIncludes": [
+        "ADS7142.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/ADS7142-0.1.0.zip",
+      "archiveFileName": "ADS7142-0.1.0.zip",
+      "size": 2137403,
+      "checksum": "SHA-256:eafc46df299f60c21ec26ef446c16cb8c40cf535ae16627b5de62f9f56e9943e"
     }
   ]
 }
