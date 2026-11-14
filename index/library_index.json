@@ -301526,6 +301526,31 @@
       "checksum": "SHA-256:03958c1918db6328aa56cee355664fd4f855d416d199f56297293d31b2294336"
     },
     {
+      "name": "TinyUPnP",
+      "version": "3.3.0",
+      "author": "Ofek Pearl \u003cofekpearl@gmail.com\u003e",
+      "maintainer": "Ofek Pearl \u003cofekpearl@gmail.com\u003e",
+      "sentence": "Add port mappings to your router automatically",
+      "paragraph": "UPnP implementation for embedded application that allows you to add automatic port mappings (port forwarding). You can also install EasyDDNS library as a supplement for accessing your device from the internet without using its explicit IP address.",
+      "website": "https://github.com/ofekp/TinyUPnP",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ofekp/TinyUPnP.git",
+      "providesIncludes": [
+        "TinyUPnP.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ofekp/TinyUPnP-3.3.0.zip",
+      "archiveFileName": "TinyUPnP-3.3.0.zip",
+      "size": 33936,
+      "checksum": "SHA-256:5660280796fea0b3644ecf5e1900de7edda4cad34ee170817d72979ee6484802"
+    },
+    {
       "name": "DS18B20Events",
       "version": "1.0.0",
       "author": "Ihar Yakimush",
@@ -472898,6 +472923,35 @@
       "checksum": "SHA-256:2931f15bdc9c16dc7e1094f7924888e133319692a9f45703dbd1befa65dbd0c7"
     },
     {
+      "name": "Framebuffer GFX",
+      "version": "1.2.0",
+      "author": "Marc Merlin",
+      "maintainer": "Marc MERLIN \u003cmarc_soft@merlins.org\u003e",
+      "sentence": "Adafruit_GFX and FastLED compatible Framebuffer library",
+      "paragraph": "This is a base class required by many libraries like FastLED_NeoMatrix.",
+      "website": "https://github.com/marcmerlin/Framebuffer_GFX",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/marcmerlin/Framebuffer_GFX.git",
+      "dependencies": [
+        {
+          "name": "FastLED"
+        },
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/marcmerlin/Framebuffer_GFX-1.2.0.zip",
+      "archiveFileName": "Framebuffer_GFX-1.2.0.zip",
+      "size": 26728,
+      "checksum": "SHA-256:a37a17bf9ef4933775b28077ba18fb4901819e5aeb4a45a9cbe5a18b68c1f3fb"
+    },
+    {
       "name": "FastLED_TFTWrapper_GFX",
       "version": "1.0.0",
       "author": "Marc Merlin",
@@ -552867,6 +552921,41 @@
       "archiveFileName": "SDI_12-2.5.0.zip",
       "size": 3079647,
       "checksum": "SHA-256:ae09fcb44e2ccaa70630d8b387d5988c0b5f23e57f418464aaaefdf7c64268ac"
+    },
+    {
+      "name": "SDI-12",
+      "version": "3.0.0",
+      "author": "Kevin M. Smith \u003cKevin@elite-education.org\u003e, Sara Damiano \u003csdamiano@stroudcenter.org\u003e, Shannon Hicks \u003cshicks@stroudcenter.org\u003e",
+      "maintainer": "Sara Damiano \u003csdamiano@stroudcenter.org\u003e",
+      "sentence": "An Arduino library for SDI-12 communication with a wide variety of environmental sensors.",
+      "paragraph": "This library provides a general software solution, without requiring any additional hardware.",
+      "website": "https://github.com/EnviroDIY/Arduino-SDI-12",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "sam",
+        "samd",
+        "esp8266",
+        "esp32",
+        "mbed_giga"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/EnviroDIY/Arduino-SDI-12.git",
+      "providesIncludes": [
+        "SDI12.h"
+      ],
+      "dependencies": [
+        {
+          "name": "EnableInterrupt",
+          "version": "=1.1.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/EnviroDIY/SDI_12-3.0.0.zip",
+      "archiveFileName": "SDI_12-3.0.0.zip",
+      "size": 3107084,
+      "checksum": "SHA-256:4b8f05596749d9baa27a168b54efbbc24a60014d6d0a0b123b77f8ee81b2905d"
     },
     {
       "name": "ES920",
@@ -847216,6 +847305,39 @@
       "checksum": "SHA-256:fe929b064462d471a7e5aa88dc17fb34ddf86239188aea9c372fe3409c920c4e"
     },
     {
+      "name": "pfodParser",
+      "version": "5.1.13",
+      "author": "Matthew Ford",
+      "maintainer": "Matthew Ford",
+      "sentence": "A library to parse pfod messages sent from pfodApp / pfodWeb.html and includes pfodWeb.html which connects via Serial, BLE, Tcp/Ip and HTTP to display interactive menus and GUI's in your browser.",
+      "paragraph": "pfodParser serves GUI's to pfodWeb.html and handles the user's commands.  pfodWeb.html is open source and does not need an internet connection. It runs in your browser and connects via Serial, BLE, TCP/IP socket or HTTP to display an interactive GUI to control your board, completely defined by your board sketch.",
+      "website": "https://github.com/drmpf/pfodParser",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/drmpf/pfodParser.git",
+      "providesIncludes": [
+        "pfodParser.h",
+        "pfodSecurity.h",
+        "pfodControl.h",
+        "pfodDelay.h",
+        "pfodDwgs.h",
+        "pfodEEPROM.h",
+        "pfodStreamString.h",
+        "ESP_PicoW_LittleFSsupport.h",
+        "ESP_PicoW_pfodAppServer.h",
+        "ESP_PicoW_pfodWebServer.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/drmpf/pfodParser-5.1.13.zip",
+      "archiveFileName": "pfodParser-5.1.13.zip",
+      "size": 8477482,
+      "checksum": "SHA-256:19473d6b11ac30363ed38106962cd827fbc9666fc4a9535dfd7b8545532bc3d2"
+    },
+    {
       "name": "Air Commander Entire Control",
       "version": "1.0.1",
       "author": "Patrick Chwalek \u003cpatrickchwalek@gmail.com\u003e",
@@ -929333,6 +929455,27 @@
       "archiveFileName": "ESP_TF-2.1.1.zip",
       "size": 1192947,
       "checksum": "SHA-256:4fb87201153011e4c30bf555983052209aad7c555d46f273fc15cb6bf21513a3"
+    },
+    {
+      "name": "ESP_TF",
+      "version": "2.1.2",
+      "author": "Nick Jugganaikloo",
+      "maintainer": "Nick Jugganaikloo",
+      "sentence": "Tensorflow micro for esp32 with esp nn support",
+      "paragraph": "Tensorflow for esp32 with esp nn can be generated from espressif tensorflow examples",
+      "website": "https://github.com/Nickjgniklu/ESP_TF",
+      "category": "Data Processing",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Nickjgniklu/ESP_TF.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Nickjgniklu/ESP_TF-2.1.2.zip",
+      "archiveFileName": "ESP_TF-2.1.2.zip",
+      "size": 1192945,
+      "checksum": "SHA-256:9119fc3c2f79bfd4025bf47a114f9a1b44a897799884972923a3c667cc28b346"
     },
     {
       "name": "PicoMQTT",
@@ -1087091,6 +1087234,31 @@
       "checksum": "SHA-256:0e7f17e62339ba6d820d34e4493824389c18d1b820cdb7ba4ec178454af6d741"
     },
     {
+      "name": "Async TCP",
+      "version": "3.6.0",
+      "author": "ESP32Async",
+      "maintainer": "ESP32Async",
+      "license": "LGPL-3.0",
+      "sentence": "Async TCP Library for ESP32",
+      "paragraph": "Async TCP Library for ESP32",
+      "website": "https://github.com/ESP32Async/AsyncTCP.git",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ESP32Async/AsyncTCP.git",
+      "providesIncludes": [
+        "AsyncTCP.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ESP32Async/Async_TCP-3.6.0.zip",
+      "archiveFileName": "Async_TCP-3.6.0.zip",
+      "size": 151998,
+      "checksum": "SHA-256:e34af73fa917f348ba19bad3e81dca961df59e0bccdaec134b26c214330aaaf6"
+    },
+    {
       "name": "rupertobot",
       "version": "1.0.0",
       "author": "Antonio Gómez",
@@ -1230944,6 +1231112,42 @@
       "checksum": "SHA-256:12b871244e59bef2d786c5b8f3267b19e8fdb23948b2fa1eb2ce5cc603a14a03"
     },
     {
+      "name": "ieee-802_15_4-network-host",
+      "version": "1.0.7",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "GPL-3.0-or-later",
+      "sentence": "IEEE 802.15.4 Network Host",
+      "paragraph": "See https://github.com/Johboh/ieee-802_15_4-network-host for more details.",
+      "website": "https://github.com/Johboh/ieee-802_15_4-network-host",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/ieee-802_15_4-network-host.git",
+      "dependencies": [
+        {
+          "name": "GCMEncryption",
+          "version": "\u003e=0.5.3"
+        },
+        {
+          "name": "ieee-802_15_4",
+          "version": "\u003e=1.0.7"
+        },
+        {
+          "name": "ieee-802_15_4-network-shared",
+          "version": "\u003e=0.6.7"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4_network_host-1.0.7.zip",
+      "archiveFileName": "ieee_802_15_4_network_host-1.0.7.zip",
+      "size": 30662,
+      "checksum": "SHA-256:daaaee2b38e04254119d525b36b9745609c2909aebbf83665a94f318290108fb"
+    },
+    {
       "name": "ieee-802_15_4-network-node",
       "version": "0.1.0",
       "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
@@ -1231154,6 +1231358,46 @@
       "archiveFileName": "ieee_802_15_4_network_node-1.0.6.zip",
       "size": 34660,
       "checksum": "SHA-256:fe6900517e27fe93aac6105ddc8c063b60320e750a983c33e20757579c274369"
+    },
+    {
+      "name": "ieee-802_15_4-network-node",
+      "version": "1.0.7",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "GPL-3.0-or-later",
+      "sentence": "IEEE 802.15.4 Network Node",
+      "paragraph": "See https://github.com/Johboh/ieee-802_15_4-network-node for more details.",
+      "website": "https://github.com/Johboh/ieee-802_15_4-network-node",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/ieee-802_15_4-network-node.git",
+      "dependencies": [
+        {
+          "name": "GCMEncryption",
+          "version": "\u003e=0.5.3"
+        },
+        {
+          "name": "ieee-802_15_4",
+          "version": "\u003e=1.0.7"
+        },
+        {
+          "name": "ieee-802_15_4-network-shared",
+          "version": "\u003e=0.6.7"
+        },
+        {
+          "name": "ConnectionHelper",
+          "version": "\u003e=3.0.17"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4_network_node-1.0.7.zip",
+      "archiveFileName": "ieee_802_15_4_network_node-1.0.7.zip",
+      "size": 34985,
+      "checksum": "SHA-256:edd401b148e8d88fa3d89f77780ae9e8e6de0812612f961661f3f4b0faff79bc"
     },
     {
       "name": "Servo_TCA",
@@ -1251293,6 +1251537,27 @@
       "checksum": "SHA-256:25bb52acafb2c85468fffb6b79764563d688d3dff5eeeb935bb3880f4e6dcd09"
     },
     {
+      "name": "FujitsuAC",
+      "version": "1.4.11",
+      "author": "Benas09 \u003cbenas.rag@gmail.com\u003e",
+      "maintainer": "Benas09 \u003cbenas.rag@gmail.com\u003e",
+      "sentence": "Allows ESP32 boards to control FujitsuAC's.",
+      "paragraph": "Replaces UTY-TFSXW1 dongle.",
+      "website": "https://github.com/Benas09/FujitsuAC",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Benas09/FujitsuAC.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Benas09/FujitsuAC-1.4.11.zip",
+      "archiveFileName": "FujitsuAC-1.4.11.zip",
+      "size": 33126376,
+      "checksum": "SHA-256:c197c21534fbaf3aa35e217700852d801aead8cea8080fd4082a6e3b4b1a13ef"
+    },
+    {
       "name": "BLE OTA Update",
       "version": "1.0.0",
       "author": "RaghavG1999",
@@ -1270724,6 +1270989,42 @@
       "checksum": "SHA-256:03daf1dbacedbcf75e3225dbc89e54fdeb69389cd961d7925d48a07693f1a794"
     },
     {
+      "name": "RCLink",
+      "version": "1.3.1",
+      "author": "Little Man Builds (Darren Osborne)",
+      "maintainer": "Little Man Builds \u003clittlemanbuilds@gmail.com\u003e",
+      "license": "MIT",
+      "sentence": "Validated RC receiver mapping for Arduino with iBUS, ESP32 SBUS, shaping, filtering, and failsafe handling.",
+      "paragraph": "RCLink maps receiver channels into named application roles with calibrated asymmetric axes, deterministic switches, explicit channel validity, link health, failsafe signatures, resilient stream parsers, optional JSON configuration, and an iBUS calibration helper. The core mapping and parsers are hardware-neutral and host-testable; SBUS transport is ESP32-specific.",
+      "website": "https://github.com/littlemanbuilds/RCLink",
+      "category": "Communication",
+      "architectures": [
+        "sam",
+        "samd",
+        "esp32",
+        "esp8266",
+        "stm32",
+        "teensy",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/littlemanbuilds/RCLink.git",
+      "providesIncludes": [
+        "RCLink.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/RCLink-1.3.1.zip",
+      "archiveFileName": "RCLink-1.3.1.zip",
+      "size": 110601,
+      "checksum": "SHA-256:23af41abb05546aabe4ce41fc990e2852ff0d4a28e612033fa433c1ee54ff7c6"
+    },
+    {
       "name": "tlv",
       "version": "0.1.1",
       "author": "James Wanderer",
@@ -1279749,6 +1280050,27 @@
       "archiveFileName": "QuarkX-1.0.2.zip",
       "size": 22424,
       "checksum": "SHA-256:458e831652e5dc2bc27810246147bb13f015cae3ec27ee832116b1e051517618"
+    },
+    {
+      "name": "QuarkX",
+      "version": "1.1.0",
+      "author": "Pierluigi Budel",
+      "maintainer": "Pierluigi Budel",
+      "sentence": "Minimal HTTP/HTTPS server for ESP32 boards using the Arduino framework.",
+      "paragraph": "QuarkX provides a lightweight HTTP and optional HTTPS server with fixed buffers, keep-alive support, and easy LittleFS credential loading for ESP32-class MCUs.",
+      "website": "https://github.com/pbudel/QuarkX",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/pbudel/QuarkX.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/pbudel/QuarkX-1.1.0.zip",
+      "archiveFileName": "QuarkX-1.1.0.zip",
+      "size": 36536,
+      "checksum": "SHA-256:648ed755df3cdc6e9b4dbe49410a1c16ec920ce7b36a0f8ba9bc8120f73f862c"
     },
     {
       "name": "ESP32SerialCtl",
@@ -1299563,6 +1299885,76 @@
       "checksum": "SHA-256:28517272adb459693ae021bac00655651924946b020111108c8770cd49a50ace"
     },
     {
+      "name": "FastLED_ESP32-HUB75-MatrixPanel_FrameBuffer_GFX",
+      "version": "1.3.1",
+      "author": "Marc Merlin",
+      "maintainer": "Marc MERLIN \u003cmarc_soft@merlins.org\u003e",
+      "sentence": "Adafruit_GFX, FastLED, LEDMatrix compatible library for ESP32-HUB75-MatrixPanel_FrameBuffer_GFX Driver.",
+      "paragraph": "Designed to work with https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA",
+      "website": "https://github.com/marcmerlin/FastLED_ESP32-HUB75-MatrixPanel_FrameBuffer_GFX",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/marcmerlin/FastLED_ESP32-HUB75-MatrixPanel_FrameBuffer_GFX.git",
+      "dependencies": [
+        {
+          "name": "Framebuffer_GFX"
+        },
+        {
+          "name": "ESP32-HUB75-MatrixPanel-DMA"
+        },
+        {
+          "name": "FastLED"
+        },
+        {
+          "name": "Adafruit-GFX-Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/marcmerlin/FastLED_ESP32_HUB75_MatrixPanel_FrameBuffer_GFX-1.3.1.zip",
+      "archiveFileName": "FastLED_ESP32_HUB75_MatrixPanel_FrameBuffer_GFX-1.3.1.zip",
+      "size": 240297,
+      "checksum": "SHA-256:5361a4fe6e2279af536254fc26de5c8bbd380b8727aa5457bd62cbbdef41abc1"
+    },
+    {
+      "name": "FastLED_ESP32-HUB75-MatrixPanel_FrameBuffer_GFX",
+      "version": "1.3.2",
+      "author": "Marc Merlin",
+      "maintainer": "Marc MERLIN \u003cmarc_soft@merlins.org\u003e",
+      "sentence": "Adafruit_GFX, FastLED, LEDMatrix compatible library for ESP32-HUB75-MatrixPanel_FrameBuffer_GFX Driver.",
+      "paragraph": "Designed to work with https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA",
+      "website": "https://github.com/marcmerlin/FastLED_ESP32-HUB75-MatrixPanel_FrameBuffer_GFX",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/marcmerlin/FastLED_ESP32-HUB75-MatrixPanel_FrameBuffer_GFX.git",
+      "dependencies": [
+        {
+          "name": "Framebuffer GFX"
+        },
+        {
+          "name": "ESP32 HUB75 LED MATRIX PANEL DMA Display"
+        },
+        {
+          "name": "FastLED"
+        },
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/marcmerlin/FastLED_ESP32_HUB75_MatrixPanel_FrameBuffer_GFX-1.3.2.zip",
+      "archiveFileName": "FastLED_ESP32_HUB75_MatrixPanel_FrameBuffer_GFX-1.3.2.zip",
+      "size": 240318,
+      "checksum": "SHA-256:d2b52c882fd8ba6e963debdbc60fd4a671c263bd400b872b3b5379c6f848d3aa"
+    },
+    {
       "name": "TFS20",
       "version": "1.0.0",
       "author": "EiCUT",
@@ -1307296,6 +1307688,30 @@
       "checksum": "SHA-256:4f00a2124d29f2ea0147a3465b9edd1efb9d9f86b06bfad06735bb14c23be1fe"
     },
     {
+      "name": "ESP32-HTTP-Client",
+      "version": "1.10.0",
+      "author": "Pedro Fonseca",
+      "maintainer": "Pedro Fonseca \u003cpedropereira.pp26@gmail.com\u003e",
+      "sentence": "A lightweight, low-allocation, high-performance HTTP client library for ESP32.",
+      "paragraph": "Direct stream-to-variable binding, zero-heap streaming parser for REST, SOAP, GraphQL, and JSON-RPC 2.0 services, and minimal memory footprint.",
+      "website": "https://github.com/PedroFnseca/esp32-http-client",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/PedroFnseca/esp32-http-client.git",
+      "providesIncludes": [
+        "ESP32HTTPClient.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.10.0.zip",
+      "archiveFileName": "ESP32_HTTP_Client-1.10.0.zip",
+      "size": 5937940,
+      "checksum": "SHA-256:3338b26da233e44a5a517707467078bef37a11791ede68532bd97a201cd9bc3a"
+    },
+    {
       "name": "PZEM004Tv40_R4",
       "version": "1.0.0",
       "author": "Bharani Dharan Rangaraj \u003cbharanidharanrangaraj@gmail.com\u003e",
@@ -1313295,6 +1313711,44 @@
       "archiveFileName": "Ryzobee-2.0.0.zip",
       "size": 629378,
       "checksum": "SHA-256:eb30d5f3baf070256883a6c9886fa83a754fc90af045c1e5636b171bebabfdf6"
+    },
+    {
+      "name": "Ryzobee",
+      "version": "2.0.1",
+      "author": "Ryzobee Team",
+      "maintainer": "Ryzobee Team",
+      "sentence": "Arduino library for Ryzobee ESP32 boards.",
+      "paragraph": "Provides easy-to-use APIs for Ryzobee ESP32 development boards, including onboard LEDs, sensors, buttons and battery monitoring.",
+      "website": "https://github.com/Ryzobee/Ryzobee_arduino_esp32",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Ryzobee/Ryzobee_arduino_esp32.git",
+      "providesIncludes": [
+        "Ryzobee.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit NeoPixel",
+          "version": "\u003e=1.12.3"
+        },
+        {
+          "name": "STM32duino LIS2DW12",
+          "version": "\u003e=2.1.1"
+        },
+        {
+          "name": "AnimatedGIF",
+          "version": "\u003e=2.2.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Ryzobee/Ryzobee-2.0.1.zip",
+      "archiveFileName": "Ryzobee-2.0.1.zip",
+      "size": 627992,
+      "checksum": "SHA-256:fb7cb16f91fa0a6004fbc50e5c1ac44bfe6326664337cb158cbacd4561329a51"
     },
     {
       "name": "HarborScaleSDK",
@@ -1337165,6 +1337619,30 @@
       "checksum": "SHA-256:38678af74d86e25cece82831bc5643cded0bb6cbd4a6240c514bd0083fc52111"
     },
     {
+      "name": "HeapSafeLog",
+      "version": "2.0.0",
+      "author": "MDO",
+      "maintainer": "MDO",
+      "sentence": "Heap-safe, variadic logging for Arduino without String usage.",
+      "paragraph": "A lightweight Arduino logging library designed to avoid heap fragmentation by not using String. Supports variadic arguments, some formatters (for hex, for example) and custom Printable types.",
+      "website": "https://github.com/mjdonders/HeapSafeLog",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mjdonders/HeapSafeLog.git",
+      "providesIncludes": [
+        "HeapSafeLog.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mjdonders/HeapSafeLog-2.0.0.zip",
+      "archiveFileName": "HeapSafeLog-2.0.0.zip",
+      "size": 8593,
+      "checksum": "SHA-256:d78328ad342d142648588d40bb3b4d9739659c25c7176bbef72c6c99dd26fe61"
+    },
+    {
       "name": "SteadyPing",
       "version": "1.0.0",
       "author": "CaptainEXE",
@@ -1352119,6 +1352597,32 @@
       "archiveFileName": "DIYables_TFT_SPI-1.0.3.zip",
       "size": 55251,
       "checksum": "SHA-256:1ad748f983b9d1739e3988eec2b2014af80ce22c28b67d17b7a2ac601b8705fa"
+    },
+    {
+      "name": "DIYables TFT SPI",
+      "version": "1.1.0",
+      "author": "DIYables.io",
+      "maintainer": "DIYables.io (diyables.io@gmail.com)",
+      "sentence": "Arduino library for SPI TFT LCD displays (ILI9341, ILI9488, ST7789, ST7796, ST7735) with optional XPT2046 / HR2046 / ADS7843 touch support.",
+      "paragraph": "Works with both touch and non-touch versions of the same SPI TFT modules. Supports ILI9341 (240x320, 16-bit RGB565), ILI9488 (320x480, 18-bit RGB666), ST7789 (240x320 and the 2.25\" 76x284 bar display, 16-bit RGB565), ST7796 / ST7796S (320x480, 16-bit RGB565), and ST7735 (128x160, 128x128, 80x160, 16-bit RGB565) over SPI. Includes built-in driver for XPT2046 / HR2046 / ADS7843 SPI touch controllers and 4-wire resistive touch panels - no separate touch library required. Use the display-only API for non-touch panels, or add initTouchSPI() to enable touch on modules that include a touch controller. Extends Adafruit GFX for full graphics support. Works with any Arduino-compatible board that has SPI.",
+      "website": "https://diyables.io/tft-spi",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DIYables/DIYables_TFT_SPI.git",
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/DIYables/DIYables_TFT_SPI-1.1.0.zip",
+      "archiveFileName": "DIYables_TFT_SPI-1.1.0.zip",
+      "size": 66612,
+      "checksum": "SHA-256:8c2f75879b7fe4b2fb8b83e60249ac4e32ddb453b91919f5381bd7bd6c9b37ec"
     },
     {
       "name": "Arduino_SE05X",
@@ -1405262,6 +1405766,37 @@
       "checksum": "SHA-256:6a7c215a21f7bc5a9a1451dd4fad72ae391fb641f17bb0dd58a797e983d762d1"
     },
     {
+      "name": "DevLabDDP",
+      "version": "1.1.0",
+      "author": "UNIT Electronics",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino master for the DevLab Device Protocol.",
+      "paragraph": "Discovers, validates and communicates with DDP I2C devices.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_ddp_library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_ddp_library.git",
+      "providesIncludes": [
+        "DevLabDDP.h",
+        "DevLabDDPConsole.h",
+        "DevLabDDPProtocol.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLab_Interface"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLabDDP-1.1.0.zip",
+      "archiveFileName": "DevLabDDP-1.1.0.zip",
+      "size": 26363,
+      "checksum": "SHA-256:953164eb2459427fcb4262e6779a869f9e9471dba8ce1b00fed31bf63dd77313"
+    },
+    {
       "name": "DevLab_TEMT6000",
       "version": "1.0.0",
       "author": "UNIT Electronics MX",
@@ -1416779,6 +1417314,48 @@
       "checksum": "SHA-256:d94e49ac6d699cda32e2f6fbd79befb1800a6a5a256dcf7a907599f008535466"
     },
     {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.55",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.55.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.55.zip",
+      "size": 1135527,
+      "checksum": "SHA-256:b3a99de42d9a37d64144568392dd1c805813228bb8086d9a57ba808975d37f93"
+    },
+    {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.56",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.56.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.56.zip",
+      "size": 1136179,
+      "checksum": "SHA-256:4e1898b1640653e7e76ec22277310da5b93da462956395dcc8a017b770373591"
+    },
+    {
       "name": "MPU9250-DMP",
       "version": "1.0.0",
       "author": "Renzo Mischianti \u003crenzo.mischianti@gmail.com\u003e",
@@ -1422096,6 +1422673,30 @@
       "archiveFileName": "ShieldioDisplay-0.1.1.zip",
       "size": 8933,
       "checksum": "SHA-256:ef278cca713b39230857e2796d11e1c5d0d003ca5dcbcf7a6af81bee96fcf8ba"
+    },
+    {
+      "name": "ShieldioDisplay",
+      "version": "0.3.0",
+      "author": "Shieldio",
+      "maintainer": "Shieldio",
+      "sentence": "Lightweight SSD1306 OLED display library with text, graphics and animal faces.",
+      "paragraph": "Small SRAM footprint, menus, startup screen, drawing and animated cat, dog and lion expressions for Arduino Nano.",
+      "website": "https://github.com/Shieldio/ShieldioDisplay",
+      "category": "Display",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Shieldio/ShieldioDisplay.git",
+      "providesIncludes": [
+        "ShieldioDisplay.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Shieldio/ShieldioDisplay-0.3.0.zip",
+      "archiveFileName": "ShieldioDisplay-0.3.0.zip",
+      "size": 18532,
+      "checksum": "SHA-256:d885368a6c887b2f5bf8ead4e17331c85e6fd76955100ffc30ed0a1130947974"
     },
     {
       "name": "DFRobotMLDR",
@@ -1432630,6 +1433231,32 @@
       "checksum": "SHA-256:52d97882717e8dd3060f2815240c6ab26b27fdb5b95bcfb812788ea0d40b0404"
     },
     {
+      "name": "CZ-N706B-Arduino",
+      "version": "0.0.3",
+      "author": "CodeZoo",
+      "maintainer": "CodeZoo \u003crooney.jang@codezoo.co.kr\u003e",
+      "sentence": "AT command support and examples for the CodeZoo CZ-N706B modem on UNO R4, ESP32 and ESP32-S3.",
+      "paragraph": "Shared UART and power control with 21 examples for module checks, network setup and monitoring, files, certificates, TCP/UDP, TLS, Gmail SMTP, HTTP/HTTPS, downloads, MQTT, AWS IoT and time synchronization. Supports UNO R4, ESP32 Dev Module and ESP32S3 Dev Module.",
+      "website": "https://www.codezoo.co.kr/n706b.html",
+      "category": "Communication",
+      "architectures": [
+        "renesas_uno",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/codezoo-ltd/CZ-N706B-Arduino.git",
+      "providesIncludes": [
+        "ModemAT.h",
+        "ModemPower.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/codezoo-ltd/CZ_N706B_Arduino-0.0.3.zip",
+      "archiveFileName": "CZ_N706B_Arduino-0.0.3.zip",
+      "size": 254975,
+      "checksum": "SHA-256:ed41c1e3cc29ea0e3fd11dbd449cb9bdf886d6b639f761a4d13b21d5d4f38c6d"
+    },
+    {
       "name": "NiroTronixMotorDriver",
       "version": "1.0.0",
       "author": "NiroTronix \u003csupport@nirotronix.com\u003e",
@@ -1433792,6 +1434419,40 @@
       "archiveFileName": "Yoke-0.0.1.zip",
       "size": 36694,
       "checksum": "SHA-256:bf622b85948235dc77c04d6892a437db217af49b1c7ad262be75ca4545e201de"
+    },
+    {
+      "name": "Yoke",
+      "version": "0.0.2",
+      "author": "Ryzobee Team",
+      "maintainer": "Ryzobee Team",
+      "sentence": "Arduino library for the Yoke series of Ryzobee development boards.",
+      "paragraph": "Provides easy-to-use Yoker series peripheral APIs for Ryzobee ESP32 development boards.",
+      "website": "https://github.com/Ryzobee/Yoke_arduino_lib",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Ryzobee/Yoke_arduino_lib.git",
+      "providesIncludes": [
+        "ryzobee_yoke.hpp"
+      ],
+      "dependencies": [
+        {
+          "name": "LovyanGFX",
+          "version": "\u003e=1.2.19"
+        },
+        {
+          "name": "AnimatedGIF",
+          "version": "\u003e=2.2.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Ryzobee/Yoke-0.0.2.zip",
+      "archiveFileName": "Yoke-0.0.2.zip",
+      "size": 54830,
+      "checksum": "SHA-256:e922df143edcf6f826a1272a3e98f781bcb893f0a0ae4f37fcdc69044a4df181"
     },
     {
       "name": "AlashPID",
@@ -1437499,6 +1438160,30 @@
       "checksum": "SHA-256:4baf767ce8e28d3459fda19d71c4c8c04d5dbf940643ede90dee7b871c145c9c"
     },
     {
+      "name": "KymoCore",
+      "version": "7.4.0",
+      "author": "Christof Seidel",
+      "maintainer": "Christof Seidel",
+      "sentence": "Allocation-free compact binary streaming for KymoStudio",
+      "paragraph": "Portable C++11 Init/Main telemetry for KymoStudio: 256 channels, 9 to 21 byte binary frames, optional XYZ, timestamps and CRC (disabled by default). Static buffers, backpressure and asynchronous transport support through application callbacks; no SDK dependencies or heap in the core.",
+      "website": "https://github.com/KymoTrace/kymocore",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/KymoTrace/kymocore.git",
+      "providesIncludes": [
+        "KymoCore.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/KymoTrace/KymoCore-7.4.0.zip",
+      "archiveFileName": "KymoCore-7.4.0.zip",
+      "size": 889645,
+      "checksum": "SHA-256:61424f6d5eca64301dba356050fd7f252dbd92620dbf7b803a6ad3ca499d35ba"
+    },
+    {
       "name": "EmbeddedGUI_Lite",
       "version": "2.0.0",
       "author": "Gagik Hakobyan",
@@ -1438817,6 +1439502,27 @@
       "checksum": "SHA-256:29260bfb1a1337465a0594c8a6efc74489e68abb3fada779bebfecfb5877720c"
     },
     {
+      "name": "Database",
+      "version": "1.2.0",
+      "author": "code-hoysala ( Shashank Hoysala ) \u003cshashankhoysala04@outlook.com\u003e",
+      "maintainer": "code-hoysala ( Shashank Hoysala ) \u003cshashankhoysala04@outlook.com\u003e",
+      "sentence": "A lightweight, non-blocking, malloc-free static key-value record library for Arduino with modular package loading.",
+      "paragraph": "Designed for resource-constrained microcontrollers to store structured records using fixed static arrays, completely eliminating heap fragmentation. Features built-in modular package support for offline games like Akinator and multi-field reference data excerpts.",
+      "website": "https://github.com/code-hoysala/Database",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/code-hoysala/Database.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/code-hoysala/Database-1.2.0.zip",
+      "archiveFileName": "Database-1.2.0.zip",
+      "size": 8038,
+      "checksum": "SHA-256:c8e7cccd00a8b1fef1fb4831f969edfcf88cb898196cfad800767b0e19e29a8b"
+    },
+    {
       "name": "SmtpMini",
       "version": "1.0.0",
       "author": "Davide Lupi \u003ccopida.soft@gmail.com\u003e",
@@ -1439007,6 +1439713,36 @@
       "archiveFileName": "AARUARDUINO-1.0.3.zip",
       "size": 642445,
       "checksum": "SHA-256:a697ccbba95ca15bec502f8f5a8789f626e7081cbcb7ca64684feb9272ade557"
+    },
+    {
+      "name": "AARUARDUINO",
+      "version": "1.0.4",
+      "author": "AARUTO",
+      "maintainer": "AARUTO",
+      "sentence": "Universal Arduino library - 1000+ sensors, actuators, displays and comms in one consistent API.",
+      "paragraph": "MADE BY AARUTO. One API for analog, digital, I2C, SPI, UART, 1-Wire, PWM, servo, stepper, RGB, displays, GPS and IR across all Arduino IDE boards: Uno R3/R4, Nano, Mega, Leonardo, Micro, Due, Zero, ESP32, ESP8266. Core has no mandatory third-party dependencies.",
+      "website": "https://github.com/AARUTO347/AARUARDUINO",
+      "category": "Sensors",
+      "architectures": [
+        "avr",
+        "megaavr",
+        "renesas_uno",
+        "samd",
+        "esp32",
+        "esp8266",
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AARUTO347/AARUARDUINO.git",
+      "providesIncludes": [
+        "AARUARDUINO.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AARUTO347/AARUARDUINO-1.0.4.zip",
+      "archiveFileName": "AARUARDUINO-1.0.4.zip",
+      "size": 687253,
+      "checksum": "SHA-256:16b96b5b606a268d2aa38c40554abf0a57de4248e3db4639a0d9733dc319d537"
     },
     {
       "name": "EnigmaIoT",
@@ -1439310,6 +1440046,426 @@
       "archiveFileName": "BusUnHilo-0.1.2.zip",
       "size": 4337696,
       "checksum": "SHA-256:4f0982ab9447b92777fb61b358ac4a0939778f39affbb90187bec0f80e5c5575"
+    },
+    {
+      "name": "SparkFun Qwiic Gas Sensor GM-X02B",
+      "version": "1.0.0",
+      "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
+      "maintainer": "SparkFun Electronics \u003csparkfun.com\u003e",
+      "sentence": "An Arduino library for the SparkFun Qwiic MEMS gas sensor breakouts built on the Winsen GM-x02B sensor family",
+      "paragraph": "One library for all nine SparkFun Qwiic MEMS gas sensor boards: GM-102B (NO2), GM-202B (alcohol and smoke), GM-302B (ethanol), GM-402B (methane and propane), GM-502B (VOC), GM-512B (breath odor), GM-602B (hydrogen sulfide, H2S), GM-702B (carbon monoxide, CO) and GM-802B (ammonia, NH3). Reads the Winsen sensing element through the onboard ADC101C021 I2C ADC and provides raw counts, output voltage, sensor resistance, a direction-normalized clean-air gas response, hardware threshold alerts, and hardware peak tracking. Handles the GM-102B's inverted response curve automatically, so one sketch works with any board in the family.",
+      "website": "https://github.com/sparkfun/SparkFun_GM-X02B_Arduino_Library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sparkfun/SparkFun_GM-X02B_Arduino_Library.git",
+      "dependencies": [
+        {
+          "name": "SparkFun Toolkit",
+          "version": "\u003e=1.2.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_Qwiic_Gas_Sensor_GM_X02B-1.0.0.zip",
+      "archiveFileName": "SparkFun_Qwiic_Gas_Sensor_GM_X02B-1.0.0.zip",
+      "size": 746476,
+      "checksum": "SHA-256:a0eac7ab4f5cee407d1540de4c5b074f58cc7a0fd0fd127950819a64ab8dcd98"
+    },
+    {
+      "name": "DevLab_AnalogInterface",
+      "version": "1.0.0",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for the UE0177 Analog-Digital to I2C Sensor Interface using the DevLab Device Protocol (DDP).",
+      "paragraph": "Reads any analog sensor through the 12-bit ADC of a PY32F003 node over I2C (Device ID 0x0119), exposes a software threshold with hysteresis, and configures the optional PB5 GPIO line as an input, a fixed output or an output that follows the threshold.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_analog_interface_library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_analog_interface_library.git",
+      "providesIncludes": [
+        "DevLab_AnalogInterface.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLabDDP"
+        },
+        {
+          "name": "DevLab_Interface"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AnalogInterface-1.0.0.zip",
+      "archiveFileName": "DevLab_AnalogInterface-1.0.0.zip",
+      "size": 49229,
+      "checksum": "SHA-256:54045988477e863e8a8186551a8949d760ff488a5e590800d3d77785f4cf3d1a"
+    },
+    {
+      "name": "DevLab_AnalogInterface",
+      "version": "1.0.1",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for the UE0177 Analog-Digital to I2C Sensor Interface using the DevLab Device Protocol (DDP).",
+      "paragraph": "Reads any analog sensor through the 12-bit ADC of a PY32F003 node over I2C (Device ID 0x0119), exposes a software threshold with hysteresis, and configures the optional PB5 GPIO line as an input, a fixed output or an output that follows the threshold.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_analog_interface_library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_analog_interface_library.git",
+      "providesIncludes": [
+        "DevLab_AnalogInterface.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLabDDP"
+        },
+        {
+          "name": "DevLab_Interface"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AnalogInterface-1.0.1.zip",
+      "archiveFileName": "DevLab_AnalogInterface-1.0.1.zip",
+      "size": 52872,
+      "checksum": "SHA-256:ecbe3e6fbcdf7b526d9cf81c4bd6235309f76ccbe88912fa0e94c9b3f3c61790"
+    },
+    {
+      "name": "AARUNO",
+      "version": "1.1.1",
+      "author": "AARUTO",
+      "maintainer": "AARUTO",
+      "sentence": "Universal Arduino and ESP library — 100+ sensors, actuators and displays in one simple API.",
+      "paragraph": "MADE BY AARUTO. One consistent API for ultrasonic, DHT, MQ gas, MPU6050, encoder, keypad, joystick, RGB, stepper, OLED/LCD, ESP WiFi and HTTP across Uno R3, Uno R4 Minima, Uno R4 WiFi, ESP32 and ESP8266. Core has no mandatory third-party dependencies.",
+      "website": "https://github.com/AARUTO347/AARUNO",
+      "category": "Sensors",
+      "architectures": [
+        "avr",
+        "renesas_uno",
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AARUTO347/AARUNO.git",
+      "providesIncludes": [
+        "AARUNO.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AARUTO347/AARUNO-1.1.1.zip",
+      "archiveFileName": "AARUNO-1.1.1.zip",
+      "size": 539154,
+      "checksum": "SHA-256:e30ecb2f2021487a80675c668a4a8b30011e42b6885766bd09385f267b155390"
+    },
+    {
+      "name": "FastLED_Protomatter_RGBPanel_FrameBuffer_GFX",
+      "version": "1.3.0",
+      "author": "Marc Merlin",
+      "maintainer": "Marc MERLIN \u003cmarc_soft@merlins.org\u003e",
+      "sentence": "Adafruit_GFX, FastLED, LEDMatrix compatible library for Protomatter controlled Panels for chips like RP2350 and RP2040, including Interstate 75W RGBPanel board.",
+      "paragraph": "Designed to work with https://github.com/adafruit/Adafruit_Protomatter",
+      "website": "https://github.com/marcmerlin/FastLED_Protomatter_RGBPanel_FrameBuffer_GFX",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/marcmerlin/FastLED_Protomatter_RGBPanel_FrameBuffer_GFX.git",
+      "dependencies": [
+        {
+          "name": "Framebuffer_GFX"
+        },
+        {
+          "name": "FastLED"
+        },
+        {
+          "name": "Adafruit-GFX-Library"
+        },
+        {
+          "name": "Adafruit_Protomatter"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/marcmerlin/FastLED_Protomatter_RGBPanel_FrameBuffer_GFX-1.3.0.zip",
+      "archiveFileName": "FastLED_Protomatter_RGBPanel_FrameBuffer_GFX-1.3.0.zip",
+      "size": 231263,
+      "checksum": "SHA-256:8f13bc8e77c64b21e09b2d710284f912df096f7f76abe071197471ae52f6c6ab"
+    },
+    {
+      "name": "FastLED_Protomatter_RGBPanel_FrameBuffer_GFX",
+      "version": "1.3.2",
+      "author": "Marc Merlin",
+      "maintainer": "Marc MERLIN \u003cmarc_soft@merlins.org\u003e",
+      "sentence": "Adafruit_GFX, FastLED, LEDMatrix compatible library for Protomatter controlled Panels for chips like RP2350 and RP2040, including Interstate 75W RGBPanel board.",
+      "paragraph": "Designed to work with https://github.com/adafruit/Adafruit_Protomatter",
+      "website": "https://github.com/marcmerlin/FastLED_Protomatter_RGBPanel_FrameBuffer_GFX",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/marcmerlin/FastLED_Protomatter_RGBPanel_FrameBuffer_GFX.git",
+      "dependencies": [
+        {
+          "name": "Framebuffer GFX"
+        },
+        {
+          "name": "FastLED"
+        },
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit Protomatter"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/marcmerlin/FastLED_Protomatter_RGBPanel_FrameBuffer_GFX-1.3.2.zip",
+      "archiveFileName": "FastLED_Protomatter_RGBPanel_FrameBuffer_GFX-1.3.2.zip",
+      "size": 231266,
+      "checksum": "SHA-256:2cc7652b652ee18e12877bf0772149c0f5aca96d208e60d54f9555ebfadafb07"
+    },
+    {
+      "name": "FastLED_ArduinoGFX_TFT",
+      "version": "1.2.3",
+      "author": "Marc Merlin",
+      "maintainer": "Marc MERLIN \u003cmarc_soft@merlins.org\u003e",
+      "sentence": "Arduino_GFX and FastLED compatible library for SPI TFT screens like SSD1331, ST7735, and ILI9341",
+      "paragraph": "Framebuffer GFX support for all Arduino_GFX supported TFTs",
+      "website": "https://github.com/marcmerlin/FastLED_ArduinoGFX_TFT",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/marcmerlin/FastLED_ArduinoGFX_TFT.git",
+      "dependencies": [
+        {
+          "name": "Framebuffer GFX"
+        },
+        {
+          "name": "GFX Library for Arduino"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/marcmerlin/FastLED_ArduinoGFX_TFT-1.2.3.zip",
+      "archiveFileName": "FastLED_ArduinoGFX_TFT-1.2.3.zip",
+      "size": 3185623,
+      "checksum": "SHA-256:a56f17f2c84b0510f75681e3baed7c305d9bdd3f3a4eeac073d394cda943c09b"
+    },
+    {
+      "name": "AsairAgh3485",
+      "version": "1.0.0",
+      "author": "Usman AR \u003cusmanar.tsm@gmail.com\u003e",
+      "maintainer": "Usman AR \u003cusmanar.tsm@gmail.com\u003e",
+      "sentence": "Arduino library for ASAIR AGH3485 Modbus RS485 temperature and humidity sensor.",
+      "paragraph": "A lightweight and robust Arduino library to interface with the ASAIR AGH3485 industrial Modbus-RTU RS485 temperature and humidity transmitter. Supports RS485 direction control (DE/RE pins) and works seamlessly with HardwareSerial and SoftwareSerial on any Arduino-compatible architecture.",
+      "website": "https://github.com/usmanargit/AsairAgh3485",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/usmanargit/AsairAgh3485.git",
+      "providesIncludes": [
+        "AsairAgh3485.h",
+        "AGH3485.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/usmanargit/AsairAgh3485-1.0.0.zip",
+      "archiveFileName": "AsairAgh3485-1.0.0.zip",
+      "size": 15214,
+      "checksum": "SHA-256:4fe833a98f2c0ecedd2dc086340add01b6a40a59d19d9cc74d8ad50d17df3ba8"
+    },
+    {
+      "name": "SevenSegmentClock595",
+      "version": "1.0.0",
+      "author": "Open Source Community",
+      "maintainer": "Open Source Community",
+      "sentence": "A driver and clock engine for 6-digit 7-segment displays using 3x 74HC595, UDN2981, and ULN2803A.",
+      "paragraph": "Supports 6-digit high-voltage multiplexing, twin ticking colons, 7 day-of-week LEDs, DS1307 RTC integration, automatic periodic calendar display, programmable alarm with NVRAM persistence, and interactive pushbutton menu navigation.",
+      "website": "https://github.com",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/saifulAdli79/arduino-wall-clock-v2.git",
+      "providesIncludes": [
+        "SevenSegmentClock595.h"
+      ],
+      "dependencies": [
+        {
+          "name": "RTClib"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/saifulAdli79/SevenSegmentClock595-1.0.0.zip",
+      "archiveFileName": "SevenSegmentClock595-1.0.0.zip",
+      "size": 17952,
+      "checksum": "SHA-256:e98b39c9dc9297b4741eda3c4db6e2c5205b3403dc08fa81ff8911c3dc0ec68e"
+    },
+    {
+      "name": "UUtzinger_MPR",
+      "version": "1.0.0",
+      "author": "Urs Utzinger",
+      "maintainer": "Urs Utzinger",
+      "sentence": "Driver for Honeywell MPR / MPRLS I2C pressure sensors with EOC interrupt, reset and recovery.",
+      "paragraph": "Non-blocking, EOC interrupt or status polling, RST handling, shared I2C bus support, timestamped ring buffer.",
+      "website": "https://github.com/uutzinger/Arduino_MPR",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/uutzinger/Arduino_MPR.git",
+      "providesIncludes": [
+        "MPR.h"
+      ],
+      "dependencies": [
+        {
+          "name": "UUtzinger_RingBuffer"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/uutzinger/UUtzinger_MPR-1.0.0.zip",
+      "archiveFileName": "UUtzinger_MPR-1.0.0.zip",
+      "size": 1844832,
+      "checksum": "SHA-256:9f398d365a0d1b969173824468c573fffb6172d69a1ab2c74e6c3514db04c67c"
+    },
+    {
+      "name": "Ukr_GFX_fonts",
+      "version": "1.0.0",
+      "author": "Igor Gimelfarb",
+      "maintainer": "Igor Gimelfarb \u003cgia@gia.org.ua\u003e",
+      "sentence": "Ukrainian fonts for GFX libraries (Adafruit, Arduino GFX)",
+      "paragraph": "Collection of GFX-compatible fonts and a UTF-8 to GFX code conversion helper for Ukrainian letters.",
+      "website": "https://github.com/igor-gia/Ukr_GFX_fonts",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/igor-gia/Ukr_GFX_fonts.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/igor-gia/Ukr_GFX_fonts-1.0.0.zip",
+      "archiveFileName": "Ukr_GFX_fonts-1.0.0.zip",
+      "size": 1635217,
+      "checksum": "SHA-256:5fc944bcc2ecb8682482165eac3b2dcbd0e31d73b07aa477ee5887bbbbdff74b"
+    },
+    {
+      "name": "Ukr_GFX_fonts",
+      "version": "1.1.0",
+      "author": "Igor Gimelfarb",
+      "maintainer": "Igor Gimelfarb \u003cgia@gia.org.ua\u003e",
+      "sentence": "Ukrainian fonts for GFX libraries (Adafruit GFX, Arduino_GFX, LovyanGFX, TFT_eSPI)",
+      "paragraph": "Collection of GFX-compatible fonts with Ukrainian character support and a UTF-8 to GFX code conversion helper.",
+      "website": "https://github.com/igor-gia/Ukr_GFX_fonts",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/igor-gia/Ukr_GFX_fonts.git",
+      "providesIncludes": [
+        "utils.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/igor-gia/Ukr_GFX_fonts-1.1.0.zip",
+      "archiveFileName": "Ukr_GFX_fonts-1.1.0.zip",
+      "size": 2810023,
+      "checksum": "SHA-256:92fb204ece4bd31f273daba617584109232890c8f18a67b3509b289dd1c8a383"
+    },
+    {
+      "name": "NuaSense",
+      "version": "0.1.0",
+      "author": "NuaSense \u003cinfo@nuasense.com\u003e",
+      "maintainer": "NuaSense \u003cinfo@nuasense.com\u003e",
+      "sentence": "Send your own sensors' readings (weather, soil, water, greenhouse, beehive, storage) to NuaSense.",
+      "paragraph": "One add() per value, one send() per upload, over HTTPS with the certificate checked. In return: whether your sensor reads right, frost and spray windows, irrigation and disease risk for your station.",
+      "website": "https://github.com/nuasense/nuasense-arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/nuasense/nuasense-arduino.git",
+      "providesIncludes": [
+        "NuaSense.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/nuasense/NuaSense-0.1.0.zip",
+      "archiveFileName": "NuaSense-0.1.0.zip",
+      "size": 10392,
+      "checksum": "SHA-256:6237b426a6c68f19efa2e0a0273fb4abe8a753b5366af05ff3dc91cd2658b6ba"
+    },
+    {
+      "name": "NuaSense",
+      "version": "0.1.1",
+      "author": "NuaSense \u003cinfo@nuasense.com\u003e",
+      "maintainer": "NuaSense \u003cinfo@nuasense.com\u003e",
+      "sentence": "IoT weather station and soil moisture library for ESP32 and ESP8266: NuaSense grades how accurate your weather sensors are (A to D) and turns your readings into frost, irrigation and crop disease risk answers.",
+      "paragraph": "For DIY weather stations and for garden, farm, greenhouse, beehive and storage monitoring. One add() per value, one send() per upload, over HTTPS with the certificate checked. In return: a data quality check for every sensor, frost tonight, spray windows, irrigation need and crop disease risk for your location. Works with any sensor you can read, for example BME280, DHT22, SHT31 or a capacitive soil moisture probe.",
+      "website": "https://github.com/nuasense/nuasense-arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/nuasense/nuasense-arduino.git",
+      "providesIncludes": [
+        "NuaSense.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/nuasense/NuaSense-0.1.1.zip",
+      "archiveFileName": "NuaSense-0.1.1.zip",
+      "size": 10824,
+      "checksum": "SHA-256:32e232786079fa07f3519180bc177ea0ee0b999bb3af5dad220b8a18c5bb33df"
+    },
+    {
+      "name": "NuaSense",
+      "version": "0.1.2",
+      "author": "NuaSense \u003cinfo@nuasense.com\u003e",
+      "maintainer": "NuaSense \u003cinfo@nuasense.com\u003e",
+      "sentence": "IoT weather station and soil moisture library for ESP32 and ESP8266: NuaSense grades how accurate your sensors are (A to D) and turns your readings into frost, irrigation and crop disease risk answers.",
+      "paragraph": "For DIY weather stations and for garden, farm, greenhouse, beehive and storage monitoring. One add() per value, one send() per upload, over HTTPS with the certificate checked. In return: a data quality check for every sensor, frost tonight, spray windows, irrigation need and crop disease risk for your location. Works with any sensor you can read, for example BME280, DHT22, SHT31 or a capacitive soil moisture probe.",
+      "website": "https://github.com/nuasense/nuasense-arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/nuasense/nuasense-arduino.git",
+      "providesIncludes": [
+        "NuaSense.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/nuasense/NuaSense-0.1.2.zip",
+      "archiveFileName": "NuaSense-0.1.2.zip",
+      "size": 10821,
+      "checksum": "SHA-256:bcc7b0c1f58284bfa4994a52df5c3bbf0667cc842158fdb7301ccaf46bf310c5"
     }
   ]
 }
