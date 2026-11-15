@@ -135225,6 +135225,912 @@
       "checksum": "SHA-256:5f07a25fb4b642c972c4bd96d1ee2fe93e030ddad44cc71701b8aebb126ff997"
     },
     {
+      "name": "TinyGSM",
+      "version": "0.13.0-rc.1",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Sara Damiano \u003csdamiano@stroudcenter.org\u003e",
+      "sentence": "A small Arduino library for AT-command-based internet modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/EnviroDIY/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "providesIncludes": [
+        "TinyGsmClient.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.13.0-rc.1.zip",
+      "archiveFileName": "TinyGSM-0.13.0-rc.1.zip",
+      "size": 1815949,
+      "checksum": "SHA-256:a63fb33661edc1e9e9de93f96707d6d46cec1534f03e99075f2a1912ec95e94d"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.4.0",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM and wifi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.4.0.zip",
+      "archiveFileName": "TinyGSM-0.4.0.zip",
+      "size": 132557877,
+      "checksum": "SHA-256:f94aaf54a3f049acaed521df5a3aa5fb209fd2d0c12893220c9abc1c956ba4f9"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.4.1",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM and wifi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.4.1.zip",
+      "archiveFileName": "TinyGSM-0.4.1.zip",
+      "size": 132559250,
+      "checksum": "SHA-256:0b64c2f2b90ec4d85295676484b377b7aa59f1936f95d76daf8269639b61ddf8"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.4.2",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM and wifi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.4.2.zip",
+      "archiveFileName": "TinyGSM-0.4.2.zip",
+      "size": 132559595,
+      "checksum": "SHA-256:d220fd47540d1ee7c0de7805295b6958d4367051f5ee38d1294e62bd745e0c4a"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.4.3",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM and wifi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.4.3.zip",
+      "archiveFileName": "TinyGSM-0.4.3.zip",
+      "size": 120105135,
+      "checksum": "SHA-256:e280ac5c03819f235a06720a7858fc8337a21c07e11ea791290cd039239e53ab"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.4.4",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM and wifi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.4.4.zip",
+      "archiveFileName": "TinyGSM-0.4.4.zip",
+      "size": 120105188,
+      "checksum": "SHA-256:54946d555ef791a65243d9abc6cfc0ca447e8151e75de509a2af7928d2051bca"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.4.5",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM and wifi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.4.5.zip",
+      "archiveFileName": "TinyGSM-0.4.5.zip",
+      "size": 125090791,
+      "checksum": "SHA-256:fd0aec4075301dbf8beaa31dae86ff8e0b07a23b88ce31f4b3bb0795d5f74483"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.4.6",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM and wifi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.4.6.zip",
+      "archiveFileName": "TinyGSM-0.4.6.zip",
+      "size": 125091973,
+      "checksum": "SHA-256:ba407ac9cf2082adfd4ae899e94157ffdfe9f4f3665c7ea191e22283fe899b43"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.4.7",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM and wifi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.4.7.zip",
+      "archiveFileName": "TinyGSM-0.4.7.zip",
+      "size": 125780620,
+      "checksum": "SHA-256:7ebe0338873fe58d9f67bc637d9fa3245a9fed6bd0069300d3e788b69ddef2a0"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.3.6",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports GSM modules with AT command interface: SIM800, SIM900, A6, A7, M590, ESP8266, SIM800A, SIM800C, SIM800L, SIM800H, SIM808, SIM868, SIM900A, SIM900D, SIM908, SIM968",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.3.6.zip",
+      "archiveFileName": "TinyGSM-0.3.6.zip",
+      "size": 38325472,
+      "checksum": "SHA-256:fbae3cb5c9cdd16dc41f6d3eaeee95e289267fb45f2680247d9f6e9c5633d175"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.5.0",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM and wifi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.5.0.zip",
+      "archiveFileName": "TinyGSM-0.5.0.zip",
+      "size": 136391200,
+      "checksum": "SHA-256:40bd75a2deed5284dae18de0864b947dc9c5d57586011c93f44af4918ac6454c"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.6.0",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.6.0.zip",
+      "archiveFileName": "TinyGSM-0.6.0.zip",
+      "size": 57332058,
+      "checksum": "SHA-256:91bb5dfb21baabfb95cf3604cf37607976ed10dcd19a5d1912a775c2a2dbf989"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.6.1",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.6.1.zip",
+      "archiveFileName": "TinyGSM-0.6.1.zip",
+      "size": 57332669,
+      "checksum": "SHA-256:4fb0966dafabe3325663ad4d3b80ecc4ad4f266d31fbd583400233f351e26b9c"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.7.0",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.7.0.zip",
+      "archiveFileName": "TinyGSM-0.7.0.zip",
+      "size": 58974951,
+      "checksum": "SHA-256:8ede84a2d8ac958fe20e7829d26ade435731957e89165efd228e15376b4323cc"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.7.1",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.7.1.zip",
+      "archiveFileName": "TinyGSM-0.7.1.zip",
+      "size": 58974107,
+      "checksum": "SHA-256:c7f0bb28e7fea91b07b94c8fbe91e78a58f3a040d1e6bbc91e5873f20abd98dd"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.7.3",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.7.3.zip",
+      "archiveFileName": "TinyGSM-0.7.3.zip",
+      "size": 58975624,
+      "checksum": "SHA-256:6c762aba68ebdb943f02bc3046b7c61bb910bd01d6795879b6716730ca64bdc6"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.7.5",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.7.5.zip",
+      "archiveFileName": "TinyGSM-0.7.5.zip",
+      "size": 58980997,
+      "checksum": "SHA-256:ae64a4bbf9f2b7953c55e52e87b8074b592db39b45def98f6ef7a0603cac5ff9"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.7.6",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.7.6.zip",
+      "archiveFileName": "TinyGSM-0.7.6.zip",
+      "size": 58981049,
+      "checksum": "SHA-256:c0d9c2f8838b3a838c6bfd43640eb1e764a10968cf2cb5f3bd883cda74ebb51c"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.7.8",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.7.8.zip",
+      "archiveFileName": "TinyGSM-0.7.8.zip",
+      "size": 58981125,
+      "checksum": "SHA-256:40f21e31e9bceb509670a43258f5b86cddb97500adf30c47b241cc1d50a765b1"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.7.10",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.7.10.zip",
+      "archiveFileName": "TinyGSM-0.7.10.zip",
+      "size": 61509953,
+      "checksum": "SHA-256:029ab2c08bd5d406b616b5e0264ce147f6da6b75070eaf669c419c4347d2ea25"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.8.0",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.8.0.zip",
+      "archiveFileName": "TinyGSM-0.8.0.zip",
+      "size": 61508599,
+      "checksum": "SHA-256:24830ef359f30d012533dea39e7424eb1adbff31037f0dcca6e7cd7e9ebc39ae"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.0",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.0.zip",
+      "archiveFileName": "TinyGSM-0.9.0.zip",
+      "size": 1486947,
+      "checksum": "SHA-256:8b4af23a090989132d73ce85414b90d62162a63a9a1203d83144b239bfe82408"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.1",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.1.zip",
+      "archiveFileName": "TinyGSM-0.9.1.zip",
+      "size": 1486936,
+      "checksum": "SHA-256:c3b4ed3cd7ed868d318a125f838e21f2e7c970f700188fc243eb98b0aee2b388"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.2",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.2.zip",
+      "archiveFileName": "TinyGSM-0.9.2.zip",
+      "size": 1487719,
+      "checksum": "SHA-256:2fcbf2689c2f627279218c171658740de777b1df08e5bd632676e78851dda6aa"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.3",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.3.zip",
+      "archiveFileName": "TinyGSM-0.9.3.zip",
+      "size": 1487874,
+      "checksum": "SHA-256:9062a5f0b63599f3cda717196c5c7e80bef6bc6b5b2c09c32ab833a582bc2e51"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.4",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.4.zip",
+      "archiveFileName": "TinyGSM-0.9.4.zip",
+      "size": 1487857,
+      "checksum": "SHA-256:4ec03ee638c9442e8ddeba1ac82a22346da7f0d37fa208f2e9ecac0ed26eb382"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.5",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.5.zip",
+      "archiveFileName": "TinyGSM-0.9.5.zip",
+      "size": 1487927,
+      "checksum": "SHA-256:09fee77b360d841f9e61eddbd3739295f35f77a097bc6a0c5e1952bfb0dffa42"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.6",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.6.zip",
+      "archiveFileName": "TinyGSM-0.9.6.zip",
+      "size": 1487970,
+      "checksum": "SHA-256:4f9641084d28de4141b1be68886bd0ebf50c0d7dde0f9f9b6663af592c00529e"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.7",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.7.zip",
+      "archiveFileName": "TinyGSM-0.9.7.zip",
+      "size": 1494656,
+      "checksum": "SHA-256:6865d50679efd80aab24dae606e61c1c155e4e21e3abacda90774eaffa23fb6b"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.8",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.8.zip",
+      "archiveFileName": "TinyGSM-0.9.8.zip",
+      "size": 1498054,
+      "checksum": "SHA-256:381b82767c3e0bfb8ed55cfb31a14b708d09529bcc4611536ab151471ef04a8b"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.9",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.9.zip",
+      "archiveFileName": "TinyGSM-0.9.9.zip",
+      "size": 1499246,
+      "checksum": "SHA-256:98548c3fc4d38fcc4d9f9f728c10c289510c74c829604b14865c31a824ff4fb4"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.10",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.10.zip",
+      "archiveFileName": "TinyGSM-0.9.10.zip",
+      "size": 1499450,
+      "checksum": "SHA-256:fb052098d62d45304cbb9365dedaebd44878d823c1e639f3c3a7c85e45591457"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.12",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.12.zip",
+      "archiveFileName": "TinyGSM-0.9.12.zip",
+      "size": 1499556,
+      "checksum": "SHA-256:4fe0ca6df4cad2f6dbe738fa36e6dfa854a942ea589dea9558c3da65c4d600a8"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.13",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.13.zip",
+      "archiveFileName": "TinyGSM-0.9.13.zip",
+      "size": 1499580,
+      "checksum": "SHA-256:ecc0d9a839661394f3fe8575351ba0b001b7ba2b9654514aaf5ff868fb44cf5f"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.14",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.14.zip",
+      "archiveFileName": "TinyGSM-0.9.14.zip",
+      "size": 1499792,
+      "checksum": "SHA-256:90cea51cdddeda51475364308e8834a4368be467817a74e51a885a0ab03c1c30"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.15",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.15.zip",
+      "archiveFileName": "TinyGSM-0.9.15.zip",
+      "size": 1500601,
+      "checksum": "SHA-256:fd6de21b3d89c25e9a79d0f794abb7722cb26179362ba2c7edf9ffe24fbeac4e"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.16",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.16.zip",
+      "archiveFileName": "TinyGSM-0.9.16.zip",
+      "size": 1500678,
+      "checksum": "SHA-256:b394c2c9b98129efed48e39c1ebe1da1af165b2ec2365745513c1c0398be4376"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.17",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.17.zip",
+      "archiveFileName": "TinyGSM-0.9.17.zip",
+      "size": 1500677,
+      "checksum": "SHA-256:a033f75ee915e141454b521c1c99aae5fc77d137414be76d8d6435c3c739bb3c"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.18",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.18.zip",
+      "archiveFileName": "TinyGSM-0.9.18.zip",
+      "size": 1500848,
+      "checksum": "SHA-256:b72f2c1cf2f30efd10cbbcad96536b9d25dafee5957b8ac5cea4d9b76c571ee7"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.9.19",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.9.19.zip",
+      "archiveFileName": "TinyGSM-0.9.19.zip",
+      "size": 1500902,
+      "checksum": "SHA-256:274fffd13245a2002e98869aae72a581f9820e841fbd0e774249f8a1d40e14a1"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.10.0",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.10.0.zip",
+      "archiveFileName": "TinyGSM-0.10.0.zip",
+      "size": 1499652,
+      "checksum": "SHA-256:c27f3dbfb54e88b153997bf4006c300047a5e3386eb635e4324c68ca3edbb892"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.10.4",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.10.4.zip",
+      "archiveFileName": "TinyGSM-0.10.4.zip",
+      "size": 1519201,
+      "checksum": "SHA-256:d6388f0548632cc4a85aa91aa44270c84d11855495b74f9f367871e91352ea61"
+    },
+    {
+      "name": "TinyGSM",
+      "version": "0.10.6",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "Volodymyr Shymanskyy",
+      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
+      "website": "https://github.com/vshymanskyy/TinyGSM",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/vshymanskyy/TinyGSM.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.10.6.zip",
+      "archiveFileName": "TinyGSM-0.10.6.zip",
+      "size": 1519315,
+      "checksum": "SHA-256:a00d23fb03f218042bd6dda9f3fbd1ba9c276bb295419c1d1dca254589a60999"
+    },
+    {
       "name": "BridgeHttpClient",
       "version": "2.0.0",
       "author": "Imre Horvath \u003cimi.horvath@gmail.com\u003e",
@@ -450715,6 +451621,30 @@
       "checksum": "SHA-256:af01726acb8dbd83af637c43333d6cbe0440ad8c9fa6e4aa32fb8852067ef0b0"
     },
     {
+      "name": "TeensyTimerTool",
+      "version": "1.5.0",
+      "author": "luni64",
+      "maintainer": "luni64",
+      "sentence": "Generic Interface to Teensy Timers",
+      "paragraph": "TeensyTimerTool provides a common, easy to use interface to the hardware timers (GPT, TMR, PIT, RTC, FTM) of the PJRC Teensy boards and to up to 20 software timers that use the same interface. All timers can be used as periodic or one-shot timers; periods in microseconds or as std::chrono durations, callbacks as functions, lambdas or functors. Supports Teensy 4.0, 4.1, MicroMod, 3.0-3.6 and LC. Documentation: https://luni64.github.io/TeensyTimerTool/",
+      "website": "https://github.com/luni64/TeensyTimerTool",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/luni64/TeensyTimerTool.git",
+      "providesIncludes": [
+        "TeensyTimerTool.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/luni64/TeensyTimerTool-1.5.0.zip",
+      "archiveFileName": "TeensyTimerTool-1.5.0.zip",
+      "size": 142990,
+      "checksum": "SHA-256:2579e34e0d6cb650e58aa39959cb0f5a8832847d8386336db2b487742f6b479a"
+    },
+    {
       "name": "BlynkEthernet_STM32_WM",
       "version": "1.0.0",
       "author": "Khoi Hoang",
@@ -719127,6 +720057,31 @@
       "checksum": "SHA-256:1a97c644c394b37d4c8c179e8d9743866d776e8ace2d275684388ff764625df4"
     },
     {
+      "name": "RSbus",
+      "version": "2.5.0",
+      "author": "Aiko Pras",
+      "maintainer": "Aiko Pras",
+      "sentence": "Library for the (Lenz) RS-bus protocol",
+      "paragraph": "Send DCC decoder feedback information to a (LZV) master station. The RS-bus supports a maximum of 128 feedback addresses, numbered 1 to 128.",
+      "website": "https://github.com/aikopras/RSbus/",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "megaavr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/aikopras/RSbus.git",
+      "providesIncludes": [
+        "RSbus.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/aikopras/RSbus-2.5.0.zip",
+      "archiveFileName": "RSbus-2.5.0.zip",
+      "size": 4576015,
+      "checksum": "SHA-256:55de1d5c52f8d5470fa733b454a13701df0b809f7007c86a8b73ac02b98817c3"
+    },
+    {
       "name": "mDNSResolver",
       "version": "1.0.0",
       "author": "Lee Bussy \u003clee@bussy.org\u003e",
@@ -740421,6 +741376,31 @@
       "archiveFileName": "libasm-1.6.74.zip",
       "size": 14184404,
       "checksum": "SHA-256:6ae78fd3fdc77aed5271d9ad590968050cfb7d99d93ac867e1b15f10c04180fb"
+    },
+    {
+      "name": "libasm",
+      "version": "1.6.75",
+      "author": "Tadashi G. Takaoka",
+      "maintainer": "Tadashi G. Takaoka \u003ctadashi.g.takaoka@gmail.com\u003e",
+      "license": "Apache-2.0",
+      "sentence": "Cross assembler and disassembler for retro CPUs",
+      "paragraph": "With this, you can integrate assembler or disassembler into your sketch. Supported CPUs are AM29000, C166, CDP1802, CP1600, F3850, H16, H8300, H8500, I8048, I8051, I8080, I8086, I8096, I960, INS8060, INS8070, MC6800, MC68000, MC6805, MC6809, MC68HC12, MC68HC16, MN1610, MOS6502, NS32000, PDP11, PDP8, SCN2650, SUPERH, TLCS90, TLCS900, TMS320, TMS320F, TMS370, TMS7000, TMS9900, Z280, Z380, Z8, Z80, Z8000",
+      "website": "https://github.com/tgtakaoka/libasm",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tgtakaoka/libasm.git",
+      "providesIncludes": [
+        "libasm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.75.zip",
+      "archiveFileName": "libasm-1.6.75.zip",
+      "size": 14188083,
+      "checksum": "SHA-256:6a230e98eaa1ad1f1c6dad437038c8ba3e7ab0dd2f6b935749ccccde1f4c05fc"
     },
     {
       "name": "SparkFun AVR ISP Programming Library",
@@ -770613,6 +771593,30 @@
       "archiveFileName": "AP_DCC_Library-2.0.0.zip",
       "size": 1173854,
       "checksum": "SHA-256:cfad6b421701ab9b0f26f99b250db8aaec3039c2bff0b516c68f9bb020b8309a"
+    },
+    {
+      "name": "AP_DCC_Library",
+      "version": "2.1.0",
+      "author": "Aiko Pras",
+      "maintainer": "Aiko Pras",
+      "sentence": "Library for (NMRA/RCN) Digital Command Control (DCC)",
+      "paragraph": "Thanks to its modular architecture, this library can run on a wide range of microcontrollers. On newer processor families (such as DxCore and STM32), DCC signal decoding quality is significantly improved by leveraging advanced on-chip peripherals.",
+      "website": "https://github.com/aikopras/AP_DCC_library",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/aikopras/AP_DCC_library.git",
+      "providesIncludes": [
+        "AP_DCC_library.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/aikopras/AP_DCC_Library-2.1.0.zip",
+      "archiveFileName": "AP_DCC_Library-2.1.0.zip",
+      "size": 1970880,
+      "checksum": "SHA-256:8eda64174a254e3afe8165e70b609b2a611bf1d2971542fc97f9284d17c5f477"
     },
     {
       "name": "RF433recv",
@@ -1087259,6 +1088263,31 @@
       "checksum": "SHA-256:e34af73fa917f348ba19bad3e81dca961df59e0bccdaec134b26c214330aaaf6"
     },
     {
+      "name": "Async TCP",
+      "version": "3.6.1",
+      "author": "ESP32Async",
+      "maintainer": "ESP32Async",
+      "license": "LGPL-3.0",
+      "sentence": "Async TCP Library for ESP32",
+      "paragraph": "Async TCP Library for ESP32",
+      "website": "https://github.com/ESP32Async/AsyncTCP.git",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ESP32Async/AsyncTCP.git",
+      "providesIncludes": [
+        "AsyncTCP.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ESP32Async/Async_TCP-3.6.1.zip",
+      "archiveFileName": "Async_TCP-3.6.1.zip",
+      "size": 152191,
+      "checksum": "SHA-256:590bba93a3725f40a17fb74a298e5f7b864b373e980398b214401b435e8e1551"
+    },
+    {
       "name": "rupertobot",
       "version": "1.0.0",
       "author": "Antonio Gómez",
@@ -1133184,6 +1134213,29 @@
       "archiveFileName": "HomeAssistantEntities-10.0.1.zip",
       "size": 249182,
       "checksum": "SHA-256:d0a841fad07a7f8075f8d90591a292937dfe0a9a7b53182f2655aa8f1e1832f0"
+    },
+    {
+      "name": "HomeAssistantEntities",
+      "version": "10.0.2",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "MIT",
+      "sentence": "Library for providing sensors and actuators to Home Assistant using MQTT.",
+      "paragraph": "Simplify and standardize the use of sensors and actuators in Home Assistant.",
+      "website": "https://github.com/Johboh/HomeAssistantEntities",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/HomeAssistantEntities.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/HomeAssistantEntities-10.0.2.zip",
+      "archiveFileName": "HomeAssistantEntities-10.0.2.zip",
+      "size": 249670,
+      "checksum": "SHA-256:69c466e465e3fa82403b00bd13760f7742a4520623a6e477f120b0a39a93c264"
     },
     {
       "name": "nlohmann-json",
@@ -1195721,6 +1196773,37 @@
       "checksum": "SHA-256:e87dcbbb374ebdd799a03026bb84fde7235a40abfae03ea3f04e1020c6b347d5"
     },
     {
+      "name": "htcw_gfx",
+      "version": "2.11.2",
+      "author": "honey the codewitch",
+      "maintainer": "honey the codewitch",
+      "sentence": "Provides cross platform graphics",
+      "paragraph": "Provides cross platform graphics functionality",
+      "website": "https://github.com/codewitch-honey-crisis/gfx",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/codewitch-honey-crisis/gfx.git",
+      "dependencies": [
+        {
+          "name": "htcw_data",
+          "version": "\u003e=1.4.6 \u0026\u0026 \u003c1.5.0"
+        },
+        {
+          "name": "htcw_ml",
+          "version": "\u003e=0.2.10 \u0026\u0026 \u003c0.3.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.11.2.zip",
+      "archiveFileName": "htcw_gfx-2.11.2.zip",
+      "size": 931171,
+      "checksum": "SHA-256:ae0e7cb12bb310c360d6c727a35976512901419177f6404ed496edd9be9c80dc"
+    },
+    {
       "name": "htcw_uix",
       "version": "1.2.2",
       "author": "honey the codewitch",
@@ -1234949,6 +1236032,41 @@
       "archiveFileName": "AP_DCC_Decoder_Core-1.5.1.zip",
       "size": 1420905,
       "checksum": "SHA-256:a4e6b60adf1eff670dc13adca68bf4dd9a215fd94500f7214f708aff734b4180"
+    },
+    {
+      "name": "AP_DCC_Decoder_Core",
+      "version": "1.6.0",
+      "author": "Aiko Pras",
+      "maintainer": "Aiko Pras",
+      "sentence": "Library for DCC-decoders with RS-Bus feedback",
+      "paragraph": "Skeleton for Accessory decoders that use the AP DCC and RS-Bus libraries. Include Configuration Variables (CVs) that can be accessed via SM and PoM. Tested on Arduino UNO, Nano, Mega, Nano Every and AVRxxDA and AVRxxDB.",
+      "website": "https://github.com/aikopras/AP_DCC_Decoder_Core",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "megaavr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/aikopras/AP_DCC_Decoder_Core.git",
+      "providesIncludes": [
+        "AP_DCC_Decoder_Core.h"
+      ],
+      "dependencies": [
+        {
+          "name": "AP_DCC_Library",
+          "version": "\u003e=2.1.0"
+        },
+        {
+          "name": "RSbus",
+          "version": "\u003e=2.5.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/aikopras/AP_DCC_Decoder_Core-1.6.0.zip",
+      "archiveFileName": "AP_DCC_Decoder_Core-1.6.0.zip",
+      "size": 1444093,
+      "checksum": "SHA-256:d89306879d1e06b73d760927fd93e9dff1cfe628afd5bf6fbaa24bf130e2d0fc"
     },
     {
       "name": "PY32LowPower",
@@ -1318032,6 +1319150,106 @@
       "checksum": "SHA-256:62f7476b96c9939a3d881a37dbe40f390320087d5b751b872f755a88d4c4e833"
     },
     {
+      "name": "ATGENXlib",
+      "version": "2.4.0",
+      "author": "ATGenX",
+      "maintainer": "Seif Emad \u003csupport@atgenx.com\u003e",
+      "sentence": "Modular runtime and ready-made components (buttons, sensors, LEDs, relays, buzzers, DHT, steppers and robots) for Arduino, ESP32 and Raspberry Pi Pico.",
+      "paragraph": "Non-blocking runtime, scheduler and event bus with debounced inputs, multi-click buttons and timed outputs. The official library behind the ATGenX visual builder (atgenx.com). WiFi provisioning and the smart-home hub are available on ESP32.",
+      "website": "https://github.com/ARDUTECH0/ATGENXlib-0.0.1",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ARDUTECH0/ATGENXlib-0.0.1.git",
+      "providesIncludes": [
+        "ATGENXlib.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DHT sensor library"
+        },
+        {
+          "name": "Adafruit Unified Sensor"
+        },
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "WebSockets"
+        },
+        {
+          "name": "Servo"
+        },
+        {
+          "name": "ESP32Servo"
+        },
+        {
+          "name": "FastAccelStepper"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGENXlib-2.4.0.zip",
+      "archiveFileName": "ATGENXlib-2.4.0.zip",
+      "size": 106718,
+      "checksum": "SHA-256:0c2845ce0cecce9891a8e140d8d3e1aa7fc72e384b2b40b3862a7e19b3e7315d"
+    },
+    {
+      "name": "ATGENXlib",
+      "version": "2.5.0",
+      "author": "ATGenX",
+      "maintainer": "Seif Emad \u003csupport@atgenx.com\u003e",
+      "sentence": "Modular runtime and ready-made components (buttons, sensors, LEDs, relays, buzzers, DHT, steppers and robots) for Arduino, ESP32 and Raspberry Pi Pico.",
+      "paragraph": "Non-blocking runtime, scheduler and event bus with debounced inputs, multi-click buttons and timed outputs. The official library behind the ATGenX visual builder (atgenx.com). WiFi provisioning and the smart-home hub are available on ESP32.",
+      "website": "https://github.com/ARDUTECH0/ATGENXlib-0.0.1",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ARDUTECH0/ATGENXlib-0.0.1.git",
+      "providesIncludes": [
+        "ATGENXlib.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DHT sensor library"
+        },
+        {
+          "name": "Adafruit Unified Sensor"
+        },
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "WebSockets"
+        },
+        {
+          "name": "Servo"
+        },
+        {
+          "name": "ESP32Servo"
+        },
+        {
+          "name": "FastAccelStepper"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGENXlib-2.5.0.zip",
+      "archiveFileName": "ATGENXlib-2.5.0.zip",
+      "size": 117630,
+      "checksum": "SHA-256:5a7bf4fec7e2a57a62bde757d7a6415aee05e8cc926aae5931092f561993a778"
+    },
+    {
       "name": "TimezoneTranslator",
       "version": "1.0.1",
       "author": "Costin Bobes",
@@ -1331006,6 +1332224,42 @@
       "checksum": "SHA-256:eb9d6d3108cf51bd6663ef0c4befdceb72395d98155e039b21ab476afa7bb4e2"
     },
     {
+      "name": "ATGenX_Hub",
+      "version": "2.8.0",
+      "author": "Seif Emad / ARDUTECH0",
+      "maintainer": "Seif Emad \u003csupport@atgenx.com\u003e",
+      "sentence": "Connect ESP32 / ESP8266 boards to the ATGenX IoT cloud: outputs, sensors, dashboard and automations.",
+      "paragraph": "Wi-Fi set from the ATGenX app (no network in the sketch). One MQTT connection for relays, LEDs, servos and sensors (DHT, PIR, LDR, analog, ultrasonic, sound) with non-blocking reconnect, online/offline status and board discovery.",
+      "website": "https://github.com/ARDUTECH0/ATGenXIOT",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ARDUTECH0/ATGenXIOT.git",
+      "providesIncludes": [
+        "ATGenXIOT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "PubSubClient"
+        },
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "DHT sensor library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGenX_Hub-2.8.0.zip",
+      "archiveFileName": "ATGenX_Hub-2.8.0.zip",
+      "size": 55145,
+      "checksum": "SHA-256:c5f91d4acad32dd338c319fad1fc66936b8891c8cfbfc9436cb7d2ff55a0b740"
+    },
+    {
       "name": "OptimizedGPIO",
       "version": "1.0.0",
       "author": "mumanchu \u003cinfo@muman.ch\u003e",
@@ -1340358,6 +1341612,30 @@
       "checksum": "SHA-256:f5693ab4ef3377b6aa23bfe978f0a44bfc6b4eb8c34863e7737c05de95b50590"
     },
     {
+      "name": "at_client",
+      "version": "1.0.2",
+      "author": "Atsign Foundation",
+      "maintainer": "Atsign Foundation \u003cinfo@atsign.com\u003e",
+      "sentence": "Atsign atSDK client library for Arduino/ESP32 - atProtocol, crypto, networking, and activation.",
+      "paragraph": "Provides atchops (cryptographic operations), atclient (atProtocol client, monitor, notifications), atauth (atsign activation/onboarding/enrollment), atlogger, and cJSON for building atProtocol applications on ESP32.",
+      "website": "https://github.com/atsign-foundation/at_client_arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/atsign-foundation/at_client_arduino.git",
+      "providesIncludes": [
+        "atsdk.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/atsign-foundation/at_client-1.0.2.zip",
+      "archiveFileName": "at_client-1.0.2.zip",
+      "size": 267460,
+      "checksum": "SHA-256:74c407bbc69995543ee454f0e98a7052f0951f64c92a8d77c0b85e91d375dde4"
+    },
+    {
       "name": "FTPSclientOPTA",
       "version": "0.2.1",
       "author": "dorkmo",
@@ -1345242,6 +1346520,64 @@
       "archiveFileName": "RumiCar-0.5.0.zip",
       "size": 31967,
       "checksum": "SHA-256:b645c60d3e837b8f2d20875ba172bb8dabcc1104ea58a58407e7668ebf4cbc85"
+    },
+    {
+      "name": "RumiCar",
+      "version": "0.5.1",
+      "author": "RumiCar-group \u003cinfo@rumicar.com\u003e",
+      "maintainer": "RumiCar-group \u003cinfo@rumicar.com\u003e",
+      "sentence": "Library for controlling the RumiCar autonomous driving platform.",
+      "paragraph": "Provides setup and control functions for steering and drive motors, and initializes three front VL53L0X laser distance sensors plus an optional rear VL53L0X (auto-detected). Supports Arduino AVR, ESP32, Spresense, and Raspberry Pi Pico W.",
+      "website": "https://github.com/RumiCar-group/RumiCar-lib",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RumiCar-group/RumiCar-lib.git",
+      "providesIncludes": [
+        "RumiCar.h"
+      ],
+      "dependencies": [
+        {
+          "name": "VL53L0X"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RumiCar-group/RumiCar-0.5.1.zip",
+      "archiveFileName": "RumiCar-0.5.1.zip",
+      "size": 33092,
+      "checksum": "SHA-256:23ab1aeac82735e190b5e3a1737b4c0026fccc16f4813a77ce2701c3412ee0b7"
+    },
+    {
+      "name": "RumiCar",
+      "version": "0.6.0",
+      "author": "RumiCar-group \u003cinfo@rumicar.com\u003e",
+      "maintainer": "RumiCar-group \u003cinfo@rumicar.com\u003e",
+      "sentence": "Library for controlling the RumiCar autonomous driving platform.",
+      "paragraph": "Provides setup and control functions for steering and drive motors, and initializes three front VL53L0X laser distance sensors plus an optional rear VL53L0X (auto-detected). Supports Arduino AVR, ESP32, Spresense, and Raspberry Pi Pico W.",
+      "website": "https://github.com/RumiCar-group/RumiCar-lib",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RumiCar-group/RumiCar-lib.git",
+      "providesIncludes": [
+        "RumiCar.h"
+      ],
+      "dependencies": [
+        {
+          "name": "VL53L0X"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RumiCar-group/RumiCar-0.6.0.zip",
+      "archiveFileName": "RumiCar-0.6.0.zip",
+      "size": 36277,
+      "checksum": "SHA-256:491f5728a6e0f10b3522a834bc5fb92af333b62f35860c94e0af3ea1cb6f7c7d"
     },
     {
       "name": "dv_led_blink",
@@ -1412387,6 +1413723,30 @@
       "checksum": "SHA-256:3d756bcde36d7b9a320f216c5c05ff6773aa7f9c62dcaea812fc79204830862e"
     },
     {
+      "name": "TempestTCode",
+      "version": "0.4.5",
+      "author": "TempestMAx",
+      "maintainer": "TempestMAx",
+      "sentence": "TCode protocol parser and multi-axis motion library for DIY stroker devices.",
+      "paragraph": "Implements TCode v0.4 command parsing, per-axis motion, and EEPROM/Preferences range save. Intended for OSR2, SR6, SSR1, SSR2 and other TCode-compatible firmware.",
+      "website": "https://github.com/multiaxis/TempestTCode",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/multiaxis/TempestTCode.git",
+      "providesIncludes": [
+        "TCode.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/multiaxis/TempestTCode-0.4.5.zip",
+      "archiveFileName": "TempestTCode-0.4.5.zip",
+      "size": 32836,
+      "checksum": "SHA-256:194c0ae103f4c50e27db6b36a2c45978f06bc129ea6f927b0011260c5ae648f7"
+    },
+    {
       "name": "Adafruit TCS3448",
       "version": "1.0.0",
       "author": "Adafruit",
@@ -1415395,6 +1416755,27 @@
       "archiveFileName": "Periph-1.4.0.zip",
       "size": 1207016,
       "checksum": "SHA-256:1d888e43c80d51fc705b378da155d7328df5a60119331360ec119dd2e1423897"
+    },
+    {
+      "name": "Periph",
+      "version": "1.5.0",
+      "author": "Till Uhde",
+      "maintainer": "Till Uhde \u003ctill@uhde.com\u003e",
+      "sentence": "Peripheral chip drivers for Arduino (I2C/SPI).",
+      "paragraph": "Drivers for sensors and actuators connected via I2C or SPI transports.",
+      "website": "https://github.com/tuhde/Periph",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tuhde/Periph-Arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/tuhde/Periph-1.5.0.zip",
+      "archiveFileName": "Periph-1.5.0.zip",
+      "size": 1465666,
+      "checksum": "SHA-256:faaf486943abdd6704f2c024497c8df3a183adfb765262967b90836e155656df"
     },
     {
       "name": "eOS3",
@@ -1434268,6 +1435649,40 @@
       "checksum": "SHA-256:347793bc20e513864f62d7aed5df45d17b28a4d6d5d033d77e7d92a38446d758"
     },
     {
+      "name": "ocean_imu",
+      "version": "2.7.6",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.7.6.zip",
+      "archiveFileName": "ocean_imu-2.7.6.zip",
+      "size": 35416893,
+      "checksum": "SHA-256:6995c4de224706504b3a1dea8a3f4296e892541d0aeba7cb5cda612c4150660d"
+    },
+    {
       "name": "AlashBME280",
       "version": "1.0.0",
       "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
@@ -1438905,6 +1440320,27 @@
       "checksum": "SHA-256:66cb03df22600b1701872f2d57a84fd4b92f032b3b00a0f3d93fe94d096e18c8"
     },
     {
+      "name": "PMRcon",
+      "version": "1.1.0",
+      "author": "Guilherme Keiel",
+      "maintainer": "Guilherme Keiel",
+      "sentence": "Digital PMR controller library for Arduino.",
+      "paragraph": "Supports multiple resonant modes at configurable harmonic frequencies.",
+      "website": "https://github.com/gkeiel/PMRcon",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/gkeiel/PMRcon.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/gkeiel/PMRcon-1.1.0.zip",
+      "archiveFileName": "PMRcon-1.1.0.zip",
+      "size": 6565,
+      "checksum": "SHA-256:f692489a9943f72992a7e01872b220ba3d094db6dab88cfec0737d013508c86c"
+    },
+    {
       "name": "Bonezegei_AHT10",
       "version": "1.0.0",
       "author": "Bonezegei (Jofel Batutay)",
@@ -1440319,6 +1441755,35 @@
       "checksum": "SHA-256:e98b39c9dc9297b4741eda3c4db6e2c5205b3403dc08fa81ff8911c3dc0ec68e"
     },
     {
+      "name": "SevenSegmentClock595",
+      "version": "1.0.1",
+      "author": "Saiful Ali",
+      "maintainer": "saiful Adli \u003csaifuladli79gs@gmail.com\u003e",
+      "sentence": "A driver and clock engine for 6-digit 7-segment displays using 3x 74HC595, UDN2981, and ULN2803A.",
+      "paragraph": "Supports 6-digit high-voltage multiplexing, twin ticking colons, 7 day-of-week LEDs, DS1307 RTC integration, automatic periodic calendar display, programmable alarm with NVRAM persistence, and interactive pushbutton menu navigation.",
+      "website": "https://github.com/saifulAdli79/SevenSegmentWallClock",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/saifulAdli79/arduino-wall-clock-v2.git",
+      "providesIncludes": [
+        "SevenSegmentClock595.h"
+      ],
+      "dependencies": [
+        {
+          "name": "RTClib"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/saifulAdli79/SevenSegmentClock595-1.0.1.zip",
+      "archiveFileName": "SevenSegmentClock595-1.0.1.zip",
+      "size": 17133,
+      "checksum": "SHA-256:7fe58224b930bb89603b5ca2606c060b9f8f6a0603d0331437382361ed328255"
+    },
+    {
       "name": "UUtzinger_MPR",
       "version": "1.0.0",
       "author": "Urs Utzinger",
@@ -1440466,6 +1441931,115 @@
       "archiveFileName": "NuaSense-0.1.2.zip",
       "size": 10821,
       "checksum": "SHA-256:bcc7b0c1f58284bfa4994a52df5c3bbf0667cc842158fdb7301ccaf46bf310c5"
+    },
+    {
+      "name": "Wilcoxon883MRTU",
+      "version": "0.1.0-beta.4",
+      "author": "Dineshpal Singh",
+      "maintainer": "Dineshpal Singh",
+      "sentence": "Beta ESP32 and RP2040/RP2350 Modbus RTU client for the Wilcoxon 883M sensor, with an optional Modbus TCP server for PLCs.",
+      "paragraph": "Independent RTU and TCP implementation with CRC validation, bounded register reads, read-only discovery, basic vibration and temperature helpers, and a multi-client Modbus TCP register server. Bench testing required.",
+      "website": "https://github.com/dineshpalsingh1989/Wilcoxon883MRTU",
+      "category": "Sensors",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dineshpalsingh1989/Wilcoxon883MRTU.git",
+      "providesIncludes": [
+        "Wilcoxon883MRTU.h",
+        "Wilcoxon883MTCP.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dineshpalsingh1989/Wilcoxon883MRTU-0.1.0-beta.4.zip",
+      "archiveFileName": "Wilcoxon883MRTU-0.1.0-beta.4.zip",
+      "size": 47954,
+      "checksum": "SHA-256:cab1048665fcbc130b2090f9eef238c1640eec62b454b35fb2871d039254e4c1"
+    },
+    {
+      "name": "Modest-IoT-Nano-Framework",
+      "version": "1.0.0",
+      "author": "Angel Velasquez",
+      "maintainer": "Angel Velasquez \u003cavelasquezn@gmail.com\u003e",
+      "license": "Apache-2.0",
+      "sentence": "An event-driven, asynchronous IoT framework for ESP32, designed to build complex and responsive applications without the limitations of traditional procedural loops.",
+      "paragraph": "Built on a robust object-oriented architecture, Modest IoT enforces Inversion of Control (IoC) and strict communication layer separation. It leverages thread-safe background task messaging queues driven natively by hardware timers, enabling you to build sophisticated, modular, and highly responsive IoT devices while focusing on application logic.",
+      "website": "https://github.com/modest-iot/modest-iot-nano-framework",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/modest-iot/modest-iot-nano-framework.git",
+      "providesIncludes": [
+        "ModestIoT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=7.0.0"
+        },
+        {
+          "name": "MQTT",
+          "version": "\u003e=2.5.3"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/modest-iot/Modest_IoT_Nano_Framework-1.0.0.zip",
+      "archiveFileName": "Modest_IoT_Nano_Framework-1.0.0.zip",
+      "size": 438547,
+      "checksum": "SHA-256:6fce58e7a96a9fa1c97137b6e1eb70481ef2051c27c9533e9dceb16ed7eee68b"
+    },
+    {
+      "name": "RSbusMaster",
+      "version": "1.0.0",
+      "author": "Aiko Pras",
+      "maintainer": "Aiko Pras",
+      "sentence": "RS-Bus Master library for RP2040/RP2350",
+      "paragraph": "Generates RS-Bus polling cycles and receives feedback messages using PIO hardware.",
+      "website": "https://github.com/aikopras/RSbusMaster/",
+      "category": "Device Control",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/aikopras/RSbusMaster.git",
+      "providesIncludes": [
+        "RSbusMaster.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/aikopras/RSbusMaster-1.0.0.zip",
+      "archiveFileName": "RSbusMaster-1.0.0.zip",
+      "size": 234970,
+      "checksum": "SHA-256:2144a6a3a55f9b6b2e30c8c71f5bfec82828e26e72d9324271c592f0b8cf1b28"
+    },
+    {
+      "name": "NLTP",
+      "version": "1.6.0",
+      "author": "Amandeep Bains",
+      "maintainer": "Amandeep Bains",
+      "sentence": "Loss-resilient forward-secret encrypted UDP \u0026 ESP-NOW v1/v2 transport with LZ4 compression \u0026 4.7 KB TX-only MCU profile.",
+      "paragraph": "Wire-compatible with the Python, JS, and Java nltp SDKs. Combines GF(2^8) Cauchy forward error correction, built-in zero-dependency LZ4 block compression, ultra-light 4.7 KB RAM NLTP_TX_ONLY sensor mode, reliable out-of-line reflex commands, BBR-style delivery-rate pacing, X25519+PSK forward-secret ChaCha20-Poly1305 encryption with 512-packet anti-replay protection, NAT keepalives, and zero-knowledge CGNAT relay rooms in zero-float C99.",
+      "website": "https://indian-aman.github.io/necklink/nltp/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/indian-aman/NLTP-Arduino.git",
+      "providesIncludes": [
+        "NLTP.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/indian-aman/NLTP-1.6.0.zip",
+      "archiveFileName": "NLTP-1.6.0.zip",
+      "size": 70048,
+      "checksum": "SHA-256:afa7f8b528ca645c2d9c63306864235676239cb29d72ffb1d9889d4ded3c6e42"
     }
   ]
 }
