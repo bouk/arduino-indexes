@@ -9612,6 +9612,35 @@
       "checksum": "SHA-256:93c4d736cdbf187b72d4921a8eb12d94627dd1aff21f996ac40d8ccbe3af6cc2"
     },
     {
+      "name": "ArduinoBLE",
+      "version": "2.1.1",
+      "author": "Arduino",
+      "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+      "sentence": "Enables Bluetooth® Low Energy connectivity on the Arduino MKR WiFi 1010, Arduino UNO WiFi Rev2, Arduino Nano 33 IoT, Arduino Nano 33 BLE, Nicla Sense ME and UNO R4 WiFi.",
+      "paragraph": "This library supports creating a Bluetooth® Low Energy peripheral \u0026 central mode.",
+      "website": "https://www.arduino.cc/en/Reference/ArduinoBLE",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "repository": "https://github.com/arduino-libraries/ArduinoBLE.git",
+      "providesIncludes": [
+        "ArduinoBLE.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Arduino_SpiNINA"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/ArduinoBLE-2.1.1.zip",
+      "archiveFileName": "ArduinoBLE-2.1.1.zip",
+      "size": 243160,
+      "checksum": "SHA-256:069e2d42f2c15ebf24462efe72633d66210a753e65efa5f808d7e1c19f026f23"
+    },
+    {
       "name": "MKRNB",
       "version": "1.0.0",
       "author": "Arduino",
@@ -61965,6 +61994,27 @@
       "archiveFileName": "MQTT-2.5.3.zip",
       "size": 47712,
       "checksum": "SHA-256:e5ebad5b073ff1c9e893592d53540035dc78cba34fa182b8491ca4e35bebef9f"
+    },
+    {
+      "name": "MQTT",
+      "version": "2.6.0",
+      "author": "Joel Gaehwiler \u003cjoel.gaehwiler@gmail.com\u003e",
+      "maintainer": "Joel Gaehwiler \u003cjoel.gaehwiler@gmail.com\u003e",
+      "sentence": "MQTT library for Arduino",
+      "paragraph": "This library bundles the lwmqtt client and adds a thin wrapper to get an Arduino like API.",
+      "website": "https://github.com/256dpi/arduino-mqtt",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/256dpi/arduino-mqtt.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/256dpi/MQTT-2.6.0.zip",
+      "archiveFileName": "MQTT-2.6.0.zip",
+      "size": 48610,
+      "checksum": "SHA-256:319067b723a6d97a9c8c2320e960f9ae882ae4025a7fd744d75520ce38f68e69"
     },
     {
       "name": "ModbusMaster",
@@ -280824,6 +280874,30 @@
       "checksum": "SHA-256:db7d31ea995c4886da1ef498373dd0a3a7f72ee37b1259d1a83bf0ca3753499c"
     },
     {
+      "name": "TeensyStep",
+      "version": "3.0.0-beta.1",
+      "author": "luni64",
+      "maintainer": "luni64",
+      "sentence": "Stepper motor library for PJRC Teensy boards (Teensy 4.0, 4.1, MicroMod, 3.5, 3.6), for drivers with STEP and DIR inputs.",
+      "paragraph": "Version 3 (beta, the interface can still change in details). Step rates up to 300000 steps/s, up to 16 motors or synchronized groups of motors at the same time, changes of target, speed and acceleration during a move. Sketches written for version 2 still compile. Teensy 3.0 to 3.2, LC and STM32 are not supported by version 3; use version 2.3.4 on these boards.",
+      "website": "https://luni64.github.io/TeensyStep/",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/luni64/TeensyStep.git",
+      "providesIncludes": [
+        "TeensyStep.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/luni64/TeensyStep-3.0.0-beta.1.zip",
+      "archiveFileName": "TeensyStep-3.0.0-beta.1.zip",
+      "size": 392219,
+      "checksum": "SHA-256:016dc5823a6ae6ced0bfd9a7c7f2bf329eda10a8c17a4b44ae16f1bb33b2de50"
+    },
+    {
       "name": "arduino-timer",
       "version": "0.0.1",
       "author": "Michael Contreras",
@@ -298014,6 +298088,38 @@
       "archiveFileName": "MobaTools-3.1.2.zip",
       "size": 847958,
       "checksum": "SHA-256:edfaf28a0cfb21c8154a7dda9c3a6ed27b3a684e39e06d123389719f87469e3a"
+    },
+    {
+      "name": "MobaTools",
+      "version": "3.1.3",
+      "author": "MicroBahner",
+      "maintainer": "MicroBahner, f-pm+gh@mailbox.org",
+      "sentence": "Functions (steppers, servos, leds) for model railroaders( and for others too )",
+      "paragraph": "Bibliothek mit Funktionen für \u003cb\u003eSchrittmotore, Servos, Leds und zum entprellten Einlesen von Tastern/Schaltern\u003c/b\u003e, für arduino uno/Nano R2/R3/R4, mini, nano, leonardo, micro and mega, some ATtiny, STM32, SamD and ESP32(Sx/Cx) und ESP8266\u003cbr /\u003e- Steuern von bis zu \u003cb\u003e16 Servos\u003c/b\u003e mit Geschwindigkeitskontrolle. \u003cbr /\u003e- Bis zu \u003cb\u003e6 Schrittmotore\u003c/b\u003e mit \u003cb\u003eBeschleunigungs/Bremsfunktion\u003c/b\u003e\u003cbr /\u003e- Funktionen zum weichen \u003cb\u003eauf/abblenden von Leds\u003c/b\u003e.\u003cbr /\u003e- Zeitgeberfunktion.\u003cbr /\u003e- Einlesen von \u003cb\u003ebis zu 32 Tastern/Schaltern\u003c/b\u003e mit Ereignisfunktionen\u003cbr\u003e \u003cbr\u003e This library can control\u003cbr\u003e- up to 16 \u003cb\u003eservos with speed control\u003c/b\u003e and\u003cbr\u003e - up to 6 \u003cb\u003estepper motors with accelerating and decelerating\u003c/b\u003e.\u003cbr\u003e- There are also functions for a \u003cb\u003ebulb simulation with leds\u003c/b\u003e.\u003cbr /\u003e- Reading of \u003cb\u003eup to 32 buttons/switchws with event functions\u003c/b\u003e\u003cbr\u003eIt intensively uses timer functions. THe used timer depends on the used board.\u003cbr\u003e",
+      "website": "https://github.com/MicroBahner/MobaTools",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "STM32F1",
+        "esp8266",
+        "esp32",
+        "megaavr",
+        "renesas_uno",
+        "rp2040",
+        "samd",
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/MicroBahner/MobaTools.git",
+      "providesIncludes": [
+        "MobaTools.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/MicroBahner/MobaTools-3.1.3.zip",
+      "archiveFileName": "MobaTools-3.1.3.zip",
+      "size": 848206,
+      "checksum": "SHA-256:ab0613a6c45b46aa3a796ad849f060ec78de7d4b600049015e6b4ccd760c4f3d"
     },
     {
       "name": "esp32FOTA",
@@ -563766,6 +563872,31 @@
       "checksum": "SHA-256:5b48f2688ac1e618f66094d3d784cfbf9d16539de9077e82d0b8c4cda0c83d3f"
     },
     {
+      "name": "Freenove WS2812 Lib for ESP32",
+      "version": "2.0.2",
+      "author": "Freenove",
+      "maintainer": "Freenove \u003crd@freenove.com\u003e",
+      "sentence": "An Arduino library for WS2812 led on ESP32.\u003cbr /\u003e",
+      "paragraph": "Arduino library for WS2812B on ESP32. Dual RMT backend for arduino-esp32 2.0.x (IDF 4.x) and 3.x (IDF 5.x).",
+      "website": "https://github.com/Freenove/Freenove_WS2812_Lib_for_ESP32",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "esp32s3"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Freenove/Freenove_WS2812_Lib_for_ESP32.git",
+      "providesIncludes": [
+        "Freenove_WS2812_Lib_for_ESP32.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Freenove/Freenove_WS2812_Lib_for_ESP32-2.0.2.zip",
+      "archiveFileName": "Freenove_WS2812_Lib_for_ESP32-2.0.2.zip",
+      "size": 73291,
+      "checksum": "SHA-256:662aa471485cc0ff39dd4b93dbe43fb8b84333c89cec62b80ad050d6d2ead3e3"
+    },
+    {
       "name": "MDNS_Generic",
       "version": "1.0.0",
       "author": "Georg Kaindl \u003cinfo@gkaindl.com\u003e, Khoi Hoang \u003ckhoih.prog@gmail.com\u003e",
@@ -720328,6 +720459,31 @@
       "archiveFileName": "RSbus-2.5.0.zip",
       "size": 4576015,
       "checksum": "SHA-256:55de1d5c52f8d5470fa733b454a13701df0b809f7007c86a8b73ac02b98817c3"
+    },
+    {
+      "name": "RSbus",
+      "version": "2.5.1",
+      "author": "Aiko Pras",
+      "maintainer": "Aiko Pras",
+      "sentence": "Library for the (Lenz) RS-bus protocol",
+      "paragraph": "Send DCC decoder feedback information to a (LZV) master station. The RS-bus supports a maximum of 128 feedback addresses, numbered 1 to 128.",
+      "website": "https://github.com/aikopras/RSbus/",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "megaavr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/aikopras/RSbus.git",
+      "providesIncludes": [
+        "RSbus.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/aikopras/RSbus-2.5.1.zip",
+      "archiveFileName": "RSbus-2.5.1.zip",
+      "size": 4576062,
+      "checksum": "SHA-256:a646948d75dcd784a5adae9d269be158335aa5e06ef15d78978323f7d90a1885"
     },
     {
       "name": "mDNSResolver",
@@ -886757,6 +886913,35 @@
       "checksum": "SHA-256:faecee76954582446dc5d7c133cc06d8d2b323e110937c1063b10f1f09ac7362"
     },
     {
+      "name": "Boho",
+      "version": "1.1.0",
+      "author": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "maintainer": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "sentence": "Data encryption and client-server authentication for Arduino.",
+      "paragraph": "Encrypt and verify data, authenticate clients and servers with shared keys, and exchange encrypted messages with JavaScript peers. Supports end-to-end encryption with separate data keys and integrates with IOSignal.",
+      "website": "https://github.com/remocons/boho-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/remocons/boho-arduino.git",
+      "providesIncludes": [
+        "Boho.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Crypto"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/remocons/Boho-1.1.0.zip",
+      "archiveFileName": "Boho-1.1.0.zip",
+      "size": 25906,
+      "checksum": "SHA-256:07dad4e0224221f017df25a9610c5b596459f624eeef12432115984789ccb6f2"
+    },
+    {
       "name": "A1301",
       "version": "0.1.0",
       "author": "Rob Tillaart \u003crob.tillaart@gmail.com\u003e",
@@ -889982,6 +890167,47 @@
       "archiveFileName": "Excelsior-1.2.3.zip",
       "size": 66692,
       "checksum": "SHA-256:382aeebd80cc81f317e71553cd8934efd134eaf6eb53ece65db7cc738bd6a064"
+    },
+    {
+      "name": "Excelsior",
+      "version": "1.2.5",
+      "author": "Frederik Eberhard, Tim Hartmann",
+      "maintainer": "Tim Hartmann \u003ctim.hartmann@gbg-seelze.eu\u003e",
+      "sentence": "Functions as a beginners guide to programm the Excelsior-Brick.",
+      "paragraph": "Designed to help beginners in robotics start to learn programming. It offers many functions to lead the way but also guides more advanced students to programm more closely to the hardware, as no functions of the underlying microcontroller has been disabled.",
+      "website": "\"https://github.com/Excelsior-Robotics/Excelsior\"",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Excelsior-Robotics/Excelsior.git",
+      "providesIncludes": [
+        "Excelsior.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit SSD1306"
+        },
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit Unified Sensor"
+        },
+        {
+          "name": "Adafruit BNO055"
+        },
+        {
+          "name": "Array"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Excelsior-Robotics/Excelsior-1.2.5.zip",
+      "archiveFileName": "Excelsior-1.2.5.zip",
+      "size": 67723,
+      "checksum": "SHA-256:195962cb1e424d1a5529e1dc4b0036ee5915f87c44107df911e4ea9890e00aba"
     },
     {
       "name": "Deneyap Gercek Zamanli Saat",
@@ -945578,6 +945804,27 @@
       "archiveFileName": "LiteLED-3.3.0.zip",
       "size": 107232,
       "checksum": "SHA-256:89515c580ef8b8820c2dc9054001cce1ed16037d8f8722b4024cf0a324e1350c"
+    },
+    {
+      "name": "LiteLED",
+      "version": "3.3.1",
+      "author": "Xylopyrographer",
+      "maintainer": "Xylopyrographer \u003cxylopyrographer@gmail.com\u003e",
+      "sentence": "High performance library for driving one or more WS2812 and other types of RGB LED strips via the RMT or PARLIO peripheral.",
+      "paragraph": "Provides hardware-accelerated control using either RMT or the PARLIO parallel-IO peripheral. Supports multiple independent strips; arbitrary colour orders; DMA transfers; interrupt priority; PSRAM buffer allocation; and driving multiple strips in sync. Requires an ESP32 SoC with an RMT and/or a PARLIO peripheral. Drives RGBW strips with auto white-channel calculation.",
+      "website": "https://github.com/Xylopyrographer/LiteLED",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Xylopyrographer/LiteLED.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Xylopyrographer/LiteLED-3.3.1.zip",
+      "archiveFileName": "LiteLED-3.3.1.zip",
+      "size": 110704,
+      "checksum": "SHA-256:93c0be819dd72ff2e5797f11a6a80eccc70959da3af28a475d5b332d4f58929e"
     },
     {
       "name": "Eventfun",
@@ -1028062,6 +1028309,39 @@
       "checksum": "SHA-256:96839409f18babcf06435da61e90a88d1b3d0b86087538c5ee26e8dcccc1008a"
     },
     {
+      "name": "IOSignal",
+      "version": "9.21.0",
+      "author": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "maintainer": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "sentence": "IOSignal Arduino Client.",
+      "paragraph": "Support Uno Ethernet,Uno R4 WiFi, ESP8266 and ESP32.",
+      "website": "https://github.com/remocons/iosignal-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/remocons/iosignal-arduino.git",
+      "dependencies": [
+        {
+          "name": "Boho",
+          "version": "\u003e=1.1.0"
+        },
+        {
+          "name": "Crypto"
+        },
+        {
+          "name": "Bounce2"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-9.21.0.zip",
+      "archiveFileName": "IOSignal-9.21.0.zip",
+      "size": 1424659,
+      "checksum": "SHA-256:88e3b30124b8f5c33a799660e581556bfcde28fd4592bbcd386ca2941c5a96f1"
+    },
+    {
       "name": "SpeeduinoGL",
       "version": "0.0.1",
       "author": "Benjamin Gombala",
@@ -1033557,6 +1033837,108 @@
       "archiveFileName": "Remocon-9.14.8.zip",
       "size": 1945325,
       "checksum": "SHA-256:d8d48149fa6ea9da60ec5ae2480587133586a5837d6b3295e7679fdba1a94e0c"
+    },
+    {
+      "name": "Remocon",
+      "version": "9.21.0",
+      "author": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "maintainer": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "sentence": "IOSignal Arduino examples for remocon.kr and test.iosignal.net.",
+      "paragraph": "Control DIY Arduino IoT remote control system with the web app.",
+      "website": "https://github.com/remocons/remocon-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/remocons/remocon-arduino.git",
+      "dependencies": [
+        {
+          "name": "IOSignal",
+          "version": "\u003e=9.21.0"
+        },
+        {
+          "name": "Crypto"
+        },
+        {
+          "name": "Boho"
+        },
+        {
+          "name": "Bounce2"
+        },
+        {
+          "name": "U8g2"
+        },
+        {
+          "name": "IRremote"
+        },
+        {
+          "name": "WiFiManager"
+        },
+        {
+          "name": "FastLED"
+        },
+        {
+          "name": "Ethernet"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/remocons/Remocon-9.21.0.zip",
+      "archiveFileName": "Remocon-9.21.0.zip",
+      "size": 1946060,
+      "checksum": "SHA-256:1b19de9ea0a4484a7f04cd594d4fd32b7b10fb14631138e9dae8add6530329e9"
+    },
+    {
+      "name": "Remocon",
+      "version": "9.22.0",
+      "author": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "maintainer": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "sentence": "IOSignal Arduino examples for remocon.kr and test.iosignal.net.",
+      "paragraph": "Control DIY Arduino IoT remote control system with the web app.",
+      "website": "https://github.com/remocons/remocon-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/remocons/remocon-arduino.git",
+      "dependencies": [
+        {
+          "name": "IOSignal",
+          "version": "\u003e=9.21.0"
+        },
+        {
+          "name": "Crypto"
+        },
+        {
+          "name": "Boho"
+        },
+        {
+          "name": "Bounce2"
+        },
+        {
+          "name": "U8g2"
+        },
+        {
+          "name": "IRremote"
+        },
+        {
+          "name": "WiFiManager"
+        },
+        {
+          "name": "FastLED"
+        },
+        {
+          "name": "Ethernet"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/remocons/Remocon-9.22.0.zip",
+      "archiveFileName": "Remocon-9.22.0.zip",
+      "size": 1956254,
+      "checksum": "SHA-256:cdf4296c318146240694ffbf2de8bdd89a7261e3445ece1b76db52aff4684808"
     },
     {
       "name": "SimplifiedTimer",
@@ -1091209,6 +1091591,31 @@
       "checksum": "SHA-256:0f42d3925f9de1630a7a24c8cee08e9d8b5234abc07000fadfbb7d7f45ee820b"
     },
     {
+      "name": "mcu-max",
+      "version": "2.0.0",
+      "author": "Gissio",
+      "maintainer": "Gissio",
+      "license": "MIT",
+      "sentence": "An MCU-optimized C-language chess game engine based on micro-Max.",
+      "paragraph": "mcu-max comes with an Arduino serial port example, and a UCI example for interfacing mcu-max with UCI-compatible chess programs.",
+      "website": "https://github.com/Gissio/mcu-max",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Gissio/mcu-max.git",
+      "providesIncludes": [
+        "mcu-max.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Gissio/mcu_max-2.0.0.zip",
+      "archiveFileName": "mcu_max-2.0.0.zip",
+      "size": 215839,
+      "checksum": "SHA-256:0e908cb6b78c12cbafdba01b1f00bdcbe56375c8d30fb847f146ee761b203c8c"
+    },
+    {
       "name": "byte-sized-encoder-decoder",
       "version": "1.0.1",
       "author": "RCM Games \u003crobot.control.modules@gmail.com\u003e",
@@ -1136807,6 +1137214,28 @@
       "checksum": "SHA-256:c1a2abcbe179aa91e091a774186cb3c1fabf7ea9ca69fad3ad0911c7bc97fc60"
     },
     {
+      "name": "EspNowNetworkHostDriver",
+      "version": "0.7.8",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "GPL-3.0-or-later",
+      "sentence": "Host driver code for the EspNowNetwork",
+      "paragraph": "See https://github.com/Johboh/EspNowNetwork for more details.",
+      "website": "https://github.com/Johboh/EspNowNetworkHostDriver",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/EspNowNetworkHostDriver.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/EspNowNetworkHostDriver-0.7.8.zip",
+      "archiveFileName": "EspNowNetworkHostDriver-0.7.8.zip",
+      "size": 51374,
+      "checksum": "SHA-256:95d636eb22d8784d97f31cea7783fabb6bb7b095e1fcf414b96efad7eefd1581"
+    },
+    {
       "name": "EspNowNetworkNode",
       "version": "0.7.0",
       "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
@@ -1137069,6 +1137498,28 @@
       "archiveFileName": "EspNowNetworkNode-0.8.4.zip",
       "size": 46530,
       "checksum": "SHA-256:f21b1dba533f34f48eea3524ef15a931be65ebf5248d448e1d8478ed6238a8e6"
+    },
+    {
+      "name": "EspNowNetworkNode",
+      "version": "0.8.5",
+      "author": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "maintainer": "Johan Böhlin \u003cgithub@johboh.dev\u003e",
+      "license": "GPL-3.0-or-later",
+      "sentence": "Node code for the EspNowNetwork",
+      "paragraph": "See https://github.com/Johboh/EspNowNetwork for more details.",
+      "website": "https://github.com/Johboh/EspNowNetworkNode",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Johboh/EspNowNetworkNode.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Johboh/EspNowNetworkNode-0.8.5.zip",
+      "archiveFileName": "EspNowNetworkNode-0.8.5.zip",
+      "size": 38942,
+      "checksum": "SHA-256:84ac8ebaee34a06ea0e9a6cb7c727bae4bd1daba1215bc0e3f12e8fa8a163191"
     },
     {
       "name": "goblin3d",
@@ -1330438,6 +1330889,30 @@
       "checksum": "SHA-256:ef416ef061d775695812e0013fcfd6a8de50c34d05f29d890d5e096ec04fecda"
     },
     {
+      "name": "BuzzerPIO_RP2040",
+      "version": "2.5.1",
+      "author": "Ângelo Moisés Alves",
+      "maintainer": "Ângelo Moisés Alves",
+      "sentence": "Ultrasonic PWM tone generation for passive buzzers using the RP2040 PIO coprocessor.",
+      "paragraph": "Dual state-machine architecture: SM1 generates an ultrasonic PWM carrier (~95 kHz) for distortion-free volume control, SM2 gates it at the audible frequency. Uses only 4 PIO instructions, auto-probes both PIO blocks, zero DMA, zero IRQ handlers. Multi-core safe via hardware spinlock. Coexists with OneWirePIO, DHT22PIO, and CYW43 WiFi. Non-blocking melody sequencing via hardware alarm chain with completion callback. Pause/resume support. Perceptually linear volume curve. Drop-in replacement for v1.x/v2.x.",
+      "website": "https://github.com/angeloINTJ/BuzzerPIO_RP2040",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/angeloINTJ/BuzzerPIO_RP2040.git",
+      "providesIncludes": [
+        "BuzzerPIO_RP2040.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/BuzzerPIO_RP2040-2.5.1.zip",
+      "archiveFileName": "BuzzerPIO_RP2040-2.5.1.zip",
+      "size": 38358,
+      "checksum": "SHA-256:2abcde4c30ac47a938e15cee6485ac107f651c39d41bb9a858e490afecbef386"
+    },
+    {
       "name": "ESP32_Azure_MQTT_Manager",
       "version": "1.0.0",
       "author": "Rohit K. Shaw",
@@ -1352293,6 +1352768,31 @@
       "archiveFileName": "SimpleOTAClient-1.0.0.zip",
       "size": 152089,
       "checksum": "SHA-256:a87dffd7247180003def85c35155b6bd8828cdd2f5df7346d668e69cb36609fe"
+    },
+    {
+      "name": "SimpleOTAClient",
+      "version": "1.0.1",
+      "author": "SimpleOTA \u003csupport@simpleota.com\u003e",
+      "maintainer": "SimpleOTA \u003csupport@simpleota.com\u003e",
+      "license": "MIT",
+      "sentence": "Thin Arduino-ESP32 client for the SimpleOTA firmware update platform.",
+      "paragraph": "The same C API as the SimpleOTA ESP-IDF component (simpleota.h). Checks for updates, streams and flashes firmware with on-the-fly SHA-256 and Ed25519 signature verification, runs each new image as a trial that rolls back unless confirmed, refuses downgrades, and reports lifecycle events. Works over any network: the sketch owns Wi-Fi or Ethernet bring-up.",
+      "website": "https://github.com/wassie-dev/simpleOTAClient-Arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/wassie-dev/simpleOTAClient-Arduino.git",
+      "providesIncludes": [
+        "simpleota.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/wassie-dev/SimpleOTAClient-1.0.1.zip",
+      "archiveFileName": "SimpleOTAClient-1.0.1.zip",
+      "size": 158046,
+      "checksum": "SHA-256:a9392199805329ef3e8e4802f631b6a3cd6adc6018458b8bda676fb980392ee2"
     },
     {
       "name": "EmbedDIP",
@@ -1384892,6 +1385392,39 @@
       "archiveFileName": "LionLogger-1.1.0.zip",
       "size": 17787,
       "checksum": "SHA-256:2a372acbab98ce8f1b1fc2e726e841a1a2f38b9737ca5c14839e80df77318f61"
+    },
+    {
+      "name": "LionLogger",
+      "version": "1.2.0",
+      "author": "leva \u003cleva.the.lion@gmail.com\u003e",
+      "maintainer": "leva \u003cleva.the.lion@gmail.com\u003e",
+      "sentence": "Small leveled logger for ESP8266 / ESP32.",
+      "paragraph": "Logs to Serial and/or the internal filesystem (SPIFFS or LittleFS) with level filtering, dated log files, size/age-based rotation and free-space management. Optional async (FreeRTOS) logging on ESP32 (pulls in LionRtosTask). Non-copyable single-instance logger. ESP8266/ESP32 only — no SD, no AVR.",
+      "website": "https://github.com/blah188/LionLogger",
+      "category": "Data Storage",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/blah188/LionLogger.git",
+      "providesIncludes": [
+        "Logger.h"
+      ],
+      "dependencies": [
+        {
+          "name": "LionArray"
+        },
+        {
+          "name": "LionRtosTask"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/blah188/LionLogger-1.2.0.zip",
+      "archiveFileName": "LionLogger-1.2.0.zip",
+      "size": 23673,
+      "checksum": "SHA-256:e216990c0fa56621accba34f41b08775143de73d317e2bd0a1c2440327b76087"
     },
     {
       "name": "PCBCUPID QMC6309",
@@ -1420791,6 +1421324,48 @@
       "checksum": "SHA-256:4e1898b1640653e7e76ec22277310da5b93da462956395dcc8a017b770373591"
     },
     {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.57",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.57.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.57.zip",
+      "size": 1173809,
+      "checksum": "SHA-256:4175b78c27fc15c462dd72cabf13e9bcb66ca6511f246797d790d86c843c6159"
+    },
+    {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.58",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.58.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.58.zip",
+      "size": 1173977,
+      "checksum": "SHA-256:135bdf4fa6a0df9be1a12476fd7403f279a779d9feb8e545b41ee8fc9dc3ba95"
+    },
+    {
       "name": "MPU9250-DMP",
       "version": "1.0.0",
       "author": "Renzo Mischianti \u003crenzo.mischianti@gmail.com\u003e",
@@ -1421813,6 +1422388,27 @@
       "archiveFileName": "Any-1.0.0.zip",
       "size": 9709,
       "checksum": "SHA-256:289d2e9b8aa74f79b103a97655a1148c8113590eb1de116000757f1b5ce1d038"
+    },
+    {
+      "name": "Any",
+      "version": "1.0.1",
+      "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "maintainer": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "sentence": "Any data type wrapper",
+      "paragraph": "Any data type wrapper",
+      "website": "https://github.com/GyverLibs/Any",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/GyverLibs/Any.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/Any-1.0.1.zip",
+      "archiveFileName": "Any-1.0.1.zip",
+      "size": 9675,
+      "checksum": "SHA-256:511c1c99abf724b5a6b3511b169bd12711bc34f1cb6798511a712fea09ee5272"
     },
     {
       "name": "ButtonConnect",
@@ -1436703,6 +1437299,31 @@
       "checksum": "SHA-256:f3dbfc232ba6aac153433e023ee8a46b41642a65d8b5ae60723c994cfc0a7ad0"
     },
     {
+      "name": "RV565",
+      "version": "2.0.1",
+      "author": "Ayushman Bhattacharya",
+      "maintainer": "Ayushman Bhattacharya \u003cayushman.elixpo@gmail.com\u003e",
+      "sentence": "RGB565 video on ESP32-S3 and RP2350 SPI displays, with a dual-core decode and DMA pipeline.",
+      "paragraph": "Plays RV565 clips (zlib or stored RGB565 keyframes, XOR deltas and repeats; format version 7, and version 6 from RV565 1.x) on ST7789 panels, seeks in O(1) from the keyframe interval, and predicts from the file alone whether a clip will play without missed frames. Measured at 24 FPS with zero misses on the ESP32-S3 (arXiv:2610.35935) and the RP2350.",
+      "website": "https://github.com/elixpo/rv565",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/elixpo/rv565.git",
+      "providesIncludes": [
+        "RV565.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/elixpo/RV565-2.0.1.zip",
+      "archiveFileName": "RV565-2.0.1.zip",
+      "size": 426689,
+      "checksum": "SHA-256:f46be3b32eec2724105ee05d066d67af858e589b8f63fcc79e0f0c6a05218b7a"
+    },
+    {
       "name": "TinyLED",
       "version": "1.0.0",
       "author": "SerhiiLe",
@@ -1436945,6 +1437566,33 @@
       "archiveFileName": "CZ_N706B_Arduino-0.0.3.zip",
       "size": 254975,
       "checksum": "SHA-256:ed41c1e3cc29ea0e3fd11dbd449cb9bdf886d6b639f761a4d13b21d5d4f38c6d"
+    },
+    {
+      "name": "CZ-N706B-Arduino",
+      "version": "0.0.4",
+      "author": "CodeZoo",
+      "maintainer": "CodeZoo \u003crooney.jang@codezoo.co.kr\u003e",
+      "sentence": "AT command support and examples for the CodeZoo CZ-N706B modem on UNO R4, ESP32 and ESP32-S3, Zephyr.",
+      "paragraph": "Shared UART and power control with 21 examples for module checks, network setup and monitoring, files, certificates, TCP/UDP, TLS, Gmail SMTP, HTTP/HTTPS, downloads, MQTT, AWS IoT and time synchronization. Supports UNO R4, ESP32 Dev Module and ESP32S3 Dev Module.",
+      "website": "https://www.codezoo.co.kr/n706b.html",
+      "category": "Communication",
+      "architectures": [
+        "renesas_uno",
+        "esp32",
+        "zephyr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/codezoo-ltd/CZ-N706B-Arduino.git",
+      "providesIncludes": [
+        "ModemAT.h",
+        "ModemPower.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/codezoo-ltd/CZ_N706B_Arduino-0.0.4.zip",
+      "archiveFileName": "CZ_N706B_Arduino-0.0.4.zip",
+      "size": 254997,
+      "checksum": "SHA-256:00f2c976da0675d4a6b795546a7f6f6555a82821dbd4bd9500ba22b4ed8972fe"
     },
     {
       "name": "NiroTronixMotorDriver",
@@ -1438058,6 +1438706,40 @@
       "archiveFileName": "ocean_imu-2.7.8.zip",
       "size": 38278006,
       "checksum": "SHA-256:fe995e3557a4f86db166fbe2a556afdbde96ed7673342408b2b2037a724c9bc1"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.7.9",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.7.9.zip",
+      "archiveFileName": "ocean_imu-2.7.9.zip",
+      "size": 50651019,
+      "checksum": "SHA-256:0bb9e9a461575acbad6f3326b6230899e333579af6a9d27778ec97c7b43f926d"
     },
     {
       "name": "AlashBME280",
@@ -1443152,6 +1443834,40 @@
       "checksum": "SHA-256:b6277f3dc8805dd5d7c09498b1e0dad2425d5685354816bf22e61b1cf165fe44"
     },
     {
+      "name": "Wbskt",
+      "version": "0.9.0-beta.3",
+      "author": "wbskt",
+      "maintainer": "wbskt",
+      "sentence": "Connect an ESP32 to Wbskt: register with a policy PIN, send readings, take commands.",
+      "paragraph": "Stores its credentials in NVS, holds a TLS WebSocket open, answers pings, acks commands, buffers messages while offline and reconnects with jittered backoff.",
+      "website": "https://github.com/wbskt/Wbskt.Arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/wbskt/Wbskt.Arduino.git",
+      "providesIncludes": [
+        "Wbskt.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=7.0.0"
+        },
+        {
+          "name": "WebSockets",
+          "version": "\u003e=2.6.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/wbskt/Wbskt-0.9.0-beta.3.zip",
+      "archiveFileName": "Wbskt-0.9.0-beta.3.zip",
+      "size": 84538,
+      "checksum": "SHA-256:2c60223383f7d1bfb11c96de9165c2518bffc12fafee801e155b10e2980e07c8"
+    },
+    {
       "name": "TCAN4x5x",
       "version": "1.0.0",
       "author": "George Papamichail",
@@ -1443973,6 +1444689,30 @@
       "archiveFileName": "SafCNC-1.0.0.zip",
       "size": 52917,
       "checksum": "SHA-256:e14a21a5b8fdbd3297c90410f79c39f36b87c2ded825609a7ed7972a8898e11c"
+    },
+    {
+      "name": "SafCNC",
+      "version": "1.0.1",
+      "author": "Fikret Palas \u003csafcnc@tutamail.com\u003e",
+      "maintainer": "Fikret Palas \u003csafcnc@tutamail.com\u003e",
+      "sentence": "Turns an Arduino Uno / Nano into a USB motion controller for Mach3.",
+      "paragraph": "3-axis step/direction generator at up to 32 kHz, GRBL 1.1 / CNC Shield V3 pinout, checksummed serial protocol with a 200 ms link watchdog. Used together with the SafCNC Mach3 plugin.",
+      "website": "https://github.com/fikretpalas/SafCNC_Arduino",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/fikretpalas/SafCNC.git",
+      "providesIncludes": [
+        "SafCNC.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/fikretpalas/SafCNC-1.0.1.zip",
+      "archiveFileName": "SafCNC-1.0.1.zip",
+      "size": 18550,
+      "checksum": "SHA-256:dbc38be2c50ef0a87c160a7c6d84b380a6e1f558651a5d2947fa7a009b608af1"
     },
     {
       "name": "InnoLite ESP-NOW",
@@ -1445584,6 +1446324,208 @@
       "archiveFileName": "JBImprov-1.0.0.zip",
       "size": 39947,
       "checksum": "SHA-256:302578b8acbc452bc4e5a8f5f00389c8458d38e6fff179b36bc0e5a20458718c"
+    },
+    {
+      "name": "REPcon",
+      "version": "1.0.0",
+      "author": "Guilherme Keiel",
+      "maintainer": "Guilherme Keiel",
+      "sentence": "Digital proportional-repetitive controller library for Arduino.",
+      "paragraph": "Implements repetitive compensation at harmonics of the fundamental frequency.",
+      "website": "https://github.com/gkeiel/REPcon",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/gkeiel/REPcon.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/gkeiel/REPcon-1.0.0.zip",
+      "archiveFileName": "REPcon-1.0.0.zip",
+      "size": 6335,
+      "checksum": "SHA-256:e6d1d31060d55028e8f9d6c2099a1e904a4b5007693156a88805c98a4d54d36a"
+    },
+    {
+      "name": "JBHaMqttDiscovery",
+      "version": "1.0.0",
+      "author": "Jonny Bergdahl",
+      "maintainer": "Jonny Bergdahl",
+      "sentence": "Home Assistant MQTT device discovery for ESP8266 and ESP32.",
+      "paragraph": "Easily register sensors, switches, binary sensors, buttons, numbers, selects, texts, lights and covers in Home Assistant via MQTT device discovery. Transport-agnostic design supports PubSubClient, espMqttClient and AsyncMqttClient.",
+      "website": "https://github.com/jonnybergdahl/Arduino_JBHaMqttDiscovery",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/jonnybergdahl/Arduino_JBHaMqttDiscovery_Library.git",
+      "providesIncludes": [
+        "HaDiscovery.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "JBLogger"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/jonnybergdahl/JBHaMqttDiscovery-1.0.0.zip",
+      "archiveFileName": "JBHaMqttDiscovery-1.0.0.zip",
+      "size": 98475,
+      "checksum": "SHA-256:b86ab12b69237429b490c8bd9acf858cb6496684b41b0a90e504e47ef5efb5a4"
+    },
+    {
+      "name": "JBHaMqttDiscovery",
+      "version": "1.1.0",
+      "author": "Jonny Bergdahl",
+      "maintainer": "Jonny Bergdahl",
+      "sentence": "Home Assistant MQTT device discovery for ESP8266 and ESP32.",
+      "paragraph": "Easily register sensors, switches, binary sensors, buttons, numbers, selects, texts, lights and covers in Home Assistant via MQTT device discovery. Transport-agnostic design supports PubSubClient, espMqttClient and AsyncMqttClient.",
+      "website": "https://github.com/jonnybergdahl/Arduino_JBHaMqttDiscovery",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/jonnybergdahl/Arduino_JBHaMqttDiscovery_Library.git",
+      "providesIncludes": [
+        "HaDiscovery.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "JBLogger"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/jonnybergdahl/JBHaMqttDiscovery-1.1.0.zip",
+      "archiveFileName": "JBHaMqttDiscovery-1.1.0.zip",
+      "size": 117700,
+      "checksum": "SHA-256:4e2d757078dc33a34d1d204e41395f86f6c1fec3adea098ddffe41d4bc8f0523"
+    },
+    {
+      "name": "JBHaMqttDiscovery",
+      "version": "1.2.0",
+      "author": "Jonny Bergdahl",
+      "maintainer": "Jonny Bergdahl",
+      "sentence": "Home Assistant MQTT device discovery for ESP8266 and ESP32.",
+      "paragraph": "Easily register sensors, switches, binary sensors, buttons, numbers, selects, texts, lights and covers in Home Assistant via MQTT device discovery. Transport-agnostic design supports PubSubClient, espMqttClient and AsyncMqttClient.",
+      "website": "https://github.com/jonnybergdahl/Arduino_JBHaMqttDiscovery",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/jonnybergdahl/Arduino_JBHaMqttDiscovery_Library.git",
+      "providesIncludes": [
+        "HaDiscovery.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "JBLogger"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/jonnybergdahl/JBHaMqttDiscovery-1.2.0.zip",
+      "archiveFileName": "JBHaMqttDiscovery-1.2.0.zip",
+      "size": 118643,
+      "checksum": "SHA-256:ab30fab3e0345dad3c8b902c988054f9941bcaeab2a809110f0611de0411114b"
+    },
+    {
+      "name": "Bonezegei_AHT30",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay \u003cjofelbatutay@gmail.com\u003e",
+      "sentence": "Simple library for AHT30 temperature and humidity sensor over I2C.",
+      "paragraph": "A library for interfacing with the AHT30 environmental sensor using I2C communication.",
+      "website": "https://github.com/bonezegei/Bonezegei_AHT30",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_AHT30.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_AHT30-1.0.0.zip",
+      "archiveFileName": "Bonezegei_AHT30-1.0.0.zip",
+      "size": 4635,
+      "checksum": "SHA-256:cbb8820d65b9c29f6a4190f6e4c727008d5c1b30ac075947606a198ec714a6bf"
+    },
+    {
+      "name": "Dumirror_Robo",
+      "version": "1.1.0",
+      "author": "VIDAKHOSHPEY22",
+      "maintainer": "VIDA KHOSHPEY \u003cvviiddaa2@gmail.com\u003e",
+      "license": "MIT",
+      "sentence": "Animated robot faces for SSD1306 128x64 OLED displays.",
+      "paragraph": "19 static expressions and 10 non-blocking frame-based animations, custom animations, text rendering, flash-resident (PROGMEM) data and selectable face profiles for small AVR boards. Requires Adafruit GFX Library and Adafruit SSD1306.",
+      "website": "https://github.com/VIDAKHOSHPEY22/Dumirror_Robo",
+      "category": "Display",
+      "architectures": [
+        "avr",
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/VIDAKHOSHPEY22/Dumirror_Robo.git",
+      "providesIncludes": [
+        "Dumirror_Robo.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit SSD1306"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/VIDAKHOSHPEY22/Dumirror_Robo-1.1.0.zip",
+      "archiveFileName": "Dumirror_Robo-1.1.0.zip",
+      "size": 78383734,
+      "checksum": "SHA-256:1f431c770d7d2d2d21df5a0580242b928ce76f68b6b32a9bd82fc88df9450ff7"
+    },
+    {
+      "name": "Cordial",
+      "version": "0.1.0",
+      "author": "Alexandre Scozzafave Alves",
+      "maintainer": "Alexandre Scozzafave Alves",
+      "license": "Apache-2.0",
+      "sentence": "The Cordial clock: time of day in Cordial hours, minutes, seconds and crons.",
+      "paragraph": "Converts the time of day to Cordial time (26 hours of 52 minutes of 52 seconds, seven crons to a second, the day starting at noon) with integer arithmetic only, and counts oscillator cycles into crons with an exact remainder, for a clock built on a 32.768 kHz crystal.",
+      "website": "https://github.com/lxcor/cordial-ino",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/lxcor/cordial-ino.git",
+      "providesIncludes": [
+        "Cordial.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/lxcor/Cordial-0.1.0.zip",
+      "archiveFileName": "Cordial-0.1.0.zip",
+      "size": 12108,
+      "checksum": "SHA-256:6513ee49ade12386db274586f4e70537c9d8b43a668c0d62754c0b83f99fd254"
     }
   ]
 }
