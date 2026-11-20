@@ -851908,6 +851908,50 @@
       "checksum": "SHA-256:f323e89804dc1a97d9717ce89a16318c1136e4052e5cb51fa37bacd7ee25f7b5"
     },
     {
+      "name": "StaticSerialCommands",
+      "version": "1.2.1",
+      "author": "naszly",
+      "maintainer": "naszly",
+      "sentence": "An Arduino library for parsing commands received over a serial port.",
+      "paragraph": "Optimized for low dynamic memory usage. Typed arguments with strict input validation and friendly error messages. Commands can have subcommands.",
+      "website": "https://github.com/naszly/Arduino-StaticSerialCommands",
+      "category": "Data Processing",
+      "architectures": [],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/naszly/Arduino-StaticSerialCommands.git",
+      "providesIncludes": [
+        "StaticSerialCommands.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/naszly/StaticSerialCommands-1.2.1.zip",
+      "archiveFileName": "StaticSerialCommands-1.2.1.zip",
+      "size": 19619,
+      "checksum": "SHA-256:e6e959a1d6b3b8a06fbeebbc4c74f48f1b8b68163c50a38e540df0042f942317"
+    },
+    {
+      "name": "StaticSerialCommands",
+      "version": "1.2.2",
+      "author": "naszly",
+      "maintainer": "naszly",
+      "sentence": "An Arduino library for parsing commands received over a serial port.",
+      "paragraph": "Optimized for low dynamic memory usage. Typed arguments with strict input validation and friendly error messages. Commands can have subcommands.",
+      "website": "https://github.com/naszly/Arduino-StaticSerialCommands",
+      "category": "Data Processing",
+      "architectures": [],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/naszly/Arduino-StaticSerialCommands.git",
+      "providesIncludes": [
+        "StaticSerialCommands.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/naszly/StaticSerialCommands-1.2.2.zip",
+      "archiveFileName": "StaticSerialCommands-1.2.2.zip",
+      "size": 20423,
+      "checksum": "SHA-256:dadd703681b8f3ce924ade069070f4192cba1ea0721b4571d6a6b3d7d913e80c"
+    },
+    {
       "name": "XPowersLib",
       "version": "0.1.0",
       "author": "Lewis He",
@@ -1002556,6 +1002600,65 @@
       "checksum": "SHA-256:26b27820f300b10d57403fe1ebbaef8fd40c0a49568312164975634da9581999"
     },
     {
+      "name": "JBWopr",
+      "version": "2.0.0",
+      "author": "Jonny Bergdahl",
+      "maintainer": "Jonny Bergdahl \u003cgithub@bergdahl.org\u003e",
+      "sentence": "Support library for the Unexpected Maker W.O.P.R. boards",
+      "paragraph": "This library contains complete firmware for using the Unexpected Maker W.O.P.R. boards in your own projects. Includes firmware code for use over WiFi, MQTT or with Home Assistant",
+      "website": "https://github.com/jonnybergdahl/Arduino_JBWopr_Library",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/jonnybergdahl/Arduino_JBWopr_Library.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e7.4.1"
+        },
+        {
+          "name": "Adafruit GFX Library",
+          "version": "\u003e=1.12.1"
+        },
+        {
+          "name": "Adafruit LED Backpack Library",
+          "version": "\u003e=1.5.0"
+        },
+        {
+          "name": "Adafruit NeoPixel",
+          "version": "\u003e=1.15.1"
+        },
+        {
+          "name": "OneButton",
+          "version": "\u003e=2.6.1"
+        },
+        {
+          "name": "PubSubClient",
+          "version": "\u003e=2.8.0"
+        },
+        {
+          "name": "WiFiManager",
+          "version": "\u003e=2.0.1"
+        },
+        {
+          "name": "JBLogger",
+          "version": "\u003e=1.0.6"
+        },
+        {
+          "name": "JBHaMqttDiscovery",
+          "version": "\u003e=1.2.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/jonnybergdahl/JBWopr-2.0.0.zip",
+      "archiveFileName": "JBWopr-2.0.0.zip",
+      "size": 464148,
+      "checksum": "SHA-256:695c9b9bca4d6e8ee02aabe33f47f2c5f00e5f8acbe502f1b07b4906f58fd44a"
+    },
+    {
       "name": "MBusinoLib",
       "version": "0.1.0",
       "author": "Zeppelin500 \u003c****@***.**\u003e",
@@ -1086754,6 +1086857,35 @@
       "checksum": "SHA-256:a12c3f37b793c90e8d91c03db3a98f2009016943a5c35db52fe4228542996fda"
     },
     {
+      "name": "DMD_STM32",
+      "version": "1.2.18",
+      "author": "Board707",
+      "maintainer": "Board707",
+      "sentence": "STM32 library for led matrix panels",
+      "paragraph": "Supports RGB (HUB75), Monochrome (HUB12) and Two-color (HUB08) modules",
+      "website": "https://github.com/board707/DMD_STM32/",
+      "category": "Display",
+      "architectures": [
+        "STM32F1",
+        "STM32F4",
+        "stm32",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/board707/DMD_STM32.git",
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/board707/DMD_STM32-1.2.18.zip",
+      "archiveFileName": "DMD_STM32-1.2.18.zip",
+      "size": 398958,
+      "checksum": "SHA-256:ec0259711bdb2dc909e5df689fe46a2dc2c53d2613e92a6e11a6b5b2a1fd2f88"
+    },
+    {
       "name": "GyverDS18",
       "version": "1.0.0",
       "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
@@ -1091395,6 +1091527,28 @@
       "archiveFileName": "mcu_renderer-1.0.19.zip",
       "size": 1062085,
       "checksum": "SHA-256:21b8f453a2a07d0c7c9b67235309d8c99061f51a7982f709930cf91897ab6609"
+    },
+    {
+      "name": "mcu-renderer",
+      "version": "1.0.20",
+      "author": "Gissio",
+      "maintainer": "Gissio",
+      "license": "MIT",
+      "sentence": "A low-resource graphics library, focused on rendering non-flickering, anti-aliased text on both monochrome and color LCD displays.",
+      "paragraph": "It currently supports SDL output and the ILI9341, ST7789 and ST7565 chipsets.",
+      "website": "https://github.com/Gissio/mcu-renderer",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Gissio/mcu-renderer.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Gissio/mcu_renderer-1.0.20.zip",
+      "archiveFileName": "mcu_renderer-1.0.20.zip",
+      "size": 1063152,
+      "checksum": "SHA-256:a754fcfceadb756f9ae14391604a57e3d90dfd740714ecda8e8d4dfaa64e7e24"
     },
     {
       "name": "mcu-max",
@@ -1103180,6 +1103334,37 @@
       "archiveFileName": "ESPAsyncHTTPUpdateServer-3.0.0.zip",
       "size": 217185,
       "checksum": "SHA-256:54561e89ee33e1e60f52bd9c4c0f8f3e3367c29ae3cd9d617e47b54a0e7b90be"
+    },
+    {
+      "name": "ESPAsyncHTTPUpdateServer",
+      "version": "3.0.1",
+      "author": "Mohammad Mahdi Nazari \u003cipdotsetaf@gmail.com\u003e",
+      "maintainer": "Mohammad Mahdi Nazari \u003cipdotsetaf@gmail.com\u003e",
+      "sentence": "Simple/Stylized  HTTP Update Server for ESPAsyncWebServer(by me-no-dev)",
+      "paragraph": "This library lets you to update Firmware/FileSystem of ESP32/ESP8266 OTA(Over The Air) from a web page.",
+      "website": "https://github.com/IPdotSetAF/ESPAsyncHTTPUpdateServer",
+      "category": "Other",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/IPdotSetAF/ESPAsyncHTTPUpdateServer.git",
+      "providesIncludes": [
+        "ESPAsyncHTTPUpdateServer.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer",
+          "version": "\u003e=3.7.4"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/IPdotSetAF/ESPAsyncHTTPUpdateServer-3.0.1.zip",
+      "archiveFileName": "ESPAsyncHTTPUpdateServer-3.0.1.zip",
+      "size": 217341,
+      "checksum": "SHA-256:94f583c4f498a67e6e0f01ded8c79045642e4faec503ec2df56ec3a5f486700f"
     },
     {
       "name": "slight_PlainTime",
@@ -1258978,6 +1259163,36 @@
       "checksum": "SHA-256:caad2b884d968d45a2e8778ccdbd3325513f0a467634840838830bb9beee7779"
     },
     {
+      "name": "AyresWiFiManager",
+      "version": "3.0.0",
+      "author": "Daniel Salgado \u003cayresnet\u003e",
+      "maintainer": "AyresNet",
+      "sentence": "ESP32 WiFi manager for network provisioning through a captive portal.",
+      "paragraph": "Configure WiFi credentials using a SoftAP web portal. Includes automatic reconnection, WiFi scanning, LittleFS credential storage, optional encryption, DNS, NTP, connectivity diagnostics and status LED support.",
+      "website": "https://github.com/ayresnet/AyresWiFiManager",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ayresnet/AyresWiFiManager.git",
+      "providesIncludes": [
+        "AyresWiFiManager.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=6.21.2 \u0026\u0026 \u003c7.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ayresnet/AyresWiFiManager-3.0.0.zip",
+      "archiveFileName": "AyresWiFiManager-3.0.0.zip",
+      "size": 93435,
+      "checksum": "SHA-256:c134dc7628acb13b35818a7d1f78d6886b8a7b01ccdd720ede875f136f5f7649"
+    },
+    {
       "name": "7semi_L89HA",
       "version": "1.0.1",
       "author": "7Semi",
@@ -1272233,6 +1272448,77 @@
       "archiveFileName": "Frugal_IoT-2.0.13.zip",
       "size": 983864,
       "checksum": "SHA-256:df3a7e586d3ddb440eba5a27c758ecc915302ec7682504808a992e1c81807328"
+    },
+    {
+      "name": "Frugal-IoT",
+      "version": "2.0.14",
+      "author": "Mitra Ardron",
+      "maintainer": "Mitra Ardron \u003cmitra@mitra.biz\u003e",
+      "sentence": "Platform for affordable sensors",
+      "paragraph": "The Frugal-IoT library implement an easy to use platform for a variety of sensors communicating over WiFi, LoRa, MQTT etc",
+      "website": "https://github.com/mitra42/frugal-iot",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mitra42/frugal-iot.git",
+      "providesIncludes": [
+        "Frugal-IoT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "BH1750"
+        },
+        {
+          "name": "Button2"
+        },
+        {
+          "name": "DHTNEW"
+        },
+        {
+          "name": "HX711"
+        },
+        {
+          "name": "MQTT"
+        },
+        {
+          "name": "OneWireNg"
+        },
+        {
+          "name": "hd44780"
+        },
+        {
+          "name": "TinyGPSPlus"
+        },
+        {
+          "name": "ModbusMaster"
+        },
+        {
+          "name": "ESP Async WebServer"
+        },
+        {
+          "name": "Async TCP"
+        },
+        {
+          "name": "ESP Async TCP"
+        },
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit SSD1306"
+        },
+        {
+          "name": "Adafruit SSD1327"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.14.zip",
+      "archiveFileName": "Frugal_IoT-2.0.14.zip",
+      "size": 1335611,
+      "checksum": "SHA-256:183b8db101848d85de4c7dc63f5ce50080600068940392d0364d23f7882b663d"
     },
     {
       "name": "FastLED_min",
@@ -1317255,6 +1317541,35 @@
       "checksum": "SHA-256:83d277d635068b09b15e3e52b99879729bb26765f37e61a31fd0266e4c856f70"
     },
     {
+      "name": "FansElectronics_License",
+      "version": "2.3.1",
+      "author": "Fans Electronics, Irfan Indra Kurniawan, S.T",
+      "maintainer": "Irfan Indra Kurniawan, S.T \u003cinfo@fanselectronics.com\u003e",
+      "license": "MIT",
+      "sentence": "Offline license system for ESP32 and ESP8266 devices.",
+      "paragraph": "ESP8266 \u0026 ESP32 Arduino library to implement offline licensing, device binding, and feature activation using LIGHT, HMAC, ECDSA, and AES Encryption.",
+      "website": "https://github.com/Vean/FansElectronics_License",
+      "category": "Other",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Vean/FansElectronics_License.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=6.21.5"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Vean/FansElectronics_License-2.3.1.zip",
+      "archiveFileName": "FansElectronics_License-2.3.1.zip",
+      "size": 71427,
+      "checksum": "SHA-256:b834e68ec72d139bde6d6c2599124d5139f441093446c2c28d85aa11a3ef64dc"
+    },
+    {
       "name": "KY040-rotary",
       "version": "2.0.0",
       "author": "Denis Machard",
@@ -1318480,6 +1318795,41 @@
       "archiveFileName": "UNI-1.2.0.zip",
       "size": 217013,
       "checksum": "SHA-256:d1ca95d5b620cf1ad7482a746dc4bb9e5cfa912f9b4ee9338a2ac20dbc44b9f6"
+    },
+    {
+      "name": "UNI",
+      "version": "1.2.1",
+      "author": "UNI Team \u003cmakerlab.school@gmail.com\u003e",
+      "maintainer": "UNI Team \u003cmakerlab.school@gmail.com\u003e",
+      "sentence": "Educational robotics library for UNI platform with motor control, sensors, and LightRing effects.",
+      "paragraph": "Complete robotics control library featuring dual motor control with encoders, odometry tracking, OLED display, ultrasonic sensors, light ring with 7 built-in effects, traffic light simulation, and button interface. Perfect for educational robotics projects and competitions.",
+      "website": "https://uni-robotics.github.io/UNI",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/fadeev-iliya/UNI.git",
+      "providesIncludes": [
+        "UNI.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit SSD1306"
+        },
+        {
+          "name": "Adafruit NeoPixel"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/fadeev-iliya/UNI-1.2.1.zip",
+      "archiveFileName": "UNI-1.2.1.zip",
+      "size": 217007,
+      "checksum": "SHA-256:b8a608a735bf33a02f215f18547bc882f3feede571a5689c2c8614cf5285e605"
     },
     {
       "name": "Orbito",
@@ -1330913,6 +1331263,30 @@
       "checksum": "SHA-256:2abcde4c30ac47a938e15cee6485ac107f651c39d41bb9a858e490afecbef386"
     },
     {
+      "name": "BuzzerPIO_RP2040",
+      "version": "2.5.2",
+      "author": "Ângelo Moisés Alves",
+      "maintainer": "Ângelo Moisés Alves",
+      "sentence": "Ultrasonic PWM tone generation for passive buzzers using the RP2040 PIO coprocessor.",
+      "paragraph": "Dual state-machine architecture: SM1 generates an ultrasonic PWM carrier (~95 kHz) for distortion-free volume control, SM2 gates it at the audible frequency. Uses only 4 PIO instructions, auto-probes both PIO blocks, zero DMA, zero IRQ handlers. Multi-core safe via hardware spinlock. Coexists with OneWirePIO, DHT22PIO, and CYW43 WiFi. Non-blocking melody sequencing via hardware alarm chain with completion callback. Pause/resume support. Perceptually linear volume curve. Drop-in replacement for v1.x/v2.x.",
+      "website": "https://github.com/angeloINTJ/BuzzerPIO_RP2040",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/angeloINTJ/BuzzerPIO_RP2040.git",
+      "providesIncludes": [
+        "BuzzerPIO_RP2040.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/BuzzerPIO_RP2040-2.5.2.zip",
+      "archiveFileName": "BuzzerPIO_RP2040-2.5.2.zip",
+      "size": 41674,
+      "checksum": "SHA-256:d9591fab519e5df5dd79d660d8f331f9b8e00516a87d52b0a00f7c2bfedb0e4e"
+    },
+    {
       "name": "ESP32_Azure_MQTT_Manager",
       "version": "1.0.0",
       "author": "Rohit K. Shaw",
@@ -1342570,6 +1342944,31 @@
       "archiveFileName": "SmartProv-2.1.3.zip",
       "size": 23889,
       "checksum": "SHA-256:b67af317e9bb05c9594559ad3458635dce91f48e2550293e599ba3893ebceb4b"
+    },
+    {
+      "name": "SmartProv",
+      "version": "3.0.0",
+      "author": "Shahriar Alom Masud \u003cmasud.nil74@gmail.com\u003e",
+      "maintainer": "Shahriar Alom Masud \u003cmasud.nil74@gmail.com\u003e",
+      "sentence": "Captive-portal Wi-Fi provisioning library for ESP32 (S2/S3/C3/C6) and ESP8266.",
+      "paragraph": "SmartProv enables any ESP32 (including S2, S3, C2, C3, C6) or ESP8266 device to be configured over a mobile-friendly captive portal — no companion app required. Features include multi-network fallback, dynamic custom form fields, persistent flash storage (NVS on ESP32, EEPROM on ESP8266), factory reset via hardware button, LED status indication, and a clean state-machine architecture. A modern alternative to WiFiManager.",
+      "website": "https://github.com/Masud744/SmartProv",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Masud744/SmartProv.git",
+      "providesIncludes": [
+        "SmartProv.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Masud744/SmartProv-3.0.0.zip",
+      "archiveFileName": "SmartProv-3.0.0.zip",
+      "size": 111935,
+      "checksum": "SHA-256:fa492b37cfea91972538a50ab992d287a3e511bbf58a32405a7ed8ffc9be6bb4"
     },
     {
       "name": "GY33_Colour_Sensor",
@@ -1383427,6 +1383826,33 @@
       "checksum": "SHA-256:80dca8addc38b7f397e7bf63cda0676bc10940feb2f5c2d45fcb7dfb7fcd66bd"
     },
     {
+      "name": "BusproCore",
+      "version": "2.2.3",
+      "author": "Pooria",
+      "maintainer": "Pooria pooria.nekuie@gmail.com",
+      "license": "GPL-3.0",
+      "sentence": "Shared HDL-Buspro-style RS485 bus layer for subdevice libraries (4R, 4Z, etc).",
+      "paragraph": "Frame encode/decode, transport (RS485 DE/RE half-duplex, address filtering), and op-code dispatch shared across multiple subdevice boards on the same bus. WARNING: wire frame format is a placeholder pending verification against real HDL Buspro captures -- see README.",
+      "website": "https://github.com/Pooria-nek/BusproCore",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Pooria-nek/BusproCore.git",
+      "providesIncludes": [
+        "BusproFrame.h",
+        "BusproTransport.h",
+        "BusproDevice.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Pooria-nek/BusproCore-2.2.3.zip",
+      "archiveFileName": "BusproCore-2.2.3.zip",
+      "size": 27716,
+      "checksum": "SHA-256:c1d279b373a25dab645b8e162fa75260aea9642d5c47dbbabbb8eb759dec7308"
+    },
+    {
       "name": "BACnetMSTP",
       "version": "1.0.0",
       "author": "George Arun \u003cargeorun@gmail.com\u003e",
@@ -1392624,6 +1393050,54 @@
       "archiveFileName": "note_cpp-0.3.7.zip",
       "size": 1920687,
       "checksum": "SHA-256:0c5152919dbac400b42ec4761615d8ab9d51e9aceddc9acbf525aa13bb80915f"
+    },
+    {
+      "name": "note-cpp",
+      "version": "0.3.8",
+      "author": "Mat McGowan",
+      "maintainer": "Mat McGowan",
+      "sentence": "Typed C++ SDK for the Blues Notecard.",
+      "paragraph": "Type-safe, compile-time checked API for all Notecard endpoints. Header-only. Supports Arduino, PlatformIO, and CMake.",
+      "website": "https://github.com/m-mcgowan/note-cpp",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m-mcgowan/note-cpp.git",
+      "providesIncludes": [
+        "note.hpp"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m-mcgowan/note_cpp-0.3.8.zip",
+      "archiveFileName": "note_cpp-0.3.8.zip",
+      "size": 1938473,
+      "checksum": "SHA-256:e88fc7c723f4743f7096dd7ec2eb33317d702391cddeff2d2a4c954a852afab6"
+    },
+    {
+      "name": "note-cpp",
+      "version": "0.3.9",
+      "author": "Mat McGowan",
+      "maintainer": "Mat McGowan",
+      "sentence": "Typed C++ SDK for the Blues Notecard.",
+      "paragraph": "Type-safe, compile-time checked API for all Notecard endpoints. Header-only. Supports Arduino, PlatformIO, and CMake.",
+      "website": "https://github.com/m-mcgowan/note-cpp",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m-mcgowan/note-cpp.git",
+      "providesIncludes": [
+        "note.hpp"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m-mcgowan/note_cpp-0.3.9.zip",
+      "archiveFileName": "note_cpp-0.3.9.zip",
+      "size": 1938713,
+      "checksum": "SHA-256:89732c1860b4a44b8b80dcf29ace5b6437f5ce87be8dc44dfbac9952e7efb7a6"
     },
     {
       "name": "WcbCmd",
@@ -1407709,6 +1408183,27 @@
       "checksum": "SHA-256:fca19f4612c51cd17a7f672eee218421952cb1b530edd5a7a35d349d4d205dca"
     },
     {
+      "name": "SparkFun SSD168x I2C Interface Library",
+      "version": "1.0.2",
+      "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
+      "maintainer": "SparkFun Electronics \u003csparkfun.com\u003e",
+      "sentence": "Library for SSD168x e-paper displays on I2C",
+      "paragraph": "A library to support SSD168x e-paper displays on I2C using a I2C-SPI Bridge. The STM32G03 folder contains example bridge firmware",
+      "website": "https://github.com/sparkfun/SparkFun_SSD168x_I2C_Interface_Library",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sparkfun/SparkFun_SSD168x_I2C_Interface_Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_SSD168x_I2C_Interface_Library-1.0.2.zip",
+      "archiveFileName": "SparkFun_SSD168x_I2C_Interface_Library-1.0.2.zip",
+      "size": 13767430,
+      "checksum": "SHA-256:055232d93fd2c2309948ded27717d65f029e48970d93cc9f6a47c024fcd47d12"
+    },
+    {
       "name": "TecnovaIoT",
       "version": "1.0.0",
       "author": "Tecnova",
@@ -1415417,6 +1415912,41 @@
       "checksum": "SHA-256:bf73d866bd3f843487c132fdda903c5a6b365e99d54d92b101927d95c1fec609"
     },
     {
+      "name": "SyslogSender",
+      "version": "0.2.2",
+      "author": "Péter Soós \u003chttps://github.com/soosp\u003e",
+      "maintainer": "Péter Soós \u003chttps://github.com/soosp\u003e",
+      "sentence": "Sends RFC 5424 syslog messages over UDP; forwards ESP_LOG on ESP32.",
+      "paragraph": "A sender, not a logging framework: frames and sends what ESP_LOG (ESP32), a library's logger callback, or the application hands it. No queue, no heap after begin(), thread-safe on ESP32, host-testable framing. Depends on Host for target validation.",
+      "website": "https://github.com/soosp/SyslogSender",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/soosp/SyslogSender.git",
+      "providesIncludes": [
+        "SyslogSender.h",
+        "SyslogEspLogHook.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Host"
+        },
+        {
+          "name": "Ethernet"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/soosp/SyslogSender-0.2.2.zip",
+      "archiveFileName": "SyslogSender-0.2.2.zip",
+      "size": 33479,
+      "checksum": "SHA-256:e1e06b5f95b3559a48bb080d360235e928ecb018a9c7f91dba87b92636b97a0a"
+    },
+    {
       "name": "SparkFun SFA40 Arduino Library",
       "version": "1.0.0",
       "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
@@ -1421364,6 +1421894,27 @@
       "archiveFileName": "OpenEmbeddedProbe-0.0.58.zip",
       "size": 1173977,
       "checksum": "SHA-256:135bdf4fa6a0df9be1a12476fd7403f279a779d9feb8e545b41ee8fc9dc3ba95"
+    },
+    {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.59",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.59.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.59.zip",
+      "size": 1206730,
+      "checksum": "SHA-256:f8af0ec41c62ba946c5a4b73e80d59aa9aacd9bfc433c500a3aadd7992ed4df3"
     },
     {
       "name": "MPU9250-DMP",
@@ -1430477,6 +1431028,66 @@
       "checksum": "SHA-256:89dfa687cb8bec63d81bc80e7456c048f7dd9eaf4dfa966de158fc016a157420"
     },
     {
+      "name": "lvgl_theme_shadcn",
+      "version": "0.4.0",
+      "author": "Alix ANNERAUD \u003calix@anneraud.fr\u003e",
+      "maintainer": "Alix ANNERAUD \u003calix@anneraud.fr\u003e",
+      "sentence": "Beautiful shadcn/ui-inspired theme for LVGL 9.",
+      "paragraph": "Every widget styled in every state, dark and light palettes switchable at runtime, touch-first 48 dp targets, cheap to render on microcontrollers. Requires LVGL 9.6 or newer.",
+      "website": "https://github.com/AlixANNERAUD/lvgl_theme_shadcn",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AlixANNERAUD/lvgl_theme_shadcn.git",
+      "providesIncludes": [
+        "lv_theme_shadcn.h"
+      ],
+      "dependencies": [
+        {
+          "name": "lvgl",
+          "version": "\u003e=9.6.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AlixANNERAUD/lvgl_theme_shadcn-0.4.0.zip",
+      "archiveFileName": "lvgl_theme_shadcn-0.4.0.zip",
+      "size": 574907,
+      "checksum": "SHA-256:2f95ecae52bcccf21451af0e2a16ed2856bfd4f82480654ee2c26026ff60fabc"
+    },
+    {
+      "name": "lvgl_theme_shadcn",
+      "version": "0.5.0",
+      "author": "Alix ANNERAUD \u003calix@anneraud.fr\u003e",
+      "maintainer": "Alix ANNERAUD \u003calix@anneraud.fr\u003e",
+      "sentence": "Beautiful shadcn/ui-inspired theme for LVGL 9.",
+      "paragraph": "Every widget styled in every state, dark and light palettes switchable at runtime, touch-first 48 dp targets, cheap to render on microcontrollers. Requires LVGL 9.6 or newer.",
+      "website": "https://github.com/AlixANNERAUD/lvgl_theme_shadcn",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AlixANNERAUD/lvgl_theme_shadcn.git",
+      "providesIncludes": [
+        "lv_theme_shadcn.h"
+      ],
+      "dependencies": [
+        {
+          "name": "lvgl",
+          "version": "\u003e=9.6.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AlixANNERAUD/lvgl_theme_shadcn-0.5.0.zip",
+      "archiveFileName": "lvgl_theme_shadcn-0.5.0.zip",
+      "size": 595180,
+      "checksum": "SHA-256:0ec5fa79f150ce031ddd59743cdc1e117a532ee38cbd391b0cc0c7347c543f72"
+    },
+    {
       "name": "M5Unit-IMU",
       "version": "0.0.1",
       "author": "M5Stack",
@@ -1431472,6 +1432083,37 @@
       "archiveFileName": "JourTempo-1.0.0.zip",
       "size": 22186,
       "checksum": "SHA-256:c85d8b1e6e817d58ebffc9f935f84ad63f680050e48a7187599a71d246b94daf"
+    },
+    {
+      "name": "JourTempo",
+      "version": "1.0.1",
+      "author": "Jour Tempo \u003ccontact@jourtempo.fr\u003e",
+      "maintainer": "Jour Tempo \u003ccontact@jourtempo.fr\u003e",
+      "sentence": "Read the French Tempo electricity tariff colour (blue, white, red) for today and tomorrow on ESP32 and ESP8266.",
+      "paragraph": "Uses the free Jour Tempo JSON API (no key, no account), with colours published by RTE. Gives remaining days per colour, handles network loss and expired data (never a guessed colour) and keeps at least 10 minutes between requests.",
+      "website": "https://jourtempo.fr/api/",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/jourtempo/tempo-esp32.git",
+      "providesIncludes": [
+        "JourTempo.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=7.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/jourtempo/JourTempo-1.0.1.zip",
+      "archiveFileName": "JourTempo-1.0.1.zip",
+      "size": 22180,
+      "checksum": "SHA-256:dda56b6bd56667e18d123f65465276716b22209870b69ec27d8f513c8bc860bf"
     },
     {
       "name": "BME690-Arduino-lib-unofficial",
@@ -1437595,6 +1438237,33 @@
       "checksum": "SHA-256:00f2c976da0675d4a6b795546a7f6f6555a82821dbd4bd9500ba22b4ed8972fe"
     },
     {
+      "name": "CZ-N706B-Arduino",
+      "version": "0.0.5",
+      "author": "CodeZoo",
+      "maintainer": "CodeZoo \u003crooney.jang@codezoo.co.kr\u003e",
+      "sentence": "AT command support and examples for the CodeZoo CZ-N706B modem on UNO R4, ESP32 and ESP32-S3, Zephyr.",
+      "paragraph": "Shared UART and power control with 21 examples for module checks, network setup and monitoring, files, certificates, TCP/UDP, TLS, Gmail SMTP, HTTP/HTTPS, downloads, MQTT, AWS IoT and time synchronization. Supports UNO R4, ESP32 Dev Module and ESP32S3 Dev Module.",
+      "website": "https://www.codezoo.co.kr/n706b.html",
+      "category": "Communication",
+      "architectures": [
+        "renesas_uno",
+        "esp32",
+        "zephyr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/codezoo-ltd/CZ-N706B-Arduino.git",
+      "providesIncludes": [
+        "ModemAT.h",
+        "ModemPower.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/codezoo-ltd/CZ_N706B_Arduino-0.0.5.zip",
+      "archiveFileName": "CZ_N706B_Arduino-0.0.5.zip",
+      "size": 256854,
+      "checksum": "SHA-256:7b69c5bbf13610a18d11b1d34822efaa7d0ffa7286ee80d795fc1105a62fc7be"
+    },
+    {
       "name": "NiroTronixMotorDriver",
       "version": "1.0.0",
       "author": "NiroTronix \u003csupport@nirotronix.com\u003e",
@@ -1438740,6 +1439409,74 @@
       "archiveFileName": "ocean_imu-2.7.9.zip",
       "size": 50651019,
       "checksum": "SHA-256:0bb9e9a461575acbad6f3326b6230899e333579af6a9d27778ec97c7b43f926d"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.8.0",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.8.0.zip",
+      "archiveFileName": "ocean_imu-2.8.0.zip",
+      "size": 79896609,
+      "checksum": "SHA-256:d64d0ccf047037490bda1680d1b3cc9e90f2e43904672a57bf0b4dba1e5ffcc9"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.8.1",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.8.1.zip",
+      "archiveFileName": "ocean_imu-2.8.1.zip",
+      "size": 79951760,
+      "checksum": "SHA-256:5ccc8840e339a586a305549d71ea895f8635be1c3360b9e13579ecd66b70dae0"
     },
     {
       "name": "AlashBME280",
@@ -1444524,6 +1445261,36 @@
       "checksum": "SHA-256:0e18b22586b5ad3170efcdd3a14ef6ab6606d8f068aeb8b3d80623d64b07a760"
     },
     {
+      "name": "EnigmaIoT",
+      "version": "0.7.1",
+      "author": "Rahmat Purnomo",
+      "maintainer": "Rahmat Purnomo",
+      "sentence": "Connect ESP32 / ESP8266 to the Enigma IoT platform: realtime dashboard, virtual pins, MQTT, OTA updates and WiFi setup portal.",
+      "paragraph": "Library resmi Enigma IoT (platform IoT Indonesia). Kirim data sensor dan terima perintah dari dashboard lewat MQTT dengan virtual pin (V0-V255), update firmware lewat WiFi (OTA), portal WiFi (atur WiFi \u0026 token dari HP), peta GPS, kamera ESP32-CAM, serta widget sensor DHT, MPU6050, radar, gas, dan ketinggian.",
+      "website": "https://github.com/rahmatpurnomo/EnigmaIoT",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rahmatpurnomo/EnigmaIoT.git",
+      "providesIncludes": [
+        "EnigmaIoT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "PubSubClient"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/rahmatpurnomo/EnigmaIoT-0.7.1.zip",
+      "archiveFileName": "EnigmaIoT-0.7.1.zip",
+      "size": 64919,
+      "checksum": "SHA-256:f60a87703f1de57d51d4a006a3535ff1f3ac7e5ebe411b3d22ca41f221925d14"
+    },
+    {
       "name": "esp_new_jpeg",
       "version": "1.0.2",
       "author": "Espressif Systems",
@@ -1446526,6 +1447293,448 @@
       "archiveFileName": "Cordial-0.1.0.zip",
       "size": 12108,
       "checksum": "SHA-256:6513ee49ade12386db274586f4e70537c9d8b43a668c0d62754c0b83f99fd254"
+    },
+    {
+      "name": "HubbleNetwork",
+      "version": "1.0.0",
+      "author": "Hubble Network, Inc.",
+      "maintainer": "Micah Morefield \u003cmicah@hubble.com\u003e",
+      "license": "Apache-2.0",
+      "sentence": "Arduino wrapper for the Hubble Network SDK",
+      "paragraph": "SDK for utilizing the Hubble Network to beacon data to the network.",
+      "website": "https://github.com/HubbleNetwork/hubble-arduino-library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/HubbleNetwork/hubble-arduino-library.git",
+      "providesIncludes": [
+        "HubbleNetwork.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/HubbleNetwork/HubbleNetwork-1.0.0.zip",
+      "archiveFileName": "HubbleNetwork-1.0.0.zip",
+      "size": 61452,
+      "checksum": "SHA-256:65b1c097eca7402b5d9ab5207e91a6732b93f344b412edf0215ae2990033b514"
+    },
+    {
+      "name": "CampCooler",
+      "version": "1.0.0",
+      "author": "Camp Kitchen US",
+      "maintainer": "Camp Kitchen US \u003ccampkitchenus@gmail.com\u003e",
+      "sentence": "Food-safety alarm logic for a camping cooler thermometer (40 F / 4 C, 15 minute delay, hysteresis, min/max).",
+      "paragraph": "Feed it temperature readings (for example from a DS18B20 probe) and it tells you whether the cooler is OK, warm, in alarm, or the probe is disconnected. Rollover-safe timing, silence and reset, no dynamic memory. Includes the Camp Cooler Watch example with LEDs, a buzzer and a CSV log.",
+      "website": "https://github.com/campkitchenus-maker/arduino-campcooler",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/campkitchenus-maker/arduino-campcooler.git",
+      "providesIncludes": [
+        "CampCooler.h"
+      ],
+      "dependencies": [
+        {
+          "name": "OneWire"
+        },
+        {
+          "name": "DallasTemperature"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/campkitchenus-maker/CampCooler-1.0.0.zip",
+      "archiveFileName": "CampCooler-1.0.0.zip",
+      "size": 7943,
+      "checksum": "SHA-256:75545727c2751f0362b0f85eb58bab7c1940af8fd4019985efd6ce63a7418335"
+    },
+    {
+      "name": "CampCooler",
+      "version": "1.0.1",
+      "author": "Camp Kitchen US",
+      "maintainer": "Camp Kitchen US \u003ccampkitchenus@gmail.com\u003e",
+      "sentence": "Food-safety alarm logic for a camping cooler thermometer (40 F / 4 C, 15 minute delay, hysteresis, min/max).",
+      "paragraph": "Feed it temperature readings (for example from a DS18B20 probe) and it tells you whether the cooler is OK, warm, in alarm, or the probe is disconnected. Rollover-safe timing, silence and reset, no dynamic memory. Includes the Camp Cooler Watch example with LEDs, a buzzer and a CSV log.",
+      "website": "https://campkitchen.us/pages/camp-cooler-watch",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/campkitchenus-maker/arduino-campcooler.git",
+      "providesIncludes": [
+        "CampCooler.h"
+      ],
+      "dependencies": [
+        {
+          "name": "OneWire"
+        },
+        {
+          "name": "DallasTemperature"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/campkitchenus-maker/CampCooler-1.0.1.zip",
+      "archiveFileName": "CampCooler-1.0.1.zip",
+      "size": 186642,
+      "checksum": "SHA-256:e40e76265a8f3fdc3d29883c8c3f83bf14f343613d745b4bfebd90bb05bad608"
+    },
+    {
+      "name": "Freenove_7_Inch_TouchScreen_Driver",
+      "version": "1.0.0",
+      "author": "Freenove",
+      "maintainer": "Freenove",
+      "sentence": "ESP32-P4 only. Driver for the Freenove 7-inch 1024x600 MIPI-DSI C-type panel (EK79007 + GT911 + I2C panel MCU).",
+      "paragraph": "ESP32-P4 only (MIPI-DSI). Fully self-contained: panel power/reset and backlight via on-panel MCU I2C (0x45). Exposes an RGB565 framebuffer for LVGL or direct drawing, and reads GT911 touch over Wire. Other ESP32 chips will fail at compile time.",
+      "website": "https://github.com/Freenove/Freenove_7_Inch_TouchScreen_Driver",
+      "category": "Display",
+      "architectures": [
+        "esp32p4"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Freenove/Freenove_7_Inch_TouchScreen_Driver.git",
+      "providesIncludes": [
+        "Freenove_7_Inch_TouchScreen_Driver.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Freenove/Freenove_7_Inch_TouchScreen_Driver-1.0.0.zip",
+      "archiveFileName": "Freenove_7_Inch_TouchScreen_Driver-1.0.0.zip",
+      "size": 78221,
+      "checksum": "SHA-256:41c51ec148ff5db35348822e399b76504bf1d06005f7050bb3caebcd8c530f88"
+    },
+    {
+      "name": "Freenove_7_Inch_TouchScreen_Driver",
+      "version": "1.0.1",
+      "author": "Freenove",
+      "maintainer": "Freenove",
+      "sentence": "ESP32-P4 only. Driver for the Freenove 7-inch 1024x600 MIPI-DSI C-type panel (EK79007 + GT911 + I2C panel MCU).",
+      "paragraph": "ESP32-P4 only (MIPI-DSI). Fully self-contained: panel power/reset and backlight via on-panel MCU I2C (0x45). Exposes an RGB565 framebuffer for LVGL or direct drawing, and reads GT911 touch over Wire. Other ESP32 chips will fail at compile time.",
+      "website": "https://github.com/Freenove/Freenove_7_Inch_TouchScreen_Driver",
+      "category": "Display",
+      "architectures": [
+        "esp32p4"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Freenove/Freenove_7_Inch_TouchScreen_Driver.git",
+      "providesIncludes": [
+        "Freenove_7_Inch_Panel.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Freenove/Freenove_7_Inch_TouchScreen_Driver-1.0.1.zip",
+      "archiveFileName": "Freenove_7_Inch_TouchScreen_Driver-1.0.1.zip",
+      "size": 78226,
+      "checksum": "SHA-256:289c2d523b5d4bcc75852a48e9b39cb14c1bac22ca43e7a54d41ee0e095e278b"
+    },
+    {
+      "name": "Freenove_Es8311_Audio_Driver",
+      "version": "1.0.0",
+      "author": "Freenove",
+      "maintainer": "Freenove \u003csupport@freenove.com\u003e",
+      "sentence": "Arduino driver for ES8311 codec + I2S audio on Freenove ESP32-P4 boards.",
+      "paragraph": "Wraps ESP_I2S for PCM in/out and programs the ES8311 over Wire with the same open / set_fs / start sequence as Espressif esp_codec_dev. Includes PA enable and Freenove ESP32-P4 pin defaults.",
+      "website": "https://github.com/Freenove/Freenove_Es8311_Audio_Driver",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "esp32s3",
+        "esp32p4"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Freenove/Freenove_Es8311_Audio_Driver.git",
+      "providesIncludes": [
+        "Freenove_ES8311.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Freenove/Freenove_Es8311_Audio_Driver-1.0.0.zip",
+      "archiveFileName": "Freenove_Es8311_Audio_Driver-1.0.0.zip",
+      "size": 9496,
+      "checksum": "SHA-256:75c4cbe061603f9e6aefc6459086fae508676d8d5e8052f74516589ad3faef30"
+    },
+    {
+      "name": "I2R_PLC",
+      "version": "1.0.0",
+      "author": "i2r",
+      "maintainer": "i2r",
+      "sentence": "i2r-02, i2r-03, i2r-04 IoT PLC(ESP32) 입력, 릴레이 출력, 타이머, 온습도 공통 라이브러리",
+      "paragraph": "보드 종류만 고르면 핀 번호 없이 input(1), output(1, ON)처럼 번호로 쓴다. 입력 떨림 제거, 들어오는 순간/꺼지는 순간 감지, PLC식 켜짐 지연(TON)과 꺼짐 지연(TOF) 타이머, i2r-03의 AHT21 온습도 읽기(추가 라이브러리 없음)를 담았다.",
+      "website": "https://github.com/kdi6033/I2R_PLC",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/kdi6033/I2R_PLC.git",
+      "providesIncludes": [
+        "I2R_PLC.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/kdi6033/I2R_PLC-1.0.0.zip",
+      "archiveFileName": "I2R_PLC-1.0.0.zip",
+      "size": 28377,
+      "checksum": "SHA-256:167fa918968c9cf1bc4f0158a29ec9bef82ec261d76d3aa5a25d324f9a223008"
+    },
+    {
+      "name": "EasyESPWiFi",
+      "version": "1.0.0",
+      "author": "Ifty3",
+      "maintainer": "Ifty3",
+      "sentence": "Zero-config Wi-Fi connection and responsive dark-mode Captive Portal for ESP32 and ESP8266",
+      "paragraph": "Eliminates hardcoded Wi-Fi credentials in sketches. Automatically connects to saved Wi-Fi or opens a modern dark-mode captive portal to scan and configure networks without external dependencies.",
+      "website": "https://github.com/Ifty3/EasyESPWiFi",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Ifty3/EasyESPWiFi.git",
+      "providesIncludes": [
+        "EasyESPWiFi.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Ifty3/EasyESPWiFi-1.0.0.zip",
+      "archiveFileName": "EasyESPWiFi-1.0.0.zip",
+      "size": 11802,
+      "checksum": "SHA-256:8297102bff4892c5bb70d7f6915310c8fc2a117310172936cf6239d501c8b4fe"
+    },
+    {
+      "name": "I2C_microSD_Expansion",
+      "version": "0.1.31",
+      "author": "I2C microSD Expansion contributors",
+      "maintainer": "I2C microSD Expansion contributors",
+      "sentence": "Arduino host library for the I²C microSD Expansion — SD-card storage over just 2 wires (I2C).",
+      "paragraph": "File-style host API over the I²C microSD Expansion module. Print speed plateau of any stock driver, then drop in. Zero heap, fixed buffers, no String. Open files, write/read, list directories, query card info — the module handles the FAT filesystem; your sketch does not.",
+      "website": "https://github.com/I2C-microSD-Expansion/I2C_microSD_Expansion",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/syntax1269/I2C-microSD-Expansion.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/syntax1269/I2C_microSD_Expansion-0.1.31.zip",
+      "archiveFileName": "I2C_microSD_Expansion-0.1.31.zip",
+      "size": 112438,
+      "checksum": "SHA-256:1535f91808dc34aa3b7f17b8b2ea57c451a6c83760a6fa577bdba7e645d2c323"
+    },
+    {
+      "name": "I2C_microSD_Expansion",
+      "version": "0.1.42",
+      "author": "I2C microSD Expansion contributors",
+      "maintainer": "I2C microSD Expansion contributors",
+      "sentence": "Arduino host library for the I²C microSD Expansion — SD-card storage over just 2 wires (I2C).",
+      "paragraph": "Host-side file API over the I²C microSD Expansion module. Zero heap, fixed buffers, no String. Open files, write/read, list directories and query card info — the module handles the FAT filesystem; your sketch does not.",
+      "website": "https://github.com/syntax1269/I2C-microSD-Expansion",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/syntax1269/I2C-microSD-Expansion.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/syntax1269/I2C_microSD_Expansion-0.1.42.zip",
+      "archiveFileName": "I2C_microSD_Expansion-0.1.42.zip",
+      "size": 121432,
+      "checksum": "SHA-256:e77826b46f82f6905d7fa9b44153541678bbdc51b24782fe0a22dad5314027df"
+    },
+    {
+      "name": "I2C_microSD_Expansion",
+      "version": "0.1.43",
+      "author": "I2C microSD Expansion contributors",
+      "maintainer": "I2C microSD Expansion contributors",
+      "sentence": "Arduino host library for the I²C microSD Expansion — SD-card storage over just 2 wires (I2C).",
+      "paragraph": "Host-side file API over the I²C microSD Expansion module. Zero heap, fixed buffers, no String. Open files, write/read, list directories and query card info — the module handles the FAT filesystem; your sketch does not.",
+      "website": "https://github.com/syntax1269/I2C-microSD-Expansion",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/syntax1269/I2C-microSD-Expansion.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/syntax1269/I2C_microSD_Expansion-0.1.43.zip",
+      "archiveFileName": "I2C_microSD_Expansion-0.1.43.zip",
+      "size": 122314,
+      "checksum": "SHA-256:ad143c44f8878f6ff81c7832a498490f48e41a161b7431085209df98b0e94b7c"
+    },
+    {
+      "name": "I2C_microSD_Expansion",
+      "version": "0.1.44",
+      "author": "I2C microSD Expansion contributors",
+      "maintainer": "I2C microSD Expansion contributors",
+      "sentence": "Arduino host library for the I²C microSD Expansion — SD-card storage over just 2 wires (I2C).",
+      "paragraph": "Host-side file API over the I²C microSD Expansion module. Zero heap, fixed buffers, no String. Open files, write/read, list directories and query card info — the module handles the FAT filesystem; your sketch does not.",
+      "website": "https://github.com/syntax1269/I2C-microSD-Expansion",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/syntax1269/I2C-microSD-Expansion.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/syntax1269/I2C_microSD_Expansion-0.1.44.zip",
+      "archiveFileName": "I2C_microSD_Expansion-0.1.44.zip",
+      "size": 125192,
+      "checksum": "SHA-256:a9153e54e915d39edf695c3fea2e264a2a185a3ea41cab830f08a64dc126b29a"
+    },
+    {
+      "name": "I2C_microSD_Expansion",
+      "version": "0.1.45",
+      "author": "I2C microSD Expansion contributors",
+      "maintainer": "I2C microSD Expansion contributors",
+      "sentence": "Arduino host library for the I²C microSD Expansion — SD-card storage over just 2 wires (I2C).",
+      "paragraph": "Host-side file API over the I²C microSD Expansion module. Zero heap, fixed buffers, no String. Open files, write/read, list directories and query card info — the module handles the FAT filesystem; your sketch does not.",
+      "website": "https://github.com/syntax1269/I2C-microSD-Expansion",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/syntax1269/I2C-microSD-Expansion.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/syntax1269/I2C_microSD_Expansion-0.1.45.zip",
+      "archiveFileName": "I2C_microSD_Expansion-0.1.45.zip",
+      "size": 123749,
+      "checksum": "SHA-256:533ed835bc50afeb701ad456604423bbc7fc3910c7c99be13c0a72be1fbaeef4"
+    },
+    {
+      "name": "WebSerialSim",
+      "version": "1.0.1",
+      "author": "Davide Lupi \u003ccopida.soft@gmail.com\u003e",
+      "maintainer": "Davide Lupi \u003ccopida.soft@gmail.com\u003e",
+      "sentence": "Serial terminal WEB with history in SSE",
+      "paragraph": "Command management, SSE streaming, PSRAM buffering, multiple output.",
+      "website": "https://github.com/copida/WebSerialSim",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/copida/WebSerialSim.git",
+      "providesIncludes": [
+        "WebSerialSim.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/copida/WebSerialSim-1.0.1.zip",
+      "archiveFileName": "WebSerialSim-1.0.1.zip",
+      "size": 43216,
+      "checksum": "SHA-256:4b57acc24bfa03e1b373af33ef54cfed44510b9db8f13732098194350728ad93"
+    },
+    {
+      "name": "SparkFun SSD168x Library",
+      "version": "1.0.0",
+      "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
+      "maintainer": "SparkFun Electronics \u003csparkfun.com\u003e",
+      "sentence": "Library for SSD1680 / SSD1681 e-paper displays on SPI",
+      "paragraph": "A library to support SSD1680 / SSD1681 e-paper displays (e.g. the GoodDisplay GDEM0097T61 and GDEY0154D67) using SPI. Builds as an Arduino Library and as an Espressif ESP-IDF Component.",
+      "website": "https://github.com/sparkfun/SparkFun_SSD168x_Library",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sparkfun/SparkFun_SSD168x_Library.git",
+      "providesIncludes": [
+        "SparkFun_SSD168x_Library.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_SSD168x_Library-1.0.0.zip",
+      "archiveFileName": "SparkFun_SSD168x_Library-1.0.0.zip",
+      "size": 589919,
+      "checksum": "SHA-256:4fb7035024065433e1880dfd713c4ea49e4ef3bbad92e32f7fbaf9a3b1bd567b"
+    },
+    {
+      "name": "BoxIO",
+      "version": "1.2.3",
+      "author": "Box IO",
+      "maintainer": "Box IO \u003ckasey@krmsproducts.net\u003e",
+      "sentence": "Talk to a self-hosted Box IO server over virtual pins.",
+      "paragraph": "ESP32, ESP8266, Teensy 4.1, SAM, SAMD, MegaAVR, and AVR talk to a Box IO server. Read and write virtual pins, set widget colors, cap the send rate, run timers, pulse a pin when the link drops, and send email or SMS. Teensy 4.1 uses QNEthernet.",
+      "website": "https://www.box-io.com",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Someone275/Box-io.git",
+      "providesIncludes": [
+        "BoxIO.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Someone275/BoxIO-1.2.3.zip",
+      "archiveFileName": "BoxIO-1.2.3.zip",
+      "size": 41297,
+      "checksum": "SHA-256:d8eef63be63ffb686c5bec3bce85f1288e21bc4b4d90ae95b65440665c60b01a"
+    },
+    {
+      "name": "BoxIO",
+      "version": "1.2.4",
+      "author": "Box IO",
+      "maintainer": "Box IO \u003ckasey@krmsproducts.net\u003e",
+      "sentence": "Talk to a self-hosted Box IO server over virtual pins.",
+      "paragraph": "ESP32, ESP8266, Teensy 4.1, SAM, SAMD, MegaAVR, and AVR talk to a Box IO server. Read and write virtual pins, set widget colors, cap the send rate, run timers, pulse a pin when the link drops, and send email or SMS. Teensy 4.1 uses QNEthernet.",
+      "website": "https://www.box-io.com",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Someone275/Box-io.git",
+      "providesIncludes": [
+        "BoxIO.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Someone275/BoxIO-1.2.4.zip",
+      "archiveFileName": "BoxIO-1.2.4.zip",
+      "size": 41444,
+      "checksum": "SHA-256:3fe08d7b80b12d09b20cdf7179f64f8b82145921a1963dd03badf1fa1a6d1b33"
+    },
+    {
+      "name": "SBUS2-Telemetry-ESP32",
+      "version": "1.2.2",
+      "author": "BrushlessPower, Riktor1990",
+      "maintainer": "Riktor1990 \u003cmesser.caronte@gmail.com\u003e",
+      "sentence": "Futaba SBUS2 receive and telemetry for ESP32, S3, C3 and C6 (Arduino core 3.x / IDF5).",
+      "paragraph": "Fork of BrushlessPower/SBUS2-Telemetry with an IDF5 UART driver, receive-path fix, GPS hemisphere fix and C3/C6 support.",
+      "website": "https://github.com/Riktor1990/SBUS2-Telemetry",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Riktor1990/SBUS2-Telemetry.git",
+      "providesIncludes": [
+        "SBUS2.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Riktor1990/SBUS2_Telemetry_ESP32-1.2.2.zip",
+      "archiveFileName": "SBUS2_Telemetry_ESP32-1.2.2.zip",
+      "size": 185982,
+      "checksum": "SHA-256:eb3dfaed189b46ba6fdfd287e002c8c365a029597f87cacc65079d784db9ddb9"
     }
   ]
 }
