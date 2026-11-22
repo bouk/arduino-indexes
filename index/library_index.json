@@ -1087456,6 +1087456,32 @@
       "checksum": "SHA-256:a8c40cd29297451005b24d36fee2af6cb6f59c6ce990dfe1621a4927e3552ad5"
     },
     {
+      "name": "GyverDS18",
+      "version": "1.2.2",
+      "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "maintainer": "AlexGyver \u003calex@alexgyver.ru\u003e",
+      "sentence": "Light library for Dallas DS18b20 temperature sensor",
+      "paragraph": "Light library for Dallas DS18b20 temperature sensor",
+      "website": "https://github.com/GyverLibs/GyverDS18",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/GyverLibs/GyverDS18.git",
+      "dependencies": [
+        {
+          "name": "GyverIO"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverDS18-1.2.2.zip",
+      "archiveFileName": "GyverDS18-1.2.2.zip",
+      "size": 130714,
+      "checksum": "SHA-256:a759fe31aedde7a5297e700e1ff3bb0fd572f7320c9d10c6fd02b613033516ac"
+    },
+    {
       "name": "SensorNormalization",
       "version": "0.0.3",
       "author": "kalmak07",
@@ -1304813,6 +1304839,37 @@
       "checksum": "SHA-256:e563e168bc0bbb4af08e149d826a93c2c3a2fcde4fa82314f302ed2e986d67ee"
     },
     {
+      "name": "NeuraiDepinMsg",
+      "version": "2.0.0",
+      "author": "Asimov",
+      "maintainer": "Asimov \u003cweb@neurai.org\u003e",
+      "sentence": "Build, encrypt and sign DePIN messages for Neurai.",
+      "paragraph": "Build, encrypt, sign, verify and decrypt Neurai DePIN Messaging Protocol 6 messages on ESP32. Requires uNeurai \u003e= 0.3.1 and ArduinoJson 6.",
+      "website": "https://github.com/NeuraiProject/NeuraiDepinMsg",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/NeuraiProject/NeuraiDepinMsg.git",
+      "dependencies": [
+        {
+          "name": "uNeurai",
+          "version": "\u003e=0.3.1"
+        },
+        {
+          "name": "ArduinoJson",
+          "version": "\u003e=6.21.0 \u0026\u0026 \u003c7.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/NeuraiProject/NeuraiDepinMsg-2.0.0.zip",
+      "archiveFileName": "NeuraiDepinMsg-2.0.0.zip",
+      "size": 93052,
+      "checksum": "SHA-256:1f1fa6d25d189a56a6044b9055b466b7930ad3c48f0e470a7289f68a3e9b3e35"
+    },
+    {
       "name": "TimLib",
       "version": "1.0.0",
       "author": "Lode Van Dyck",
@@ -1335533,6 +1335590,42 @@
       "checksum": "SHA-256:3338b1acdba5339a1a336ba2adc8fa01ffae713711e7f1be354c905f79751e3b"
     },
     {
+      "name": "ATGenX_Hub",
+      "version": "2.10.0",
+      "author": "Seif Emad / ARDUTECH0",
+      "maintainer": "Seif Emad \u003csupport@atgenx.com\u003e",
+      "sentence": "Connect ESP32 / ESP8266 boards to the ATGenX IoT cloud: outputs, sensors, dashboard and automations.",
+      "paragraph": "Wi-Fi set from the ATGenX app (no network in the sketch). One MQTT connection for relays, LEDs, servos and sensors (DHT, PIR, LDR, analog, ultrasonic, sound) with non-blocking reconnect, online/offline status and board discovery.",
+      "website": "https://github.com/ARDUTECH0/ATGenXIOT",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ARDUTECH0/ATGenXIOT.git",
+      "providesIncludes": [
+        "ATGenXIOT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "PubSubClient"
+        },
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "DHT sensor library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGenX_Hub-2.10.0.zip",
+      "archiveFileName": "ATGenX_Hub-2.10.0.zip",
+      "size": 58507,
+      "checksum": "SHA-256:2fa92aedcf97ec5c4007d12439be434f7843b0cd36a8b3764f386907d39e18fe"
+    },
+    {
       "name": "OptimizedGPIO",
       "version": "1.0.0",
       "author": "mumanchu \u003cinfo@muman.ch\u003e",
@@ -1350002,6 +1350095,35 @@
       "checksum": "SHA-256:2e8f7578b2d4fac0883fb897b5d1f0feb70a5dd2f8afe0765bfee7c06b4a9ca6"
     },
     {
+      "name": "RumiCar",
+      "version": "0.7.0",
+      "author": "RumiCar-group \u003cinfo@rumicar.com\u003e",
+      "maintainer": "RumiCar-group \u003cinfo@rumicar.com\u003e",
+      "sentence": "Library for controlling the RumiCar autonomous driving platform.",
+      "paragraph": "Provides setup and control functions for steering and drive motors, and initializes three front VL53L0X laser distance sensors plus an optional rear VL53L0X (auto-detected). Supports Arduino AVR, ESP32, Spresense, and Raspberry Pi Pico W.",
+      "website": "https://github.com/RumiCar-group/RumiCar-lib",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RumiCar-group/RumiCar-lib.git",
+      "providesIncludes": [
+        "RumiCar.h"
+      ],
+      "dependencies": [
+        {
+          "name": "VL53L0X"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RumiCar-group/RumiCar-0.7.0.zip",
+      "archiveFileName": "RumiCar-0.7.0.zip",
+      "size": 39412,
+      "checksum": "SHA-256:0a8c32f1bfc88d622bf6d90f32c80f9ef48fb3af59a7c201eb4e4646f986b526"
+    },
+    {
       "name": "dv_led_blink",
       "version": "1.0.0",
       "author": "David Vandensteen",
@@ -1353805,6 +1353927,31 @@
       "archiveFileName": "SimpleOTAClient-1.0.1.zip",
       "size": 158046,
       "checksum": "SHA-256:a9392199805329ef3e8e4802f631b6a3cd6adc6018458b8bda676fb980392ee2"
+    },
+    {
+      "name": "SimpleOTAClient",
+      "version": "1.2.0",
+      "author": "SimpleOTA \u003csupport@simpleota.com\u003e",
+      "maintainer": "SimpleOTA \u003csupport@simpleota.com\u003e",
+      "license": "MIT",
+      "sentence": "Thin Arduino-ESP32 client for the SimpleOTA firmware update platform.",
+      "paragraph": "The same C API as the SimpleOTA ESP-IDF component (simpleota.h). Checks for updates, streams and flashes firmware with on-the-fly SHA-256 and Ed25519 signature verification (optionally strict signing, which also binds the project and build number), runs each new image as a trial that rolls back unless confirmed, refuses downgrades, and reports lifecycle events. Works over any network: the sketch owns Wi-Fi or Ethernet bring-up.",
+      "website": "https://github.com/wassie-dev/simpleOTAClient-Arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/wassie-dev/simpleOTAClient-Arduino.git",
+      "providesIncludes": [
+        "simpleota.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/wassie-dev/SimpleOTAClient-1.2.0.zip",
+      "archiveFileName": "SimpleOTAClient-1.2.0.zip",
+      "size": 170466,
+      "checksum": "SHA-256:fd02c91d08217934feb47e63ec2e5402a9f3971dd452a507ec23e8a2fbb377ff"
     },
     {
       "name": "EmbedDIP",
@@ -1422639,6 +1422786,48 @@
       "checksum": "SHA-256:f8af0ec41c62ba946c5a4b73e80d59aa9aacd9bfc433c500a3aadd7992ed4df3"
     },
     {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.60",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.60.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.60.zip",
+      "size": 1211647,
+      "checksum": "SHA-256:41ac1b897ca71dd70d086f4991cffdcb5a64a5c5d98a6951eff44a15370566e0"
+    },
+    {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.61",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.61.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.61.zip",
+      "size": 1212866,
+      "checksum": "SHA-256:4f519ee77eab6d8dd6bfe596c158a5b5304071650b38201a34c5bcfaab67b3e0"
+    },
+    {
       "name": "MPU9250-DMP",
       "version": "1.0.0",
       "author": "Renzo Mischianti \u003crenzo.mischianti@gmail.com\u003e",
@@ -1440259,6 +1440448,40 @@
       "checksum": "SHA-256:5ccc8840e339a586a305549d71ea895f8635be1c3360b9e13579ecd66b70dae0"
     },
     {
+      "name": "ocean_imu",
+      "version": "2.8.2",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.8.2.zip",
+      "archiveFileName": "ocean_imu-2.8.2.zip",
+      "size": 84231477,
+      "checksum": "SHA-256:9b17802bf118db82176f6d11264b776012d2efc1aed91ee7cb8fed83f9c68d31"
+    },
+    {
       "name": "AlashBME280",
       "version": "1.0.0",
       "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
@@ -1447090,6 +1447313,68 @@
       "checksum": "SHA-256:fc8c3248c235ce1c5030f1f5072069b3bda54d10e1665dca8a1f40bca22c8cbb"
     },
     {
+      "name": "Modest-IoT-Nano-Framework",
+      "version": "1.2.0",
+      "author": "Angel Velasquez",
+      "maintainer": "Angel Velasquez \u003cavelasquezn@gmail.com\u003e",
+      "license": "Apache-2.0",
+      "sentence": "An event-driven, asynchronous IoT framework for ESP32, approved by Arduino and available in the Arduino Library Manager.",
+      "paragraph": "Built on a robust object-oriented architecture, Modest IoT enforces Inversion of Control (IoC) and strict communication layer separation. It leverages thread-safe background task messaging queues driven natively by hardware timers, enabling you to build sophisticated, modular, and highly responsive IoT devices while focusing on application logic. Install directly from the Arduino IDE Library Manager or via GitHub.",
+      "website": "https://github.com/modest-iot/modest-iot-nano-framework",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/modest-iot/modest-iot-nano-framework.git",
+      "providesIncludes": [
+        "ModestIoT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "MQTT",
+          "version": "\u003e=2.5.3"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/modest-iot/Modest_IoT_Nano_Framework-1.2.0.zip",
+      "archiveFileName": "Modest_IoT_Nano_Framework-1.2.0.zip",
+      "size": 669202,
+      "checksum": "SHA-256:b83c5d5c70940fcc9ec1cdbe188316e3c63204e3f5657b7760b33ac75fbc5e58"
+    },
+    {
+      "name": "Modest-IoT-Nano-Framework",
+      "version": "1.2.1",
+      "author": "Angel Velasquez",
+      "maintainer": "Angel Velasquez \u003cavelasquezn@gmail.com\u003e",
+      "license": "Apache-2.0",
+      "sentence": "An event-driven, asynchronous IoT framework for ESP32, approved by Arduino and available in the Arduino Library Manager.",
+      "paragraph": "Built on a robust object-oriented architecture, Modest IoT enforces Inversion of Control (IoC) and strict communication layer separation. It leverages thread-safe background task messaging queues driven natively by hardware timers, enabling you to build sophisticated, modular, and highly responsive IoT devices while focusing on application logic. Install directly from the Arduino IDE Library Manager or via GitHub.",
+      "website": "https://github.com/modest-iot/modest-iot-nano-framework",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/modest-iot/modest-iot-nano-framework.git",
+      "providesIncludes": [
+        "ModestIoT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "MQTT",
+          "version": "\u003e=2.5.3"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/modest-iot/Modest_IoT_Nano_Framework-1.2.1.zip",
+      "archiveFileName": "Modest_IoT_Nano_Framework-1.2.1.zip",
+      "size": 673597,
+      "checksum": "SHA-256:cdab06d209b4d4e345da764c0260afc392eb5de4ca11bab40a4b5a648628eff8"
+    },
+    {
       "name": "RSbusMaster",
       "version": "1.0.0",
       "author": "Aiko Pras",
@@ -1448771,6 +1449056,38 @@
       "checksum": "SHA-256:1e8a071d5f44491cf62c53fd90f64151d2e8ccfde1bb5e29352a7d3274a16b05"
     },
     {
+      "name": "PZEM004T",
+      "version": "2.0.1",
+      "author": "Irfan TuxZ  \u003cig:@irfan_tuxz\u003e",
+      "maintainer": "Irfan TuxZ  \u003cig:@irfan_tuxz\u003e",
+      "license": "MIT",
+      "sentence": "Cross-platform Arduino library for PZEM-004T energy meters (v3 v4). Support HardwareSerial SoftwareSerial AVR uno nano mega, ESP8266, ESP32 series.",
+      "paragraph": "Handle multi-PZEM in series or paralel. Added-Features address handling fixes, non-blocking polling, cached getters, pin validation, diagnostics.",
+      "website": "https://github.com/irfantuxz/pzem004t",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/irfantuxz/pzem004t.git",
+      "providesIncludes": [
+        "PZEM004T.h"
+      ],
+      "dependencies": [
+        {
+          "name": "EspSoftwareSerial"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/irfantuxz/PZEM004T-2.0.1.zip",
+      "archiveFileName": "PZEM004T-2.0.1.zip",
+      "size": 35658,
+      "checksum": "SHA-256:7c2fa4f75e4788c37717acdcbf6347a9d00bf33793f120180f540b7d104a5148"
+    },
+    {
       "name": "Connectivitizer",
       "version": "1.0.33",
       "author": "Huelake",
@@ -1449009,6 +1449326,422 @@
       "archiveFileName": "ESP32PcSession-1.0.0.zip",
       "size": 46037,
       "checksum": "SHA-256:e3980a7db58b940dfa13355369de559c25800df1b6bfabac62a1258185be0f1d"
+    },
+    {
+      "name": "GigaBredr",
+      "version": "0.1.0-dev.18",
+      "author": "Ngoc Viet Ho",
+      "maintainer": "Ngoc Viet Ho",
+      "sentence": "Bluetooth A2DP receiver with I2S output, BLE GATT server and Classic profiles for the Arduino GIGA R1 WiFi.",
+      "paragraph": "Owned host stack on the Murata 1DX radio. Decoders: SBC/SBC-XQ, AAC, aptX, aptX HD, LDAC, LHDC V5, Opus, Samsung SSC, allocated only for the active codec. Also SPP, AVRCP, experimental HFP/HSP, persistent QSPI bonding and fast reconnects. Experimental; see README and THIRD_PARTY.",
+      "website": "https://github.com/WillyBilly06/Arduino-GIGA-Bluetooth-Audio",
+      "category": "Communication",
+      "architectures": [
+        "mbed_giga"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/WillyBilly06/Arduino-GIGA-Bluetooth-Audio.git",
+      "providesIncludes": [
+        "GigaBredr.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/WillyBilly06/GigaBredr-0.1.0-dev.18.zip",
+      "archiveFileName": "GigaBredr-0.1.0-dev.18.zip",
+      "size": 3316083,
+      "checksum": "SHA-256:b0fc91072c0a5cd13ffc8b63fed3b641920dea75bfd66aac234817c4280a3b92"
+    },
+    {
+      "name": "GigaBredr",
+      "version": "0.2.0",
+      "author": "Ngoc Viet Ho",
+      "maintainer": "Ngoc Viet Ho",
+      "sentence": "Bluetooth A2DP receiver with I2S output, BLE GATT server and Classic profiles for the Arduino GIGA R1 WiFi.",
+      "paragraph": "Owned host stack on the Murata 1DX radio. Decoders: SBC/SBC-XQ, AAC, aptX, aptX HD, LDAC, LHDC V5, Opus, Samsung SSC; pick which are compiled in with GIGA_BREDR_CODECS(...), and only the active codec allocates memory. Also AVRCP, SPP, HID, OBEX (OPP/PBAP/MAP), experimental HFP/HSP, persistent QSPI bonding and fast reconnects. Experimental; see README and THIRD_PARTY.",
+      "website": "https://github.com/WillyBilly06/Arduino-GIGA-Bluetooth-Audio",
+      "category": "Communication",
+      "architectures": [
+        "mbed_giga"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/WillyBilly06/Arduino-GIGA-Bluetooth-Audio.git",
+      "providesIncludes": [
+        "GigaBredr.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/WillyBilly06/GigaBredr-0.2.0.zip",
+      "archiveFileName": "GigaBredr-0.2.0.zip",
+      "size": 3393616,
+      "checksum": "SHA-256:770b2a387d782eb7a2cf188018d5f26e5bcfd0e63c0f3e442fd4979bc624d654"
+    },
+    {
+      "name": "GigaBredr",
+      "version": "0.2.1",
+      "author": "Ngoc Viet Ho",
+      "maintainer": "Ngoc Viet Ho",
+      "sentence": "Bluetooth A2DP receiver with I2S output, BLE GATT server and Classic profiles for the Arduino GIGA R1 WiFi.",
+      "paragraph": "Owned host stack on the Murata 1DX radio. Decoders: SBC/SBC-XQ, AAC, aptX, aptX HD, LDAC, LHDC V5, Opus, Samsung SSC; pick which are compiled in with GIGA_BREDR_CODECS(...), and only the active codec allocates memory. Also AVRCP, SPP, HID, OBEX (OPP/PBAP/MAP), experimental HFP/HSP, persistent QSPI bonding and fast reconnects. Experimental; see README and THIRD_PARTY.",
+      "website": "https://github.com/WillyBilly06/Arduino-GIGA-Bluetooth-Audio",
+      "category": "Communication",
+      "architectures": [
+        "mbed_giga"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/WillyBilly06/Arduino-GIGA-Bluetooth-Audio.git",
+      "providesIncludes": [
+        "GigaBredr.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/WillyBilly06/GigaBredr-0.2.1.zip",
+      "archiveFileName": "GigaBredr-0.2.1.zip",
+      "size": 3400211,
+      "checksum": "SHA-256:bdb7284d1717667f08abdd201c0cb7ba1e40a0231b487fd3c70c61eafa893447"
+    },
+    {
+      "name": "GigaBredr",
+      "version": "0.2.2",
+      "author": "Ngoc Viet Ho",
+      "maintainer": "Ngoc Viet Ho",
+      "sentence": "Bluetooth A2DP receiver with I2S output, BLE GATT server and Classic profiles for the Arduino GIGA R1 WiFi.",
+      "paragraph": "Owned host stack on the Murata 1DX radio. Decoders: SBC/SBC-XQ, AAC, aptX, aptX HD, LDAC, LHDC V5, Opus, Samsung SSC; pick which are compiled in with GIGA_BREDR_CODECS(...), and only the active codec allocates memory. Also AVRCP, SPP, HID, OBEX (OPP/PBAP/MAP), experimental HFP/HSP, persistent QSPI bonding and fast reconnects. Experimental; see README and THIRD_PARTY.",
+      "website": "https://github.com/WillyBilly06/Arduino-GIGA-Bluetooth-Audio",
+      "category": "Communication",
+      "architectures": [
+        "mbed_giga"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/WillyBilly06/Arduino-GIGA-Bluetooth-Audio.git",
+      "providesIncludes": [
+        "GigaBredr.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/WillyBilly06/GigaBredr-0.2.2.zip",
+      "archiveFileName": "GigaBredr-0.2.2.zip",
+      "size": 3405261,
+      "checksum": "SHA-256:70a961868958681e64e7d6a246936c56241394cd464181248129256d03a4ebe4"
+    },
+    {
+      "name": "GigaBredr",
+      "version": "0.2.3",
+      "author": "Ngoc Viet Ho",
+      "maintainer": "Ngoc Viet Ho",
+      "sentence": "Bluetooth A2DP receiver with I2S output, BLE GATT server and Classic profiles for the Arduino GIGA R1 WiFi.",
+      "paragraph": "Owned host stack on the Murata 1DX radio. Decoders: SBC/SBC-XQ, AAC, aptX, aptX HD, LDAC, LHDC V5, Opus, Samsung SSC; pick which are compiled in with GIGA_BREDR_CODECS(...), and only the active codec allocates memory. Also AVRCP, SPP, HID, OBEX (OPP/PBAP/MAP), experimental HFP/HSP, persistent QSPI bonding and fast reconnects. Experimental; see README and THIRD_PARTY.",
+      "website": "https://github.com/WillyBilly06/Arduino-GIGA-Bluetooth-Audio",
+      "category": "Communication",
+      "architectures": [
+        "mbed_giga"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/WillyBilly06/Arduino-GIGA-Bluetooth-Audio.git",
+      "providesIncludes": [
+        "GigaBredr.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/WillyBilly06/GigaBredr-0.2.3.zip",
+      "archiveFileName": "GigaBredr-0.2.3.zip",
+      "size": 3407127,
+      "checksum": "SHA-256:765a916f7cbf66477acbca5e1802242a9b22e9b58ab454309372050f750bc3db"
+    },
+    {
+      "name": "GigaBredr",
+      "version": "0.2.4",
+      "author": "Ngoc Viet Ho",
+      "maintainer": "Ngoc Viet Ho",
+      "sentence": "Bluetooth A2DP receiver with I2S output, BLE GATT server and Classic profiles for the Arduino GIGA R1 WiFi.",
+      "paragraph": "Owned host stack on the Murata 1DX radio. Decoders: SBC/SBC-XQ, AAC, aptX, aptX HD, LDAC, LHDC V5, Opus, Samsung SSC; pick which are compiled in with GIGA_BREDR_CODECS(...), and only the active codec allocates memory. Also AVRCP, SPP, HID, OBEX (OPP/PBAP/MAP), experimental HFP/HSP, persistent QSPI bonding and fast reconnects. Experimental; see README and THIRD_PARTY.",
+      "website": "https://github.com/WillyBilly06/Arduino-GIGA-Bluetooth-Audio",
+      "category": "Communication",
+      "architectures": [
+        "mbed_giga"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/WillyBilly06/Arduino-GIGA-Bluetooth-Audio.git",
+      "providesIncludes": [
+        "GigaBredr.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/WillyBilly06/GigaBredr-0.2.4.zip",
+      "archiveFileName": "GigaBredr-0.2.4.zip",
+      "size": 3409821,
+      "checksum": "SHA-256:63b0ba7822ef430857138a11aaa41d2e60d0816756decf3564ed5723f530aadc"
+    },
+    {
+      "name": "FitnessMath",
+      "version": "1.0.0",
+      "author": "Alex Bell \u003cstrawbelly.app@gmail.com\u003e",
+      "maintainer": "Alex Bell \u003cstrawbelly.app@gmail.com\u003e",
+      "sentence": "Fitness and nutrition formulas for DIY trackers: BMR, TDEE, MET calories burned, macro calories, BMI.",
+      "paragraph": "Dependency-free, header-only. Mifflin-St Jeor BMR and TDEE, calories burned from MET values (2024 Compendium), Atwater macro calories, BMI and protein RDA. Estimates for general wellness, not medical advice.",
+      "website": "https://snowbelly.app/tools/calorie-calculator/",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shipandsail/FitnessMath.git",
+      "providesIncludes": [
+        "FitnessMath.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shipandsail/FitnessMath-1.0.0.zip",
+      "archiveFileName": "FitnessMath-1.0.0.zip",
+      "size": 4123,
+      "checksum": "SHA-256:582d2392d7ce1b035a8088967c1da4f3b8bc622529f256b8f2c9e4b47fdbe1d1"
+    },
+    {
+      "name": "FitnessMath",
+      "version": "1.0.1",
+      "author": "Alex Bell \u003cstrawbelly.app@gmail.com\u003e",
+      "maintainer": "Alex Bell \u003cstrawbelly.app@gmail.com\u003e",
+      "sentence": "Fitness and nutrition formulas for DIY trackers: BMR, TDEE, MET calories burned, macro calories, BMI.",
+      "paragraph": "Dependency-free, header-only. Mifflin-St Jeor BMR and TDEE, calories burned from MET values (2024 Compendium), Atwater macro calories, BMI and protein RDA. Estimates for general wellness, not medical advice.",
+      "website": "https://snowbelly.app/tools/calorie-calculator/",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shipandsail/FitnessMath.git",
+      "providesIncludes": [
+        "FitnessMath.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shipandsail/FitnessMath-1.0.1.zip",
+      "archiveFileName": "FitnessMath-1.0.1.zip",
+      "size": 4688,
+      "checksum": "SHA-256:d4ca88fc83edec532fe06f2cd8010f7ef192fede0183ed19e676d822d307668d"
+    },
+    {
+      "name": "ShotDayTimer",
+      "version": "1.0.0",
+      "author": "Alex Bell \u003cstrawbelly.app@gmail.com\u003e",
+      "maintainer": "Alex Bell \u003cstrawbelly.app@gmail.com\u003e",
+      "sentence": "Weekly shot-day countdown and injection-site rotation for DIY medication reminder devices.",
+      "paragraph": "Header-only. Days until a weekly shot day from the current weekday, and least-recently-used rotation across six injection sites. Logging and reminders only: never recommends or calculates doses.",
+      "website": "https://bluedoseapp.com/features/glp-1-shot-reminder/",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shipandsail/ShotDayTimer.git",
+      "providesIncludes": [
+        "ShotDayTimer.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shipandsail/ShotDayTimer-1.0.0.zip",
+      "archiveFileName": "ShotDayTimer-1.0.0.zip",
+      "size": 4034,
+      "checksum": "SHA-256:a15fe23c3eb92b7a7e440e783b5b896e0cefe4d924082603da72c81ba309b7f8"
+    },
+    {
+      "name": "ShotDayTimer",
+      "version": "1.0.1",
+      "author": "Alex Bell \u003cstrawbelly.app@gmail.com\u003e",
+      "maintainer": "Alex Bell \u003cstrawbelly.app@gmail.com\u003e",
+      "sentence": "Weekly shot-day countdown and injection-site rotation for DIY medication reminder devices.",
+      "paragraph": "Header-only. Days until a weekly shot day from the current weekday, and least-recently-used rotation across six injection sites. Logging and reminders only: never recommends or calculates doses.",
+      "website": "https://bluedoseapp.com/features/glp-1-shot-reminder/",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/shipandsail/ShotDayTimer.git",
+      "providesIncludes": [
+        "ShotDayTimer.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/shipandsail/ShotDayTimer-1.0.1.zip",
+      "archiveFileName": "ShotDayTimer-1.0.1.zip",
+      "size": 4609,
+      "checksum": "SHA-256:67a5a40c7c0408447ff81ce8d0bc36989e0f3a6440d57d8725e1cd403249f91a"
+    },
+    {
+      "name": "Wavelit",
+      "version": "1.0.0",
+      "author": "Microbots \u003cinfo@microbots.io\u003e",
+      "maintainer": "Microbots \u003cinfo@microbots.io\u003e",
+      "sentence": "Wavelit Arduino Library",
+      "paragraph": "Holographic-looking Retro Display You Can Touch \u0026 Customize! With 30+ Pixel Faces \u0026 20+ Daily Routines",
+      "website": "https://microbots.io/Wavelit",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/microbotsio/Wavelit.git",
+      "providesIncludes": [
+        "Wavelit.h"
+      ],
+      "dependencies": [
+        {
+          "name": "BLEOTA",
+          "version": "=1.0.6"
+        },
+        {
+          "name": "Adafruit NeoPixel"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/microbotsio/Wavelit-1.0.0.zip",
+      "archiveFileName": "Wavelit-1.0.0.zip",
+      "size": 653441,
+      "checksum": "SHA-256:b4335e8e629b8bcf6c86017d5cd3e0780e64ab2ab9fec3ebbdfe1ba31716a235"
+    },
+    {
+      "name": "SolumEpaper",
+      "version": "0.1.0",
+      "author": "DocBigs-Lab",
+      "maintainer": "DocBigs-Lab",
+      "sentence": "Driver for the 2.0\" black/white/yellow/red e-paper from SOLUM shelf labels (EL020L8C4C, FPC-8161).",
+      "paragraph": "Epd20: 200x152, four colours (black, white, yellow, red), 2 bit per pixel. Init sequence after the OpenEPaperLink Solum firmware. Adafruit GFX based. Tested on the Seengreat ESP32-C6 E-Paper Driver Board; the Waveshare e-Paper ESP32 Driver Board should work (same pinout) but is not tested yet.",
+      "website": "https://github.com/DocBigs-Lab/solum-epaper",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/DocBigs-Lab/solum-epaper.git",
+      "providesIncludes": [
+        "Epd20.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/DocBigs-Lab/SolumEpaper-0.1.0.zip",
+      "archiveFileName": "SolumEpaper-0.1.0.zip",
+      "size": 898309,
+      "checksum": "SHA-256:350617072e94e1df05a55901f094b081b93cdec5f0ad124ce3cfb2058fd66df7"
+    },
+    {
+      "name": "ESP32Syslog",
+      "version": "1.0.2",
+      "author": "jnovonj",
+      "maintainer": "jnovonj",
+      "sentence": "Syslog library for ESP32 with automatic ESP_LOG redirection.",
+      "paragraph": "Intercepts system logs and sends them via UDP with an offline circular buffer.",
+      "website": "https://github.com/jnovonj/ESP32Syslog",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/jnovonj/ESP32Syslog.git",
+      "providesIncludes": [
+        "ESP32Syslog.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/jnovonj/ESP32Syslog-1.0.2.zip",
+      "archiveFileName": "ESP32Syslog-1.0.2.zip",
+      "size": 10925,
+      "checksum": "SHA-256:a8514ef045f9b1c785ea006ec6de82354e9a5a39c20ff1f010522f3f0cee2e46"
+    },
+    {
+      "name": "ESP32Syslog",
+      "version": "1.1.1",
+      "author": "jnovonj",
+      "maintainer": "jnovonj",
+      "sentence": "Syslog library for ESP32 with automatic ESP_LOG redirection.",
+      "paragraph": "Supports RFC 3164 and RFC 5424 protocols via UDP with an offline circular buffer and automatic ESP_LOG redirection.",
+      "website": "https://github.com/jnovonj/ESP32Syslog",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/jnovonj/ESP32Syslog.git",
+      "providesIncludes": [
+        "ESP32Syslog.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/jnovonj/ESP32Syslog-1.1.1.zip",
+      "archiveFileName": "ESP32Syslog-1.1.1.zip",
+      "size": 11362,
+      "checksum": "SHA-256:7d4b5cd3415f51cf77504e933717babd48bb5bf149569688117ff866cd428722"
+    },
+    {
+      "name": "ESP32Syslog",
+      "version": "1.1.2",
+      "author": "jnovonj",
+      "maintainer": "jnovonj",
+      "sentence": "Syslog library for ESP32 with automatic ESP_LOG redirection.",
+      "paragraph": "Supports RFC 3164 and RFC 5424 protocols via UDP with an offline circular buffer and automatic ESP_LOG redirection.",
+      "website": "https://github.com/jnovonj/ESP32Syslog",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/jnovonj/ESP32Syslog.git",
+      "providesIncludes": [
+        "ESP32Syslog.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/jnovonj/ESP32Syslog-1.1.2.zip",
+      "archiveFileName": "ESP32Syslog-1.1.2.zip",
+      "size": 11792,
+      "checksum": "SHA-256:f4d368eded974b26cce84f2044ec9ab95701d6a0314f77f209f2519f4fd99b0d"
+    },
+    {
+      "name": "MotorControl",
+      "version": "1.0.0",
+      "author": "MotorControl Library",
+      "maintainer": "MotorControl Library",
+      "sentence": "A simple dual DC motor control library for Arduino.",
+      "paragraph": "Control two DC motors using an L298N motor driver with signed speed values.",
+      "website": "url=https://github.com/adfwswf/MotorControl",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adfwswf/MotorControl.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/adfwswf/MotorControl-1.0.0.zip",
+      "archiveFileName": "MotorControl-1.0.0.zip",
+      "size": 4086,
+      "checksum": "SHA-256:54736d3f4d9ceed50bcdf8f50ae8a88c93a5033cf6a2545a51f0968a7f8fd2e2"
+    },
+    {
+      "name": "MotorControl",
+      "version": "1.0.1",
+      "author": "MotorControl Library",
+      "maintainer": "MotorControl Library",
+      "sentence": "A simple dual DC motor control library for Arduino.",
+      "paragraph": "Control two DC motors using an L298N motor driver with signed speed values.",
+      "website": "https://github.com/adfwswf/MotorControl",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adfwswf/MotorControl.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/adfwswf/MotorControl-1.0.1.zip",
+      "archiveFileName": "MotorControl-1.0.1.zip",
+      "size": 4085,
+      "checksum": "SHA-256:2a183f6ed274cd2b0d2e8365860b7f7c037e2c8543db3cae71dce224b44bae8b"
     }
   ]
 }
