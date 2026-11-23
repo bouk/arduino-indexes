@@ -813083,6 +813083,30 @@
       "checksum": "SHA-256:d11e76a5e03ba624f9639262e01aad4c57c8bbaa12d66718d7b42b5fa77ff6af"
     },
     {
+      "name": "ESP32-USB-Soft-Host",
+      "version": "0.2.0",
+      "author": "tobozo \u003ctobozo@noreply.github.com\u003e",
+      "maintainer": "tobozo \u003ctobozo@noreply.github.com\u003e",
+      "sentence": "\"An Arduino wrapper to @sdima1357's usb_soft_host esp-idf example\"",
+      "paragraph": "\"ESP32-USB-Soft-Host is a pure software USB host through general IO pins. It can connect up to 4 USB-LS HID devices simultaneously.\"",
+      "website": "https://github.com/tobozo/ESP32-USB-Soft-Host",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tobozo/ESP32-USB-Soft-Host.git",
+      "providesIncludes": [
+        "ESP32-USB-Soft-Host.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tobozo/ESP32_USB_Soft_Host-0.2.0.zip",
+      "archiveFileName": "ESP32_USB_Soft_Host-0.2.0.zip",
+      "size": 708291,
+      "checksum": "SHA-256:38f959f222015be04f778a6ed1dbd5906b5dd642b6a11a0c2d4a4ea6694feac9"
+    },
+    {
       "name": "LGFXMeter",
       "version": "0.1.1",
       "author": "tobozo",
@@ -862186,6 +862210,35 @@
       "checksum": "SHA-256:0be4946bb881008a675d37009d4a4d72b2c155a0fbca95a4edc8b288e8046099"
     },
     {
+      "name": "BresserWeatherSensorReceiver",
+      "version": "0.44.1",
+      "author": "Matthias Prinke \u003cmatthias-bs@web.de\u003e",
+      "maintainer": "Matthias Prinke \u003cmatthias-bs@web.de\u003e",
+      "sentence": "Bresser 5-in-1/6-in-1/7-in-1 868 MHz Weather Sensor Radio Receiver for Arduino based on CC1101, SX1276/RFM95W, SX1262 or LR1121.",
+      "paragraph": "Bresser 5-in-1/6-in-1/7-in-1 868 MHz Weather Sensor Radio Receiver for Arduino based on CC1101, SX1276/RFM95W, SX1262 or LR1121.",
+      "website": "https://github.com/matthias-bs/BresserWeatherSensorReceiver",
+      "category": "Sensors",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/matthias-bs/BresserWeatherSensorReceiver.git",
+      "dependencies": [
+        {
+          "name": "RadioLib",
+          "version": "=8.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/matthias-bs/BresserWeatherSensorReceiver-0.44.1.zip",
+      "archiveFileName": "BresserWeatherSensorReceiver-0.44.1.zip",
+      "size": 2625282,
+      "checksum": "SHA-256:3092e5d1121e669831bbfe2e9ac11d3d6a2fb55b60f86d4fdb61a4e2fe1afecf"
+    },
+    {
       "name": "RussianText_u8g",
       "version": "0.0.1",
       "author": "Ogneyar \u003cogneyar@hutoryanin.ru\u003e",
@@ -876521,6 +876574,27 @@
       "archiveFileName": "Meridian-0.1.0.zip",
       "size": 9223,
       "checksum": "SHA-256:951fec89ca58ce50a3150882b4481a7a9bf9a94bb04ad3dc3ecd01af90b5bbd3"
+    },
+    {
+      "name": "Meridian",
+      "version": "0.1.1",
+      "author": "Ninagawa123",
+      "maintainer": "Ninagawa123",
+      "sentence": "This is a library to drive a communication system for humanoid robots, \"Meridian\".",
+      "paragraph": "It operates numerous servo motors and 9-axis sensors at 100 Hz and links status information with a PC in real time.",
+      "website": "https://github.com/Ninagawa123/Meridian/",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Ninagawa123/Meridian.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Ninagawa123/Meridian-0.1.1.zip",
+      "archiveFileName": "Meridian-0.1.1.zip",
+      "size": 9359,
+      "checksum": "SHA-256:cba779b610f4c69faf9e712f6a3ef75c321ad6f4d23bea7cb3467d75547d7432"
     },
     {
       "name": "OSS-EC_ROHM_BD1020HFV_00000057",
@@ -892399,6 +892473,102 @@
       "checksum": "SHA-256:fe8d734d232254ef7ddd4bf1a0834bfab34db76e598e7019ee65d81f27f1f8c1"
     },
     {
+      "name": "ReefwingAHRS",
+      "version": "2.3.8",
+      "author": "David Such \u003cdsuch@reefwing.com.au\u003e",
+      "maintainer": "David Such \u003cdsuch@reefwing.com.au\u003e",
+      "sentence": "Attitude and Heading Reference System (AHRS) used in the Reefwing Flight Controller.",
+      "paragraph": "Includes Madgwick, Mahony, Kalman, and Complementary (Classic \u0026 Quaternion) Sensor Fusion.",
+      "website": "https://github.com/Reefwing-Software/Reefwing-AHRS.git",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Reefwing-Software/Reefwing-AHRS.git",
+      "providesIncludes": [
+        "ReefwingAHRS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Reefwing-Software/ReefwingAHRS-2.3.8.zip",
+      "archiveFileName": "ReefwingAHRS-2.3.8.zip",
+      "size": 1764346,
+      "checksum": "SHA-256:3ec17401a1f284b1c87348a20b92b49436854b132620c24250ee8cbd698c7923"
+    },
+    {
+      "name": "ReefwingAHRS",
+      "version": "2.3.9",
+      "author": "David Such \u003cdsuch@reefwing.com.au\u003e",
+      "maintainer": "David Such \u003cdsuch@reefwing.com.au\u003e",
+      "sentence": "Attitude and Heading Reference System (AHRS) used in the Reefwing Flight Controller.",
+      "paragraph": "Includes Madgwick, Mahony, Kalman, and Complementary (Classic \u0026 Quaternion) Sensor Fusion.",
+      "website": "https://github.com/Reefwing-Software/Reefwing-AHRS.git",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Reefwing-Software/Reefwing-AHRS.git",
+      "providesIncludes": [
+        "ReefwingAHRS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Reefwing-Software/ReefwingAHRS-2.3.9.zip",
+      "archiveFileName": "ReefwingAHRS-2.3.9.zip",
+      "size": 1765347,
+      "checksum": "SHA-256:5dcc4b074b730780b1ad078170caa9558e6801b8066335e7381b8b2c449ed014"
+    },
+    {
+      "name": "ReefwingAHRS",
+      "version": "2.4.0",
+      "author": "David Such \u003cdsuch@reefwing.com.au\u003e",
+      "maintainer": "David Such \u003cdsuch@reefwing.com.au\u003e",
+      "sentence": "Attitude and Heading Reference System (AHRS) used in the Reefwing Flight Controller.",
+      "paragraph": "Includes Madgwick, Mahony, Kalman, and Complementary (Classic \u0026 Quaternion) Sensor Fusion.",
+      "website": "https://github.com/Reefwing-Software/Reefwing-AHRS.git",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Reefwing-Software/Reefwing-AHRS.git",
+      "providesIncludes": [
+        "ReefwingAHRS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Reefwing-Software/ReefwingAHRS-2.4.0.zip",
+      "archiveFileName": "ReefwingAHRS-2.4.0.zip",
+      "size": 1767484,
+      "checksum": "SHA-256:fc9e8cf48541de7d580b74fa60a46a31ced6977fa46dc8ddf42f55f60c253181"
+    },
+    {
+      "name": "ReefwingAHRS",
+      "version": "2.4.1",
+      "author": "David Such \u003cdsuch@reefwing.com.au\u003e",
+      "maintainer": "David Such \u003cdsuch@reefwing.com.au\u003e",
+      "sentence": "Attitude and Heading Reference System (AHRS) used in the Reefwing Flight Controller.",
+      "paragraph": "Includes Madgwick, Mahony, Kalman, and Complementary (Classic \u0026 Quaternion) Sensor Fusion.",
+      "website": "https://github.com/Reefwing-Software/Reefwing-AHRS.git",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Reefwing-Software/Reefwing-AHRS.git",
+      "providesIncludes": [
+        "ReefwingAHRS.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Reefwing-Software/ReefwingAHRS-2.4.1.zip",
+      "archiveFileName": "ReefwingAHRS-2.4.1.zip",
+      "size": 1767615,
+      "checksum": "SHA-256:e54d06a722f7ac455601c8a03461fec7af4f1f80cbf5cf1242088d265101becc"
+    },
+    {
       "name": "AsyncESP32_SC_ENC_Manager",
       "version": "1.0.0",
       "author": "Khoi Hoang",
@@ -899218,6 +899388,30 @@
       "archiveFileName": "EspUsbHost-2.10.2.zip",
       "size": 1563755,
       "checksum": "SHA-256:41112e956ba6dd42f3bbef404c9990fa11f351c26a46aa8bc7588689b321b9d1"
+    },
+    {
+      "name": "EspUsbHost",
+      "version": "2.11.0",
+      "author": "TANAKA Masayuki",
+      "maintainer": "TANAKA Masayuki",
+      "sentence": "USB Host library for ESP32-S3, ESP32-S2 and ESP32-P4 Arduino sketches.",
+      "paragraph": "EspUsbHost processes USB events in a background FreeRTOS task, so loop() needs no polling call: register callbacks and call begin(). Supports HID keyboard with international layouts, mouse, gamepad, consumer and system control, keyboard LEDs and vendor reports, CDC ACM and FTDI/CP210x/CH34x USB serial adapters as Arduino Streams, USB MIDI in/out, USB Audio isochronous streaming, Mass Storage with FatFs/VFS and fs::FS access, CDC-NCM/CDC-ECM Ethernet adapters as raw frames or an lwIP interface, CCID smart card readers, generic vendor bulk/control transfers, hubs, and multiple simultaneous devices.",
+      "website": "https://github.com/tanakamasayuki/EspUsbHost",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tanakamasayuki/EspUsbHost.git",
+      "providesIncludes": [
+        "EspUsbHost.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.11.0.zip",
+      "archiveFileName": "EspUsbHost-2.11.0.zip",
+      "size": 1575147,
+      "checksum": "SHA-256:392cb9e89de4f25d35d8337828b0c965250e9f23bda9b242f63a0d538b2612c3"
     },
     {
       "name": "Nokia 1.8 Inch Display SPFD54124B",
@@ -965750,6 +965944,54 @@
       "checksum": "SHA-256:ccc3b78466456437521deceb5dee54ac6273cc17fa50b202a09cce1f08508aaa"
     },
     {
+      "name": "ReefwingMPU6050",
+      "version": "1.0.1",
+      "author": "David Such \u003cdsuch@reefwing.com.au\u003e",
+      "maintainer": "David Such \u003cdsuch@reefwing.com.au\u003e",
+      "sentence": "Arduino library for MPU6050 IMU",
+      "paragraph": "Connected via I2C.",
+      "website": "https://github.com/Reefwing-Software/Reefwing-MPU6050.git",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Reefwing-Software/Reefwing-MPU6050.git",
+      "providesIncludes": [
+        "ReefwingMPU6050.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Reefwing-Software/ReefwingMPU6050-1.0.1.zip",
+      "archiveFileName": "ReefwingMPU6050-1.0.1.zip",
+      "size": 2241688,
+      "checksum": "SHA-256:542226d039ad59df4c733e2d277186114c5531fcc0711b678e9eca88885c50c5"
+    },
+    {
+      "name": "ReefwingMPU6050",
+      "version": "1.0.2",
+      "author": "David Such \u003cdsuch@reefwing.com.au\u003e",
+      "maintainer": "David Such \u003cdsuch@reefwing.com.au\u003e",
+      "sentence": "Arduino library for MPU6050 IMU",
+      "paragraph": "Connected via I2C.",
+      "website": "https://github.com/Reefwing-Software/Reefwing-MPU6050.git",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Reefwing-Software/Reefwing-MPU6050.git",
+      "providesIncludes": [
+        "ReefwingMPU6050.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Reefwing-Software/ReefwingMPU6050-1.0.2.zip",
+      "archiveFileName": "ReefwingMPU6050-1.0.2.zip",
+      "size": 2241804,
+      "checksum": "SHA-256:5a2cb97473f152e3f7cfb18a9496bc9dbfc8994a29dba64dca0f79c97521d14b"
+    },
+    {
       "name": "Profiler",
       "version": "1.0.0",
       "author": "Trent M. Wyatt",
@@ -1005584,6 +1005826,64 @@
       "checksum": "SHA-256:b0ffc9afca8f03293808f7df24c4947b1c32487ef4698b6f258b2ee8b38e0521"
     },
     {
+      "name": "roo_time",
+      "version": "2.2.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Basic management of elapsed time, wall time, and date time, with multi-timezone support.",
+      "paragraph": "Provides type safety around durations and different time units, guarding against common programming errors like confusing time units, or confusing 'timestamps' with 'durations'. Tested on ESP32 SOC family, as well as RP2040-based Raspberry Pi Pico.",
+      "website": "https://github.com/dejwk/roo_time",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_time.git",
+      "providesIncludes": [
+        "roo_time.h"
+      ],
+      "dependencies": [
+        {
+          "name": "roo_backport"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time-2.2.0.zip",
+      "archiveFileName": "roo_time-2.2.0.zip",
+      "size": 190422,
+      "checksum": "SHA-256:1efb5654fdfd49fc486cefbed32d418dcb25e619b4a45c12d2ee79313dcadde4"
+    },
+    {
+      "name": "roo_time",
+      "version": "2.2.1",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Basic management of elapsed time, wall time, and date time, with multi-timezone support.",
+      "paragraph": "Provides type safety around durations and different time units, guarding against common programming errors like confusing time units, or confusing 'timestamps' with 'durations'. Tested on ESP32 SOC family, as well as RP2040-based Raspberry Pi Pico.",
+      "website": "https://github.com/dejwk/roo_time",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_time.git",
+      "providesIncludes": [
+        "roo_time.h"
+      ],
+      "dependencies": [
+        {
+          "name": "roo_backport"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time-2.2.1.zip",
+      "archiveFileName": "roo_time-2.2.1.zip",
+      "size": 190495,
+      "checksum": "SHA-256:9f3f51babd35f9556359d309dae59deb8794fc14ca3d660674418ce4829fdf6a"
+    },
+    {
       "name": "SettingsManagerESP32",
       "version": "1.0.0",
       "author": "Maximiliano Ramirez \u003cmaximiliano.ramirezbravo@gmail.com\u003e",
@@ -1006523,6 +1006823,84 @@
       "checksum": "SHA-256:67911837c9f8f72e33d3233d95c922f9399ad1f1470cdb0fb75898aad0ca9dff"
     },
     {
+      "name": "roo_collections",
+      "version": "2.0.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Compact flat hash maps and sets for ESP32 and other microcontrollers.",
+      "paragraph": "Use mutable hash maps for settings and device registries, or build immutable lookup tables at compile time with C++17.",
+      "website": "https://github.com/dejwk/roo_collections",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_collections.git",
+      "dependencies": [
+        {
+          "name": "roo_backport"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_collections-2.0.0.zip",
+      "archiveFileName": "roo_collections-2.0.0.zip",
+      "size": 1433542,
+      "checksum": "SHA-256:f56a1fe388cef7802340b316adba562e0dd183fe25c71c1c3eb28399f2587ced"
+    },
+    {
+      "name": "roo_collections",
+      "version": "2.0.1",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Compact flat hash maps and sets for ESP32 and other microcontrollers.",
+      "paragraph": "Use mutable hash maps for settings and device registries, or build immutable lookup tables at compile time with C++17.",
+      "website": "https://github.com/dejwk/roo_collections",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_collections.git",
+      "dependencies": [
+        {
+          "name": "roo_backport"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_collections-2.0.1.zip",
+      "archiveFileName": "roo_collections-2.0.1.zip",
+      "size": 1433672,
+      "checksum": "SHA-256:960535db8b7b69694a7bfcb4300df4c72896ca9896c09d08f21f6dc9bbe8e089"
+    },
+    {
+      "name": "roo_collections",
+      "version": "2.0.2",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Compact flat hash maps and sets for ESP32 and other microcontrollers.",
+      "paragraph": "Use mutable hash maps for settings and device registries, or build immutable lookup tables at compile time with C++17.",
+      "website": "https://github.com/dejwk/roo_collections",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_collections.git",
+      "dependencies": [
+        {
+          "name": "roo_backport"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_collections-2.0.2.zip",
+      "archiveFileName": "roo_collections-2.0.2.zip",
+      "size": 1433561,
+      "checksum": "SHA-256:dbd4674773dc446dea883a8e7c530e7593540cf34b522cb5e19fb61121d29071"
+    },
+    {
       "name": "PCF8563_RTC",
       "version": "1.0.0",
       "author": "FACTS Engineering",
@@ -1007272,6 +1007650,44 @@
       "archiveFileName": "roo_scheduler-2.3.0.zip",
       "size": 36847,
       "checksum": "SHA-256:fc03f6e13d638757d0876218c4f13c8eef89211d31f6414d23966be01d9ce7e9"
+    },
+    {
+      "name": "roo_scheduler",
+      "version": "2.4.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Allows scheduling delayed and/or repetitive tasks.",
+      "paragraph": "Works on boards that support C++ standard library (e.g. Espressif ESP32 family). Specifically, it requires the following standard headers: `\u003cmemory\u003e`, `\u003cqueue\u003e`, and `\u003cfunctional\u003e`. Uses `std::priority_queue` for storage, and therefore: (1) Maintains the queue in a flat vector, and thus, does not dynamically reallocate memory as long as the queue remains below its present capacity. (In most practical cases, the queue will stay within small bound capacity); (2) Scheduling a task, as well as looking up the nearest scheduled task, is O(log N), where N is the queue length, so it remains fast even in those rare cases when the queue gets longer. The tasks can be defined as function pointers, but also as inline lambdas, or generally as arbitrary callables, so it is convenient and idiomatic to make them stateful.",
+      "website": "https://github.com/dejwk/roo_scheduler",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_scheduler.git",
+      "providesIncludes": [
+        "roo_scheduler.h"
+      ],
+      "dependencies": [
+        {
+          "name": "roo_backport"
+        },
+        {
+          "name": "roo_collections"
+        },
+        {
+          "name": "roo_threads"
+        },
+        {
+          "name": "roo_time"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_scheduler-2.4.0.zip",
+      "archiveFileName": "roo_scheduler-2.4.0.zip",
+      "size": 55865,
+      "checksum": "SHA-256:81bbd773808b47e778a29734e2a13aa3124b820951681894a0b5fad4f9f77b4b"
     },
     {
       "name": "HydroinoJobMgr",
@@ -1015095,6 +1015511,27 @@
       "checksum": "SHA-256:826fb756477fe8dade34896a327394efd96a0d77be2584b99253077a78b1430d"
     },
     {
+      "name": "roo_flags",
+      "version": "1.2.6",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Minimalistic library for run-time configuration flags.",
+      "paragraph": "Useful in libraries, to expose dynamic configuration options.",
+      "website": "https://github.com/dejwk/roo_flags",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_flags.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_flags-1.2.6.zip",
+      "archiveFileName": "roo_flags-1.2.6.zip",
+      "size": 6279,
+      "checksum": "SHA-256:c7eaff485ab35446aefbf8d44b3a1d30fc7a869653d6f384597b40830b1ad890"
+    },
+    {
       "name": "roo_logging",
       "version": "1.0.0",
       "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
@@ -1015902,6 +1016339,76 @@
       "archiveFileName": "roo_logging-1.5.11.zip",
       "size": 100891,
       "checksum": "SHA-256:1ecd02c6f38e99a36726921767abdf57e66ff0602782aafe56b527bb5cc0d77c"
+    },
+    {
+      "name": "roo_logging",
+      "version": "1.6.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Logging library, targeted at ESP32 and related boards.",
+      "paragraph": "Port of Google's 'glog' library.",
+      "website": "https://github.com/dejwk/roo_logging",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_logging.git",
+      "dependencies": [
+        {
+          "name": "roo_backport"
+        },
+        {
+          "name": "roo_flags"
+        },
+        {
+          "name": "roo_time"
+        },
+        {
+          "name": "roo_threads"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_logging-1.6.0.zip",
+      "archiveFileName": "roo_logging-1.6.0.zip",
+      "size": 121570,
+      "checksum": "SHA-256:f8cab6cab784ab103929d3dbc56ed1e4f0ad4fa5d16dffeae87b5752dd9282c6"
+    },
+    {
+      "name": "roo_logging",
+      "version": "1.6.1",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Logging library, targeted at ESP32 and related boards.",
+      "paragraph": "Port of Google's 'glog' library.",
+      "website": "https://github.com/dejwk/roo_logging",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_logging.git",
+      "dependencies": [
+        {
+          "name": "roo_backport"
+        },
+        {
+          "name": "roo_flags"
+        },
+        {
+          "name": "roo_time"
+        },
+        {
+          "name": "roo_threads"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_logging-1.6.1.zip",
+      "archiveFileName": "roo_logging-1.6.1.zip",
+      "size": 121674,
+      "checksum": "SHA-256:fc9e6eb6334113e5b22dda11e19806dfcf5a9b222f9d771a6e8351b7af145592"
     },
     {
       "name": "AsproSolarShield",
@@ -1131015,6 +1131522,38 @@
       "checksum": "SHA-256:858073b24b1deb267cf3a798fcdbeeae9b5d6894dc9489b27aa716407fc4777a"
     },
     {
+      "name": "roo_prefs",
+      "version": "2.0.4",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Utility library for persistent settings using ESP32 NVS or Arduino Preferences, with namespaces and transactions.",
+      "paragraph": "Useful in libraries, to store persistent settings (passwords, configuration) in an organized way.",
+      "website": "https://github.com/dejwk/roo_prefs",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_prefs.git",
+      "dependencies": [
+        {
+          "name": "roo_backport"
+        },
+        {
+          "name": "roo_logging"
+        },
+        {
+          "name": "roo_io"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_prefs-2.0.4.zip",
+      "archiveFileName": "roo_prefs-2.0.4.zip",
+      "size": 52169,
+      "checksum": "SHA-256:cfcb9ad6c72038a856e5bfda66c409823171aa3d009fa2dbf63567be281d1140"
+    },
+    {
       "name": "roo_control",
       "version": "1.0.0",
       "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
@@ -1152438,6 +1152977,48 @@
       "archiveFileName": "Palazzetti-3.7.0.zip",
       "size": 25990,
       "checksum": "SHA-256:867501d0834ad94374526f65b4d387d4d5f2102f65978d78d33ea550499db13a"
+    },
+    {
+      "name": "Palazzetti",
+      "version": "4.0.0",
+      "author": "Domochip \u003cdomochip@hotmail.com\u003e",
+      "maintainer": "Domochip \u003cdomochip@hotmail.com\u003e",
+      "sentence": "A communication library for fumis/palazzetti stove.",
+      "paragraph": "A communication library for fumis/palazzetti Alpha 65. It allows to read status, SetPoint, room temperature, fan speed, etc. and to power on/off stove, set setpoint, fan speed, etc.",
+      "website": "https://github.com/Domochip/Palazzetti",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Domochip/Palazzetti.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Domochip/Palazzetti-4.0.0.zip",
+      "archiveFileName": "Palazzetti-4.0.0.zip",
+      "size": 27902,
+      "checksum": "SHA-256:5a7f9c8195bee35a3519b6a2fd84c30ccde64c5ed8477fbe2e87114ab3dbe69e"
+    },
+    {
+      "name": "Palazzetti",
+      "version": "4.1.0",
+      "author": "Domochip \u003cdomochip@hotmail.com\u003e",
+      "maintainer": "Domochip \u003cdomochip@hotmail.com\u003e",
+      "sentence": "A communication library for fumis/palazzetti stove.",
+      "paragraph": "A communication library for fumis/palazzetti Alpha 65. It allows to read status, SetPoint, room temperature, fan speed, etc. and to power on/off stove, set setpoint, fan speed, etc.",
+      "website": "https://github.com/Domochip/Palazzetti",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Domochip/Palazzetti.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Domochip/Palazzetti-4.1.0.zip",
+      "archiveFileName": "Palazzetti-4.1.0.zip",
+      "size": 28130,
+      "checksum": "SHA-256:c3068d7c0083286035afa7d660676ff8c6885a505d858740909e948dd2181a9b"
     },
     {
       "name": "Virtual Joystick for LVGL",
@@ -1202310,6 +1202891,52 @@
       "checksum": "SHA-256:d9fc5cd46f24a37fc2c72b37dfefba965dc4624a64d7b989ed3e0565d1a6b7c6"
     },
     {
+      "name": "roo_backport",
+      "version": "1.2.5",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Backport of some of C++17 and C++20 functionality, so that it can be used with older compilers.",
+      "website": "https://github.com/dejwk/roo_backport",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_backport.git",
+      "providesIncludes": [
+        "roo_backport.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_backport-1.2.5.zip",
+      "archiveFileName": "roo_backport-1.2.5.zip",
+      "size": 8859,
+      "checksum": "SHA-256:b5d5cb3401d0681ca6d5bf3c5b657e93246691d9a619a7bbdcffb3abcad0a28c"
+    },
+    {
+      "name": "roo_backport",
+      "version": "1.3.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Backport of some of C++17 and C++20 functionality, so that it can be used with older compilers.",
+      "website": "https://github.com/dejwk/roo_backport",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_backport.git",
+      "providesIncludes": [
+        "roo_backport.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_backport-1.3.0.zip",
+      "archiveFileName": "roo_backport-1.3.0.zip",
+      "size": 10805,
+      "checksum": "SHA-256:0ff2153b01262fc6b2272f72d8fb2a3c44bf9cb7f4397deae106bd5cbd9696ff"
+    },
+    {
       "name": "SCConfig",
       "version": "1.0.12",
       "author": "Michael Margold \u003csoftcollection@gmail.com\u003e",
@@ -1242759,6 +1243386,38 @@
       "checksum": "SHA-256:78e7125a33a29379b5610b5976c385e0d8450a9116e62c0c3984186d89205a34"
     },
     {
+      "name": "roo_quantity",
+      "version": "1.1.12",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Type-safe and unit-independent representation of physical quantities.",
+      "paragraph": "Helps you avoid bugs related to confusing the units or the order of numerical parameters.",
+      "website": "https://github.com/dejwk/roo_quantity",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_quantity.git",
+      "dependencies": [
+        {
+          "name": "roo_flags"
+        },
+        {
+          "name": "roo_logging"
+        },
+        {
+          "name": "roo_time"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_quantity-1.1.12.zip",
+      "archiveFileName": "roo_quantity-1.1.12.zip",
+      "size": 74759,
+      "checksum": "SHA-256:a13bcc1ae57d29e1f1e135cb90a56fb124a10c3d0260484bcf4f0f21faa8899f"
+    },
+    {
       "name": "roo_threads",
       "version": "1.0.0",
       "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
@@ -1243277,6 +1243936,58 @@
       "archiveFileName": "roo_threads-1.3.0.zip",
       "size": 59713,
       "checksum": "SHA-256:433c4ec141e8c8e96372cc670f634a2eed746decb5be0f5fa18df23266edf8eb"
+    },
+    {
+      "name": "roo_threads",
+      "version": "1.3.1",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Portable threading library for microcontrollers.",
+      "paragraph": "Works with the ESP32 family, as well as RP2040 SMP. Should be easy to port to anything that uses FreeRTOS.",
+      "website": "https://github.com/dejwk/roo_threads",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_threads.git",
+      "dependencies": [
+        {
+          "name": "roo_time"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_threads-1.3.1.zip",
+      "archiveFileName": "roo_threads-1.3.1.zip",
+      "size": 59599,
+      "checksum": "SHA-256:bec9be87eca9f014a91b821f7ba7c3112fd82f96d82ce3e277bb72ef7a79f2f9"
+    },
+    {
+      "name": "roo_threads",
+      "version": "1.4.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Portable threading library for microcontrollers.",
+      "paragraph": "Works with the ESP32 family, as well as RP2040 SMP. Should be easy to port to anything that uses FreeRTOS.",
+      "website": "https://github.com/dejwk/roo_threads",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_threads.git",
+      "dependencies": [
+        {
+          "name": "roo_time"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_threads-1.4.0.zip",
+      "archiveFileName": "roo_threads-1.4.0.zip",
+      "size": 79619,
+      "checksum": "SHA-256:6e614460ce03ef6f4b6d964716891e7f62cb25d0d727ee847bf83e47c22ae3f6"
     },
     {
       "name": "BMP390",
@@ -1260560,6 +1261271,31 @@
       "archiveFileName": "ESP32_MCPWM-2.0.0.zip",
       "size": 82171,
       "checksum": "SHA-256:24ce850b50be0471e604fd4ff133e8cb710e11f9154e0bfdfdd54468b1b4af17"
+    },
+    {
+      "name": "ESP32_MCPWM",
+      "version": "2.1.0",
+      "author": "Little Man Builds (Darren Osborne)",
+      "maintainer": "Little Man Builds \u003clittlemanbuilds@gmail.com\u003e",
+      "license": "MIT",
+      "sentence": "Explicit ESP32 MCPWM H-bridge control with drive, coast, brake, lifecycle results, fault handling and diagnostics.",
+      "paragraph": "Arduino-ESP32 motor driver with validated setup, explicit zero-demand behavior, deterministic output transitions, software and MCPWM peripheral fault paths, configurable coast and dither braking, runtime frequency changes, capture, coherent status, hardware readback, and focused ESP32-S3 examples.",
+      "website": "https://github.com/littlemanbuilds/ESP32_MCPWM",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/littlemanbuilds/ESP32_MCPWM.git",
+      "providesIncludes": [
+        "ESP32_MCPWM.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/ESP32_MCPWM-2.1.0.zip",
+      "archiveFileName": "ESP32_MCPWM-2.1.0.zip",
+      "size": 114737,
+      "checksum": "SHA-256:f567a194b9178c729958f8b6e7848b9c8997d05a052eec18e245d9ef14be6919"
     },
     {
       "name": "ToFFilter",
@@ -1345903,6 +1346639,30 @@
       "checksum": "SHA-256:95a7338ec2f7aaa16409b966da7319b19a844e56d30715f40e1b591efec0ef97"
     },
     {
+      "name": "FR_Math",
+      "version": "2.0.11",
+      "author": "M. A. Chatterjee \u003cdeftio@deftio.com\u003e",
+      "maintainer": "M. A. Chatterjee \u003cdeftio@deftio.com\u003e",
+      "sentence": "Compact fixed-point math library for embedded systems. 4KB flash, zero dependencies, any radix.",
+      "paragraph": "Integer-only fixed-point math with caller-selectable binary point. Provides trig (sin, cos, tan, atan2), log/exp, sqrt, hypot, wave generators (sqr, tri, saw, pwm, noise), ADSR envelope, and 2D transforms. Pure C (C99), works on AVR, ESP32, RP2040, Cortex-M, RISC-V, MSP430, and any board with a C compiler. No floating-point hardware or libraries required.",
+      "website": "https://github.com/deftio/fr_math",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/deftio/fr_math.git",
+      "providesIncludes": [
+        "FR_math.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/deftio/FR_Math-2.0.11.zip",
+      "archiveFileName": "FR_Math-2.0.11.zip",
+      "size": 640683,
+      "checksum": "SHA-256:f33909c72f7f0db3f1af4082e5db991540bcf04411fa328c1f81220a47c2a224"
+    },
+    {
       "name": "GyverPush",
       "version": "1.0.1",
       "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
@@ -1350122,6 +1350882,35 @@
       "archiveFileName": "RumiCar-0.7.0.zip",
       "size": 39412,
       "checksum": "SHA-256:0a8c32f1bfc88d622bf6d90f32c80f9ef48fb3af59a7c201eb4e4646f986b526"
+    },
+    {
+      "name": "RumiCar",
+      "version": "0.7.1",
+      "author": "RumiCar-group \u003cinfo@rumicar.com\u003e",
+      "maintainer": "RumiCar-group \u003cinfo@rumicar.com\u003e",
+      "sentence": "Library for controlling the RumiCar autonomous driving platform.",
+      "paragraph": "Provides setup and control functions for steering and drive motors, and initializes three front VL53L0X laser distance sensors plus an optional rear VL53L0X (auto-detected). Supports Arduino AVR, ESP32, Spresense, and Raspberry Pi Pico W.",
+      "website": "https://github.com/RumiCar-group/RumiCar-lib",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/RumiCar-group/RumiCar-lib.git",
+      "providesIncludes": [
+        "RumiCar.h"
+      ],
+      "dependencies": [
+        {
+          "name": "VL53L0X"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/RumiCar-group/RumiCar-0.7.1.zip",
+      "archiveFileName": "RumiCar-0.7.1.zip",
+      "size": 42472,
+      "checksum": "SHA-256:1f62a8665ee3c2973bd2104b15223704b45f3bbb719fc4b170220377274be7b0"
     },
     {
       "name": "dv_led_blink",
@@ -1402275,6 +1403064,27 @@
       "checksum": "SHA-256:4ac6ef6204e91099b9a16cfd5fa3d577f8cf9e7839f8f70ba1ca1067c143f2bc"
     },
     {
+      "name": "EEPROM24CXX",
+      "version": "1.0.9",
+      "author": "Alen KrishnaV.U",
+      "maintainer": "Alen Krishna V.U \u003calenkrishnavu@gmail.com\u003e",
+      "sentence": "I2C EEPROM library for 24Cxx EEPROM devices.",
+      "paragraph": "Provides bounded byte, string, buffer and datatype access, cursor operations and memory utilities.",
+      "website": "https://github.com/AlenKrishna2012/EEPROM24CXX",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AlenKrishna2012/EEPROM24CXX.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/AlenKrishna2012/EEPROM24CXX-1.0.9.zip",
+      "archiveFileName": "EEPROM24CXX-1.0.9.zip",
+      "size": 15935,
+      "checksum": "SHA-256:8332d5cb6bae6c8b38dcb1ad99004a079a1e11e3961de3b7834623c1d61085ca"
+    },
+    {
       "name": "OledAnimator",
       "version": "1.0.0",
       "author": "Atharva Phadnis",
@@ -1422828,6 +1423638,48 @@
       "checksum": "SHA-256:4f519ee77eab6d8dd6bfe596c158a5b5304071650b38201a34c5bcfaab67b3e0"
     },
     {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.62",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.62.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.62.zip",
+      "size": 1224625,
+      "checksum": "SHA-256:300484b65df09795e86c58adbd2ca3fdb13e377cc3643021f7ae23985cc57597"
+    },
+    {
+      "name": "OpenEmbeddedProbe",
+      "version": "0.0.63",
+      "author": "Open Embedded Probe contributors",
+      "maintainer": "Open Embedded Probe contributors",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+      "website": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Open-Embedded-Probe/oep-probe-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.63.zip",
+      "archiveFileName": "OpenEmbeddedProbe-0.0.63.zip",
+      "size": 1228594,
+      "checksum": "SHA-256:40828d1f5ca7939238b2172292ed5f4ede6d982fd04ad49f34ce0bd634de926a"
+    },
+    {
       "name": "MPU9250-DMP",
       "version": "1.0.0",
       "author": "Renzo Mischianti \u003crenzo.mischianti@gmail.com\u003e",
@@ -1432228,6 +1433080,30 @@
       "checksum": "SHA-256:d6a90cfd0a6eab2b25f7003564dc10c9d9b3c4e055c831fde72efa71b21dfbcd"
     },
     {
+      "name": "TinyGSM2",
+      "version": "1.0.4",
+      "author": "Long Trinh",
+      "maintainer": "Long Trinh",
+      "sentence": "A small Arduino library for GPRS modules, that just works. Fork of TinyGSM (by Volodymyr Shymanskyy) with arduino-esp32 3.x fixes.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces. Based on TinyGSM 0.12.0, with fixes for arduino-esp32 3.x (watchdog-safe waits, socket data integrity, client lifetime, IPv6, optional multi-task mutex) and a reworked SIMCom A7672X driver.",
+      "website": "https://github.com/longtrinh/TinyGSM2",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/longtrinh/TinyGSM2.git",
+      "providesIncludes": [
+        "TinyGsmClient.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/longtrinh/TinyGSM2-1.0.4.zip",
+      "archiveFileName": "TinyGSM2-1.0.4.zip",
+      "size": 232414,
+      "checksum": "SHA-256:7c560c56f35b7f4074323d54dd3418ce2ef0601ad78f83f797f6616c3a1c735d"
+    },
+    {
       "name": "IndurUI",
       "version": "1.0.0",
       "author": "Rakibul Islam",
@@ -1440599,6 +1441475,38 @@
       "archiveFileName": "ParoClaw-0.2.1.zip",
       "size": 57913,
       "checksum": "SHA-256:c475ddd633094861b442f724f9694525afb84e21107924f737e5ce5c77396662"
+    },
+    {
+      "name": "ParoClaw",
+      "version": "0.3.0",
+      "author": "Dhruv Kotian",
+      "maintainer": "Dhruv Kotian",
+      "sentence": "An ESP32-S3 local AI agent with Ollama tool calling and persistent memory.",
+      "paragraph": "Provides natural-language interaction with allowlisted hardware tools, GPIO and ADC access, PWM, NeoPixel control, LittleFS event memory, and Ollama chat integration.",
+      "website": "https://github.com/dhruvkotian/ParoClaw",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dhruvkotian/ParoClaw.git",
+      "providesIncludes": [
+        "ParoClaw.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "Adafruit NeoPixel"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dhruvkotian/ParoClaw-0.3.0.zip",
+      "archiveFileName": "ParoClaw-0.3.0.zip",
+      "size": 163800,
+      "checksum": "SHA-256:1dc4712a1e6e7fd52dad664e382b4d564c5da917476483749711efcec4fb7696"
     },
     {
       "name": "Yoke",
@@ -1449742,6 +1450650,463 @@
       "archiveFileName": "MotorControl-1.0.1.zip",
       "size": 4085,
       "checksum": "SHA-256:2a183f6ed274cd2b0d2e8365860b7f7c037e2c8543db3cae71dce224b44bae8b"
+    },
+    {
+      "name": "Melior Specto",
+      "version": "0.1.0",
+      "author": "Melior",
+      "maintainer": "Melior \u003cpodpora@melior.software\u003e",
+      "sentence": "Vizualizace z desky na specto.melior.software – nastavíš ji na webu, do kódu vložíš jen klíč.",
+      "paragraph": "Proměnné sketche (Specto.link) se zobrazují na odkazu a dají se z něj měnit (PIN, uživatelé, alarmy). ESP32, ESP8266, UNO R4 WiFi, Pico W, Nano 33 IoT, MKR WiFi 1010, MKR1000, Nano RP2040 Connect, UNO WiFi Rev2, Portenta, GIGA, Opta, cokoli s TLS spojením a přes most v ESP i UNO, Nano, Mega a Leonardo.",
+      "website": "https://github.com/Melior-software/melior-specto-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Melior-software/melior-specto-arduino.git",
+      "providesIncludes": [
+        "MeliorSpecto.h"
+      ],
+      "dependencies": [
+        {
+          "name": "WiFiNINA"
+        },
+        {
+          "name": "WiFi101"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Melior-software/Melior_Specto-0.1.0.zip",
+      "archiveFileName": "Melior_Specto-0.1.0.zip",
+      "size": 39839,
+      "checksum": "SHA-256:c60d2afaf3fbd24022ee54106a5b20fb5401f8f1bda30f9b6cf3ced076a22398"
+    },
+    {
+      "name": "Melior Specto",
+      "version": "0.2.0",
+      "author": "Melior",
+      "maintainer": "Melior \u003cpodpora@melior.software\u003e",
+      "sentence": "Vizualizace z desky na specto.melior.software – nastavíš ji na webu, do kódu vložíš jen klíč.",
+      "paragraph": "Proměnné sketche (Specto.link) se zobrazují na odkazu a dají se z něj měnit (PIN, uživatelé, alarmy). ESP32, ESP8266, UNO R4 WiFi, Pico W, Nano 33 IoT, MKR WiFi 1010, MKR1000, Nano RP2040 Connect, UNO WiFi Rev2, Portenta, GIGA, Opta, cokoli s TLS spojením a přes most v ESP i UNO, Nano, Mega a Leonardo.",
+      "website": "https://github.com/Melior-software/melior-specto-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Melior-software/melior-specto-arduino.git",
+      "providesIncludes": [
+        "MeliorSpecto.h"
+      ],
+      "dependencies": [
+        {
+          "name": "WiFiNINA"
+        },
+        {
+          "name": "WiFi101"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Melior-software/Melior_Specto-0.2.0.zip",
+      "archiveFileName": "Melior_Specto-0.2.0.zip",
+      "size": 43522,
+      "checksum": "SHA-256:4a34cc9108d598f217a2eb9e5f3b3617717be9307aa8263f73c32ff3e1b4fcd8"
+    },
+    {
+      "name": "Melior Specto",
+      "version": "0.2.1",
+      "author": "Melior",
+      "maintainer": "Melior \u003cpodpora@melior.software\u003e",
+      "sentence": "Vizualizace z desky na specto.melior.software – nastavíš ji na webu, do kódu vložíš jen klíč.",
+      "paragraph": "Proměnné sketche (Specto.link) se zobrazují na odkazu a dají se z něj měnit (PIN, uživatelé, alarmy). ESP32, ESP8266, UNO R4 WiFi, Pico W, Nano 33 IoT, MKR WiFi 1010, MKR1000, Nano RP2040 Connect, UNO WiFi Rev2, Portenta, GIGA, Opta, cokoli s TLS spojením a přes most v ESP i UNO, Nano, Mega a Leonardo.",
+      "website": "https://github.com/Melior-software/melior-specto-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Melior-software/melior-specto-arduino.git",
+      "providesIncludes": [
+        "MeliorSpecto.h"
+      ],
+      "dependencies": [
+        {
+          "name": "WiFiNINA"
+        },
+        {
+          "name": "WiFi101"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Melior-software/Melior_Specto-0.2.1.zip",
+      "archiveFileName": "Melior_Specto-0.2.1.zip",
+      "size": 43674,
+      "checksum": "SHA-256:c8069f2570d96928a2e524ee3870ac91c2b20f37c4f98e3a14c33bae3b2204ee"
+    },
+    {
+      "name": "Melior Specto",
+      "version": "0.2.2",
+      "author": "Melior",
+      "maintainer": "Melior \u003cpodpora@melior.software\u003e",
+      "sentence": "Vizualizace z desky na specto.melior.software – nastavíš ji na webu, do kódu vložíš jen klíč.",
+      "paragraph": "Proměnné sketche (Specto.link) se zobrazují na odkazu a dají se z něj měnit (PIN, uživatelé, alarmy). ESP32, ESP8266, UNO R4 WiFi, Pico W, Nano 33 IoT, MKR WiFi 1010, MKR1000, Nano RP2040 Connect, UNO WiFi Rev2, Portenta, GIGA, Opta, cokoli s TLS spojením a přes most v ESP i UNO, Nano, Mega a Leonardo.",
+      "website": "https://github.com/Melior-software/melior-specto-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Melior-software/melior-specto-arduino.git",
+      "providesIncludes": [
+        "MeliorSpecto.h"
+      ],
+      "dependencies": [
+        {
+          "name": "WiFiNINA"
+        },
+        {
+          "name": "WiFi101"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Melior-software/Melior_Specto-0.2.2.zip",
+      "archiveFileName": "Melior_Specto-0.2.2.zip",
+      "size": 38859,
+      "checksum": "SHA-256:0428d1895153bdb5389b98e10235212e9f4ae9ad62993d508a19f68f19244fe9"
+    },
+    {
+      "name": "Melior Specto",
+      "version": "0.2.3",
+      "author": "Melior",
+      "maintainer": "Melior \u003cpodpora@melior.software\u003e",
+      "sentence": "Vizualizace z desky na specto.melior.software – nastavíš ji na webu, do kódu vložíš jen klíč.",
+      "paragraph": "Proměnné sketche (Specto.link) se zobrazují na odkazu a dají se z něj měnit (PIN, uživatelé, alarmy). ESP32, ESP8266, UNO R4 WiFi, Pico W, Nano 33 IoT, MKR WiFi 1010, MKR1000, Nano RP2040 Connect, UNO WiFi Rev2, Portenta, GIGA, Opta, cokoli s TLS spojením a přes most v ESP i UNO, Nano, Mega a Leonardo.",
+      "website": "https://github.com/Melior-software/melior-specto-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Melior-software/melior-specto-arduino.git",
+      "providesIncludes": [
+        "MeliorSpecto.h"
+      ],
+      "dependencies": [
+        {
+          "name": "WiFiNINA"
+        },
+        {
+          "name": "WiFi101"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Melior-software/Melior_Specto-0.2.3.zip",
+      "archiveFileName": "Melior_Specto-0.2.3.zip",
+      "size": 39725,
+      "checksum": "SHA-256:ba98bf2fa5c36819b75554c5e3b867fc232bd2280a02a7c88167cf85218299dc"
+    },
+    {
+      "name": "GU256X64D7000",
+      "version": "0.1.0",
+      "author": "Wijnand Modderman-Lenstra \u003cmaze@maze.io\u003e",
+      "maintainer": "Wijnand Modderman-Lenstra \u003cmaze@maze.io\u003e",
+      "sentence": "Parallel driver for the Noritake GU256X64D-7000 on ATmega4809 boards.",
+      "paragraph": "Uses direct AVR port writes and compile-time wiring for aligned or arbitrary pin assignments.",
+      "website": "https://github.com/BeatGlow/GU256X64D7000",
+      "category": "Display",
+      "architectures": [
+        "megaavr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/BeatGlow/GU256X64D7000.git",
+      "providesIncludes": [
+        "GU256X64D7000.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/BeatGlow/GU256X64D7000-0.1.0.zip",
+      "archiveFileName": "GU256X64D7000-0.1.0.zip",
+      "size": 12159,
+      "checksum": "SHA-256:a7b8d47806ad18462569295a4f4ab331dc097c3894aee3ac90065a6f4070a3a9"
+    },
+    {
+      "name": "GU256X64D7000",
+      "version": "0.2.0",
+      "author": "Wijnand Modderman-Lenstra \u003cmaze@maze.io\u003e",
+      "maintainer": "Wijnand Modderman-Lenstra \u003cmaze@maze.io\u003e",
+      "sentence": "Drives the Noritake GU256X64D-7000 VFD from Arduino boards with 5V GPIO.",
+      "paragraph": "Choose the pins for the 8-bit parallel bus in your sketch. The display needs its own 5V supply. An optional ATmega4809 optimization writes directly to the hardware ports.",
+      "website": "https://github.com/BeatGlow/GU256X64D7000",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/BeatGlow/GU256X64D7000.git",
+      "providesIncludes": [
+        "GU256X64D7000.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/BeatGlow/GU256X64D7000-0.2.0.zip",
+      "archiveFileName": "GU256X64D7000-0.2.0.zip",
+      "size": 69311,
+      "checksum": "SHA-256:23b37078e4c4d10bfee0341c9ea2915b9ba6d8e805cfd0127c51c6da8f1c619c"
+    },
+    {
+      "name": "BiaCameraUVC",
+      "version": "1.0.0",
+      "author": "Rogério Gonçalves \u003cgoncalves2098@gmail.com\u003e",
+      "maintainer": "Rogério Gonçalves \u003cgoncalves2098@gmail.com\u003e",
+      "sentence": "Streaming UVC MJPEG otimizado via DMA para ESP32-S3 com suporte a Hot-Plug e Standby de bateria.",
+      "paragraph": "Biblioteca desenvolvida para integrar cameras UVC em projetos de robotica e visao computacional no ESP32-S3, comunicando-se via TCP com scripts Python.",
+      "website": "https://github.com/ROLL-BIT/BiaCameraUVC",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ROLL-BIT/BiaCameraUVC.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/ROLL-BIT/BiaCameraUVC-1.0.0.zip",
+      "archiveFileName": "BiaCameraUVC-1.0.0.zip",
+      "size": 9337,
+      "checksum": "SHA-256:051e7b08495e50a153bd1aa177bc41c82eddec13420316c783596c5d9619f8a7"
+    },
+    {
+      "name": "WUD_Tournaments",
+      "version": "0.1.0",
+      "author": "Qhuy",
+      "maintainer": "Qhuy",
+      "sentence": "Control an ESP32 RC car over BLE from the NQFT web gamepad.",
+      "paragraph": "Named BLE advertising (RC-Car-AA11), status LED, failsafe, 8 gamepad buttons with press/release events, L298N wheel drivers, STD/MECANUM/OMNI drive mixing and per-wheel PWM trim stored in flash.",
+      "website": "https://github.com/quanhuy38/WUD_Tournaments",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/quanhuy38/WUD_Tournaments.git",
+      "providesIncludes": [
+        "WUD_Tournaments.h"
+      ],
+      "dependencies": [
+        {
+          "name": "NimBLE-Arduino",
+          "version": "\u003e=2.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/quanhuy38/WUD_Tournaments-0.1.0.zip",
+      "archiveFileName": "WUD_Tournaments-0.1.0.zip",
+      "size": 20767,
+      "checksum": "SHA-256:02b5db7e021fcc45d136629b685320cf64232ab2bc76140ec99c4c4d101d7435"
+    },
+    {
+      "name": "WUD_Tournaments",
+      "version": "0.1.1",
+      "author": "Qhuy",
+      "maintainer": "Qhuy",
+      "sentence": "Control an ESP32 RC car over BLE from the NQFT web gamepad.",
+      "paragraph": "Named BLE advertising (RC-Car-AA11), status LED, failsafe, 8 gamepad buttons with press/release events, L298N wheel drivers, STD/MECANUM/OMNI drive mixing and per-wheel PWM trim stored in flash.",
+      "website": "https://github.com/quanhuy38/WUD_Tournaments",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/quanhuy38/WUD_Tournaments.git",
+      "providesIncludes": [
+        "WUD_Tournaments.h"
+      ],
+      "dependencies": [
+        {
+          "name": "NimBLE-Arduino",
+          "version": "\u003e=2.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/quanhuy38/WUD_Tournaments-0.1.1.zip",
+      "archiveFileName": "WUD_Tournaments-0.1.1.zip",
+      "size": 20957,
+      "checksum": "SHA-256:91cbf3a1365a47358de6d1367d5520fc50b2f08a87ef55f536a8784375d4fe97"
+    },
+    {
+      "name": "ESPNowMesh",
+      "version": "1.0.0",
+      "author": "Gianluca Vivenzi",
+      "maintainer": "Gianluca Vivenzi \u003cgianluca.vivenzi@gmail.com\u003e",
+      "sentence": "Libreria mesh ESP-NOW per ESP32 con pairing automatico, relay multi-hop e payload applicativo personalizzabile.",
+      "paragraph": "Gestisce la rete mesh (beacon, pairing, watchdog, anti-loop) lasciando all'applicazione la definizione del payload. Supporta reti multiple tramite network ID configurabile, persistenza canale su NVS, scan automatica dei canali WiFi e topologia master/slave con ruolo selezionabile a runtime.",
+      "website": "https://github.com/GianluViv/ESP_NOW_MESHLIB",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/GianluViv/ESP_NOW_MESHLIB.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/GianluViv/ESPNowMesh-1.0.0.zip",
+      "archiveFileName": "ESPNowMesh-1.0.0.zip",
+      "size": 30929,
+      "checksum": "SHA-256:5125defb685a653f1aaadd93ca57f566adc2ea988549c9037621119feefbf55a"
+    },
+    {
+      "name": "AJoystick",
+      "version": "1.0.2",
+      "author": "alpochete",
+      "maintainer": "alpochete",
+      "sentence": "A library for reading and controlling an analog joystick module.",
+      "paragraph": "Provides analog X and Y axis readings, button detection, direction detection, and axis normalization.",
+      "website": "https://github.com/alpochete/AJoystick",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/alpochete/AJoystick.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/alpochete/AJoystick-1.0.2.zip",
+      "archiveFileName": "AJoystick-1.0.2.zip",
+      "size": 4370,
+      "checksum": "SHA-256:e51ca68e72e4a57d7bbebf43b6caf8dc834e41c960abadb4f356a8d75251a3f1"
+    },
+    {
+      "name": "ESP3C28P",
+      "version": "1.0.0",
+      "author": "Charles Vaillancourt",
+      "maintainer": "Charles Vaillancourt",
+      "sentence": "Helper functions to use LVGL with an ES3C28P module",
+      "paragraph": "The ES3C28P module is an ESP32S3-based device with a 2.8 inch LCD SPI display and a capacitive touchscreen. This library contains all you need to use LVGL with the device to render graphics and capture touch events.",
+      "website": "https://github.com/placidanomaly/esp32s3_28",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/placidanomaly/ES3C28P.git",
+      "providesIncludes": [
+        "esp3c28p.h"
+      ],
+      "dependencies": [
+        {
+          "name": "lvgl",
+          "version": "\u003e=9.6.0"
+        },
+        {
+          "name": "bodmer/TFT_eSPI",
+          "version": "\u003e=2.5.43"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/placidanomaly/ESP3C28P-1.0.0.zip",
+      "archiveFileName": "ESP3C28P-1.0.0.zip",
+      "size": 1726492,
+      "checksum": "SHA-256:37585c137ed089440e3eeed0f445bb94fed9a7943b8b6bb35a7b0f6b9f6cb2c9"
+    },
+    {
+      "name": "ESP3C28P",
+      "version": "1.0.1",
+      "author": "Charles Vaillancourt",
+      "maintainer": "Charles Vaillancourt",
+      "sentence": "Helper functions to use LVGL with an ES3C28P module",
+      "paragraph": "The ES3C28P module is an ESP32S3-based device with a 2.8 inch LCD SPI display and a capacitive touchscreen. This library contains all you need to use LVGL with the device to render graphics and capture touch events.",
+      "website": "https://github.com/placidanomaly/esp32s3_28",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/placidanomaly/ES3C28P.git",
+      "providesIncludes": [
+        "esp3c28p.h"
+      ],
+      "dependencies": [
+        {
+          "name": "lvgl",
+          "version": "\u003e=9.6.0"
+        },
+        {
+          "name": "bodmer/TFT_eSPI",
+          "version": "\u003e=2.5.43"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/placidanomaly/ESP3C28P-1.0.1.zip",
+      "archiveFileName": "ESP3C28P-1.0.1.zip",
+      "size": 1726473,
+      "checksum": "SHA-256:62ad8ffcbb5f7d7adf17cfac087c26a3af03889b89c3cf5f34ccd2193b1eeb6e"
+    },
+    {
+      "name": "ESP3C28P",
+      "version": "1.1.0",
+      "author": "Charles Vaillancourt",
+      "maintainer": "Charles Vaillancourt",
+      "sentence": "Helper functions to use LVGL with an ES3C28P module",
+      "paragraph": "The ES3C28P module is an ESP32S3-based device with a 2.8 inch LCD SPI display and a capacitive touchscreen. This library contains all you need to use LVGL with the device to render graphics and capture touch events.",
+      "website": "https://github.com/placidanomaly/esp32s3_28",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/placidanomaly/ES3C28P.git",
+      "providesIncludes": [
+        "esp3c28p.h"
+      ],
+      "dependencies": [
+        {
+          "name": "lvgl",
+          "version": "\u003e=9.6.0"
+        },
+        {
+          "name": "bodmer/TFT_eSPI",
+          "version": "\u003e=2.5.43"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/placidanomaly/ESP3C28P-1.1.0.zip",
+      "archiveFileName": "ESP3C28P-1.1.0.zip",
+      "size": 1756502,
+      "checksum": "SHA-256:7078158648c72dbbb4bc853730d8d6e86de969fb335c8518c0e6e7f2515cdd15"
+    },
+    {
+      "name": "AButton",
+      "version": "1.0.1",
+      "author": "alpochete",
+      "maintainer": "alpochete",
+      "sentence": "A lightweight Arduino library for push button handling.",
+      "paragraph": "Provides software debouncing, press and release detection, double-click detection, and hold-duration checks. Supports INPUT and INPUT_PULLUP.",
+      "website": "https://github.com/alpochete/Button",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/alpochete/AButton.git",
+      "providesIncludes": [
+        "AButton.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/alpochete/AButton-1.0.1.zip",
+      "archiveFileName": "AButton-1.0.1.zip",
+      "size": 6052,
+      "checksum": "SHA-256:3b01eab85df5309cd9d700bb27e0368bdccd6fdce29ac84704c0979c4c33950b"
     }
   ]
 }
