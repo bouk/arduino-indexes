@@ -49021,6 +49021,32 @@
       "checksum": "SHA-256:202ec716ff222fb08ffc544a5f315cb47b8630c35fbbc9944fc9f8c93d903924"
     },
     {
+      "name": "Adafruit GFX Library",
+      "version": "2.0.0",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Adafruit GFX graphics core library, this is the 'core' class that all our other graphics libraries derive from.",
+      "paragraph": "Install this library in addition to the display library for your hardware.",
+      "website": "https://github.com/adafruit/Adafruit-GFX-Library",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit-GFX-Library.git",
+      "dependencies": [
+        {
+          "name": "Adafruit BusIO"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_GFX_Library-2.0.0.zip",
+      "archiveFileName": "Adafruit_GFX_Library-2.0.0.zip",
+      "size": 427621,
+      "checksum": "SHA-256:a59af928d26fd3cd4c319c07bb60aceeff6a52531ec5549bf6c4f2e3119469a7"
+    },
+    {
       "name": "Adafruit IO Arduino",
       "version": "1.0.0",
       "author": "Adafruit",
@@ -190342,6 +190368,27 @@
       "checksum": "SHA-256:5bdc5b442d87a6ee1b74bbbff0582232c08949ea62b5b04cec13af07eff9b062"
     },
     {
+      "name": "ssd1306",
+      "version": "1.8.9",
+      "author": "Alexey Dynda",
+      "maintainer": "Alexey Dynda \u003calexey.dynda@gmail.com\u003e",
+      "sentence": "Display driver for VGA, SSD1306, SSD1325/SSD1327, SSD1331, SSD1351, ILI9163/ST7735, ILI9341, PCD8544.",
+      "paragraph": "Provides API for working with monochrome and color oled/lcd displays over i2c/spi, and VGA monitor. The library implements graphical engine, allowing creation of dynamic animation, and can be used for gaming development. The library has one of the smallest footprints.",
+      "website": "https://github.com/lexus2k/ssd1306",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/lexus2k/ssd1306.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/lexus2k/ssd1306-1.8.9.zip",
+      "archiveFileName": "ssd1306-1.8.9.zip",
+      "size": 3381464,
+      "checksum": "SHA-256:41f12ebd63300fca519c95ed5da368c626890d4f744c0251c0957ab39134d37c"
+    },
+    {
       "name": "ADCTouchSensor",
       "version": "0.0.1",
       "author": "Alexander Pruss",
@@ -214004,6 +214051,27 @@
       "archiveFileName": "Etherkit_Morse-1.1.2.zip",
       "size": 26227,
       "checksum": "SHA-256:b78133abbb6f697d2d4b6c26e90902ab92b96b15f5759316a052aa7dc62890f1"
+    },
+    {
+      "name": "Etherkit Morse",
+      "version": "1.2.0",
+      "author": "Jason Milldrum \u003cmilldrum@gmail.com\u003e",
+      "maintainer": "Jason Milldrum \u003cmilldrum@gmail.com\u003e",
+      "sentence": "Generate Morse Code for transmission on an digital I/O pin.",
+      "paragraph": "Provide this library with a function that calls every one millisecond, and it will generate Morse code for you on the digital pin and at the sending speed that you desire.",
+      "website": "https://github.com/etherkit/MorseArduino",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/etherkit/MorseArduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/etherkit/Etherkit_Morse-1.2.0.zip",
+      "archiveFileName": "Etherkit_Morse-1.2.0.zip",
+      "size": 36280,
+      "checksum": "SHA-256:8dcf00248989c7ce798fe6d575db189999ee499400d182af03558a8ed8792c39"
     },
     {
       "name": "STM32duino FreeRTOS",
@@ -619222,6 +619290,27 @@
       "checksum": "SHA-256:7abc9229af59970f26a4e7f72aac17abe1cff3341547ee9aa4c3ae013c09836d"
     },
     {
+      "name": "Vrekrer SCPI parser",
+      "version": "0.6.1",
+      "author": "Vrekrer",
+      "maintainer": "Vrekrer \u003cdiegogch@cbpf.br\u003e",
+      "sentence": "Simple SCPI parser for Arduino",
+      "paragraph": "Standard Commands for Programmable Instruments (SCPI) parser for Arduino projects",
+      "website": "https://github.com/Vrekrer/Vrekrer_scpi_parser",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Vrekrer/Vrekrer_scpi_parser.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Vrekrer/Vrekrer_SCPI_parser-0.6.1.zip",
+      "archiveFileName": "Vrekrer_SCPI_parser-0.6.1.zip",
+      "size": 23777,
+      "checksum": "SHA-256:bf9602f618ecb9311e6d19b647500a0fc2a61c1839e282fb20127807238e8171"
+    },
+    {
       "name": "Pixetto",
       "version": "1.4.0",
       "author": "VIA Technologies",
@@ -631801,6 +631890,29 @@
       "archiveFileName": "ESP32_HUB75_LED_MATRIX_PANEL_DMA_Display-3.1.0.zip",
       "size": 2491582,
       "checksum": "SHA-256:fc7eabeeef14f0c9583ddc50604fb8b5c0c71c62ef1f404a5298c4a653f7d2e0"
+    },
+    {
+      "name": "ESP32 HUB75 LED MATRIX PANEL DMA Display",
+      "version": "3.1.1",
+      "author": "MrCodetastic",
+      "maintainer": "MrCodetastic",
+      "sentence": "HUB75 LED Matrix Library for ESP32, ESP32-S2 and ESP32-S3",
+      "paragraph": "An Adafruit GFX compatible library for LED matrix modules which uses DMA for ultra-fast refresh rates and therefore very low CPU usage.",
+      "website": "https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "esp32s2",
+        "esp32s3"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/mrcodetastic/ESP32_HUB75_LED_MATRIX_PANEL_DMA_Display-3.1.1.zip",
+      "archiveFileName": "ESP32_HUB75_LED_MATRIX_PANEL_DMA_Display-3.1.1.zip",
+      "size": 2450593,
+      "checksum": "SHA-256:35454aecf1028b249dd97462796d1fc908022c7f4c6bfbd93fc55be6451d19e9"
     },
     {
       "name": "SparkFun u-blox Arduino Library",
@@ -1009398,6 +1009510,38 @@
       "checksum": "SHA-256:9bcf7aec79f55699c7d858242865f88b5175277575bcde67a5092945dbf70b63"
     },
     {
+      "name": "roo_display",
+      "version": "3.5.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Graphics library, supporting variety of display devices and touch panels.",
+      "paragraph": "Supports SPI and parallel protocols. Efficient, feature-rich, fast, and customizable.",
+      "website": "https://github.com/dejwk/roo_display",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_display.git",
+      "dependencies": [
+        {
+          "name": "roo_backport"
+        },
+        {
+          "name": "roo_collections"
+        },
+        {
+          "name": "roo_io"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_display-3.5.0.zip",
+      "archiveFileName": "roo_display-3.5.0.zip",
+      "size": 4825963,
+      "checksum": "SHA-256:b3303a3af7845651084e1df4b47740fd19b0f048fbd4ff76ec969fcf706d994c"
+    },
+    {
       "name": "roo_material_icons",
       "version": "1.0.2",
       "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
@@ -1045966,6 +1046110,32 @@
       "checksum": "SHA-256:2bf7641bcbaf9f6b1b1fb921980d64156bae69e31a15b4dd6e5c378c991d5d4c"
     },
     {
+      "name": "MycilaHADiscovery",
+      "version": "8.0.0",
+      "author": "Mathieu Carbou \u003cmathieu.carbou@gmail.com\u003e",
+      "maintainer": "Mathieu Carbou \u003cmathieu.carbou@gmail.com\u003e",
+      "license": "MIT",
+      "sentence": "Simple and efficient Home Assistant Discovery library for Arduino / ESP32",
+      "website": "https://github.com/mathieucarbou/MycilaHADiscovery",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mathieucarbou/MycilaHADiscovery.git",
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaHADiscovery-8.0.0.zip",
+      "archiveFileName": "MycilaHADiscovery-8.0.0.zip",
+      "size": 54652,
+      "checksum": "SHA-256:f26c90f6b73cd63a3dd7b7198fa29dcab597fe212a9565a49d609147874d7f10"
+    },
+    {
       "name": "ESP32-PTQS1005",
       "version": "1.0.0",
       "author": "t-oot",
@@ -1046727,6 +1046897,27 @@
       "archiveFileName": "MycilaMQTT-6.1.3.zip",
       "size": 27708,
       "checksum": "SHA-256:6d932bf836b94a1ab6cbbeb3f94068d063f5a4f059b174a270217cc6542db5b9"
+    },
+    {
+      "name": "MycilaMQTT",
+      "version": "6.1.4",
+      "author": "Mathieu Carbou \u003cmathieu.carbou@gmail.com\u003e",
+      "maintainer": "Mathieu Carbou \u003cmathieu.carbou@gmail.com\u003e",
+      "license": "MIT",
+      "sentence": "A simple, efficient and modern MQTT/MQTTS client library for ESP32 Arduino projects, built on top of the Espressif ESP-IDF MQTT API.",
+      "website": "https://github.com/mathieucarbou/MycilaMQTT",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mathieucarbou/MycilaMQTT.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaMQTT-6.1.4.zip",
+      "archiveFileName": "MycilaMQTT-6.1.4.zip",
+      "size": 29760,
+      "checksum": "SHA-256:883b6b802f31f10709b43567fed35d9061aa888715aab54192fd573b64442f70"
     },
     {
       "name": "EspNowCam",
@@ -1132096,6 +1132287,38 @@
       "checksum": "SHA-256:b89d503bb91ff6cf3c9b9a1d99b7e62695014f019b8a7d30110958b51fa81709"
     },
     {
+      "name": "roo_control",
+      "version": "1.3.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Arduino relays, port extenders, debouncing, retries: common abstractions and implementations.",
+      "paragraph": "Supports simple GPIO, and the PCF8574 port extender.",
+      "website": "https://github.com/dejwk/roo_control",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_control.git",
+      "dependencies": [
+        {
+          "name": "roo_logging"
+        },
+        {
+          "name": "roo_quantity"
+        },
+        {
+          "name": "roo_scheduler"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_control-1.3.0.zip",
+      "archiveFileName": "roo_control-1.3.0.zip",
+      "size": 32348,
+      "checksum": "SHA-256:1f7a5a79cb6c68dd389e21c5fe1150db4709f205853f72277c4b64fdd284c152"
+    },
+    {
       "name": "roo_wifi",
       "version": "1.0.0",
       "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
@@ -1132478,6 +1132701,40 @@
       "archiveFileName": "roo_wifi-3.1.0.zip",
       "size": 119947,
       "checksum": "SHA-256:64fd5456e80ff3c234699f6628398276561d27b73feaf7d98b124dba80856bf7"
+    },
+    {
+      "name": "roo_wifi",
+      "version": "3.2.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Portable Wi-Fi operations and SSID-addressed profiles, with an ESP32 ESP-IDF adapter.",
+      "website": "https://github.com/dejwk/roo_wifi",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_wifi.git",
+      "dependencies": [
+        {
+          "name": "roo_collections"
+        },
+        {
+          "name": "roo_prefs"
+        },
+        {
+          "name": "roo_backport"
+        },
+        {
+          "name": "roo_scheduler"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_wifi-3.2.0.zip",
+      "archiveFileName": "roo_wifi-3.2.0.zip",
+      "size": 120089,
+      "checksum": "SHA-256:f98b937743c021dd14642c7af4c7607743fc1c7793b26a85db585f880f043c5b"
     },
     {
       "name": "roo_windows",
@@ -1133887,6 +1134144,44 @@
       "archiveFileName": "roo_onewire-2.0.14.zip",
       "size": 39266,
       "checksum": "SHA-256:4a182e55d789ce9e6b44708c12c3997f6116c9de66a60de2a91dddf888ab3de6"
+    },
+    {
+      "name": "roo_onewire",
+      "version": "2.1.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Arduino library for OneWire thermometers.",
+      "paragraph": "Supports asynchronous conversion with event notification, and persistent configuration to dynamically (re)assign static thermometer 'roles' to specific devices.",
+      "website": "https://github.com/dejwk/roo_onewire",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_onewire.git",
+      "providesIncludes": [
+        "roo_onewire.h"
+      ],
+      "dependencies": [
+        {
+          "name": "roo_collections"
+        },
+        {
+          "name": "roo_logging"
+        },
+        {
+          "name": "roo_scheduler"
+        },
+        {
+          "name": "roo_quantity"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_onewire-2.1.0.zip",
+      "archiveFileName": "roo_onewire-2.1.0.zip",
+      "size": 44718,
+      "checksum": "SHA-256:2dbbf0c693b6686ffb416f28e1f64817bd7f4abf61fd2b9271ee1cc6ef92c3d0"
     },
     {
       "name": "roo_windows_wifi",
@@ -1153019,6 +1153314,27 @@
       "archiveFileName": "Palazzetti-4.1.0.zip",
       "size": 28130,
       "checksum": "SHA-256:c3068d7c0083286035afa7d660676ff8c6885a505d858740909e948dd2181a9b"
+    },
+    {
+      "name": "Palazzetti",
+      "version": "4.1.1",
+      "author": "Domochip \u003cdomochip@hotmail.com\u003e",
+      "maintainer": "Domochip \u003cdomochip@hotmail.com\u003e",
+      "sentence": "A communication library for fumis/palazzetti stove.",
+      "paragraph": "A communication library for fumis/palazzetti Alpha 65. It allows to read status, SetPoint, room temperature, fan speed, etc. and to power on/off stove, set setpoint, fan speed, etc.",
+      "website": "https://github.com/Domochip/Palazzetti",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Domochip/Palazzetti.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/Domochip/Palazzetti-4.1.1.zip",
+      "archiveFileName": "Palazzetti-4.1.1.zip",
+      "size": 28727,
+      "checksum": "SHA-256:6e61650436f4dc3985cc94dd36529561d00d2778a0089062d95bfb57b4a76f10"
     },
     {
       "name": "Virtual Joystick for LVGL",
@@ -1190076,6 +1190392,41 @@
       "checksum": "SHA-256:12e670dd92bded3090b467b235bbf4894b34dc3faaea11f5948ab95cdab804fe"
     },
     {
+      "name": "roo_io",
+      "version": "2.5.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Unified I/O library for microcontrollers.",
+      "paragraph": "Standard C++. Supports ESP32 Arduino/ESP-IDF and RP2040 Arduino-Pico/Pico SDK.",
+      "website": "https://github.com/dejwk/roo_io",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_io.git",
+      "providesIncludes": [
+        "roo_io.h"
+      ],
+      "dependencies": [
+        {
+          "name": "roo_backport"
+        },
+        {
+          "name": "roo_logging"
+        },
+        {
+          "name": "roo_threads"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_io-2.5.0.zip",
+      "archiveFileName": "roo_io-2.5.0.zip",
+      "size": 329182,
+      "checksum": "SHA-256:12b37d9ef0097d3ce3a7e9c3253f5d328b4efc5a91853c72d584992e30a3b189"
+    },
+    {
       "name": "roo_io_arduino",
       "version": "1.0.1",
       "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
@@ -1195196,6 +1195547,27 @@
       "checksum": "SHA-256:1c82de86a64dc7fe89c31714764fd1186109a85b28e868c0be64725abeace999"
     },
     {
+      "name": "PDLS_Common",
+      "version": "10.1.2",
+      "author": "Rei Vilo",
+      "maintainer": "Rei Vilo",
+      "sentence": "Shared libraries including constants and utilities",
+      "paragraph": "Required by drivers and PDLS_Basic libraries",
+      "website": "https://docs.pervasivedisplays.com/knowledge/",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rei-vilo/PDLS_Common.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/rei-vilo/PDLS_Common-10.1.2.zip",
+      "archiveFileName": "PDLS_Common-10.1.2.zip",
+      "size": 57165,
+      "checksum": "SHA-256:5e634b597dbf9513e80e254d45d1e5b2f674b4820c2475f5dae3d9414f9fc70b"
+    },
+    {
       "name": "PDLS_Basic",
       "version": "9.0.2",
       "author": "Rei Vilo for Pervasive Displays",
@@ -1196142,6 +1196514,54 @@
       "archiveFileName": "PDLS_Basic-10.1.1.zip",
       "size": 520066,
       "checksum": "SHA-256:1ec9734016dbe9f2c65e7035689a8cd5696892c1a8b31828e0f8d0bcecfc1841"
+    },
+    {
+      "name": "PDLS_Basic",
+      "version": "10.1.2",
+      "author": "Rei Vilo",
+      "maintainer": "Rei Vilo",
+      "sentence": "Library for Pervasive Displays iTC screens, extension boards and development kits",
+      "paragraph": "Graphics and text primitives, normal and fast update",
+      "website": "https://docs.pervasivedisplays.com/knowledge/",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/rei-vilo/PDLS_Basic.git",
+      "dependencies": [
+        {
+          "name": "PDLS_Common",
+          "version": "\u003e=10.1.1"
+        },
+        {
+          "name": "Pervasive_Wide_Large"
+        },
+        {
+          "name": "Pervasive_Wide_Medium"
+        },
+        {
+          "name": "Pervasive_Wide_Small"
+        },
+        {
+          "name": "Pervasive_BWRY_Large"
+        },
+        {
+          "name": "Pervasive_BWRY_Medium"
+        },
+        {
+          "name": "Pervasive_BWRY_Small"
+        },
+        {
+          "name": "Pervasive_Touch_Small"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/rei-vilo/PDLS_Basic-10.1.2.zip",
+      "archiveFileName": "PDLS_Basic-10.1.2.zip",
+      "size": 821343,
+      "checksum": "SHA-256:d9b82af2647289aac54522898d0f45860c5290164920fe3d480ee66ea42ead8d"
     },
     {
       "name": "Pervasive_Wide_Medium",
@@ -1268729,6 +1269149,40 @@
       "checksum": "SHA-256:ca8a00d3dcf8c3e91cdacac61e2f84a4d8c1a23bf1c0a0eae1d633ddb2be6bd8"
     },
     {
+      "name": "roo_blink",
+      "version": "1.3.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Blink LEDs like a pro!",
+      "website": "https://github.com/dejwk/roo_blink",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_blink.git",
+      "dependencies": [
+        {
+          "name": "roo_logging"
+        },
+        {
+          "name": "roo_scheduler"
+        },
+        {
+          "name": "roo_threads"
+        },
+        {
+          "name": "roo_time"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_blink-1.3.0.zip",
+      "archiveFileName": "roo_blink-1.3.0.zip",
+      "size": 35188,
+      "checksum": "SHA-256:4b9ec9d878de48a418cc693085e7a329789598cf422d603f9715fb9376b2de7e"
+    },
+    {
       "name": "HanumanMini",
       "version": "1.0.0",
       "author": "ArtronAcademy",
@@ -1278252,6 +1278706,30 @@
       "checksum": "SHA-256:33922a9382d4d32bc7247a080ea82a165cea9fdde1ffa28dacf2622588568eb3"
     },
     {
+      "name": "Windnerd_Core",
+      "version": "1.7.0",
+      "author": "windnerd.net \u003cdev@windnerd.net\u003e",
+      "maintainer": "windnerd.net \u003cdev@windnerd.net\u003e",
+      "sentence": "Driver and utilities for WindNerd Core wind sensor board.",
+      "paragraph": "Build a 3D-printed anemometer with full magnetic sensing for your weather station.",
+      "website": "https://github.com/windnerd-labs/windnerd-core",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/windnerd-labs/Windnerd-Core.git",
+      "providesIncludes": [
+        "Windnerd_Core.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/windnerd-labs/Windnerd_Core-1.7.0.zip",
+      "archiveFileName": "Windnerd_Core-1.7.0.zip",
+      "size": 1567453,
+      "checksum": "SHA-256:32c99ea7432b56825d249bbb66eb3f1bd7c9cda8cb32dc903c386dad3a90b57b"
+    },
+    {
       "name": "AdvancedOximeter",
       "version": "1.0.0",
       "author": "Jaikulk",
@@ -1281248,6 +1281726,40 @@
       "checksum": "SHA-256:63dc285d3b77a1c01f38cc5d65b54509c89dcaee32099e695008c6adc1f5f6ba"
     },
     {
+      "name": "roo_transport",
+      "version": "1.3.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Reliable transport (sockets, streams) over Serial and ESP-NOW.",
+      "website": "https://github.com/dejwk/roo_transport",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_transport.git",
+      "dependencies": [
+        {
+          "name": "roo_collections"
+        },
+        {
+          "name": "roo_io"
+        },
+        {
+          "name": "roo_logging"
+        },
+        {
+          "name": "roo_threads"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_transport-1.3.0.zip",
+      "archiveFileName": "roo_transport-1.3.0.zip",
+      "size": 846966,
+      "checksum": "SHA-256:db447a237dcd8c78605379578fa1ff604dec9e9b98461cb526ee88292bc413dc"
+    },
+    {
       "name": "AlgoIoT",
       "version": "1.0.0",
       "author": "Fernando Carello \u003cfernando@gt50.com\u003e",
@@ -1281582,6 +1282094,29 @@
       "archiveFileName": "roo_locale-1.1.4.zip",
       "size": 7564,
       "checksum": "SHA-256:50d70e83464b348e21142e19d5ac820235fea64e5d32e8b057cddf54a7c94399"
+    },
+    {
+      "name": "roo_locale",
+      "version": "1.2.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Multi-language support for roo libraries on microcontrollers.",
+      "website": "https://github.com/dejwk/roo_locale",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_locale.git",
+      "providesIncludes": [
+        "roo_locale.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_locale-1.2.0.zip",
+      "archiveFileName": "roo_locale-1.2.0.zip",
+      "size": 60736,
+      "checksum": "SHA-256:be9609209be0b26ca51fe15b1a9f595986fe9b4fcf19fbab029e3564213d5ee3"
     },
     {
       "name": "PlugAndPlay",
@@ -1348074,6 +1348609,54 @@
       "checksum": "SHA-256:755e6b73bb870f51db2b05cafdc3f4d4694aa47b593b303a3714551fe1ba116b"
     },
     {
+      "name": "esp-ps5",
+      "version": "1.4.0",
+      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
+      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
+      "sentence": "Use a PS5 DualSense controller with an ESP32 over Bluetooth Classic.",
+      "paragraph": "Pair a Sony DualSense (PS5) controller to an ESP32 over Bluetooth Classic. Read sticks, buttons, triggers, D-pad, touchpad, gyro, accelerometer, battery, and headphone/mic state. Drive RGB lightbar, dual rumble motors, the 5 player LEDs and the mic-mute LED. Tested on Arduino-ESP32 3.3.x and 4.x with ESP32-WROOM-32D / 32U using the Huge APP partition.",
+      "website": "https://github.com/HamzaYslmn/esp-ps5",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/HamzaYslmn/esp-ps5.git",
+      "providesIncludes": [
+        "ps5Controller.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/esp_ps5-1.4.0.zip",
+      "archiveFileName": "esp_ps5-1.4.0.zip",
+      "size": 25664,
+      "checksum": "SHA-256:a71233fa791573d4e4661fdd12679027986e87a44ebe4896e11111e5c59a4458"
+    },
+    {
+      "name": "esp-ps5",
+      "version": "1.5.0",
+      "author": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
+      "maintainer": "Hamza Yesilmen \u003cresmiyslmn@gmail.com\u003e",
+      "sentence": "Use a PS5 DualSense controller with an ESP32 over Bluetooth Classic.",
+      "paragraph": "Pair a Sony DualSense (PS5) controller to an ESP32 over Bluetooth Classic. Read sticks, buttons, triggers, D-pad, touchpad, gyro, accelerometer, battery, and headphone/mic state. Drive RGB lightbar, dual rumble motors, the 5 player LEDs and the mic-mute LED. Tested on Arduino-ESP32 3.3.x and 4.x with ESP32-WROOM-32D / 32U using the Huge APP partition.",
+      "website": "https://github.com/HamzaYslmn/esp-ps5",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/HamzaYslmn/esp-ps5.git",
+      "providesIncludes": [
+        "ps5Controller.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/esp_ps5-1.5.0.zip",
+      "archiveFileName": "esp_ps5-1.5.0.zip",
+      "size": 27448,
+      "checksum": "SHA-256:4135237dd1eba7b0235734371dcc95129327adb4e7c8ca1bade3a447294dbc2d"
+    },
+    {
       "name": "clogger",
       "version": "1.0.0",
       "author": "cyfney-anka",
@@ -1409769,6 +1410352,31 @@
       "checksum": "SHA-256:472e10f7eb133adea34a41910ce4a56be91db0865935ddffb14c21ebed574571"
     },
     {
+      "name": "cyfney-cpp",
+      "version": "5.3.1",
+      "author": "anka",
+      "maintainer": "anka",
+      "license": "MIT",
+      "sentence": "Reusable C++ utilities and base classes.",
+      "paragraph": "A header-only library providing general-purpose building blocks, common tools, and foundational components for C++ projects.",
+      "website": "https://github.com/cyfney/cyfney-cpp-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/cyfney/cyfney-cpp-arduino.git",
+      "providesIncludes": [
+        "cyf.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/cyfney/cyfney_cpp-5.3.1.zip",
+      "archiveFileName": "cyfney_cpp-5.3.1.zip",
+      "size": 57581,
+      "checksum": "SHA-256:1b4b1d33e49ff536e1dd94845aeb352d9b9402338bd9a88d588f203e4503921c"
+    },
+    {
       "name": "SparkFun SSD168x I2C Interface Library",
       "version": "1.0.0",
       "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
@@ -1409830,6 +1410438,27 @@
       "archiveFileName": "SparkFun_SSD168x_I2C_Interface_Library-1.0.2.zip",
       "size": 13767430,
       "checksum": "SHA-256:055232d93fd2c2309948ded27717d65f029e48970d93cc9f6a47c024fcd47d12"
+    },
+    {
+      "name": "SparkFun SSD168x I2C Interface Library",
+      "version": "1.0.3",
+      "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
+      "maintainer": "SparkFun Electronics \u003csparkfun.com\u003e",
+      "sentence": "Library for SSD168x e-paper displays on I2C",
+      "paragraph": "A library to support SSD168x e-paper displays on I2C using a I2C-SPI Bridge. The STM32G03 folder contains example bridge firmware",
+      "website": "https://github.com/sparkfun/SparkFun_SSD168x_I2C_Interface_Library",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sparkfun/SparkFun_SSD168x_I2C_Interface_Library.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_SSD168x_I2C_Interface_Library-1.0.3.zip",
+      "archiveFileName": "SparkFun_SSD168x_I2C_Interface_Library-1.0.3.zip",
+      "size": 13767733,
+      "checksum": "SHA-256:5b563ecb89b5b34345a560aec8cad67eaedca637b4227ba4ea326c9f4ced3542"
     },
     {
       "name": "TecnovaIoT",
@@ -1415256,6 +1415885,36 @@
       "checksum": "SHA-256:62b84223e81a262a99e7a87508f279003510e1d7982abb86c7956d023e084da8"
     },
     {
+      "name": "FlovaSDK",
+      "version": "0.5.2",
+      "author": "Flova",
+      "maintainer": "Flova",
+      "sentence": "Connect ESP32 and ESP8266 Arduino devices to Flova with bounded local-first datastreams.",
+      "paragraph": "Provides provisioning, secure Device Link transport, persistence, scheduling, hardware mapping, and OTA services for ESP32 and ESP8266.",
+      "website": "https://github.com/flova-platform/flova-sdk",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/flova-platform/flova-firmware.git",
+      "providesIncludes": [
+        "FlovaSDK.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/flova-platform/FlovaSDK-0.5.2.zip",
+      "archiveFileName": "FlovaSDK-0.5.2.zip",
+      "size": 363852,
+      "checksum": "SHA-256:ad63d29b6cacdd0e53ef99afb1d77d8cbbecb7d0c76a507317c2e72d4590599e"
+    },
+    {
       "name": "Pulsync",
       "version": "0.2.0",
       "author": "Vineeth Rai K \u003cvineethraik@gmail.com\u003e",
@@ -1416144,6 +1416803,31 @@
       "archiveFileName": "DevLab_Interface-1.2.1.zip",
       "size": 216088,
       "checksum": "SHA-256:be3f08cd8a07cc3a24119a45e1fe35ae07f62bb00b7588d2b960884211a9a995"
+    },
+    {
+      "name": "DevLab_Interface",
+      "version": "1.3.1",
+      "author": "UNIT Electronics",
+      "maintainer": "Jonathan Mejorado Lopez",
+      "sentence": "Arduino library interface for DevLab Sensors and external sensors, through I2C, SPI and other communication protocols.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_interface_library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_interface_library.git",
+      "providesIncludes": [
+        "DevLab_Interface.h",
+        "DevLab_BusIO.h",
+        "DevLab_I2C_Interface.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_Interface-1.3.1.zip",
+      "archiveFileName": "DevLab_Interface-1.3.1.zip",
+      "size": 216886,
+      "checksum": "SHA-256:367661c62d26a72c0a3d635cbc348059325c31058c78da5c96fd22980e247c73"
     },
     {
       "name": "URP2_DVI_HSTX",
@@ -1421574,6 +1422258,69 @@
       "checksum": "SHA-256:faaf486943abdd6704f2c024497c8df3a183adfb765262967b90836e155656df"
     },
     {
+      "name": "Periph",
+      "version": "1.5.1",
+      "author": "Till Uhde",
+      "maintainer": "Till Uhde \u003ctill@uhde.com\u003e",
+      "sentence": "Peripheral chip drivers for Arduino (I2C/SPI).",
+      "paragraph": "Drivers for sensors and actuators connected via I2C or SPI transports.",
+      "website": "https://github.com/tuhde/Periph",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tuhde/Periph-Arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/tuhde/Periph-1.5.1.zip",
+      "archiveFileName": "Periph-1.5.1.zip",
+      "size": 1625565,
+      "checksum": "SHA-256:8c34aa7d05fca1f27054937c775bad480752125d53eb84d635a7dd352b6e020f"
+    },
+    {
+      "name": "Periph",
+      "version": "1.5.2",
+      "author": "Till Uhde",
+      "maintainer": "Till Uhde \u003ctill@uhde.com\u003e",
+      "sentence": "Peripheral chip drivers for Arduino (I2C/SPI).",
+      "paragraph": "Drivers for sensors and actuators connected via I2C or SPI transports.",
+      "website": "https://github.com/tuhde/Periph",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tuhde/Periph-Arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/tuhde/Periph-1.5.2.zip",
+      "archiveFileName": "Periph-1.5.2.zip",
+      "size": 1625565,
+      "checksum": "SHA-256:9908cc6f0bf4e85474869614b1b9e9aa24361f479c6349172f6c9af72c5802a5"
+    },
+    {
+      "name": "Periph",
+      "version": "1.5.3",
+      "author": "Till Uhde",
+      "maintainer": "Till Uhde \u003ctill@uhde.com\u003e",
+      "sentence": "Peripheral chip drivers for Arduino (I2C/SPI).",
+      "paragraph": "Drivers for sensors and actuators connected via I2C or SPI transports.",
+      "website": "https://github.com/tuhde/Periph",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tuhde/Periph-Arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/tuhde/Periph-1.5.3.zip",
+      "archiveFileName": "Periph-1.5.3.zip",
+      "size": 1625565,
+      "checksum": "SHA-256:4dbff90571ceea508114eb7bfb1695689847551a814fd84ee6dd9823f262e24b"
+    },
+    {
       "name": "eOS3",
       "version": "1.0.0",
       "author": "Stefan Staub",
@@ -1424820,6 +1425567,27 @@
       "archiveFileName": "ArnoTek_Debug-1.0.2.zip",
       "size": 183158,
       "checksum": "SHA-256:bf90c1e59c100e4f8bed8945197a78628bc7ab765993cbd7e13589ee71305adc"
+    },
+    {
+      "name": "ArnoTek_Debug",
+      "version": "1.0.3",
+      "author": "Anthony Arnovitz, aarnovitz@arnotek.com",
+      "maintainer": "Anthony Arnovitz, aarnovitz@arnotek.com",
+      "sentence": "Conditional debugging utility for Arduino",
+      "paragraph": "This utility conditionally generates Arduino C++ debugging statements.",
+      "website": "https://github.com/AJArnovitz/ArnoTek_Debug",
+      "category": "Other",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AJArnovitz/ArnoTek_Debug.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/AJArnovitz/ArnoTek_Debug-1.0.3.zip",
+      "archiveFileName": "ArnoTek_Debug-1.0.3.zip",
+      "size": 267331,
+      "checksum": "SHA-256:b9e843d124167fce42359cdbd92e108dc3bbba510eab68a42073336831cd1ad0"
     },
     {
       "name": "RTC_I2C",
@@ -1437891,6 +1438659,30 @@
       "checksum": "SHA-256:09033d5949d3f8afe49bbcc17a5a6519e11a030996758618d4b3e2b8c13cbdef"
     },
     {
+      "name": "AnalogMimic",
+      "version": "0.2.0",
+      "author": "tkgktyk",
+      "maintainer": "tkgktyk",
+      "sentence": "Controls the Analog Mimic programmable analog module over I2C.",
+      "paragraph": "Switch the module between analog functions (filters, amplifier, comparator, clipper, rectifier, log, integrator and more) and set their parameters from your sketch.",
+      "website": "https://github.com/tkgktyk/analog-mimic-arduino",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tkgktyk/analog-mimic-arduino.git",
+      "providesIncludes": [
+        "AnalogMimic.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tkgktyk/AnalogMimic-0.2.0.zip",
+      "archiveFileName": "AnalogMimic-0.2.0.zip",
+      "size": 59179,
+      "checksum": "SHA-256:9c9d72f71133e712564f1c2f282fdc4b6e13a54d827bc56d5b328bafe29d95f9"
+    },
+    {
       "name": "ToneTransceiver",
       "version": "1.0.0",
       "author": "code-hoysala",
@@ -1438756,6 +1439548,41 @@
       "archiveFileName": "Adafruit_LT8912B-1.0.0.zip",
       "size": 28203,
       "checksum": "SHA-256:d506fd1281970dd10729f5ffb9929e10eaa9349cea361dce136c5b2623d90fed"
+    },
+    {
+      "name": "Adafruit LT8912B",
+      "version": "1.1.0",
+      "author": "Adafruit, Espressif Systems",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Arduino driver for the LT8912B MIPI DSI to HDMI/DVI bridge.",
+      "paragraph": "Provides portable I2C bridge control and an ESP32-P4 display helper for framebuffer output, with color-bar and Adafruit GFX examples.",
+      "website": "https://github.com/adafruit/Adafruit_LT8912B",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Recommended"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_LT8912B.git",
+      "providesIncludes": [
+        "Adafruit_LT8912B.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit BusIO"
+        },
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit TestBed"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_LT8912B-1.1.0.zip",
+      "archiveFileName": "Adafruit_LT8912B-1.1.0.zip",
+      "size": 30942,
+      "checksum": "SHA-256:f44091a42fc6582d39b021836c170f40d384b5be83d47d7169acf613b493c055"
     },
     {
       "name": "Adafruit RV8803",
@@ -1441356,6 +1442183,40 @@
       "archiveFileName": "ocean_imu-2.8.2.zip",
       "size": 84231477,
       "checksum": "SHA-256:9b17802bf118db82176f6d11264b776012d2efc1aed91ee7cb8fed83f9c68d31"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.8.3",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.8.3.zip",
+      "archiveFileName": "ocean_imu-2.8.3.zip",
+      "size": 84266177,
+      "checksum": "SHA-256:b897dc6a93600da0301c05afc9bee160d6bb6adb34f381b3939a94b6f325a402"
     },
     {
       "name": "AlashBME280",
@@ -1449734,6 +1450595,30 @@
       "checksum": "SHA-256:4fb7035024065433e1880dfd713c4ea49e4ef3bbad92e32f7fbaf9a3b1bd567b"
     },
     {
+      "name": "SparkFun SSD168x Library",
+      "version": "1.0.1",
+      "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
+      "maintainer": "SparkFun Electronics \u003csparkfun.com\u003e",
+      "sentence": "Library for SSD1680 / SSD1681 e-paper displays on SPI",
+      "paragraph": "A library to support SSD1680 / SSD1681 e-paper displays (e.g. the GoodDisplay GDEM0097T61 and GDEY0154D67) using SPI. Builds as an Arduino Library and as an Espressif ESP-IDF Component.",
+      "website": "https://github.com/sparkfun/SparkFun_SSD168x_Library",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sparkfun/SparkFun_SSD168x_Library.git",
+      "providesIncludes": [
+        "SparkFun_SSD168x_Library.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_SSD168x_Library-1.0.1.zip",
+      "archiveFileName": "SparkFun_SSD168x_Library-1.0.1.zip",
+      "size": 590454,
+      "checksum": "SHA-256:c341a31983e4790b3f1c6344c7895037156d94589cf77a675d974e232384560c"
+    },
+    {
       "name": "BoxIO",
       "version": "1.2.3",
       "author": "Box IO",
@@ -1450941,6 +1451826,66 @@
       "checksum": "SHA-256:91cbf3a1365a47358de6d1367d5520fc50b2f08a87ef55f536a8784375d4fe97"
     },
     {
+      "name": "WUD_Tournaments",
+      "version": "0.2.0",
+      "author": "Qhuy",
+      "maintainer": "Qhuy",
+      "sentence": "Control an ESP32 RC car over BLE from the NQFT web gamepad.",
+      "paragraph": "Named BLE advertising (RC-Car-AA11), status LED, failsafe, 8 gamepad buttons with press/release events, L298N wheel drivers, STD/MECANUM/OMNI drive mixing, per-wheel PWM trim and direction matrix stored in flash, single-wheel test from the web.",
+      "website": "https://github.com/quanhuy38/WUD_Tournaments",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/quanhuy38/WUD_Tournaments.git",
+      "providesIncludes": [
+        "WUD_Tournaments.h"
+      ],
+      "dependencies": [
+        {
+          "name": "NimBLE-Arduino",
+          "version": "\u003e=2.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/quanhuy38/WUD_Tournaments-0.2.0.zip",
+      "archiveFileName": "WUD_Tournaments-0.2.0.zip",
+      "size": 24497,
+      "checksum": "SHA-256:6499eadcab8ab885973a41241f3be3de69ef2fe55b123e96ab197d34ec8f2382"
+    },
+    {
+      "name": "WUD_Tournaments",
+      "version": "0.3.0",
+      "author": "Qhuy",
+      "maintainer": "Qhuy",
+      "sentence": "Control an ESP32 RC car over BLE from the NQFT web gamepad.",
+      "paragraph": "Named BLE advertising (RC-Car-AA11), status LED, failsafe, 8 gamepad buttons with press/release events, L298N wheel drivers, STD/MECANUM/OMNI drive mixing, per-wheel PWM trim and direction matrix stored in flash, single-wheel test from the web.",
+      "website": "https://github.com/quanhuy38/WUD_Tournaments",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/quanhuy38/WUD_Tournaments.git",
+      "providesIncludes": [
+        "WUD_Tournaments.h"
+      ],
+      "dependencies": [
+        {
+          "name": "NimBLE-Arduino",
+          "version": "\u003e=2.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/quanhuy38/WUD_Tournaments-0.3.0.zip",
+      "archiveFileName": "WUD_Tournaments-0.3.0.zip",
+      "size": 28124,
+      "checksum": "SHA-256:8cc7559506335eb02ab5a90c0451295b9e227621cd03d279c4fc8ab00d7bcb3f"
+    },
+    {
       "name": "ESPNowMesh",
       "version": "1.0.0",
       "author": "Gianluca Vivenzi",
@@ -1451107,6 +1452052,348 @@
       "archiveFileName": "AButton-1.0.1.zip",
       "size": 6052,
       "checksum": "SHA-256:3b01eab85df5309cd9d700bb27e0368bdccd6fdce29ac84704c0979c4c33950b"
+    },
+    {
+      "name": "AButton",
+      "version": "1.0.2",
+      "author": "alpochete",
+      "maintainer": "alpochete",
+      "sentence": "A lightweight Arduino library for push button handling.",
+      "paragraph": "Provides software debouncing, press and release detection, double-click detection, and hold-duration checks. Supports INPUT and INPUT_PULLUP.",
+      "website": "https://github.com/alpochete/AButton",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/alpochete/AButton.git",
+      "providesIncludes": [
+        "AButton.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/alpochete/AButton-1.0.2.zip",
+      "archiveFileName": "AButton-1.0.2.zip",
+      "size": 5993,
+      "checksum": "SHA-256:4253ed1460548efabf8ba7e52fd9e5ac67dab7437860a7385147d73498ad4ba9"
+    },
+    {
+      "name": "roo_fonts_material",
+      "version": "1.0.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Collection of Material Design fonts for use with dejwk/roo_display.",
+      "paragraph": "See http://github.com/dejwk/roo_display.",
+      "website": "https://github.com/dejwk/roo_fonts_material",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_fonts_material.git",
+      "dependencies": [
+        {
+          "name": "roo_display"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_fonts_material-1.0.0.zip",
+      "archiveFileName": "roo_fonts_material-1.0.0.zip",
+      "size": 5138924,
+      "checksum": "SHA-256:d5388fb68ba11e7508388d57d5be5f281263153b7637b383dd8b1ed288c8415e"
+    },
+    {
+      "name": "roo_fonts_material",
+      "version": "1.1.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Collection of Material Design fonts for use with dejwk/roo_display.",
+      "paragraph": "See http://github.com/dejwk/roo_display.",
+      "website": "https://github.com/dejwk/roo_fonts_material",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_fonts_material.git",
+      "dependencies": [
+        {
+          "name": "roo_display"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_fonts_material-1.1.0.zip",
+      "archiveFileName": "roo_fonts_material-1.1.0.zip",
+      "size": 6380656,
+      "checksum": "SHA-256:fb80b05289950512ec98946af72964fe2f12219f6491bcc00010a5c75d761516"
+    },
+    {
+      "name": "roo_fonts_material",
+      "version": "1.1.1",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Collection of Material Design fonts for use with dejwk/roo_display.",
+      "paragraph": "See http://github.com/dejwk/roo_display.",
+      "website": "https://github.com/dejwk/roo_fonts_material",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_fonts_material.git",
+      "dependencies": [
+        {
+          "name": "roo_display"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_fonts_material-1.1.1.zip",
+      "archiveFileName": "roo_fonts_material-1.1.1.zip",
+      "size": 6381351,
+      "checksum": "SHA-256:43517f6f838864e65aad77d46813e284ff2306678f6bc3e98b0c73e12ba943e0"
+    },
+    {
+      "name": "roo_fonts_material",
+      "version": "1.1.2",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Collection of Material Design fonts for use with dejwk/roo_display.",
+      "paragraph": "See http://github.com/dejwk/roo_display.",
+      "website": "https://github.com/dejwk/roo_fonts_material",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_fonts_material.git",
+      "dependencies": [
+        {
+          "name": "roo_display"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_fonts_material-1.1.2.zip",
+      "archiveFileName": "roo_fonts_material-1.1.2.zip",
+      "size": 6382193,
+      "checksum": "SHA-256:3a12881d9e27d16eb01190e6eeae305e61d0eff7bd4e4032d7d8cc63069e853d"
+    },
+    {
+      "name": "roo_pb",
+      "version": "0.1.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Lightweight C++ protocol buffers with independent generation and explicit storage.",
+      "paragraph": "MIT-licensed C++17 protobuf support over roo_io, with byte buffers and bounded, dynamic or callback-backed fields. Requires local roo_io with checked binary primitives.",
+      "website": "https://github.com/dejwk/roo_pb",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_pb.git",
+      "providesIncludes": [
+        "roo_pb.h"
+      ],
+      "dependencies": [
+        {
+          "name": "roo_io"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_pb-0.1.0.zip",
+      "archiveFileName": "roo_pb-0.1.0.zip",
+      "size": 517309,
+      "checksum": "SHA-256:b7ab6b2c73982da7bedb43dcae88e07bb3d43e4b088f21d8f12dfad654849f13"
+    },
+    {
+      "name": "roo_pb",
+      "version": "0.1.1",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Lightweight C++ protocol buffers with independent generation and explicit storage.",
+      "paragraph": "MIT-licensed C++17 protobuf support over roo_io, with byte buffers and bounded, dynamic or callback-backed fields. Requires roo_io 2.4.0 or newer.",
+      "website": "https://github.com/dejwk/roo_pb",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_pb.git",
+      "providesIncludes": [
+        "roo_pb.h"
+      ],
+      "dependencies": [
+        {
+          "name": "roo_io"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_pb-0.1.1.zip",
+      "archiveFileName": "roo_pb-0.1.1.zip",
+      "size": 517408,
+      "checksum": "SHA-256:cd77b85b9ced625fc541927f746f2b41b2662375c1361f945ad0defa506dcb19"
+    },
+    {
+      "name": "roo_pb",
+      "version": "1.0.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Lightweight C++ protocol buffers with independent generation and explicit storage.",
+      "paragraph": "MIT-licensed C++17 protobuf support over roo_io, with byte buffers and bounded, dynamic or callback-backed fields. Requires roo_io 2.4.0 or newer.",
+      "website": "https://github.com/dejwk/roo_pb",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_pb.git",
+      "providesIncludes": [
+        "roo_pb.h"
+      ],
+      "dependencies": [
+        {
+          "name": "roo_backport"
+        },
+        {
+          "name": "roo_logging"
+        },
+        {
+          "name": "roo_io"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_pb-1.0.0.zip",
+      "archiveFileName": "roo_pb-1.0.0.zip",
+      "size": 540320,
+      "checksum": "SHA-256:fc4fcb5d3ffc54440a0b6a978d96ef598c856f856ec7daf12461510366349049"
+    },
+    {
+      "name": "roo_rtc",
+      "version": "1.0.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Arduino, ESP-IDF and Pico SDK RTC drivers integrated with roo_time.",
+      "paragraph": "DS3231, DS3232, DS3234, DS1307, PCF8523, RV-3028-C7, and RV-8803-C7.",
+      "website": "https://github.com/dejwk/roo_rtc",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_rtc.git",
+      "providesIncludes": [
+        "roo_rtc.h"
+      ],
+      "dependencies": [
+        {
+          "name": "roo_time"
+        },
+        {
+          "name": "roo_io"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_rtc-1.0.0.zip",
+      "archiveFileName": "roo_rtc-1.0.0.zip",
+      "size": 43360,
+      "checksum": "SHA-256:da780f8403250c9caf9ff48aa5fe36306b8ad00fe363567536d1dbcfdf7fff4b"
+    },
+    {
+      "name": "SMEAIoT",
+      "version": "1.0.0",
+      "author": "SME AIoT \u003cschematicslab@gmail.com\u003e",
+      "maintainer": "SME AIoT \u003cschematicslab@gmail.com\u003e",
+      "license": "MIT",
+      "sentence": "SME AIoT SDK for NuttyFi 2.0 (ESP8266) and NuttyFi32 (ESP32).",
+      "paragraph": "Set the dashboard id and token in your sketch and the SDK handles the rest. It sends one pin or a hundred together in a single batch (int, float, digital, text), and works both ways. MQTT is used for real-time when the backend offers it, HTTP otherwise. TLS is verified, traffic is rate limited, and buffers are fixed size so it stays stable under load.",
+      "website": "https://github.com/itsbhupendrasingh/SMEAIoT",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/itsbhupendrasingh/SMEAIoT.git",
+      "providesIncludes": [
+        "SMEAIoT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        },
+        {
+          "name": "PubSubClient"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/itsbhupendrasingh/SMEAIoT-1.0.0.zip",
+      "archiveFileName": "SMEAIoT-1.0.0.zip",
+      "size": 119742,
+      "checksum": "SHA-256:26c6bbe7a590c1d827119536cb1d65ea47212895b521d9af2d29decdfcabd860"
+    },
+    {
+      "name": "NodeProFlux",
+      "version": "1.0.0",
+      "author": "ILogEverything, based on Corsair Lighting Protocol by Leon Kiefer",
+      "maintainer": "ILogEverything",
+      "sentence": "Control LED strips via USB from a PC (SignalRGB, iCUE, OpenRGB) with an Arduino.",
+      "paragraph": "Independently maintained fork of Corsair Lighting Protocol that mimics Corsair LED Controller devices over USB. Compatible with current FastLED releases (tested with 3.10.10).",
+      "website": "https://github.com/ILogEverything/NodeProFlux",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "samd",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ILogEverything/NodeProFlux.git",
+      "providesIncludes": [
+        "CorsairLightingProtocol.h"
+      ],
+      "dependencies": [
+        {
+          "name": "FastLED"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ILogEverything/NodeProFlux-1.0.0.zip",
+      "archiveFileName": "NodeProFlux-1.0.0.zip",
+      "size": 94109,
+      "checksum": "SHA-256:90f7bf2b1f203e7b8e87fc2b6360a1512e5f3fd717d0f2818496fb4a5b9a5d02"
+    },
+    {
+      "name": "Danich_SSD130x_Fast",
+      "version": "2.0.0",
+      "author": "Danich (D@nik)",
+      "maintainer": "Danich (D@nik)",
+      "sentence": "Ultra-fast 2-in-1 OLED library (zero-buffer or 1KB smart-dirty buffer) for SSD1306/SSD1309.",
+      "paragraph": "Lightweight and ultra-fast OLED display library built on microWire (AVR) and Wire (ESP32/ESP8266). Supports both zero-buffer streaming mode (0 bytes RAM) and 1KB frame-buffer mode with smart dirty-rectangle update(), pixel-accurate fonts/bitmaps, Bresenham lines, filled/stroked circles and rectangles, font scaling (1x/2x/4x), and non-blocking pixel-smooth ticker with UTF-8/CP866 auto-detection.",
+      "website": "https://github.com/9456078-source/Danich_SSD130x_Fast",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/9456078-source/Danich_SSD130x_Fast.git",
+      "providesIncludes": [
+        "Danich_SSD130x_Fast.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/9456078-source/Danich_SSD130x_Fast-2.0.0.zip",
+      "archiveFileName": "Danich_SSD130x_Fast-2.0.0.zip",
+      "size": 38067,
+      "checksum": "SHA-256:2f14bc8867e35fb6d16809b79b48fcc4ac173b5a8b33ccac8a14961cda9baf14"
     }
   ]
 }
