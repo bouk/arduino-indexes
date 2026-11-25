@@ -242066,6 +242066,28 @@
       "checksum": "SHA-256:346c01575d6144e184230f5b55067bab9f333b5107458ba15d6259c067681923"
     },
     {
+      "name": "Marceau",
+      "version": "1.0.0",
+      "author": "Ben Pirt \u003cben.pirt@mime.co.uk\u003e",
+      "maintainer": "Ben Gray \u003cben.gray@mime.co.uk\u003e",
+      "sentence": "This is a library that allows devices to be easily controlled over serial and websockets.",
+      "paragraph": "Marceau is a library you can use to enable devices to be easily controlled over serial and websockets. It sets up a simple JSON based command interpreter and allows functions to run on the device, providing asynchronous updates to clients.",
+      "website": "http://mime.co.uk",
+      "category": "Other",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mimeindustries/Marceau.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/mimeindustries/Marceau-1.0.0.zip",
+      "archiveFileName": "Marceau-1.0.0.zip",
+      "size": 191090,
+      "checksum": "SHA-256:396be9c766022289cb2e1e2fce1180e8cb6345fbbb8f4ae3ecc2673d3bfc755e"
+    },
+    {
       "name": "EduShield-2 Library",
       "version": "1.0.1",
       "author": "JustPlay Software \u003cinfo@justplaysoftware.com\u003e",
@@ -899526,6 +899548,30 @@
       "checksum": "SHA-256:392cb9e89de4f25d35d8337828b0c965250e9f23bda9b242f63a0d538b2612c3"
     },
     {
+      "name": "EspUsbHost",
+      "version": "2.11.1",
+      "author": "TANAKA Masayuki",
+      "maintainer": "TANAKA Masayuki",
+      "sentence": "USB Host library for ESP32-S3, ESP32-S2 and ESP32-P4 Arduino sketches.",
+      "paragraph": "EspUsbHost processes USB events in a background FreeRTOS task, so loop() needs no polling call: register callbacks and call begin(). Supports HID keyboard with international layouts, mouse, gamepad, consumer and system control, keyboard LEDs and vendor reports, CDC ACM and FTDI/CP210x/CH34x USB serial adapters as Arduino Streams, USB MIDI in/out, USB Audio isochronous streaming, Mass Storage with FatFs/VFS and fs::FS access, CDC-NCM/CDC-ECM Ethernet adapters as raw frames or an lwIP interface, CCID smart card readers, generic vendor bulk/control transfers, hubs, and multiple simultaneous devices.",
+      "website": "https://github.com/tanakamasayuki/EspUsbHost",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tanakamasayuki/EspUsbHost.git",
+      "providesIncludes": [
+        "EspUsbHost.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.11.1.zip",
+      "archiveFileName": "EspUsbHost-2.11.1.zip",
+      "size": 1577731,
+      "checksum": "SHA-256:90b1fd3cf8e511ef023aeb748636e8da64728a6a578ad9b723a95501a8c6221f"
+    },
+    {
       "name": "Nokia 1.8 Inch Display SPFD54124B",
       "version": "1.0.0",
       "author": "Abhishek Tiwari",
@@ -917098,6 +917144,30 @@
       "archiveFileName": "tdslite-0.8.0.zip",
       "size": 4820617,
       "checksum": "SHA-256:65dd15fc671b97762856f395497e7401722f9b1fbcaf5f25e1eac0b959e7336f"
+    },
+    {
+      "name": "tdslite",
+      "version": "0.8.1",
+      "author": "mkg \u003chello@mkg.dev\u003e",
+      "maintainer": "mkg \u003chello@mkg.dev\u003e",
+      "sentence": "A lightweight MSSQL connector/TDS driver for embedded devices.",
+      "paragraph": "Lightweight, platform independent Microsoft SQL server connector / MS-TDS implementation written in pure C++11 that can work with just 2kB of SRAM. Built around C++s zero cost / only pay for what you use mantra. The implementation is based on Microsoft `MS-TDS: Tabular Data Stream Protocol` technical specification (revision number 33).",
+      "website": "https://github.com/tdslite/tdslite",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tdslite/tdslite.git",
+      "providesIncludes": [
+        "tdslite.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tdslite/tdslite-0.8.1.zip",
+      "archiveFileName": "tdslite-0.8.1.zip",
+      "size": 4823525,
+      "checksum": "SHA-256:0d523a7b6349b753702a6cb0af503d7960ac0b2b3398ac60e2317b582ba1cbcd"
     },
     {
       "name": "SimpleDCMotor",
@@ -1025414,6 +1025484,32 @@
       "checksum": "SHA-256:924e9f69bf6fc4b534ec884ee57bcd5546483e84a1ae77062d0f7f119dc99671"
     },
     {
+      "name": "roo_icons",
+      "version": "1.2.6",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Collection of icons for use with the roo_display library.",
+      "paragraph": "Icons are coming from Google's open-source 'material icons' collection.",
+      "website": "https://github.com/dejwk/roo_icons",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_icons.git",
+      "dependencies": [
+        {
+          "name": "roo_display"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_icons-1.2.6.zip",
+      "archiveFileName": "roo_icons-1.2.6.zip",
+      "size": 23266328,
+      "checksum": "SHA-256:4109fcf5c440335342980f92d8348062524335ea854bd547e20d4f73ed563548"
+    },
+    {
       "name": "AntiDelay",
       "version": "1.1.2",
       "author": "Martin Vichal",
@@ -1029350,6 +1029446,64 @@
       "archiveFileName": "IOSignal-9.23.1.zip",
       "size": 1996261,
       "checksum": "SHA-256:5780aff64c1b0c5ebb35b317b702945a819ecf186bed7e1785dd941e8301bdf8"
+    },
+    {
+      "name": "IOSignal",
+      "version": "10.0.0",
+      "author": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "maintainer": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "sentence": "IOSignal Arduino Client.",
+      "paragraph": "Support Uno Ethernet,Uno R4 WiFi, ESP8266 and ESP32.",
+      "website": "https://github.com/remocons/iosignal-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/remocons/iosignal-arduino.git",
+      "dependencies": [
+        {
+          "name": "Crypto"
+        },
+        {
+          "name": "Bounce2"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-10.0.0.zip",
+      "archiveFileName": "IOSignal-10.0.0.zip",
+      "size": 2023662,
+      "checksum": "SHA-256:98baca87821332ec762d9b61b359fe13899e8864eb8f3e6b4264e8e9a21e9507"
+    },
+    {
+      "name": "IOSignal",
+      "version": "10.0.1",
+      "author": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "maintainer": "Taeo Lee \u003csixgen@gmail.com\u003e",
+      "sentence": "IOSignal Arduino Client.",
+      "paragraph": "Support Uno Ethernet,Uno R4 WiFi, ESP8266 and ESP32.",
+      "website": "https://github.com/remocons/iosignal-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/remocons/iosignal-arduino.git",
+      "dependencies": [
+        {
+          "name": "Crypto"
+        },
+        {
+          "name": "Bounce2"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-10.0.1.zip",
+      "archiveFileName": "IOSignal-10.0.1.zip",
+      "size": 2024442,
+      "checksum": "SHA-256:4621f95b8ab1ba7dd1b120e636ce411087344f4e672c6cc797de9a9a0aecda71"
     },
     {
       "name": "SpeeduinoGL",
@@ -1089372,6 +1089526,38 @@
       "checksum": "SHA-256:cda65c5aaa52861b96b6adfc2efcca54e397a866e8ee2788551cf6809972d233"
     },
     {
+      "name": "BetterWiFiNINA",
+      "version": "1.5.0",
+      "author": "Eugene Gershnik",
+      "maintainer": "Eugene Gershnik \u003cgershnik@hotmail.com\u003e",
+      "sentence": "An improved fork of WiFiNINA library",
+      "paragraph": "With this library you can perform socket communication over WiFi. The board can connect either to open or encrypted networks (WEP, WPA). The IP address can be assigned statically or through a DHCP. The library can also manage DNS.",
+      "website": "https://github.com/gershnik/BetterWiFiNINA",
+      "category": "Communication",
+      "architectures": [
+        "samd",
+        "mbed_nano",
+        "megaavr",
+        "zephyr_main"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/gershnik/BetterWiFiNINA.git",
+      "providesIncludes": [
+        "BetterWiFiNINA.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Arduino_SpiNINA"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/gershnik/BetterWiFiNINA-1.5.0.zip",
+      "archiveFileName": "BetterWiFiNINA-1.5.0.zip",
+      "size": 144247,
+      "checksum": "SHA-256:10f21978d8da5f756717f5da5b32ad25ab0766d171e223b19d4bda27785cb294"
+    },
+    {
       "name": "MbedNanoTLS",
       "version": "1.0.0",
       "author": "Eugene Gershnik",
@@ -1133387,6 +1133573,62 @@
       "checksum": "SHA-256:d4f1f30e44f78937d7303fb8e4d99497cb87ac9666b54f57caefc036cd857904"
     },
     {
+      "name": "roo_windows",
+      "version": "1.11.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "GUI library, targeted at ESP32 and related boards, for building interactive, touch-based, mobile-phone-like UI interfaces.",
+      "paragraph": "Supports displays using SPI and parallel protocols.",
+      "website": "https://github.com/dejwk/roo_windows",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_windows.git",
+      "dependencies": [
+        {
+          "name": "roo_backport"
+        },
+        {
+          "name": "roo_collections"
+        },
+        {
+          "name": "roo_display"
+        },
+        {
+          "name": "roo_fonts_basic"
+        },
+        {
+          "name": "roo_fonts_material"
+        },
+        {
+          "name": "roo_locale"
+        },
+        {
+          "name": "roo_logging"
+        },
+        {
+          "name": "roo_icons"
+        },
+        {
+          "name": "roo_io"
+        },
+        {
+          "name": "roo_scheduler"
+        },
+        {
+          "name": "roo_time"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_windows-1.11.0.zip",
+      "archiveFileName": "roo_windows-1.11.0.zip",
+      "size": 8364822,
+      "checksum": "SHA-256:6668ef4f2f13d1a9045bf105b2684102142206cacb1275bbb0cd9d792d3d9c4a"
+    },
+    {
       "name": "roo_temperature",
       "version": "1.0.0",
       "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
@@ -1173642,6 +1173884,40 @@
       "archiveFileName": "roo_time_ds3231-2.0.0.zip",
       "size": 17947,
       "checksum": "SHA-256:bd906b7a6e047953bd3597dea2966105ff97940490264b692a6bb25e2621e2a0"
+    },
+    {
+      "name": "roo_time_ds3231",
+      "version": "3.0.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Compatibility wrapper for the roo_rtc DS3231 driver.",
+      "website": "https://github.com/dejwk/roo_time_ds3231",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_time_ds3231.git",
+      "providesIncludes": [
+        "roo_time_ds3231.h"
+      ],
+      "dependencies": [
+        {
+          "name": "roo_time"
+        },
+        {
+          "name": "roo_io"
+        },
+        {
+          "name": "roo_rtc"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time_ds3231-3.0.0.zip",
+      "archiveFileName": "roo_time_ds3231-3.0.0.zip",
+      "size": 14237,
+      "checksum": "SHA-256:ec99ffb322dfe9de60812da976f21ff0460b499f80c8f53ec620f241eccde856"
     },
     {
       "name": "SM_16RELAYS",
@@ -1261718,6 +1261994,56 @@
       "checksum": "SHA-256:f567a194b9178c729958f8b6e7848b9c8997d05a052eec18e245d9ef14be6919"
     },
     {
+      "name": "ESP32_MCPWM",
+      "version": "2.1.1",
+      "author": "Little Man Builds (Darren Osborne)",
+      "maintainer": "Little Man Builds \u003clittlemanbuilds@gmail.com\u003e",
+      "license": "MIT",
+      "sentence": "Explicit ESP32 MCPWM H-bridge control with drive, coast, brake, lifecycle results, fault handling and diagnostics.",
+      "paragraph": "Arduino-ESP32 motor driver with validated setup, explicit zero-demand behavior, deterministic output transitions, software and MCPWM peripheral fault paths, configurable coast and dither braking, runtime frequency changes, capture, coherent status, hardware readback, and focused ESP32-S3 examples.",
+      "website": "https://github.com/littlemanbuilds/ESP32_MCPWM",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/littlemanbuilds/ESP32_MCPWM.git",
+      "providesIncludes": [
+        "ESP32_MCPWM.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/ESP32_MCPWM-2.1.1.zip",
+      "archiveFileName": "ESP32_MCPWM-2.1.1.zip",
+      "size": 136195,
+      "checksum": "SHA-256:d050fa9c160b19da9ff3c9253a35ca73828864161bc6bbad3df23cd78fe046cc"
+    },
+    {
+      "name": "ESP32_MCPWM",
+      "version": "2.1.2",
+      "author": "Little Man Builds (Darren Osborne)",
+      "maintainer": "Little Man Builds \u003clittlemanbuilds@gmail.com\u003e",
+      "license": "MIT",
+      "sentence": "Explicit ESP32 MCPWM H-bridge control with drive, coast, brake, lifecycle results, fault handling and diagnostics.",
+      "paragraph": "Arduino-ESP32 motor driver with validated setup, explicit zero-demand behavior, deterministic output transitions, software and MCPWM peripheral fault paths, configurable coast and dither braking, runtime frequency changes, capture, coherent status, hardware readback, and focused ESP32-S3 examples.",
+      "website": "https://github.com/littlemanbuilds/ESP32_MCPWM",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/littlemanbuilds/ESP32_MCPWM.git",
+      "providesIncludes": [
+        "ESP32_MCPWM.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/ESP32_MCPWM-2.1.2.zip",
+      "archiveFileName": "ESP32_MCPWM-2.1.2.zip",
+      "size": 138604,
+      "checksum": "SHA-256:e9276ffbe62f0ffbcd01aeef6e0988946c524e874851520d5eee4f85a7f5fd05"
+    },
+    {
       "name": "ToFFilter",
       "version": "1.0.0",
       "author": "Mateusz Niedobecki",
@@ -1324897,6 +1325223,32 @@
       "checksum": "SHA-256:a8bef092388411d28b0acbba2afd443646b0d2a12ac053419cd888b6ba50a39b"
     },
     {
+      "name": "roo_fonts_basic",
+      "version": "1.1.0",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Collection of Noto fonts for use with dejwk/roo_display.",
+      "paragraph": "See http://github.com/dejwk/roo_display.",
+      "website": "https://github.com/dejwk/roo_fonts_basic",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_fonts_basic.git",
+      "dependencies": [
+        {
+          "name": "roo_display"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_fonts_basic-1.1.0.zip",
+      "archiveFileName": "roo_fonts_basic-1.1.0.zip",
+      "size": 5614213,
+      "checksum": "SHA-256:81581e4fe2f196c67e4402ca978a72e1d313969661cec284b75950ebb20c7513"
+    },
+    {
       "name": "SAMD_SafeFlashStorage",
       "version": "1.0.0",
       "author": "Xorlent",
@@ -1334374,6 +1334726,54 @@
       "archiveFileName": "USBSnifferPIO_RP2040-1.0.0.zip",
       "size": 54393,
       "checksum": "SHA-256:3639830147e17860e3339f1c465d112784ed0e5075bd4658243853389cc4d359"
+    },
+    {
+      "name": "USBSnifferPIO_RP2040",
+      "version": "1.1.0",
+      "author": "Ângelo Moisés Alves",
+      "maintainer": "Ângelo Moisés Alves",
+      "sentence": "Passive USB 1.1 packet sniffer using the RP2040 PIO coprocessor.",
+      "paragraph": "Captures Low-Speed (1.5 Mbps) and Full-Speed (12 Mbps) USB packets passively through high-impedance GPIO tapping. Uses a 22-instruction PIO hardware 8x DPLL for clock recovery, zero-gap 2-channel hardware DMA ping-pong buffering, and an SRAM-resident -O3 decoder implementing inline NRZI decoding, bit-unstuffing, packet framing, and table-accelerated CRC5/CRC16 verification. Delivers structured USBPacket objects through a callback API. Dual-core ready. Ideal for protocol analysis, HID device monitoring, and USB debugging.",
+      "website": "https://github.com/angeloINTJ/USBSnifferPIO_RP2040",
+      "category": "Communication",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/angeloINTJ/USBSnifferPIO_RP2040.git",
+      "providesIncludes": [
+        "USBSnifferPIO_RP2040.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/USBSnifferPIO_RP2040-1.1.0.zip",
+      "archiveFileName": "USBSnifferPIO_RP2040-1.1.0.zip",
+      "size": 76269,
+      "checksum": "SHA-256:3a0fd5dc85faa8b1573bb33e433507bcbe4537338c996d01c2fd54b5468dc075"
+    },
+    {
+      "name": "USBSnifferPIO_RP2040",
+      "version": "1.2.0",
+      "author": "Ângelo Moisés Alves",
+      "maintainer": "Ângelo Moisés Alves",
+      "sentence": "Passive USB 1.1 packet sniffer using the RP2040 PIO coprocessor.",
+      "paragraph": "Captures Low-Speed (1.5 Mbps) and Full-Speed (12 Mbps) USB packets passively through high-impedance GPIO tapping. Uses a 22-instruction PIO hardware 8x DPLL for clock recovery, zero-gap 2-channel hardware DMA ping-pong buffering, and an SRAM-resident -O3 decoder implementing inline NRZI decoding, bit-unstuffing, packet framing, and table-accelerated CRC5/CRC16 verification. Delivers structured USBPacket objects through a callback API. Dual-core ready. Ideal for protocol analysis, HID device monitoring, and USB debugging.",
+      "website": "https://github.com/angeloINTJ/USBSnifferPIO_RP2040",
+      "category": "Communication",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/angeloINTJ/USBSnifferPIO_RP2040.git",
+      "providesIncludes": [
+        "USBSnifferPIO_RP2040.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/USBSnifferPIO_RP2040-1.2.0.zip",
+      "archiveFileName": "USBSnifferPIO_RP2040-1.2.0.zip",
+      "size": 88750,
+      "checksum": "SHA-256:94fb09f07a50fe69c1caaafeb4300245b4a463d2c23bedbd3418076cb93723f7"
     },
     {
       "name": "Hafid",
@@ -1347198,6 +1347598,30 @@
       "checksum": "SHA-256:f33909c72f7f0db3f1af4082e5db991540bcf04411fa328c1f81220a47c2a224"
     },
     {
+      "name": "FR_Math",
+      "version": "2.0.12",
+      "author": "M. A. Chatterjee \u003cdeftio@deftio.com\u003e",
+      "maintainer": "M. A. Chatterjee \u003cdeftio@deftio.com\u003e",
+      "sentence": "Compact fixed-point math library for embedded systems. 4KB flash, zero dependencies, any radix.",
+      "paragraph": "Integer-only fixed-point math with caller-selectable binary point. Provides trig (sin, cos, tan, atan2), log/exp, sqrt, hypot, wave generators (sqr, tri, saw, pwm, noise), ADSR envelope, and 2D transforms. Pure C (C99), works on AVR, ESP32, RP2040, Cortex-M, RISC-V, MSP430, and any board with a C compiler. No floating-point hardware or libraries required.",
+      "website": "https://github.com/deftio/fr_math",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/deftio/fr_math.git",
+      "providesIncludes": [
+        "FR_math.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/deftio/FR_Math-2.0.12.zip",
+      "archiveFileName": "FR_Math-2.0.12.zip",
+      "size": 707822,
+      "checksum": "SHA-256:d7260f42697d2eceb4c01939f85a62045b4343a15beb30205fa86550af080c3c"
+    },
+    {
       "name": "GyverPush",
       "version": "1.0.1",
       "author": "AlexGyver \u003calex@alexgyver.ru\u003e",
@@ -1352805,6 +1353229,54 @@
       "archiveFileName": "midi2-0.7.0.zip",
       "size": 3022000,
       "checksum": "SHA-256:31765e4678251910dd07f400f79c19005c6005b8447c6a2ece0ac21a8714ee57"
+    },
+    {
+      "name": "midi2",
+      "version": "0.10.1",
+      "author": "Saulo Verissimo",
+      "maintainer": "Saulo Verissimo \u003csauloverissimo@gmail.com\u003e",
+      "sentence": "Portable MIDI 2.0 infrastructure: C99, zero dependencies, zero allocation.",
+      "paragraph": "Construction, parsing, dispatch, and MIDI-CI for the MIDI 2.0 Universal MIDI Packet on embedded targets, from AVR to desktop. Header-only public API with stb-style amalgamation available under dist/. Used by midi2cpp (C++ wrapper), the Teensy core fork, USBHost_t36 fork and direct sketches.",
+      "website": "https://github.com/sauloverissimo/midi2",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sauloverissimo/midi2.git",
+      "providesIncludes": [
+        "midi2.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/sauloverissimo/midi2-0.10.1.zip",
+      "archiveFileName": "midi2-0.10.1.zip",
+      "size": 4675499,
+      "checksum": "SHA-256:8907a796b404370990e134b0d0cfdd40718cc70974c5e273948c109f20d5f68b"
+    },
+    {
+      "name": "midi2",
+      "version": "0.10.2",
+      "author": "Saulo Verissimo",
+      "maintainer": "Saulo Verissimo \u003csauloverissimo@gmail.com\u003e",
+      "sentence": "Portable MIDI 2.0 infrastructure: C99, zero dependencies, zero allocation.",
+      "paragraph": "Construction, parsing, dispatch, and MIDI-CI for the MIDI 2.0 Universal MIDI Packet on embedded targets, from AVR to desktop. Header-only public API with stb-style amalgamation available under dist/. Used by midi2cpp (C++ wrapper), the Teensy core fork, USBHost_t36 fork and direct sketches.",
+      "website": "https://github.com/sauloverissimo/midi2",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/sauloverissimo/midi2.git",
+      "providesIncludes": [
+        "midi2.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/sauloverissimo/midi2-0.10.2.zip",
+      "archiveFileName": "midi2-0.10.2.zip",
+      "size": 4675647,
+      "checksum": "SHA-256:766fc9f1ee3e53171e662954d82b876356ccbe083a02b27a7b65445b070c76cc"
     },
     {
       "name": "LightConnect",
@@ -1402635,6 +1403107,30 @@
       "checksum": "SHA-256:7434f8da00eefab20cf5fa16471edd26cfea5c2316575bb188e6ebfbbaad5a94"
     },
     {
+      "name": "EspBle",
+      "version": "1.4.0",
+      "author": "TANAKA Masayuki",
+      "maintainer": "TANAKA Masayuki",
+      "sentence": "General-purpose Bluetooth Low Energy library for ESP32 Arduino.",
+      "paragraph": "EspBle talks to the NimBLE host bundled with Arduino-ESP32 directly, without the bundled BLE wrapper classes. It provides central and peripheral roles with multiple simultaneous connections, generic GATT client and server operations addressable by UUID or attribute handle, pairing and bonding, standard GATT services, and composable profiles: HID device and host (keyboard, mouse, consumer and system control, gamepad, vendor and fully custom reports) plus BLE MIDI device and host. On the original ESP32, whose prebuilt libraries are built with Bluedroid, EspBle bundles its own NimBLE host; that chip has a BLE 4.2 controller, so some features are unavailable and behaviour may differ slightly. That chip also gets Bluetooth Classic, through a separately built, namespaced Bluedroid host: SPP as a byte stream or an Arduino Stream, HID device and host with the same API as the BLE side, A2DP and AVRCP, and HFP client and audio gateway, all carrying already-encoded audio payloads. Which Classic features are hardware-verified, unverified or unimplemented is documented in the repository.",
+      "website": "https://github.com/tanakamasayuki/EspBle",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tanakamasayuki/EspBle.git",
+      "providesIncludes": [
+        "EspBle.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspBle-1.4.0.zip",
+      "archiveFileName": "EspBle-1.4.0.zip",
+      "size": 3768788,
+      "checksum": "SHA-256:e5ca8a8bacc90cf3df040a8e1d156850a07a1136ee388b493d74e02c0acc9980"
+    },
+    {
       "name": "DevLab_MPU6050",
       "version": "1.0.0",
       "author": "UNIT Electronics DevLab Ecosystem",
@@ -1413893,6 +1414389,30 @@
       "checksum": "SHA-256:eb1093c1d05dae42610915cc9ee0bf76334fb6c066f2135c699ec93d7a00aa2b"
     },
     {
+      "name": "SWP2P",
+      "version": "2.1.5",
+      "author": "Sierrastdio",
+      "maintainer": "Sierrastdio",
+      "sentence": "A custom software-based peer-to-peer communication library for Arduino.",
+      "paragraph": "SWP2P allows multi-node communication using shared clock, busy, ack, and data lines with hardware interrupts. 2 pull-up resistors are required.",
+      "website": "https://github.com/Sierrastdio/SWP2P",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Sierrastdio/SWP2P.git",
+      "providesIncludes": [
+        "SWP2P.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Sierrastdio/SWP2P-2.1.5.zip",
+      "archiveFileName": "SWP2P-2.1.5.zip",
+      "size": 40459,
+      "checksum": "SHA-256:10a5581dba88bda3fc29ab3ba3562f06a897cb78074c27e47372a4d49fa5e077"
+    },
+    {
       "name": "UDVI_HSTX",
       "version": "1.0.1",
       "author": "Cesar Bautista",
@@ -1416599,6 +1417119,30 @@
       "archiveFileName": "SnappyXOShield-0.3.2.zip",
       "size": 11723,
       "checksum": "SHA-256:8f9b62af21d025bead6d21be354b601772180cf3f541a763a2a7fa43672451e2"
+    },
+    {
+      "name": "SnappyXOShield",
+      "version": "0.4.0",
+      "author": "SnappyXO",
+      "maintainer": "A+ Mobile Solutions Inc",
+      "sentence": "Motor control library for the SnappyXO Motor Shield v2 and v3, with optional encoder motors.",
+      "paragraph": "Knows the shield's motor pins and drives a two-wheeled robot: forward, reverse, spins, each wheel's speed, joystick-style drive(throttle, steering), stop and brake. With encoder motors: how far and how fast each wheel turns, driving a set distance in inches or centimeters, and turning by an angle.",
+      "website": "https://github.com/snappyxo/SnappyXOShield",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/snappyxo/SnappyXOShield.git",
+      "providesIncludes": [
+        "SnappyXOShield.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/snappyxo/SnappyXOShield-0.4.0.zip",
+      "archiveFileName": "SnappyXOShield-0.4.0.zip",
+      "size": 49038,
+      "checksum": "SHA-256:61611d406363299b78042660d9ba2ed28c04df35477fd2fd304aef783af39b94"
     },
     {
       "name": "MpxCpp17",
@@ -1422321,6 +1422865,27 @@
       "checksum": "SHA-256:4dbff90571ceea508114eb7bfb1695689847551a814fd84ee6dd9823f262e24b"
     },
     {
+      "name": "Periph",
+      "version": "1.5.4",
+      "author": "Till Uhde",
+      "maintainer": "Till Uhde \u003ctill@uhde.com\u003e",
+      "sentence": "Peripheral chip drivers for Arduino (I2C/SPI).",
+      "paragraph": "Drivers for sensors and actuators connected via I2C or SPI transports.",
+      "website": "https://github.com/tuhde/Periph",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tuhde/Periph-Arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/tuhde/Periph-1.5.4.zip",
+      "archiveFileName": "Periph-1.5.4.zip",
+      "size": 1737223,
+      "checksum": "SHA-256:e9b2a83de0626a6476186b77180ea8bb5269f5fb7e225578df8c71a6e021e6c7"
+    },
+    {
       "name": "eOS3",
       "version": "1.0.0",
       "author": "Stefan Staub",
@@ -1422439,6 +1423004,38 @@
       "archiveFileName": "DevLab_GT365xx-1.0.2.zip",
       "size": 15645,
       "checksum": "SHA-256:845395af5a340f6bbc62641119a352ba2e1b3f12ffeec8a625b3aa23e4fd5d0d"
+    },
+    {
+      "name": "DevLab_GT365xx",
+      "version": "1.0.3",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for the GT365xx light sensor (LDR) using DDP over I2C.",
+      "paragraph": "DevLab GT365xx library for light acquisition through the DevLab Device Protocol (DDP) over I2C. Reads the 12-bit ADC value of the LDR voltage divider.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_gt365xx_library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_gt365xx_library.git",
+      "providesIncludes": [
+        "DevLab_GT365xx.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLabDDP"
+        },
+        {
+          "name": "DevLab_Interface"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_GT365xx-1.0.3.zip",
+      "archiveFileName": "DevLab_GT365xx-1.0.3.zip",
+      "size": 6349145,
+      "checksum": "SHA-256:22d4829d0ba26104da64ec767f2c91678d3822dabb8e91af649e04cd440ab249"
     },
     {
       "name": "PILOT_KWS",
@@ -1430965,6 +1431562,30 @@
       "archiveFileName": "WisBlockLoRaWAN-1.0.5.zip",
       "size": 1571095,
       "checksum": "SHA-256:10f4febb9ca79dd75de2512092d7528fe2335c24024a53351f10a64f55f87590"
+    },
+    {
+      "name": "WisBlockLoRaWAN",
+      "version": "1.0.6",
+      "author": "Bernd Giesecke bernd@giesecke.tk",
+      "maintainer": "Bernd Giesecke bernd@giesecke.tk",
+      "sentence": "Unified LoRaWAN (Class A/B/C) and LoRa P2P library for RAKwireless WisBlock boards using Semtech SX1262 + LoRa Basics Modem.",
+      "paragraph": "Supports RAK4631 (nRF52840), RAK3312 (ESP32-S3) and RAK11310/RAK11300 (RP2040, Arduino-Pico core by Earle Philhower) with built-in SX1262. Provides AT command interface and C++ API. LoRaWAN engine is built on Semtech's LoRa Basics Modem (Basics Modem/LBM) stack.",
+      "website": "https://github.com/beegee-tokyo/WisBlockLoRaWAN",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/beegee-tokyo/WisBlockLoRaWAN.git",
+      "providesIncludes": [
+        "WisBlockLoRaWAN.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/beegee-tokyo/WisBlockLoRaWAN-1.0.6.zip",
+      "archiveFileName": "WisBlockLoRaWAN-1.0.6.zip",
+      "size": 1688825,
+      "checksum": "SHA-256:24e4412b47da7f6d30929549c27eebbde5c27705be5600ca010bce35d08eb954"
     },
     {
       "name": "GroqReasoning",
@@ -1442219,6 +1442840,40 @@
       "checksum": "SHA-256:b897dc6a93600da0301c05afc9bee160d6bb6adb34f381b3939a94b6f325a402"
     },
     {
+      "name": "ocean_imu",
+      "version": "2.8.4",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.8.4.zip",
+      "archiveFileName": "ocean_imu-2.8.4.zip",
+      "size": 84269012,
+      "checksum": "SHA-256:dca63f4270d50a284754aef9e67590cad674a98ce49530d97e10d35e87d6c375"
+    },
+    {
       "name": "AlashBME280",
       "version": "1.0.0",
       "author": "Alash Electronics \u003calash.electronics@gmail.com\u003e",
@@ -1449144,6 +1449799,37 @@
       "checksum": "SHA-256:cdab06d209b4d4e345da764c0260afc392eb5de4ca11bab40a4b5a648628eff8"
     },
     {
+      "name": "Modest-IoT-Nano-Framework",
+      "version": "1.3.0",
+      "author": "Angel Velasquez",
+      "maintainer": "Angel Velasquez \u003cavelasquezn@gmail.com\u003e",
+      "license": "Apache-2.0",
+      "sentence": "An event-driven, asynchronous IoT framework for ESP32, approved by Arduino and available in the Arduino Library Manager.",
+      "paragraph": "Built on a robust object-oriented architecture, Modest IoT enforces Inversion of Control (IoC) and strict communication layer separation. It leverages thread-safe background task messaging queues driven natively by hardware timers, enabling you to build sophisticated, modular, and highly responsive IoT devices while focusing on application logic. Install directly from the Arduino IDE Library Manager or via GitHub.",
+      "website": "https://github.com/modest-iot/modest-iot-nano-framework",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/modest-iot/modest-iot-nano-framework.git",
+      "providesIncludes": [
+        "ModestIoT.h"
+      ],
+      "dependencies": [
+        {
+          "name": "MQTT",
+          "version": "\u003e=2.5.3"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/modest-iot/Modest_IoT_Nano_Framework-1.3.0.zip",
+      "archiveFileName": "Modest_IoT_Nano_Framework-1.3.0.zip",
+      "size": 737304,
+      "checksum": "SHA-256:25e11498b217b7d4436752b49f00cc2a97576ae9e12e4252d5fd8d2a5e85f4db"
+    },
+    {
       "name": "RSbusMaster",
       "version": "1.0.0",
       "author": "Aiko Pras",
@@ -1449190,6 +1449876,30 @@
       "archiveFileName": "NLTP-1.6.0.zip",
       "size": 70048,
       "checksum": "SHA-256:afa7f8b528ca645c2d9c63306864235676239cb29d72ffb1d9889d4ded3c6e42"
+    },
+    {
+      "name": "NLTP",
+      "version": "1.6.1",
+      "author": "Amandeep Bains",
+      "maintainer": "Amandeep Bains",
+      "sentence": "Loss-resilient forward-secret encrypted UDP \u0026 ESP-NOW v1/v2 transport with LZ4 compression \u0026 4.7 KB TX-only MCU profile.",
+      "paragraph": "Wire-compatible with the Python, JS, and Java nltp SDKs. Combines GF(2^8) Cauchy forward error correction, built-in zero-dependency LZ4 block compression, ultra-light 4.7 KB RAM NLTP_TX_ONLY sensor mode, reliable out-of-line reflex commands, BBR-style delivery-rate pacing, X25519+PSK forward-secret ChaCha20-Poly1305 encryption with 512-packet anti-replay protection, NAT keepalives, and zero-knowledge CGNAT relay rooms in zero-float C99.",
+      "website": "https://indian-aman.github.io/necklink/nltp/",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/indian-aman/NLTP-Arduino.git",
+      "providesIncludes": [
+        "NLTP.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/indian-aman/NLTP-1.6.1.zip",
+      "archiveFileName": "NLTP-1.6.1.zip",
+      "size": 153863,
+      "checksum": "SHA-256:6c9cb0e5cd665d7798fdf3b679a0f2c17b4f34f59be5c544611781b2548a14f3"
     },
     {
       "name": "C_Allocator",
@@ -1449775,6 +1450485,31 @@
       "archiveFileName": "MakoTalk-2.1.2.zip",
       "size": 1578108,
       "checksum": "SHA-256:a4f3b21be08b7791f3c586417eef49a1c0833a5eaf2884fd8540efe224ce1d1e"
+    },
+    {
+      "name": "MakoTalk",
+      "version": "2.1.3",
+      "author": "Makoto",
+      "maintainer": "Makoto",
+      "license": "LicenseRef-MakoTalk-Community-1.0",
+      "sentence": "ESP32-S3で動く、著作情報付き辞書を使ったかな入力の日本語音声合成。",
+      "paragraph": "ライブラリと辞書を読み込み、I2Sピンを指定してmspeakで発話します。WAV転送・ネット接続不要。MKTV v3、CRC検査、初回の音声クレジット告知に対応。",
+      "website": "https://github.com/airuyoshii-ai/makotalk-arduino",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/airuyoshii-ai/makotalk-arduino.git",
+      "providesIncludes": [
+        "MakoTalk.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/airuyoshii-ai/MakoTalk-2.1.3.zip",
+      "archiveFileName": "MakoTalk-2.1.3.zip",
+      "size": 1677155,
+      "checksum": "SHA-256:2a58a9e09c8af0838428bb00ec89455c1fce207252a6c03bb58df1006f697ef1"
     },
     {
       "name": "Bonezegei_HTU21",
@@ -1451071,6 +1451806,27 @@
       "checksum": "SHA-256:14e7805f7b179989a1359dcbda7a5c7acd226a1584cb356821aca8e940632570"
     },
     {
+      "name": "RP2040_ppm",
+      "version": "2.0.0",
+      "author": "fanfanlatulipe26",
+      "maintainer": "fanfanlatulipe26",
+      "sentence": "RP2040_ppm is a library that provides decoding and coding of PPM signals widely used in RC transmitters and receivers equipments.",
+      "paragraph": "The library uses the Programmable I/O (PIO) hardware subsystem of the Raspberry Pi RP2040 processor and all output or input waveforms are managed by the hardware, requesting only a small load to the CPU.",
+      "website": "https://github.com/fanfanlatulipe26/RP2040_ppm",
+      "category": "Communication",
+      "architectures": [
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/fanfanlatulipe26/RP2040_ppm.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/fanfanlatulipe26/RP2040_ppm-2.0.0.zip",
+      "archiveFileName": "RP2040_ppm-2.0.0.zip",
+      "size": 63484,
+      "checksum": "SHA-256:cf730f6e56c414377839b45aa2f214233bda931bdb5a212ae734c528fc9074e6"
+    },
+    {
       "name": "ESP32StorageLibrary",
       "version": "1.0.0",
       "author": "OpenAI",
@@ -1452182,6 +1452938,32 @@
       "checksum": "SHA-256:3a12881d9e27d16eb01190e6eeae305e61d0eff7bd4e4032d7d8cc63069e853d"
     },
     {
+      "name": "roo_fonts_material",
+      "version": "1.1.3",
+      "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "maintainer": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
+      "sentence": "Collection of Material Design fonts for use with dejwk/roo_display.",
+      "paragraph": "See http://github.com/dejwk/roo_display.",
+      "website": "https://github.com/dejwk/roo_fonts_material",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/dejwk/roo_fonts_material.git",
+      "dependencies": [
+        {
+          "name": "roo_display"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_fonts_material-1.1.3.zip",
+      "archiveFileName": "roo_fonts_material-1.1.3.zip",
+      "size": 6383498,
+      "checksum": "SHA-256:dcc417108a450b4031bc1f6a9cc702c20ed1a1d8424ca57ab658b66132e375aa"
+    },
+    {
       "name": "roo_pb",
       "version": "0.1.0",
       "author": "Dejwk \u003cdejwk.oss@gmail.com\u003e",
@@ -1452372,6 +1453154,37 @@
       "checksum": "SHA-256:90f7bf2b1f203e7b8e87fc2b6360a1512e5f3fd717d0f2818496fb4a5b9a5d02"
     },
     {
+      "name": "NodeProFlux",
+      "version": "1.0.1",
+      "author": "ILogEverything, based on Corsair Lighting Protocol by Leon Kiefer",
+      "maintainer": "ILogEverything",
+      "sentence": "Turn an Arduino into a USB LED controller for SignalRGB.",
+      "paragraph": "NodeProFlux makes an ATmega32U4 board (Pro Micro, Leonardo, Micro) show up as a Lighting Node PRO and drives addressable LEDs through FastLED. Works with FastLED 3.10.x.",
+      "website": "https://github.com/ILogEverything/NodeProFlux",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "samd",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/ILogEverything/NodeProFlux.git",
+      "providesIncludes": [
+        "NodeProFlux.h"
+      ],
+      "dependencies": [
+        {
+          "name": "FastLED"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/ILogEverything/NodeProFlux-1.0.1.zip",
+      "archiveFileName": "NodeProFlux-1.0.1.zip",
+      "size": 74189,
+      "checksum": "SHA-256:47742f3db798ae2e3327dba68a082e4435f5a66592b023f8a84863603296c386"
+    },
+    {
       "name": "Danich_SSD130x_Fast",
       "version": "2.0.0",
       "author": "Danich (D@nik)",
@@ -1452394,6 +1453207,391 @@
       "archiveFileName": "Danich_SSD130x_Fast-2.0.0.zip",
       "size": 38067,
       "checksum": "SHA-256:2f14bc8867e35fb6d16809b79b48fcc4ac173b5a8b33ccac8a14961cda9baf14"
+    },
+    {
+      "name": "CircuitNexus",
+      "version": "1.0.2",
+      "author": "CircuitNexus Team",
+      "maintainer": "Caner Yildirim \u003ccaner.yildirim.88@gmail.com\u003e",
+      "sentence": "Official IoT library for CircuitNexus Android app (ESP32, ESP8266, Arduino Uno).",
+      "paragraph": "Connects boards to CircuitNexus cloud via WiFi. Includes DHT helpers and ESP32-CAM stream support. Arduino Uno/Nano/Mega use an ESP8266 serial bridge. OTA for ESP32/ESP8266. Install only CircuitNexus — no separate sensor libraries needed.",
+      "website": "https://github.com/CyTeknoloji/CircuitNexus-Arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/CyTeknoloji/CircuitNexus-Arduino.git",
+      "providesIncludes": [
+        "CircuitNexus.h",
+        "CircuitNexusAVR.h",
+        "CircuitNexusDht22.h",
+        "CircuitNexusCam.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/CyTeknoloji/CircuitNexus-1.0.2.zip",
+      "archiveFileName": "CircuitNexus-1.0.2.zip",
+      "size": 20149,
+      "checksum": "SHA-256:d0873b5b81d5c6ae4a56b6503d3bf341aaea349eebb70cfc6839cb39ee56b03d"
+    },
+    {
+      "name": "STeaMi",
+      "version": "0.25.0",
+      "author": "STeaMi contributors",
+      "maintainer": "STeaMi contributors",
+      "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+      "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards. Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+      "website": "https://github.com/steamicc/arduino-steami-lib",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/steamicc/arduino-steami.git",
+      "providesIncludes": [
+        "STeaMi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.25.0.zip",
+      "archiveFileName": "STeaMi-0.25.0.zip",
+      "size": 137061,
+      "checksum": "SHA-256:9d88b30bf0ca88d61c89f16235a12c0ae0755172fb0fa7335f59f56f6bd8bebd"
+    },
+    {
+      "name": "STeaMi",
+      "version": "0.25.1",
+      "author": "STeaMi contributors",
+      "maintainer": "STeaMi contributors",
+      "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+      "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards. Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+      "website": "https://github.com/steamicc/arduino-steami-lib",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/steamicc/arduino-steami.git",
+      "providesIncludes": [
+        "STeaMi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.25.1.zip",
+      "archiveFileName": "STeaMi-0.25.1.zip",
+      "size": 137061,
+      "checksum": "SHA-256:5e3945fa7eb4dc0f587fdbabd2d1370066fd7d4050d193b494fc823bfdb67683"
+    },
+    {
+      "name": "STeaMi",
+      "version": "0.26.0",
+      "author": "STeaMi contributors",
+      "maintainer": "STeaMi contributors",
+      "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+      "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards. Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+      "website": "https://github.com/steamicc/arduino-steami-lib",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/steamicc/arduino-steami.git",
+      "providesIncludes": [
+        "STeaMi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.26.0.zip",
+      "archiveFileName": "STeaMi-0.26.0.zip",
+      "size": 139890,
+      "checksum": "SHA-256:464e47fdc8713d4f6413da1ace37b4a14cac6974f73e1c15418e63f859318e8e"
+    },
+    {
+      "name": "STeaMi",
+      "version": "0.26.1",
+      "author": "STeaMi contributors",
+      "maintainer": "STeaMi contributors",
+      "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+      "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards. Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+      "website": "https://github.com/steamicc/arduino-steami-lib",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/steamicc/arduino-steami.git",
+      "providesIncludes": [
+        "STeaMi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.26.1.zip",
+      "archiveFileName": "STeaMi-0.26.1.zip",
+      "size": 139893,
+      "checksum": "SHA-256:35dac1a16c7a1a66899e49ef983bb57a024d5e6566e02d7380d6d0929ab77819"
+    },
+    {
+      "name": "STeaMi",
+      "version": "0.26.3",
+      "author": "STeaMi contributors",
+      "maintainer": "STeaMi contributors",
+      "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+      "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards. Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+      "website": "https://github.com/steamicc/arduino-steami-lib",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/steamicc/arduino-steami.git",
+      "providesIncludes": [
+        "STeaMi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.26.3.zip",
+      "archiveFileName": "STeaMi-0.26.3.zip",
+      "size": 149392,
+      "checksum": "SHA-256:611dfa8001d822f3b642f16bce6f79a70c8ffb5cc194f0095e2b9e77c08e044a"
+    },
+    {
+      "name": "STeaMi",
+      "version": "0.27.0",
+      "author": "STeaMi contributors",
+      "maintainer": "STeaMi contributors",
+      "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+      "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards, and the round colour display (GC9A01) of the V1c board. Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+      "website": "https://github.com/steamicc/arduino-steami-lib",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/steamicc/arduino-steami.git",
+      "providesIncludes": [
+        "STeaMi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.27.0.zip",
+      "archiveFileName": "STeaMi-0.27.0.zip",
+      "size": 166792,
+      "checksum": "SHA-256:87c659e553da1a865995a6a4e46f8472f6b3b76cc383da748d88764b17d6931d"
+    },
+    {
+      "name": "STeaMi",
+      "version": "0.28.0",
+      "author": "STeaMi contributors",
+      "maintainer": "STeaMi contributors",
+      "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+      "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards, and the round colour display (GC9A01) of the V1c board. Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+      "website": "https://github.com/steamicc/arduino-steami-lib",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/steamicc/arduino-steami.git",
+      "providesIncludes": [
+        "STeaMi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.28.0.zip",
+      "archiveFileName": "STeaMi-0.28.0.zip",
+      "size": 173521,
+      "checksum": "SHA-256:95efb85be4d726275d95e4d63f28250bf4079f67ef6fe9dc856711525052f070"
+    },
+    {
+      "name": "STeaMi",
+      "version": "0.29.0",
+      "author": "STeaMi contributors",
+      "maintainer": "STeaMi contributors",
+      "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+      "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards, and the BME280 pressure, humidity and temperature sensor and round colour display (GC9A01) of the V1c board. Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+      "website": "https://github.com/steamicc/arduino-steami-lib",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/steamicc/arduino-steami.git",
+      "providesIncludes": [
+        "STeaMi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.29.0.zip",
+      "archiveFileName": "STeaMi-0.29.0.zip",
+      "size": 189347,
+      "checksum": "SHA-256:fbaefdb409af388f5794289d51ef8f44668790ef4e27dbf20e6ca8126f70ca95"
+    },
+    {
+      "name": "STeaMi",
+      "version": "0.30.0",
+      "author": "STeaMi contributors",
+      "maintainer": "STeaMi contributors",
+      "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+      "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards, and the BME280 pressure, humidity and temperature sensor and round colour display (GC9A01) of the V1c board. Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+      "website": "https://github.com/steamicc/arduino-steami-lib",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/steamicc/arduino-steami.git",
+      "providesIncludes": [
+        "STeaMi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.30.0.zip",
+      "archiveFileName": "STeaMi-0.30.0.zip",
+      "size": 189791,
+      "checksum": "SHA-256:8d96dbbe56ac14aa4e14b2ba8bdb35af56ecd8dda2f67d8cf5b488dba03cf72b"
+    },
+    {
+      "name": "WiFiClientSecureUdp",
+      "version": "1.0.0",
+      "author": "Andre Lorbach",
+      "maintainer": "Andre Lorbach \u003c1675286+alorbach@users.noreply.github.com\u003e",
+      "sentence": "Secure UDP client library for ESP32 with DTLS support using mbedTLS",
+      "paragraph": "WiFiClientSecureUdp provides encrypted and authenticated UDP communication for ESP32 devices. It implements DTLS (Datagram Transport Layer Security) and supports multiple authentication methods including root CA certificates, client certificates, and pre-shared keys (PSK). The library inherits from WiFiClient and provides a familiar API for secure datagram transport, making it ideal for IoT applications requiring secure UDP communication.",
+      "website": "https://github.com/alorbach/wificlientsecureudp",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/alorbach/wificlientsecureudp.git",
+      "providesIncludes": [
+        "WiFiClientSecureUdp.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/alorbach/WiFiClientSecureUdp-1.0.0.zip",
+      "archiveFileName": "WiFiClientSecureUdp-1.0.0.zip",
+      "size": 21547,
+      "checksum": "SHA-256:b98d32598643e409211245c7b4c3b99f27afe1bc1f36bffc8d1594d920c3e110"
+    },
+    {
+      "name": "CYD3D",
+      "version": "1.0.0",
+      "author": "Ваше Ім'я \u003cantipovdanilo17@gmail.com\u003e",
+      "maintainer": "Ваше Ім'я \u003cantipovdanilo17@gmail.com\u003e",
+      "sentence": "Lightweight 3D software rendering engine for ESP32 Cheap Yellow Display (CYD).",
+      "paragraph": "Provides 3D triangle rasterization, double buffering via TFT_eSprite, and resistive touch handling for ESP32-2432S028R boards.",
+      "website": "https://github.com",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/antipovdanilo17-bot/CYD3D.git",
+      "dependencies": [
+        {
+          "name": "TFT_eSPI"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/antipovdanilo17-bot/CYD3D-1.0.0.zip",
+      "archiveFileName": "CYD3D-1.0.0.zip",
+      "size": 11856,
+      "checksum": "SHA-256:7a01ac253cece18cf377b4251649fe78ed688c2c82baab03b5dea8118458f512"
+    },
+    {
+      "name": "ArnoTek_Serial",
+      "version": "1.0.0",
+      "author": "Anthony Arnovitz, aarnovitz@arnotek.com",
+      "maintainer": "Anthony Arnovitz, aarnovitz@arnotek.com",
+      "sentence": "SAerial interface utility for Arduino",
+      "paragraph": "This utility is used to obtain data from the serial bus.",
+      "website": "https://github.com/AJArnovitz/ArnoTek_Serial",
+      "category": "Other",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AJArnovitz/ArnoTek_Serial.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/AJArnovitz/ArnoTek_Serial-1.0.0.zip",
+      "archiveFileName": "ArnoTek_Serial-1.0.0.zip",
+      "size": 183682,
+      "checksum": "SHA-256:6110cba296f5e13d0d9452a5ca094d9a037c42875402c002fb4cdff3b10bb60c"
+    },
+    {
+      "name": "NV3007_LTSM",
+      "version": "1.0.0",
+      "author": "Gavin Lyons \u003cglyons66@hotmail.com\u003e",
+      "maintainer": "Gavin Lyons \u003cglyons66@hotmail.com\u003e",
+      "sentence": "Library to Support the NV3007 TFT LCD display",
+      "paragraph": "Fully featured, Graphics, 1, 8, \u0026 16 bit Bitmap support, 16 fonts included, hardware and software SPI, requires the display16_LTSM library.",
+      "website": "https://github.com/gavinlyonsrepo/NV3007_LTSM",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/gavinlyonsrepo/NV3007_LTSM.git",
+      "dependencies": [
+        {
+          "name": "display16_LTSM"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/gavinlyonsrepo/NV3007_LTSM-1.0.0.zip",
+      "archiveFileName": "NV3007_LTSM-1.0.0.zip",
+      "size": 73452,
+      "checksum": "SHA-256:9dd82fe6239ac1bc224e396cf221a89513a6f3180609f04e42669c74a934ae96"
     }
   ]
 }
