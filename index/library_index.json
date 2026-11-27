@@ -34901,6 +34901,38 @@
       "checksum": "SHA-256:dc3ab4465b1312fd595910566c0a4bfb31da396d7d0766a8587e05016609638c"
     },
     {
+      "name": "Adafruit SSD1351 library",
+      "version": "1.3.4",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+      "sentence": "Adafruit library for the 1.27\" and 1.5\" color OLEDs in the shop",
+      "paragraph": "Adafruit library for the 1.27\" and 1.5\" color OLEDs in the shop",
+      "website": "https://github.com/adafruit/Adafruit-SSD1351-library",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit-SSD1351-library.git",
+      "dependencies": [
+        {
+          "name": "Adafruit ILI9341"
+        },
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit BusIO"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_SSD1351_library-1.3.4.zip",
+      "archiveFileName": "Adafruit_SSD1351_library-1.3.4.zip",
+      "size": 14153,
+      "checksum": "SHA-256:d650fce2ed736ec9fb65d27ea5ce5966370a1e4a8b7a0538db2817f8c6705211"
+    },
+    {
       "name": "Adafruit SSD1331 OLED Driver Library for Arduino",
       "version": "1.0.0",
       "author": "Adafruit",
@@ -51855,6 +51887,71 @@
       "archiveFileName": "Adafruit_IO_Arduino-4.3.7.zip",
       "size": 165740,
       "checksum": "SHA-256:22f513bf800c60917a28f6e674afd339dc98e604a468e3e6f3c3580c63cdb522"
+    },
+    {
+      "name": "Adafruit IO Arduino",
+      "version": "4.3.8",
+      "author": "Adafruit",
+      "maintainer": "Adafruit \u003cadafruitio@adafruit.com\u003e",
+      "sentence": "Arduino library to access Adafruit IO.",
+      "paragraph": "Arduino library to access Adafruit IO using WiFi, ethernet, or cellular.",
+      "website": "https://github.com/adafruit/Adafruit_IO_Arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/adafruit/Adafruit_IO_Arduino.git",
+      "dependencies": [
+        {
+          "name": "Adafruit MQTT Library"
+        },
+        {
+          "name": "ArduinoHttpClient"
+        },
+        {
+          "name": "Adafruit Unified Sensor"
+        },
+        {
+          "name": "Adafruit NeoPixel"
+        },
+        {
+          "name": "DHT sensor library"
+        },
+        {
+          "name": "Ethernet"
+        },
+        {
+          "name": "Adafruit Si7021 Library"
+        },
+        {
+          "name": "Adafruit SGP30 Sensor"
+        },
+        {
+          "name": "Adafruit BME280 Library"
+        },
+        {
+          "name": "Adafruit LIS3DH"
+        },
+        {
+          "name": "Adafruit VEML6070 Library"
+        },
+        {
+          "name": "ESP32Servo"
+        },
+        {
+          "name": "WiFiManager"
+        },
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_IO_Arduino-4.3.8.zip",
+      "archiveFileName": "Adafruit_IO_Arduino-4.3.8.zip",
+      "size": 165752,
+      "checksum": "SHA-256:8192d76bafc6f2f0613c5010142203f4518d80a6f276aae522afdb5641e10548"
     },
     {
       "name": "Adafruit BluefruitLE nRF51",
@@ -242088,6 +242185,42 @@
       "checksum": "SHA-256:396be9c766022289cb2e1e2fce1180e8cb6345fbbb8f4ae3ecc2673d3bfc755e"
     },
     {
+      "name": "Marceau",
+      "version": "1.0.1",
+      "author": "Ben Pirt \u003cben.pirt@mime.co.uk\u003e",
+      "maintainer": "Ben Gray \u003cben.gray@mime.co.uk\u003e",
+      "sentence": "This is a library that allows devices to be easily controlled over serial and websockets.",
+      "paragraph": "Marceau is a library you can use to enable devices to be easily controlled over serial and websockets. It sets up a simple JSON based command interpreter and allows functions to run on the device, providing asynchronous updates to clients.",
+      "website": "https://github.com/mimeindustries/Marceau",
+      "category": "Other",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mimeindustries/Marceau.git",
+      "dependencies": [
+        {
+          "name": "ESP Async WebServer",
+          "version": "\u003e=3.6.0"
+        },
+        {
+          "name": "Async TCP",
+          "version": "\u003e=3.3.2"
+        },
+        {
+          "name": "ESP Async TCP",
+          "version": "\u003e=2.0.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mimeindustries/Marceau-1.0.1.zip",
+      "archiveFileName": "Marceau-1.0.1.zip",
+      "size": 192575,
+      "checksum": "SHA-256:dc6a1440533274ca96f62ff3ac07defe18e2192f7a229ada18d2f31532cd803b"
+    },
+    {
       "name": "EduShield-2 Library",
       "version": "1.0.1",
       "author": "JustPlay Software \u003cinfo@justplaysoftware.com\u003e",
@@ -277053,6 +277186,54 @@
       "archiveFileName": "WeeklyAlarm-5.1.0.zip",
       "size": 13323,
       "checksum": "SHA-256:167462f60c492acd537bfa0954cbdbc7bd9c891632e77a4cdc3edef50e14609d"
+    },
+    {
+      "name": "WeeklyAlarm",
+      "version": "5.2.0",
+      "author": "Nitrof",
+      "maintainer": "Nitrof",
+      "sentence": "Weekly day-of-week alarm scheduler for recurring time-based callbacks.",
+      "paragraph": "WeeklyAlarm triggers callbacks at a set time on selected days of the week, inspired by programmable thermostat schedulers. Supports lambdas, functors and function pointers. Compatible with STM32/newlib (POSIX time) and classic Arduino (TimeLib) platforms via automatic detection.",
+      "website": "https://github.com/NitrofMtl/weeklyAlarm",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/NitrofMtl/weeklyAlarm.git",
+      "providesIncludes": [
+        "WeeklyAlarm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/NitrofMtl/WeeklyAlarm-5.2.0.zip",
+      "archiveFileName": "WeeklyAlarm-5.2.0.zip",
+      "size": 14593,
+      "checksum": "SHA-256:7c8a39265675ed984361dfe89fc6d163f5f2d925573103de23431336f955c2e5"
+    },
+    {
+      "name": "WeeklyAlarm",
+      "version": "5.3.0",
+      "author": "Nitrof",
+      "maintainer": "Nitrof",
+      "sentence": "Weekly day-of-week alarm scheduler for recurring time-based callbacks.",
+      "paragraph": "WeeklyAlarm triggers callbacks at a set time on selected days of the week, inspired by programmable thermostat schedulers. Supports lambdas, functors and function pointers. Compatible with STM32/newlib (POSIX time) and classic Arduino (TimeLib) platforms via automatic detection.",
+      "website": "https://github.com/NitrofMtl/weeklyAlarm",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/NitrofMtl/weeklyAlarm.git",
+      "providesIncludes": [
+        "WeeklyAlarm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/NitrofMtl/WeeklyAlarm-5.3.0.zip",
+      "archiveFileName": "WeeklyAlarm-5.3.0.zip",
+      "size": 14691,
+      "checksum": "SHA-256:b6dcdb9b1946b540348454bf9eafa4112d4a12464793b71adb792fec3471cf2d"
     },
     {
       "name": "CurrentSwitch",
@@ -777972,6 +778153,27 @@
       "checksum": "SHA-256:c7595668cfd289daedf1c8cd4f7b0b1752bf710a72c676ce203a6e35e8603efb"
     },
     {
+      "name": "TheengsDecoder",
+      "version": "2.5.2",
+      "author": "Florian Robert, Ryan Powell",
+      "maintainer": "Florian Robert",
+      "sentence": "A simple, efficient, portable and lightweight library for Internet of Things messages decoding.",
+      "paragraph": "Theengs Decoder library translates sensors data chains into human readable data leveraging the well known data interchange format JSON. This format can easily be integrated into different systems or software.",
+      "website": "https://github.com/theengs/decoder",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/theengs/decoder.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/theengs/TheengsDecoder-2.5.2.zip",
+      "archiveFileName": "TheengsDecoder-2.5.2.zip",
+      "size": 4155754,
+      "checksum": "SHA-256:2eb7edbb7e2589f194ec183cbaf1142253ad7ef5028a385b1880e8a13a94e35e"
+    },
+    {
       "name": "Nano_Every_WS2812B",
       "version": "1.0.0",
       "author": "Clemens at Elektor",
@@ -802959,6 +803161,27 @@
       "archiveFileName": "Meshtastic-0.1.0.zip",
       "size": 228094,
       "checksum": "SHA-256:d8dceed5dd7472bac937f72bd47420d47d21e68fc9ee83d2865f1282e93d31ea"
+    },
+    {
+      "name": "Meshtastic",
+      "version": "0.1.1",
+      "author": "Meshtastic",
+      "maintainer": "Meshtastic \u003cmeshtastic@meshtastic.org\u003e",
+      "sentence": "Driver for interfacing with Meshtastic nodes over WiFi and Serial connections",
+      "paragraph": "This library allows devices to send and receive information through the Meshtastic network via the WiFi or Serial interface of one of its nodes. Note: this is not the Meshtastic firmware itself.",
+      "website": "http://meshtastic.org",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/meshtastic/Meshtastic-arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/meshtastic/Meshtastic-0.1.1.zip",
+      "archiveFileName": "Meshtastic-0.1.1.zip",
+      "size": 246184,
+      "checksum": "SHA-256:894cee7bdd511497aef6949258cb245bc359ea02c19dbfa36c808d97cdeb8656"
     },
     {
       "name": "DigitalSignalsArduino",
@@ -897708,6 +897931,30 @@
       "checksum": "SHA-256:a0d39bf54f9d9cd3f920c9d4f0d6041ed2d038056affed10222225dea0600363"
     },
     {
+      "name": "MODULE_4IN8OUT",
+      "version": "0.1.0",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack MODULE 4IN8OUT",
+      "paragraph": "See more on http://M5Stack.com. Repository: M5Module-4IN8OUT",
+      "website": "https://github.com/m5stack/M5Module-4IN8OUT",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5Module-4IN8OUT.git",
+      "providesIncludes": [
+        "MODULE_4IN8OUT.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/MODULE_4IN8OUT-0.1.0.zip",
+      "archiveFileName": "MODULE_4IN8OUT-0.1.0.zip",
+      "size": 5925,
+      "checksum": "SHA-256:b61148e1bff2e34094ac78eef704224429b65d47621207efdfc5d5cedb41932a"
+    },
+    {
       "name": "nw2s_portenta_SSD1322",
       "version": "0.1.0",
       "author": "Scott Wilson/nw2s",
@@ -922556,6 +922803,56 @@
       "archiveFileName": "NanitLib-1.5.2.zip",
       "size": 1557911,
       "checksum": "SHA-256:438bf94c169fa8eca33aa759ca13f1ddd9198ddb4b0230f220f6effe2d872401"
+    },
+    {
+      "name": "NanitLib",
+      "version": "1.5.3",
+      "author": "NanitRobot, Sam4uk",
+      "maintainer": "NanitRobot",
+      "sentence": "A library for Nanit",
+      "paragraph": "\"Nanit\" Robot Education Kit is a robotics constructor that replaces 100 toys, by different assembly options. It has three training programs for children of different ages: for children 5-7 years old - learning the basics of robotics and electronics, learning about the world of robots for children 8-10 years old - robot and games programming using Scratch language, children aged ten and over assemble a prototype of a SMART HOME on Arduino, program in C language.",
+      "website": "https://nanitrobot.github.io/NanitLib/",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/NanitRobot/NanitLib.git",
+      "providesIncludes": [
+        "NanitLib.h"
+      ],
+      "dependencies": [
+        {
+          "name": "Adafruit GFX Library"
+        },
+        {
+          "name": "Adafruit ST7735 and ST7789 Library"
+        },
+        {
+          "name": "FastLED"
+        },
+        {
+          "name": "Servo"
+        },
+        {
+          "name": "Adafruit MPU6050"
+        },
+        {
+          "name": "NonBlockingRTTTL"
+        },
+        {
+          "name": "Adafruit NeoPixel"
+        },
+        {
+          "name": "FastLed_Nanit_Koval"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/NanitRobot/NanitLib-1.5.3.zip",
+      "archiveFileName": "NanitLib-1.5.3.zip",
+      "size": 1566090,
+      "checksum": "SHA-256:ea73e2c56809069afc5d7cec74a4ecff99910c65514a45ea0c90a46c1a2277d2"
     },
     {
       "name": "SHT31_SW",
@@ -964842,6 +965139,48 @@
       "checksum": "SHA-256:a198ac66e8e4db8f1001faff52c95c37e600c82c51bf6cd832a9adbbeb7001b8"
     },
     {
+      "name": "ESP_SSLClient",
+      "version": "3.1.4",
+      "author": "Mobizt",
+      "maintainer": "Mobizt \u003ck_suwatchai@hotmail.com\u003e",
+      "sentence": "Secure Layer (SSL/TLS) TCP Client featuring protocol upgrade capability and optimized memory usage for resource-constrained boards.",
+      "paragraph": "This professional-grade library provides a robust SSL/TLS layer for network communication, designed to support modern 32-bit Arduino platforms (ESP8266, ESP32, RP2040, Teensy, etc.). It acts as a transparent wrapper, enabling secure connectivity over standard clients (WiFiClient, EthernetClient). Key advantages include support for dynamic memory allocation (PSRAM) on compatible boards, memory-saving build configurations (Insecure Only), and the ability to upgrade an existing plain TCP connection to TLS seamlessly.",
+      "website": "https://github.com/mobizt/ESP_SSLClient.git",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "esp8266",
+        "esp32",
+        "sam",
+        "samd",
+        "stm32",
+        "teensy",
+        "rp2040",
+        "arc32",
+        "mbed",
+        "mbed_nano",
+        "mbed_rp2040",
+        "mbed_portenta",
+        "mbed_nicla",
+        "mbed_opta",
+        "mbed_giga",
+        "renesas_uno",
+        "renesas_portenta",
+        "apollo3",
+        "nrf52",
+        "ch32",
+        "gd32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mobizt/ESP_SSLClient.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/mobizt/ESP_SSLClient-3.1.4.zip",
+      "archiveFileName": "ESP_SSLClient-3.1.4.zip",
+      "size": 960736,
+      "checksum": "SHA-256:edca10855a4ac674b2c93122129cdca3ed04113f5608b9ebb5e3bcdcc43b0246"
+    },
+    {
       "name": "Open RTS",
       "version": "0.9.0",
       "author": "James Smith \u003cjames@loopj.com\u003e",
@@ -968463,6 +968802,30 @@
       "archiveFileName": "M5_Ethernet-4.0.0.zip",
       "size": 66007,
       "checksum": "SHA-256:f34d6913f9b7a8c58cb95a931042c1db8668bc918771ada77b38489385ae54b8"
+    },
+    {
+      "name": "M5-Ethernet",
+      "version": "4.0.1",
+      "author": "Icing Tomato (https://github.com/IcingTomato)",
+      "maintainer": "Icing Tomato (icing@m5stack.com)",
+      "sentence": "Enables network connection (local and Internet) using the M5 PoE Camera.",
+      "paragraph": "With this library you can use the M5 PoE Camera to connect to Internet. The library provides both Client and server functionalities. The library permits you to connect to a local network also with DHCP and to resolve DNS.",
+      "website": "https://github.com/m5stack/M5-Ethernet",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/m5stack/M5-Ethernet.git",
+      "providesIncludes": [
+        "M5_Ethernet.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5_Ethernet-4.0.1.zip",
+      "archiveFileName": "M5_Ethernet-4.0.1.zip",
+      "size": 66015,
+      "checksum": "SHA-256:a364060f2c6179df31987352f76bb03f8e90a7886c175aca0a789528b6c0a146"
     },
     {
       "name": "QUAD7SHIFT",
@@ -988328,6 +988691,74 @@
       "checksum": "SHA-256:39eec79d5b518bd1e223f5f1ae341c0cb0f5b7af5db111888507b3317fc01a59"
     },
     {
+      "name": "ESP32_Display_Panel",
+      "version": "1.0.5",
+      "author": "espressif",
+      "maintainer": "espressif",
+      "sentence": "ESP32_Display_Panel is a display driver and GUI porting library designed by Espressif specifically for ESP series SoCs (ESP32, ESP32-S3, ESP32-P4, etc.)",
+      "paragraph": "Currently supported board manufacturers: Espressif,M5Stack,Waveshare,Elecrow,Jingcai,Viewe. Currently supported drivers: Host,Bus,LCD,Touch,Backlight,IO expander. Currently supported Bus: I2C,SPI,QSPI,RGB,MIPI-DSI.",
+      "website": "https://github.com/esp-arduino-libs/ESP32_Display_Panel",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/esp-arduino-libs/ESP32_Display_Panel.git",
+      "providesIncludes": [
+        "esp_display_panel.hpp"
+      ],
+      "dependencies": [
+        {
+          "name": "ESP32_IO_Expander",
+          "version": "\u003e=1.0.0 \u0026\u0026 \u003c2.0.0"
+        },
+        {
+          "name": "esp-lib-utils",
+          "version": "\u003e=0.2.0 \u0026\u0026 \u003c0.3.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/esp-arduino-libs/ESP32_Display_Panel-1.0.5.zip",
+      "archiveFileName": "ESP32_Display_Panel-1.0.5.zip",
+      "size": 1657914,
+      "checksum": "SHA-256:a8a0da3081a4d069a73c5e35e98de5964d9daf4976ee993ce0002ae88a3e93bc"
+    },
+    {
+      "name": "ESP32_Display_Panel",
+      "version": "2.0.0",
+      "author": "espressif",
+      "maintainer": "espressif",
+      "sentence": "ESP32_Display_Panel is a display driver and GUI porting library designed by Espressif specifically for ESP series SoCs (ESP32, ESP32-S3, ESP32-P4, etc.)",
+      "paragraph": "Currently supported board manufacturers: Espressif,M5Stack,Waveshare,Elecrow,Jingcai,Viewe. Currently supported drivers: Host,Bus,LCD,Touch,Backlight,IO expander. Currently supported Bus: I2C,SPI,QSPI,RGB,MIPI-DSI.",
+      "website": "https://github.com/esp-arduino-libs/ESP32_Display_Panel",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/esp-arduino-libs/ESP32_Display_Panel.git",
+      "providesIncludes": [
+        "esp_display_panel.hpp"
+      ],
+      "dependencies": [
+        {
+          "name": "ESP32_IO_Expander",
+          "version": "\u003e=2.0.0 \u0026\u0026 \u003c3.0.0"
+        },
+        {
+          "name": "esp-lib-utils",
+          "version": "\u003e=0.2.0 \u0026\u0026 \u003c0.3.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/esp-arduino-libs/ESP32_Display_Panel-2.0.0.zip",
+      "archiveFileName": "ESP32_Display_Panel-2.0.0.zip",
+      "size": 1657714,
+      "checksum": "SHA-256:1c10c73394446adf81628d118c8ac8494d281701958d6d53f168d391bbbe5c45"
+    },
+    {
       "name": "ESP32_IO_Expander",
       "version": "0.0.1",
       "author": "Lzw655 \u003cliuzhongwei@espressif.com\u003e",
@@ -988566,6 +988997,36 @@
       "archiveFileName": "ESP32_IO_Expander-1.1.1.zip",
       "size": 49901,
       "checksum": "SHA-256:e0e9ae44eb5686ef49d2e19fd996aa2e32b85c2e1385110c74e91be3f97b1127"
+    },
+    {
+      "name": "ESP32_IO_Expander",
+      "version": "2.0.0",
+      "author": "espressif",
+      "maintainer": "espressif",
+      "sentence": "ESP32_IO_Expander is a library designed for driving IO expander chips using ESP SoCs",
+      "paragraph": "Currently support TCA95xx(8bit), TCA95xx(16bit), HT8574, CH422G",
+      "website": "https://github.com/esp-arduino-libs/ESP32_IO_Expander",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/esp-arduino-libs/ESP32_IO_Expander.git",
+      "providesIncludes": [
+        "esp_io_expander.hpp"
+      ],
+      "dependencies": [
+        {
+          "name": "esp-lib-utils",
+          "version": "\u003e=0.2.0 \u0026\u0026 \u003c0.3.0"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/esp-arduino-libs/ESP32_IO_Expander-2.0.0.zip",
+      "archiveFileName": "ESP32_IO_Expander-2.0.0.zip",
+      "size": 49078,
+      "checksum": "SHA-256:354033c8eca18da0ec9d299b52e411c299c6804b04e4213de2dbb85c9e46ea0d"
     },
     {
       "name": "UNOR4WMatrixGFX",
@@ -1280153,6 +1280614,33 @@
       "checksum": "SHA-256:6887045e52c325fd45a4cea206716458bb789605d3a4b716281fbc0293a78c7f"
     },
     {
+      "name": "Arduino_RPClite",
+      "version": "0.4.0",
+      "author": "Arduino, Lucio Rossi (eigen-value)",
+      "maintainer": "Arduino, Lucio Rossi (eigen-value)",
+      "sentence": "A MessagePack RPC library for Arduino",
+      "paragraph": "allows to create a client/server architecture using MessagePack as the serialization format. It follows the MessagePack-RPC protocol specification. It is designed to be lightweight and easy to use, making it suitable for embedded systems and IoT applications.",
+      "website": "https://github.com/arduino-libraries/Arduino_RPCLite",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Arduino"
+      ],
+      "repository": "https://github.com/arduino-libraries/Arduino_RPCLite.git",
+      "dependencies": [
+        {
+          "name": "MsgPack",
+          "version": "\u003e=0.4.2"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_RPClite-0.4.0.zip",
+      "archiveFileName": "Arduino_RPClite-0.4.0.zip",
+      "size": 51738,
+      "checksum": "SHA-256:1c84bd193e0b5c2b43fe0c55014b6b483f414d209a56852e521aed60753f68b3"
+    },
+    {
       "name": "vovagorodok_ArduinoBleBattery",
       "version": "0.1.0",
       "author": "vovagorodok",
@@ -1324705,6 +1325193,35 @@
       "archiveFileName": "Voyager_OTA_Client-5.1.0.zip",
       "size": 18654,
       "checksum": "SHA-256:dc000c3b1b506adfb7a9a16621c011a6c74cf1529529ae89f3a70241f7602a64"
+    },
+    {
+      "name": "Voyager-OTA-Client",
+      "version": "6.0.0",
+      "author": "Fahad Zia Khan - Mediocre9",
+      "maintainer": "Fahad Zia Khan - Mediocre9",
+      "sentence": "ESP32 Remote OTA library with semver, GitHub updates, VoyagerOTA, and custom JSON support.",
+      "paragraph": "A SemVer based OTA client library. Supports GitHub releases, VoyagerOTA platform, and any custom JSON backend via custom parsers.",
+      "website": "https://github.com/mediocre9/VoyagerOTAClient",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mediocre9/voyager-ota-client.git",
+      "providesIncludes": [
+        "VoyagerOTAClient.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ArduinoJson"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mediocre9/Voyager_OTA_Client-6.0.0.zip",
+      "archiveFileName": "Voyager_OTA_Client-6.0.0.zip",
+      "size": 24657,
+      "checksum": "SHA-256:a53fab656381c45e1a4f2983d6afa1ee541de45d2fca4a08ac02909da8a7fcf6"
     },
     {
       "name": "WF100DPZ",
@@ -1411370,6 +1411887,56 @@
       "checksum": "SHA-256:1b4b1d33e49ff536e1dd94845aeb352d9b9402338bd9a88d588f203e4503921c"
     },
     {
+      "name": "cyfney-cpp",
+      "version": "5.3.2",
+      "author": "anka",
+      "maintainer": "anka",
+      "license": "MIT",
+      "sentence": "Reusable C++ utilities and base classes.",
+      "paragraph": "A header-only library providing general-purpose building blocks, common tools, and foundational components for C++ projects.",
+      "website": "https://github.com/cyfney/cyfney-cpp-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/cyfney/cyfney-cpp-arduino.git",
+      "providesIncludes": [
+        "cyf.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/cyfney/cyfney_cpp-5.3.2.zip",
+      "archiveFileName": "cyfney_cpp-5.3.2.zip",
+      "size": 58372,
+      "checksum": "SHA-256:fcfafbb047d3b4b276eb593034e106ada34b610b3f2961000aa8cad3e4ec0c92"
+    },
+    {
+      "name": "cyfney-cpp",
+      "version": "5.3.3",
+      "author": "anka",
+      "maintainer": "anka",
+      "license": "MIT",
+      "sentence": "Reusable C++ utilities and base classes.",
+      "paragraph": "A header-only library providing general-purpose building blocks, common tools, and foundational components for C++ projects.",
+      "website": "https://github.com/cyfney/cyfney-cpp-arduino",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/cyfney/cyfney-cpp-arduino.git",
+      "providesIncludes": [
+        "cyf.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/cyfney/cyfney_cpp-5.3.3.zip",
+      "archiveFileName": "cyfney_cpp-5.3.3.zip",
+      "size": 58372,
+      "checksum": "SHA-256:feea5ce6541e89cefb46c00c064cb098ab9b5afb7f95acb514c14ad88babffad"
+    },
+    {
       "name": "SparkFun SSD168x I2C Interface Library",
       "version": "1.0.0",
       "author": "SparkFun Electronics \u003ctechsupport@sparkfun.com\u003e",
@@ -1417902,6 +1418469,56 @@
       "checksum": "SHA-256:367661c62d26a72c0a3d635cbc348059325c31058c78da5c96fd22980e247c73"
     },
     {
+      "name": "DevLab_Interface",
+      "version": "1.3.2",
+      "author": "UNIT Electronics",
+      "maintainer": "Jonathan Mejorado Lopez",
+      "sentence": "Arduino library interface for DevLab Sensors and external sensors, through I2C, SPI and other communication protocols.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_interface_library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_interface_library.git",
+      "providesIncludes": [
+        "DevLab_Interface.h",
+        "DevLab_BusIO.h",
+        "DevLab_I2C_Interface.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_Interface-1.3.2.zip",
+      "archiveFileName": "DevLab_Interface-1.3.2.zip",
+      "size": 218024,
+      "checksum": "SHA-256:35ef7d9edbaa3fcf93bd6c45395a95841e2e425722d18fccf294f60702b465f8"
+    },
+    {
+      "name": "DevLab_Interface",
+      "version": "1.3.3",
+      "author": "UNIT Electronics",
+      "maintainer": "Jonathan Mejorado Lopez",
+      "sentence": "Arduino library interface for DevLab Sensors and external sensors, through I2C, SPI and other communication protocols.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_interface_library",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_interface_library.git",
+      "providesIncludes": [
+        "DevLab_Interface.h",
+        "DevLab_BusIO.h",
+        "DevLab_I2C_Interface.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_Interface-1.3.3.zip",
+      "archiveFileName": "DevLab_Interface-1.3.3.zip",
+      "size": 218186,
+      "checksum": "SHA-256:869840ab22868525579f9c309d7dd34e09c168024537ca228d82ac4ab4b6e313"
+    },
+    {
       "name": "URP2_DVI_HSTX",
       "version": "1.0.1",
       "author": "UNIT Electronics",
@@ -1419764,7 +1420381,7 @@
       "sentence": "Heartbeat utility for Arduino",
       "paragraph": "This utility toggles Arduino pins and/or calls user defined functions at specific time intervals.",
       "website": "https://github.com/AJArnovitz/ArnoTek_HeartBeat",
-      "category": "Timing",
+      "category": "Other",
       "architectures": [],
       "types": [
         "Contributed"
@@ -1419783,7 +1420400,7 @@
       "sentence": "Heartbeat utility for Arduino",
       "paragraph": "This utility toggles Arduino pins and/or calls user defined functions at specific time intervals.",
       "website": "https://github.com/AJArnovitz/ArnoTek_HeartBeat",
-      "category": "Timing",
+      "category": "Other",
       "architectures": [],
       "types": [
         "Contributed"
@@ -1419802,7 +1420419,7 @@
       "sentence": "Heartbeat utility for Arduino",
       "paragraph": "This utility toggles Arduino pins and/or calls user defined functions at specific time intervals.",
       "website": "https://github.com/AJArnovitz/ArnoTek_HeartBeat",
-      "category": "Timing",
+      "category": "Other",
       "architectures": [
         "avr"
       ],
@@ -1419823,7 +1420440,7 @@
       "sentence": "Heartbeat utility for Arduino",
       "paragraph": "This utility toggles Arduino pins and/or calls user defined functions at specific time intervals.",
       "website": "https://github.com/AJArnovitz/ArnoTek_HeartBeat",
-      "category": "Timing",
+      "category": "Other",
       "architectures": [
         "avr"
       ],
@@ -1419844,7 +1420461,7 @@
       "sentence": "Heartbeat utility for Arduino",
       "paragraph": "This utility toggles Arduino pins and/or calls user defined functions at specific time intervals.",
       "website": "https://github.com/AJArnovitz/ArnoTek_HeartBeat",
-      "category": "Timing",
+      "category": "Other",
       "architectures": [
         "avr"
       ],
@@ -1419856,6 +1420473,27 @@
       "archiveFileName": "ArnoTek_HeartBeat-1.0.5.zip",
       "size": 319491,
       "checksum": "SHA-256:b5d02afdef25dfb6bb672747c909e4e225ad5b1afd2a6b63b3d034a078cfcde9"
+    },
+    {
+      "name": "ArnoTek_HeartBeat",
+      "version": "1.0.6",
+      "author": "Anthony Arnovitz, aarnovitz@arnotek.com",
+      "maintainer": "Anthony Arnovitz, aarnovitz@arnotek.com",
+      "sentence": "Heartbeat utility for Arduino.",
+      "paragraph": "This utility toggles Arduino pins and/or calls user defined functions at specific time intervals.",
+      "website": "https://github.com/AJArnovitz/ArnoTek_HeartBeat",
+      "category": "Other",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AJArnovitz/ArnoTek_HeartBeat.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/AJArnovitz/ArnoTek_HeartBeat-1.0.6.zip",
+      "archiveFileName": "ArnoTek_HeartBeat-1.0.6.zip",
+      "size": 324794,
+      "checksum": "SHA-256:eafbf178d3c1a17ad77474427daa5e658053084473a37f62235a1a71abc59030"
     },
     {
       "name": "DigiCDCFast",
@@ -1423564,6 +1424202,72 @@
       "archiveFileName": "DevLab_GT365xx-1.0.3.zip",
       "size": 6349145,
       "checksum": "SHA-256:22d4829d0ba26104da64ec767f2c91678d3822dabb8e91af649e04cd440ab249"
+    },
+    {
+      "name": "DevLab_GT365xx",
+      "version": "1.0.4",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for the GT365xx light sensor (LDR) using DDP over I2C.",
+      "paragraph": "DevLab GT365xx library for light acquisition through the DevLab Device Protocol (DDP) over I2C. Reads the 12-bit ADC value of the LDR voltage divider.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_gt365xx_library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_gt365xx_library.git",
+      "providesIncludes": [
+        "DevLab_GT365xx.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLabDDP",
+          "version": "\u003e=1.1.1"
+        },
+        {
+          "name": "DevLab_Interface"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_GT365xx-1.0.4.zip",
+      "archiveFileName": "DevLab_GT365xx-1.0.4.zip",
+      "size": 6349629,
+      "checksum": "SHA-256:d72fa5d0479724057f142448209751ab7e428351772a7d603aa507c643c7ac68"
+    },
+    {
+      "name": "DevLab_GT365xx",
+      "version": "1.1.0",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for the GT365xx light sensor (LDR) using DDP over I2C.",
+      "paragraph": "DevLab GT365xx library for light acquisition through the DevLab Device Protocol (DDP) over I2C. Reads the 12-bit ADC value of the LDR voltage divider.",
+      "website": "https://github.com/UNIT-Electronics-MX/unit_devlab_gt365xx_library",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/UNIT-Electronics-MX/unit_devlab_gt365xx_library.git",
+      "providesIncludes": [
+        "DevLab_GT365xx.h"
+      ],
+      "dependencies": [
+        {
+          "name": "DevLabDDP",
+          "version": "\u003e=1.1.1"
+        },
+        {
+          "name": "DevLab_Interface"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_GT365xx-1.1.0.zip",
+      "archiveFileName": "DevLab_GT365xx-1.1.0.zip",
+      "size": 6357484,
+      "checksum": "SHA-256:cdd8cff756a5095c50c5331e4bab5db7ae1b251a68bb6e990aa30c1a83544fc1"
     },
     {
       "name": "PILOT_KWS",
@@ -1434225,6 +1434929,41 @@
       "checksum": "SHA-256:dfa7c13447123c806a086b806f8dee36906a44d0c9be0e58eb6b41ff4132a782"
     },
     {
+      "name": "azaraC",
+      "version": "2.0.1",
+      "author": "A-vrice",
+      "maintainer": "A-vrice",
+      "sentence": "QZSS L1S DCX/CAMF and QZQSM decoder for Arduino",
+      "paragraph": "Decodes QZSS L1S disaster alert messages from UBX (RXM-SFRBX) or NMEA ($QZQSM). All 12 JMA DC Report sub-types supported. Definition tables auto-generated from azarashi. No heap allocation. No external dependencies. Corresponds to IS-QZSS-DCR-017 (MT=43, all 12 categories), IS-QZSS-DCX-004 Rev.004 and EWSS-CAMF v1.2 (MT=44). Definition tables are auto-generated from azarashi 0.17.1.",
+      "website": "https://github.com/A-vrice/azaraC",
+      "category": "Communication",
+      "architectures": [
+        "sam",
+        "samd",
+        "mbed_nano",
+        "mbed_giga",
+        "mbed_rp2040",
+        "mbed_portenta",
+        "esp32",
+        "stm32",
+        "nrf52",
+        "teensy40",
+        "avr",
+        "rp2040"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/A-vrice/azaraC.git",
+      "providesIncludes": [
+        "azaraC.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/A-vrice/azaraC-2.0.1.zip",
+      "archiveFileName": "azaraC-2.0.1.zip",
+      "size": 921784,
+      "checksum": "SHA-256:2c7f9be9f50ef6ec72e4a13816b3612119d39a8d3680c6c49857e125d6b415d4"
+    },
+    {
       "name": "ReflectINI",
       "version": "1.0.0",
       "author": "Michael michi.fu@quickline.ch",
@@ -1439919,6 +1440658,30 @@
       "checksum": "SHA-256:7bf1aa0526f22a726c8acb516197cbf4f2352a7821c7def51ac7244d874af5b0"
     },
     {
+      "name": "AnalogMimic",
+      "version": "0.3.0",
+      "author": "tkgktyk",
+      "maintainer": "tkgktyk",
+      "sentence": "Controls the Analog Mimic programmable analog module over I2C.",
+      "paragraph": "Switch the module between analog functions (amplifier, filters, integrator, comparator, clipper, rectifier, sample and hold, oscillator, VCO, modulators, noise, log, squarer, true RMS and more) and set their parameters in physical units from your sketch.",
+      "website": "https://github.com/tkgktyk/analog-mimic-arduino",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/tkgktyk/analog-mimic-arduino.git",
+      "providesIncludes": [
+        "AnalogMimic.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/tkgktyk/AnalogMimic-0.3.0.zip",
+      "archiveFileName": "AnalogMimic-0.3.0.zip",
+      "size": 84288,
+      "checksum": "SHA-256:208769623aaaa52636074ec08fc09886719c7a39d95a78c0100e3fb761891e1d"
+    },
+    {
       "name": "ToneTransceiver",
       "version": "1.0.0",
       "author": "code-hoysala",
@@ -1441210,6 +1441973,30 @@
       "archiveFileName": "AMK_CYD_Universal_TFT-1.7.0.zip",
       "size": 4881001,
       "checksum": "SHA-256:b070d8cca6e67354355a27ccb0ea3a63b79c65718895cefe762b2efec2884673"
+    },
+    {
+      "name": "AMK_CYD_Universal_TFT",
+      "version": "1.8.1",
+      "author": "Aung Moe Khine",
+      "maintainer": "Aung Moe Khine \u003caungmoekhine@gmail.com\u003e",
+      "sentence": "Universal standalone TFT, touch, sprite, hardware terminal, onboard audio, battery telemetry, 80MHz SPI stress test \u0026 tear-free raster animation driver with 1-line autoSetup and adaptive autoCalibrate for ESP32/S3 CYD resistive \u0026 capacitive boards and ESP32-S3 RGB capacitive boards.",
+      "paragraph": "Bundles high-speed display and touch drivers with runtime hardware auto-probing for 2.4\", 2.8\", 3.2\", 3.5\", and 4.0\" CYD resistive and capacitive boards (ILI9341, ST7789, ST7796, GC9307, XPT2046, GT911, CST820, FT6336, CHSC6540) including ESP32-S3 SPI displays (VIEWE UEDX24320028, ES3C28P) and ESP32-S3 parallel RGB boards (4.3\", 5.0\", 7.0\" 800x480 ST7262 + GT911 capacitive touch). Features certified 80 MHz SPI bus stress testing with NVS persistence (tft.stressTest()), unbuffered tear-free Raster Animation with zero framebuffer, hardware scanline Beam Chasing (command 0x45), panel refresh rate tuning (tft.applyRefreshChoice(), tft.setRefreshStep()), ultra-fast AMK_Terminal (5 KB RAM hardware-scrolling text console), onboard PAM8302 audio amplifier enable \u0026 pop-free tone generation (tft.enableAudio(), tft.playBeep()), calibrated ADC battery telemetry (tft.getBatteryVoltage(), tft.getBatteryPercentage()), 1-line universal SD card mounting (tft.initSD()), 1-line hardware auto-setup (tft.autoSetup()), adaptive multi-point statistical touch calibration with NVS persistence (tft.autoCalibrate()), ambient light auto-dimming with LDR moving average filtering (tft.adjustBrightness()), universal Active-LOW RGB LED control, persistent NVS hardware overrides, full TFT_eSPI and TFT_eSPI_Button compatibility, linear gradients, alpha blending, TFT_eSprite buffering, LVGL v8/v9 integration, and seamless SquareLine Studio / EEZ Studio support.",
+      "website": "https://github.com/aungmoekhine/AMK_CYD_Universal_TFT",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AungMoeKhine/AMK_CYD_Universal_TFT.git",
+      "providesIncludes": [
+        "AMK_CYD_Universal_TFT.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.8.1.zip",
+      "archiveFileName": "AMK_CYD_Universal_TFT-1.8.1.zip",
+      "size": 5703473,
+      "checksum": "SHA-256:20301ab084c47073aee33b9efe82682bfee8b41e5ac9e6ce4a78dffc01b932fb"
     },
     {
       "name": "DTG_IoT",
@@ -1443521,6 +1444308,40 @@
       "archiveFileName": "ocean_imu-2.8.5.zip",
       "size": 84298566,
       "checksum": "SHA-256:b42181d398c53db202ee73c39d0211fd3130cdcb0c9e41af69983ea9d39a0e42"
+    },
+    {
+      "name": "ocean_imu",
+      "version": "2.8.6",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities \u003cgithub@bareboat-necessities.github.io\u003e",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "website": "https://github.com/bareboat-necessities/ocean-imu",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bareboat-necessities/ocean-imu.git",
+      "providesIncludes": [
+        "AtomS3R/ImuCalWizardRunner.h",
+        "AtomS3R/AtomS3R_CompassAppBase.h",
+        "ahrs/KalmanQMEKF.h"
+      ],
+      "dependencies": [
+        {
+          "name": "M5Unified"
+        },
+        {
+          "name": "Eigen"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.8.6.zip",
+      "archiveFileName": "ocean_imu-2.8.6.zip",
+      "size": 84304593,
+      "checksum": "SHA-256:b2593b989d6faca32f8c19708221262f08a9516f9d9f7ee1eb7ead883dae718c"
     },
     {
       "name": "AlashBME280",
@@ -1453415,6 +1454236,27 @@
       "checksum": "SHA-256:e51ca68e72e4a57d7bbebf43b6caf8dc834e41c960abadb4f356a8d75251a3f1"
     },
     {
+      "name": "AJoystick",
+      "version": "1.0.3",
+      "author": "alpochete",
+      "maintainer": "alpochete",
+      "sentence": "A library for reading and controlling an analog joystick module.",
+      "paragraph": "Provides analog X and Y axis readings, button detection, direction detection, and axis normalization.",
+      "website": "https://github.com/alpochete/AJoystick",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/alpochete/AJoystick.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/alpochete/AJoystick-1.0.3.zip",
+      "archiveFileName": "AJoystick-1.0.3.zip",
+      "size": 5420,
+      "checksum": "SHA-256:9fb77fb4bae922dbb91187715e21414a8a5246ddbd661c303849ee439f271e2e"
+    },
+    {
       "name": "ESP3C28P",
       "version": "1.0.0",
       "author": "Charles Vaillancourt",
@@ -1454373,6 +1455215,238 @@
       "checksum": "SHA-256:ece471c8f512e2135d99174d1380779418d06bc85abe91e7b99393b8ab8e9f58"
     },
     {
+      "name": "STeaMi",
+      "version": "0.35.0",
+      "author": "STeaMi contributors",
+      "maintainer": "STeaMi contributors",
+      "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+      "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards, and the BME280 pressure, humidity and temperature sensor and round colour display (GC9A01) of the V1c board. Detects the board release (V1a, V1b or V1c) and shares the sensor drivers (STeaMi Board). Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+      "website": "https://github.com/steamicc/arduino-steami-lib",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/steamicc/arduino-steami.git",
+      "providesIncludes": [
+        "STeaMi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.35.0.zip",
+      "archiveFileName": "STeaMi-0.35.0.zip",
+      "size": 263660,
+      "checksum": "SHA-256:a3fb5799494f62c909862058e17989fc1263864e2c4a8ddc8eb47b38d69bcbf4"
+    },
+    {
+      "name": "STeaMi",
+      "version": "0.36.0",
+      "author": "STeaMi contributors",
+      "maintainer": "STeaMi contributors",
+      "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+      "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards, and the BME280 pressure, humidity and temperature sensor and round colour display (GC9A01) of the V1c board. Detects the board release (V1a, V1b or V1c) and shares the sensor drivers (STeaMi Board). Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+      "website": "https://github.com/steamicc/arduino-steami-lib",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/steamicc/arduino-steami.git",
+      "providesIncludes": [
+        "STeaMi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.36.0.zip",
+      "archiveFileName": "STeaMi-0.36.0.zip",
+      "size": 263661,
+      "checksum": "SHA-256:9dab1f26fa23b36965160c78d1d3d2dfb12ff61f00552f3a49770dddc0360fe7"
+    },
+    {
+      "name": "STeaMi",
+      "version": "0.36.1",
+      "author": "STeaMi contributors",
+      "maintainer": "STeaMi contributors",
+      "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+      "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards, and the BME280 pressure, humidity and temperature sensor and round colour display (GC9A01) of the V1c board. Detects the board release (V1a, V1b or V1c) and shares the sensor drivers (STeaMi Board). Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+      "website": "https://github.com/steamicc/arduino-steami-lib",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/steamicc/arduino-steami.git",
+      "providesIncludes": [
+        "STeaMi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.36.1.zip",
+      "archiveFileName": "STeaMi-0.36.1.zip",
+      "size": 263672,
+      "checksum": "SHA-256:688c38cba725e515d22f0aa376d92c640c84703c107f9e45e64cf3c63cf2d4e0"
+    },
+    {
+      "name": "STeaMi",
+      "version": "0.36.2",
+      "author": "STeaMi contributors",
+      "maintainer": "STeaMi contributors",
+      "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+      "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards, and the BME280 pressure, humidity and temperature sensor and round colour display (GC9A01) of the V1c board. Detects the board release (V1a, V1b or V1c) and shares the sensor drivers (STeaMi Board). Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+      "website": "https://github.com/steamicc/arduino-steami-lib",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/steamicc/arduino-steami.git",
+      "providesIncludes": [
+        "STeaMi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.36.2.zip",
+      "archiveFileName": "STeaMi-0.36.2.zip",
+      "size": 263671,
+      "checksum": "SHA-256:33e6ba2e3df4d009f88132bc0777eedd3a74cb19481927fe28d07ded5e3326da"
+    },
+    {
+      "name": "STeaMi",
+      "version": "0.36.3",
+      "author": "STeaMi contributors",
+      "maintainer": "STeaMi contributors",
+      "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+      "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards, and the BME280 pressure, humidity and temperature sensor and round colour display (GC9A01) of the V1c board. Detects the board release (V1a, V1b or V1c) and shares the sensor drivers (STeaMi Board). Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+      "website": "https://github.com/steamicc/arduino-steami-lib",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/steamicc/arduino-steami.git",
+      "providesIncludes": [
+        "STeaMi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.36.3.zip",
+      "archiveFileName": "STeaMi-0.36.3.zip",
+      "size": 263663,
+      "checksum": "SHA-256:a2ab3702d6427f4a473098fa4e6ae9f1ede621027a3d6428ca3ec625047fb0df"
+    },
+    {
+      "name": "STeaMi",
+      "version": "0.37.0",
+      "author": "STeaMi contributors",
+      "maintainer": "STeaMi contributors",
+      "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+      "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards, and the BME280 pressure, humidity and temperature sensor and round colour display (GC9A01) of the V1c board. Detects the board release (V1a, V1b or V1c) and shares the sensor drivers (STeaMi Board). Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+      "website": "https://github.com/steamicc/arduino-steami-lib",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/steamicc/arduino-steami.git",
+      "providesIncludes": [
+        "STeaMi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.37.0.zip",
+      "archiveFileName": "STeaMi-0.37.0.zip",
+      "size": 269363,
+      "checksum": "SHA-256:a93e3f4aeb25b8fadc46b8f2bb0bf336276a8a0b3187e4c053bd7ad51e00bed2"
+    },
+    {
+      "name": "STeaMi",
+      "version": "0.38.0",
+      "author": "STeaMi contributors",
+      "maintainer": "STeaMi contributors",
+      "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+      "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards, and the BME280 pressure, humidity and temperature sensor and round colour display (GC9A01) of the V1c board. Detects the board release (V1a, V1b or V1c) and shares the sensor drivers (STeaMi Board). Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+      "website": "https://github.com/steamicc/arduino-steami-lib",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/steamicc/arduino-steami.git",
+      "providesIncludes": [
+        "STeaMi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.38.0.zip",
+      "archiveFileName": "STeaMi-0.38.0.zip",
+      "size": 287156,
+      "checksum": "SHA-256:bdc132058137d737f25c4aa3bda2ebef01c861461105b07edc1a9a31290bd719"
+    },
+    {
+      "name": "STeaMi",
+      "version": "0.39.0",
+      "author": "STeaMi contributors",
+      "maintainer": "STeaMi contributors",
+      "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+      "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards, the PDM microphone (IMP34DT05) of every board, and the BME280 pressure, humidity and temperature sensor and round colour display (GC9A01) of the V1c board. Detects the board release (V1a, V1b or V1c) and shares the sensor drivers (STeaMi Board). Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+      "website": "https://github.com/steamicc/arduino-steami-lib",
+      "category": "Sensors",
+      "architectures": [
+        "stm32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/steamicc/arduino-steami.git",
+      "providesIncludes": [
+        "STeaMi.h"
+      ],
+      "dependencies": [
+        {
+          "name": "STM32duinoBLE"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.39.0.zip",
+      "archiveFileName": "STeaMi-0.39.0.zip",
+      "size": 321064,
+      "checksum": "SHA-256:affa51dd6b8201d431c1711cf450d1384c285b264996103971af3e5d4fcfadf9"
+    },
+    {
       "name": "WiFiClientSecureUdp",
       "version": "1.0.0",
       "author": "Andre Lorbach",
@@ -1454463,6 +1455537,27 @@
       "archiveFileName": "ArnoTek_Serial-1.0.1.zip",
       "size": 183682,
       "checksum": "SHA-256:79fd25c55c32a08e54e6eb2a5a6aa15a0fe69b8f8edf5fb5cd439b31525c0ad8"
+    },
+    {
+      "name": "ArnoTek_Serial",
+      "version": "1.0.2",
+      "author": "Anthony Arnovitz, aarnovitz@arnotek.com",
+      "maintainer": "Anthony Arnovitz, aarnovitz@arnotek.com",
+      "sentence": "Serial interface utility for Arduino.",
+      "paragraph": "This utility is used to obtain data from the serial bus.",
+      "website": "https://github.com/AJArnovitz/ArnoTek_Serial",
+      "category": "Other",
+      "architectures": [
+        "avr"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/AJArnovitz/ArnoTek_Serial.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/AJArnovitz/ArnoTek_Serial-1.0.2.zip",
+      "archiveFileName": "ArnoTek_Serial-1.0.2.zip",
+      "size": 183682,
+      "checksum": "SHA-256:42ada6aa9fc5460300328fb036960234555d363430944fb9177546e2d26be8ef"
     },
     {
       "name": "NV3007_LTSM",
@@ -1454859,6 +1455954,252 @@
       "archiveFileName": "Vertex_MPU6050-1.0.0.zip",
       "size": 25362,
       "checksum": "SHA-256:d4897fb6ae0e78c13e59735bc4e9023beea0ffc9276e3ffdc59a5c29978df8d9"
+    },
+    {
+      "name": "Freenove_CSI_Sensor_Driver",
+      "version": "1.4.0",
+      "author": "Freenove",
+      "maintainer": "Freenove",
+      "sentence": "Arduino wrapper for esp_cam_sensor + ESP_Video MIPI-CSI cameras on ESP32-P4.",
+      "paragraph": "Auto-detects OV5647 / IMX219 / IMX708 on ESP32-P4. Fixed per-sensor resolution (IMX 640x480, OV5647 800x640). RGB565 software flip. Vendors IMX drivers + OV5647 mode table + detect/IPA overrides for Arduino-esp32 3.3.12. Default SCCB: SDA=GPIO7, SCL=GPIO8.",
+      "website": "https://github.com/Freenove/Freenove_CSI_Sensor_Driver",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Freenove/Freenove_CSI_Sensor_Driver.git",
+      "providesIncludes": [
+        "freenove_csi_sensor_driver.h"
+      ],
+      "dependencies": [
+        {
+          "name": "ESP_Video"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Freenove/Freenove_CSI_Sensor_Driver-1.4.0.zip",
+      "archiveFileName": "Freenove_CSI_Sensor_Driver-1.4.0.zip",
+      "size": 92942,
+      "checksum": "SHA-256:aaaad1253319740a5f2ea67f099aa46263d0d18abcc0e6f07b8f072161880e78"
+    },
+    {
+      "name": "MeArm",
+      "version": "0.1.0",
+      "author": "Ben Pirt \u003cben.pirt@mime.co.uk\u003e",
+      "maintainer": "Mime Industries \u003cinfo@mime.co.uk\u003e",
+      "sentence": "A library to control the MeArm Robot Arm",
+      "paragraph": "Used to control the arm through the WiFi board and can also be used to control a generic Arduino",
+      "website": "http://mime.co.uk",
+      "category": "Other",
+      "architectures": [
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mimeindustries/MeArm-Wifi.git",
+      "providesIncludes": [
+        "MeArm.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mimeindustries/MeArm-0.1.0.zip",
+      "archiveFileName": "MeArm-0.1.0.zip",
+      "size": 954091,
+      "checksum": "SHA-256:991e37c113f4b2e3483594ce4a1b06c3b281e4d47ad1c1f4f00f3c79e5055752"
+    },
+    {
+      "name": "NowRemote",
+      "version": "1.0.0",
+      "author": "Devansh",
+      "maintainer": "Devansh",
+      "sentence": "Dead-simple ESP-NOW for ESP32 robots: send and receive values in one line.",
+      "paragraph": "Set the other board's MAC address, then use send() and receive() just like Serial. Send numbers or text, with or without a name. Includes a one-line failsafe that stops your robot when the remote signal is lost.",
+      "website": "https://github.com/devansh8011-oss/NowRemote",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/devansh8011-oss/NowRemote.git",
+      "providesIncludes": [
+        "NowRemote.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/devansh8011-oss/NowRemote-1.0.0.zip",
+      "archiveFileName": "NowRemote-1.0.0.zip",
+      "size": 14092,
+      "checksum": "SHA-256:591e87c1ca96280bcc5f44ffd9ce8f70da61d00dbeeff88faa47b0d92b479d3e"
+    },
+    {
+      "name": "Bonezegei_TSL2561",
+      "version": "1.0.0",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Bonezegei",
+      "sentence": "Arduino library for TSL2561 digital ambient light sensor.",
+      "paragraph": "A minimal I2C driver for measuring light intensity in Lux using the TSL2561 sensor module.",
+      "website": "https://github.com/bonezegei/Bonezegei_TSL2561",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/bonezegei/Bonezegei_TSL2561.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_TSL2561-1.0.0.zip",
+      "archiveFileName": "Bonezegei_TSL2561-1.0.0.zip",
+      "size": 4839,
+      "checksum": "SHA-256:4b0c27cf56abb315a4f46e03c5f686b377c600723746b9a7c20cddbfecbd4349"
+    },
+    {
+      "name": "filter2c",
+      "version": "0.1.0",
+      "author": "Abhishek Vijay Potekar",
+      "maintainer": "Abhishek Vijay Potekar \u003c72246796+Madmaxcoder2612@users.noreply.github.com\u003e",
+      "sentence": "Run digital filters designed in Python (SciPy) on a microcontroller.",
+      "paragraph": "Header-only biquad runtime for C and C++ that executes filter code generated by the filter2c Python tool. No dynamic memory and no dependencies.",
+      "website": "https://github.com/Madmaxcoder2612/filter2c",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/Madmaxcoder2612/filter2c.git",
+      "providesIncludes": [
+        "filter2c.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/Madmaxcoder2612/filter2c-0.1.0.zip",
+      "archiveFileName": "filter2c-0.1.0.zip",
+      "size": 3532099,
+      "checksum": "SHA-256:81b993d1a5ad187e46ce696366572c6ef6f8976eabd98ecca6332ebbf750ffc8"
+    },
+    {
+      "name": "RelinkIoT",
+      "version": "1.0.10",
+      "author": "Relink IoT",
+      "maintainer": "Relink IoT \u003crezier.labs@gmail.com\u003e",
+      "sentence": "Build IoT projects you can monitor and control from anywhere.",
+      "paragraph": "Build your own IoT projects and monitor or control them from anywhere with ReLink IoT. Connect ESP32 and ESP8266 devices to collect sensor data, control relays and other outputs, and create connected applications using virtual pins. ReLink IoT supports encrypted communication, direct device-to-device connections, automatic relay fallback, and OTA firmware updates, with camera streaming on supported ESP32 boards.",
+      "website": "https://github.com/NonStopBle/RelinkIoT-Arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/NonStopBle/RelinkIoT-Arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/NonStopBle/RelinkIoT-1.0.10.zip",
+      "archiveFileName": "RelinkIoT-1.0.10.zip",
+      "size": 2136618,
+      "checksum": "SHA-256:4da9a6f9204bec0ae1910c2a07fba5f0d7183befe337239bb6e4e280e7372e84"
+    },
+    {
+      "name": "RelinkIoT",
+      "version": "1.0.11",
+      "author": "Relink IoT",
+      "maintainer": "Relink IoT \u003csupport@relink.io\u003e",
+      "sentence": "Build IoT projects you can monitor and control from anywhere.",
+      "paragraph": "Build your own IoT projects and monitor or control them from anywhere with ReLink IoT. Connect ESP32 and ESP8266 devices to collect sensor data, control relays and other outputs, and create connected applications using virtual pins. ReLink IoT supports encrypted communication, direct device-to-device connections, automatic relay fallback, and OTA firmware updates, with camera streaming on supported ESP32 boards.",
+      "website": "https://github.com/NonStopBle/Relink-IoT/tree/main/arduino",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/NonStopBle/RelinkIoT-Arduino.git",
+      "url": "https://downloads.arduino.cc/libraries/github.com/NonStopBle/RelinkIoT-1.0.11.zip",
+      "archiveFileName": "RelinkIoT-1.0.11.zip",
+      "size": 2136663,
+      "checksum": "SHA-256:1bf499f9c225eb7cabe72927c06b0d1c4108c31bd4ed7bc4335a600da46717a3"
+    },
+    {
+      "name": "Agrinovo",
+      "version": "0.9.0",
+      "author": "Agrinovo",
+      "maintainer": "Agrinovo \u003ccontact@agrinovo.io\u003e",
+      "sentence": "Read Agrinovo water, soil and air sensors over RS485 from any Arduino board.",
+      "paragraph": "One class per sensor with values in engineering units: pH, conductivity, dissolved oxygen, ORP, turbidity, nitrate and other ions, chlorophyll, gas detectors, level, temperature and humidity. Includes address change, calibration commands, a bus scanner and an example sketch for every model. No dependencies.",
+      "website": "https://github.com/OmnIoT/agrinovo-arduino",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/OmnIoT/agrinovo-arduino.git",
+      "providesIncludes": [
+        "Agrinovo.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/OmnIoT/Agrinovo-0.9.0.zip",
+      "archiveFileName": "Agrinovo-0.9.0.zip",
+      "size": 162300,
+      "checksum": "SHA-256:b4a2eac2e4caf387df0e563c539f6c08d0baccb25fce51802358d40c46f5fbad"
+    },
+    {
+      "name": "GENIbus",
+      "version": "0.1.0",
+      "author": "mugiendii",
+      "maintainer": "mugiendii",
+      "sentence": "Grundfos GENIbus (RS-485) master: find pumps, drives and motor protectors, read scaled values, send commands.",
+      "paragraph": "Discovery (Connection Request), INFO scaling (standard and extended precision, 8-32 bit), raw GET/SET, class 3 commands, class 7 strings, error statistics, and checked stop/trip/reset for the Grundfos MP 204. Works with any Stream (HardwareSerial or SoftwareSerial) and an optional DE/RE pin. Data item IDs are per product: take them from the product's GENIbus functional profile.",
+      "website": "https://github.com/mugiendii/genibus-arduino",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/mugiendii/genibus-arduino.git",
+      "providesIncludes": [
+        "GENIbus.h"
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/mugiendii/GENIbus-0.1.0.zip",
+      "archiveFileName": "GENIbus-0.1.0.zip",
+      "size": 52241,
+      "checksum": "SHA-256:2df9f7f09c8c201cd0af5d611493bfe06c5faae7a8e9942a1e2e9f7ad29e9cae"
+    },
+    {
+      "name": "FastLed_Nanit_Koval",
+      "version": "1.0.0",
+      "author": "David Madison, Koval",
+      "maintainer": "Koval",
+      "sentence": "FastLED adapter with Nanit compatibility fixes.",
+      "paragraph": "Provides a FastLED-backed NeoPixel-compatible interface for Nanit boards, including AVR-compatible range limiting.",
+      "website": "https://github.com/KovalRM/FastLed_Nanit_Koval",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "types": [
+        "Contributed"
+      ],
+      "repository": "https://github.com/KovalRM/FastLed_Nanit_Koval.git",
+      "providesIncludes": [
+        "FastLed_Nanit_Koval.h"
+      ],
+      "dependencies": [
+        {
+          "name": "FastLED"
+        },
+        {
+          "name": "Adafruit NeoPixel"
+        }
+      ],
+      "url": "https://downloads.arduino.cc/libraries/github.com/KovalRM/FastLed_Nanit_Koval-1.0.0.zip",
+      "archiveFileName": "FastLed_Nanit_Koval-1.0.0.zip",
+      "size": 9617,
+      "checksum": "SHA-256:0be8216e3a7e9929b9c9a4105e7a4309f2258f9d779f54df079e4ff97773d2c6"
     }
   ]
 }
